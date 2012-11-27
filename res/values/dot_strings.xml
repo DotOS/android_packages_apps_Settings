@@ -98,6 +98,14 @@
 	<!-- Kill app long-press back -->
     <string name="kill_app_longpress_back">Kill app back button</string>
     <string name="kill_app_longpress_back_summary">Kill the foreground app by long-pressing the back button</string>
+	
+	<!-- Android debugging -->
+    <string name="adb_enable">Android debugging</string>
+    <string name="adb_enable_summary">Enable the Android Debug Bridge (ADB) interface</string>
+     
+	<!-- Android debugging notification -->
+    <string name="adb_notify">Debugging notify</string>
+    <string name="adb_notify_summary">Display a notification when USB or network debugging is enabled</string>
 
 </resources>
 
