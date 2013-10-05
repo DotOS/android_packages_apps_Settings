@@ -41,6 +41,9 @@ import android.content.pm.IShortcutService;
 import android.content.pm.PackageManager;
 import android.content.pm.PackageManager.NameNotFoundException;
 import android.content.res.Resources;
+import android.net.NetworkUtils;
+import android.net.wifi.IWifiManager;
+import android.net.wifi.WifiInfo;
 import android.hardware.usb.IUsbManager;
 import android.hardware.usb.UsbManager;
 import android.net.wifi.WifiManager;
@@ -127,8 +130,10 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
      */
     public static final String PREF_SHOW = "show";
 
+    private static final String ADB_TCPIP  = "adb_over_network";
     private static final String CLEAR_ADB_KEYS = "clear_adb_keys";
     private static final String ENABLE_TERMINAL = "enable_terminal";
+
     private static final String KEEP_SCREEN_ON = "keep_screen_on";
     private static final String BT_HCI_SNOOP_LOG = "bt_hci_snoop_log";
     private static final String ENABLE_OEM_UNLOCK = "oem_unlock_enable";
@@ -273,6 +278,7 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
 
     private Preference mClearAdbKeys;
     private SwitchPreference mEnableTerminal;
+    private SwitchPreference mAdbOverNetwork;
     private RestrictedSwitchPreference mKeepScreenOn;
     private SwitchPreference mBtHciSnoopLog;
     private RestrictedSwitchPreference mEnableOemUnlock;
@@ -357,6 +363,7 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
     // To track whether a confirmation dialog was clicked.
     private boolean mDialogClicked;
     private Dialog mEnableDialog;
+    private Dialog mAdbTcpDialog;
 
     private Dialog mAdbKeysDialog;
     private boolean mUnavailable;
@@ -441,6 +448,7 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
 
         mCameraLaserSensorController.displayPreference(getPreferenceScreen());
 
+        mAdbOverNetwork = findAndInitSwitchPref(ADB_TCPIP);
         mKeepScreenOn = (RestrictedSwitchPreference) findAndInitSwitchPref(KEEP_SCREEN_ON);
         mBtHciSnoopLog = findAndInitSwitchPref(BT_HCI_SNOOP_LOG);
         mEnableOemUnlock = (RestrictedSwitchPreference) findAndInitSwitchPref(ENABLE_OEM_UNLOCK);
@@ -809,6 +817,8 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
                 Settings.Global.STAY_ON_WHILE_PLUGGED_IN, 0) != 0);
         updateSwitchPreference(mBtHciSnoopLog, SystemProperties.getBoolean(
                 BLUETOOTH_BTSNOOP_ENABLE_PROPERTY, false));
+
+        updateAdbOverNetwork();
         updateSwitchPreference(mDebugViewAttributes, Settings.Global.getInt(cr,
                 Settings.Global.DEBUG_VIEW_ATTRIBUTES, 0) != 0);
         updateSwitchPreference(mForceAllowOnExternal, Settings.Global.getInt(cr,
@@ -2472,6 +2482,24 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
                     .setPositiveButton(android.R.string.ok, this)
                     .setNegativeButton(android.R.string.cancel, null)
                     .show();
+        } else if (preference == mAdbOverNetwork) {
+            if (mAdbOverNetwork.isChecked()) {
+                if (mAdbTcpDialog != null) {
+                    dismissDialogs();
+                }
+                mAdbTcpDialog = new AlertDialog.Builder(getActivity()).setMessage(
+                        getResources().getString(R.string.adb_over_network_warning))
+                        .setTitle(R.string.adb_over_network)
+                        .setIconAttribute(android.R.attr.alertDialogIcon)
+                        .setPositiveButton(android.R.string.yes, this)
+                        .setNegativeButton(android.R.string.no, this)
+                        .show();
+                mAdbTcpDialog.setOnDismissListener(this);
+            } else {
+                Settings.Secure.putInt(getActivity().getContentResolver(),
+                        Settings.Secure.ADB_PORT, -1);
+                updateAdbOverNetwork();
+            }
         } else if (preference == mEnableTerminal) {
             final PackageManager pm = getActivity().getPackageManager();
             pm.setApplicationEnabledSetting(TERMINAL_APP_PACKAGE,
@@ -2642,6 +2670,10 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
 
     private void dismissDialogs() {
         mEnableAdbController.dismissDialogs();
+        if (mAdbTcpDialog != null) {
+            mAdbTcpDialog.dismiss();
+            mAdbTcpDialog = null;
+        }
         if (mAdbKeysDialog != null) {
             mAdbKeysDialog.dismiss();
             mAdbKeysDialog = null;
@@ -2666,6 +2698,14 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
                 } catch (RemoteException e) {
                     Log.e(TAG, "Unable to clear adb keys", e);
                 }
+            }
+       } else if (dialog == mAdbTcpDialog) {
+            if (which == DialogInterface.BUTTON_POSITIVE) {
+                Settings.Secure.putInt(getActivity().getContentResolver(),
+                        Settings.Secure.ADB_PORT, 5555);
+            } else {
+                // Reset the toggle
+                mAdbOverNetwork.setChecked(false);
             }
         } else if (dialog == mEnableDialog) {
             if (which == DialogInterface.BUTTON_POSITIVE) {
@@ -2692,6 +2732,9 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
                 mSwitchBar.setChecked(false);
             }
             mEnableDialog = null;
+        } else if (dialog == mAdbTcpDialog) {
+            updateAdbOverNetwork();
+            mAdbTcpDialog = null;
         } else if (dialog == mLogpersistClearDialog) {
             mLogpersistClearDialog = null;
         }
@@ -2866,5 +2909,31 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
         return mOemLockManager.isDeviceOemUnlocked();
     }
 
+    private void updateAdbOverNetwork() {
+        int port = Settings.Secure.getInt(getActivity().getContentResolver(),
+                Settings.Secure.ADB_PORT, 0);
+        boolean enabled = port > 0;
 
+        updateSwitchPreference(mAdbOverNetwork, enabled);
+
+        WifiInfo wifiInfo = null;
+
+        if (enabled) {
+            IWifiManager wifiManager = IWifiManager.Stub.asInterface(
+                    ServiceManager.getService(Context.WIFI_SERVICE));
+            try {
+                wifiInfo = wifiManager.getConnectionInfo("com.android.settings");
+            } catch (RemoteException e) {
+                Log.e(TAG, "wifiManager, getConnectionInfo()", e);
+            }
+        }
+
+        if (wifiInfo != null) {
+            String hostAddress = NetworkUtils.intToInetAddress(
+                    wifiInfo.getIpAddress()).getHostAddress();
+            mAdbOverNetwork.setSummary(hostAddress + ":" + String.valueOf(port));
+        } else {
+            mAdbOverNetwork.setSummary(R.string.adb_over_network_summary);
+        }
+    }
 }
