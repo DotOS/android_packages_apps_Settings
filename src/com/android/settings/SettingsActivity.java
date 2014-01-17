@@ -157,6 +157,12 @@ public class SettingsActivity extends SettingsDrawerActivity
     private CharSequence mInitialTitle;
     private int mInitialTitleResId;
 
+    private static final String ROOT_MANAGER_FRAGMENT = "com.android.settings.RootManagement";
+
+    private boolean mRootSupport;
+    private String mRootPackage;
+    private String mRootClass;
+
     private static final String[] LIKE_SHORTCUT_INTENT_ACTION_ARRAY = {
             "android.settings.APPLICATION_DETAILS_SETTINGS"
     };
@@ -714,6 +720,15 @@ public class SettingsActivity extends SettingsDrawerActivity
      */
     private Fragment switchToFragment(String fragmentName, Bundle args, boolean validate,
             boolean addToBackStack, int titleResId, CharSequence title, boolean withTransition) {
+        if (ROOT_MANAGER_FRAGMENT.equals(fragmentName)) {
+            if (isRootAvailable()) {
+                Intent rootManagementIntent = new Intent();
+                rootManagementIntent.setClassName(mRootPackage, mRootClass);
+                startActivity(rootManagementIntent);
+                finish();
+                return null;
+            }
+        }
         if (validate && !isValidFragment(fragmentName)) {
             throw new IllegalArgumentException("Invalid fragment for this activity: "
                     + fragmentName);
@@ -846,6 +861,11 @@ public class SettingsActivity extends SettingsDrawerActivity
                 WifiDisplaySettings.isAvailable(this), isAdmin)
                 || somethingChanged;
 
+        // Root management
+        setTileEnabled(new ComponentName(packageName,
+                        Settings.RootManagementActivity.class.getName()),
+                isRootAvailable(), isAdmin);
+
         if (UserHandle.MU_ENABLED && !isAdmin) {
 
             // When on restricted users, disable all extra categories (but only the settings ones).
@@ -876,6 +896,35 @@ public class SettingsActivity extends SettingsDrawerActivity
         } else {
             Log.d(LOG_TAG, "No enabled state changed, skipping updateCategory call");
         }
+    }
+
+    private boolean isRootAvailable() {
+        mRootSupport = false;
+        mRootPackage = "";
+        mRootClass = "";
+        try {
+            mRootSupport = (getPackageManager().getPackageInfo("eu.chainfire.supersu", 0).versionCode >= 185);
+            mRootPackage = "eu.chainfire.supersu";
+            mRootClass = "eu.chainfire.supersu.MainActivity";
+        } catch (PackageManager.NameNotFoundException e) {
+        }
+        if (!mRootSupport) {
+            try {
+                mRootSupport = (getPackageManager().getPackageInfo("me.phh.superuser", 0).versionCode > 0);
+                mRootPackage = "me.phh.superuser";
+                mRootClass = "com.koushikdutta.superuser.MainActivity";
+            } catch (PackageManager.NameNotFoundException e) {
+            }
+            if (!mRootSupport) {
+                try {
+                    mRootSupport = (getPackageManager().getPackageInfo("com.topjohnwu.magisk", 0).versionCode > 0);
+                    mRootPackage = "com.topjohnwu.magisk";
+                    mRootClass = "com.topjohnwu.magisk.SplashActivity";
+                } catch (PackageManager.NameNotFoundException e) {
+                }
+            }
+        }
+        return mRootSupport;
     }
 
     /**
