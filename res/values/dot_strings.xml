@@ -244,4 +244,8 @@
     <string name="legacy_wfd_video_mode_720p_60fps">720p (60fps)</string>
     <string name="legacy_wfd_video_mode_1080p_30fps">1080p (30fps)</string>
     <string name="legacy_wfd_video_mode_1080p_60fps">1080p (60fps)</string>
+
+    <!-- Wake on plug -->
+    <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Turn the screen on when connecting or disconnecting a power source</string>
 </resources>
