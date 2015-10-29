@@ -21,7 +21,8 @@
 
         <!-- dotOS About -->
         <PreferenceScreen android:key="dot_logo"
-                android:layout="@layout/dot_about" />
+                android:layout="@layout/dot_about"
+                android:fragment="com.android.settings.dot.dotAbout" />
  		
  	<!-- Device firmware version -->
          <Preference android:key="firmware_version"
