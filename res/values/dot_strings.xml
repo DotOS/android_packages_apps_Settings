@@ -85,4 +85,9 @@
     <string name="expanded_desktop_style_description">Choose a default expanded desktop style</string>
     <string name="expanded_desktop_title">Expanded desktop options</string>
 
+    <!-- Notification volume -->
+    <string name="link_volume_option_title">Link ring and notification volume</string>
+    <string name="notification_volume_option_title">Notification volume</string>
+    <string name="ring_notification_volume_option_title">Ring and notification volume</string>
+
 </resources>
