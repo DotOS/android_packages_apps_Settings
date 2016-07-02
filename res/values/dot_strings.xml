@@ -24,6 +24,8 @@
     <!-- Dev Options Enabled by Default -->
     <string name="show_dev_already_enabled">No Need, Development settings are enabled by default.</string>
 	
+	<!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
 
     <!-- About dotOS -->
     <string name="dot_about_info">About us</string>
