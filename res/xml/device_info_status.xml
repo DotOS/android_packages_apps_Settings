@@ -41,6 +41,12 @@
         <intent android:targetPackage="com.android.settings"
             android:targetClass="com.android.settings.Settings$ImeiInformationActivity" />
     </PreferenceScreen>
+    <PreferenceScreen android:key="radioinfo"
+        android:title="@string/device_info_title"
+        android:persistent="false">
+        <intent android:targetPackage="com.android.settings"
+            android:targetClass="com.android.settings.RadioInfo" />
+    </PreferenceScreen>
     <com.android.settings.CopyablePreference android:key="wifi_ip_address"
         android:enabled="false"
         android:shouldDisableView="false"
