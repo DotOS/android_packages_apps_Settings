@@ -290,4 +290,9 @@
     <string name="menu_search">Search apps</string>
     <string name="menu_search_hint">Search apps\u2026</string>
 	
+	<!-- Reset battery stats -->
+    <string name="ok">Ok</string>
+    <string name="menu_stats_reset">Reset stats</string>
+    <string name="reset_stats_msg">Battery history stats are going to be reset</string>
+	
 </resources>
