@@ -29,10 +29,18 @@
 	android:summary="@string/dot_about_summary"
         android:fragment="com.android.settings.AboutUs" />
 
+    <!-- Changelog -->
+    <Preference
+        android:key="changelog"
+        android:order="1"
+        android:title="@string/changelog_title"
+	android:summary="@string/changelog_summary"
+        android:fragment="com.android.settings.dot.Changelog" />
+
     <!-- Phone number -->
     <Preference
         android:key="phone_number"
-        android:order="1"
+        android:order="2"
         android:title="@string/status_number"
         android:summary="@string/summary_placeholder"/>
 
