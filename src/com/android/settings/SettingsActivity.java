@@ -141,6 +141,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
+import com.android.settings.dot.dotSettings;
+
 public class SettingsActivity extends SettingsDrawerActivity
         implements PreferenceManager.OnPreferenceTreeClickListener,
         PreferenceFragment.OnPreferenceStartFragmentCallback,
@@ -376,6 +378,7 @@ public class SettingsActivity extends SettingsDrawerActivity
             NightDisplaySettings.class.getName(),
             ManageDomainUrls.class.getName(),
             AutomaticStorageManagerSettings.class.getName()
+	    dotSettings.class.getName(),
     };
 
 
@@ -579,6 +582,7 @@ public class SettingsActivity extends SettingsDrawerActivity
 
         mIsShowingDashboard = className.equals(Settings.class.getName())
                 || className.equals(Settings.WirelessSettings.class.getName())
+		|| className.equals(Settings.dotSettings.class.getName())
                 || className.equals(Settings.DeviceSettings.class.getName())
                 || className.equals(Settings.PersonalSettings.class.getName())
                 || className.equals(Settings.WirelessSettings.class.getName());

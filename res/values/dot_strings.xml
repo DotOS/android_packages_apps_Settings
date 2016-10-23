@@ -45,4 +45,9 @@
     <!-- Sound & display settings screen, theme setting value to automatically switch between a light- or dark-colored user interface [CHAR LIMIT=30] -->
     <string name="night_mode_auto">Automatic</string>
     <string name="keywords_display_night_mode">dark theme night mode dim screen invert brightness</string>
+
+    <!-- Dot Extras settings main -->
+    <string name="dot_activity_title">Align the dots</string>
+    <string name="dot_title">Extra Dots</string>
+    <string name="dot_settings_title">Categories</string>
 </resources>
