@@ -167,6 +167,9 @@
 	<!-- Actions dialog and default task values set in ActionPreference xml-->
     <string name="dlg_reset_values_message">Reset values to Default?</string>
 
+        <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
+    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN is entered\nNote: will only work for 4 digit PIN !</string>
 
 </resources>
 
