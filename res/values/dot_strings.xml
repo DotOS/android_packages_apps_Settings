@@ -2,6 +2,7 @@
 <!--
 /*
 ** Copyright (C) 2017 dotOS Project
+** Copyright 2016-2017 Paranoid Android
 **
 ** Licensed under the Apache License, Version 2.0 (the "License");
 ** you may not use this file except in compliance with the License.
@@ -79,5 +80,27 @@
     <!-- Sound & display settings screen, theme setting value to automatically switch between a light- or dark-colored user interface [CHAR LIMIT=30] -->
     <string name="night_mode_auto">Automatic</string>
     <string name="keywords_display_night_mode">dark theme night mode dim screen invert brightness</string>
+
+    <!-- Color engine -->
+    <string name="theme_switch_palette">Switch between primary and accent colors</string>
+    <string name="theme_title">Color engine</string>
+    <string name="theme_summary">Select different colors for your current theme</string>
+    <string name="theme_accent_color">Accent color</string>
+    <string name="theme_primary_color">Primary color</string>
+    <string name="theme">Theme</string>
+    <string name="oms_enabled">Theme modes unavailable because a Substratum theme is currently applied</string>
+    <string name="red">Torch Red</string>
+    <string name="orange">Vermilion</string>
+    <string name="blue">Pixel Blue</string>
+    <string name="green">Lima</string>
+    <string name="yellow">Supernova</string>
+    <string name="purple">Purple Heat</string>
+    <string name="pink">Rose</string>
+    <string name="dark">Dark</string>
+    <string name="pixel">Pixel</string>
+    <string name="teal">Default</string>
+    <string name="cyan">Scooter</string>
+    <string name="grey">Grey</string>
+    <string name="default_string">Default</string>
 </resources>
 
