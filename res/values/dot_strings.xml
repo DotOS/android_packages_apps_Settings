@@ -22,6 +22,12 @@
     <string name="dot_mod_version">dotOS version</string>
     <string name="mod_version_default">v1.0</string>
 
+    <!-- Accessibility settings -->
+    <string name="accessibility_settings_summary">Easier access</string>
+
+    <!-- Developer options summary -->
+    <string name="dev_advanced_settings_summary">For the experienced user</string>
+
     <!-- Magisk -->
     <string name="magisk_title">Magisk Manager</string>
     <string name="magisk_summary">Root management</string>
