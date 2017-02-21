@@ -170,4 +170,8 @@
     <!-- Font picker -->
     <string name="font_picker_title">Font</string>
     <string name="font_picker_progress">Applying new font\u2026</string>
+
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">Pocket detection</string>
+    <string name="pocket_judge_summary">Block screen and button inputs when device is in pocket</string>
 </resources>
