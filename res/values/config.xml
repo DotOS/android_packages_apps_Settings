@@ -115,4 +115,11 @@
 
     <!-- Whether or not new device intro suggestion is supported for this device -->
     <bool name="config_new_device_intro_suggestion_supported">false</bool>
+
+    <!-- Does the device allow for manual subscription provisioning? Only works for multi-sim devices,
+         and currently depends on QC's proprietary telephony stack -->
+    <bool name="config_enableManualSubProvisioning">false</bool>
+
+    <!-- Whether notify user that switch data service -->
+    <bool name="confirm_to_switch_data_service">false</bool>
 </resources>
