@@ -93,5 +93,9 @@
     <string name="grey">Teal</string>
     <string name="default_string">Dot Pixel</string>
 
+	<!-- Actions dialog and default task values set in ActionPreference xml-->
+    <string name="dlg_reset_values_message">Reset values to Default?</string>
+	
+	
 </resources>
 
