@@ -34,16 +34,19 @@
                     android:targetClass="@string/additional_system_update_menu" />
         </PreferenceScreen>
 
-        <!-- LineageOS Updates -->
-        <cyanogenmod.preference.SelfRemovingPreference android:key="cm_updates"
-                android:title="@string/cmupdate_settings_title"
-                android:summary="@string/system_update_settings_list_item_summary"
-                cm:requiresOwner="true"
-                cm:requiresPackage="org.lineageos.updater">
-            <intent android:action="android.intent.action.MAIN"
-                    android:targetPackage="org.lineageos.updater"
-                    android:targetClass="com.cyanogenmod.updater.UpdatesActivity" />
-        </cyanogenmod.preference.SelfRemovingPreference>
+        <!-- Mod version -->
+         <Preference android:key="mod_version"
+                 style="?android:preferenceInformationStyle"
+                 android:title="@string/dot_mod_version"
+                 android:summary="@string/mod_version_default"
+ 		android:icon="@drawable/ic_dot_logo" />
+ 		
+ 	<!-- Device firmware version -->
+         <Preference android:key="firmware_version"
+                 style="?android:preferenceInformationStyle"
+                 android:title="@string/firmware_version"
+                 android:summary="@string/device_info_default"
+                 android:icon="@drawable/ic_settings_applications" />
 
         <!-- Device status - launches activity -->
         <PreferenceScreen android:key="status_info"
@@ -103,31 +106,6 @@
                 android:summary="@string/device_info_default"
                 settings:allowDividerAbove="true"
                 settings:allowDividerBelow="true"/>
-
-        <!-- Device firmware version -->
-        <Preference android:key="firmware_version"
-                android:enabled="false"
-                android:shouldDisableView="false"
-                android:title="@string/firmware_version"
-                android:summary="@string/device_info_default"/>
-
-        <!-- Mod version -->
-        <Preference android:key="mod_version"
-                android:enabled="false"
-                android:shouldDisableView="false"
-                android:title="@string/mod_version"
-                android:summary="@string/mod_version_default" />
-
-        <!-- CyanogenMod API Version -->
-        <com.android.settings.DividerPreference
-                android:key="mod_api_level"
-                android:enabled="false"
-                android:selectable="false"
-                android:shouldDisableView="false"
-                android:title="@string/mod_api_level"
-                android:summary="@string/mod_api_level_default"
-                settings:allowDividerAbove="true"
-                settings:allowDividerBelow="true" />
 
         <!-- Security patch level -->
         <PreferenceScreen android:key="security_patch"
