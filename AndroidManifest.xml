@@ -2785,6 +2785,27 @@
             <meta-data android:name="com.android.settings.summary"
                 android:resource="@string/magisk_summary" />
         </activity>
+        
+       <activity android:name="Settings$SubstratumActivity"
+            android:label="@string/substratum_title"
+            android:icon="@drawable/ic_settings_substratum"
+            android:taskAffinity="">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.VOICE_LAUNCH" />
+                <category android:name="com.android.settings.SHORTCUT" />
+            </intent-filter>
+            <intent-filter android:priority="3">
+                <action android:name="com.android.settings.action.SETTINGS" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.category"
+                android:value="com.android.settings.category.custom" />
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.Substratum" />
+            <meta-data android:name="com.android.settings.summary"
+                android:resource="@string/substratum_summary" />
+        </activity>
 
         <!-- Show apps for which application-level notification settings are applicable -->
         <activity android:name="Settings$NotificationAppListActivity"
