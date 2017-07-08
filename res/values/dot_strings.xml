@@ -29,4 +29,8 @@
     <!-- Substratum -->
     <string name="substratum_title">Substratum</string>
     <string name="substratum_summary">Customize device theme</string>
+    
+    <!-- Kernel Auditor -->
+   <string name="ka_title">Performance</string>
+   <string name="ka_summary">Tweak Kernel</string>
 </resources>

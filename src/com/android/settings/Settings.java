@@ -166,4 +166,5 @@ public class Settings extends SettingsActivity {
     // Dashboard
     public static class MagiskActivity extends SettingsActivity { /* empty */ }
     public static class SubstratumActivity extends SettingsActivity { /* empty */ }
+    public static class KActivity extends SettingsActivity { /* empty */ }
 }

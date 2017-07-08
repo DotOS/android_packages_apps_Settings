@@ -2807,6 +2807,24 @@
                 android:resource="@string/substratum_summary" />
         </activity>
 
+       <activity android:name="Settings$KActivity"
+                android:label="@string/ka_title"
+                 android:icon="@drawable/dot_performance_icon"
+                 android:taskAffinity="" >
+             <intent-filter>
+                 <action android:name="android.intent.action.MAIN" />
+                 <category android:name="android.intent.category.DEFAULT" />
+                 <category android:name="com.android.settings.SHORTCUT" />
+             </intent-filter>
+             <intent-filter android:priority="0">
+                 <action android:name="com.android.settings.action.SETTINGS" />
+             </intent-filter>
+             <meta-data android:name="com.android.settings.category"
+                 android:value="com.android.settings.category.system" />
+             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                 android:value="com.android.settings.ka" />
+         </activity>
+
         <!-- Show apps for which application-level notification settings are applicable -->
         <activity android:name="Settings$NotificationAppListActivity"
                 android:label="@string/app_notifications_title"

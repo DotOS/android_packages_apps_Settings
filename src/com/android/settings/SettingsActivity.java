@@ -238,6 +238,8 @@ public class SettingsActivity extends SettingsDrawerActivity
     private static final String MAGISK_FRAGMENT = "com.android.settings.MagiskManager";
     
     private static final String SUBSTRATUM_FRAGMENT = "com.android.settings.Substratum";
+    
+    private static final String KA_FRAGMENT = "com.android.settings.ka";
 
     private String mFragmentClass;
     private String mActivityAction;
@@ -1063,6 +1065,13 @@ public class SettingsActivity extends SettingsDrawerActivity
             finish();
             return null;
         }
+        if (KA_FRAGMENT.equals(fragmentName)) {
+             Intent kaIntent = new Intent();
+             kaIntent.setClassName("com.grarak.kerneladiutor", "com.grarak.kerneladiutor.activities.MainActivity");
+             startActivity(kaIntent);
+             finish();
+             return null;
+         }
         if (validate && !isValidFragment(fragmentName)) {
             throw new IllegalArgumentException("Invalid fragment for this activity: "
                     + fragmentName);
@@ -1178,6 +1187,16 @@ public class SettingsActivity extends SettingsDrawerActivity
         setTileEnabled(new ComponentName(packageName,
                         Settings.SubstratumActivity.class.getName()),
                 subSupported, isAdmin, pm);
+                
+         // Kernel Auditor
+        boolean kapresent = false;
+         try {
+             kapresent = (getPackageManager().getPackageInfo("com.grarak.kerneladiutor", 0).versionCode > 0);
+         } catch (PackageManager.NameNotFoundException e) {
+         }
+         setTileEnabled(new ComponentName(packageName,
+                         Settings.KActivity.class.getName()),
+                 kapresent, isAdmin, pm);
 
         // Show scheduled power on and off if support
         boolean showTimerSwitch = false;
