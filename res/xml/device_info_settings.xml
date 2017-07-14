@@ -39,7 +39,7 @@
                  style="?android:preferenceInformationStyle"
                  android:title="@string/dot_mod_version"
                  android:summary="@string/mod_version_default"
- 		android:icon="@drawable/ic_dot_logo" />
+ 		android:icon="@drawable/dot_logo" />
  		
  	<!-- Device firmware version -->
          <Preference android:key="firmware_version"
