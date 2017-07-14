@@ -1,25 +1,20 @@
-<!--
-    Copyright (C) 2016 The Android Open Source Project
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-         http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
--->
+<?xml version="1.0" encoding="utf-8"?>
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
-        android:width="24.0dp"
-        android:height="24.0dp"
-        android:viewportWidth="24.0"
-        android:viewportHeight="24.0"
-        android:tint="?android:attr/colorAccent">
+    android:width="50dp"
+    android:height="50dp"
+    android:viewportWidth="50"
+    android:viewportHeight="50">
+
     <path
-        android:fillColor="#FFFFFFFF"
-        android:pathData="M19.0,8.0L5.0,8.0c-1.66,0.0 -3.0,1.34 -3.0,3.0l0.0,6.0l4.0,0.0l0.0,4.0l12.0,0.0l0.0,-4.0l4.0,0.0l0.0,-6.0c0.0,-1.66 -1.34,-3.0 -3.0,-3.0zm-3.0,11.0L8.0,19.0l0.0,-5.0l8.0,0.0l0.0,5.0zm3.0,-7.0c-0.55,0.0 -1.0,-0.45 -1.0,-1.0s0.45,-1.0 1.0,-1.0 1.0,0.45 1.0,1.0 -0.45,1.0 -1.0,1.0zm-1.0,-9.0L6.0,3.0l0.0,4.0l12.0,0.0L18.0,3.0z"/>
+        android:fillColor="@android:color/holo_blue_bright"
+        android:pathData="M49,14 L1,14 C0.448,14,0,14.448,0,15 L0,38 C0,38.552,0.448,39,1,39 L7.043,39
+L8.143,28 L40.857,28 L41.958,39 L49,39 C49.552,39,50,38.552,50,38 L50,15
+C50,14.448,49.552,14,49,14 Z M42.667,22.5 C41.563,22.5,40.667,21.605,40.667,20.5
+S41.563,18.5,42.667,18.5 S44.667,19.395,44.667,20.5 S43.771,22.5,42.667,22.5 Z" />
+    <path
+        android:fillColor="@*android:color/Teal_700"
+        android:pathData="M38.943,39 L38.143,31 L10.857,31 L10.057,39 L9.157,48 L39.843,48 Z" />
+    <path
+        android:fillColor="@*android:color/Teal_700"
+        android:pathData="M11,2 L38,2 L38,12 L11,12 L11,2 Z" />
 </vector>

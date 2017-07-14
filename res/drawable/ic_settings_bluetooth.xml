@@ -1,25 +1,57 @@
-<!--
-    Copyright (C) 2016 The Android Open Source Project
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-         http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
--->
+<?xml version="1.0" encoding="utf-8"?>
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
-        android:width="24.0dp"
-        android:height="24.0dp"
-        android:viewportWidth="48.0"
-        android:viewportHeight="48.0"
-        android:tint="?android:attr/colorAccent">
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
     <path
-        android:fillColor="#FFFFFFFF"
-        android:pathData="M35.41,15.41L24.0,4.0l-2.0,0.0l0.0,15.17L12.83,10.0 10.0,12.83 21.17,24.0 10.0,35.17 12.83,38.0 22.0,28.83L22.0,44.0l2.0,0.0l11.41,-11.41L26.83,24.0l8.58,-8.59zM26.0,11.66l3.76,3.76L26.0,19.17l0.0,-7.51zm3.76,20.93L26.0,36.34l0.0,-7.52l3.76,3.77z"/>
+        android:fillColor="@android:color/holo_blue_bright"
+        android:pathData="M10.8586,19.4156 L10.8586,14.8312 L8.04662,17.6244 L5.23464,20.4176
+L4.39949,19.5824 L3.56434,18.7472 L6.92241,15.3735 L10.2805,12 L6.92242,8.6263
+L3.56435,5.2526 L4.3995,4.41745 L5.23465,3.5823 L8.04663,6.37552
+L10.8586,9.16873 L10.8586,4.58437
+C10.8586,1.20419,10.9799,0.00001,11.3203,0.00001
+C11.5742,0.00001,13.3457,1.55716,15.2568,3.46035 L18.7316,6.9207
+L16.2114,9.46035 L13.6912,12 L16.2114,14.5397 L18.7316,17.0794 L15.2568,20.5397
+C13.3457,22.4428,11.5743,24,11.3203,24
+C10.9799,24,10.8586,22.7958,10.8586,19.4156 Z M14.6189,18.1765 L15.5099,17.2281
+L14.3093,16.0275 L13.1087,14.8269 L13.1087,16.9759
+C13.1087,18.1579,13.248,19.1249,13.4183,19.1249
+C13.5886,19.1249,14.1289,18.6981,14.6189,18.1765 Z M14.6189,5.8233
+C14.1289,5.30167,13.5886,4.87488,13.4183,4.87488
+C13.248,4.87488,13.1087,5.84195,13.1087,7.02392 L13.1087,9.17296
+L14.3093,7.97234 L15.5099,6.77172 L14.6189,5.82331 Z M2.42913,13.1334 L1.3433,12
+L2.42913,10.8666 L3.51497,9.73327 L4.64833,10.8666 L5.7817,12 L4.64833,13.1334
+L3.51497,14.2667 L2.42913,13.1334 Z M19.3041,13.1334 L18.2183,12
+L19.3041,10.8666 L20.39,9.73327 L21.5233,10.8666 L22.6567,12 L21.5233,13.1334
+L20.39,14.2667 L19.3041,13.1334 Z" />
+    <path
+        android:fillColor="@*android:color/Teal_700"
+        android:strokeWidth="1"
+        android:pathData="M13.1346,7.49927 C13.1645,5.93444,13.2258,5.23673,13.3546,4.9961
+C13.4072,4.89787,13.4282,4.89536,13.5719,4.97014
+C13.7975,5.08751,14.2873,5.52973,14.9308,6.197 L15.4851,6.77175 L14.2942,7.95703
+L13.1033,9.14231 L13.1347,7.49928 Z" />
+    <path
+        android:fillColor="@*android:color/Teal_700"
+        android:strokeWidth="1"
+        android:pathData="M13.2964,18.8219 C13.1861,18.3838,13.1085,17.0744,13.1269,15.9632
+L13.1442,14.921 L14.3008,16.0806 L15.4574,17.2402 L14.8409,17.8974
+C14.2416,18.5362,13.5915,19.0886,13.4388,19.0886
+C13.3974,19.0886,13.3333,18.9686,13.2964,18.8219 Z" />
+    <path
+        android:fillColor="@*android:color/Teal_700"
+        android:strokeWidth="1"
+        android:pathData="M2.45056,13.1144 L1.38555,12.0058 L2.45317,10.8836 L3.52078,9.76141
+L4.63551,10.8748 L5.75023,11.9883 L4.6329,13.1056 L3.51556,14.2229
+L2.45056,13.1144 Z" />
+    <path
+        android:fillColor="@*android:color/Teal_700"
+        android:strokeWidth="1"
+        android:pathData="M19.335,13.1271 C18.7702,12.532,18.3028,12.0257,18.2963,12.002
+C18.2898,11.9783,18.7573,11.4704,19.3351,10.8734 L20.3857,9.78783
+L21.5033,10.9022 L22.6209,12.0165 L21.5212,13.1173
+C20.9164,13.7227,20.4081,14.2161,20.3916,14.2136
+C20.3751,14.2111,19.8996,13.7222,19.3348,13.1271 Z" />
 </vector>
