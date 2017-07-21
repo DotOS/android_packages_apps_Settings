@@ -3,8 +3,9 @@
     android:width="24.0dp"
     android:height="24.0dp"
     android:viewportHeight="24.0"
-    android:viewportWidth="24.0">
+    android:viewportWidth="24.0"
+    android:tint="?android:attr/colorAccent">
     <path
-        android:fillColor="@*android:color/accent_color_light"
+        android:fillColor="#FFFFFFFF"
         android:pathData="M60 25C40.7 25 25 40.7 25 60 25 79.3 40.7 95 60 95 79.3 95 95 79.3 95 60 95 40.7 79.3 25 60 25Zm3.6 18.1c0 0.5 -0.1 1 -0.3 1.4 -0.2 0.4 -0.5 0.8 -0.8 1.1 -0.3 0.3 -0.7 0.6 -1.2 0.8 -0.4 0.2 -0.9 0.3 -1.4 0.3 -0.5 0 -1 -0.1 -1.4 -0.3 -0.4 -0.2 -0.8 -0.5 -1.1 -0.8 -0.3 -0.3 -0.6 -0.7 -0.8 -1.1 -0.2 -0.4 -0.3 -0.9 -0.3 -1.4 0 -0.5 0.1 -1 0.3 -1.4 0.2 -0.4 0.5 -0.8 0.8 -1.2 0.3 -0.3 0.7 -0.6 1.1 -0.8 0.4 -0.2 0.9 -0.3 1.4 -0.3 0.5 0 1 0.1 1.4 0.3 0.4 0.2 0.8 0.5 1.2 0.8 0.3 0.3 0.6 0.7 0.8 1.2 0.2 0.4 0.3 0.9 0.3 1.4zm-1.2 9.1l0 28.9 -5.1 0 0 -28.9 5.1 0z" />
 </vector>

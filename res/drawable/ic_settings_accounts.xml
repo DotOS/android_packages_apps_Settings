@@ -3,23 +3,24 @@
     android:width="24dp"
     android:height="24dp"
     android:viewportHeight="24.0"
-    android:viewportWidth="24.0">
+    android:viewportWidth="24.0"
+    android:tint="?android:attr/colorAccent">
     <path
-        android:fillColor="@*android:color/accent_color_light"
+        android:fillColor="#FFFFFFFF"
         android:pathData="M110.4 44.5A11.9 11.9 0 0 1 98.5 56.4 11.9 11.9 0 0 1 86.6 44.5 11.9 11.9 0 0 1 98.5 32.6 11.9 11.9 0 0 1 110.4 44.5Z" />
     <path
-        android:fillColor="@*android:color/accent_color_light"
+        android:fillColor="#FFFFFFFF"
         android:pathData="M33.4 44.5A11.9 11.9 0 0 1 21.5 56.4 11.9 11.9 0 0 1 9.6000004 44.5 11.9 11.9 0 0 1 21.5 32.6 11.9 11.9 0 0 1 33.4 44.5Z" />
     <path
-        android:fillColor="@*android:color/accent_color_light"
+        android:fillColor="#FFFFFFFF"
         android:pathData="M98.5 64.5c-5.4 0 -10.3 2 -14 5.2 4.3 4.7 7.2 10.3 8.7 16.3L120 86C120 74.1 110.4 64.5 98.5 64.5Z" />
     <path
-        android:fillColor="@*android:color/accent_color_light"
+        android:fillColor="#FFFFFFFF"
         android:pathData="M60 65.5c-16.2 0 -29.3 13.1 -29.3 29.3l58.5 0C89.3 78.7 76.2 65.5 60 65.5Z" />
     <path
-        android:fillColor="@*android:color/accent_color_light"
+        android:fillColor="#FFFFFFFF"
         android:pathData="M21.5 64.5C9.6 64.5 0 74.1 0 86l26.9 0c1.5 -6 4.4 -11.6 8.7 -16.3 -3.8 -3.3 -8.7 -5.2 -14.1 -5.2z" />
     <path
-        android:fillColor="@*android:color/accent_color_light"
+        android:fillColor="#FFFFFFFF"
         android:pathData="M76.1 41.299999A16.1 16.1 0 0 1 60 57.4 16.1 16.1 0 0 1 43.9 41.299999a16.1 16.1 0 0 1 16.1 -16.1 16.1 16.1 0 0 1 16.1 16.1z" />
 </vector>

@@ -3,8 +3,9 @@
     android:width="24.0dp"
     android:height="24.0dp"
     android:viewportHeight="24.0"
-    android:viewportWidth="24.0">
+    android:viewportWidth="24.0"
+    android:tint="?android:attr/colorAccent">
     <path
-        android:fillColor="@*android:color/accent_color_light"
+        android:fillColor="#FFFFFFFF"
         android:pathData="M70.5 57.5l-8.3 -8.3 9.1 -9.1 8.3 8.3 -9.1 9.1zM33 95L67.1 60.9 58.8 52.6 24.8 86.7 33 95Zm18.7 -62.5l0 3.8 -3.7 0 0 3.2 3.8 0 0 3.8 3.2 0 0 -3.8 3.8 0 0 -3.2 -3.8 0 0 -3.8 -3.3 0zm31.2 -7.5l0 3.8 -3.8 0 0 3.2 3.8 0 0 3.8 3.2 0 0 -3.8 3.8 0 0 -3.2 -3.8 0 0 -3.8 -3.2 0zm12.3 23.2l-3.8 0 0 -3.8 -3.2 0 0 3.8 -3.8 0 0 3.2 3.8 0 0 3.8 3.2 0 0 -3.8 3.8 0 0 -3.2z" />
 </vector>
