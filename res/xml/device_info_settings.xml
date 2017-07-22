@@ -19,12 +19,9 @@
         xmlns:settings="http://schemas.android.com/apk/res-auto"
         android:title="@string/about_settings">
 
-        <!-- Mod version -->
-         <Preference android:key="mod_version"
-                 style="?android:preferenceInformationStyle"
-                 android:title="@string/dot_mod_version"
-                 android:summary="@string/mod_version_default"
- 		android:icon="@drawable/dot_logo" />
+        <!-- dotOS About -->
+        <PreferenceScreen android:key="dot_logo"
+                android:layout="@layout/dot_about" />
  		
  	<!-- Device firmware version -->
          <Preference android:key="firmware_version"
