@@ -18,10 +18,6 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- About phone screen, dotOS version -->
-    <string name="dot_mod_version">dotOS version</string>
-    <string name="mod_version_default">v1.0</string>
-
     <!-- Accessibility settings -->
     <string name="accessibility_settings_summary">Easier access</string>
 

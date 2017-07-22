@@ -19,7 +19,7 @@
         xmlns:settings="http://schemas.android.com/apk/res-auto"
         android:title="@string/about_settings">
 
-        <!-- System update settings - launches activity -->
+        <!-- System update settings - launches activity 
         <PreferenceScreen android:key="system_update_settings"
                 android:title="@string/system_update_settings_list_item_title"
                 android:summary="@string/system_update_settings_list_item_summary">
@@ -30,8 +30,12 @@
                           android:title="@string/additional_system_update_settings_list_item_title">
             <intent android:action="android.intent.action.MAIN"
                     android:targetPackage="@string/additional_system_update"
-                    android:targetClass="@string/additional_system_update_menu" />
-        </PreferenceScreen>
+                    android:targetClass="@string/additional_system_update_menu" /> 
+        </PreferenceScreen>-->
+
+        <!-- dotOS About -->
+        <PreferenceScreen android:key="dot_logo"
+                android:layout="@layout/dot_about" />
  		
  	<!-- Device firmware version -->
          <Preference android:key="firmware_version"
