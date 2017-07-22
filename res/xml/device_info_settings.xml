@@ -20,7 +20,7 @@
         android:title="@string/about_settings">
 
         <!-- dotOS About -->
-        <PreferenceScreen android:key="dot_logo"
+        <PreferenceScreen android:key="dotos_about"
                 android:layout="@layout/dot_about"
                 android:fragment="com.android.settings.dot.dotAbout" />
  		
