@@ -108,7 +108,7 @@
     <dimen name="dashboard_category_elevation">2dp</dimen>
 
     <!-- Dashboard category layout height -->
-    <dimen name="dashboard_category_height">48dp</dimen>
+    <dimen name="dashboard_category_height">0.0dip</dimen>
 
     <!-- Dashboard category title margin start -->
     <dimen name="dashboard_category_title_margin_start">16dp</dimen>
