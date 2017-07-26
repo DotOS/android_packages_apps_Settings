@@ -146,9 +146,5 @@
     <declare-styleable name="AspectRatioFrameLayout">
         <attr name="aspectRatio" format="float" />
     </declare-styleable>
-    <attr name="switchBarBackgroundColor" format="color" />
-    <attr name="listPreferredItemPaddingLeft" format="dimension" />
-    <attr name="listPreferredItemPaddingRight" format="dimension" />
-    <attr name="listPreferredItemHeightSmall" format="dimension" />
-    <attr name="textAppearanceListItemSmall" format="reference" />
+
 </resources>
