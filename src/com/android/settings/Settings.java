@@ -159,6 +159,7 @@ public class Settings extends SettingsActivity {
 
     // Categories.
     public static class WirelessSettings extends SettingsActivity { /* empty */ }
+    public static class CustomSettings extends SettingsActivity { /* empty */ }
     public static class DeviceSettings extends SettingsActivity { /* empty */ }
     public static class PersonalSettings extends SettingsActivity { /* empty */ }
     public static class SystemSettings extends SettingsActivity { /* empty */ }
@@ -167,4 +168,7 @@ public class Settings extends SettingsActivity {
     public static class MagiskActivity extends SettingsActivity { /* empty */ }
     public static class SubstratumActivity extends SettingsActivity { /* empty */ }
     public static class KActivity extends SettingsActivity { /* empty */ }
+
+    // DotExtras
+    public static class dotsettingsActivity extends SettingsActivity { /* empty */ }
 }

@@ -41,6 +41,12 @@
     <string name="dot_about_mention5_title">Iacob Ionut</string>
     <string name="dot_about_mention5_summary">UI Designer</string>
 
+    <!-- DotExtras -->
+    <!-- Dashboard -->
+    <string name="header_category_custom">ROM Control</string>
+    <string name="dot_settings_title">DotExtras</string>
+    <string name="dot_settings_summary">Align the Dots</string>
+
     <!-- Accessibility settings -->
     <string name="accessibility_settings_summary">Easier access</string>
 
