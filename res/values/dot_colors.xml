@@ -17,6 +17,6 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Color engine -->
-    <color name="pixel_primary_color">#242424</color>
-    <color name="pixel_secondary_color">#3a3a3a</color>
+    <color name="pixel_primary_color">#E0E0E0</color>
+    <color name="pixel_secondary_color">#E0E0E0</color>
 </resources>
