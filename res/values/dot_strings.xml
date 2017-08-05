@@ -42,6 +42,10 @@
     <string name="dot_about_mention5_title">Iacob Ionut</string>
     <string name="dot_about_mention5_summary">UI Designer</string>
 
+    <!-- About phone screen, dotOS version -->
+    <string name="dot_mod_version">dotOS version</string>
+    <string name="mod_version_default">v1.0</string>
+
     <!-- DotExtras -->
     <!-- Dashboard -->
     <string name="header_category_custom">ROM Control</string>

@@ -38,6 +38,13 @@
                 android:layout="@layout/dot_about"
                 android:fragment="com.android.settings.dot.dotAbout" />
 
+        <!-- About phone screen, dotOS version -->
+	<!-- Mod version -->
+         <Preference android:key="mod_version"
+                 style="?android:preferenceInformationStyle"
+                 android:title="@string/dot_mod_version"
+                 android:summary="@string/mod_version_default"/>
+
         <!-- Build date -->
         <com.android.settings.DividerPreference
                 android:key="build_date"
