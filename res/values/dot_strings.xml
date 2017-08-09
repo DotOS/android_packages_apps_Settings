@@ -78,7 +78,7 @@
     <string name="theme_accent_color">Accent color</string>
     <string name="theme_primary_color">Primary color</string>
     <string name="theme">Theme</string>
-    <string name="oms_enabled">Theme modes unavailable because a Substratum theme is currently applied</string>
+    <string name="oms_enabled">Theme modes unavailable because a Substratum theme overlay is currently installed</string>
     <string name="red">Torch Red</string>
     <string name="orange">Vermilion</string>
     <string name="blue">Lima</string>
