@@ -33,14 +33,12 @@
     <string name="dot_about_mentions">Time travellers</string>
     <string name="dot_about_mention1_title">Kuber Sharma</string>
     <string name="dot_about_mention1_summary">Contributor</string>
-    <string name="dot_about_mention2_title">Dhruv Gadhavi (DGnegative)</string>
-    <string name="dot_about_mention2_summary">Contributor</string>
-    <string name="dot_about_mention3_title">Hari Ambadi</string>
-    <string name="dot_about_mention3_summary">Logo Designer/Dot Walls</string>
-    <string name="dot_about_mention4_title">Sayan Biswas (Samgr8)</string>
-    <string name="dot_about_mention4_summary">UI Designer/Contributor</string>
-    <string name="dot_about_mention5_title">Iacob Ionut</string>
-    <string name="dot_about_mention5_summary">UI Designer</string>
+    <string name="dot_about_mention2_title">Hari Ambadi</string>
+    <string name="dot_about_mention2_summary">Logo Designer/Dot Walls</string>
+    <string name="dot_about_mention3_title">Sayan Biswas (Samgr8)</string>
+    <string name="dot_about_mention3_summary">UI Designer/Contributor</string>
+    <string name="dot_about_mention4_title">Iacob Ionut</string>
+    <string name="dot_about_mention4_summary">UI Designer</string>
 
     <!-- About phone screen, dotOS version -->
     <string name="dot_mod_version">dotOS version</string>
