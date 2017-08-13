@@ -333,7 +333,11 @@
     <style name="TextAppearance.Switch" parent="@android:style/TextAppearance.Material.Title" />
 
     <style name="TextAppearance.CategoryTitle" parent="@android:style/TextAppearance.Material.Body2">
-        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">?android:attr/colorAccent</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:letterSpacing">0.1</item>
     </style>
 
     <style name="TextAppearance.TileTitle" parent="@android:style/TextAppearance.Material.Subhead" />
