@@ -92,7 +92,7 @@
     <color name="zen_rule_name_warning">@*android:color/system_error</color>
 
     <!-- Accent color that matches the settings launcher icon -->
-    <color name="icon_accent">#ffabffec</color>
+    <color name="icon_accent">?android:attr/colorAccent</color>
 
     <color name="importance_icon_tint">#8a000000</color>
     <color name="importance_disabled_tint">#4d000000</color>
