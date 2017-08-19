@@ -187,6 +187,7 @@
 
     <style name="Theme.ActionBar" parent="@android:style/Widget.Material.ActionBar.Solid">
         <item name="android:contentInsetStart">@dimen/actionbar_contentInsetStart</item>
+        <item name="android:textColor">?android:attr/colorAccent</item>
     </style>
 
     <style name="Theme.ActionBar.SubSettings" parent="Theme.ActionBar">
