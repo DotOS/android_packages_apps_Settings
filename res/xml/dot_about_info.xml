@@ -66,14 +66,14 @@
         android:summary="@string/dot_about_mention1_summary" >
     <intent
         android:action="android.intent.action.VIEW"
-        android:data="https://t.me/kubersharma" />
+        android:data="https://t.me/Samgr8" />
     </PreferenceScreen>
     <PreferenceScreen
         android:title="@string/dot_about_mention2_title"
         android:summary="@string/dot_about_mention2_summary" >
      <intent
         android:action="android.intent.action.VIEW"
-        android:data="https://t.me/DGnegative" />
+        android:data="https://t.me/kubersharma" />
     </PreferenceScreen>
     <PreferenceScreen
         android:title="@string/dot_about_mention3_title"
@@ -85,13 +85,6 @@
     <PreferenceScreen
         android:title="@string/dot_about_mention4_title"
         android:summary="@string/dot_about_mention4_summary" >
-    <intent
-        android:action="android.intent.action.VIEW"
-        android:data="https://t.me/Samgr8" />
-    </PreferenceScreen>
-    <PreferenceScreen
-        android:title="@string/dot_about_mention5_title"
-        android:summary="@string/dot_about_mention5_summary" >
     <intent
         android:action="android.intent.action.VIEW"
         android:data="https://t.me/iacobionut" />
