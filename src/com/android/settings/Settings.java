@@ -170,5 +170,5 @@ public class Settings extends SettingsActivity {
     public static class KActivity extends SettingsActivity { /* empty */ }
 
     // DotExtras
-    public static class dotsettingsActivity extends SettingsActivity { /* empty */ }
+    public static class dotsettingsStart extends SettingsActivity { /* empty */ }
 }

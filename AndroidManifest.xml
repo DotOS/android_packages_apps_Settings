@@ -2864,10 +2864,14 @@
                 android:value="com.android.settings.notification.AppNotificationSettings" />
         </activity>
 
-	<activity android:name="Settings$dotsettingsActivity"
+	<activity android:name="Settings$dotsettingsStart"
             android:label="@string/dot_settings_title"
             android:icon="@drawable/ic_settings_dot"
             android:taskAffinity="">
+	    <intent-filter android:priority="1">
+                <action android:name="com.android.settings.dot.dotsettingsStart" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -2880,7 +2884,9 @@
             <meta-data android:name="com.android.settings.category"
                 android:value="com.android.settings.category.custom" />
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.dot.settings.dotsettings" />
+                android:value="com.android.settings.dot.dotsettingsStart" />
+	    <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
+                android:value="true" />
             <meta-data android:name="com.android.settings.summary"
                 android:resource="@string/dot_settings_summary" />
         </activity>
