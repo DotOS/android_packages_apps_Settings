@@ -81,7 +81,7 @@
 
     <!-- ActionBar contentInsetStart -->
     <dimen name="actionbar_contentInsetStart">16dp</dimen>
-    <dimen name="actionbar_subsettings_contentInsetStart">72dp</dimen>
+    <dimen name="actionbar_subsettings_contentInsetStart">@dimen/icon_space_reserved_padding</dimen>
 
     <!-- Dashboard padding in its container -->
     <dimen name="dashboard_padding_start">0dp</dimen>
@@ -110,7 +110,7 @@
     <dimen name="switchbar_margin_end">16dp</dimen>
 
     <!-- SwitchBar sub settings margin start / end -->
-    <dimen name="switchbar_subsettings_margin_start">72dp</dimen>
+    <dimen name="switchbar_subsettings_margin_start">@dimen/icon_space_reserved_padding</dimen>
     <dimen name="switchbar_subsettings_margin_end">16dp</dimen>
 
     <!-- The following two margins need to match, with the caveat that
@@ -307,4 +307,5 @@
     <dimen name="suggestion_condition_header_padding_collapsed">10dp</dimen>
     <dimen name="suggestion_condition_header_padding_expanded">5dp</dimen>
 
+    <dimen name="icon_space_reserved_padding">72dp</dimen>
 </resources>
