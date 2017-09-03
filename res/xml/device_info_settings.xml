@@ -50,6 +50,13 @@
                      android:targetPackage="com.ota.updates"
                      android:targetClass="com.ota.updates.activities.MainActivity" />     
 		</cyanogenmod.preference.SelfRemovingPreference>
+
+        <!-- dotOS Changelog -->
+        <PreferenceScreen android:key="changelog_dot"
+                android:title="@string/changelog_dot_title"
+                android:summary="@string/changelog_dot_summary"
+                android:fragment="com.android.settings.dot.Changelog" />
+
 		<!-- About phone screen, dotOS version -->
 	<!-- Mod version -->
          <Preference android:key="mod_version"
