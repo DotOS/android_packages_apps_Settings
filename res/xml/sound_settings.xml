@@ -254,6 +254,14 @@
           android:title="@string/emergency_tone_title"
           android:summary="%s"/>
 
+        <!-- In-call feedback -->
+        <com.dot.support.preferences.SystemSettingSwitchPreference
+          android:key="incall_feeedback_vibrate"
+          android:title="@string/incall_feeedback_vibrate_title"
+          android:layout="@layout/dot_preference_middle_card"
+          android:defaultValue="false"
+          settings:controller="com.android.settings.sound.IncallFeedbackPreferenceController" />
+
         <!-- Vibrate on touch -->
         <SwitchPreference
           android:key="vibrate_on_touch"
