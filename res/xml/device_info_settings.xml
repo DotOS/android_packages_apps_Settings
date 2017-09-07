@@ -16,7 +16,7 @@
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         android:title="@string/about_settings">
-<PreferenceScreen android:layout="@layout/logo" android:key="dotOS_logo" />
+<Preference android:layout="@layout/logo" android:key="dotOS_logo" />
         
 		<!-- About us -->
         <Preference
@@ -39,7 +39,7 @@
         </Preference>
 
         <!-- Changelog -->
-        <PreferenceScreen
+        <Preference
             android:key="changelog"
             android:title="@string/changelog_title"
 	    android:summary="@string/changelog_summary"
