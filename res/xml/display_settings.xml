@@ -146,4 +146,10 @@
         android:title="@string/display_vr_pref_title"
         android:fragment="com.android.settings.display.VrDisplayPreferencePicker" />
 
+    <com.dot.dotextras.preference.SystemSettingSwitchPreference
+        android:key="enable_conditions"
+        android:title="@string/dashboard_conditions_title"
+        android:summaryOn="@string/summary_dashboard_conditions_enabled"
+        android:summaryOff="@string/summary_dashboard_conditions_disabled"
+        android:defaultValue="true" />
 </PreferenceScreen>
