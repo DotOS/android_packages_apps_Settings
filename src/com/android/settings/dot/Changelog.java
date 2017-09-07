@@ -25,12 +25,13 @@ import android.widget.ScrollView;
 import android.widget.TextView;
 
 import com.android.settings.R;
+import com.android.settings.SettingsPreferenceFragment;
 
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Changelog extends Fragment {
+public class Changelog extends SettingsPreferenceFragment {
 
     private static final String CHANGELOG_PATH = "/system/etc/Changelog.txt";
 
