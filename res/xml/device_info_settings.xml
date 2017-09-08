@@ -18,11 +18,10 @@
         android:title="@string/about_settings">
 <PreferenceScreen android:layout="@layout/logo" android:key="dotOS_logo" />
         
-		<!-- dotOS Version -->
-		<Preference
-                android:key="dot_version"
-                android:title="@string/dot_version_pref_title"
-                android:summary="@string/dot_version"/>
+		<!-- dotOS version --> 
+        <Preference android:key="dot_version"
+                android:title="@string/dot_version"
+                android:summary="@string/dot_version_default"/>
 
         <!-- System update settings - launches activity -->
         <Preference android:key="additional_system_update_settings"
@@ -74,6 +73,7 @@
                 android:title="@string/firmware_version"
                 android:summary="@string/summary_placeholder"/>
 
+
         <!-- Security patch level -->
         <Preference android:key="security_patch"
                 android:title="@string/security_patch"
@@ -99,6 +99,11 @@
                 android:key="kernel_version"
                 android:title="@string/kernel_version"
                 android:summary="@string/summary_placeholder"/>
+
+        <!-- Build date -->
+        <Preference android:key="build_date"
+                android:title="@string/build_date"
+                android:summary="@string/build_date_default" />
 
         <!-- Detailed build version -->
         <Preference
