@@ -23,7 +23,7 @@
         android:key="dot_about_info"
         android:title="@string/dot_about_info"
 	android:summary="@string/dot_about_summary"
-        android:fragment="com.android.settings.dot.AboutUs" />
+        android:fragment="com.android.settings.AboutUs" />
 		
 		<!-- dotOS version --> 
         <Preference android:key="dot_version"
