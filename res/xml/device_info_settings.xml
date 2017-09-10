@@ -18,6 +18,13 @@
         android:title="@string/about_settings">
 <PreferenceScreen android:layout="@layout/logo" android:key="dotOS_logo" />
         
+		<!-- About us -->
+        <Preference
+        android:key="dot_about_info"
+        android:title="@string/dot_about_info"
+	android:summary="@string/dot_about_summary"
+        android:fragment="com.android.settings.dot.AboutUs" />
+		
 		<!-- dotOS version --> 
         <Preference android:key="dot_version"
                 android:title="@string/dot_version"
