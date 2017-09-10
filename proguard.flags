@@ -52,3 +52,5 @@
     public static ** SUMMARY_PROVIDER_FACTORY;
 }
 -keep class android.support.v4.app.CoreComponentFactory
+
+-dontwarn okio.**

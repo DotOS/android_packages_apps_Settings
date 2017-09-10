@@ -27,31 +27,39 @@
         android:layout="@layout/settings_entity_header"
         android:selectable="false"/>
 
+    <!-- About us -->
+    <Preference
+        android:key="dot_about_info"
+        android:order="1"
+        android:title="@string/dot_about_info"
+	android:summary="@string/dot_about_summary"
+        android:fragment="com.android.settings.AboutUs" />
+
     <!-- Device name -->
     <com.android.settings.widget.ValidatedEditTextPreference
         android:key="device_name"
-        android:order="1"
+        android:order="2"
         android:title="@string/my_device_info_device_name_preference_title"
         android:summary="@string/summary_placeholder"/>
 
     <!-- Account name -->
     <Preference
         android:key="branded_account"
-        android:order="2"
+        android:order="3"
         android:title="@string/my_device_info_account_preference_title"
         android:summary="@string/summary_placeholder"/>
 
     <!-- Phone number -->
     <Preference
         android:key="phone_number"
-        android:order="3"
+        android:order="4"
         android:title="@string/status_number"
         android:summary="@string/summary_placeholder"
         android:selectable="false"/>
 
     <Preference
         android:key="emergency_info"
-        android:order="4"
+        android:order="5"
         android:title="@string/emergency_info_title"
         android:summary="@string/summary_placeholder"/>
 

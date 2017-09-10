@@ -31,4 +31,34 @@
     <!-- Manage applications, package string displayed in app snippet -->
     <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
 
+    <!-- About dotOS -->
+    <string name="dot_about_info">About us</string>
+    <string name="dot_about_summary">Our introduction and our team</string>
+    <string name="dot_about_info_summary">dotOS is based on Pure Aosp - which is highly optimized for supreme performance! Our ROM primary goal is to provide best Optimized Performance with some handpicked goodies for all devices running our ROM be it of Low, Mid or High End.....</string>
+    <string name="dev_info">About dotOS</string>
+    <string name="github">Github</string>
+    <string name="github_description">View our source code</string>
+    <string name="gplus">Google+</string>
+    <string name="gplus_description">Join our G+ community</string>
+    <string name="telegram">Telegram</string>
+    <string name="telegram_description">Join our Telegram Community</string>
+	<string name="telegram_channel">Telegram Channel</string>
+    <string name="telegram_channel_description">Subscribe to our Telegram channel</string>
+    <string name="web">Download Center</string>
+    <string name="web_description">Visit our download portal</string>
+    <string name="help_translate">Translations</string>
+    <string name="help_translate_description">Translate to your language, visit our Crowdin</string>
+    <string name="walls">Wallpapers</string>
+    <string name="walls_description">Get wallpapers contributed by various users</string>
+    <string name="maintainers">Maintainers</string>
+    <string name="maintainers_title">Official maintainers</string>
+    <string name="maintainers_summary">Officially supported devices and their respective maintainers.</string>
+
+    <!-- Maintainer section -->
+    <string name="maintainer_description">Maintainer: %1$s</string>
+    <string name="loading_devices">Loading devices list...</string>
+    <string name="loading_devices_failed">Failed to load devices list</string>
+    <string name="devices_list_empty">List is empty, tap the icon to reload</string>
+    <string name="reload_list">Reload</string>
+
 </resources>

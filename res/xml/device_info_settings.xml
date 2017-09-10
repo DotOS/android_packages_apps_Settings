@@ -21,10 +21,18 @@
     android:key="device_info_pref_screen"
     android:title="@string/about_settings">
 
+    <!-- About us -->
+    <Preference
+        android:key="dot_about_info"
+        android:order="0"
+        android:title="@string/dot_about_info"
+	android:summary="@string/dot_about_summary"
+        android:fragment="com.android.settings.AboutUs" />
+
     <!-- Phone number -->
     <Preference
         android:key="phone_number"
-        android:order="0"
+        android:order="1"
         android:title="@string/status_number"
         android:summary="@string/summary_placeholder"/>
 
