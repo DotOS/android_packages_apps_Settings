@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2017 AospExtended ROM Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+     http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- About phone screen, Extended version -->
+    <string name="extended_version">Extended version</string>
+    <string name="extended_version_default">Unknown</string>
+
+    <!-- About phone screen, build date -->
+    <string name="build_date">Build date</string>
+    <string name="build_date_default">2015-01-01-0000</string>
+
+    <!-- Development Settings -->
+    <!-- Dev Options Enabled by Default -->
+    <string name="show_dev_already_enabled">No Need, Development settings are enabled by default.</string>
+
+    <!-- Changelog -->
+    <string name="changelog_title">Changelog</string>
+    <string name="changelog_summary">Recent Changes</string>
+    <string name="changelog_loading">Loading changelog\u2026</string>
+    <string name="changelog_error">Unable to load changelog</string>
+
+    <!-- About AospExtended -->
+    <string name="aex_about_info">About us</string>
+    <string name="aex_about_summary">Our introduction and our team</string>
+    <string name="aex_about_info_summary">AospExtended is an AOSP based rom which provides stock UI/UX with various customisations features along with the Substratum theme engine. The project has been made by cherry-picking various commits from various other projects. Being based on AOSP it provides a smooth and lag-free experience out of the box. We will constantly try to add more features and make it even better in future updates.&#35;BeExtended</string>
+    <string name="dev_info">About AospExtended</string>
+    <string name="github">Github</string>
+    <string name="github_description">View our source code</string>
+    <string name="gplus">Google+</string>
+    <string name="gplus_description">Join our G+ community</string>
+    <string name="telegram">Telegram</string>
+    <string name="telegram_description">Subscribe to our Telegram channel</string>
+    <string name="web">Download Center</string>
+    <string name="web_description">Visit our download portal</string>
+    <string name="help_translate">Translations</string>
+    <string name="help_translate_description">Translate to your language, visit our Crowdin</string>
+    <string name="walls">Wallpapers</string>
+    <string name="walls_description">Get wallpapers contributed by various users</string>
+    <string name="leads">Team Leads</string>
+    <string name="team_1">Shubham Singh &#40;ishubhamsingh&#41;</string>
+    <string name="team1_description">Owner/Lead Developer</string>
+    <string name="team_2">Aman Kumar &#40;FireLord&#41;</string>
+    <string name="team2_description">Developer</string>
+    <string name="team_3">Amol Amrit</string>
+    <string name="team3_description">Moderator and an Amateur Developer</string>
+    <string name="team_4">Henrique Silva &#40;jhenrique09&#41;</string>
+    <string name="team4_description">Developer</string>
+    <string name="designers">Designers</string>
+    <string name="designer_1">Yasan &#40;AlienCreature7&#41;</string>
+    <string name="designer1_description">Thread Banners, Logos, Wallpapers</string>
+    <string name="designer_2">Savio &#40;Wizper99&#41;</string>
+    <string name="designer2_description">QS/Fling logos</string>
+    <string name="designer_3">Jesus R &#40;KrapK&#41;</string>
+    <string name="designer3_description">Wallpapers, Bootanimations</string>
+    <string name="maintainers">Maintainers</string>
+    <string name="maintainer_description">Maintains for %1$s</string>
+
+</resources>
