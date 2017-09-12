@@ -898,33 +898,40 @@ public class SettingsActivity extends SettingsDrawerActivity
         }
     }
 
+    // Maximum available root managers
+    private int ROOT_MGR_MAX = 2; // mRootManagers
+    private Object[][] mRootManagers = {
+        {
+            "eu.chainfire.supersu", //pkg name
+            "eu.chainfire.supersu.MainActivity", // class name
+            185, // minimum version
+        },
+        {
+            "me.phh.superuser", //pkg name
+            "com.koushikdutta.superuser.MainActivity", // class name
+            0, // minimum version
+        },
+        {
+            "com.topjohnwu.magisk", //pkg name
+            "com.topjohnwu.magisk.SplashActivity", // class name
+            0,
+        },
+    };
+
     private boolean isRootAvailable() {
         mRootSupport = false;
         mRootPackage = "";
         mRootClass = "";
-        try {
-            mRootSupport = (getPackageManager().getPackageInfo("eu.chainfire.supersu", 0).versionCode >= 185);
-            mRootPackage = "eu.chainfire.supersu";
-            mRootClass = "eu.chainfire.supersu.MainActivity";
-        } catch (PackageManager.NameNotFoundException e) {
-        }
-        if (!mRootSupport) {
+        for (int i = 0; i <= ROOT_MGR_MAX; i++) {
             try {
-                mRootSupport = (getPackageManager().getPackageInfo("me.phh.superuser", 0).versionCode > 0);
-                mRootPackage = "me.phh.superuser";
-                mRootClass = "com.koushikdutta.superuser.MainActivity";
+                mRootSupport = getPackageManager().getPackageInfo((String) mRootManagers[i][0], 0).versionCode >= (int) mRootManagers[i][2];
+                mRootPackage = (String) mRootManagers[i][0];
+                mRootClass = (String) mRootManagers[i][1];
+                if (mRootSupport) return true;
             } catch (PackageManager.NameNotFoundException e) {
             }
-            if (!mRootSupport) {
-                try {
-                    mRootSupport = (getPackageManager().getPackageInfo("com.topjohnwu.magisk", 0).versionCode > 0);
-                    mRootPackage = "com.topjohnwu.magisk";
-                    mRootClass = "com.topjohnwu.magisk.SplashActivity";
-                } catch (PackageManager.NameNotFoundException e) {
-                }
-            }
         }
-        return mRootSupport;
+        return false;
     }
 
     /**
