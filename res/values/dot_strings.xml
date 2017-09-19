@@ -175,4 +175,7 @@
     <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
     <string name="supersu_title">SuperSU</string>
 
+    <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
+    <string name="local_backup_password_title">Desktop backup password</string>
+
 </resources>
