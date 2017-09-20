@@ -75,6 +75,10 @@
             android:key="lights"
             android:title="@string/notification_show_lights_title"/>
 
+        <SwitchPreference
+            android:key="show_light_on_zen"
+            android:title="@string/show_light_on_zen_title" />
+
         <net.margaritov.preference.colorpicker.ColorPickerPreference
             android:key="custom_light"
             android:title="@string/custom_light_title"

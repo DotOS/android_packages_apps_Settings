@@ -25,6 +25,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.os.AsyncTask;
 import android.provider.Settings;
+import android.support.v14.preference.SwitchPreference;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceGroup;
 import android.text.TextUtils;
@@ -65,6 +66,7 @@ public class ChannelNotificationSettings extends NotificationSettingsBase {
     private static final String KEY_RINGTONE = "ringtone";
     private static final String KEY_IMPORTANCE = "importance";
     private static final String KEY_ADVANCED = "advanced";
+    private static final String KEY_LIGHT_ON_ZEN = "show_light_on_zen";
 
     private Preference mImportance;
     private RestrictedSwitchPreference mLights;
@@ -77,6 +79,7 @@ public class ChannelNotificationSettings extends NotificationSettingsBase {
     private NotificationChannelGroup mChannelGroup;
     private EntityHeaderController mHeaderPref;
     private PreferenceGroup mAdvanced;
+    private SwitchPreference mLightOnZen;
 
     @Override
     public int getMetricsCategory() {
@@ -216,12 +219,14 @@ public class ChannelNotificationSettings extends NotificationSettingsBase {
         mCustomLight = (ColorPickerPreference) findPreference(KEY_CUSTOM_LIGHT);
         mLightOnTime =(CustomSeekBarPreference) findPreference(KEY_LIGHTS_ON_TIME);
         mLightOffTime = (CustomSeekBarPreference) findPreference(KEY_LIGHTS_OFF_TIME);
+        mLightOnZen = (SwitchPreference) findPreference(KEY_LIGHT_ON_ZEN);
         mLights.setDisabledByAdmin(mSuspendedAppsAdmin);
         mLights.setChecked(mChannel.shouldShowLights());
         //enable custom light prefs is light is enabled
         mCustomLight.setEnabled(!mLights.isDisabledByAdmin() && mChannel.shouldShowLights());
         mLightOnTime.setEnabled(!mLights.isDisabledByAdmin() && mChannel.shouldShowLights());
         mLightOffTime.setEnabled(!mLights.isDisabledByAdmin() && mChannel.shouldShowLights());
+        mLightOnZen.setEnabled(!mLights.isDisabledByAdmin() && mChannel.shouldShowLights());
 
         //light pref
         mLights.setOnPreferenceChangeListener(new Preference.OnPreferenceChangeListener() {
@@ -270,6 +275,17 @@ public class ChannelNotificationSettings extends NotificationSettingsBase {
             public boolean onPreferenceChange(Preference preference, Object newValue) {
                 int val = (Integer) newValue;
                 mChannel.setLightOffTime(val);
+                mBackend.updateChannel(mPkg, mUid, mChannel);
+                return true;
+            }
+        });
+        //light on zen pref
+        mLightOnZen.setChecked(mChannel.shouldLightOnZen());
+        mLightOnZen.setOnPreferenceChangeListener(new Preference.OnPreferenceChangeListener() {
+            @Override
+            public boolean onPreferenceChange(Preference preference, Object newValue) {
+                final boolean show = (Boolean) newValue;
+                mChannel.setLightOnZen(show);
                 mBackend.updateChannel(mPkg, mUid, mChannel);
                 return true;
             }
