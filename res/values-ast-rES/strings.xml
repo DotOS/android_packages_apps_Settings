@@ -916,10 +916,7 @@ Teníemos un Palaciu…\n
   <string name="wifi_wps_available_second_item">\u0020(WPS disponible)</string>
   <!-- Message in WriteWifiConfigToNfcDialog when prompted to enter network password [CHAR_LIMIT=40] -->
   <!-- Message informing the user how to turn off  [CHAR LIMIT=200] -->
-<<<<<<< HEAD
-=======
   <string name="wifi_scan_always_confirm_deny">Ñegar</string>
->>>>>>> 69c127934e... Automatic translation import
   <!-- Dialog label to sign in to a Hotspot. [CHAR LIMIT=50]-->
   <!-- Dialog message to sign in to a Hotspot. [CHAR LIMIT=50]-->
   <!-- Wifi settings button to connect in to a Hotspot. [CHAR LIMIT=50]-->
@@ -3473,11 +3470,9 @@ Teníemos un Palaciu…\n
   <!-- The title used in a dialog which lets the user select what the USB connection
          for this device should be used for. Choices are usb_use_charging_only,
          usb_use_file_transfer, use_use_photo_transfer, and usb_use_MIDI -->
-<<<<<<< HEAD
-=======
+
   <string name="usb_use">Usar USB pa</string>
   <string name="usb_tethering_desc">Usa preséu pa tethering</string>
->>>>>>> 69c127934e... Automatic translation import
   <!-- Settings item title for background check prefs [CHAR LIMIT=35] -->
   <!-- Settings screen title for background check prefs [CHAR LIMIT=35] -->
   <!-- Title for the "context" preference to determine whether assist can access the data currently displayed on-screen [CHAR LIMIT=40] -->
