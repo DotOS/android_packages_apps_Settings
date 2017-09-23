@@ -241,6 +241,7 @@ public class ChannelNotificationSettings extends NotificationSettingsBase {
                 mCustomLight.setEnabled(lights);
                 mLightOnTime.setEnabled(lights);
                 mLightOffTime.setEnabled(lights);
+                mLightOnZen.setEnabled(lights);
                 //enable NOTIFICATION_LIGHT_PULSE if the user wants to enable notification light for an app
                 //if he disables mLights, don't do anything (other apps may have it still enabled)
                 if (lights && Settings.System.getInt(mContext.getContentResolver(),
