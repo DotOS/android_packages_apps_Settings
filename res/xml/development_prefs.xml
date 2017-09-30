@@ -81,6 +81,12 @@
         android:title="@string/color_temperature"
         android:summary="@string/color_temperature_desc" />
 
+    <com.dot.dotextras.preference.GlobalSettingSwitchPreference
+        android:key="show_cpu_overlay"
+        android:title="@string/show_cpu_info"
+        android:summary="@string/show_cpu_info_summary" 
+        android:defaultValue="false" />
+
     <Preference
         android:key="demo_mode"
         android:title="@string/demo_mode">
