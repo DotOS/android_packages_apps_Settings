@@ -133,6 +133,7 @@ import com.android.settings.wifi.WifiSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 
 import com.dot.dotextras.DotExtrasFragment;
+import com.dot.dotextras.HeadsUpSettings;
 
 public class SettingsGateway {
 
@@ -255,7 +256,12 @@ public class SettingsGateway {
             LockscreenDashboardFragment.class.getName(),
             BluetoothDeviceDetailsFragment.class.getName(),
             DataUsageList.class.getName(),
+<<<<<<< HEAD
             DotExtrasFragment.class.getName(),
+=======
+            PartsFragment.class.getName(),
+            HeadsUpSettings.class.getName(),
+>>>>>>> 5d090f6941... add activity to launch headsup extensions fragment
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {

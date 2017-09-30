@@ -3306,6 +3306,20 @@
                        android:resource="@string/build_tweaks_summary_title"/>
         </activity>
 
++        <!-- Heads up settings activity. -->
+        <activity android:name="Settings$HeadsUpSettingsActivity"
+                android:label="@string/heads_up_notifications"
+                android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.dot.dotextras.HeadsUpSettings" />
+            <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
+                android:value="true" />
+        </activity>
+
         <activity android:name="Settings$RootManagementActivity"
                 android:label="@string/rootmanagement_title"
                 android:icon="@drawable/ic_settings_rootmanagement"
