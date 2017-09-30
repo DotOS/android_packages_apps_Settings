@@ -54,6 +54,12 @@
             android:key="battery_saver_summary"
             android:title="@string/battery_saver"/>
 
+    <com.dot.dotextras.preference.SystemSettingSwitchPreference
+            android:key="battery_save_mode_color"
+            android:title="@string/battery_saver_color_title"
+            android:summary="@string/battery_saver_color_summary"
+            android:defaultValue="false" />
+
         <SwitchPreference
             android:key="battery_percentage"
             android:title="@string/battery_percentage"

@@ -178,4 +178,8 @@
     <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
     <string name="local_backup_password_title">Desktop backup password</string>
 
+    <!-- Battery saver color -->
+    <string name="battery_saver_color_title">Warning color</string>
+    <string name="battery_saver_color_summary">Enable orange status - navigation bars when battery saver is activated</string>
+
 </resources>
