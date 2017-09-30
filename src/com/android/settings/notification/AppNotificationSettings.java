@@ -187,7 +187,9 @@ public class AppNotificationSettings extends NotificationSettingsBase {
             }
         });
         //light color pref
-        int color = (mChannel.getLightColor() != 0 ? mChannel.getLightColor() : 0X00FFFFFF);
+        int defaultLightColor = getResources().getColor(com.android.internal.R.color.config_defaultNotificationColor);
+        mCustomLight.setDefaultColor(defaultLightColor);
+        int color = (mChannel.getLightColor() != 0 ? mChannel.getLightColor() : defaultLightColor);
         mCustomLight.setAlphaSliderEnabled(true);
         mCustomLight.setNewPreviewColor(color);
         mCustomLight.setOnPreferenceChangeListener(new Preference.OnPreferenceChangeListener() {
@@ -201,6 +203,10 @@ public class AppNotificationSettings extends NotificationSettingsBase {
         });
         //light on time pref
         int lightOn = mChannel.getLightOnTime();
+        int defaultLightOn = getResources().getInteger(
+                com.android.internal.R.integer.config_defaultNotificationLedOn);
+        mLightOnTime.setDefaultValue(defaultLightOn);
+        lightOn = lightOn == 0 ? defaultLightOn : lightOn;
         mLightOnTime.setValue(lightOn);
         mLightOnTime.setOnPreferenceChangeListener(new Preference.OnPreferenceChangeListener() {
             @Override
@@ -213,6 +219,10 @@ public class AppNotificationSettings extends NotificationSettingsBase {
         });
         //light off time pref
         int lightOff = mChannel.getLightOffTime();
+        int defaultLightOff = getResources().getInteger(
+                com.android.internal.R.integer.config_defaultNotificationLedOff);
+        mLightOffTime.setDefaultValue(defaultLightOff);
+        lightOff = lightOff == 0 ? defaultLightOff : lightOff;
         mLightOffTime.setValue(lightOff);
         mLightOffTime.setOnPreferenceChangeListener(new Preference.OnPreferenceChangeListener() {
             @Override
