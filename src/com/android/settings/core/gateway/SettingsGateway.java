@@ -133,6 +133,7 @@ import com.android.settings.wifi.WifiSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 
 import com.dot.dotextras.DotExtrasFragment;
+import com.dot.dotextras.HeadsUpSettings;
 
 public class SettingsGateway {
 
@@ -256,6 +257,7 @@ public class SettingsGateway {
             BluetoothDeviceDetailsFragment.class.getName(),
             DataUsageList.class.getName(),
             DotExtrasFragment.class.getName(),
+            HeadsUpSettings.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
