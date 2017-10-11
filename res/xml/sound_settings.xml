@@ -98,7 +98,7 @@
 
     <PreferenceCategory
         android:layout="@layout/dot_preference_category"
-        android:order="-132"
+        android:order="-135"
         android:title="@string/accessibility_screen_option" />
   
     <!-- Link ringtone and notification volumes -->
@@ -107,8 +107,25 @@
         android:layout="@layout/dot_preference_top_card"
         android:title="@string/volume_link_notification_title"
         android:defaultValue="true"
-        android:order="-131"
+        android:order="-134"
         settings:controller="com.android.settings.notification.LinkedVolumesPreferenceController"/>
+
+    <!-- Increasing ring -->
+    <com.dot.support.preferences.SystemSettingSwitchPreference
+        android:key="increasing_ring"
+        android:layout="@layout/dot_preference_middle_card"
+        android:title="@string/increasing_ring_volume_option_title"
+        android:defaultValue="false"
+        android:order="-133"
+        settings:controller="com.android.settings.notification.IncreasingRingPreferenceController" />
+
+    <!-- Increasing ring volume -->
+    <com.android.settings.notification.IncreasingRingVolumePreference
+        android:key="increasing_ring_volume"
+        android:icon="@drawable/ring_notif_increasing"
+        android:dependency="increasing_ring"
+        android:order="-132"
+        settings:controller="com.android.settings.notification.IncreasingRingVolumePreferenceController" />
 
     <!-- Also vibrate for calls -->
     <Preference
@@ -116,7 +133,7 @@
         android:key="vibrate_for_calls"
         android:layout="@layout/dot_preference_middle_card"
         android:title="@string/vibrate_when_ringing_title"
-        android:order="-130"
+        android:order="-131"
         settings:controller="com.android.settings.sound.VibrateForCallsPreferenceController"
         settings:keywords="@string/keywords_vibrate_for_calls"/>
 
@@ -125,7 +142,7 @@
         android:key="zen_mode"
         android:title="@string/zen_mode_settings_title"
         android:fragment="com.android.settings.notification.zen.ZenModeSettings"
-        android:order="-129"
+        android:order="-130"
         settings:useAdminDisabledSummary="true"
         settings:keywords="@string/keywords_sounds_and_notifications_interruptions"
         settings:allowDividerAbove="true"
