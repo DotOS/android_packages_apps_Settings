@@ -239,6 +239,12 @@
           android:layout="@layout/dot_preference_middle_card"
           android:title="@string/boot_sounds_title"/>
 
+        <!-- Screenshot sounds -->
+        <SwitchPreference
+          android:key="screenshot_sounds"
+	  android:layout="@layout/dot_preference_middle_card"
+          android:title="@string/screenshot_sound_title" />
+
         <!-- Emergency tone -->
         <ListPreference
           android:key="emergency_tone"
