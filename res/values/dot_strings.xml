@@ -42,7 +42,7 @@
 
     <!-- About phone screen, dotOS version -->
     <string name="dot_mod_version">dotOS version</string>
-    <string name="mod_version_default">v1.0</string>
+    <string name="mod_version_default" translatable="false">v1.0</string>
 
     <!-- DotExtras -->
     <!-- Dashboard -->
