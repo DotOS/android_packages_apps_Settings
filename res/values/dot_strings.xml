@@ -24,13 +24,13 @@
     <string name="dot_about_info">ROM</string>
     <string name="dot_tg_title">dotOS telegram Community</string>
     <string name="dot_tg_summary">Follow our telegram community for support and updates!</string>
-    <string name="dot_about_info_summary">Dot stands for Droid on Time. We are a LineageOS based custom ROM, with minimal features. Our ROM, primary role is to provide a best optimised performance in over-all devices. Be it a mid/high end, we are here to make your device compete with time.....</string>
+    <string name="dot_about_info_summary">DOT stands for Droid On Time. DOT is based on Lineage OS - which is highly optimized for supreme performance! Our ROM primary goal is to provide Best Optimized Performance for over-all devices running our ROM be it Mid Range or High End - We are here to make your device compete with time itself!......</string>
     <string name="dot_about_devs">Developers</string>
     <string name="dot_about_dev1_title">MohanCM (mohancm100)</string>
     <string name="dot_about_dev1_summary">Founder of dotOS/Head Developer</string>
     <string name="dot_about_dev2_title">Ganesh Varma (ganeshi4u)</string>
     <string name="dot_about_dev2_summary">Lead Developer</string>
-    <string name="dot_about_mentions">Time travellers</string>
+    <string name="dot_about_mentions">dotOS Team</string>
 	<string name="dot_about_mention1_title">Sayan Biswas (Samgr8)</string>
     <string name="dot_about_mention1_summary">UI Designer/Contributor</string>
     <string name="dot_about_mention2_title">Kuber Sharma</string>
@@ -38,7 +38,7 @@
     <string name="dot_about_mention3_title">Hari Ambadi</string>
     <string name="dot_about_mention3_summary">Logo Designer/Dot Walls</string>
     <string name="dot_about_mention4_title">Iacob Ionut</string>
-    <string name="dot_about_mention4_summary">UI Designer</string>
+    <string name="dot_about_mention4_summary">UI Designer/Contributor</string>
 
     <!-- About phone screen, dotOS version -->
     <string name="dot_mod_version">dotOS version</string>
