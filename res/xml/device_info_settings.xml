@@ -38,7 +38,17 @@
                 android:layout="@layout/dot_about"
                 android:fragment="com.android.settings.dot.dotAbout" />
 
-        <!-- About phone screen, dotOS version -->
+        <!-- dotOS OTA -->
+		<Preference 
+		         android:key="ota_trigger"
+				 android:title="@string/dot_ota_title"
+				 android:summary="@string/dot_ota_summary">
+				 <intent
+                     android:action="android.intent.action.VIEW"
+                     android:targetPackage="com.ota.updates"
+                     android:targetClass="com.ota.updates.activities.MainActivity" />     
+		</Preference>
+		<!-- About phone screen, dotOS version -->
 	<!-- Mod version -->
          <Preference android:key="mod_version"
                  style="?android:preferenceInformationStyle"

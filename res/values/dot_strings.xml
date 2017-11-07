@@ -40,6 +40,10 @@
     <string name="dot_about_mention4_title">Iacob Ionut</string>
     <string name="dot_about_mention4_summary">UI Designer/Contributor</string>
 
+	<!-- dot OTA -->
+    <string name="dot_ota_title">dotOS OTA</string>
+    <string name="dot_ota_summary">System Updates</string>
+	
     <!-- About phone screen, dotOS version -->
     <string name="dot_mod_version">dotOS version</string>
     <string name="mod_version_default" translatable="false">v1.0</string>
@@ -98,6 +102,6 @@
 	<!-- Actions dialog and default task values set in ActionPreference xml-->
     <string name="dlg_reset_values_message">Reset values to Default?</string>
 	
-	
+
 </resources>
 
