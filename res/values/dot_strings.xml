@@ -279,4 +279,7 @@
 	<!-- Notification log -->
     <string name="notification_log_summary">Show notifications history log</string>
 	
+	<!-- Device specific doze package -->
+    <string name="config_customDozePackage" translatable="false"></string>
+	
 </resources>
