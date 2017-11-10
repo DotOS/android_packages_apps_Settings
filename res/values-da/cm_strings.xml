@@ -41,7 +41,7 @@
   <string name="root_appops_summary">Vis og kontrollér rootreglerne</string>
   <!-- About phone screen, LineageOS version -->
   <string name="mod_version">LineageOS-version</string>
-  <string name="mod_version_default">Ukendt</string>
+  <string name="mod_version_default">v1.0</string>
   <!-- About phone screen, Device model -->
   <string name="device_model">Enhedsmodel</string>
   <!-- About phone screen, Device name -->

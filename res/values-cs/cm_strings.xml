@@ -42,7 +42,7 @@
   <string name="root_appops_summary">Zobrazit a zpravovat pravidla přístupů root</string>
   <!-- About phone screen, LineageOS version -->
   <string name="mod_version">Verze systému LineageOS</string>
-  <string name="mod_version_default">Neznámá</string>
+  <string name="mod_version_default">v1.0</string>
   <!-- About phone screen, Device model -->
   <string name="device_model">Model</string>
   <!-- About phone screen, Device name -->

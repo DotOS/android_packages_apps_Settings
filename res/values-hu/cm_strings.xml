@@ -41,7 +41,7 @@
   <string name="root_appops_summary">Root szabályok megtekintése és kezelése</string>
   <!-- About phone screen, LineageOS version -->
   <string name="mod_version">LineageOS verzió</string>
-  <string name="mod_version_default">Ismeretlen</string>
+  <string name="mod_version_default">v1.0</string>
   <!-- About phone screen, Device model -->
   <string name="device_model">Eszköz modellje</string>
   <!-- About phone screen, Device name -->

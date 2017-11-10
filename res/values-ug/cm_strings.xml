@@ -38,7 +38,7 @@
   <!-- Preference link for root appops -->
   <!-- About phone screen, LineageOS version -->
   <string name="mod_version">LineageOS نەشرى</string>
-  <string name="mod_version_default">يوچۇن</string>
+  <string name="mod_version_default">v1.0</string>
   <!-- About phone screen, Device model -->
   <string name="device_model">ئۈسكىنە تىپى</string>
   <!-- About phone screen, Device name -->

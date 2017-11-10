@@ -42,7 +42,7 @@
   <string name="root_appops_summary">Prikaz i kontrola root pravila</string>
   <!-- About phone screen, LineageOS version -->
   <string name="mod_version">LineageOS verzija</string>
-  <string name="mod_version_default">Nepoznato</string>
+  <string name="mod_version_default">v1.0</string>
   <!-- About phone screen, Device model -->
   <string name="device_model">Model uređaja</string>
   <!-- About phone screen, Device name -->

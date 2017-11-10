@@ -40,7 +40,7 @@
   <string name="root_appops_title">Hantera root-åtkomster</string>
   <!-- About phone screen, LineageOS version -->
   <string name="mod_version">LineageOS-version</string>
-  <string name="mod_version_default">Okänd</string>
+  <string name="mod_version_default">v1.0</string>
   <!-- About phone screen, Device model -->
   <string name="device_model">Enhetsmodell</string>
   <!-- About phone screen, Device name -->

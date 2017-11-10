@@ -43,7 +43,7 @@
   <string name="root_appops_summary">הצג ושלוט בחוקי גישת השורש</string>
   <!-- About phone screen, LineageOS version -->
   <string name="mod_version">גרסת LineageOS</string>
-  <string name="mod_version_default">לא ידוע</string>
+  <string name="mod_version_default">v1.0</string>
   <!-- About phone screen, Device model -->
   <string name="device_model">דגם המכשיר</string>
   <!-- About phone screen, Device name -->

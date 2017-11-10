@@ -42,7 +42,7 @@ Vous êtes maintenant à <xliff:g id="step_count">%1$d</xliff:g> étapes de l\'a
   <string name="root_appops_summary">Visualiser et contrôler les règles root</string>
   <!-- About phone screen, LineageOS version -->
   <string name="mod_version">Version LineageOS</string>
-  <string name="mod_version_default">Inconnue</string>
+  <string name="mod_version_default">v1.0</string>
   <!-- About phone screen, Device model -->
   <string name="device_model">Modèle de l\'appareil</string>
   <!-- About phone screen, Device name -->

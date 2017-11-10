@@ -41,7 +41,7 @@
   <string name="root_appops_summary">Kök erişimi kurallarını görüntüle ve kontrol et</string>
   <!-- About phone screen, LineageOS version -->
   <string name="mod_version">LineageOS sürümü</string>
-  <string name="mod_version_default">Bilinmeyen</string>
+  <string name="mod_version_default">v1.0</string>
   <!-- About phone screen, Device model -->
   <string name="device_model">Cihaz modeli</string>
   <!-- About phone screen, Device name -->

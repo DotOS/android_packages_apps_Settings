@@ -41,7 +41,7 @@
   <string name="root_appops_summary">Tarkastele ja hallinnoi root-sääntöjä</string>
   <!-- About phone screen, LineageOS version -->
   <string name="mod_version">LineageOS-versio</string>
-  <string name="mod_version_default">Tuntematon</string>
+  <string name="mod_version_default">v1.0</string>
   <!-- About phone screen, Device model -->
   <string name="device_model">Laitteen malli</string>
   <!-- About phone screen, Device name -->

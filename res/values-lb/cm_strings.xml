@@ -39,7 +39,7 @@
   <!-- Preference link for root appops -->
   <!-- About phone screen, LineageOS version -->
   <string name="mod_version">LineageOS-Versioun</string>
-  <string name="mod_version_default">Onbekannt</string>
+  <string name="mod_version_default">v1.0</string>
   <!-- About phone screen, Device model -->
   <string name="device_model">Apparatmodell</string>
   <!-- About phone screen, Device name -->

@@ -41,7 +41,7 @@
   <string name="root_appops_summary">Mostra i controla les regles de superusuari</string>
   <!-- About phone screen, LineageOS version -->
   <string name="mod_version">Versió de LineageOS</string>
-  <string name="mod_version_default">Desconegut</string>
+  <string name="mod_version_default">v1.0</string>
   <!-- About phone screen, Device model -->
   <string name="device_model">Model del dispositiu</string>
   <!-- About phone screen, Device name -->

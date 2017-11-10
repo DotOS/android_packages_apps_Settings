@@ -40,7 +40,7 @@
   <string name="root_appops_summary">Xem và kiểm soát các truy cập root</string>
   <!-- About phone screen, LineageOS version -->
   <string name="mod_version">Phiên bản LineageOS</string>
-  <string name="mod_version_default">Không rõ</string>
+  <string name="mod_version_default">v1.0</string>
   <!-- About phone screen, Device model -->
   <string name="device_model">Mẫu thiết bị</string>
   <!-- About phone screen, Device name -->

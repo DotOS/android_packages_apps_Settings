@@ -42,7 +42,7 @@
   <string name="root_appops_summary">Прегледајте и управљајте дозволама за права суперкорисника.</string>
   <!-- About phone screen, LineageOS version -->
   <string name="mod_version">Верзија LineageOS-а</string>
-  <string name="mod_version_default">Непознато</string>
+  <string name="mod_version_default">v1.0</string>
   <!-- About phone screen, Device model -->
   <string name="device_model">Модел уређаја</string>
   <!-- About phone screen, Device name -->

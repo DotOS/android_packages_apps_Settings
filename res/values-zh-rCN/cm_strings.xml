@@ -40,7 +40,7 @@
   <string name="root_appops_summary">查看和控制 Root 规则</string>
   <!-- About phone screen, LineageOS version -->
   <string name="mod_version">LineageOS 版本</string>
-  <string name="mod_version_default">未知</string>
+  <string name="mod_version_default">v1.0</string>
   <!-- About phone screen, Device model -->
   <string name="device_model">设备型号</string>
   <!-- About phone screen, Device name -->

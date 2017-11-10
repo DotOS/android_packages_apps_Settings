@@ -40,7 +40,7 @@
   <string name="root_appops_summary">루트 권한 정책 편집 및 보기</string>
   <!-- About phone screen, LineageOS version -->
   <string name="mod_version">LineageOS 버전</string>
-  <string name="mod_version_default">알 수 없음</string>
+  <string name="mod_version_default">v1.0</string>
   <!-- About phone screen, Device model -->
   <string name="device_model">장치 모델</string>
   <!-- About phone screen, Device name -->

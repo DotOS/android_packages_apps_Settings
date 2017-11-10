@@ -43,7 +43,7 @@
   <string name="root_appops_summary">Ogled in nadzor skrbniških pravil</string>
   <!-- About phone screen, LineageOS version -->
   <string name="mod_version">Različica LineageOS</string>
-  <string name="mod_version_default">Neznano</string>
+  <string name="mod_version_default">v1.0</string>
   <!-- About phone screen, Device model -->
   <string name="device_model">Model naprave</string>
   <!-- About phone screen, Device name -->

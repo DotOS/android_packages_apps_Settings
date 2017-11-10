@@ -38,7 +38,7 @@
   <!-- Preference link for root appops -->
   <!-- About phone screen, LineageOS version -->
   <string name="mod_version">รุ่นของ LineageOS</string>
-  <string name="mod_version_default">ไม่รู้จัก</string>
+  <string name="mod_version_default">v1.0</string>
   <!-- About phone screen, Device model -->
   <string name="device_model">รุ่นอุปกรณ์</string>
   <!-- About phone screen, Device name -->

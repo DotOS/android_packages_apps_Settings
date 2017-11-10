@@ -42,7 +42,7 @@
   <string name="root_appops_summary">Przeglądaj i kontroluj zasady roota</string>
   <!-- About phone screen, LineageOS version -->
   <string name="mod_version">Wersja LineageOS</string>
-  <string name="mod_version_default">Nieznana</string>
+  <string name="mod_version_default">v1.0</string>
   <!-- About phone screen, Device model -->
   <string name="device_model">Model urządzenia</string>
   <!-- About phone screen, Device name -->
