@@ -25,36 +25,10 @@
             android:title="@string/owner_info_settings_title"
             android:summary="@string/owner_info_settings_summary"/>
 
-        <PreferenceScreen
-            android:title="@string/lockscreen_targets_message" >
-            <intent
-                android:targetPackage="com.android.systemui"
-                android:targetClass="com.android.systemui.cm.LockscreenShortcutsActivity" />
-        </PreferenceScreen>
-
-        <cyanogenmod.preference.CMSecureSettingSwitchPreference
-            android:key="lockscreen_visualizer"
-            android:title="@string/lockscreen_visualizer_title"
-            android:defaultValue="true"/>
-
-        <cyanogenmod.preference.CMSecureSettingSwitchPreference
-            android:key="lockscreen_media_metadata"
-            android:title="@string/lockscreen_media_art_title"
-            android:defaultValue="true" />
-
-        <cyanogenmod.preference.CMSecureSettingSwitchPreference
-            android:key="double_tap_sleep_anywhere"
-            android:title="@string/double_tap_sleep_anywhere_title"
-            android:defaultValue="false" />
-
-        <cyanogenmod.preference.CMSecureSettingSwitchPreference
-            android:key="lock_screen_weather_enabled"
-            android:title="@string/lockscreen_weather_enabled_title"
-            android:defaultValue="false"/>
-
-        <cyanogenmod.preference.CMSecureSettingSwitchPreference
+        <!--<cyanogenmod.preference.CMSecureSettingSwitchPreference
             android:key="lock_screen_blur_enabled"
             android:title="@string/lockscreen_blur_enabled_title"
-            cm:requiresConfig="@*android:bool/config_uiBlurEnabled" />
+            android:defaultValue="true"
+            cm:requiresConfig="@*android:bool/config_ui_blur_enabled" />-->
 
 </PreferenceScreen>
