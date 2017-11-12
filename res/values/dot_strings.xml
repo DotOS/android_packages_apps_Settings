@@ -31,17 +31,17 @@
     <string name="dot_about_info_summary">DOT stands for Droid On Time. DOT is based on Lineage OS - which is highly optimized for supreme performance! Our ROM primary goal is to provide Best Optimized Performance for over-all devices running our ROM be it Mid Range or High End - We are here to make your device compete with time itself!......</string>
     <string name="dot_about_devs">Developers</string>
     <string name="dot_about_dev1_title">MohanCM (mohancm100)</string>
-    <string name="dot_about_dev1_summary">Founder of dotOS/Head Developer</string>
+    <string name="dot_about_dev1_summary">Founder of dotOS/Head Developer./Contributor</string>
     <string name="dot_about_dev2_title">Ganesh Varma (ganeshi4u)</string>
-    <string name="dot_about_dev2_summary">Lead Developer</string>
+    <string name="dot_about_dev2_summary">Lead Developer./Contributor</string>
 	<string name="dot_about_mention1_title">Sayan Biswas (Samgr8)</string>
-    <string name="dot_about_mention1_summary">UI Designer/Contributor</string>
+    <string name="dot_about_mention1_summary">UI Designer/Contributor/Maintainer</string>
     <string name="dot_about_mention2_title">Kuber Sharma</string>
-    <string name="dot_about_mention2_summary">Contributor</string>
+    <string name="dot_about_mention2_summary">Contributor/Designer/Analyst</string>
     <string name="dot_about_mention3_title">Hari Ambadi</string>
-    <string name="dot_about_mention3_summary">Logo Designer/Dot Walls</string>
+    <string name="dot_about_mention3_summary">Logo Designer/Core GFX/Contributor</string>
     <string name="dot_about_mention4_title">Iacob Ionut</string>
-    <string name="dot_about_mention4_summary">UI Designer/Contributor</string>
+    <string name="dot_about_mention4_summary">UI Designer/Contributor/Maintainer</string>
 
 	<!-- dot OTA -->
     <string name="dot_ota_title">dotOS OTA</string>
