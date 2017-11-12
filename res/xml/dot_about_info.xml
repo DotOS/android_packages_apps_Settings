@@ -25,8 +25,16 @@
         android:summary="@string/dot_about_info_summary" />
 
 	<PreferenceScreen
-        android:title="@string/dot_G+_title"
-        android:summary="@string/dot_G+_summary">
+        android:title="@string/dot_website_title"
+        android:summary="@string/dot_website_summary">
+     <intent
+        android:action="android.intent.action.VIEW"
+        android:data="https://dotos.github.io/" />
+    </PreferenceScreen>	
+		
+	<PreferenceScreen
+        android:title="@string/dot_Gplus_title"
+        android:summary="@string/dot_Gplus_summary">
      <intent
         android:action="android.intent.action.VIEW"
         android:data="https://plus.google.com/u/0/communities/101137692192340076065" />
