@@ -79,13 +79,13 @@
    <string name="ka_summary">Tweak Kernel</string>
 
    <!-- Sound & display settings screen, setting option name to change the user interface theme [CHAR LIMIT=30] -->
-    <string name="night_mode_title">Style Chooser</string>
+    <string name="night_mode_title">QSPanel Style</string>
     <!-- Sound & display settings screen, setting option summary to change the user interface theme [CHAR LIMIT=100] -->
     <string name="night_mode_summary">%s</string>
     <!-- Sound & display settings screen, theme setting value to prefer a light-colored user interface [CHAR LIMIT=30] -->
-    <string name="night_mode_no">default</string>
+    <string name="night_mode_no">Dark QuickSettings</string>
     <!-- Sound & display settings screen, theme setting value to prefer a dark-colored user interface [CHAR LIMIT=30] -->
-    <string name="night_mode_yes">Material</string>
+    <string name="night_mode_yes">White QuickSettings</string>
     <!-- Sound & display settings screen, theme setting value to automatically switch between a light- or dark-colored user interface [CHAR LIMIT=30] -->
     <string name="night_mode_auto">Automatic</string>
     <string name="keywords_display_night_mode">dark theme night mode dim screen invert brightness</string>
