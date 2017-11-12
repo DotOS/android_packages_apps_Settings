@@ -22,6 +22,8 @@
     <!-- About dotOS -->
     <string name="dot_about_title">About dotOS</string>
     <string name="dot_about_info">ROM</string>
+	<string name="dot_G+_title">dotOS Google+ Community</string>
+	<string name="dot_G+_summary">Have a Look at Google+ Community :Request new features,Bug Fixes,latest releases and Lots more...</string>
     <string name="dot_tg_title">dotOS telegram Community</string>
     <string name="dot_tg_summary">Follow our telegram community for support and updates!</string>
     <string name="dot_about_info_summary">DOT stands for Droid On Time. DOT is based on Lineage OS - which is highly optimized for supreme performance! Our ROM primary goal is to provide Best Optimized Performance for over-all devices running our ROM be it Mid Range or High End - We are here to make your device compete with time itself!......</string>
@@ -30,7 +32,6 @@
     <string name="dot_about_dev1_summary">Founder of dotOS/Head Developer</string>
     <string name="dot_about_dev2_title">Ganesh Varma (ganeshi4u)</string>
     <string name="dot_about_dev2_summary">Lead Developer</string>
-    <string name="dot_about_mentions">dotOS Team</string>
 	<string name="dot_about_mention1_title">Sayan Biswas (Samgr8)</string>
     <string name="dot_about_mention1_summary">UI Designer/Contributor</string>
     <string name="dot_about_mention2_title">Kuber Sharma</string>

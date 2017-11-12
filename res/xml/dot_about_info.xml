@@ -24,6 +24,14 @@
     <Preference
         android:summary="@string/dot_about_info_summary" />
 
+	<PreferenceScreen
+        android:title="@string/dot_G+_title"
+        android:summary="@string/dot_G+_summary">
+     <intent
+        android:action="android.intent.action.VIEW"
+        android:data="https://plus.google.com/u/0/communities/101137692192340076065" />
+    </PreferenceScreen>	
+		
     <PreferenceScreen
         android:title="@string/dot_tg_title"
         android:summary="@string/dot_tg_summary">
@@ -53,13 +61,6 @@
         android:action="android.intent.action.VIEW"
         android:data="https://t.me/ganeshi4u" />
     </PreferenceScreen>
-
-    </PreferenceCategory>
-
-    <!-- Honorable mentions -->
-    <PreferenceCategory
-        android:key="category_dot_about_mentions"
-        android:title="@string/dot_about_mentions">
 
     <PreferenceScreen
         android:title="@string/dot_about_mention1_title"
