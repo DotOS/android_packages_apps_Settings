@@ -134,6 +134,13 @@ import com.android.settings.wifi.p2p.WifiP2pSettings;
 
 import com.dot.dotextras.DotExtrasFragment;
 
+import com.dot.dotextras.PartsFragment;
+import com.dot.dotextras.HeadsUpSettings;
+import com.dot.dotextras.dui.FlingSettings;
+import com.dot.dotextras.fragments.NavbarSettings;
+import com.dot.dotextras.dui.PulseSettings;
+import com.dot.dotextras.dui.SmartbarSettings;
+
 public class SettingsGateway {
 
     /**
@@ -255,7 +262,16 @@ public class SettingsGateway {
             LockscreenDashboardFragment.class.getName(),
             BluetoothDeviceDetailsFragment.class.getName(),
             DataUsageList.class.getName(),
+<<<<<<< HEAD
             DotExtrasFragment.class.getName(),
+=======
+            PartsFragment.class.getName(),
+            HeadsUpSettings.class.getName(),
+            NavbarSettings.class.getName(),
+            FlingSettings.class.getName(),
+            SmartbarSettings.class.getName(),
+            PulseSettings.class.getName()
+>>>>>>> d24654a... DUI: Initial checkin for Oreo [3/7]
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -294,6 +310,14 @@ public class SettingsGateway {
             Settings.DateTimeSettingsActivity.class.getName(),
             Settings.DeviceInfoSettingsActivity.class.getName(),
             Settings.EnterprisePrivacySettingsActivity.class.getName(),
+<<<<<<< HEAD
             Settings.DotExtrasSettingsActivity.class.getName(),
+=======
+            Settings.ExtensionsSettingsActivity.class.getName(),
+            Settings.NavigationSettingsActivity.class.getName(),
+            Settings.FlingSettingsActivity.class.getName(),
+            Settings.SmartbarSettingsActivity.class.getName(),
+            Settings.PulseSettingsActivity.class.getName()
+>>>>>>> d24654a... DUI: Initial checkin for Oreo [3/7]
     };
 }
