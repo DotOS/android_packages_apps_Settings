@@ -33,10 +33,6 @@
             android:title="@*android:string/bugreport_title"
             android:dialogTitle="@*android:string/bugreport_title" />
 
-    <cyanogenmod.preference.CMSecureSettingSwitchPreference
-            android:key="advanced_reboot"
-            android:title="@string/advanced_reboot_title"
-            android:summary="@string/advanced_reboot_summary" />
     <SwitchPreference
         android:key="theme_force_enabled"
         android:title="@string/theme_force_enabled_title"

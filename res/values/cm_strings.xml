@@ -268,10 +268,6 @@
     <!-- Memory -->
     <string name="memory_startup_apps_title">Apps started on boot</string>
 
-    <!-- Advanced restart options -->
-    <string name="advanced_reboot_title">Advanced restart</string>
-    <string name="advanced_reboot_summary">When unlocked, include options in the power menu for restarting into recovery, bootloader or performing a soft restart</string>
-
     <!-- PIN scramble -->
     <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
     <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
