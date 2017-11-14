@@ -46,14 +46,6 @@
         <org.cyanogenmod.internal.cmparts.CMPartsPreference
             android:key="rotation"
             cm:requiresFeature="android.hardware.sensor.accelerometer" />
-
-        <ListPreference
-            android:key="night_mode"
-            android:title="@string/night_mode_title"
-            settings:keywords="@string/keywords_display_night_mode"
-            android:summary="@string/night_mode_summary"
-            android:entries="@array/night_mode_entries"
-            android:entryValues="@array/night_mode_values" /> 
 		
         <com.android.settings.display.NightDisplayPreference
                 android:key="night_display"
@@ -173,10 +165,15 @@
                 android:title="@string/display_vr_pref_title" />
 
     </PreferenceCategory>
-
         <PreferenceCategory
             android:title="@string/theme_title">
-
+	    <ListPreference
+            android:key="night_mode"
+            android:title="@string/night_mode_title"
+            settings:keywords="@string/keywords_display_night_mode"
+            android:summary="@string/night_mode_summary"
+            android:entries="@array/night_mode_entries"
+            android:entryValues="@array/night_mode_values" />
             <com.android.settings.display.ThemePreference
                 android:key="theme"
                 android:title="@string/theme" />
