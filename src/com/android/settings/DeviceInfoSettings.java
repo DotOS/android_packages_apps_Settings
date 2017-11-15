@@ -82,7 +82,6 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
     private static final String QGP_VERSION_PATH = "/persist/speccfg/qgpversion";
     private static final String KEY_MOD_VERSION = "mod_version";
     private static final String KEY_MOD_BUILD_DATE = "build_date";
-    private static final String DOT_OTA = "ota_trigger";
 
     static final int TAPS_TO_BE_A_DEVELOPER = 7;
 
@@ -123,13 +122,6 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
             setStringSummary(KEY_SECURITY_PATCH, patch);
         } else {
             getPreferenceScreen().removePreference(findPreference(KEY_SECURITY_PATCH));
-        }
-        
-        final String dotOTA = SystemProperties.get("dot.build.type");
-        if (dotOTA == "OFFICIAL") {
-            getPreferenceScreen().addPreference(findPreference(DOT_OTA));
-        } else {
-            getPreferenceScreen().removePreference(findPreference(DOT_OTA));
         }
 
         setValueSummary(KEY_BASEBAND_VERSION, "gsm.version.baseband");

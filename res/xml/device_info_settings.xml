@@ -39,16 +39,17 @@
                 android:fragment="com.android.settings.dot.dotAbout" />
 
         <!-- dotOS OTA -->
-		<PreferenceScreen 
+		<cyanogenmod.preference.SelfRemovingPreference 
 		         android:key="ota_trigger"
 				 android:title="@string/dot_ota_title"
-				 android:summary="@string/dot_ota_summary">
+				 android:summary="@string/dot_ota_summary"
+				 cm:requiresOwner="true"
+                		 cm:requiresPackage="com.ota.updates">
 				 <intent
                      android:action="android.intent.action.MAIN"
                      android:targetPackage="com.ota.updates"
                      android:targetClass="com.ota.updates.activities.MainActivity" />     
-		</PreferenceScreen>
-
+		</cyanogenmod.preference.SelfRemovingPreference>
 		<!-- About phone screen, dotOS version -->
 	<!-- Mod version -->
          <Preference android:key="mod_version"
