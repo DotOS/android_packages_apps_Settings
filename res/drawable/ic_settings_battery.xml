@@ -1,26 +1,25 @@
-<!--
-    Copyright (C) 2016 The Android Open Source Project
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-         http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
--->
+<?xml version="1.0" encoding="utf-8"?>
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
-        android:width="24.0dp"
-        android:height="24.0dp"
-        android:viewportWidth="24.0"
-        android:viewportHeight="24.0"
-        android:tint="?android:attr/colorAccent">
-    <path
-        android:fillColor="#FFFFFFFF"
-        android:pathData="M16,12H8V6H16M16.67,4H15V2H9V4H7.33A1.33,1.33 0 0,0 6,5.33V20.67C6,21.4 6.6,22
-7.33,22H16.67A1.33,1.33 0 0,0 18,20.67V5.33C18,4.6 17.4,4 16.67,4Z" />
+    android:width="99.000000dp"
+    android:height="99.000000dp"
+    android:viewportWidth="99.000000"
+    android:viewportHeight="99.000000">
+
+    <group
+            android:translateY="99.000000"
+            android:scaleX="0.100000"
+            android:scaleY="-0.100000">
+        <path
+            android:fillColor="?android:attr/colorAccent"
+            android:strokeWidth="1"
+            android:pathData="M180 780 l0 -50 -75 0 -75 0 0 -40 0 -40 465 0 465 0 0 40 0 40 -75 0 -75 0 0 50 0
+50 -65 0 -65 0 0 -50 0 -50 -185 0 -185 0 0 50 0 50 -65 0 -65 0 0 -50z" />
+        <path
+            android:fillColor="?android:attr/colorAccent"
+            android:strokeWidth="1"
+            android:pathData="M70 365 l0 -245 425 0 425 0 0 245 0 245 -425 0 -425 0 0 -245z m270 80 l0 -45 40
+0 40 0 0 -55 0 -55 -40 0 -40 0 0 -40 0 -40 -55 0 -55 0 0 40 0 40 -45 0 -45 0 0
+55 0 55 45 0 45 0 0 45 0 45 55 0 55 0 0 -45z m490 -95 l0 -50 -140 0 -140 0 0 50
+0 50 140 0 140 0 0 -50z" />
+    </group>
 </vector>
