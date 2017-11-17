@@ -32,7 +32,7 @@
   <!-- Preference link for root appops -->
   <!-- About phone screen, LineageOS version -->
   <string name="mod_version">সায়ানোজেনমড সংস্করণ</string>
-  <string name="mod_version_default">v1.0</string>
+  <!--string name="mod_version_default">v1.0</string-->
   <!-- About phone screen, Device model -->
   <!-- About phone screen, Device name -->
   <!-- About phone screen, LineageOS Api Level -->
