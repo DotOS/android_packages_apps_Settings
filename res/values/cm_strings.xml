@@ -44,7 +44,7 @@
 
     <!-- About phone screen, LineageOS version -->
     <string name="mod_version">LineageOS version</string>
-    <string name="mod_version_default" translatable="false">v1.1</string>
+    <string name="mod_version_default" translatable="true">v1.1</string>
 
     <!-- About phone screen, Device model -->
     <string name="device_model">Device model</string>
