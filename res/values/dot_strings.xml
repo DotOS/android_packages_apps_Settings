@@ -19,37 +19,37 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- About dotOS -->
     <string name="dot_about_title">About dotOS</string>
     <string name="dot_about_info">ROM</string>
-	<string name="dot_website_title">Our Website</string>
-	<string name="dot_website_summary">Explore dotOS on web</string>
-	<string name="dot_Gplus_title">dotOS Google+ Community</string>
-	<string name="dot_Gplus_summary">Have a Look at Google+ Community :Request new features,Bug Fixes,latest releases and Lots more...</string>
+ 	<string name="dot_website_title">Our Website</string>
+ 	<string name="dot_website_summary">Explore dotOS on web</string>
+ 	<string name="dot_Gplus_title">dotOS Google+ Community</string>
+ 	<string name="dot_Gplus_summary">Have a Look at Google+ Community :Request new features,Bug Fixes,latest releases and Lots more...</string>
     <string name="dot_tg_title">dotOS telegram Community</string>
     <string name="dot_tg_summary">Follow our telegram community for support and updates!</string>
     <string name="dot_about_info_summary">DOT stands for Droid On Time. DOT is based on Lineage OS - which is highly optimized for supreme performance! Our ROM primary goal is to provide Best Optimized Performance for over-all devices running our ROM be it Mid Range or High End - We are here to make your device compete with time itself!......</string>
     <string name="dot_about_devs">Developers</string>
-    <string name="dot_about_dev1_title">MohanCM (mohancm100)</string>
-    <string name="dot_about_dev1_summary">Founder of dotOS/Head Developer./Contributor</string>
+	<string name="dot_about_dev1_title">MohanCM (mohancm100)</string>
+    <string name="dot_about_dev1_summary">Founder of dotOS/Head Developer</string>
     <string name="dot_about_dev2_title">Ganesh Varma (ganeshi4u)</string>
-    <string name="dot_about_dev2_summary">Lead Developer./Contributor</string>
-	<string name="dot_about_mention1_title">Sayan Biswas (Samgr8)</string>
-    <string name="dot_about_mention1_summary">UI Designer/Contributor/Maintainer</string>
+    <string name="dot_about_dev2_summary">Lead Developer</string>
+    <string name="dot_about_mentions">dotOS Team</string>
+  	<string name="dot_about_mention1_title">Sayan Biswas (Samgr8)</string>
+    <string name="dot_about_mention1_summary">UI Designer/Contributor</string>
     <string name="dot_about_mention2_title">Kuber Sharma</string>
-    <string name="dot_about_mention2_summary">Contributor/Designer/Analyst</string>
+    <string name="dot_about_mention2_summary">Contributor</string>
     <string name="dot_about_mention3_title">Hari Ambadi</string>
-    <string name="dot_about_mention3_summary">Logo Designer/Core GFX/Contributor</string>
+    <string name="dot_about_mention3_summary">Logo Designer/Dot Walls</string>
     <string name="dot_about_mention4_title">Iacob Ionut</string>
-    <string name="dot_about_mention4_summary">UI Designer/Contributor/Maintainer</string>
-
+    <string name="dot_about_mention4_summary">UI Designer/Contributor</string>
+	
 	<!-- dot OTA -->
     <string name="dot_ota_title">dotOS OTA</string>
     <string name="dot_ota_summary">System Updates</string>
-
+	
     <!-- About phone screen, dotOS version -->
     <string name="dot_mod_version">dotOS version</string>
-    <string name="mod_version_default" translatable="false">v1.1</string>
+    <string name="mod_version_default" translatable="false">v1.0</string>
 
     <!-- DotExtras -->
     <!-- Dashboard -->
@@ -69,27 +69,15 @@
     <!-- Magisk -->
     <string name="magisk_title">Magisk Manager</string>
     <string name="magisk_summary">Root management</string>
-
+    
     <!-- Substratum -->
     <string name="substratum_title">Substratum</string>
     <string name="substratum_summary">Customize device theme</string>
-
+    
     <!-- Kernel Auditor -->
    <string name="ka_title">Performance</string>
    <string name="ka_summary">Tweak Kernel</string>
-
-   <!-- Sound & display settings screen, setting option name to change the user interface theme [CHAR LIMIT=30] -->
-    <string name="night_mode_title">QSPanel Style</string>
-    <!-- Sound & display settings screen, setting option summary to change the user interface theme [CHAR LIMIT=100] -->
-    <string name="night_mode_summary">%s</string>
-    <!-- Sound & display settings screen, theme setting value to prefer a light-colored user interface [CHAR LIMIT=30] -->
-    <string name="night_mode_no">Dark QuickSettings</string>
-    <!-- Sound & display settings screen, theme setting value to prefer a dark-colored user interface [CHAR LIMIT=30] -->
-    <string name="night_mode_yes">White QuickSettings</string>
-    <!-- Sound & display settings screen, theme setting value to automatically switch between a light- or dark-colored user interface [CHAR LIMIT=30] -->
-    <string name="night_mode_auto">Automatic</string>
-    <string name="keywords_display_night_mode">dark theme night mode dim screen invert brightness</string>
-
+   
     <!-- Color engine -->
     <string name="theme_switch_palette">Switch between primary and accent colors</string>
     <string name="theme_title">Color engine</string>
@@ -116,6 +104,7 @@
 
 	<!-- Actions dialog and default task values set in ActionPreference xml-->
     <string name="dlg_reset_values_message">Reset values to Default?</string>
-
+	
 
 </resources>
+
