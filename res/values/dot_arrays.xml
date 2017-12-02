@@ -20,6 +20,28 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+   <!-- Possible values for user theme in Display Settings.
+         Do not translate. -->
+    <string-array name="night_mode_entries" translatable="false">
+        <!-- Do not translate. -->
+        <item>@string/night_mode_no</item>
+        <!-- Do not translate. -->
+        <item>@string/night_mode_yes</item>
+        <!-- Do not translate. -->
+        <item>@string/night_mode_auto</item>
+    </string-array>
+
+    <!-- These values should match up with the MODE_NIGHT constants in UiModeManager.
+         Do not translate. -->
+    <string-array name="night_mode_values" translatable="false">
+        <!-- Do not translate. -->
+        <item>1</item>
+        <!-- Do not translate. -->
+        <item>2</item>
+        <!-- Do not translate. -->
+        <item>0</item>
+    </string-array>
+
     <!-- Color engine -->
     <integer-array name="primary_colors">
         <item>@*android:color/primary_device_default_settings</item>

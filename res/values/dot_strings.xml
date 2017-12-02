@@ -19,6 +19,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- About dotOS -->
     <string name="dot_about_title">About dotOS</string>
     <string name="dot_about_info">ROM</string>
  	<string name="dot_website_title">Our Website</string>
@@ -42,19 +43,19 @@
     <string name="dot_about_mention3_summary">Logo Designer/Dot Walls</string>
     <string name="dot_about_mention4_title">Iacob Ionut</string>
     <string name="dot_about_mention4_summary">UI Designer/Contributor</string>
-	
+
 	<!-- dot OTA -->
     <string name="dot_ota_title">dotOS OTA</string>
     <string name="dot_ota_summary">System Updates</string>
-
-    <!-- dotOS Changelog -->
+	
+	<!-- dotOS Changelog -->
     <string name="changelog_dot_title">Changelog</string>
     <string name="changelog_dot_error">Unable to load changelog</string>
     <string name="changelog_dot_summary">Check changes in current build</string>
 	
     <!-- About phone screen, dotOS version -->
     <string name="dot_mod_version">dotOS version</string>
-    <string name="mod_version_default" translatable="false">v1.0</string>
+    <string name="mod_version_default" translatable="false">v1.1</string>
 
     <!-- DotExtras -->
     <!-- Dashboard -->
@@ -74,15 +75,27 @@
     <!-- Magisk -->
     <string name="magisk_title">Magisk Manager</string>
     <string name="magisk_summary">Root management</string>
-    
+
     <!-- Substratum -->
     <string name="substratum_title">Substratum</string>
     <string name="substratum_summary">Customize device theme</string>
-    
+
     <!-- Kernel Auditor -->
    <string name="ka_title">Performance</string>
    <string name="ka_summary">Tweak Kernel</string>
-   
+
+   <!-- Sound & display settings screen, setting option name to change the user interface theme [CHAR LIMIT=30] -->
+    <string name="night_mode_title">QSPanel Style</string>
+    <!-- Sound & display settings screen, setting option summary to change the user interface theme [CHAR LIMIT=100] -->
+    <string name="night_mode_summary">%s</string>
+    <!-- Sound & display settings screen, theme setting value to prefer a light-colored user interface [CHAR LIMIT=30] -->
+    <string name="night_mode_no">Dark QuickSettings</string>
+    <!-- Sound & display settings screen, theme setting value to prefer a dark-colored user interface [CHAR LIMIT=30] -->
+    <string name="night_mode_yes">White QuickSettings</string>
+    <!-- Sound & display settings screen, theme setting value to automatically switch between a light- or dark-colored user interface [CHAR LIMIT=30] -->
+    <string name="night_mode_auto">Automatic</string>
+    <string name="keywords_display_night_mode">dark theme night mode dim screen invert brightness</string>
+
     <!-- Color engine -->
     <string name="theme_switch_palette">Switch between primary and accent colors</string>
     <string name="theme_title">Color engine</string>
@@ -109,7 +122,6 @@
 
 	<!-- Actions dialog and default task values set in ActionPreference xml-->
     <string name="dlg_reset_values_message">Reset values to Default?</string>
-	
+
 
 </resources>
-
