@@ -103,7 +103,7 @@
     <!-- Maintainers -->
     <PreferenceCategory
         android:key="category_dot_about_maintainers"
-        android:title="@string/dot_about_mainrainers">
+        android:title="@string/dot_about_maintainers">
 
     		<PreferenceScreen
         		android:title="@string/dot_about_dev1"
