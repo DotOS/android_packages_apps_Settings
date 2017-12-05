@@ -50,6 +50,8 @@
     <string name="dot_about_dev1_device">Lenovo P2</string>
 	<string name="dot_about_dev2">Iacob Ionut</string>
 	<string name="dot_about_dev2_device">Xiaomi Redmi Note 4X</string>
+    <string name="dot_about_dev3">Izaq Kull(iykeDROID™)</string>
+    <string name="dot_about_dev3_device">Motorola Moto E4(woods)</string>
 
 	<!-- dot OTA -->
     <string name="dot_ota_title">dotOS OTA</string>
