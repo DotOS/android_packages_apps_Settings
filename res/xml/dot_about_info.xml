@@ -99,4 +99,27 @@
         android:data="https://t.me/iacobionut" />
     </PreferenceScreen>
     </PreferenceCategory>
+
+    <!-- Maintainers -->
+    <PreferenceCategory
+        android:key="category_dot_about_maintainers"
+        android:title="@string/dot_about_mainrainers">
+
+    		<PreferenceScreen
+        		android:title="@string/dot_about_dev1"
+        		android:summary="@string/dot_about_dev1_device" >
+    		<intent
+        		android:action="android.intent.action.VIEW"
+        		android:data="https://t.me/red_king1" />
+    		</PreferenceScreen>
+			
+			<PreferenceScreen
+        		android:title="@string/dot_about_dev2"
+        		android:summary="@string/dot_about_dev2_device" >
+    		<intent
+        		android:action="android.intent.action.VIEW"
+        		android:data="https://t.me/iacobionut" />
+    		</PreferenceScreen>
+
+    </PreferenceCategory>
 </PreferenceScreen>
