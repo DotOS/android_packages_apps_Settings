@@ -18,10 +18,6 @@
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
         android:key="development_prefs_screen"
         android:title="@string/development_settings_title">
-    <com.android.settings.BugreportPreference
-            android:key="bugreport"
-            android:title="@*android:string/bugreport_title"
-            android:dialogTitle="@*android:string/bugreport_title" />
 
     <Preference
             android:key="local_backup_password"
@@ -114,11 +110,6 @@
             android:key="enable_terminal"
             android:title="@string/enable_terminal_title"
             android:summary="@string/enable_terminal_summary" />
-
-        <SwitchPreference
-            android:key="bugreport_in_power"
-            android:title="@string/bugreport_in_power"
-            android:summary="@string/bugreport_in_power_summary"/>
 
         <Preference android:key="mock_location_app"
             android:title="@string/mock_location_app" />
