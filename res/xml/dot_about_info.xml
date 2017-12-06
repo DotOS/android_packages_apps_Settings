@@ -128,6 +128,14 @@
         		android:action="android.intent.action.VIEW"
         		android:data="https://t.me/agrd1129" />
     		</PreferenceScreen>
+	    
+	        <PreferenceScreen
+        		android:title="@string/dot_about_dev4"
+        		android:summary="@string/dot_about_dev4_device" >
+    		<intent
+        		android:action="android.intent.action.VIEW"
+        		android:data="https://t.me/psycho_mods" />
+    		</PreferenceScreen>
 
     </PreferenceCategory>
 </PreferenceScreen>
