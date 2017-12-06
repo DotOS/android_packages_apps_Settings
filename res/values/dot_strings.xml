@@ -47,7 +47,7 @@
     <!-- device maintainers -->
     <string name="dot_about_maintainers">Device Maintainers</string>
     <string name="dot_about_dev1">Abhay Ruparel</string>
-    <string name="dot_about_dev1_device">Lenovo P2</string>
+    <string name="dot_about_dev1_device">Lenovo P2 (kuntao)</string>
 	<string name="dot_about_dev2">Iacob Ionut</string>
 	<string name="dot_about_dev2_device">Xiaomi Redmi Note 4X</string>
 
