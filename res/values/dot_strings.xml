@@ -54,6 +54,8 @@
     <string name="dot_about_dev3_device">Yu Yuphoria (Lettuce)</string>
     <string name="dot_about_dev4">Psycho Mods</string>
     <string name="dot_about_dev4_device">LeEco Le 1s (x3)</string>
+    <string name="dot_about_dev5">Izaq Kull (iykeDROID™)</string>
+    <string name="dot_about_dev5_device">Motorola Moto E4 (woods)</string>
 
 	<!-- dot OTA -->
     <string name="dot_ota_title">dotOS OTA</string>
