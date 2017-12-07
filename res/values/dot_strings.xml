@@ -61,10 +61,12 @@
     <string name="dot_about_dev6_device">Motorola Moto E4 (woods)</string>
     <string name="dot_about_dev7">Dhanush Krishnan</string>
     <string name="dot_about_dev7_device">OnePlus 3/3T</string> 
-<string name="dot_about_dev8">Anshuman Mishra</string>
-<string name="dot_about_dev8_device">Moto G5+ (Potter)</string>
-	
-    <!-- dot OTA -->
+    <string name="dot_about_dev8">Anshuman Mishra</string>
+    <string name="dot_about_dev8_device">Moto G5+ (Potter)</string>
+    <string name="dot_about_dev8">Shamith</string>
+    <string name="dot_about_dev8_device">Xiaomi Redmi Note 3 Pro(kenzo)</string>
+    
+<!-- dot OTA -->
     <string name="dot_ota_title">dotOS OTA</string>
     <string name="dot_ota_summary">System Updates</string>
 	
@@ -145,3 +147,4 @@
 
 
 </resources>
+
