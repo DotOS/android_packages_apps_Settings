@@ -47,6 +47,7 @@
     <!-- device maintainers -->
     <string name="dot_about_maintainers">Device Maintainers</string>
     <string name="dot_about_dev1">Abhay Ruparel</string>
+    <string name="dot_about_dev1_device">Lenovo P2</string>
     <string name="dot_about_dev1_device">Lenovo P2 (kuntao)</string>
     <string name="dot_about_dev2">Iacob Ionut</string>
     <string name="dot_about_dev2_device">Xiaomi Redmi Note 4X</string>
@@ -56,6 +57,8 @@
     <string name="dot_about_dev4_device">LeEco Le 1s (x3)</string>
     <string name="dot_about_dev5">Zilberto Junior</string>
     <string name="dot_about_dev5_device">Moto G 2015</string>
+    <string name="dot_about_dev6">Izaq Kull (iykeDROID™)</string>
+    <string name="dot_about_dev6_device">Motorola Moto E4 (woods)</string>
 	
     <!-- dot OTA -->
     <string name="dot_ota_title">dotOS OTA</string>
