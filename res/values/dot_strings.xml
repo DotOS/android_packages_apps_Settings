@@ -59,6 +59,8 @@
     <string name="dot_about_dev5_device">Moto G 2015</string>
     <string name="dot_about_dev6">Izaq Kull (iykeDROID™)</string>
     <string name="dot_about_dev6_device">Motorola Moto E4 (woods)</string>
+    <string name="dot_about_dev7">Dhanush Krishnan</string>
+    <string name="dot_about_dev7_device">OnePlus 3/3T</string> 
 	
     <!-- dot OTA -->
     <string name="dot_ota_title">dotOS OTA</string>
