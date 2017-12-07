@@ -103,7 +103,7 @@
     <!-- Maintainers -->
     <PreferenceCategory
         android:key="category_dot_about_maintainers"
-        android:title="@string/dot_about_mainrainers">
+        android:title="@string/dot_about_maintainers">
 
     		<PreferenceScreen
         		android:title="@string/dot_about_dev1"
@@ -120,7 +120,23 @@
         		android:action="android.intent.action.VIEW"
         		android:data="https://t.me/iacobionut" />
     		</PreferenceScreen>
-	
+	    
+	        <PreferenceScreen
+        		android:title="@string/dot_about_dev3"
+        		android:summary="@string/dot_about_dev3_device" >
+    		<intent
+        		android:action="android.intent.action.VIEW"
+        		android:data="https://t.me/agrd1129" />
+    		</PreferenceScreen>
+	    
+	        <PreferenceScreen
+        		android:title="@string/dot_about_dev4"
+        		android:summary="@string/dot_about_dev4_device" >
+    		<intent
+        		android:action="android.intent.action.VIEW"
+        		android:data="https://t.me/psycho_mods" />
+    		</PreferenceScreen>
+      
 	    	<PreferenceScreen
         		android:title="@string/dot_about_dev5"
         		android:summary="@string/dot_about_dev5_device" >
@@ -128,6 +144,6 @@
         		android:action="android.intent.action.VIEW"
         		android:data="https://t.me/izaqKull" />
     		</PreferenceScreen>	
-	    
+      
     </PreferenceCategory>
 </PreferenceScreen>
