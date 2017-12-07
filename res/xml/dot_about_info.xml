@@ -138,15 +138,15 @@
     		</PreferenceScreen>
       
 	    	<PreferenceScreen      		
-          android:title="@string/dot_about_dev5"
-          android:summary="@string/dot_about_dev5_device" >
+          	android:title="@string/dot_about_dev5"
+          	android:summary="@string/dot_about_dev5_device" >
                 <intent
                         android:action="android.intent.action.VIEW"
                         android:data="https://t.me/ZJRDroid" />             
-        </PreferenceScreen>
+        	</PreferenceScreen>
       
-      <PreferenceScreen
-        android:title="@string/dot_about_dev6"
+      		<PreferenceScreen
+        		android:title="@string/dot_about_dev6"
         		android:summary="@string/dot_about_dev6_device" >
     		<intent
         		android:action="android.intent.action.VIEW"
@@ -154,8 +154,8 @@
     		</PreferenceScreen>	
 
                 <PreferenceScreen
-                        android:title="@string/dot_about_dev5"
-                        android:summary="@string/dot_about_dev5_device" >
+                        android:title="@string/dot_about_dev7"
+                        android:summary="@string/dot_about_dev7_device" >
                 <intent
                         android:action="android.intent.action.VIEW"
                         android:data="https://t.me/ded_boi" />
