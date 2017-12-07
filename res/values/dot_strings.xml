@@ -47,7 +47,6 @@
     <!-- device maintainers -->
     <string name="dot_about_maintainers">Device Maintainers</string>
     <string name="dot_about_dev1">Abhay Ruparel</string>
-    <string name="dot_about_dev1_device">Lenovo P2</string>
     <string name="dot_about_dev1_device">Lenovo P2 (kuntao)</string>
     <string name="dot_about_dev2">Iacob Ionut</string>
     <string name="dot_about_dev2_device">Xiaomi Redmi Note 4X</string>
@@ -65,7 +64,10 @@
     <string name="dot_about_dev8_device">Moto G5+ (Potter)</string>
     <string name="dot_about_dev8">Shamith</string>
     <string name="dot_about_dev8_device">Xiaomi Redmi Note 3 Pro(kenzo)</string>
-    
+    <string name="dot_about_dev10">ATechnoHazard</string>
+    <string name="dot_about_dev10_device">Moto G5 (Cedric)</string>    
+    <!--Something is fishy here for sure-->
+
 <!-- dot OTA -->
     <string name="dot_ota_title">dotOS OTA</string>
     <string name="dot_ota_summary">System Updates</string>
