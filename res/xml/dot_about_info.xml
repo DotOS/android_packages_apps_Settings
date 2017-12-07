@@ -161,5 +161,12 @@
                         android:data="https://t.me/ded_boi" />
                 </PreferenceScreen>
 
+	<PreferenceScreen
+        		android:title="@string/dot_about_dev8"
+        		android:summary="@string/dot_about_dev8_device" >
+    		<intent
+        		android:action="android.intent.action.VIEW"
+        		android:data="https://t.me/anshuman852" />
+    		</PreferenceScreen>
     </PreferenceCategory>
 </PreferenceScreen>
