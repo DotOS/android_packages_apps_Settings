@@ -65,7 +65,11 @@
     <string name="dot_about_dev9">Shamith</string>
     <string name="dot_about_dev9_device">Xiaomi Redmi Note 3 Pro(kenzo)</string>
     <string name="dot_about_dev10">ATechnoHazard</string>
-    <string name="dot_about_dev10_device">Moto G5 (Cedric)</string>    
+    <string name="dot_about_dev10_device">Moto G5 (Cedric)</string>
+    <string name="dot_about_dev11">Nikesh Kataria</string>
+    <string name="dot_about_dev11_device">Redmi 4X (santoni)</string>
+    <string name="dot_about_dev12">Nikesh Kataria</string>
+    <string name="dot_about_dev12_device">Redmi 4A (Rolex)</string>
     <!--Something is fishy here for sure-->
 
 <!-- dot OTA -->
