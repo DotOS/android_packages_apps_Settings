@@ -201,5 +201,13 @@
                         android:data="https://t.me/Nikesh001" />
                 </PreferenceScreen>
 
+	        <PreferenceScreen
+        		android:title="@string/dot_about_dev13"
+        		android:summary="@string/dot_about_dev13_device" >
+    		<intent
+        		android:action="android.intent.action.VIEW"
+        		android:data="https://t.me/milki11" />
+    		</PreferenceScreen>
+	    
     </PreferenceCategory>
 </PreferenceScreen>
