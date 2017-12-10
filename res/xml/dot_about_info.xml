@@ -215,6 +215,7 @@
                 <intent
                         android:action="android.intent.action.VIEW"
                         android:data="https://t.me/Rk585" />
+		</PreferenceScreen>
 
 	        <PreferenceScreen
         		android:title="@string/dot_about_dev15"
