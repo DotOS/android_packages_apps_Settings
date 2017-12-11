@@ -15,13 +15,36 @@
        limitations under the License.
   -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:width="24dp"
-    android:height="24dp"
+    android:width="48dp"
+    android:height="48dp"
     android:viewportWidth="48"
     android:viewportHeight="48">
 
     <path
-        android:fillColor="@*com.android.settings:color/icon_accent"
-        android:pathData="M8 16h8V8H8v8zm12 24h8v-8h-8v8zM8 40h8v-8H8v8zm0-12h8v-8H8v8zm12 0h8v-8h-8v8zM32
-8v8h8V8h-8zm-12 8h8V8h-8v8zm12 12h8v-8h-8v8zm0 12h8v-8h-8v8z" />
+        android:fillColor="?android:attr/colorAccent"
+        android:pathData="M 7.5 2.3 C 10.648023074 2.3 13.2 4.85197692596 13.2 8 C 13.2 11.148023074 10.648023074 13.7 7.5 13.7 C 4.35197692596 13.7 1.8 11.148023074 1.8 8 C 1.8 4.85197692596 4.35197692596 2.3 7.5 2.3 Z" />
+    <path
+        android:fillColor="?android:attr/colorAccent"
+        android:pathData="M 24 2.3 C 27.148023074 2.3 29.7 4.85197692596 29.7 8 C 29.7 11.148023074 27.148023074 13.7 24 13.7 C 20.851976926 13.7 18.3 11.148023074 18.3 8 C 18.3 4.85197692596 20.851976926 2.3 24 2.3 Z" />
+    <path
+        android:fillColor="?android:attr/colorAccent"
+        android:pathData="M 40.5 2.3 C 43.648023074 2.3 46.2 4.85197692596 46.2 8 C 46.2 11.148023074 43.648023074 13.7 40.5 13.7 C 37.351976926 13.7 34.8 11.148023074 34.8 8 C 34.8 4.85197692596 37.351976926 2.3 40.5 2.3 Z" />
+    <path
+        android:fillColor="?android:attr/colorAccent"
+        android:pathData="M 40.5 18.3 C 43.648023074 18.3 46.2 20.851976926 46.2 24 C 46.2 27.148023074 43.648023074 29.7 40.5 29.7 C 37.351976926 29.7 34.8 27.148023074 34.8 24 C 34.8 20.851976926 37.351976926 18.3 40.5 18.3 Z" />
+    <path
+        android:fillColor="?android:attr/colorAccent"
+        android:pathData="M 24 18.3 C 27.148023074 18.3 29.7 20.851976926 29.7 24 C 29.7 27.148023074 27.148023074 29.7 24 29.7 C 20.851976926 29.7 18.3 27.148023074 18.3 24 C 18.3 20.851976926 20.851976926 18.3 24 18.3 Z" />
+    <path
+        android:fillColor="?android:attr/colorAccent"
+        android:pathData="M 7.5 18.3 C 10.648023074 18.3 13.2 20.851976926 13.2 24 C 13.2 27.148023074 10.648023074 29.7 7.5 29.7 C 4.35197692596 29.7 1.8 27.148023074 1.8 24 C 1.8 20.851976926 4.35197692596 18.3 7.5 18.3 Z" />
+    <path
+        android:fillColor="?android:attr/colorAccent"
+        android:pathData="M 7.5 34.3 C 10.648023074 34.3 13.2 36.851976926 13.2 40 C 13.2 43.148023074 10.648023074 45.7 7.5 45.7 C 4.35197692596 45.7 1.8 43.148023074 1.8 40 C 1.8 36.851976926 4.35197692596 34.3 7.5 34.3 Z" />
+    <path
+        android:fillColor="?android:attr/colorAccent"
+        android:pathData="M 24 34.3 C 27.148023074 34.3 29.7 36.851976926 29.7 40 C 29.7 43.148023074 27.148023074 45.7 24 45.7 C 20.851976926 45.7 18.3 43.148023074 18.3 40 C 18.3 36.851976926 20.851976926 34.3 24 34.3 Z" />
+    <path
+        android:fillColor="?android:attr/colorAccent"
+        android:pathData="M 40.5 34.3 C 43.648023074 34.3 46.2 36.851976926 46.2 40 C 46.2 43.148023074 43.648023074 45.7 40.5 45.7 C 37.351976926 45.7 34.8 43.148023074 34.8 40 C 34.8 36.851976926 37.351976926 34.3 40.5 34.3 Z" />
 </vector>

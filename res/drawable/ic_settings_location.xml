@@ -15,14 +15,26 @@
        limitations under the License.
   -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:width="24dp"
-    android:height="24dp"
+    android:width="48dp"
+    android:height="48dp"
     android:viewportWidth="48"
     android:viewportHeight="48">
 
     <path
-        android:fillColor="@*com.android.settings:color/icon_accent"
-        android:pathData="M24 4c-7.73 0-14 6.27-14 14 0 10.5 14 26 14 26s14-15.5
-14-26c0-7.73-6.27-14-14-14zm0 19c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24
-5-5 5z" />
+        android:pathData="M24.5,4.7c-3.4,0-6.5,1.3-8.9,3.7c-4.5,4.5-5,12.9-1.2,18l9.2,13.3c0.4,0.6,1.3,0.6,1.7,0l9.2-13.2
+c3.9-5.2,3.4-13.6-1.1-18.1C31,6,27.9,4.7,24.5,4.7z
+M24.7,23.5c-3.1,0-5.6-2.5-5.6-5.6c0-3.1,2.5-5.6,5.6-5.6
+c3.1,0,5.6,2.5,5.6,5.6C30.3,21,27.8,23.5,24.7,23.5z" />
+    <path
+        android:fillColor="?android:attr/colorAccent"
+        android:pathData="M36.4,5.4c-3.2-3.2-7.4-5-11.9-5s-8.7,1.7-11.9,4.9C6.8,11.2,6,22.2,11,28.8l12.6,18.3c0.4,0.6,1.3,0.6,1.7,0
+L38,28.9C43,22.2,42.3,11.2,36.4,5.4z
+M34.5,26.5l-9.2,13.2c-0.4,0.6-1.3,0.6-1.7,0l-9.2-13.3c-3.8-5.1-3.3-13.5,1.2-18
+C18,6,21.1,4.7,24.5,4.7S31,6,33.4,8.4C37.9,12.9,38.4,21.3,34.5,26.5z" />
+    <path
+        android:fillColor="?android:attr/colorAccent"
+        android:pathData="M24.7,12.3c-3.1,0-5.6,2.5-5.6,5.6c0,3.1,2.5,5.6,5.6,5.6c3.1,0,5.6-2.5,5.6-5.6
+C30.3,14.8,27.8,12.3,24.7,12.3z
+M24.7,19c-0.6,0-1.1-0.5-1.1-1.1c0-0.6,0.5-1.1,1.1-1.1c0.6,0,1.1,0.5,1.1,1.1
+C25.8,18.5,25.3,19,24.7,19z" />
 </vector>

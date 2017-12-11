@@ -15,15 +15,16 @@
        limitations under the License.
   -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:width="24dp"
-    android:height="24dp"
+    android:width="48dp"
+    android:height="48dp"
     android:viewportWidth="48"
     android:viewportHeight="48">
 
     <path
-        android:fillColor="@*com.android.settings:color/icon_accent"
-        android:pathData="M24 11.8c2.32 0 4.2 1.88 4.2 4.2s-1.88 4.2-4.2 4.2-4.2-1.88-4.2-4.2 1.88-4.2
-4.2-4.2m0 18c5.95 0 12.2 2.91 12.2 4.2v2.2H11.8V34c0-1.29 6.25-4.2 12.2-4.2M24
-8c-4.42 0-8 3.58-8 8 0 4.41 3.58 8 8 8s8-3.59 8-8c0-4.42-3.58-8-8-8zm0 18c-5.33
-0-16 2.67-16 8v6h32v-6c0-5.33-10.67-8-16-8z" />
+        android:fillColor="?android:attr/colorAccent"
+        android:pathData="M24,0.3C10.9,0.3,0.3,10.9,0.3,24c0,13.1,10.6,23.7,23.7,23.7S47.7,37.1,47.7,24C47.7,10.9,37.1,0.3,24,0.3z
+M24,42.4c-10.2,0-18.5-8.3-18.5-18.5C5.5,13.7,13.8,5.4,24,5.4s18.5,8.3,18.5,18.5C42.5,34.1,34.2,42.4,24,42.4z" />
+    <path
+        android:fillColor="?android:attr/colorAccent"
+        android:pathData="M 36.8 21.2 L 26.8 21.2 L 26.8 11.2 L 21.2 11.2 L 21.2 21.2 L 11.3 21.2 L 11.3 26.8 L 21.2 26.8 L 21.2 36.7 L 26.8 36.7 L 26.8 26.8 L 36.8 26.8 Z" />
 </vector>
