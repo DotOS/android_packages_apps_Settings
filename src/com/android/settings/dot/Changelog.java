@@ -16,49 +16,53 @@
 
 package com.android.settings.dot;
 
-import android.app.Fragment;
-import android.os.Bundle;
 import android.graphics.Color;
 import android.graphics.Typeface;
+import android.os.Bundle;
+import android.support.v4.content.res.ResourcesCompat;
 import android.text.Spannable;
 import android.text.SpannableStringBuilder;
 import android.text.style.ForegroundColorSpan;
 import android.text.style.StyleSpan;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
+import com.android.internal.logging.MetricsProto.MetricsEvent;
 import com.android.settings.R;
+import com.android.settings.SettingsPreferenceFragment;
 
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.regex.Pattern;
 import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
-public class Changelog extends Fragment {
+public class Changelog extends SettingsPreferenceFragment {
 
     private static final String CHANGELOG_PATH = "/system/etc/Changelog.txt";
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                 Bundle savedInstanceState) {
+
         InputStreamReader inputReader = null;
         String text = null;
         StringBuilder data = new StringBuilder();
-        Pattern p = Pattern.compile("([a-f0-9]{7})\\s\\s(.*)\\s\\s\\[(.*)\\]"); //(?dms)
-        Pattern p2 = Pattern.compile("\\s+\\*\\s(([\\w_\\-]+/)+)");
-        Pattern p3 = Pattern.compile("(\\d\\d\\-\\d\\d\\-\\d{4})");
+
+        Pattern date = Pattern.compile("(={20}|\\d{4}-\\d{2}-\\d{2})");
+        Pattern commit = Pattern.compile("([a-f0-9]{7})");
+        Pattern committer = Pattern.compile("\\[(\\D.*?)]");
+        Pattern title = Pattern.compile("([\\*].*)");
+
         try {
             char tmp[] = new char[2048];
             int numRead;
 
             inputReader = new FileReader(CHANGELOG_PATH);
             while ((numRead = inputReader.read(tmp)) >= 0) {
-
                 data.append(tmp, 0, numRead);
             }
             text = data.toString();
@@ -74,21 +78,27 @@ public class Changelog extends Fragment {
         }
 
         SpannableStringBuilder sb = new SpannableStringBuilder(data);
-        Matcher m = p.matcher(data);
+        Matcher m = date.matcher(data);
         while (m.find()){
-          sb.setSpan(new ForegroundColorSpan(Color.rgb(244,194,13)),m.start(1), m.end(1), Spannable.SPAN_INCLUSIVE_INCLUSIVE);
-          sb.setSpan(new StyleSpan(Typeface.BOLD),m.start(1),m.end(1),Spannable.SPAN_INCLUSIVE_INCLUSIVE);
-          sb.setSpan(new ForegroundColorSpan(Color.rgb(219,50,54)),m.start(3), m.end(3), Spannable.SPAN_INCLUSIVE_INCLUSIVE);
+            sb.setSpan(new ForegroundColorSpan(ResourcesCompat.getColor(getResources(), R.color.accent_device_default_light, getActivity().getTheme())), m.start(1), m.end(1), Spannable.SPAN_INCLUSIVE_INCLUSIVE);
+            sb.setSpan(new StyleSpan(Typeface.BOLD), m.start(1), m.end(1), Spannable.SPAN_INCLUSIVE_INCLUSIVE);
         }
-        m = p2.matcher(data);
+        m = commit.matcher(data);
         while (m.find()){
-          sb.setSpan(new StyleSpan(Typeface.BOLD),m.start(1), m.end(1), Spannable.SPAN_INCLUSIVE_INCLUSIVE);
-          sb.setSpan(new ForegroundColorSpan(Color.rgb(66,133,244)),m.start(1),m.end(1),Spannable.SPAN_INCLUSIVE_INCLUSIVE);
+            sb.setSpan(new ForegroundColorSpan(ResourcesCompat.getColor(getResources(), R.color.secondary_device_default_settings, getActivity().getTheme())), m.start(1), m.end(1), Spannable.SPAN_INCLUSIVE_INCLUSIVE);
+            sb.setSpan(new StyleSpan(Typeface.BOLD), m.start(1), m.end(1), Spannable.SPAN_INCLUSIVE_INCLUSIVE);
         }
-        m = p3.matcher(data);
+        m = committer.matcher(data);
         while (m.find()){
-          sb.setSpan(new StyleSpan(Typeface.BOLD+Typeface.ITALIC),m.start(1), m.end(1), Spannable.SPAN_INCLUSIVE_INCLUSIVE);
+            sb.setSpan(new ForegroundColorSpan(ResourcesCompat.getColor(getResources(), R.color.secondary_device_default_settings, getActivity().getTheme())), m.start(1), m.end(1), Spannable.SPAN_INCLUSIVE_INCLUSIVE);
+            sb.setSpan(new StyleSpan(Typeface.ITALIC), m.start(1), m.end(1), Spannable.SPAN_INCLUSIVE_INCLUSIVE);
         }
+        m = title.matcher(data);
+        while (m.find()){
+            sb.setSpan(new ForegroundColorSpan(ResourcesCompat.getColor(getResources(), R.color.accent_device_default_light, getActivity().getTheme())), m.start(1), m.end(1), Spannable.SPAN_INCLUSIVE_INCLUSIVE);
+            sb.setSpan(new StyleSpan(Typeface.BOLD), m.start(1), m.end(1), Spannable.SPAN_INCLUSIVE_INCLUSIVE);
+        }
+
         final TextView textView = new TextView(getActivity());
         textView.setText(sb);
 
@@ -97,4 +107,9 @@ public class Changelog extends Fragment {
 
         return scrollView;
     }
-}
+
+    @Override
+    public int getMetricsCategory() {
+        return MetricsEvent.DOT_EXTRAS;
+    }
+} 
