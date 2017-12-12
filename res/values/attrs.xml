@@ -147,16 +147,4 @@
         <attr name="aspectRatio" format="float" />
     </declare-styleable>
 
-	 <!-- For CustomSeekBarPreference -->
-	<declare-styleable name="CustomSeekBarPreference">
-        <attr name="min" format="float" />
-        <attr name="max" format="float" />
-        <attr name="defaultVal" format="integer" />
-        <attr name="minimum" format="integer" />
-        <attr name="unitsLeft" format="string" />
-        <attr name="unitsRight" format="string" />
-        <attr name="interval" format="integer" />
-        <attr name="units" format="string|reference" />
-    </declare-styleable>
-	
 </resources>
