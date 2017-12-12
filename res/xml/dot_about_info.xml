@@ -264,6 +264,12 @@
                         android:action="android.intent.action.VIEW"
                         android:data="https://t.me/bala03" />
                 </PreferenceScreen>
-	    
+	    <PreferenceScreen
+                        android:title="@string/dot_about_dev21"
+                        android:summary="@string/dot_about_dev21_device" >
+                <intent
+                        android:action="android.intent.action.VIEW"
+                        android:data="https://t.me/thakurfazer55" />
+                </PreferenceScreen>	    
     </PreferenceCategory>
 </PreferenceScreen>
