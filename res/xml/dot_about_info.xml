@@ -290,6 +290,13 @@
                 <intent
                         android:action="android.intent.action.VIEW"
                         android:data="https://t.me/XTutorials" />
-                </PreferenceScreen>	    
+                </PreferenceScreen>
+            <PreferenceScreen
+                        android:title="@string/dot_about_dev23"
+                        android:summary="@string/dot_about_dev23_device" >
+               <intent
+                        android:action="android.intent.action.VIEW"
+                        android:data="https://t.me/Mcube3" />
+               </PreferenceScreen>	    
     </PreferenceCategory>
 </PreferenceScreen>
