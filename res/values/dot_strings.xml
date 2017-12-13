@@ -44,6 +44,11 @@
     <string name="dot_about_mention4_title">Iacob Ionut</string>
     <string name="dot_about_mention4_summary">UI Designer/Contributor</string>
 
+    <!-- Contributors -->
+    <string name="dot_about_contributors">Our Contributors</string>
+    <string name="dot_about_cont1">Bauuuuu</string>
+    <string name="dot_about_cont1_summary">contributor(Jenkins Server)</string>
+
     <!-- device maintainers -->
     <string name="dot_about_maintainers">Device Maintainers</string>
     <string name="dot_about_dev1">Abhay Ruparel</string>

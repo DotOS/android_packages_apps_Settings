@@ -100,6 +100,19 @@
     </PreferenceScreen>
     </PreferenceCategory>
 
+    <!-- Contributors -->
+    <PreferenceCategory
+        android:key="category_dot_about_contributors"
+        android:title="@string/dot_about_contributors">
+
+    <PreferenceScreen
+        android:title="@string/dot_about_cont1_title"
+        android:summary="@string/dot_about_cont1_summary">
+     <intent
+        android:action="android.intent.action.VIEW"
+        android:data="https://t.me/B_auuuuu" />
+    </PreferenceScreen>
+
     <!-- Maintainers -->
     <PreferenceCategory
         android:key="category_dot_about_maintainers"
