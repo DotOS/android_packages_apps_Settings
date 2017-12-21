@@ -103,7 +103,9 @@
     <string name="dot_about_dev27">Mr.AK</string>
     <string name="dot_about_dev27_device">Bacon</string>
     <string name="dot_about_dev28">Rohan Taneja</string>
-    <string name="dot_about_dev28_device">aio_row</string>   
+    <string name="dot_about_dev28_device">aio_row</string>  
+    <string name="dot_about_dev29">Siddharth Raj</string>  
+    <string name="dot_about_dev29">Redmi 2/Prime</string>
  
     <!--Something is fishy here for sure-->
 
@@ -188,4 +190,3 @@
     <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN is entered\nNote: will only work for 4 digit PIN !</string>
 
 </resources>
-
