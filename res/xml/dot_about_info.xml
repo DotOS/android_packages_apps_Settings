@@ -334,5 +334,12 @@
                         android:action="android.intent.action.VIEW"
                       	android:data="https://t.me/iamsidofficial" />
                 </PreferenceScreen>
+	    <PreferenceScreen
+                        android:title="@string/dot_about_dev30"
+                        android:summary="@string/dot_about_dev30_device" >
+                <intent
+                        android:action="android.intent.action.VIEW"
+                      	android:data="https://t.me/Sakil_Mondal" />
+                </PreferenceScreen>
     </PreferenceCategory>
 </PreferenceScreen>
