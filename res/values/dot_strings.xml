@@ -110,7 +110,8 @@
     <string name="dot_about_dev30_device">Asus Zenfone Max (Z010D)</string>
     <string name="dot_about_dev31">Aayush Gupta(TheImpulson)</string>  
     <string name="dot_about_dev31_device">Asus Zenfone 2 Laser/Selfie (Z00T)</string>
- 
+     <string name="dot_about_dev32">Ahmed Rahmy (Mysteryagr)</string>
+    <string name="dot_about_dev32_device">Motorola Moto C (namath)</string>
     <!--Something is fishy here for sure-->
 
 <!-- dot OTA -->
