@@ -112,6 +112,8 @@
     <string name="dot_about_dev31_device">Asus Zenfone 2 Laser/Selfie (Z00T)</string>
      <string name="dot_about_dev32">Ahmed Rahmy (Mysteryagr)</string>
     <string name="dot_about_dev32_device">Motorola Moto C (namath)</string>
+     <string name="dot_about_dev33">VenkatVV (venkyholmes)</string>
+    <string name="dot_about_dev33_device">oneplus2</string>
     <!--Something is fishy here for sure-->
 
 <!-- dot OTA -->
