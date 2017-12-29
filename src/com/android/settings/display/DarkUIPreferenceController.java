@@ -16,18 +16,21 @@ package com.android.settings.display;
 import android.content.Context;
 import android.content.ContentResolver;
 import android.os.Bundle;
+import android.content.Intent;
 import android.text.TextUtils;
 import android.support.v7.preference.ListPreference;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceScreen;
 import android.provider.Settings;
 
+import com.android.settings.R;
 import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settings.core.PreferenceControllerMixin;
 
 import libcore.util.Objects;
 import java.util.ArrayList;
 import java.util.List;
+import android.widget.Toast;
 
 
 public class DarkUIPreferenceController extends AbstractPreferenceController implements
@@ -68,6 +71,12 @@ public class DarkUIPreferenceController extends AbstractPreferenceController imp
             Settings.System.putInt(mContext.getContentResolver(), Settings.System.SYSTEM_THEME_STYLE, Integer.valueOf(value));
             int valueIndex = mSystemThemeStyle.findIndexOfValue(value);
             mSystemThemeStyle.setSummary(mSystemThemeStyle.getEntries()[valueIndex]);
+            Toast.makeText(mContext, mContext.getString(R.string.ui_style_applied_toast),
+                Toast.LENGTH_LONG).show();
+            Intent goHome = new Intent(Intent.ACTION_MAIN);
+            goHome.addCategory(Intent.CATEGORY_HOME);
+            goHome.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            mContext.startActivity(goHome);
         }
         return true;
     }
