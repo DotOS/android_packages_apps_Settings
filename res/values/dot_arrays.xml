@@ -28,12 +28,14 @@
         <item>@string/system_theme_style_auto</item>
         <item>@string/system_theme_style_light</item>
         <item>@string/system_theme_style_dark</item>
+        <item>@string/system_theme_style_black</item>
     </string-array>
 
      <string-array name="system_theme_style_values" translatable="false">
         <item>0</item>
         <item>1</item>
         <item>2</item>
+        <item>3</item>
     </string-array>
 
 </resources>
