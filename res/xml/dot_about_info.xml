@@ -67,7 +67,7 @@
         android:summary="@string/dot_about_dev2_summary" >
      <intent
         android:action="android.intent.action.VIEW"
-        android:data="https://t.me/ganeshi4u" />
+        android:data="https://t.me/ganesh_i4u" />
     </PreferenceScreen>
 
     <PreferenceScreen
@@ -75,7 +75,7 @@
         android:summary="@string/dot_about_mention1_summary" >
     <intent
         android:action="android.intent.action.VIEW"
-        android:data="https://t.me/Samgr8" />
+        android:data="https://t.me/Reapergod35" />
     </PreferenceScreen>
     <PreferenceScreen
         android:title="@string/dot_about_mention2_title"
