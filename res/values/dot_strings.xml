@@ -98,5 +98,6 @@
     <string name="system_theme_style_light">Light UI</string>
     <string name="system_theme_style_dark">Dark UI</string>
     <string name="system_theme_style_black">Black UI</string>
+    <string name="system_theme_style_neo">DotOS Neo UI</string>
 
 </resources>
