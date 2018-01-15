@@ -84,7 +84,7 @@
         android:layout="@layout/dot_preference_middle_card_progress"
         android:icon="@drawable/ic_notifications"
         android:title="@string/notification_volume_option_title"
-        android:order="-140"
+        android:order="-150"
         settings:controller="com.android.settings.notification.NotificationVolumePreferenceController"/>
 
     <!-- Alarm volume -->
@@ -93,19 +93,28 @@
         android:layout="@layout/dot_preference_bottom_card_progress"
         android:icon="@*android:drawable/ic_audio_alarm"
         android:title="@string/alarm_volume_option_title"
-        android:order="-150"
+        android:order="-140"
         settings:controller="com.android.settings.notification.AlarmVolumePreferenceController"/>
 
     <PreferenceCategory
         android:layout="@layout/dot_preference_category"
-        android:order="-131"
+        android:order="-132"
         android:title="@string/accessibility_screen_option" />
+  
+    <!-- Link ringtone and notification volumes -->
+    <com.dot.support.preferences.SecureSettingSwitchPreference
+        android:key="volume_link_notification"
+        android:layout="@layout/dot_preference_top_card"
+        android:title="@string/volume_link_notification_title"
+        android:defaultValue="true"
+        android:order="-131"
+        settings:controller="com.android.settings.notification.LinkedVolumesPreferenceController"/>
 
     <!-- Also vibrate for calls -->
     <Preference
         android:fragment="com.android.settings.sound.VibrateForCallsPreferenceFragment"
         android:key="vibrate_for_calls"
-        android:layout="@layout/dot_preference_top_card"
+        android:layout="@layout/dot_preference_middle_card"
         android:title="@string/vibrate_when_ringing_title"
         android:order="-130"
         settings:controller="com.android.settings.sound.VibrateForCallsPreferenceController"
