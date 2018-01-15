@@ -158,7 +158,8 @@ public class ThemePreferenceController extends AbstractPreferenceController impl
                 if (infos.get(i).isEnabled() &&
                         isChangeableOverlay(infos.get(i).packageName) &&
                         !infos.get(i).packageName.equals("com.android.system.theme.dark") &&
-                        !infos.get(i).packageName.equals("com.android.system.theme.black")) {
+                        !infos.get(i).packageName.equals("com.android.system.theme.black") &&
+                        !infos.get(i).packageName.equals("com.android.system.theme.neo")) {
                     return infos.get(i).packageName;
                 }
             }
@@ -189,7 +190,8 @@ public class ThemePreferenceController extends AbstractPreferenceController impl
             for (int i = 0, size = infos.size(); i < size; i++) {
                 if (isChangeableOverlay(infos.get(i).packageName)) {
                     if (!infos.get(i).packageName.equals("com.android.system.theme.dark") && 
-                        !infos.get(i).packageName.equals("com.android.system.theme.black"))
+                        !infos.get(i).packageName.equals("com.android.system.theme.black") &&
+                        !infos.get(i).packageName.equals("com.android.system.theme.neo"))
                         pkgs.add(infos.get(i).packageName);
                 }
             }
