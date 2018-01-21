@@ -49,6 +49,11 @@ LOCAL_JAVA_LIBRARIES := \
     org.apache.http.legacy
 
 LOCAL_STATIC_JAVA_LIBRARIES := \
+    android-support-v4 \
+    android-support-v7-appcompat \
+    android-support-v7-preference \
+    android-support-v7-recyclerview \
+    android-support-v14-preference \
     jsr305 \
     libsuperuser \
     settings-logtags \
