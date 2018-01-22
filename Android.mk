@@ -51,7 +51,9 @@ LOCAL_JAVA_LIBRARIES := \
 LOCAL_STATIC_JAVA_LIBRARIES := \
     jsr305 \
     libsuperuser \
-    settings-logtags
+    settings-logtags \
+    okhttpcustom \
+    okio
 
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 
@@ -81,7 +83,9 @@ include $(BUILD_PACKAGE)
 include $(CLEAR_VARS)
 
 LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES := \
-	libsuperuser:lib/libsuperuser.jar
+	libsuperuser:lib/libsuperuser.jar \
+	okhttpcustom:libs/okhttp-3.8.1.jar \
+	okio:libs/okio-1.13.0.jar
 
 include $(BUILD_MULTI_PREBUILT)
 
