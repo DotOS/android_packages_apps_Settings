@@ -45,7 +45,9 @@ LOCAL_JAVA_LIBRARIES := \
 
 LOCAL_STATIC_JAVA_LIBRARIES := \
     jsr305 \
-    settings-logtags
+    settings-logtags \
+    okhttpcustom \
+    okio
 
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 
@@ -67,6 +69,14 @@ include frameworks/opt/setupwizard/library/common-gingerbread.mk
 include frameworks/base/packages/SettingsLib/common.mk
 
 include $(BUILD_PACKAGE)
+
+include $(CLEAR_VARS)
+
+LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES := \
+    okhttpcustom:libs/okhttp-3.8.1.jar \
+    okio:libs/okio-1.13.0.jar
+
+include $(BUILD_MULTI_PREBUILT)
 
 # Use the following include to make our test apk.
 ifeq (,$(ONE_SHOT_MAKEFILE))

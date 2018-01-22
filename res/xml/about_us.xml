@@ -139,6 +139,12 @@ xmlns:android="http://schemas.android.com/apk/res/android"
               android:key="maintainers"
               android:title="@string/maintainers" >
 
+        <Preference
+        android:key="maintainers_fragment"
+        android:title="@string/maintainers_title"
+ 	android:summary="@string/maintainers_summary"
+        android:fragment="com.android.settings.Maintainers" />
+
 </PreferenceCategory>
 
 </PreferenceScreen>
