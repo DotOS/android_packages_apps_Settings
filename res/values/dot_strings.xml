@@ -218,5 +218,6 @@
     <string name="system_theme_style_light">Light UI</string>
     <string name="system_theme_style_dark">Dark UI</string>
     <string name="theme_applied_toast">Theme applied!</string>
+    <string name="applying_theme_toast">Applying theme, please wait...</string>
 
 </resources>
