@@ -16,10 +16,9 @@
 	android:layout_height="wrap_content">
 
 <ImageView
-	android:layout_width="625dp"
- 	android:layout_height="100dp"
-	android:src="@drawable/ic_dot_logo"
-	android:adjustViewBounds="true"
-	android:scaleType="centerInside"
-	android:tint="?android:attr/colorAccent" />
+      android:layout_width="625dp"
+      android:layout_height="200dp"
+      android:src="@drawable/ic_dot_logo"
+      android:scaleType="centerInside"
+      android:adjustViewBounds="true" />
 </LinearLayout>
