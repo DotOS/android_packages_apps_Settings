@@ -15,4 +15,8 @@
     <!-- Development Settings -->
     <!-- Dev Options Enabled by Default -->
     <string name="show_dev_already_enabled">No Need, Development settings are enabled by default.</string>
+	
+	<string name="dot_version" translatable="false">"v2.1"</string>
+	<string name="dot_version_pref_title">"dotOS Version"</string>
+
 </resources>
