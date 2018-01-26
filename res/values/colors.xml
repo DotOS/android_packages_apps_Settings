@@ -116,4 +116,7 @@
     <!-- Suggestion/condition colors -->
     <color name="suggestion_condition_background">#f2f2f2</color>
     <color name="condition_card_background">#f8f8f8</color>
+
+    <!-- Launcher icon background -->
+    <color name="ic_settings_background">#343434</color>
 </resources>
