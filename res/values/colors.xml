@@ -120,5 +120,4 @@
     <!-- Launcher icon background -->
     <color name="ic_settings_background">#343434</color>
 
-    <color name="suggestion_tile_background">@*android:color/white</color>
 </resources>
