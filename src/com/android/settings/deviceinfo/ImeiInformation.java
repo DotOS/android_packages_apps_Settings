@@ -28,6 +28,8 @@ import android.text.Spanned;
 import android.text.TextUtils;
 
 import android.text.style.TtsSpan;
+import android.view.WindowManager;
+
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.internal.telephony.Phone;
 import com.android.internal.telephony.PhoneConstants;
@@ -65,6 +67,7 @@ public class ImeiInformation extends SettingsPreferenceFragment {
             setPreferenceValue(slotId);
             setNewKey(slotId);
         }
+        getActivity().getWindow().setFlags(WindowManager.LayoutParams.FLAG_SECURE, WindowManager.LayoutParams.FLAG_SECURE);
     }
 
     private void setPreferenceValue(int phoneId) {
