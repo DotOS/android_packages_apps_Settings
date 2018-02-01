@@ -19,6 +19,10 @@
                   android:title="@string/configure_notification_settings"
                   android:key="configure_notification_settings">
 
+    <Preference
+        android:title="@string/notification_log_title"
+        android:fragment="com.android.settings.notification.NotificationStation" />
+
     <!-- When device is locked -->
     <com.android.settings.RestrictedListPreference
         android:key="lock_screen_notifications"
