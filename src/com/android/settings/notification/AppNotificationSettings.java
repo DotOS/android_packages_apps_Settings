@@ -87,6 +87,8 @@ public class AppNotificationSettings extends NotificationSettingsBase {
     private CustomSeekBarPreference mLightOffTime;
     private SwitchPreference mLightOnZen;
 
+    private int mLedColor = 0;
+
     @Override
     public int getMetricsCategory() {
         return MetricsEvent.NOTIFICATION_APP_NOTIFICATION;
@@ -172,6 +174,9 @@ public class AppNotificationSettings extends NotificationSettingsBase {
                 mChannel.enableLights(lights);
                 mChannel.lockFields(NotificationChannel.USER_LOCKED_LIGHTS);
                 mBackend.updateChannel(mPkg, mUid, mChannel);
+                if (!lights) {
+                    mNm.forcePulseLedLight(-1, -1, -1);
+                }
                 mCustomLight.setEnabled(lights);
                 mLightOnTime.setEnabled(lights);
                 mLightOffTime.setEnabled(lights);
@@ -187,17 +192,18 @@ public class AppNotificationSettings extends NotificationSettingsBase {
             }
         });
         //light color pref
-        int defaultLightColor = getResources().getColor(com.android.internal.R.color.config_defaultNotificationColor);
+        int defaultLightColor = 0xffffff;
         mCustomLight.setDefaultColor(defaultLightColor);
-        int color = (mChannel.getLightColor() != 0 ? mChannel.getLightColor() : defaultLightColor);
+        mLedColor = (mChannel.getLightColor() != 0 ? mChannel.getLightColor() : defaultLightColor);
         mCustomLight.setAlphaSliderEnabled(true);
-        mCustomLight.setNewPreviewColor(color);
+        mCustomLight.setNewPreviewColor(mLedColor);
         mCustomLight.setOnPreferenceChangeListener(new Preference.OnPreferenceChangeListener() {
             @Override
             public boolean onPreferenceChange(Preference preference, Object newValue) {
-                int color = ((Integer) newValue).intValue();
-                mChannel.setLightColor(color);
+                mLedColor = ((Integer) newValue).intValue();
+                mChannel.setLightColor(mLedColor);
                 mBackend.updateChannel(mPkg, mUid, mChannel);
+                showLedPreview();
                 return true;
             }
         });
@@ -214,6 +220,7 @@ public class AppNotificationSettings extends NotificationSettingsBase {
                 int val = (Integer) newValue;
                 mChannel.setLightOnTime(val);
                 mBackend.updateChannel(mPkg, mUid, mChannel);
+                showLedPreview();
                 return true;
             }
         });
@@ -230,6 +237,7 @@ public class AppNotificationSettings extends NotificationSettingsBase {
                 int val = (Integer) newValue;
                 mChannel.setLightOffTime(val);
                 mBackend.updateChannel(mPkg, mUid, mChannel);
+                showLedPreview();
                 return true;
             }
         });
@@ -244,6 +252,33 @@ public class AppNotificationSettings extends NotificationSettingsBase {
                 return true;
             }
         });
+
+        showLedPreview();
+    }
+
+    private void showLedPreview() {
+        if (mChannel.shouldShowLights()) {
+            mNm.forcePulseLedLight(
+                    mLedColor, mChannel.getLightOnTime(), mChannel.getLightOffTime());
+        }
+    }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        mNm.forcePulseLedLight(-1, -1, -1);
+    }
+
+    @Override
+    public void onStop() {
+        super.onStop();
+        mNm.forcePulseLedLight(-1, -1, -1);
+    }
+
+    @Override
+    public void onPause() {
+        super.onPause();
+        mNm.forcePulseLedLight(-1, -1, -1);
     }
 
     private void addHeaderPref() {
