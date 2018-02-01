@@ -276,4 +276,7 @@
     <string name="sub_deactivate_failed">Deactivation failed.</string>
 	
 	
+	<!-- Notification log -->
+    <string name="notification_log_summary">Show notifications history log</string>
+	
 </resources>
