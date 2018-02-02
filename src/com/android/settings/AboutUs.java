@@ -45,7 +45,7 @@ public class AboutUs extends SettingsPreferenceFragment {
             final String maintainer_url = maintainers_url[i];
             maintainer.setIcon(R.drawable.ic_devs_phone);
             maintainer.setTitle(maintainers_title[i]);
-            maintainer.setSummary(String.format(getString(R.string.maintainers_url), maintainers_devices[i]));
+            //maintainer.setSummary(String.format(getString(R.string.maintainers_url), maintainers_devices[i]));
             maintainer.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
                 @Override
                 public boolean onPreferenceClick(Preference preference) {
