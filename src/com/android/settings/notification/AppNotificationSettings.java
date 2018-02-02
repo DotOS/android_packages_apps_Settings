@@ -195,7 +195,7 @@ public class AppNotificationSettings extends NotificationSettingsBase {
         int defaultLightColor = 0xffffff;
         mCustomLight.setDefaultColor(defaultLightColor);
         mLedColor = (mChannel.getLightColor() != 0 ? mChannel.getLightColor() : defaultLightColor);
-        mCustomLight.setAlphaSliderEnabled(true);
+        mCustomLight.setAlphaSliderEnabled(false);
         mCustomLight.setNewPreviewColor(mLedColor);
         mCustomLight.setOnPreferenceChangeListener(new Preference.OnPreferenceChangeListener() {
             @Override
