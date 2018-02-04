@@ -12,6 +12,7 @@ implied.
      limitations under the License.
 -->
 
+<PreferenceScreen android:layout="@layout/logo" android:key="dotOS_logo" />
 <PreferenceScreen
 xmlns:android="http://schemas.android.com/apk/res/android"
         android:title="@string/dot_about_info">
@@ -72,7 +73,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         <Preference
             android:title="@string/dev_1"
     android:summary="@string/dev1_description"
-    android:icon="@drawable/ic_devs" >
+    android:icon="@drawable/ic_mohan" >
     <intent
                android:action="android.intent.action.VIEW"
                android:data="https://plus.google.com/+mohancm100" />
@@ -81,7 +82,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
        <Preference
             android:title="@string/dev_2"
     android:summary="@string/dev2_description"
-    android:icon="@drawable/ic_devs" >
+    android:icon="@drawable/ic_ganesh" >
     <intent
                android:action="android.intent.action.VIEW"
                android:data="https://t.me/ganesh_i4u" />
@@ -90,7 +91,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
        <Preference
             android:title="@string/dev_3"
     android:summary="@string/dev3_description"
-    android:icon="@drawable/ic_devs" >
+    android:icon="@drawable/ic_kuber" >
     <intent
                android:action="android.intent.action.VIEW"
                android:data="https://plus.google.com/117502257063781278053" />
@@ -99,7 +100,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         <Preference
             android:title="@string/dev_4"
     android:summary="@string/dev4_description"
-    android:icon="@drawable/ic_design">
+    android:icon="@drawable/ic_sam">
     <intent
                android:action="android.intent.action.VIEW"
                android:data="https://t.me/Reapergod35" />
@@ -109,7 +110,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
        <Preference
             android:title="@string/dev_5"
     android:summary="@string/dev5_description"
-    android:icon="@drawable/ic_design">
+    android:icon="@drawable/ic_iacob">
     <intent
                android:action="android.intent.action.VIEW"
                android:data="https://plus.google.com/+DarkWoodens" />
@@ -118,7 +119,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
        <Preference
             android:title="@string/dev_6"
     android:summary="@string/dev6_description"
-    android:icon="@drawable/ic_devs">
+    android:icon="@drawable/ic_atul">
     <intent
                android:action="android.intent.action.VIEW"
                android:data="https://t.me/B_auuuuu" />
@@ -127,7 +128,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
        <Preference
             android:title="@string/dev_7"
     android:summary="@string/dev7_description"
-    android:icon="@drawable/ic_design">
+    android:icon="@drawable/ic_hari">
     <intent
                android:action="android.intent.action.VIEW"
                android:data="https://t.me/hariambadii" />
