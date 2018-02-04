@@ -31,6 +31,8 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+import com.android.internal.logging.nano.MetricsProto;
+
 public class Changelog extends SettingsPreferenceFragment {
 
     private static final String CHANGELOG_PATH = "/system/etc/Changelog.txt";
@@ -69,5 +71,10 @@ public class Changelog extends SettingsPreferenceFragment {
         scrollView.addView(textView);
 
         return scrollView;
+    }
+	
+	@Override
+    public int getMetricsCategory() {
+        return MetricsProto.MetricsEvent.DOTEXTRAS;
     }
 }
