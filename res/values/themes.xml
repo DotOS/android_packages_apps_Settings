@@ -222,6 +222,7 @@ to set from Android/ -->
 
     <style name="Theme.ActionBar" parent="@android:style/Widget.Material.ActionBar.Solid">
         <item name="android:contentInsetStart">@dimen/actionbar_contentInsetStart</item>
+        <item name="android:background">@*android:color/background_device_default_light</item>
     </style>
 
     <style name="Theme.ActionBar.SubSettings" parent="Theme.ActionBar">
