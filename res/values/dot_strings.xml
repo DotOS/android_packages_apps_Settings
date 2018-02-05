@@ -56,5 +56,11 @@
     <string name="dev6_description">Infrastructure/Contributor</string>
     <string name="dev_7">Hari Ambadi &#40;hariambadii&#41;</string>
     <string name="dev7_description">Core GFX/Visual Designer</string>
+	
+	<!-- Changelog -->
+    <string name="changelog_title">Changelog</string>
+    <string name="changelog_summary">Recent Changes</string>
+    <string name="changelog_loading">Loading changelog\u2026</string>
+    <string name="changelog_error">Unable to load changelog</string>
 
 </resources>
