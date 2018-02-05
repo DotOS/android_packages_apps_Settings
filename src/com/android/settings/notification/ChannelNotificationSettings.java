@@ -227,7 +227,9 @@ public class ChannelNotificationSettings extends NotificationSettingsBase {
         mLights.setDisabledByAdmin(mSuspendedAppsAdmin);
         mLights.setChecked(mChannel.shouldShowLights());
         //enable custom light prefs is light is enabled
-        mCustomLight.setEnabled(!mLights.isDisabledByAdmin() && mChannel.shouldShowLights());
+        if (mCustomLight != null) {
+            mCustomLight.setEnabled(!mLights.isDisabledByAdmin() && mChannel.shouldShowLights()); 
+        }
         mLightOnTime.setEnabled(!mLights.isDisabledByAdmin() && mChannel.shouldShowLights());
         mLightOffTime.setEnabled(!mLights.isDisabledByAdmin() && mChannel.shouldShowLights());
         mLightOnZen.setEnabled(!mLights.isDisabledByAdmin() && mChannel.shouldShowLights());
@@ -240,7 +242,9 @@ public class ChannelNotificationSettings extends NotificationSettingsBase {
                 mChannel.enableLights(lights);
                 mChannel.lockFields(NotificationChannel.USER_LOCKED_LIGHTS);
                 mBackend.updateChannel(mPkg, mUid, mChannel);
-                mCustomLight.setEnabled(lights);
+                if (mCustomLight != null) {
+                    mCustomLight.setEnabled(lights);
+                }
                 mLightOnTime.setEnabled(lights);
                 mLightOffTime.setEnabled(lights);
                 mLightOnZen.setEnabled(lights);
@@ -251,6 +255,7 @@ public class ChannelNotificationSettings extends NotificationSettingsBase {
                     Settings.System.putInt(mContext.getContentResolver(),
                         NOTIFICATION_LIGHT_PULSE, 1);
                 }
+                showLedPreview();
                 if (!lights) {
                     mNm.forcePulseLedLight(-1, -1, -1);
                 }
@@ -259,20 +264,26 @@ public class ChannelNotificationSettings extends NotificationSettingsBase {
         });
         //light color pref
         int defaultLightColor = 0xffffff;
-        mCustomLight.setDefaultColor(defaultLightColor);
+        if (mCustomLight != null) {
+            mCustomLight.setDefaultColor(defaultLightColor);
+        }
         mLedColor = (mChannel.getLightColor() != 0 ? mChannel.getLightColor() : defaultLightColor);
-        mCustomLight.setAlphaSliderEnabled(false);
-        mCustomLight.setNewPreviewColor(mLedColor);
-        mCustomLight.setOnPreferenceChangeListener(new Preference.OnPreferenceChangeListener() {
-            @Override
-            public boolean onPreferenceChange(Preference preference, Object newValue) {
-                mLedColor = ((Integer) newValue).intValue();
-                mChannel.setLightColor(mLedColor);
-                mBackend.updateChannel(mPkg, mUid, mChannel);
-                showLedPreview();
-                return true;
-            }
-        });
+        if(!getResources().getBoolean(
+                        com.android.internal.R.bool.config_multicolorled)) { removePreference(KEY_CUSTOM_LIGHT);
+        } else {                  
+            mCustomLight.setAlphaSliderEnabled(false);
+            mCustomLight.setNewPreviewColor(mLedColor);
+            mCustomLight.setOnPreferenceChangeListener(new Preference.OnPreferenceChangeListener() {
+                @Override
+                public boolean onPreferenceChange(Preference preference, Object newValue) {
+                    mLedColor = ((Integer) newValue).intValue();
+                    mChannel.setLightColor(mLedColor);
+                    mBackend.updateChannel(mPkg, mUid, mChannel);
+                    showLedPreview();
+                    return true;
+                    }
+                });
+        } 
         //light on time pref
         int lightOn = mChannel.getLightOnTime();
         int defaultLightOn = getResources().getInteger(
@@ -324,6 +335,10 @@ public class ChannelNotificationSettings extends NotificationSettingsBase {
 
     private void showLedPreview() {
         if (mChannel.shouldShowLights()) {
+            if (mLedColor == 0xFFFFFFFF) {
+                // argb white doesn't work
+                mLedColor = 0xffffff;
+            }
             mNm.forcePulseLedLight(
                     mLedColor, mChannel.getLightOnTime(), mChannel.getLightOffTime());
         }
