@@ -153,7 +153,12 @@
          layouts against a remote context using our local theme colors. Due to the implementation
          details of Theme, we can't reference any local resources and MUST instead use the values
          directly. So use #ff263238 instead of @color/theme_primary and so on. -->
-    <style name="Theme.SettingsBase" parent="@android:style/Theme.DeviceDefault.Settings" />
+ <style name="Theme.SettingsBase" parent="@*android:style/Theme.DeviceDefault.Settings">
+ <item name="android:colorAccent">@*android:color/accent_device_default_light</item>
+ <item name="android:colorControlNormal">@*android:color/accent_device_default_light</item>
+ <item name="android:navigationBarColor">@*android:color/accent_device_default_light</item>
+ <item name="android:statusBarColor">@*android:color/background_device_default_light</item>
+</style>
 
     <style name="Theme.Settings" parent="Theme.SettingsBase">
         <item name="preferenceTheme">@style/PreferenceTheme</item>
