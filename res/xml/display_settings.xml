@@ -141,17 +141,33 @@
         android:entryValues="@array/systemui_theme_values"
         settings:controller="com.android.settings.display.SystemUiThemePreferenceController" />
 
-    <ListPreference
-        android:key="system_theme_style"
-        android:title="@string/system_theme_style_title"
-        android:persistent="false"
-        android:entries="@array/system_theme_style_entries"
-        android:entryValues="@array/system_theme_style_values" />
-
     <Preference
         android:key="vr_display_pref"
         android:title="@string/display_vr_pref_title"
         android:fragment="com.android.settings.display.VrDisplayPreferencePicker" />
+
+    <PreferenceCategory
+        android:key="theme_category"
+        android:title="@string/theme_category_title">
+
+    <ListPreference
+        android:key="system_theme_style"
+        android:title="@string/system_theme_style_title"
+        android:persistent="false"
+        android:icon="@drawable/ic_system_theme_style"
+        android:entries="@array/system_theme_style_entries"
+        android:entryValues="@array/system_theme_style_values" />
+
+    <Preference
+        android:key="accent_picker"
+        android:icon="@drawable/ic_accent_picker"
+        android:title="@string/theme_accent_picker_title" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="dashboard_category"
+        android:title="@string/dashboard_category">
 
     <com.dot.dotextras.preference.SystemSettingSwitchPreference
         android:key="enable_conditions"
@@ -166,4 +182,5 @@
         android:summaryOn="@string/summary_dashboard_suggestions_enabled"
         android:summaryOff="@string/summary_dashboard_suggestions_disabled"
         android:defaultValue="true" />
+    </PreferenceCategory>
 </PreferenceScreen>
