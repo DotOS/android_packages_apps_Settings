@@ -22,6 +22,8 @@ import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceScreen;
 import android.provider.Settings;
 
+import static com.android.settings.display.ThemeUtils.isSubstratumOverlayInstalled;
+
 import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settings.core.PreferenceControllerMixin;
 import com.android.settingslib.drawer.SettingsDrawerActivity;
@@ -59,12 +61,17 @@ public class DarkUIPreferenceController extends AbstractPreferenceController imp
     public void displayPreference(PreferenceScreen screen) {
         super.displayPreference(screen);
         mSystemThemeStyle = (ListPreference) screen.findPreference(SYSTEM_THEME_STYLE);
-        int systemThemeStyle = Settings.System.getInt(mContext.getContentResolver(),
-                Settings.System.SYSTEM_THEME_STYLE, 0);
-        int valueIndex = mSystemThemeStyle.findIndexOfValue(String.valueOf(systemThemeStyle));
-        mSystemThemeStyle.setValueIndex(valueIndex >= 0 ? valueIndex : 0);
-        mSystemThemeStyle.setSummary(mSystemThemeStyle.getEntry());
-        mSystemThemeStyle.setOnPreferenceChangeListener(this);
+        if (!isSubstratumOverlayInstalled(mContext)) {
+            int systemThemeStyle = Settings.System.getInt(mContext.getContentResolver(),
+                    Settings.System.SYSTEM_THEME_STYLE, 0);
+            int valueIndex = mSystemThemeStyle.findIndexOfValue(String.valueOf(systemThemeStyle));
+            mSystemThemeStyle.setValueIndex(valueIndex >= 0 ? valueIndex : 0);
+            mSystemThemeStyle.setSummary(mSystemThemeStyle.getEntry());
+            mSystemThemeStyle.setOnPreferenceChangeListener(this);
+        } else {
+            mSystemThemeStyle.setEnabled(false);
+            mSystemThemeStyle.setSummary(R.string.substratum_installed_title);
+        }
     }
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
