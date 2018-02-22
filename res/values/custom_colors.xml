@@ -22,4 +22,10 @@
     <color name="expanded_button_color_normal">#4CAF50</color>
     <color name="expanded_button_color_close">#F44336</color>
 
+    <!-- Storage bar -->
+    <color name="storage_bar_private_tint_color">@*android:color/accent_device_default_light</color>
+
+    <!-- Device specific gesture package -->
+    <string name="config_customGesturePackage" translatable="false"></string>
+
 </resources>

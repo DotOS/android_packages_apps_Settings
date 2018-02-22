@@ -18,6 +18,8 @@ package com.android.settings.gestures;
 
 import android.content.ContentResolver;
 import android.content.Context;
+import android.content.Intent;
+import android.content.ComponentName;
 import android.provider.Settings;
 import android.support.v7.preference.Preference;
 
@@ -44,6 +46,9 @@ public class GesturesSettingPreferenceController extends AbstractPreferenceContr
 
     @Override
     public boolean isAvailable() {
+        if (isCustomGesturePackageAvailable()){
+            return true;
+        }
         if (mGestureControllers == null) {
             mGestureControllers = GestureSettings.buildPreferenceControllers(mContext,
                     null /* lifecycle */, new AmbientDisplayConfiguration(mContext));
@@ -55,9 +60,30 @@ public class GesturesSettingPreferenceController extends AbstractPreferenceContr
         return isAvailable;
     }
 
+    private boolean isCustomGesturePackageAvailable(){
+        return !mContext.getResources().getString(R.string.config_customGesturePackage).equals("");
+    }
+
     @Override
     public String getPreferenceKey() {
         return KEY_GESTURES_SETTINGS;
+    }
+
+    @Override
+    public boolean handlePreferenceTreeClick(Preference preference) {
+        if (KEY_GESTURES_SETTINGS.equals(preference.getKey()) && isCustomGesturePackageAvailable()) {
+            try {
+                String[] customGesturePackage = mContext.getResources().getString(R.string.config_customGesturePackage).split("/");
+                String activityName = customGesturePackage[0];
+                String className = customGesturePackage[1];
+                Intent intent = new Intent();
+                intent.setComponent(new ComponentName(activityName, className));
+                mContext.startActivity(intent);
+            } catch (Exception e){
+            }
+            return true;
+        }
+        return false;
     }
 
     @Override
