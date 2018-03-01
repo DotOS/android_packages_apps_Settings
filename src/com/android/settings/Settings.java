@@ -194,6 +194,7 @@ public class Settings extends SettingsActivity {
 
     // dotEXTRAS
     public static class DotExtrasSettingsActivity extends SettingsActivity {}
+    public static class DotExtrasStart extends SettingsActivity {}
 
     public static class ExtensionsSettingsActivity extends SettingsActivity {}
     public static class NavigationSettingsActivity extends SettingsActivity { /* empty */ }

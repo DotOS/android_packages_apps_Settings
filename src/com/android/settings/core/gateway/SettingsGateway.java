@@ -133,6 +133,7 @@ import com.android.settings.wifi.WifiSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 
 import com.dot.dotextras.DotExtrasFragment;
+import com.android.settings.dot.DotExtrasStart;
 
 import com.dot.dotextras.dui.FlingSettings;
 import com.dot.dotextras.NavbarSettings;
@@ -261,6 +262,7 @@ public class SettingsGateway {
             BluetoothDeviceDetailsFragment.class.getName(),
             DataUsageList.class.getName(),
             DotExtrasFragment.class.getName(),
+	    DotExtrasStart.class.getName(),
 
             NavbarSettings.class.getName(),
             FlingSettings.class.getName(),
@@ -306,6 +308,7 @@ public class SettingsGateway {
             Settings.EnterprisePrivacySettingsActivity.class.getName(),
 
             Settings.DotExtrasSettingsActivity.class.getName(),
+	    Settings.DotExtrasStart.class.getName(),
 
             Settings.NavigationSettingsActivity.class.getName(),
             Settings.FlingSettingsActivity.class.getName(),
