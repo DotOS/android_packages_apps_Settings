@@ -15,24 +15,29 @@
 -->
 
 <resources>
-        <color name="icon_color_wireless">#4892cf</color>
-	<color name="icon_color_battery">#1d8c8a</color>
-	<color name="icon_color_other">#71a35a</color>
-	<color name="icon_color_about">#777677</color>
-	<color name="icon_color_accessibility">#5e55bc</color>
-	<color name="icon_color_accounts">#ec5c8c</color>
-	<color name="icon_color_display">#fcb116</color>
-	<color name="icon_color_security">#119649</color>
-	<color name="icon_color_sound">#1eb9ba</color>
-	<color name="icon_color_storage">#a261a7</color>
-	<color name="icon_color_apps">#FF7E0F</color>
-	<color name="icon_color_system">#777677</color>
-	<color name="icon_base_color">#ffffff</color>
-        <color name="icon_color_dotextras">#3B97D3</color>
-        <color name="icon_color_substratum">#4F68D7</color>
-        <color name="icon_color_magisk">#00AF9E</color>
-        <color name="icon_color_supersu">#00AF9E</color>
-        <color name="icon_color_google">#EF4760</color>	
-        <color name="icon_color_dotui">#936DE8</color>	
-        <color name="icon_color_memory">#F24949</color>
+    <color name="icon_color_wireless">#4892cf</color>
+    <color name="icon_color_battery">#1d8c8a</color>
+    <color name="icon_color_other">#71a35a</color>
+    <color name="icon_color_about">#777677</color>
+    <color name="icon_color_accessibility">#5e55bc</color>
+    <color name="icon_color_accounts">#ec5c8c</color>
+    <color name="icon_color_display">#fcb116</color>
+    <color name="icon_color_security">#119649</color>
+    <color name="icon_color_sound">#1eb9ba</color>
+    <color name="icon_color_storage">#a261a7</color>
+    <color name="icon_color_apps">#FF7E0F</color>
+    <color name="icon_color_system">#777677</color>
+    <color name="icon_base_color">#ffffff</color>
+    <color name="icon_color_dotextras">#3B97D3</color>
+    <color name="icon_color_substratum">#4F68D7</color>
+    <color name="icon_color_magisk">#00AF9E</color>
+    <color name="icon_color_supersu">#00AF9E</color>
+    <color name="icon_color_google">#EF4760</color>
+    <color name="icon_color_dotui">#936DE8</color>
+    <color name="icon_color_memory">#F24949</color>
+
+    <!-- Suggestion/condition colors -->
+    <color name="suggestion_tile_background">@*android:color/white</color>
+    <color name="suggestion_title_text_color">@*android:color/black</color>
+    <color name="suggestion_summary_text_color">@*android:color/black</color>
 </resources>

@@ -134,6 +134,11 @@
         android:key="vr_display_pref"
         android:title="@string/display_vr_pref_title"
         android:fragment="com.android.settings.display.VrDisplayPreferencePicker" />
+		
+	<com.dot.dotextras.preference.SystemSettingSwitchPreference
+        android:key="proximity_on_wake"
+        android:title="@string/proximity_wake_title"
+        android:summary="@string/proximity_wake_summary" />
 
     <com.dot.dotextras.preference.SystemSettingSwitchPreference
         android:key="enable_conditions"
