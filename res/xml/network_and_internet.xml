@@ -24,7 +24,7 @@
         android:key="toggle_wifi"
         android:title="@string/wifi_settings"
         android:summary="@string/summary_placeholder"
-        android:icon="@drawable/ic_settings_wireless"
+        android:icon="@drawable/ic_settings_wifi"
         android:order="-30">
         <intent
             android:action="android.settings.WIFI_SETTINGS"
