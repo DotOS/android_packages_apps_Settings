@@ -1,25 +1,22 @@
-<!--
-    Copyright (C) 2016 The Android Open Source Project
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-         http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
--->
+<?xml version="1.0" encoding="utf-8"?>
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
-        android:width="24.0dp"
-        android:height="24.0dp"
-        android:viewportWidth="24.0"
-        android:viewportHeight="24.0"
-        android:tint="?android:attr/colorControlNormal">
-    <path
-        android:fillColor="#FFFFFFFF"
-        android:pathData="M23.66,8.11c0.39,-0.48 0.29,-1.19 -0.22,-1.54C21.67,5.36 17.55,3 12,3 6.44,3 2.33,5.36 0.56,6.57c-0.51,0.35 -0.61,1.06 -0.23,1.54L11.16,21.6c0.42,0.53 1.23,0.53 1.66,0L23.66,8.11z"/>
+    android:width="36dp"
+    android:height="36dp"
+    android:viewportWidth="144"
+    android:viewportHeight="144">
+
+	<path
+        android:fillColor="@color/icon_color_wireless"
+        android:pathData="M 72 0 C 111.764501988 0 144 32.2354980122 144 72 C 144 111.764501988 111.764501988 144 72 144 C 32.2354980122 144 0 111.764501988 0 72 C 0 32.2354980122 32.2354980122 0 72 0 Z" />
+
+	<path
+        android:fillColor="@color/icon_base_color"
+        android:pathData="M112.977,59.2L75.885,109.334A5.614,5.614,0,0,1,72,110.95h0s-1.7 .469
+-3.886-1.615l-37.092-50.1C29.977,57.543,29,56.285,29,54.406a6.039,6.039,0,0,1,2.045-4.847S47.732,35.057,72,35.057v-0.05c24.267,0,40.954,14.512,40.954,14.512A6.045,6.045,0,0,1,115,54.368C115,56.248,114.023,57.507,112.977,59.2Z" />
+	<path
+        android:fillColor="@color/icon_base_color"
+        android:pathData="M75.885,109.334A5.614,5.614,0,0,1,72,110.95s-1.7 .469
+-3.886-1.615L36.688,66.884a6.4,6.4,0,0,1,.727-0.812A57.96,57.96,0,0,1,72.106,54.047V54.005A57.94,57.94,0,0,1,106.8,66.038a6.745,6.745,0,0,1,.624
+.669 Z" />
+    
 </vector>
