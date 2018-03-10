@@ -3,15 +3,13 @@
     android:width="36dp"
     android:height="36dp"
     android:viewportWidth="144"
-    android:viewportHeight="144"
-	android:tint="@*android:color/transparent" 
-	android:tintMode="src_atop">
+    android:viewportHeight="144">
 
 	<path
-        android:fillColor="@color/icon_color_display"
+        android:fillColor="@color/icon_color_supersu"
         android:pathData="M 72 0 C 111.764501988 0 144 32.2354980122 144 72 C 144 111.764501988 111.764501988 144 72 144 C 32.2354980122 144 0 111.764501988 0 72 C 0 32.2354980122 32.2354980122 0 72 0 Z" />
 	<path
         android:fillColor="@color/icon_base_color"
-        android:pathData="M103,85v18H85L72,116,59,103H41V85L28.008,72,41,59V41H59L72,28.007,85,41h18V59l13,13ZM72,48.643V95.364A23.361,23.361,0,0,0,72,48.643Z" />
+        android:pathData="M109.5,57H98V87h11.5a5.5,5.5,0,0,1,0,11H98v11.5a5.5,5.5,0,0,1-11,0V98H57v11.5a5.5,5.5,0,0,1-11,0V98H34.5a5.5,5.5,0,0,1,0-11H46V57H34.5a5.5,5.5,0,0,1,0-11H46V34.5a5.5,5.5,0,0,1,11,0V46H87V34.5a5.5,5.5,0,0,1,11,0V46h11.5A5.5,5.5,0,0,1,109.5,57ZM57,57V87H87V57H57Z" />
     
 </vector>
