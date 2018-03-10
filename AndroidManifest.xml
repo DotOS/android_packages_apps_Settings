@@ -223,7 +223,7 @@
         <activity android:name="Settings$WifiSettingsActivity"
                 android:taskAffinity=""
                 android:label="@string/wifi_settings"
-                android:icon="@drawable/ic_settings_wireless"
+                android:icon="@drawable/ic_settings_wifi"
                 android:configChanges="orientation|keyboardHidden|screenSize">
             <intent-filter android:priority="1">
                 <action android:name="android.settings.WIFI_SETTINGS" />
@@ -942,7 +942,7 @@
 
         <activity android:name="Settings$DeviceInfoSettingsActivity"
                 android:label="@string/device_info_settings"
-                android:icon="@drawable/ic_settings_about"
+                android:icon="@drawable/ic_settings_info"
                 android:taskAffinity="com.android.settings"
                 android:parentActivityName="Settings">
             <intent-filter android:priority="1">
