@@ -6,10 +6,10 @@
     android:viewportHeight="144">
 
 	<path
-        android:fillColor="@color/icon_color_storage"
+        android:fillColor="@color/icon_color_battery"
         android:pathData="M 72 0 C 111.764501988 0 144 32.2354980122 144 72 C 144 111.764501988 111.764501988 144 72 144 C 32.2354980122 144 0 111.764501988 0 72 C 0 32.2354980122 32.2354980122 0 72 0 Z" />
 	<path
         android:fillColor="@color/icon_base_color"
-        android:pathData="M106,106H38a8,8,0,0,1-8-8V47a8,8,0,0,1,8-8h68a8,8,0,0,1,8,8V98A8,8,0,0,1,106,106ZM50,48H39V59H50V48Zm0,19H39V78H50V67Zm0,19H39V97H50V86Z" />
+        android:pathData="M92,41H84l0.048-4.753A3.023,3.023,0,0,0,80.832,33H63.15a3.008,3.008,0,0,0-3.2,3.247L60,41H52a2.679,2.679,0,0,0-3,3l0,64.411A3.567,3.567,0,0,0,52.535,112H91.449a3.567,3.567,0,0,0,3.539-3.592L95,44A2.679,2.679,0,0,0,92,41ZM57,65V49H67V41H78v8h9V65H57Z" />
     
 </vector>

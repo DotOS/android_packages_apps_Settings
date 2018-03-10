@@ -1,30 +1,15 @@
-<!--
-    Copyright (C) 2017 The Android Open Source Project
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-         http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
--->
+<?xml version="1.0" encoding="utf-8"?>
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
-        android:width="24dp"
-        android:height="24dp"
-        android:viewportWidth="24.0"
-        android:viewportHeight="24.0"
-        android:tint="?android:attr/colorControlNormal">
-    <path
-        android:pathData="M6 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm6 12c1.1 0 2-.9 2-2s-.9-2-2-2-2
-.9-2 2 .9 2 2 2zm-6 0c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0-6c1.1 0 2-.9
-2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm6 0c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2
-2zm4-8c0 1.1 .9 2 2 2s2-.9 2-2-.9-2-2-2-2 .9-2 2zm-4 2c1.1 0 2-.9
-2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm6 6c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2
-2zm0 6c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z"
-        android:fillColor="#FFFFFFFF"/>
+    android:width="36dp"
+    android:height="36dp"
+    android:viewportWidth="144"
+    android:viewportHeight="144">
+
+	<path
+        android:fillColor="@color/icon_color_apps"
+        android:pathData="M 72 0 C 111.764501988 0 144 32.2354980122 144 72 C 144 111.764501988 111.764501988 144 72 144 C 32.2354980122 144 0 111.764501988 0 72 C 0 32.2354980122 32.2354980122 0 72 0 Z" />
+	<path
+        android:fillColor="@color/icon_base_color"
+        android:pathData="M72.5,116A28.333,28.333,0,0,1,44,87.484V71h57V87.484A28.333,28.333,0,0,1,72.5,116ZM44,63.041A27.27,27.27,0,0,1,55.807,40.228l-8.55-8.555,3.257-3.666,9.364,9.37A31.863,31.863,0,0,1,72.5,34.524a26.433,26.433,0,0,1,12.621,3.259l9.364-9.37,3.257,3.259-8.55,8.555A27.27,27.27,0,0,1,101,63.041V67H44V63.041Zm40.714-4.074a4.074,4.074,0,1,0-4.071-4.074A3.848,3.848,0,0,0,84.714,58.967Zm-24.429,0a4.074,4.074,0,1,0-4.071-4.074A3.848,3.848,0,0,0,60.286,58.967Z" />
+    
 </vector>
