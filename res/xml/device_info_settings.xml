@@ -24,11 +24,6 @@
         android:title="@string/dot_about_info"
 	android:summary="@string/dot_about_summary"
         android:fragment="com.android.settings.AboutUs" />
-		
-		<!-- dotOS version --> 
-        <Preference android:key="dot_version"
-                android:title="@string/dot_version"
-                android:summary="@string/dot_version_default"/>
 
         <!-- System update settings - launches activity -->
         <Preference android:key="additional_system_update_settings"
@@ -50,6 +45,11 @@
                 android:title="@string/device_status"
                 android:summary="@string/device_status_summary"
                 android:fragment="com.android.settings.deviceinfo.Status"/>
+       
+        <!-- OS Informations -->
+        <Preference android:key="device_dialog"
+                android:title="OS Informations"
+                android:summary="Information about the ROM" />
 
         <!-- Manual -->
         <Preference
@@ -87,15 +87,6 @@
                 android:title="@string/firmware_version"
                 android:summary="@string/summary_placeholder"/>
 
-
-        <!-- Security patch level -->
-        <Preference android:key="security_patch"
-                android:title="@string/security_patch"
-                android:summary="@string/summary_placeholder">
-                <intent android:action="android.intent.action.VIEW"
-                        android:data="https://source.android.com/security/bulletin/" />
-        </Preference>
-
         <!-- Device FCC equipment id -->
         <Preference
                 android:key="fcc_equipment_id"
@@ -118,12 +109,6 @@
         <Preference android:key="build_date"
                 android:title="@string/build_date"
                 android:summary="@string/build_date_default" />
-
-        <!-- Detailed build version -->
-        <Preference
-                android:key="build_number"
-                android:title="@string/build_number"
-                android:summary="@string/summary_placeholder"/>
 
         <!-- SELinux status information -->
         <Preference
