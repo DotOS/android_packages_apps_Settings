@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dot.uicenter"
+	android:versionCode="1"
+	android:versionName="3.1-InterfaceCenter">
+	<uses-sdk
+        android:minSdkVersion="27"
+        android:targetSdkVersion="27" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:hardwareAccelerated="true">
+        <activity
+            android:name="com.dot.uicenter.MainActivity"
+	    android:icon="@mipmap/ic_launcher"
+	    android:theme="@style/AppTheme.Base"
+            android:label="@string/app_name">
+            <intent-filter android:priority="1">
+                <action android:name="com.dot.uicenter.MainActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+	    <intent-filter android:priority="10">
+		        <action android:name="com.android.settings.action.SETTINGS" />
+	    </intent-filter>
+		<meta-data android:name="com.android.settings.category"
+		        android:value="com.android.settings.category.ia.homepage"/>
+		<meta-data android:name="com.android.settings.summary"
+		        android:resource="@string/ui_center_summary_title" />
+        </activity>
+    </application>
+
+</manifest>
