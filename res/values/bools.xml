@@ -48,4 +48,10 @@
 
     <!--Whether help links are defined. -->
     <bool name="config_has_help">false</bool>
+
+    <!--dark navbar icons . -->
+    <bool name="windowLightNavigationBar">true</bool>
+
+    <!--white navbar icons . -->
+    <bool name="windowDarkNavigationBar">false</bool>
 </resources>
