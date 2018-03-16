@@ -143,5 +143,4 @@
         android:summaryOn="@string/summary_dashboard_conditions_enabled"
         android:summaryOff="@string/summary_dashboard_conditions_disabled"
         android:defaultValue="true" />
-
 </PreferenceScreen>
