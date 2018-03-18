@@ -62,4 +62,16 @@
         android:order="-20"
         android:fragment="com.android.settings.system.ResetDashboardFragment" />
 
+    <!-- dotOS OTA -->
+    <PreferenceScreen 
+	android:key="ota_trigger"
+	android:title="@string/dot_ota_title"
+	android:summary="@string/dot_ota_summary"
+	android:icon="@drawable/ic_system_update">       
+	<intent
+        android:action="android.intent.action.MAIN"
+        android:targetPackage="com.ota.updates"
+        android:targetClass="com.dot.systemupdates.baseActivity" />     
+    </PreferenceScreen>
+
 </PreferenceScreen>
