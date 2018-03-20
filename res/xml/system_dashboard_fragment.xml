@@ -70,7 +70,7 @@
 	android:icon="@drawable/ic_system_update">       
 	<intent
         android:action="android.intent.action.MAIN"
-        android:targetPackage="com.ota.updates"
+        android:targetPackage="com.dot.systemupdates"
         android:targetClass="com.dot.systemupdates.baseActivity" />     
     </PreferenceScreen>
 
