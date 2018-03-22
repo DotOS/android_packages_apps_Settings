@@ -20,5 +20,11 @@
       android:layout_height="200dp"
       android:src="@drawable/ic_dot_logo"
       android:scaleType="centerInside"
-      android:adjustViewBounds="true" />
+      android:adjustViewBounds="true"
+      android:visibility="gone" />
+
+<com.android.settings.deviceinfo.AboutDeviceHeadView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
 </LinearLayout>
