@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="43dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/dot_device_head" />
+
+        <TextView
+            android:id="@+id/device_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="4dp"
+            android:text="Redmi Note 4X"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:id="@+id/edit_button"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/device_name"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="6dp"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/edit_button"
+            android:backgroundTintMode="add"
+            android:clickable="true">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="EDIT"
+                android:textAllCaps="true"
+                android:textColor="?android:attr/textColorPrimary"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="24dp">
+
+        <TextView
+            android:id="@+id/phone_number_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="36dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="32dp"
+            android:layout_weight="1"
+            android:text="My Phone Number"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/model_number_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/phone_number_title"
+            android:layout_below="@+id/phone_number_title"
+            android:layout_marginTop="12dp"
+            android:layout_weight="1"
+            android:text="Model Number"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/serial_number_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/phone_number_title"
+            android:layout_below="@+id/model_number_title"
+            android:layout_marginTop="12dp"
+            android:layout_weight="1"
+            android:text="Serial Number"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/imei_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/phone_number_title"
+            android:layout_below="@+id/serial_number_title"
+            android:layout_marginTop="12dp"
+            android:layout_weight="1"
+            android:text="IMEI"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/separator0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/phone_number_title"
+            android:layout_alignTop="@+id/phone_number_title"
+            android:layout_centerHorizontal="true"
+            android:text=":"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/separator1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/model_number_title"
+            android:layout_alignTop="@+id/model_number_title"
+            android:layout_centerHorizontal="true"
+            android:text=":"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/separator2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/serial_number_title"
+            android:layout_alignTop="@+id/serial_number_title"
+            android:layout_centerHorizontal="true"
+            android:text=":"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/separator3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imei_title"
+            android:layout_alignTop="@+id/imei_title"
+            android:layout_centerHorizontal="true"
+            android:text=":"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/phone_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/phone_number_title"
+            android:layout_alignBottom="@+id/phone_number_title"
+            android:layout_marginStart="32dp"
+            android:layout_toEndOf="@+id/separator0"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/model_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/model_number_title"
+            android:layout_alignBottom="@+id/model_number_title"
+            android:layout_marginStart="32dp"
+            android:layout_toEndOf="@+id/separator0"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/serial_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/serial_number_title"
+            android:layout_alignBottom="@+id/serial_number_title"
+            android:layout_marginStart="32dp"
+            android:layout_toEndOf="@+id/separator0"
+            android:textAllCaps="true"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/imei"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/imei_title"
+            android:layout_alignBottom="@+id/imei_title"
+            android:layout_marginStart="32dp"
+            android:layout_toEndOf="@+id/separator0"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+</LinearLayout>
