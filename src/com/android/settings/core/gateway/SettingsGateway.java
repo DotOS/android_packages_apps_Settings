@@ -143,6 +143,7 @@ import com.android.settings.wifi.p2p.WifiP2pSettings;
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.dot.dotextras.DotExtrasFragment;
+import com.dot.dotextras.fragments.SmartPixels;
 
 public class SettingsGateway {
 
@@ -273,7 +274,8 @@ public class SettingsGateway {
             NavigationSettingsActivity.class.getName(),
             SmartbarSettingsActivity.class.getName(),
             FlingSettingsActivity.class.getName(),
-            PulseSettingsActivity.class.getName()
+            PulseSettingsActivity.class.getName(),
+            SmartPixels.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -316,6 +318,7 @@ public class SettingsGateway {
             Settings.NavigationSettingsActivity.class.getName(),
             Settings.SmartbarSettingsActivity.class.getName(),
             Settings.FlingSettingsActivity.class.getName(), 
-            Settings.PulseSettingsActivity.class.getName()
+            Settings.PulseSettingsActivity.class.getName(),
+            Settings.SmartPixelsActivity.class.getName(),
     };
 }
