@@ -138,6 +138,7 @@ import com.dot.dotextras.dui.FlingSettings;
 import com.dot.dotextras.NavbarSettings;
 import com.dot.dotextras.dui.PulseSettings;
 import com.dot.dotextras.dui.SmartbarSettings;
+import com.dot.dotextras.SmartPixels;
 
 public class SettingsGateway {
 
@@ -265,7 +266,8 @@ public class SettingsGateway {
             NavbarSettings.class.getName(),
             FlingSettings.class.getName(),
             SmartbarSettings.class.getName(),
-            PulseSettings.class.getName()
+            PulseSettings.class.getName(),
+			SmartPixels.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -310,6 +312,7 @@ public class SettingsGateway {
             Settings.NavigationSettingsActivity.class.getName(),
             Settings.FlingSettingsActivity.class.getName(),
             Settings.SmartbarSettingsActivity.class.getName(),
-            Settings.PulseSettingsActivity.class.getName()
+            Settings.PulseSettingsActivity.class.getName(),
+			Settings.SmartPixelsActivity.class.getName()
     };
 }
