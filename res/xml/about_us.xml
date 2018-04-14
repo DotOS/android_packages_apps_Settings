@@ -135,6 +135,19 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 
 </PreferenceCategory>
 
+<PreferenceCategory 
+        android:key="dot_contributors" android:title="@string/dot_contributors">
+
+        <Preference android:title="@string/contributor_1" 
+        android:summary="@string/contributor1_description" 
+        android:icon="@drawable/ic_sam">
+        <intent 
+        android:action="android.intent.action.VIEW" 
+        android:data="https://t.me/Alexcbrookes" />
+</Preference>
+
+</PreferenceCategory>
+
 <PreferenceCategory
               android:key="maintainers"
               android:title="@string/maintainers" >
