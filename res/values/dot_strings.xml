@@ -68,6 +68,12 @@
     <string name="dev6_description">Infrastructure/Contributor</string>
     <string name="dev_7">Hari Ambadi &#40;hariambadii&#41;</string>
     <string name="dev7_description">Core GFX/Visual Designer</string>
+
+    <!-- About Contributors -->
+    <string name="dot_contributors">Contributors</string>
+    <string name="contributor_1">Alex Brookes</string>
+    <string name="contributor1_description"></string>Wallpaper Designer</string>
+                
 	
 	<!-- Changelog -->
     <string name="changelog_title">Changelog</string>
