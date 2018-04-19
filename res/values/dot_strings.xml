@@ -286,4 +286,8 @@
     <string name="proximity_wake_title">Prevent accidental wake-up</string>
     <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
 	
+	<!-- Search -->
+    <string name="menu_search">Search apps</string>
+    <string name="menu_search_hint">Search apps\u2026</string>
+	
 </resources>
