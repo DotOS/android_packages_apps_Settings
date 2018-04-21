@@ -14,13 +14,13 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About phone screen, dotOS version -->
   <string name="dot_version">DotOS version</string>
-  <string name="dot_version_default">Unknown</string>
+  <string name="dot_version_default">Inconnu</string>
   <!-- dot ota -->
   <string name="dot_ota_title">dotOS OTA</string>
   <string name="dot_ota_summary">dotOS System Updates</string>
   <!-- About phone screen, build date -->
   <string name="build_date">Build date</string>
-  <string name="build_date_default">2015-01-01-0000</string>
+  <string name="build_date_default">2012-01-01-0000</string>
   <!-- Development Settings -->
   <!-- Dev Options Enabled by Default -->
   <string name="show_dev_already_enabled">No Need, Development settings are enabled by default.</string>
