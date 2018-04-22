@@ -13,123 +13,123 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About phone screen, dotOS version -->
-  <string name="dot_version">DotOS version</string>
-  <string name="dot_version_default">Unknown</string>
+  <string name="dot_version">Versione DotOS</string>
+  <string name="dot_version_default">Sconosciuto</string>
   <!-- dot ota -->
   <string name="dot_ota_title">dotOS OTA</string>
-  <string name="dot_ota_summary">dotOS System Updates</string>
+  <string name="dot_ota_summary">dotOS Aggiornamenti di sistema</string>
   <!-- About phone screen, build date -->
-  <string name="build_date">Build date</string>
+  <string name="build_date">Data di rilascio</string>
   <string name="build_date_default">2015-01-01-0000</string>
   <!-- Development Settings -->
   <!-- Dev Options Enabled by Default -->
-  <string name="show_dev_already_enabled">No Need, Development settings are enabled by default.</string>
+  <string name="show_dev_already_enabled">Non è necessario, le opzioni da sviluppatore sono già attive.</string>
   <!-- App details: open play store link if app is user installed -->
   <string name="app_play_store">Google Play</string>
   <!-- Advanced night mode brightness -->
-  <string name="night_brightness_category">Brightness</string>
-  <string name="night_brightness_value_title">Lower brightness if Night Light</string>
-  <string name="night_bright_disabled">Disabled</string>
-  <string name="night_bright_minimum">Minimum brightness</string>
-  <string name="night_bright_low">Low brightness</string>
-  <string name="night_bright_medium">Medium brightness</string>
+  <string name="night_brightness_category">Luminosità</string>
+  <string name="night_brightness_value_title">Luminosità ridotta con Luce Notturna</string>
+  <string name="night_bright_disabled">Disattivato</string>
+  <string name="night_bright_minimum">Luminosità minima</string>
+  <string name="night_bright_low">Luminosità bassa</string>
+  <string name="night_bright_medium">Luminosità media</string>
   <!-- About dotOS -->
-  <string name="dot_about_info">About us</string>
-  <string name="dot_about_summary">Our introduction and our team</string>
-  <string name="dot_about_info_summary">DOT stands for Droid On Time. DOT is based on Pure Aosp - which is highly optimized for supreme performance! Our ROM primary goal is to provide best Optimized Performance for all devices running our ROM be it of Low, Mid or High End. We are here to make your device compete with time itself!....</string>
-  <string name="dev_info">About dotOS</string>
-  <string name="dot_team">dotOS Team</string>
-  <string name="github">Github</string>
-  <string name="github_description">View our source code</string>
+  <string name="dot_about_info">Chi siamo</string>
+  <string name="dot_about_summary">La nostra introduzione e il nostro team</string>
+  <string name="dot_about_info_summary">DOT sta per Droid In Time. DOT è basata su un AOSP pura - la quale è altamente ottimizzata per perfomance supreme! L\'obiettivo principale della nostra ROM è fornire le migliori prestazioni per tutti i dispositivi che la eseguono, sia esso di fascia bassa, media o alta. Siamo qui per rendere il tuo dispositivo in competizione con il tempo stesso!....</string>
+  <string name="dev_info">Informazioni su dotOS</string>
+  <string name="dot_team">Team dotOS</string>
+  <string name="github">GitHub</string>
+  <string name="github_description">Visualizza il nostro codice sorgente</string>
   <string name="gplus">Google+</string>
-  <string name="gplus_description">Join our G+ community</string>
+  <string name="gplus_description">Unisciti alla nostra community su G+</string>
   <string name="telegram">Telegram</string>
-  <string name="telegram_description">Join our Telegram discussion group</string>
-  <string name="web">Website</string>
-  <string name="web_description">Visit our Website</string>
-  <string name="maintainers">Maintainers</string>
+  <string name="telegram_description">Entra nel nostro gruppo telegram per discutere</string>
+  <string name="web">Sito Web</string>
+  <string name="web_description">Visita il nostro sito web</string>
+  <string name="maintainers">Manutentori</string>
   <string name="dev_1">Mohan Cm &#40;mohancm&#41;</string>
-  <string name="dev1_description">Owner/Lead Developer</string>
+  <string name="dev1_description">Proprietario / Sviluppatore principale</string>
   <string name="dev_2">Ganesh varma &#40;Ganesh_i4u&#41;</string>
-  <string name="dev2_description">Developer/Contributor</string>
+  <string name="dev2_description">Sviluppatore/Collaboratore</string>
   <string name="dev_3">Kuber Sharma &#40;kubersharma&#41;</string>
-  <string name="dev3_description">Developer/Contributor</string>
+  <string name="dev3_description">Sviluppatore/Collaboratore</string>
   <string name="dev_4">Sam Grande &#40;Reapergod35&#41;</string>
-  <string name="dev4_description">UI Developer/Contributor</string>
+  <string name="dev4_description">Sviluppatore interfaccia/Collaboratore</string>
   <string name="dev_5">Iacob Ionut </string>
-  <string name="dev5_description">UI Developer/Contributor</string>
+  <string name="dev5_description">Sviluppatore interfaccia/Collaboratore</string>
   <string name="dev_6">Atul Bansode &#40;B_auuuuu&#41;</string>
   <string name="dev6_description">Infrastructure/Contributor</string>
   <string name="dev_7">Hari Ambadi &#40;hariambadii&#41;</string>
   <string name="dev7_description">Core GFX/Visual Designer</string>
   <!-- About Contributors -->
-  <string name="dot_contributors">Contributors</string>
+  <string name="dot_contributors">Collaboratori</string>
   <string name="contributor_1">Alex Brookes</string>
-  <string name="contributor1_description">Wallpaper Designer</string>
+  <string name="contributor1_description">Designer sfondi</string>
   <!-- Changelog -->
-  <string name="changelog_title">Changelog</string>
-  <string name="changelog_summary">Recent Changes</string>
-  <string name="changelog_loading">Loading changelog\u2026</string>
-  <string name="changelog_error">Unable to load changelog</string>
+  <string name="changelog_title">Modifiche</string>
+  <string name="changelog_summary">Modifiche recenti</string>
+  <string name="changelog_loading">Caricamento modifiche\u2026</string>
+  <string name="changelog_error">Impossibile caricare le modifiche</string>
   <!-- Maintainers Info-->
-  <string name="maintainers_title">Official maintainers</string>
+  <string name="maintainers_title">Manutentori ufficiali</string>
   <string name="maintainers_summary">Officially supported devices and their respective maintainers.</string>
   <!-- Maintainer section -->
-  <string name="maintainer_description">Maintainer: %1$s</string>
-  <string name="loading_devices">Loading devices list...</string>
-  <string name="loading_devices_failed">Failed to load devices list</string>
-  <string name="devices_list_empty">List is empty, tap the icon to reload</string>
-  <string name="reload_list">Reload</string>
+  <string name="maintainer_description">Manutentore: %1$s</string>
+  <string name="loading_devices">Elenco dispositivi in caricamento...</string>
+  <string name="loading_devices_failed">Impossibile caricare l\'elenco dei dispositivi</string>
+  <string name="devices_list_empty">Elenco vuoto, tocca l\'icona per ricaricare</string>
+  <string name="reload_list">Ricarica</string>
   <!-- Expanded desktop -->
-  <string name="power_menu_expanded_desktop">Expanded desktop</string>
-  <string name="expanded_hide_nothing">Hide nothing</string>
-  <string name="expanded_hide_status">Hide status bar</string>
-  <string name="expanded_hide_navigation">Hide navigation bar</string>
-  <string name="expanded_hide_both">Hide both</string>
-  <string name="expanded_nothing_to_show">To add a custom per-app configuration for expanded state, set \"Enabled for all\" to the off position</string>
-  <string name="expanded_desktop_state">Expanded state</string>
-  <string name="expanded_enabled_for_all">Enabled for all</string>
-  <string name="expanded_user_configurable">User configurable</string>
-  <string name="expanded_desktop_style">Expanded desktop style</string>
-  <string name="expanded_desktop_style_description">Choose a default expanded desktop style</string>
-  <string name="expanded_desktop_title">Expanded desktop options</string>
+  <string name="power_menu_expanded_desktop">Schermo esteso</string>
+  <string name="expanded_hide_nothing">Non nascondere nulla</string>
+  <string name="expanded_hide_status">Nascondi la barra di stato</string>
+  <string name="expanded_hide_navigation">Nascondi la barra di navigazione</string>
+  <string name="expanded_hide_both">Nascondi entrambi</string>
+  <string name="expanded_nothing_to_show">Per aggiungere una configurazione personalizzata di schermo esteso per ogni app, disattiva \"Attivo per tutti\"</string>
+  <string name="expanded_desktop_state">Stato desktop esteso</string>
+  <string name="expanded_enabled_for_all">Attivato per tutti</string>
+  <string name="expanded_user_configurable">Configurabile dall\'utente</string>
+  <string name="expanded_desktop_style">Stile desktop esteso</string>
+  <string name="expanded_desktop_style_description">Scegli lo stile predefinito del desktop esteso</string>
+  <string name="expanded_desktop_title">Impostazioni desktop esteso</string>
   <!-- Screenshot sound -->
-  <string name="screenshot_sound_title">Screenshot sound</string>
-  <string name="screenshot_sound_summary">Plays sound effect when screenshot is taken</string>
+  <string name="screenshot_sound_title">Suono screenshot</string>
+  <string name="screenshot_sound_summary">Riproduci un suono quando si effettua uno screenshot</string>
   <!-- Notification volume -->
-  <string name="link_volume_option_title">Link ring and notification volume</string>
-  <string name="notification_volume_option_title">Notification volume</string>
-  <string name="ring_notification_volume_option_title">Ring and notification volume</string>
+  <string name="link_volume_option_title">Collega il volume della suoneria alla notifica</string>
+  <string name="notification_volume_option_title">Volume notifica</string>
+  <string name="ring_notification_volume_option_title">Volume suoneria e notifica</string>
   <!-- App Ops Settings -->
   <!-- App Ops Categories -->
-  <string name="app_ops_cat_location">Location</string>
-  <string name="app_ops_cat_personal">Personal</string>
-  <string name="app_ops_cat_messaging">Messaging</string>
+  <string name="app_ops_cat_location">Posizione</string>
+  <string name="app_ops_cat_personal">Personale</string>
+  <string name="app_ops_cat_messaging">Messaggi</string>
   <string name="app_ops_cat_media">Media</string>
-  <string name="app_ops_cat_device">Device</string>
-  <string name="app_ops_cat_bootup">Bootup</string>
+  <string name="app_ops_cat_device">Dispositivo</string>
+  <string name="app_ops_cat_bootup">Avvio</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
-  <string name="app_ops_access_camera">camera</string>
-  <string name="app_ops_access_location">location</string>
-  <string name="app_ops_access_notifications">notifications</string>
+  <string name="app_ops_access_camera">fotocamera</string>
+  <string name="app_ops_access_location">posizione</string>
+  <string name="app_ops_access_notifications">notifiche</string>
   <string name="app_ops_activate_vpn">VPN</string>
-  <string name="app_ops_auto_start">autostart</string>
-  <string name="app_ops_delete_call_log">delete call log</string>
-  <string name="app_ops_delete_contacts">delete contacts</string>
-  <string name="app_ops_delete_mms">delete MMS</string>
-  <string name="app_ops_delete_sms">delete SMS</string>
-  <string name="app_ops_draw_on_top">draw on top</string>
-  <string name="app_ops_get_usage_stats">get usage stats</string>
-  <string name="app_ops_keep_device_awake">keep awake</string>
-  <string name="app_ops_make_phone_call">make call</string>
-  <string name="app_ops_modify_calendar">update calendar</string>
-  <string name="app_ops_modify_call_log">update call log</string>
-  <string name="app_ops_modify_clipboard">modify clipboard</string>
-  <string name="app_ops_modify_contacts">update contacts</string>
-  <string name="app_ops_modify_settings">update settings</string>
-  <string name="app_ops_mute_unmute_microphone">mute/unmutee mic</string>
-  <string name="app_ops_play_audio">play audio</string>
-  <string name="app_ops_post_notification">post notification</string>
+  <string name="app_ops_auto_start">avvio automatico</string>
+  <string name="app_ops_delete_call_log">elimina registro chiamate</string>
+  <string name="app_ops_delete_contacts">elimina contatti</string>
+  <string name="app_ops_delete_mms">elimina MMS</string>
+  <string name="app_ops_delete_sms">elimina SMS</string>
+  <string name="app_ops_draw_on_top">disegna sopra</string>
+  <string name="app_ops_get_usage_stats">otteni le statistiche di utilizzo</string>
+  <string name="app_ops_keep_device_awake">mantieni attivo</string>
+  <string name="app_ops_make_phone_call">effettua una chiamata</string>
+  <string name="app_ops_modify_calendar">aggiorna il calendario</string>
+  <string name="app_ops_modify_call_log">aggiorna il registro chiamate</string>
+  <string name="app_ops_modify_clipboard">modifica appunti</string>
+  <string name="app_ops_modify_contacts">aggiorna contatti</string>
+  <string name="app_ops_modify_settings">aggiorna le impostazioni</string>
+  <string name="app_ops_mute_unmute_microphone">attivare/disattivare il microfono</string>
+  <string name="app_ops_play_audio">Riproduci audio</string>
+  <string name="app_ops_post_notification">Posticipa notifica</string>
   <string name="app_ops_project_media">project media</string>
   <string name="app_ops_read_calendar">read calendar</string>
   <string name="app_ops_read_call_log">read call log</string>
@@ -178,24 +178,24 @@
   <string name="app_ops_boot_completed">auto start</string>
   <!-- Root Management -->
   <string name="rootmanagement_title">Root management</string>
-  <string name="rootmanagement_dashboard_summary">Manage root access</string>
+  <string name="rootmanagement_dashboard_summary">Gestisci i permessi di root</string>
   <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
   <string name="supersu_title">SuperSU</string>
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
-  <string name="local_backup_password_title">Desktop backup password</string>
+  <string name="local_backup_password_title">Password di backup desktop</string>
   <!-- Battery saver color -->
-  <string name="battery_saver_color_title">Warning color</string>
-  <string name="battery_saver_color_summary">Enable orange status - navigation bars when battery saver is activated</string>
+  <string name="battery_saver_color_title">Colore avviso</string>
+  <string name="battery_saver_color_summary">Colora di arancione la barra di stato e di navigazione quando viene attivato il risparmio batteria</string>
   <!-- Wakeup options -->
-  <string name="wakeup_when_plugged_unplugged_title">Wake up on charge</string>
-  <string name="wakeup_when_plugged_unplugged_summary">Wake up device if charger is plugged/unplugged.</string>
+  <string name="wakeup_when_plugged_unplugged_title">Risveglia al collegamento</string>
+  <string name="wakeup_when_plugged_unplugged_summary">Risveglia il dispositivo se colleghi/scolleghi il caricabatteria.</string>
   <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
-  <string name="show_cpu_info">Show CPU info</string>
+  <string name="show_cpu_info">Mostra informazioni CPU</string>
   <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
-  <string name="show_cpu_info_summary">Screen overlay showing current CPU info</string>
-  <string name="dashboard_conditions_title">Dashboard conditions</string>
-  <string name="summary_dashboard_conditions_enabled">Dashboard conditions are enabled</string>
-  <string name="summary_dashboard_conditions_disabled">Dashboard conditions are disabled</string>
+  <string name="show_cpu_info_summary">Sovrapponi sullo schermo le informazioni attuali della CPU</string>
+  <string name="dashboard_conditions_title">Condizioni pannello impostazioni</string>
+  <string name="summary_dashboard_conditions_enabled">Le condizioni del pannello impostazioni sono abilitate</string>
+  <string name="summary_dashboard_conditions_disabled">Condizioni pannello impostazioni sono disabilitati</string>
   <!-- Custom light color -->
   <string name="light_customization">Led light notification</string>
   <string name="custom_light_title">Light color</string>
