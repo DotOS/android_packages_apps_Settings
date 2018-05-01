@@ -23,9 +23,9 @@
   <string name="build_date_default">2018-04-21-0000</string>
   <!-- Development Settings -->
   <!-- Dev Options Enabled by Default -->
-  <string name="show_dev_already_enabled">Gerek yok, Geliştirici ayarları varsayılan olarak zaten etkinleştirildi.</string>
+  <string name="show_dev_already_enabled">Geliştirici ayarları zaten etkin!</string>
   <!-- App details: open play store link if app is user installed -->
-  <string name="app_play_store">Google Play</string>
+  <string name="app_play_store">Google play</string>
   <!-- Advanced night mode brightness -->
   <string name="night_brightness_category">Parlaklık</string>
   <string name="night_brightness_value_title">Gece ışığında düşük parlaklık</string>
@@ -35,10 +35,10 @@
   <string name="night_bright_medium">Orta parlaklık</string>
   <!-- About dotOS -->
   <string name="dot_about_info">Hakkımızda</string>
-  <string name="dot_about_summary">Tanıtımımız ve ekibimiz</string>
+  <string name="dot_about_summary">Tanıtımımız ve ekibimimiz</string>
   <string name="dot_about_info_summary">DOT Zamanında Droid anlamına gelir. DOT, üstün performans için son derece optimize edilmiş olan Pure Aosp\'u temel alır! ROM\'umuzun birincil hedefi, ROM\'umuzu çalıştıran tüm cihazlar için düşük, orta veya yüksek sonlu optimize edilmiş performansı sağlamaktır. Cihazınızı zamanla rekabet etmek için buradayız!....</string>
-  <string name="dev_info">DotOS Hakkında</string>
-  <string name="dot_team">DotOS Takımı</string>
+  <string name="dev_info">DotOS hakkında</string>
+  <string name="dot_team">DotOS takımı</string>
   <string name="github">GitHub</string>
   <string name="github_description">Kaynak kodumuzu görüntüleyin</string>
   <string name="gplus">Google+</string>
@@ -63,7 +63,7 @@
   <string name="dev_7">Hari Ambadi &#40;hariambadii&#41;</string>
   <string name="dev7_description">Çekirdek GFX/Görsel tasarımcı</string>
   <!-- About Contributors -->
-  <string name="dot_contributors">Katkıda Bulunanlar</string>
+  <string name="dot_contributors">Katkıda bulunanlar</string>
   <string name="contributor_1">Alex Brookes</string>
   <string name="contributor1_description">Duvar kağıdı tasarımcısı</string>
   <!-- Changelog -->
