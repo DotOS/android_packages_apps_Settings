@@ -13,22 +13,22 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About phone screen, dotOS version -->
-  <string name="dot_version">DotOS version</string>
-  <string name="dot_version_default">Unknown</string>
+  <string name="dot_version">إصدار DotOS</string>
+  <string name="dot_version_default">غير معروف</string>
   <!-- dot ota -->
-  <string name="dot_ota_title">dotOS OTA</string>
-  <string name="dot_ota_summary">dotOS System Updates</string>
+  <string name="dot_ota_title">تحديثات dotOS</string>
+  <string name="dot_ota_summary">تحديثات نظام dotOS</string>
   <!-- About phone screen, build date -->
-  <string name="build_date">Build date</string>
+  <string name="build_date">تاريخ الإنشاء</string>
   <string name="build_date_default">2015-01-01-0000</string>
   <!-- Development Settings -->
   <!-- Dev Options Enabled by Default -->
-  <string name="show_dev_already_enabled">No Need, Development settings are enabled by default.</string>
+  <string name="show_dev_already_enabled">لا حاجة، إعدادات المطور مفعلة بشكل افتراضي.</string>
   <!-- App details: open play store link if app is user installed -->
-  <string name="app_play_store">Google Play</string>
+  <string name="app_play_store">متجر جوجل</string>
   <!-- Advanced night mode brightness -->
   <string name="night_brightness_category">السطوع</string>
-  <string name="night_brightness_value_title">اضاءة اقل في الليل</string>
+  <string name="night_brightness_value_title">تقليل السطوع في الليل</string>
   <string name="night_bright_disabled">معطل</string>
   <string name="night_bright_minimum">الحد الأدنى من السطوع</string>
   <string name="night_bright_low">سطوع منخفض</string>
@@ -195,9 +195,9 @@
   <string name="show_cpu_info">أظهر معلومات المُعالج</string>
   <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
   <string name="show_cpu_info_summary">طبقة شاشة تظهر معلومات المُعالج الحالية</string>
-  <string name="dashboard_conditions_title">إعدادات لوحة التحكم</string>
-  <string name="summary_dashboard_conditions_enabled">شروط تطبيق الإعدادات مفعّلة</string>
-  <string name="summary_dashboard_conditions_disabled">شروط تطبيق الإعدادات معطّلة</string>
+  <string name="dashboard_conditions_title">شروط لوحة التحكم</string>
+  <string name="summary_dashboard_conditions_enabled">شروط لوحة التحكم مفعّلة</string>
+  <string name="summary_dashboard_conditions_disabled">شروط لوحة التحكم معطّلة</string>
   <!-- Custom light color -->
   <string name="light_customization">اضواء الاشعارات</string>
   <string name="custom_light_title">لـون الاضاءة</string>
