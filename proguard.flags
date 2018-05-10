@@ -42,3 +42,5 @@
     public static ** SEARCH_INDEX_DATA_PROVIDER;
     public static ** SUMMARY_PROVIDER_FACTORY;
 }
+
+-dontwarn org.codehaus.** 
