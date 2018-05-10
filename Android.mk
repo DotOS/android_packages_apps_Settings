@@ -49,6 +49,7 @@ LOCAL_JAVA_LIBRARIES := \
     org.apache.http.legacy
 
 LOCAL_STATIC_JAVA_LIBRARIES := \
+    android-support-transition \
     android-support-v4 \
     android-support-v7-appcompat \
     android-support-v7-preference \
