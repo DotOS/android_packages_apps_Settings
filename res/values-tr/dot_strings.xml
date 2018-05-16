@@ -178,7 +178,7 @@
   <string name="app_ops_boot_completed">otomatik başlat</string>
   <!-- Root Management -->
   <string name="rootmanagement_title">Root yönetimi</string>
-  <string name="rootmanagement_dashboard_summary">Root erişimini yönetme</string>
+  <string name="rootmanagement_dashboard_summary">Root erişimini yönetin</string>
   <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
   <string name="supersu_title">SuperSU</string>
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
@@ -219,4 +219,9 @@
   <string name="adb_over_network_summary">Ağ arayüzleri (Wi-Fi, USB ağları) üzerinde TCP/IP ayıklamayı etkinleştir. Bu ayar, yeniden başlatıldığında sıfırlanır</string>
   <!-- Warning for Adb over Network -->
   <string name="adb_over_network_warning">UYARI: ADB üzerinden ağ aktifken telefonunuz GSM veri ağı dahil tüm bağlı ağlar üzerinden kötüye kullanımlara açık olacaktır!\n\nBu özelliği sadece güvenlir ağlara bağlıyken kullanın.\n\nBu özellik açılsın mı?</string>
+  <!-- Per-app data restrictions -->
+  <string name="data_usage_app_restrict_data">Cellular data</string>
+  <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
+  <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
+  <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
 </resources>

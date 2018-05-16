@@ -219,4 +219,9 @@
   <string name="adb_over_network_summary">Habilita depuração por interfaces de rede TCP/IP (Wi-Fi, redes USB). Esta configuração é perdida ao reiniciar</string>
   <!-- Warning for Adb over Network -->
   <string name="adb_over_network_warning">ATENÇÃO: Quando ADB sobre rede é habilitada, seu dispositivo é aberto a invasões em todas as redes conectadas, incluindo rede de dados GSM !\n\nUse este recurso somente quando estiver conectado a redes confiáveis.\n\nVocê realmente quer habilitar ?</string>
+  <!-- Per-app data restrictions -->
+  <string name="data_usage_app_restrict_data">Cellular data</string>
+  <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
+  <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
+  <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
 </resources>

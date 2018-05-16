@@ -219,4 +219,9 @@
   <string name="adb_over_network_summary">Увімкнути налагодження TCP/IP через мережеві інтерфейси (Wi-Fi, USB мережі). Це налаштування скидається при перезавантаженні</string>
   <!-- Warning for Adb over Network -->
   <string name="adb_over_network_warning">УВАГА: коли увімкнений ADB по мережі, телефон відкритий для доступу зі всіх під’єднаних мереж, включаючи передачу даних GSM!\n\nВикористовуйте цю функцію тільки тоді, коли Ви підключені до довірених мереж.\n\nВи справді хочете увімкнути цю функцію?</string>
+  <!-- Per-app data restrictions -->
+  <string name="data_usage_app_restrict_data">Cellular data</string>
+  <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
+  <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
+  <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
 </resources>
