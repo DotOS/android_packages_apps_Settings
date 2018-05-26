@@ -256,9 +256,6 @@
 	<!-- OS Information -->
 	<string name="os_information">OS information</string>
 	<string name="os_summary_info">Information about the ROM</string>
-
-	<!-- device info dialog -->
-	<string name="os_information">OS information</string>
 	
 	
 </resources>
