@@ -73,8 +73,8 @@
 
         <!-- OS Informations -->
         <Preference android:key="device_dialog"
-                android:title="OS information"
-                android:summary="Information about the ROM" />
+                android:title="@string/os_information"
+                android:summary="@string/os_summary_info" />
   
         <!-- Device FCC equipment id -->
         <Preference
