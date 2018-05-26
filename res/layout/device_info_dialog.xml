@@ -68,7 +68,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
-                android:text="dotOS Version"
+                android:text="@string/dot_version"
                 android:textSize="16sp" />
 
             <TextView
@@ -94,7 +94,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
-                android:text="Android Version"
+                android:text="@string/firmware_version"
                 android:textSize="16sp" />
 
             <TextView
@@ -120,7 +120,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
-                android:text="Build Date"
+                android:text="@string/build_date"
                 android:textSize="16sp" />
 
             <TextView
@@ -147,7 +147,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
-                android:text="Android security Patch"
+                android:text="@string/security_patch"
                 android:textSize="16sp" />
 
             <TextView
