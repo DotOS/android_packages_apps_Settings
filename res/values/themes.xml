@@ -155,8 +155,8 @@
          directly. So use #ff263238 instead of @color/theme_primary and so on. -->
  <style name="Theme.SettingsBase" parent="@*android:style/Theme.DeviceDefault.Settings">
  <item name="android:colorAccent">@*android:color/accent_device_default_light</item>
- <item name="android:navigationBarColor">@*android:color/accent_device_default_light</item>
- <item name="android:windowLightNavigationBar">@bool/windowDarkNavigationBar</item>
+ <item name="android:navigationBarColor">@*android:color/dot_background_color</item>
+ <item name="android:windowLightNavigationBar">@bool/windowLightNavigationBar</item>
 </style>
 
     <style name="Theme.Settings" parent="Theme.SettingsBase">
