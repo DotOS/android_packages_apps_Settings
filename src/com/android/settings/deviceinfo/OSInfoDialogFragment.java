@@ -61,7 +61,7 @@ public class OSInfoDialogFragment extends InstrumentedDialogFragment {
         TextView security_patch = content.findViewById(R.id.security_patch);
         TextView android_version = content.findViewById(R.id.dev_info_android_version);
         model.setText(SystemProperties.get("ro.product.model"));
-        dot_version.setText(SystemProperties.get("ro.modversion"));
+        dot_version.setText(SystemProperties.get("ro.modversion") + " - " + SystemProperties.get("ro.dot.releasetype"));
         build_date.setText(SystemProperties.get("ro.build.date"));
         android_version.setText(SystemProperties.get("ro.build.version.release"));
         security_patch.setText(SystemProperties.get("ro.build.version.security_patch"));
