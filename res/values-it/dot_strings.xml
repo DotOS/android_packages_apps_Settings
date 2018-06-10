@@ -220,8 +220,28 @@
   <!-- Warning for Adb over Network -->
   <string name="adb_over_network_warning">ATTENZIONE: Quando è attivo l\'ADB attraverso interfacce di rete il dispositivo è vulnerabile ad intrusioni da parte di tutte le reti connesse, inclusa quella GSM!\n\nUsare questa funzione esclusivamente se si è connessi a reti affidabili.\n\nSei sicuro di voler attivare questa funzione?</string>
   <!-- Per-app data restrictions -->
-  <string name="data_usage_app_restrict_data">Cellular data</string>
-  <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
-  <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
-  <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+  <string name="data_usage_app_restrict_data">Dati cellulare</string>
+  <string name="data_usage_app_restrict_data_summary">Abilita l\'utilizzo dei dati del cellulare</string>
+  <string name="data_usage_app_restrict_wifi">Dati Wi\u2011Fi</string>
+  <string name="data_usage_app_restrict_wifi_summary">Abilita l\'uso dei dati del Wi\u2011Fi</string>
+  <!-- OS Information -->
+  <string name="os_information">Informazioni sul sistema operativo</string>
+  <string name="os_summary_info">Informazioni sulla ROM</string>
+  <!-- Manual provisioning support -->
+  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> è <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+  <string name="sim_enabled">abilitato</string>
+  <string name="sim_disabled">disabilitato</string>
+  <string name="sim_missing">mancante o difettoso</string>
+  <string name="sim_enabler_need_disable_sim">La scheda SIM sarà disattivata. Vuoi continuare?</string>
+  <string name="sim_enabler_will_disable_sim_title">Attenzione</string>
+  <string name="sim_enabler_need_switch_data_service">Questa SIM sarà disattivata e la SIM <xliff:g id="slotid">%1$s</xliff:g> sarà utilizzata per la connessione dati. Vuoi procedere?</string>
+  <string name="sim_enabler_airplane_on">Impossibile eseguire l\'operazione mentre è attivata la modalità aereo.</string>
+  <string name="sim_enabler_in_call">Impossibile eseguire l\'operazione durante una chiamata.</string>
+  <string name="sim_enabler_both_inactive">Non è possibile disattivare tutte le schede SIM</string>
+  <string name="sim_enabler_enabling">Attivazione\2026</string>
+  <string name="sim_enabler_disabling">Disattivazione\2026</string>
+  <string name="sub_activate_success">SIM attivata.</string>
+  <string name="sub_activate_failed">Attivazione fallita.</string>
+  <string name="sub_deactivate_success">SIM disattivata.</string>
+  <string name="sub_deactivate_failed">Disattivazione non riuscita.</string>
 </resources>

@@ -220,8 +220,28 @@
   <!-- Warning for Adb over Network -->
   <string name="adb_over_network_warning">ВНИМАНИЕ: когда включена отладка по сети, устройство открыто для неконтролируемого доступа из всех подключённых сетей!\n\nИспользуйте эту функцию только тогда, когда вы подключены к доверенным сетям.\n\nВы действительно хотите включить эту функцию?</string>
   <!-- Per-app data restrictions -->
-  <string name="data_usage_app_restrict_data">Cellular data</string>
-  <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
-  <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
-  <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+  <string name="data_usage_app_restrict_data">Передача моб. данных </string>
+  <string name="data_usage_app_restrict_data_summary">Включить использование мобильных данных</string>
+  <string name="data_usage_app_restrict_wifi">Wi\u2011Fi данные</string>
+  <string name="data_usage_app_restrict_wifi_summary">Включить использование Wi\u2011Fi данных</string>
+  <!-- OS Information -->
+  <string name="os_information">Информация ОС</string>
+  <string name="os_summary_info">Просмотр сведений о прошивке</string>
+  <!-- Manual provisioning support -->
+  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> — <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+  <string name="sim_enabled">включено</string>
+  <string name="sim_disabled">отключено</string>
+  <string name="sim_missing">отсутствует или неисправно</string>
+  <string name="sim_enabler_need_disable_sim">SIM-карта будет деактивирована. Продолжить?</string>
+  <string name="sim_enabler_will_disable_sim_title">Внимание</string>
+  <string name="sim_enabler_need_switch_data_service">Эта SIM-карта будет отключена и SIM <xliff:g id="slotid">%1$s</xliff:g> будет использоваться для передачи данных. Вы действительно хотите продолжить?</string>
+  <string name="sim_enabler_airplane_on">Выполнение операции невозможно в режиме полета.</string>
+  <string name="sim_enabler_in_call">Выполнение операции невозможно во время вызова.</string>
+  <string name="sim_enabler_both_inactive">Невозможно отключить все SIM-карты</string>
+  <string name="sim_enabler_enabling">Включение/u2026</string>
+  <string name="sim_enabler_disabling">Отключение\u2026</string>
+  <string name="sub_activate_success">SIM-карта активирована.</string>
+  <string name="sub_activate_failed">Ошибка активации.</string>
+  <string name="sub_deactivate_success">SIM-карта отключена.</string>
+  <string name="sub_deactivate_failed">Отключение не удалось.</string>
 </resources>
