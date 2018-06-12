@@ -220,8 +220,28 @@
   <!-- Warning for Adb over Network -->
   <string name="adb_over_network_warning">UWAGA: Kiedy ADB przez sieć jest aktywne, telefon jest otwarty na instrukcje w każdej połączonej sieci, w tym GSM!\n\nUżywaj tej funkcji tylko, gdy jesteś połączony z zaufanymi sieciami.\n\nCzy na pewno chcesz aktywować?</string>
   <!-- Per-app data restrictions -->
-  <string name="data_usage_app_restrict_data">Cellular data</string>
-  <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
-  <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
-  <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+  <string name="data_usage_app_restrict_data">Komórkowa transmisja danych</string>
+  <string name="data_usage_app_restrict_data_summary">Włączyć użycie danych komórkowych</string>
+  <string name="data_usage_app_restrict_wifi">Dane Wi\u2011Fi</string>
+  <string name="data_usage_app_restrict_wifi_summary">Umożliwić wykorzystanie danych Wi\u2011Fi</string>
+  <!-- OS Information -->
+  <string name="os_information">Informacje systemu</string>
+  <string name="os_summary_info">Informacje o ROMie</string>
+  <!-- Manual provisioning support -->
+  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s </xliff:g> jest <xliff:g id="status" example="disabled">%2$s </xliff:g></string>
+  <string name="sim_enabled">włączono</string>
+  <string name="sim_disabled">wyłączono</string>
+  <string name="sim_missing">brakująca lub uszkodzona</string>
+  <string name="sim_enabler_need_disable_sim">Karta SIM zostanie wyłączona. Czy chcesz kontynuować?</string>
+  <string name="sim_enabler_will_disable_sim_title">Uwaga</string>
+  <string name="sim_enabler_need_switch_data_service">Ta karta SIM zostanie wyłączona i SIM <xliff:g id="slotid">%1$s </xliff:g> będzie używana do transmisji danych, kontynuować?</string>
+  <string name="sim_enabler_airplane_on">Nie można wykonać operacji, podczas gdy włączony jest tryb samolotowy.</string>
+  <string name="sim_enabler_in_call">Nie można wykonać operacji w czasie rozmowy.</string>
+  <string name="sim_enabler_both_inactive">Nie można wyłączyć wszystkich kart SIM</string>
+  <string name="sim_enabler_enabling">Aktywowanie\u2026</string>
+  <string name="sim_enabler_disabling">Dezaktywowanie\u2026</string>
+  <string name="sub_activate_success">Karta SIM aktywna.</string>
+  <string name="sub_activate_failed">Aktywacja nie powiodła się.</string>
+  <string name="sub_deactivate_success">Karta SIM nieaktywna.</string>
+  <string name="sub_deactivate_failed">Dezaktywacja nie powiodła się.</string>
 </resources>

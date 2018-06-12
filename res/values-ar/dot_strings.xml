@@ -222,8 +222,28 @@
   <!-- Warning for Adb over Network -->
   <string name="adb_over_network_warning">تحذير: عند تمكين ADB عبر الشبكة، هاتفك مفتوح للتدخلات على جميع شبكات الاتصال، بما في ذلك شبكة البيانات GSM!\n\nاستخدام هذه الميزة فقط عندما تكون متصلا على شبكات موثوق بها.\n\nهل تريد حقا لتمكين هذه الوظيفة؟</string>
   <!-- Per-app data restrictions -->
-  <string name="data_usage_app_restrict_data">Cellular data</string>
-  <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
-  <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
-  <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+  <string name="data_usage_app_restrict_data">البيانات المحلية</string>
+  <string name="data_usage_app_restrict_data_summary">تمكين إستخدام البيانات المحلية</string>
+  <string name="data_usage_app_restrict_wifi">بيانات واي فاي</string>
+  <string name="data_usage_app_restrict_wifi_summary">تمكين إستخدام بيانات واي فاي</string>
+  <!-- OS Information -->
+  <string name="os_information">معلومات نظام التشغيل</string>
+  <string name="os_summary_info">معلومات حول هذا النظام</string>
+  <!-- Manual provisioning support -->
+  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> هو <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+  <string name="sim_enabled">مفعل</string>
+  <string name="sim_disabled">معطل</string>
+  <string name="sim_missing">مفقود أو معطل</string>
+  <string name="sim_enabler_need_disable_sim">سيتم إلغاء تفعيل بطاقة SIM. هل تريد المتابعة؟</string>
+  <string name="sim_enabler_will_disable_sim_title">إنتباه</string>
+  <string name="sim_enabler_need_switch_data_service">هذه SIM سوف تعطل و هذه <xliff:g id=\"slotid\">%1$s</xliff:g> SIM> سوف تستخدم لأجل بيانات الخدمة. هل أنت متأكد أنك تريد المتابعة؟</string>
+  <string name="sim_enabler_airplane_on">غير قادر على القيام بالعملية أثناء وضع الطيران.</string>
+  <string name="sim_enabler_in_call">غير قادر على القيام بالعملية أثناء الإتصال.</string>
+  <string name="sim_enabler_both_inactive">لا يمكن تعطيل جميع شرائح SIM</string>
+  <string name="sim_enabler_enabling">تفعيل\u2026</string>
+  <string name="sim_enabler_disabling">إلغاء تنشيط</string>
+  <string name="sub_activate_success">تم تنشيط SIM.</string>
+  <string name="sub_activate_failed">النشاط فشل.</string>
+  <string name="sub_deactivate_success">تم إلغاء تنشيط SIM.</string>
+  <string name="sub_deactivate_failed">فشل إلغاء التنشيط.</string>
 </resources>
