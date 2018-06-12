@@ -13,13 +13,13 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About phone screen, dotOS version -->
-  <string name="dot_version">Versão do DotOS</string>
+  <string name="dot_version">Versão da DotOS</string>
   <string name="dot_version_default">Desconhecido</string>
   <!-- dot ota -->
-  <string name="dot_ota_title">OTA do dotOS</string>
+  <string name="dot_ota_title">dotOS OTA</string>
   <string name="dot_ota_summary">Atualizações do Sistema dotOS</string>
   <!-- About phone screen, build date -->
-  <string name="build_date">Data da build</string>
+  <string name="build_date">Data de compilação</string>
   <string name="build_date_default">01-01-2015-0000</string>
   <!-- Development Settings -->
   <!-- Dev Options Enabled by Default -->
@@ -28,15 +28,15 @@
   <string name="app_play_store">Google Play</string>
   <!-- Advanced night mode brightness -->
   <string name="night_brightness_category">Brilho</string>
-  <string name="night_brightness_value_title">Diminuir o brilho se de noite</string>
+  <string name="night_brightness_value_title">Diminuir o brilho sob a noite</string>
   <string name="night_bright_disabled">Desabilitado</string>
   <string name="night_bright_minimum">Brilho mínimo</string>
   <string name="night_bright_low">Brilho baixo</string>
   <string name="night_bright_medium">Brilho médio</string>
   <!-- About dotOS -->
-  <string name="dot_about_info">Quem somos</string>
-  <string name="dot_about_summary">Uma introdução sobre a ROM e a equipe</string>
-  <string name="dot_about_info_summary">DOT significa Droid On Time. DOT é baseada na AOSP pura - que é muito otimizada para performance de alto nível! O objetivo principal da nossa ROM é prover a mais otimizada performance para todos os dispositivos rodando nossa ROM, seja de baixo custo, médio ou top de linha. Nós estamos aqui para fazer seu dispositivo competir com o próprio tempo!....</string>
+  <string name="dot_about_info">Sobre nós</string>
+  <string name="dot_about_summary">Introdução sobre a ROM e a nossa equipe</string>
+  <string name="dot_about_info_summary">DOT significa Droid On Time. A DOT é baseada na AOSP pura - que é muito otimizada para performance de alto nível! O objetivo principal da nossa ROM é prover a mais otimizada performance para todos os dispositivos rodando nossa ROM, seja de baixo custo, médio custo ou top de linha. Nós estamos aqui para fazer seu dispositivo competir com o próprio tempo!....</string>
   <string name="dev_info">Sobre a dotOS</string>
   <string name="dot_team">Equipe da dotOS</string>
   <string name="github">GitHub</string>
@@ -47,13 +47,13 @@
   <string name="telegram_description">Participe do nosso grupo no Telegram</string>
   <string name="web">Site</string>
   <string name="web_description">Visite nosso site</string>
-  <string name="maintainers">Mantenedores</string>
+  <string name="maintainers">Mantedores</string>
   <string name="dev_1">Mohan Cm &#40;mohancm&#41;</string>
   <string name="dev1_description">Desenvolvedor Líder</string>
   <string name="dev_2">Ganesh varma &#40;Ganesh_i4u&#41;</string>
   <string name="dev2_description">Desenvolvedor/Colaborador</string>
   <string name="dev_3">Kuber Sharma &#40;kubersharma&#41;</string>
-  <string name="dev3_description">Desenvolvedor/colaborador</string>
+  <string name="dev3_description">Desenvolvedor/Colaborador</string>
   <string name="dev_4">Sam Grande &#40;Reapergod35&#41;</string>
   <string name="dev4_description">Desenvolvedor da UI/Colaborador</string>
   <string name="dev_5">Iacob Ionut </string>
@@ -61,7 +61,7 @@
   <string name="dev_6">Atul Bansode &#40;B_auuuuu&#41;</string>
   <string name="dev6_description">Infra-estrutura/Colaborador</string>
   <string name="dev_7">Hari Ambadi &#40;hariambadii&#41;</string>
-  <string name="dev7_description">Corre GFX/Visual Designer</string>
+  <string name="dev7_description">Core GFX/Visual Designer</string>
   <!-- About Contributors -->
   <string name="dot_contributors">Colaboradores</string>
   <string name="contributor_1">Alex Brookes</string>
@@ -72,10 +72,10 @@
   <string name="changelog_loading">Carregando changelog\u2026</string>
   <string name="changelog_error">Não foi possivel carregar o changelog</string>
   <!-- Maintainers Info-->
-  <string name="maintainers_title">Mantenedores Oficiais</string>
-  <string name="maintainers_summary">Dispositivos suportados oficialmente e seus respectivos mantenedores.</string>
+  <string name="maintainers_title">Mantedores Oficiais</string>
+  <string name="maintainers_summary">Dispositivos suportados oficialmente e seus respectivos mantedores.</string>
   <!-- Maintainer section -->
-  <string name="maintainer_description">Mantenedor: %1$s</string>
+  <string name="maintainer_description">Mantendor: %1$s</string>
   <string name="loading_devices">Carregando a lista de dispositivos...</string>
   <string name="loading_devices_failed">Falha ao carregar a lista de dispositivos</string>
   <string name="devices_list_empty">A lista está vazia, clique no ícone para recarregar</string>
@@ -83,9 +83,9 @@
   <!-- Expanded desktop -->
   <string name="power_menu_expanded_desktop">Área de Trabalho expandida</string>
   <string name="expanded_hide_nothing">Não esconder nada</string>
-  <string name="expanded_hide_status">Esconder a barra de status</string>
-  <string name="expanded_hide_navigation">Ocultar barra de navegação</string>
-  <string name="expanded_hide_both">Ocultar ambas</string>
+  <string name="expanded_hide_status">Ocultar a barra de status</string>
+  <string name="expanded_hide_navigation">Ocultar a barra de navegação</string>
+  <string name="expanded_hide_both">Ocultar ambos</string>
   <string name="expanded_nothing_to_show">Para adicionar uma configuração personalizada a um aplicativo no modo expandido, a opção \"Ativado para todos\" deve estar desativada</string>
   <string name="expanded_desktop_state">Estado expandido</string>
   <string name="expanded_enabled_for_all">Ativado para todos</string>
@@ -120,8 +120,8 @@
   <string name="app_ops_delete_sms">apagar SMS</string>
   <string name="app_ops_draw_on_top">sobreposição</string>
   <string name="app_ops_get_usage_stats">obter estatísticas de uso</string>
-  <string name="app_ops_keep_device_awake">manter tela ativa</string>
-  <string name="app_ops_make_phone_call">fazer ligação</string>
+  <string name="app_ops_keep_device_awake">manter a tela ativa</string>
+  <string name="app_ops_make_phone_call">fazer uma ligação</string>
   <string name="app_ops_modify_calendar">atualizar o calendário</string>
   <string name="app_ops_modify_call_log">atualizar o registro de ligações</string>
   <string name="app_ops_modify_clipboard">modificar a área de transferência</string>
@@ -220,8 +220,28 @@
   <!-- Warning for Adb over Network -->
   <string name="adb_over_network_warning">ATENÇÃO: Quando ADB sobre rede é habilitada, seu dispositivo é aberto a invasões em todas as redes conectadas, incluindo rede de dados GSM !\n\nUse este recurso somente quando estiver conectado a redes confiáveis.\n\nVocê realmente quer habilitar ?</string>
   <!-- Per-app data restrictions -->
-  <string name="data_usage_app_restrict_data">Cellular data</string>
-  <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
-  <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
-  <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+  <string name="data_usage_app_restrict_data">Dados móveis</string>
+  <string name="data_usage_app_restrict_data_summary">Permitir o uso de dados móveis</string>
+  <string name="data_usage_app_restrict_wifi">Dados Wi-Fi</string>
+  <string name="data_usage_app_restrict_wifi_summary">Permitir o uso de dados Wi-Fi</string>
+  <!-- OS Information -->
+  <string name="os_information">Informações do OS</string>
+  <string name="os_summary_info">Informações sobre a ROM</string>
+  <!-- Manual provisioning support -->
+  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s </xliff:g> é <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+  <string name="sim_enabled">ativado</string>
+  <string name="sim_disabled">desativado</string>
+  <string name="sim_missing">desconectado ou com defeito</string>
+  <string name="sim_enabler_need_disable_sim">O cartão SIM será desativado. Você quer continuar?</string>
+  <string name="sim_enabler_will_disable_sim_title">Atenção</string>
+  <string name="sim_enabler_need_switch_data_service">Este cartão SIM será desativado e o cartão SIM <xliff:g id="slotid">%1$s</xliff:g> será usado para dados móveis. Tem certeza que deseja continuar?</string>
+  <string name="sim_enabler_airplane_on">Não é possível executar a operação enquanto o modo avião estiver ativado.</string>
+  <string name="sim_enabler_in_call">Não é possível realizar a operação durante uma chamada.</string>
+  <string name="sim_enabler_both_inactive">Não é possível desativar todos os cartões SIM</string>
+  <string name="sim_enabler_enabling">Ativando\u2026</string>
+  <string name="sim_enabler_disabling">Desativando\u2026</string>
+  <string name="sub_activate_success">SIM ativado.</string>
+  <string name="sub_activate_failed">Falha ao ativar.</string>
+  <string name="sub_deactivate_success">SIM desativado.</string>
+  <string name="sub_deactivate_failed">Falha ao desativar.</string>
 </resources>
