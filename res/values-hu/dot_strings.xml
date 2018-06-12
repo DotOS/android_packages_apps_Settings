@@ -17,9 +17,9 @@
   <string name="dot_version_default">Ismeretlen</string>
   <!-- dot ota -->
   <string name="dot_ota_title">DotOS OTA</string>
-  <string name="dot_ota_summary">DotOS rendszerfrissítések</string>
+  <string name="dot_ota_summary">DotOS-rendszerfrissítések</string>
   <!-- About phone screen, build date -->
-  <string name="build_date">Készítés dátuma</string>
+  <string name="build_date">Készítési dátum</string>
   <string name="build_date_default">2015-01-01-0000</string>
   <!-- Development Settings -->
   <!-- Dev Options Enabled by Default -->
@@ -27,7 +27,7 @@
   <!-- App details: open play store link if app is user installed -->
   <string name="app_play_store">Google Play Áruház</string>
   <!-- Advanced night mode brightness -->
-  <string name="night_brightness_category">Fényerő</string>
+  <string name="night_brightness_category">Éjjeli fény</string>
   <string name="night_brightness_value_title">Éjszakai fényviszonyok esetén alacsonyabb fényerő</string>
   <string name="night_bright_disabled">Letiltva</string>
   <string name="night_bright_minimum">Minimum fényerő</string>
@@ -70,7 +70,7 @@
   <string name="changelog_title">Fejlesztési napló</string>
   <string name="changelog_summary">Legutóbbi fejlesztések</string>
   <string name="changelog_loading">Lista betöltése\u2026</string>
-  <string name="changelog_error">Nem lehet betölteni a változások listáját</string>
+  <string name="changelog_error">Nem lehet betölteni a fejlesztések listáját</string>
   <!-- Maintainers Info-->
   <string name="maintainers_title">Hivatalos felelősök</string>
   <string name="maintainers_summary">A hivatalosan támogatott készülékek és azok saját felelősei.</string>
@@ -94,7 +94,7 @@
   <string name="expanded_desktop_style_description">Válasszon alapértelmezett kiterjesztett asztalstílust</string>
   <string name="expanded_desktop_title">A Kiterjesztett asztal lehetőségei</string>
   <!-- Screenshot sound -->
-  <string name="screenshot_sound_title">Képernyőmentés hangja</string>
+  <string name="screenshot_sound_title">A Képernyőmentés hangja</string>
   <string name="screenshot_sound_summary">Hangeffekt lejátszása képernyőmentéskor</string>
   <!-- Notification volume -->
   <string name="link_volume_option_title">Csengetési és értesítési hangerők összehangolása</string>
@@ -120,12 +120,12 @@
   <string name="app_ops_delete_sms">SMS törlése</string>
   <string name="app_ops_draw_on_top">előtérben tartás</string>
   <string name="app_ops_get_usage_stats">használati statisztikák lekérése</string>
-  <string name="app_ops_keep_device_awake">ébren tartás</string>
+  <string name="app_ops_keep_device_awake">tartsa ébren</string>
   <string name="app_ops_make_phone_call">hívásindítás</string>
-  <string name="app_ops_modify_calendar">naptár frissítése</string>
-  <string name="app_ops_modify_call_log">hívásnapló frissítése</string>
-  <string name="app_ops_modify_clipboard">vágólap módosítása</string>
-  <string name="app_ops_modify_contacts">névjegyek frissítése</string>
+  <string name="app_ops_modify_calendar">naptárfrissítés</string>
+  <string name="app_ops_modify_call_log">hívásnapló-frissítés</string>
+  <string name="app_ops_modify_clipboard">vágólapmódosítás</string>
+  <string name="app_ops_modify_contacts">névjegyfrissítése</string>
   <string name="app_ops_modify_settings">beállítások frissítése</string>
   <string name="app_ops_mute_unmute_microphone">mikrofon némítása/feloldása</string>
   <string name="app_ops_play_audio">hang lejátszása</string>
@@ -149,7 +149,7 @@
   <string name="app_ops_use_media_buttons">médiagombok</string>
   <string name="app_ops_use_media_volume">médiahangerő</string>
   <string name="app_ops_use_notification_volume">értesítési hangerő</string>
-  <string name="app_ops_use_ring_volume">csengőhang hangereje</string>
+  <string name="app_ops_use_ring_volume">csengőhang erőssége</string>
   <string name="app_ops_use_vibrate">rezgő visszajelzés</string>
   <string name="app_ops_use_voice_volume">hanghívás hangereje</string>
   <string name="app_ops_write_mms">MMS írása</string>
@@ -174,7 +174,7 @@
   <string name="app_ops_request_install_packages">csomagok telepítése</string>
   <string name="app_ops_picture_in_picture">kép-a-képben</string>
   <string name="app_ops_app_start_foreground">előtérben indítás</string>
-  <string name="app_ops_answer_phone_calls">hívásofogadás</string>
+  <string name="app_ops_answer_phone_calls">hívásfogadás</string>
   <string name="app_ops_boot_completed">automatikus indítás</string>
   <!-- Root Management -->
   <string name="rootmanagement_title">Root-jog kezelése</string>
@@ -192,7 +192,7 @@
   <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
   <string name="show_cpu_info">CPU-információk megjelenítése</string>
   <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
-  <string name="show_cpu_info_summary">Jelenlegi CPU adatok mutatása képernyő-fedőrétegen</string>
+  <string name="show_cpu_info_summary">Jelenlegi CPU-adatok megjelenítése egy képernyő-fedőrétegen</string>
   <string name="dashboard_conditions_title">Vezérlőpult-szabályzás</string>
   <string name="summary_dashboard_conditions_enabled">Vezérlőpult-szabályzás engedélyezve</string>
   <string name="summary_dashboard_conditions_disabled">Vezérlőpult-szabályzás letiltva</string>
@@ -220,8 +220,28 @@
   <!-- Warning for Adb over Network -->
   <string name="adb_over_network_warning">FIGYELEM: Ha az \'ADB hálózaton keresztül\' enegdélyezve van, a telefon védtelen minden hálózati behatolás ellen, beleértve a GSM hálózatot is!\n\nCsak akkor használja, ha megbízható hálózatra csatlakozik.\n\nBiztosan engedélyezni kívánja ezt a funkciót?</string>
   <!-- Per-app data restrictions -->
-  <string name="data_usage_app_restrict_data">Cellular data</string>
-  <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
-  <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
-  <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+  <string name="data_usage_app_restrict_data">Mobiladat-kapcsolat</string>
+  <string name="data_usage_app_restrict_data_summary">Mobiladat-használat engedélyezése</string>
+  <string name="data_usage_app_restrict_wifi">Wi-Fi adat</string>
+  <string name="data_usage_app_restrict_wifi_summary">Wi-Fi adathasználat engedélyezése</string>
+  <!-- OS Information -->
+  <string name="os_information">Rendszerinformációk</string>
+  <string name="os_summary_info">További információk a ROM-ról</string>
+  <!-- Manual provisioning support -->
+  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+  <string name="sim_enabled">engedélyezve</string>
+  <string name="sim_disabled">letiltva</string>
+  <string name="sim_missing">hiányzik vagy hibás</string>
+  <string name="sim_enabler_need_disable_sim">A SIM-kártya deaktiválásra kerül. Szeretné folytatni?</string>
+  <string name="sim_enabler_will_disable_sim_title">Figyelmeztetés</string>
+  <string name="sim_enabler_need_switch_data_service">Ez a SIM tiltásra kerül és a <xliff:g id="slotid">%1$s</xliff:g> SIM lesz adatszolgáltatáshoz használva. Biztosan folytatni kívánja?</string>
+  <string name="sim_enabler_airplane_on">Nem lehet végrehajtani a műveletet, amíg a repülőgép-üzemmód aktív.</string>
+  <string name="sim_enabler_in_call">Nem lehetséges végrehajtani a műveletet telefonhívás közben.</string>
+  <string name="sim_enabler_both_inactive">Nem tiltható le az összes SIM-kártya</string>
+  <string name="sim_enabler_enabling">Aktiválás\u2026</string>
+  <string name="sim_enabler_disabling">Letiltás\u2026</string>
+  <string name="sub_activate_success">SIM aktiválva.</string>
+  <string name="sub_activate_failed">Az aktiválás meghiúsult.</string>
+  <string name="sub_deactivate_success">SIM letiltva.</string>
+  <string name="sub_deactivate_failed">A letiltás meghiúsult.</string>
 </resources>

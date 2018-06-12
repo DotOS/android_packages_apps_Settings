@@ -13,66 +13,66 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About phone screen, dotOS version -->
-  <string name="dot_version">DotOS version</string>
-  <string name="dot_version_default">Unknown</string>
+  <string name="dot_version">DotOS 版本</string>
+  <string name="dot_version_default">不明</string>
   <!-- dot ota -->
   <string name="dot_ota_title">dotOS OTA</string>
-  <string name="dot_ota_summary">dotOS System Updates</string>
+  <string name="dot_ota_summary">dotOS 系統更新</string>
   <!-- About phone screen, build date -->
-  <string name="build_date">Build date</string>
+  <string name="build_date">編譯日期</string>
   <string name="build_date_default">2015-01-01-0000</string>
   <!-- Development Settings -->
   <!-- Dev Options Enabled by Default -->
-  <string name="show_dev_already_enabled">No Need, Development settings are enabled by default.</string>
+  <string name="show_dev_already_enabled">別按了，開發人員選項早就開啟了。</string>
   <!-- App details: open play store link if app is user installed -->
   <string name="app_play_store">Google Play</string>
   <!-- Advanced night mode brightness -->
-  <string name="night_brightness_category">Brightness</string>
-  <string name="night_brightness_value_title">Lower brightness if Night Light</string>
-  <string name="night_bright_disabled">Disabled</string>
-  <string name="night_bright_minimum">Minimum brightness</string>
-  <string name="night_bright_low">Low brightness</string>
-  <string name="night_bright_medium">Medium brightness</string>
+  <string name="night_brightness_category">亮度</string>
+  <string name="night_brightness_value_title">夜燈啟用時調低亮度</string>
+  <string name="night_bright_disabled">已停用</string>
+  <string name="night_bright_minimum">最低亮度</string>
+  <string name="night_bright_low">低亮度</string>
+  <string name="night_bright_medium">中亮度</string>
   <!-- About dotOS -->
-  <string name="dot_about_info">About us</string>
-  <string name="dot_about_summary">Our introduction and our team</string>
+  <string name="dot_about_info">關於我們</string>
+  <string name="dot_about_summary">介紹和團隊簡介</string>
   <string name="dot_about_info_summary">DOT stands for Droid On Time. DOT is based on Pure Aosp - which is highly optimized for supreme performance! Our ROM primary goal is to provide best Optimized Performance for all devices running our ROM be it of Low, Mid or High End. We are here to make your device compete with time itself!....</string>
-  <string name="dev_info">About dotOS</string>
-  <string name="dot_team">dotOS Team</string>
+  <string name="dev_info">關於 dotOS</string>
+  <string name="dot_team">dotOS 團隊</string>
   <string name="github">Github</string>
-  <string name="github_description">View our source code</string>
+  <string name="github_description">檢視我們的程式原始碼</string>
   <string name="gplus">Google+</string>
-  <string name="gplus_description">Join our G+ community</string>
+  <string name="gplus_description">加入我們的 G+ 社群</string>
   <string name="telegram">Telegram</string>
-  <string name="telegram_description">Join our Telegram discussion group</string>
-  <string name="web">Website</string>
-  <string name="web_description">Visit our Website</string>
-  <string name="maintainers">Maintainers</string>
+  <string name="telegram_description">加入我們的 Telegram 討論群</string>
+  <string name="web">網站</string>
+  <string name="web_description">造訪我們的網站</string>
+  <string name="maintainers">維護者</string>
   <string name="dev_1">Mohan Cm &#40;mohancm&#41;</string>
-  <string name="dev1_description">Owner/Lead Developer</string>
+  <string name="dev1_description">所有者/主要開發人員</string>
   <string name="dev_2">Ganesh varma &#40;Ganesh_i4u&#41;</string>
-  <string name="dev2_description">Developer/Contributor</string>
+  <string name="dev2_description">開發人員/貢獻者</string>
   <string name="dev_3">Kuber Sharma &#40;kubersharma&#41;</string>
-  <string name="dev3_description">Developer/Contributor</string>
+  <string name="dev3_description">開發人員/貢獻者</string>
   <string name="dev_4">Sam Grande &#40;Reapergod35&#41;</string>
-  <string name="dev4_description">UI Developer/Contributor</string>
+  <string name="dev4_description">UI 開發人員/貢獻者</string>
   <string name="dev_5">Iacob Ionut </string>
-  <string name="dev5_description">UI Developer/Contributor</string>
+  <string name="dev5_description">UI 開發人員/貢獻者</string>
   <string name="dev_6">Atul Bansode &#40;B_auuuuu&#41;</string>
-  <string name="dev6_description">Infrastructure/Contributor</string>
+  <string name="dev6_description">基礎建設/貢獻者</string>
   <string name="dev_7">Hari Ambadi &#40;hariambadii&#41;</string>
-  <string name="dev7_description">Core GFX/Visual Designer</string>
+  <string name="dev7_description">核心 GFX/視覺設計師</string>
   <!-- About Contributors -->
-  <string name="dot_contributors">Contributors</string>
+  <string name="dot_contributors">貢獻者</string>
   <string name="contributor_1">Alex Brookes</string>
-  <string name="contributor1_description">Wallpaper Designer</string>
+  <string name="contributor1_description">桌布設計師</string>
   <!-- Changelog -->
-  <string name="changelog_title">Changelog</string>
-  <string name="changelog_summary">Recent Changes</string>
-  <string name="changelog_loading">Loading changelog\u2026</string>
-  <string name="changelog_error">Unable to load changelog</string>
+  <string name="changelog_title">更新日誌</string>
+  <string name="changelog_summary">最近變化</string>
+  <string name="changelog_loading">正在加載更新日誌\u2026</string>
+  <string name="changelog_error">無法加載更新日誌</string>
   <!-- Maintainers Info-->
-  <string name="maintainers_title">Official maintainers</string>
+  <string name="maintainers_title">官方維護者</string>
   <string name="maintainers_summary">Officially supported devices and their respective maintainers.</string>
   <!-- Maintainer section -->
   <string name="maintainer_description">Maintainer: %1$s</string>
@@ -129,56 +129,56 @@
   <string name="app_ops_modify_settings">update settings</string>
   <string name="app_ops_mute_unmute_microphone">mute/unmutee mic</string>
   <string name="app_ops_play_audio">play audio</string>
-  <string name="app_ops_post_notification">post notification</string>
-  <string name="app_ops_project_media">project media</string>
-  <string name="app_ops_read_calendar">read calendar</string>
-  <string name="app_ops_read_call_log">read call log</string>
-  <string name="app_ops_read_clipboard">read clipboard</string>
-  <string name="app_ops_read_contacts">read contacts</string>
-  <string name="app_ops_read_mms">read MMS</string>
-  <string name="app_ops_read_sms">read SMS</string>
-  <string name="app_ops_receive_sms">receive SMS</string>
-  <string name="app_ops_record_audio">record audio</string>
-  <string name="app_ops_send_mms">send MMS</string>
-  <string name="app_ops_send_sms">send SMS</string>
-  <string name="app_ops_toast_window">toast messages</string>
-  <string name="app_ops_use_alarm_volume">alarm volume</string>
-  <string name="app_ops_use_audio_focus">audio focus</string>
-  <string name="app_ops_use_bluetooth_volume">Bluetooth volume</string>
-  <string name="app_ops_use_master_volume">master volume</string>
-  <string name="app_ops_use_media_buttons">media buttons</string>
-  <string name="app_ops_use_media_volume">media volume</string>
-  <string name="app_ops_use_notification_volume">notification volume</string>
-  <string name="app_ops_use_ring_volume">ringtone volume</string>
-  <string name="app_ops_use_vibrate">haptic feedback</string>
-  <string name="app_ops_use_voice_volume">voice call volume</string>
-  <string name="app_ops_write_mms">write MMS</string>
-  <string name="app_ops_write_sms">write SMSe</string>
-  <string name="app_ops_use_fingerprint">fingerprint</string>
-  <string name="app_ops_add_voicemail">voicemail</string>
-  <string name="app_ops_read_phone_state">access phone state</string>
-  <string name="app_ops_scan_wifi">Scan WiFi Networks</string>
-  <string name="app_ops_change_wallpaper">change wallpaper</string>
-  <string name="app_ops_assist_structure">assist structure</string>
-  <string name="app_ops_assist_screenshot">screenshot</string>
-  <string name="app_ops_use_body_sensors">body sensors</string>
-  <string name="app_ops_read_cell_broadcasts">cell broadcasts</string>
-  <string name="app_ops_mock_location">mock location</string>
-  <string name="app_ops_read_external_storage">read ext. stor.</string>
-  <string name="app_ops_write_external_storage">write ext. stor.</string>
-  <string name="app_ops_turn_on_screen">turn screen on</string>
-  <string name="app_ops_get_accounts">device accounts</string>
-  <string name="app_ops_run_in_background">run in background</string>
-  <string name="app_ops_accessibility_volume">accessibility volume</string>
-  <string name="app_ops_read_phone_numbers">read phone num.</string>
-  <string name="app_ops_request_install_packages">install packages</string>
+  <string name="app_ops_post_notification">發布通知</string>
+  <string name="app_ops_project_media">投放多媒體</string>
+  <string name="app_ops_read_calendar">讀取日曆</string>
+  <string name="app_ops_read_call_log">讀取通話記錄</string>
+  <string name="app_ops_read_clipboard">讀取剪貼簿</string>
+  <string name="app_ops_read_contacts">讀取聯絡人</string>
+  <string name="app_ops_read_mms">讀取多媒體簡訊</string>
+  <string name="app_ops_read_sms">讀取簡訊</string>
+  <string name="app_ops_receive_sms">接收簡訊</string>
+  <string name="app_ops_record_audio">錄製音訊</string>
+  <string name="app_ops_send_mms">傳送多媒體簡訊</string>
+  <string name="app_ops_send_sms">傳送簡訊</string>
+  <string name="app_ops_toast_window">提示訊息</string>
+  <string name="app_ops_use_alarm_volume">鬧鐘音量</string>
+  <string name="app_ops_use_audio_focus">音訊焦點</string>
+  <string name="app_ops_use_bluetooth_volume">藍牙音量</string>
+  <string name="app_ops_use_master_volume">主音量</string>
+  <string name="app_ops_use_media_buttons">媒體按鍵</string>
+  <string name="app_ops_use_media_volume">媒體音量</string>
+  <string name="app_ops_use_notification_volume">通知音量</string>
+  <string name="app_ops_use_ring_volume">鈴聲音量</string>
+  <string name="app_ops_use_vibrate">觸覺回饋</string>
+  <string name="app_ops_use_voice_volume">語音通話音量</string>
+  <string name="app_ops_write_mms">寫入多媒體簡訊</string>
+  <string name="app_ops_write_sms">擷取簡訊</string>
+  <string name="app_ops_use_fingerprint">指紋</string>
+  <string name="app_ops_add_voicemail">語音信箱</string>
+  <string name="app_ops_read_phone_state">存取手機狀態</string>
+  <string name="app_ops_scan_wifi">掃描 WiFi 網路</string>
+  <string name="app_ops_change_wallpaper">更換桌布</string>
+  <string name="app_ops_assist_structure">協助結構</string>
+  <string name="app_ops_assist_screenshot">螢幕擷取</string>
+  <string name="app_ops_use_body_sensors">身體感應器</string>
+  <string name="app_ops_read_cell_broadcasts">區域廣播</string>
+  <string name="app_ops_mock_location">模擬位置</string>
+  <string name="app_ops_read_external_storage">讀取外部儲存空間</string>
+  <string name="app_ops_write_external_storage">寫入外部儲存空間</string>
+  <string name="app_ops_turn_on_screen">開啟螢幕</string>
+  <string name="app_ops_get_accounts">裝置帳戶</string>
+  <string name="app_ops_run_in_background">背景執行</string>
+  <string name="app_ops_accessibility_volume">無障礙音量</string>
+  <string name="app_ops_read_phone_numbers">讀取電話號碼</string>
+  <string name="app_ops_request_install_packages">安裝套件</string>
   <string name="app_ops_picture_in_picture">pip</string>
-  <string name="app_ops_app_start_foreground">start foreground</string>
-  <string name="app_ops_answer_phone_calls">answer calls</string>
-  <string name="app_ops_boot_completed">auto start</string>
+  <string name="app_ops_app_start_foreground">開始前景</string>
+  <string name="app_ops_answer_phone_calls">接聽電話</string>
+  <string name="app_ops_boot_completed">自動啟動</string>
   <!-- Root Management -->
-  <string name="rootmanagement_title">Root management</string>
-  <string name="rootmanagement_dashboard_summary">Manage root access</string>
+  <string name="rootmanagement_title">Root 權限管理</string>
+  <string name="rootmanagement_dashboard_summary">管理 Root 權限</string>
   <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
   <string name="supersu_title">SuperSU</string>
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
@@ -224,4 +224,24 @@
   <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
   <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
   <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+  <!-- OS Information -->
+  <string name="os_information">OS information</string>
+  <string name="os_summary_info">Information about the ROM</string>
+  <!-- Manual provisioning support -->
+  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> is <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+  <string name="sim_enabled">enabled</string>
+  <string name="sim_disabled">disabled</string>
+  <string name="sim_missing">missing or faulty</string>
+  <string name="sim_enabler_need_disable_sim">SIM card will be deactivated. Do you want to continue?</string>
+  <string name="sim_enabler_will_disable_sim_title">Attention</string>
+  <string name="sim_enabler_need_switch_data_service">This SIM will be disabled and SIM <xliff:g id="slotid">%1$s</xliff:g> will be used for data services. Are you sure you want to continue?</string>
+  <string name="sim_enabler_airplane_on">Unable to perform the operation while airplane mode is on.</string>
+  <string name="sim_enabler_in_call">Unable to perform the operation while in call.</string>
+  <string name="sim_enabler_both_inactive">Can\'t disable all SIM cards</string>
+  <string name="sim_enabler_enabling">Activating\u2026</string>
+  <string name="sim_enabler_disabling">Deactivating\u2026</string>
+  <string name="sub_activate_success">SIM activated.</string>
+  <string name="sub_activate_failed">Activation failed.</string>
+  <string name="sub_deactivate_success">SIM deactivated.</string>
+  <string name="sub_deactivate_failed">Deactivation failed.</string>
 </resources>

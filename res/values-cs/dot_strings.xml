@@ -220,8 +220,28 @@
   <!-- Warning for Adb over Network -->
   <string name="adb_over_network_warning">UPOZORNĚNÍ: Pokud je povoleno ADB přes síťové připojení, zařízení je otevřené pro pokusy o průniky na všech připojených sítích, včetně GSM datové sítě!\n\nPoužijte tuto vlastnost pouze pokud jste připojeni k důvěryhodné síti.\n\nOpravdu chcete povolit tuto funkci?</string>
   <!-- Per-app data restrictions -->
-  <string name="data_usage_app_restrict_data">Cellular data</string>
-  <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
+  <string name="data_usage_app_restrict_data">Mobilní data</string>
+  <string name="data_usage_app_restrict_data_summary">Povolit používání mobilních dat</string>
   <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
-  <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+  <string name="data_usage_app_restrict_wifi_summary">Povolit používání Wi\u2011Fi dat</string>
+  <!-- OS Information -->
+  <string name="os_information">Informace OS</string>
+  <string name="os_summary_info">Informace o ROM</string>
+  <!-- Manual provisioning support -->
+  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> je <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+  <string name="sim_enabled">povoleno</string>
+  <string name="sim_disabled">zakázáno</string>
+  <string name="sim_missing">chybějící nebo vadná</string>
+  <string name="sim_enabler_need_disable_sim">SIM karta bude deaktivována. Přejete si pokračovat?</string>
+  <string name="sim_enabler_will_disable_sim_title">Varování</string>
+  <string name="sim_enabler_need_switch_data_service">Tato SIM karta bude zakázána a SIM <xliff:g id="slotid">%1$s</xliff:g> bude použita pro datové služby. Jste si jisti, že chcete pokračovat?</string>
+  <string name="sim_enabler_airplane_on">Nelze provést akci, když je aktivován mód letadlo.</string>
+  <string name="sim_enabler_in_call">Nelze provést tuto akci při hovoru.</string>
+  <string name="sim_enabler_both_inactive">Nelze zakázat všechny SIM karty</string>
+  <string name="sim_enabler_enabling">Aktivování\u2026</string>
+  <string name="sim_enabler_disabling">Deaktivování\u2026</string>
+  <string name="sub_activate_success">SIM karta aktivována.</string>
+  <string name="sub_activate_failed">Aktivace selhala.</string>
+  <string name="sub_deactivate_success">SIM karta deaktivována.</string>
+  <string name="sub_deactivate_failed">Deaktivace selhala.</string>
 </resources>
