@@ -173,7 +173,7 @@
   <string name="app_ops_read_phone_numbers">電話番号の読み取り</string>
   <string name="app_ops_request_install_packages">パッケージのインストール</string>
   <string name="app_ops_picture_in_picture">ピクチャーインピクチャー</string>
-  <string name="app_ops_app_start_foreground">フォアグラウンドで起動</string>
+  <string name="app_ops_app_start_foreground">フォアグラウンドで起動する</string>
   <string name="app_ops_answer_phone_calls">着信への応答</string>
   <string name="app_ops_boot_completed">自動実行</string>
   <!-- Root Management -->
