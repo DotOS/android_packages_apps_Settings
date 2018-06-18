@@ -19,4 +19,7 @@
     <color name="ic_settings_background">#343434</color>
 	<color name="icon_base_color">#ffffff</color>
     <color name="icon_color_dotextras">#00adda</color>
+	
+	<!-- Searchbar overlays -->
+    <color name="search_bar_background_color">@android:color/white</color>
 </resources>
