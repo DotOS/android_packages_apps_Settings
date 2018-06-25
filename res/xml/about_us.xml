@@ -13,151 +13,23 @@ implied.
 -->
 
 <PreferenceScreen
-xmlns:android="http://schemas.android.com/apk/res/android"
-        android:title="@string/dot_about_info">
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/dot_about_info">
 
-<PreferenceCategory
-              android:key="about"
-              android:title="@string/dev_info" >
+	<Preference
+        android:key="about"
+        android:layout="@layout/about_us_main" />
 
-        <Preference
-    android:summary="@string/dot_about_info_summary" >
-            <intent
-               android:action="android.intent.action.VIEW"
-               android:data="https://plus.google.com/communities/101137692192340076065" />
-      </Preference>
+	<PreferenceCategory
+        android:key="maintainers"
+        android:title="@string/maintainers" >
 
         <Preference
-            android:title="@string/github"
-    android:summary="@string/github_description"
-    android:icon="@drawable/ic_github" >
-    <intent
-               android:action="android.intent.action.VIEW"
-               android:data="https://github.com/dotos" />
-        </Preference>
+			android:key="maintainers_fragment"
+			android:title="@string/maintainers_title"
+			android:summary="@string/maintainers_summary"
+			android:fragment="com.android.settings.Maintainers" />
 
-        <Preference
-            android:title="@string/gplus"
-    android:summary="@string/gplus_description"
-    android:icon="@drawable/ic_gplus" >
-    <intent
-               android:action="android.intent.action.VIEW"
-               android:data="https://plus.google.com/communities/101137692192340076065" />
-        </Preference>
-
-        <Preference
-            android:title="@string/telegram"
-    android:summary="@string/telegram_description"
-    android:icon="@drawable/ic_telegram" >
-    <intent
-               android:action="android.intent.action.VIEW"
-               android:data="https://telegram.me/dotos" />
-        </Preference>
-
-        <Preference
-            android:title="@string/web"
-    android:summary="@string/web"
-    android:icon="@drawable/ic_web" >
-    <intent
-               android:action="android.intent.action.VIEW"
-               android:data="https://www.droidontime.com/" />
-        </Preference>
-
-     </PreferenceCategory>
-
-<!--<PreferenceCategory
-              android:key="dot_team"
-              android:title="@string/dot_team" >
-
-        <Preference
-            android:title="@string/dev_1"
-    android:summary="@string/dev1_description"
-    android:icon="@drawable/ic_mohan" >
-    <intent
-               android:action="android.intent.action.VIEW"
-               android:data="https://plus.google.com/+mohancm100" />
-        </Preference>
-
-       <Preference
-            android:title="@string/dev_2"
-    android:summary="@string/dev2_description"
-    android:icon="@drawable/ic_ganesh" >
-    <intent
-               android:action="android.intent.action.VIEW"
-               android:data="https://t.me/ganesh_i4u" />
-        </Preference>
-
-       <Preference
-            android:title="@string/dev_3"
-    android:summary="@string/dev3_description"
-    android:icon="@drawable/ic_kuber" >
-    <intent
-               android:action="android.intent.action.VIEW"
-               android:data="https://plus.google.com/117502257063781278053" />
-        </Preference>
-
-        <Preference
-            android:title="@string/dev_4"
-    android:summary="@string/dev4_description"
-    android:icon="@drawable/ic_sam">
-    <intent
-               android:action="android.intent.action.VIEW"
-               android:data="https://t.me/Reapergod35" />
-      </Preference>
-		
-		
-       <Preference
-            android:title="@string/dev_5"
-    android:summary="@string/dev5_description"
-    android:icon="@drawable/ic_iacob">
-    <intent
-               android:action="android.intent.action.VIEW"
-               android:data="https://plus.google.com/+DarkWoodens" />
-      </Preference>
-
-       <Preference
-            android:title="@string/dev_6"
-    android:summary="@string/dev6_description"
-    android:icon="@drawable/ic_atul">
-    <intent
-               android:action="android.intent.action.VIEW"
-               android:data="https://t.me/B_auuuuu" />
-      </Preference>
-
-       <Preference
-            android:title="@string/dev_7"
-    android:summary="@string/dev7_description"
-    android:icon="@drawable/ic_hari">
-    <intent
-               android:action="android.intent.action.VIEW"
-               android:data="https://t.me/hariambadii" />
-      </Preference>
-
-</PreferenceCategory>
-
-<PreferenceCategory
-        android:key="dot_contributors" android:title="@string/dot_contributors">
-
-        <Preference android:title="@string/contributor_1"
-        android:summary="@string/contributor1_description"
-        android:icon="@drawable/ic_sam">
-        <intent
-        android:action="android.intent.action.VIEW"
-        android:data="https://t.me/Alexcbrookes" />
-        </Preference>
-
-</PreferenceCategory>-->
-
-<PreferenceCategory
-              android:key="maintainers"
-              android:title="@string/maintainers" >
-
-        <Preference
-        android:key="maintainers_fragment"
-        android:title="@string/maintainers_title"
- 	android:summary="@string/maintainers_summary"
-        android:fragment="com.android.settings.Maintainers" />
-
-</PreferenceCategory>
+	</PreferenceCategory>
 
 </PreferenceScreen>

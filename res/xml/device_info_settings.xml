@@ -16,7 +16,7 @@
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         android:title="@string/about_settings">
-<Preference android:layout="@layout/logo" android:key="dotOS_logo" />
+<Preference android:layout="@layout/device_about_main" android:key="about_main" />
         
 		<!-- About us -->
         <Preference
