@@ -13,6 +13,7 @@
  */
 package com.android.settings.display;
 
+import android.app.Fragment;
 import android.content.Context;
 import android.content.ContentResolver;
 import android.os.Bundle;
@@ -26,6 +27,9 @@ import static com.android.settings.display.ThemeUtils.isSubstratumOverlayInstall
 
 import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settings.core.PreferenceControllerMixin;
+import com.android.settingslib.core.lifecycle.Lifecycle;
+import com.android.settingslib.core.lifecycle.LifecycleObserver;
+import com.android.settingslib.core.lifecycle.events.OnResume;
 import com.android.settingslib.drawer.SettingsDrawerActivity;
 import com.android.internal.util.dotos.DOTUtils;
 
@@ -39,13 +43,16 @@ import android.os.Handler;
 import android.widget.Toast;
 
 public class DarkUIPreferenceController extends AbstractPreferenceController implements
-        PreferenceControllerMixin, Preference.OnPreferenceChangeListener {
+        PreferenceControllerMixin, Preference.OnPreferenceChangeListener, LifecycleObserver, OnResume {
 
     private static final String SYSTEM_THEME_STYLE = "system_theme_style";
     private ListPreference mSystemThemeStyle;
 
-    public DarkUIPreferenceController(Context context) {
+    public DarkUIPreferenceController(Context context, Lifecycle lifecycle, Fragment parent) {
         super(context);
+        if (lifecycle != null) {
+            lifecycle.addObserver(this);
+        }
     }
 
     @Override
@@ -62,18 +69,34 @@ public class DarkUIPreferenceController extends AbstractPreferenceController imp
     public void displayPreference(PreferenceScreen screen) {
         super.displayPreference(screen);
         mSystemThemeStyle = (ListPreference) screen.findPreference(SYSTEM_THEME_STYLE);
-        if (!isSubstratumOverlayInstalled(mContext)) {
+        updateState();
+    }
+
+    public void updateState() {
+        if (!isSubstratumOverlayInstalled(mContext) || isForceThemeAllowed()) {
             int systemThemeStyle = Settings.System.getInt(mContext.getContentResolver(),
                     Settings.System.SYSTEM_THEME_STYLE, 0);
             int valueIndex = mSystemThemeStyle.findIndexOfValue(String.valueOf(systemThemeStyle));
             mSystemThemeStyle.setValueIndex(valueIndex >= 0 ? valueIndex : 0);
             mSystemThemeStyle.setSummary(mSystemThemeStyle.getEntry());
             mSystemThemeStyle.setOnPreferenceChangeListener(this);
+            mSystemThemeStyle.setEnabled(true);
         } else {
             mSystemThemeStyle.setEnabled(false);
             mSystemThemeStyle.setSummary(R.string.substratum_installed_title);
         }
     }
+
+    @Override
+    public void onResume() {
+        updateState();
+    }
+
+    public boolean isForceThemeAllowed() {
+        return Settings.System.getInt(mContext.getContentResolver(),
+                Settings.System.FORCE_ALLOW_SYSTEM_THEMES, 0) == 1;
+    }
+
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         if (preference == mSystemThemeStyle) {
