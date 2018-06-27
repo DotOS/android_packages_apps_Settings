@@ -150,6 +150,12 @@
         android:key="theme_category"
         android:title="@string/theme_category_title">
 
+    <com.dot.dotextras.preference.SystemSettingSwitchPreference
+        android:key="force_allow_system_themes"
+        android:title="@string/force_allow_system_themes_title"
+        android:summary="@string/force_allow_system_themes_summary"
+        android:defaultValue="false" />
+
     <ListPreference
         android:key="system_theme_style"
         android:title="@string/system_theme_style_title"
