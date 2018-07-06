@@ -35,6 +35,9 @@
 	    <activity 
 		    android:name="com.dot.uicenter.activities.InterfaceController"
             android:theme="@style/AppTheme.Base" />
+		<activity 
+			android:name="com.dot.uicenter.activities.QSPanelCustomization"
+			android:theme="@style/AppTheme.Base" />
     </application>
 
 </manifest>
