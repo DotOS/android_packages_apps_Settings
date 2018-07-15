@@ -148,18 +148,18 @@
   <string name="app_ops_use_master_volume">volume principal</string>
   <string name="app_ops_use_media_buttons">boutons pour contenus multimédias</string>
   <string name="app_ops_use_media_volume">volume médias</string>
-  <string name="app_ops_use_notification_volume">notification volume</string>
-  <string name="app_ops_use_ring_volume">ringtone volume</string>
-  <string name="app_ops_use_vibrate">haptic feedback</string>
-  <string name="app_ops_use_voice_volume">voice call volume</string>
-  <string name="app_ops_write_mms">write MMS</string>
+  <string name="app_ops_use_notification_volume">volume des notifications</string>
+  <string name="app_ops_use_ring_volume">volume de la sonnerie</string>
+  <string name="app_ops_use_vibrate">retour tactile</string>
+  <string name="app_ops_use_voice_volume">volume des appels vocaux</string>
+  <string name="app_ops_write_mms">écrire des MMS</string>
   <string name="app_ops_write_sms">écrire des SMS</string>
   <string name="app_ops_use_fingerprint">empreinte digitale</string>
   <string name="app_ops_add_voicemail">messagerie vocale</string>
   <string name="app_ops_read_phone_state">accéder à l\'état du téléphone</string>
   <string name="app_ops_scan_wifi">Rechercher les réseaux Wi-Fi</string>
   <string name="app_ops_change_wallpaper">changer de fond d\'écran</string>
-  <string name="app_ops_assist_structure">assist structure</string>
+  <string name="app_ops_assist_structure">assister la structure</string>
   <string name="app_ops_assist_screenshot">capture d\'écran</string>
   <string name="app_ops_use_body_sensors">capteurs corporels</string>
   <string name="app_ops_read_cell_broadcasts">diffusions cellulaires</string>
@@ -182,7 +182,7 @@
   <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
   <string name="supersu_title">Gestionnaire de droits SuperSU</string>
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
-  <string name="local_backup_password_title">Desktop backup password</string>
+  <string name="local_backup_password_title">Sauvegarde des mots de passes sur le pc</string>
   <!-- Battery saver color -->
   <string name="battery_saver_color_title">Alerte visuelle</string>
   <string name="battery_saver_color_summary">Afficher les barres d\'état et de navigation en orange quand l\'économiseur de batterie est activé</string>
@@ -221,27 +221,27 @@
   <string name="adb_over_network_warning">ATTENTION: Lorsque ADB par le réseau est activé, votre téléphone est ouvert aux intrusions sur tous les réseaux connectés, y compris le réseau data GSM !\n\nN\'utilisez cette fonction que lorsque vous êtes connecté sur des réseaux de confiance.\n\nVoulez-vous vraiment activer cette fonction?</string>
   <!-- Per-app data restrictions -->
   <string name="data_usage_app_restrict_data">Données mobiles</string>
-  <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
-  <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
-  <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+  <string name="data_usage_app_restrict_data_summary">Activer l\'utilisation des données mobiles</string>
+  <string name="data_usage_app_restrict_wifi">Données Wi\u2011Fi</string>
+  <string name="data_usage_app_restrict_wifi_summary">Activer l\'utilisation des données Wi\u2011Fi</string>
   <!-- OS Information -->
-  <string name="os_information">OS information</string>
-  <string name="os_summary_info">Information about the ROM</string>
+  <string name="os_information">Informations sur le système</string>
+  <string name="os_summary_info">Informations sur le système</string>
   <!-- Manual provisioning support -->
-  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> is <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
-  <string name="sim_enabled">enabled</string>
-  <string name="sim_disabled">disabled</string>
-  <string name="sim_missing">missing or faulty</string>
-  <string name="sim_enabler_need_disable_sim">SIM card will be deactivated. Do you want to continue?</string>
+  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> est <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+  <string name="sim_enabled">Activée</string>
+  <string name="sim_disabled">Désactivée</string>
+  <string name="sim_missing">manquante ou défectueuse</string>
+  <string name="sim_enabler_need_disable_sim">La carte SIM va être désactivée. Voulez-vous continuer ?</string>
   <string name="sim_enabler_will_disable_sim_title">Attention</string>
-  <string name="sim_enabler_need_switch_data_service">This SIM will be disabled and SIM <xliff:g id="slotid">%1$s</xliff:g> will be used for data services. Are you sure you want to continue?</string>
-  <string name="sim_enabler_airplane_on">Unable to perform the operation while airplane mode is on.</string>
-  <string name="sim_enabler_in_call">Unable to perform the operation while in call.</string>
-  <string name="sim_enabler_both_inactive">Can\'t disable all SIM cards</string>
-  <string name="sim_enabler_enabling">Activating\u2026</string>
-  <string name="sim_enabler_disabling">Deactivating\u2026</string>
-  <string name="sub_activate_success">SIM activated.</string>
-  <string name="sub_activate_failed">Activation failed.</string>
-  <string name="sub_deactivate_success">SIM deactivated.</string>
-  <string name="sub_deactivate_failed">Deactivation failed.</string>
+  <string name="sim_enabler_need_switch_data_service">Cette carte SIM sera désactivée et la carte SIM <xliff:g id="slotid">%1$s</xliff:g> sera utilisée pour les services de données mobiles. Voulez-vous continuer ?</string>
+  <string name="sim_enabler_airplane_on">Impossible d\'effectuer l\'opération tant que le mode avion est activé.</string>
+  <string name="sim_enabler_in_call">Impossible d\'effectuer cette opération durant un appel.</string>
+  <string name="sim_enabler_both_inactive">Impossible de désactiver toutes les cartes SIM</string>
+  <string name="sim_enabler_enabling">Activation en cours\u2026</string>
+  <string name="sim_enabler_disabling">Désactivation en cours... \u2026</string>
+  <string name="sub_activate_success">Carte SIM activée.</string>
+  <string name="sub_activate_failed">L\'activation a échoué.</string>
+  <string name="sub_deactivate_success">Carte SIM désactivée.</string>
+  <string name="sub_deactivate_failed">La désactivation a échoué.</string>
 </resources>

@@ -220,28 +220,28 @@
   <!-- Warning for Adb over Network -->
   <string name="adb_over_network_warning">УВАГА: коли увімкнений ADB по мережі, телефон відкритий для доступу зі всіх під’єднаних мереж, включаючи передачу даних GSM!\n\nВикористовуйте цю функцію тільки тоді, коли Ви підключені до довірених мереж.\n\nВи справді хочете увімкнути цю функцію?</string>
   <!-- Per-app data restrictions -->
-  <string name="data_usage_app_restrict_data">Cellular data</string>
-  <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
-  <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
-  <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+  <string name="data_usage_app_restrict_data">Cтільникові дані</string>
+  <string name="data_usage_app_restrict_data_summary">Увімкнути використання стільникового даних</string>
+  <string name="data_usage_app_restrict_wifi">Wi\u2011Fi данні</string>
+  <string name="data_usage_app_restrict_wifi_summary">Увімкнути використання Wi\u2011Fi даних</string>
   <!-- OS Information -->
-  <string name="os_information">OS information</string>
-  <string name="os_summary_info">Information about the ROM</string>
+  <string name="os_information">Інформація про ОС</string>
+  <string name="os_summary_info">Інформація про ROM</string>
   <!-- Manual provisioning support -->
-  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> is <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
-  <string name="sim_enabled">enabled</string>
-  <string name="sim_disabled">disabled</string>
-  <string name="sim_missing">missing or faulty</string>
-  <string name="sim_enabler_need_disable_sim">SIM card will be deactivated. Do you want to continue?</string>
-  <string name="sim_enabler_will_disable_sim_title">Attention</string>
-  <string name="sim_enabler_need_switch_data_service">This SIM will be disabled and SIM <xliff:g id="slotid">%1$s</xliff:g> will be used for data services. Are you sure you want to continue?</string>
-  <string name="sim_enabler_airplane_on">Unable to perform the operation while airplane mode is on.</string>
-  <string name="sim_enabler_in_call">Unable to perform the operation while in call.</string>
-  <string name="sim_enabler_both_inactive">Can\'t disable all SIM cards</string>
-  <string name="sim_enabler_enabling">Activating\u2026</string>
-  <string name="sim_enabler_disabling">Deactivating\u2026</string>
-  <string name="sub_activate_success">SIM activated.</string>
-  <string name="sub_activate_failed">Activation failed.</string>
-  <string name="sub_deactivate_success">SIM deactivated.</string>
-  <string name="sub_deactivate_failed">Deactivation failed.</string>
+  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> — <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+  <string name="sim_enabled">увімкнено</string>
+  <string name="sim_disabled">вимкнено</string>
+  <string name="sim_missing">відсутній або несправний</string>
+  <string name="sim_enabler_need_disable_sim">SIM-картка буде деактивована. Ви хочете продовжити?</string>
+  <string name="sim_enabler_will_disable_sim_title">Увага</string>
+  <string name="sim_enabler_need_switch_data_service">Цю SIM буде вимкнуто і SIM <xliff:g id="slotid">%1$s </xliff:g> буде використовуватися для передачі даних. Ви впевнені що хочете продовжити?</string>
+  <string name="sim_enabler_airplane_on">Не вдалося виконати операцію, коли увімкнено режим польоту.</string>
+  <string name="sim_enabler_in_call">Не вдалося виконати операцію під час виклику.</string>
+  <string name="sim_enabler_both_inactive">Не вдається вимкнути всі SIM-картки</string>
+  <string name="sim_enabler_enabling">Активація\u2026</string>
+  <string name="sim_enabler_disabling">Деактивація\u2026</string>
+  <string name="sub_activate_success">SIM активована.</string>
+  <string name="sub_activate_failed">Помилка активації.</string>
+  <string name="sub_deactivate_success">SIM деактивована.</string>
+  <string name="sub_deactivate_failed">Помилка деактивації.</string>
 </resources>

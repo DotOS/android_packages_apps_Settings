@@ -23,7 +23,7 @@
   <string name="build_date_default">2015-01-01-0000</string>
   <!-- Development Settings -->
   <!-- Dev Options Enabled by Default -->
-  <string name="show_dev_already_enabled">開発者向けオプションはデフォルトで有効になっています</string>
+  <string name="show_dev_already_enabled">開発者向けオプションは既定で有効になっています</string>
   <!-- App details: open play store link if app is user installed -->
   <string name="app_play_store">Google Play</string>
   <!-- Advanced night mode brightness -->
@@ -86,7 +86,7 @@
   <string name="expanded_hide_status">ステータスバーを隠す</string>
   <string name="expanded_hide_navigation">ナビゲーションバーを隠す</string>
   <string name="expanded_hide_both">両方を隠す</string>
-  <string name="expanded_nothing_to_show">アプリごとの拡張の状態のカスタム設定を追加するには、「すべて拡張」をOFFにしてください。</string>
+  <string name="expanded_nothing_to_show">アプリごとの拡張の状態のカスタム設定を追加するには「すべて拡張」をオフにしてください</string>
   <string name="expanded_desktop_state">拡張デスクトップの状態</string>
   <string name="expanded_enabled_for_all">すべてで有効化</string>
   <string name="expanded_user_configurable">ユーザー設定</string>
@@ -172,8 +172,8 @@
   <string name="app_ops_accessibility_volume">ユーザー補助の音量</string>
   <string name="app_ops_read_phone_numbers">電話番号の読み取り</string>
   <string name="app_ops_request_install_packages">パッケージのインストール</string>
-  <string name="app_ops_picture_in_picture">ピクチャーインピクチャー</string>
-  <string name="app_ops_app_start_foreground">フォアグラウンドで起動</string>
+  <string name="app_ops_picture_in_picture">Picture in Picture</string>
+  <string name="app_ops_app_start_foreground">フォアグラウンドで起動する</string>
   <string name="app_ops_answer_phone_calls">着信への応答</string>
   <string name="app_ops_boot_completed">自動実行</string>
   <!-- Root Management -->
@@ -203,7 +203,7 @@
   <string name="custom_light_off_time_title">"LEDの点滅している時の消えている時間（ms）"</string>
   <string name="app_notifications_info_desc">上記のいずれかのチャンネルをタップして、LEDの色やその他のオプションを設定します。</string>
   <string name="value_equals_default">既定</string>
-  <string name="show_light_on_zen_title">おやすみモードの間はライトを点滅させる</string>
+  <string name="show_light_on_zen_title">マナーモードの間はライトを点滅させる</string>
   <!-- Volume settings - Volume adjustment sound -->
   <string name="volume_adjust_sounds_title">音量調整の音</string>
   <!-- Themes -->
@@ -215,10 +215,10 @@
   <string name="theme_applied_toast">テーマが適用されました</string>
   <string name="applying_theme_toast">テーマを適用中です。しばらくお待ちください。</string>
   <!-- Android debugging over WiFi -->
-  <string name="adb_over_network">ネットワーク経由のADB</string>
+  <string name="adb_over_network">ネット経由のADB</string>
   <string name="adb_over_network_summary">ネットワークインターフェース（Wi-Fi、USBネットワーク）経由でのTCP/IPデバッグを有効にします。この設定は再起動時にリセットされます。</string>
   <!-- Warning for Adb over Network -->
-  <string name="adb_over_network_warning">警告: ネットワーク経由でのADBを有効にすると、あなたの携帯電話はGSMデータネットワークを含む接続しているすべてのネットワークから侵入できるようになります。\n\nこの機能は信頼されたネットワークに接続しているときにのみ使用して下さい。\n\nこの機能を本当に有効にしますか？</string>
+  <string name="adb_over_network_warning">警告：ネットワーク経由でのADBを有効にすると、あなたの携帯電話はGSMデータネットワークを含む接続しているすべてのネットワークから侵入できるようになります。\n\nこの機能は信頼されたネットワークに接続しているときにのみ使用して下さい。\n\nこの機能を本当に有効にしますか？</string>
   <!-- Per-app data restrictions -->
   <string name="data_usage_app_restrict_data">モバイルデータ</string>
   <string name="data_usage_app_restrict_data_summary">モバイルデータ使用量を有効化する</string>

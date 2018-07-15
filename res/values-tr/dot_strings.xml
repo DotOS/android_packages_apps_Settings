@@ -20,7 +20,7 @@
   <string name="dot_ota_summary">dotOS sistem güncellemeleri</string>
   <!-- About phone screen, build date -->
   <string name="build_date">Yapı tarihi</string>
-  <string name="build_date_default">2018-04-21-0000</string>
+  <string name="build_date_default">2018-06-14-0000</string>
   <!-- Development Settings -->
   <!-- Dev Options Enabled by Default -->
   <string name="show_dev_already_enabled">Geliştirici ayarları zaten etkin!</string>
@@ -185,10 +185,10 @@
   <string name="local_backup_password_title">Masaüstü yedekleme şifresi</string>
   <!-- Battery saver color -->
   <string name="battery_saver_color_title">Uyarı rengi</string>
-  <string name="battery_saver_color_summary">Pil tasarrufu aktif olduğunda, turuncu durum ve gezinme çubuklarını etkinleştirin</string>
+  <string name="battery_saver_color_summary">Pil tasarrufu aktif olduğunda turuncu durum ve gezinme çubuklarını etkinleştir</string>
   <!-- Wakeup options -->
   <string name="wakeup_when_plugged_unplugged_title">Takıp çıkarmada uyan</string>
-  <string name="wakeup_when_plugged_unplugged_summary">Cihaz şarja takıldığında veya çıkartıldığında uyandır.</string>
+  <string name="wakeup_when_plugged_unplugged_summary">Cihaz şarja takıldığında veya çıkartıldığında uyandır</string>
   <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
   <string name="show_cpu_info">İşlemci bilgisini göster</string>
   <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
