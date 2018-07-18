@@ -15,7 +15,7 @@
 -->
 
 <resources>
-    <color name="icon_color_wireless">#4892cf</color>
+        <color name="icon_color_wireless">#4892cf</color>
 	<color name="icon_color_battery">#34b77f</color>
 	<color name="icon_color_other">#71a35a</color>
 	<color name="icon_color_about">#777677</color>
@@ -28,16 +28,11 @@
 	<color name="icon_color_apps">#f6851f</color>
 	<color name="icon_color_system">#777677</color>
 	<color name="icon_base_color">#ffffff</color>
-    <color name="icon_color_dotextras">#00adda</color>
-    <color name="icon_color_substratum">#4F68D7</color>
-    <color name="icon_color_magisk">#00AF9E</color>
-    <color name="icon_color_supersu">#00AF9E</color>
-    <color name="icon_color_google">#EF4760</color>	
-    <color name="icon_color_dotui">#936DE8</color>	
-    <color name="icon_color_memory">#F24949</color>
-
-    <!-- Suggestion/condition colors -->
-    <color name="suggestion_tile_background">@*android:color/white</color>
-    <color name="suggestion_title_text_color">@*android:color/black</color>
-    <color name="suggestion_summary_text_color">@*android:color/black</color>
+        <color name="icon_color_dotextras">#00adda</color>
+        <color name="icon_color_substratum">#4F68D7</color>
+        <color name="icon_color_magisk">#00AF9E</color>
+        <color name="icon_color_supersu">#00AF9E</color>
+        <color name="icon_color_google">#EF4760</color>	
+        <color name="icon_color_dotui">#936DE8</color>	
+        <color name="icon_color_memory">#F24949</color>
 </resources>
