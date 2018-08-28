@@ -36,6 +36,7 @@
         android:title="@string/changelog_title"
         android:summary="@string/changelog_summary"
         android:fragment="com.android.settings.dot.Changelog" />
+
     <!-- SIM status -->
     <Preference
         android:key="sim_status"
