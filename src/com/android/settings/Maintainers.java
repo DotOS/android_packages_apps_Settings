@@ -60,7 +60,7 @@ public class Maintainers extends SettingsPreferenceFragment {
 
     private final String TAG = this.getClass().getSimpleName();
     private static final String REQUEST_TAG = "loadDeviceList";
-    private static final String URL = "https://raw.githubusercontent.com/dotos/official_devices/dot-o/devices.json";
+    private static final String URL = "https://dotos.github.io/official_devices/devices.json";
     private static final String DOWNLOAD_WEBSITE = "https://downloads.droidontime.com";
     private static final String SHARED_PREF_NAME = "dot";
     private static final int MENU_RELOAD  = 0;
