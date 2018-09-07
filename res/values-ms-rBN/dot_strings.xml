@@ -13,66 +13,66 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About phone screen, dotOS version -->
-  <string name="dot_version">Versiune DotOS</string>
-  <string name="dot_version_default">Necunoscut</string>
+  <string name="dot_version">DotOS version</string>
+  <string name="dot_version_default">Unknown</string>
   <!-- dot ota -->
-  <string name="dot_ota_title">OTA dotOS</string>
-  <string name="dot_ota_summary">Actualizări de sistem dotOS</string>
+  <string name="dot_ota_title">dotOS OTA</string>
+  <string name="dot_ota_summary">dotOS System Updates</string>
   <!-- About phone screen, build date -->
-  <string name="build_date">Dată de compilare</string>
+  <string name="build_date">Build date</string>
   <string name="build_date_default">2015-01-01-0000</string>
   <!-- Development Settings -->
   <!-- Dev Options Enabled by Default -->
-  <string name="show_dev_already_enabled">Nu este nevoie, setările de dezvoltare sunt activate în mod implicit.</string>
+  <string name="show_dev_already_enabled">No Need, Development settings are enabled by default.</string>
   <!-- App details: open play store link if app is user installed -->
-  <string name="app_play_store">Magazin Play</string>
+  <string name="app_play_store">Google Play</string>
   <!-- Advanced night mode brightness -->
-  <string name="night_brightness_category">Luminozitate</string>
-  <string name="night_brightness_value_title">Reducere luminozitate dacă este activată lumina de noapte</string>
-  <string name="night_bright_disabled">Dezactivat</string>
-  <string name="night_bright_minimum">Luminozitate minimă</string>
-  <string name="night_bright_low">Luminozitate scăzută</string>
-  <string name="night_bright_medium">Luminozitate medie</string>
+  <string name="night_brightness_category">Brightness</string>
+  <string name="night_brightness_value_title">Lower brightness if Night Light</string>
+  <string name="night_bright_disabled">Disabled</string>
+  <string name="night_bright_minimum">Minimum brightness</string>
+  <string name="night_bright_low">Low brightness</string>
+  <string name="night_bright_medium">Medium brightness</string>
   <!-- About dotOS -->
-  <string name="dot_about_info">Despre noi</string>
-  <string name="dot_about_summary">Prezentare și echipa noastră</string>
+  <string name="dot_about_info">About us</string>
+  <string name="dot_about_summary">Our introduction and our team</string>
   <string name="dot_about_info_summary">DOT stands for Droid On Time. DOT is based on Pure Aosp - which is highly optimized for supreme performance! Our ROM primary goal is to provide best Optimized Performance for all devices running our ROM be it of Low, Mid or High End. We are here to make your device compete with time itself!....</string>
-  <string name="dev_info">Despre dotOS</string>
-  <string name="dot_team">Echipa dotOS</string>
+  <string name="dev_info">About dotOS</string>
+  <string name="dot_team">dotOS Team</string>
   <string name="github">Github</string>
-  <string name="github_description">Vizualizaţi codul sursă</string>
+  <string name="github_description">View our source code</string>
   <string name="gplus">Google+</string>
-  <string name="gplus_description">Alăturaţi-vă comunităţii noastre G+</string>
+  <string name="gplus_description">Join our G+ community</string>
   <string name="telegram">Telegram</string>
   <string name="telegram_description">Join our Telegram discussion group</string>
-  <string name="web">Site web</string>
-  <string name="web_description">Vizitați-ne site-ul web</string>
-  <string name="maintainers">Responsabili</string>
+  <string name="web">Website</string>
+  <string name="web_description">Visit our Website</string>
+  <string name="maintainers">Maintainers</string>
   <string name="dev_1">Mohan Cm &#40;mohancm&#41;</string>
-  <string name="dev1_description">Proprietar/Dezvoltator Primar</string>
-  <string name="dev_2">Gutu varma &#40;Ganesh_i4u&#41;</string>
-  <string name="dev2_description">Dezvoltator/Contribuitor</string>
+  <string name="dev1_description">Owner/Lead Developer</string>
+  <string name="dev_2">Ganesh varma &#40;Ganesh_i4u&#41;</string>
+  <string name="dev2_description">Developer/Contributor</string>
   <string name="dev_3">Kuber Sharma &#40;kubersharma&#41;</string>
-  <string name="dev3_description">Dezvoltator/Contribuitor</string>
+  <string name="dev3_description">Developer/Contributor</string>
   <string name="dev_4">Sam Grande &#40;Reapergod35&#41;</string>
-  <string name="dev4_description">Dezvoltator IU/Contribuitor</string>
-  <string name="dev_5">Iacob Ionuţ </string>
-  <string name="dev5_description">Dezvoltator IU/Contribuitor</string>
+  <string name="dev4_description">UI Developer/Contributor</string>
+  <string name="dev_5">Iacob Ionut </string>
+  <string name="dev5_description">UI Developer/Contributor</string>
   <string name="dev_6">Atul Bansode &#40;B_auuuuu&#41;</string>
-  <string name="dev6_description">Infrastructură/Contribuitor</string>
+  <string name="dev6_description">Infrastructure/Contributor</string>
   <string name="dev_7">Hari Ambadi &#40;hariambadii&#41;</string>
-  <string name="dev7_description">Designer GFX/Designer Vizual</string>
+  <string name="dev7_description">Core GFX/Visual Designer</string>
   <!-- About Contributors -->
-  <string name="dot_contributors">Contribuitori</string>
+  <string name="dot_contributors">Contributors</string>
   <string name="contributor_1">Alex Brookes</string>
-  <string name="contributor1_description">Designer Tapet</string>
+  <string name="contributor1_description">Wallpaper Designer</string>
   <!-- Changelog -->
-  <string name="changelog_title">Istoric modificări</string>
-  <string name="changelog_summary">Modificări recente</string>
-  <string name="changelog_loading">Se încarcă istoricul modificărilor\u2026</string>
-  <string name="changelog_error">Nu s-a putut încărca istoricul modificărilor</string>
+  <string name="changelog_title">Changelog</string>
+  <string name="changelog_summary">Recent Changes</string>
+  <string name="changelog_loading">Loading changelog\u2026</string>
+  <string name="changelog_error">Unable to load changelog</string>
   <!-- Maintainers Info-->
-  <string name="maintainers_title">Menținători oficiali</string>
+  <string name="maintainers_title">Official maintainers</string>
   <string name="maintainers_summary">Officially supported devices and their respective maintainers.</string>
   <!-- Maintainer section -->
   <string name="maintainer_description">Maintainer: %1$s</string>
