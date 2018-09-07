@@ -236,7 +236,7 @@
   <string name="sim_missing">مفقود أو معطل</string>
   <string name="sim_enabler_need_disable_sim">سيتم إلغاء تفعيل بطاقة SIM. هل تريد المتابعة؟</string>
   <string name="sim_enabler_will_disable_sim_title">إنتباه</string>
-  <string name="sim_enabler_need_switch_data_service">هذه SIM سوف تعطل و هذه <xliff:g id="slotid">%1$s</xliff:g> SIM> سوف تستخدم لأجل بيانات الخدمة. هل أنت متأكد أنك تريد المتابعة؟</string>
+  <string name="sim_enabler_need_switch_data_service">هذه SIM سوف تعطل و هذه xliff:g id=\"slotid\">%1$s</xliff:g> SIM> سوف تستخدم لأجل بيانات الخدمة. هل أنت متأكد أنك تريد المتابعة؟</string>
   <string name="sim_enabler_airplane_on">غير قادر على القيام بالعملية أثناء وضع الطيران.</string>
   <string name="sim_enabler_in_call">غير قادر على القيام بالعملية أثناء الإتصال.</string>
   <string name="sim_enabler_both_inactive">لا يمكن تعطيل جميع شرائح SIM</string>

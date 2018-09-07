@@ -36,7 +36,7 @@
   <!-- About dotOS -->
   <string name="dot_about_info">私たちについて</string>
   <string name="dot_about_summary">私たちとチームの紹介</string>
-  <string name="dot_about_info_summary">DOTはDroid On Timeの略です。DOTは最高の性能のために高度に最適化された純粋なAOSPをベースにしています。私たちのROMの主な目標はロー、ミッド、ハイエンドの私たちのROMを実行している全てのデバイスに最高に最適化された性能を提供することです。 私たちはあなたのデバイスを時間そのものと競争させるためにいます！</string>
+  <string name="dot_about_info_summary">DOTはDroid On Timeの略です。DOTは最高の性能のために高度に最適化された純粋なAOSPをベースにしています。私たちのROMの主な目標はロー、ミッド、ハイエンドの私たちのROMを実行している全てのデバイスに最高に最適化された性能を提供することです。 私たちはあなたの端末を時間そのものと競争させるためにいます！</string>
   <string name="dev_info">dotOSについて</string>
   <string name="dot_team">dotOSチーム</string>
   <string name="github">Github</string>
@@ -73,11 +73,11 @@
   <string name="changelog_error">変更履歴を読み込めませんでした</string>
   <!-- Maintainers Info-->
   <string name="maintainers_title">公式メンテナー</string>
-  <string name="maintainers_summary">正式サポートデバイスと各メンテナ</string>
+  <string name="maintainers_summary">正式サポート端末と各メンテナ</string>
   <!-- Maintainer section -->
   <string name="maintainer_description">メンテナ：%1$s</string>
-  <string name="loading_devices">デバイス一覧を読み込んでいます...</string>
-  <string name="loading_devices_failed">デバイス一覧を読み込めませんでした</string>
+  <string name="loading_devices">端末一覧を読み込んでいます...</string>
+  <string name="loading_devices_failed">端末一覧を読み込めませんでした</string>
   <string name="devices_list_empty">リストが空です。リロードするにはアイコンをタップしてください。</string>
   <string name="reload_list">再読込</string>
   <!-- Expanded desktop -->
@@ -86,9 +86,9 @@
   <string name="expanded_hide_status">ステータスバーを隠す</string>
   <string name="expanded_hide_navigation">ナビゲーションバーを隠す</string>
   <string name="expanded_hide_both">両方を隠す</string>
-  <string name="expanded_nothing_to_show">アプリごとの拡張の状態のカスタム設定を追加するには「すべて拡張」をオフにしてください</string>
+  <string name="expanded_nothing_to_show">アプリごとの拡張の状態のカスタム設定を追加するには「全て拡張」をオフにしてください</string>
   <string name="expanded_desktop_state">拡張デスクトップの状態</string>
-  <string name="expanded_enabled_for_all">すべてで有効化</string>
+  <string name="expanded_enabled_for_all">全て拡張</string>
   <string name="expanded_user_configurable">ユーザー設定</string>
   <string name="expanded_desktop_style">拡張デスクトップのスタイル</string>
   <string name="expanded_desktop_style_description">既定の拡張デスクトップスタイルを選択する</string>
@@ -172,7 +172,7 @@
   <string name="app_ops_accessibility_volume">ユーザー補助の音量</string>
   <string name="app_ops_read_phone_numbers">電話番号の読み取り</string>
   <string name="app_ops_request_install_packages">パッケージのインストール</string>
-  <string name="app_ops_picture_in_picture">Picture in Picture</string>
+  <string name="app_ops_picture_in_picture">ピクチャーインピクチャー</string>
   <string name="app_ops_app_start_foreground">フォアグラウンドで起動する</string>
   <string name="app_ops_answer_phone_calls">着信への応答</string>
   <string name="app_ops_boot_completed">自動実行</string>
@@ -182,7 +182,7 @@
   <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
   <string name="supersu_title">SuperSU</string>
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
-  <string name="local_backup_password_title">デスクトップバックアップパスワード</string>
+  <string name="local_backup_password_title">PCバックアップパスワード</string>
   <!-- Battery saver color -->
   <string name="battery_saver_color_title">警告の色</string>
   <string name="battery_saver_color_summary">バッテリーセーバーがオンの時、ステータスバーとナビバーをオレンジ色にします。</string>
@@ -213,12 +213,12 @@
   <string name="system_theme_style_dark">暗いUI</string>
   <string name="system_theme_style_black">黒いUI</string>
   <string name="theme_applied_toast">テーマが適用されました</string>
-  <string name="applying_theme_toast">テーマを適用中です。しばらくお待ちください。</string>
+  <string name="applying_theme_toast">テーマを適用中です。しばらくお待ちください...</string>
   <!-- Android debugging over WiFi -->
   <string name="adb_over_network">ネット経由のADB</string>
   <string name="adb_over_network_summary">ネットワークインターフェース（Wi-Fi、USBネットワーク）経由でのTCP/IPデバッグを有効にします。この設定は再起動時にリセットされます。</string>
   <!-- Warning for Adb over Network -->
-  <string name="adb_over_network_warning">警告：ネットワーク経由でのADBを有効にすると、あなたの携帯電話はGSMデータネットワークを含む接続しているすべてのネットワークから侵入できるようになります。\n\nこの機能は信頼されたネットワークに接続しているときにのみ使用して下さい。\n\nこの機能を本当に有効にしますか？</string>
+  <string name="adb_over_network_warning">警告：ネットワーク経由でのADBを有効にすると、あなたの携帯電話はGSMデータネットワークを含む接続している全てのネットワークから侵入できるようになります。\n\nこの機能は信頼されたネットワークに接続しているときにのみ使用して下さい。\n\nこの機能を本当に有効にしますか？</string>
   <!-- Per-app data restrictions -->
   <string name="data_usage_app_restrict_data">モバイルデータ</string>
   <string name="data_usage_app_restrict_data_summary">モバイルデータ使用量を有効化する</string>
@@ -237,7 +237,7 @@
   <string name="sim_enabler_need_switch_data_service">このSIMは無効になり、SIM <xliff:g id="slotid">%1$s</xliff:g>がデータサービスに使用されます。続けてもよろしいですか？</string>
   <string name="sim_enabler_airplane_on">機内モードがオンになっている間はこの操作を実行することはできません</string>
   <string name="sim_enabler_in_call">通話中はこの操作を実行することはできません</string>
-  <string name="sim_enabler_both_inactive">すべてのSIMカードを無効にはできません</string>
+  <string name="sim_enabler_both_inactive">全てのSIMカードを無効にはできません</string>
   <string name="sim_enabler_enabling">アクティベート中\u2026</string>
   <string name="sim_enabler_disabling">アクティベート解除中\u2026</string>
   <string name="sub_activate_success">SIMをアクティベートしました</string>
