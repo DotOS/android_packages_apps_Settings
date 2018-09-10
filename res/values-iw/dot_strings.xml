@@ -36,32 +36,27 @@
   <!-- About dotOS -->
   <string name="dot_about_info">אודות</string>
   <string name="dot_about_summary">מי אנחנו</string>
-  <string name="dot_about_info_summary">DoT הוא ראשי תיבות של Droid on Time (אנדרואיד בזמן). רום זה מבוסס על פרוייקט האנדרואיד הפתוח (AOSP) שמתמקד בביצועים. מטרתינו העיקרית היא לתת את מירב הביצועים לכל המכשירים המשתמשים ברום שלנו, ללא הבדלה בין יכולותיהם הבסיסיות. מטרתינו היא לגרום למכשיר להתחרות רק עם הזמן בעצמו!....</string>
+  <string name="about_dotos_desc">DOT stands for Droid On Time. DOT is based on Pure Aosp - which is highly optimized for supreme performance! Our ROM primary goal is to provide best Optimized Performance for all devices running our ROM be it of Low, Mid or High End. We are here to make your device compete with time itself!....</string>
   <string name="dev_info">אודות dotOS</string>
   <string name="dot_team">צוות dotOS</string>
-  <string name="github">Github</string>
-  <string name="github_description">צפה בקוד המקור</string>
-  <string name="gplus">Google+</string>
-  <string name="gplus_description">הצטרף לקהילת Google+ שלנו</string>
-  <string name="telegram">טלגרם</string>
-  <string name="telegram_description">הצטרף לקבוצת הטלגרם שלנו</string>
-  <string name="web">אתר רשמי</string>
-  <string name="web_description">בקר באתר הרשמי שלנו</string>
   <string name="maintainers">מתחזקים</string>
   <string name="dev_1">מוהאן קם &#40;mohancm&#41;</string>
   <string name="dev1_description">ראש פרוייקט ומפתח ראשי</string>
-  <string name="dev_2">גאנש וארמה &#40;Ganesh_i4u&#41;</string>
-  <string name="dev2_description">מפתח</string>
-  <string name="dev_3">קובר שארמה &#40;kubersharma&#41;</string>
-  <string name="dev3_description">מפתח</string>
   <string name="dev_4">סאם גראנדה &#40;Reapergod35&#41;</string>
   <string name="dev4_description">מפתח ממשק</string>
   <string name="dev_5">יאקוב יונוט</string>
   <string name="dev5_description">מפתח ממשק</string>
-  <string name="dev_6">אטול באנסודה &#40;B_auuuuu&#41;</string>
-  <string name="dev6_description">מפתח תשתית</string>
   <string name="dev_7">הארי אמבאדי &#40;hariambadii&#41;</string>
   <string name="dev7_description">מעצב גרפי</string>
+  <string name="about_dotos">About dotOS</string>
+  <string name="google">Google</string>
+  <string name="gplus_community">Join our google plus community to stay updated about the rom</string>
+  <string name="telegram">טלגרם</string>
+  <string name="telegram_community">Join our telegram group and be a part of our family</string>
+  <string name="github">Github</string>
+  <string name="git_link">View our source to know what makes it awesome</string>
+  <string name="website">Website</string>
+  <string name="webiste_link">Visit our website for downloads and stuffs</string>
   <!-- About Contributors -->
   <string name="dot_contributors">תורמים</string>
   <string name="contributor_1">אלכס ברוקס</string>
@@ -212,6 +207,7 @@
   <string name="system_theme_style_light">ממשק בהיר</string>
   <string name="system_theme_style_dark">ממשק כהה</string>
   <string name="system_theme_style_black">ממשק שחור</string>
+  <string name="system_theme_style_neo">dotOS Neo UI</string>
   <string name="theme_applied_toast">ערכת הנושא הוחלה בהצלחה!</string>
   <string name="applying_theme_toast">מחיל ערכת נושא, אנא המתן...</string>
   <!-- Android debugging over WiFi -->
@@ -248,4 +244,17 @@
   <string name="sub_activate_failed">ההפעלה נכשלה.</string>
   <string name="sub_deactivate_success">כרטיס ה־SIM הושבת.</string>
   <string name="sub_deactivate_failed">ההשבתה נכשלה.</string>
+  <!-- Notification log -->
+  <string name="notification_log_summary">Show notifications history log</string>
+  <!-- Device specific doze package -->
+  <!-- Proximity wake -->
+  <string name="proximity_wake_title">Prevent accidental wake-up</string>
+  <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+  <!-- Search -->
+  <string name="menu_search">Search apps</string>
+  <string name="menu_search_hint">Search apps\u2026</string>
+  <!-- Reset battery stats -->
+  <string name="ok">Ok</string>
+  <string name="menu_stats_reset">Reset stats</string>
+  <string name="reset_stats_msg">Battery history stats are going to be reset</string>
 </resources>

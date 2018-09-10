@@ -36,32 +36,27 @@
   <!-- About dotOS -->
   <string name="dot_about_info">ഞങ്ങളെ കുറിച്ച്</string>
   <string name="dot_about_summary">ഞങ്ങളുടെ ആമുഖം പിന്നെ ഞങ്ങളുടെ കൂട്ടം</string>
-  <string name="dot_about_info_summary">ഡോട്ട് എന്നാൽ ഡ്രോയിഡ് ഓൺ ടൈം ആണ്. ഡോട്ട് യഥാർത്ഥ Aosp അടിസ്ഥാനമാക്കിയുള്ളതാണ്- അതാകട്ടെ പരമാവധി പർഫോമൻസിനുേവേണ്ടി ചിട്ടപ്പെടുത്തിയിട്ടുള്ളതും! ഞങ്ങളുടെ റോമിന്റെ പ്രധാന ലക്ഷ്യം ഇതുകൊണ്ട് പ്രവർത്തിക്കുന്ന എല്ലാ ഡിവൈസും, അതു കുറഞ്ഞതോ കൂടിയ നിലവാരമുള്ളതോ ആകട്ടെ അത് പരമാവധി പർഫോർമൻസിൽ ഉപയോഗിക്കുക എന്നതാണ്. ഞങ്ങൾ ഇവിടെയുള്ളത് നിങ്ങളുടെ ഡിവൈസിനെ സമയത്തോടുപോലും കടപിടിക്കത്തക്കതാക്കുവാനാണ്!....</string>
+  <string name="about_dotos_desc">DOT stands for Droid On Time. DOT is based on Pure Aosp - which is highly optimized for supreme performance! Our ROM primary goal is to provide best Optimized Performance for all devices running our ROM be it of Low, Mid or High End. We are here to make your device compete with time itself!....</string>
   <string name="dev_info">ഡോട്ട് ഓ എസ്സിനെ കുറിച്ച്</string>
   <string name="dot_team">ഡോട്ട് ഓ എസ് കൂട്ടം</string>
-  <string name="github">ഗിറ്റ്ഹബ്</string>
-  <string name="github_description">ഞങ്ങളുടെ സോഴ്സ് കോട് കാണിക്കുക</string>
-  <string name="gplus">ഗൂഗിൾ പ്ലസ്</string>
-  <string name="gplus_description">ഞങ്ങളുടെ ഗൂഗിൾ പ്ലസ് കമ്മ്യൂണിറ്റിയിൽ ചേരുക</string>
-  <string name="telegram">ടെലഗ്രാം</string>
-  <string name="telegram_description">ഞങ്ങളുടെ ടെലഗ്രാം ചർച്ചയിൽ പങ്കെടുക്കുക</string>
-  <string name="web">വെബ്സൈറ്റ്</string>
-  <string name="web_description">ഞങ്ങളുടെ വെബ്സൈറ്റ് സന്ദർശിക്കുക</string>
   <string name="maintainers">നിലനിർത്തുന്നവർ</string>
   <string name="dev_1">മോഹൻ സി എം &#40;mohancm&#41;</string>
   <string name="dev1_description">ഉടമ/നേതൃത്വ നിർമ്മിതാവ്</string>
-  <string name="dev_2">ഗണേഷ് വർമ്മ &#40;Ganesh_i4u&#41;</string>
-  <string name="dev2_description">നിർമ്മിതാവ്/ സംഭാവകൻ</string>
-  <string name="dev_3">കുബേർ ശർമ്മ &#40;kubersharma&#41;</string>
-  <string name="dev3_description">നിർമ്മിതാവ്/ സംഭാവകൻ</string>
   <string name="dev_4">സാം ഗ്രാൻഡി &#40;Reapergod35&#41;</string>
   <string name="dev4_description">യൂസർ ഇന്റർഫേസ് നിർമ്മിതാവ്/ സംഭാവകൻ</string>
   <string name="dev_5">Iacob Ionut </string>
   <string name="dev5_description">യൂസർ ഇന്റർഫേസ് നിർമ്മിതാവ്/ സംഭാവകൻ</string>
-  <string name="dev_6">അതുൽ ബൻസോട് &#40;B_auuuuu&#41;</string>
-  <string name="dev6_description">അടിസ്ഥാന സൗകര്യം/സംഭാവകൻ</string>
   <string name="dev_7">ഹരി അംമ്പാടി &#40;hariambadii&#41;</string>
   <string name="dev7_description">അടിസ്ഥാന GFX/ വിശ്വൽ ഡിസൈനർ</string>
+  <string name="about_dotos">About dotOS</string>
+  <string name="google">Google</string>
+  <string name="gplus_community">Join our google plus community to stay updated about the rom</string>
+  <string name="telegram">ടെലഗ്രാം</string>
+  <string name="telegram_community">Join our telegram group and be a part of our family</string>
+  <string name="github">ഗിറ്റ്ഹബ്</string>
+  <string name="git_link">View our source to know what makes it awesome</string>
+  <string name="website">Website</string>
+  <string name="webiste_link">Visit our website for downloads and stuffs</string>
   <!-- About Contributors -->
   <string name="dot_contributors">സംഭാവന നൽകിയവർ</string>
   <string name="contributor_1">അലക്സ് ബ്രൂക്‌സ്</string>
@@ -212,6 +207,7 @@
   <string name="system_theme_style_light">Light UI</string>
   <string name="system_theme_style_dark">Dark UI</string>
   <string name="system_theme_style_black">Black UI</string>
+  <string name="system_theme_style_neo">dotOS Neo UI</string>
   <string name="theme_applied_toast">Theme applied!</string>
   <string name="applying_theme_toast">Applying theme, please wait...</string>
   <!-- Android debugging over WiFi -->
@@ -244,4 +240,17 @@
   <string name="sub_activate_failed">Activation failed.</string>
   <string name="sub_deactivate_success">SIM deactivated.</string>
   <string name="sub_deactivate_failed">Deactivation failed.</string>
+  <!-- Notification log -->
+  <string name="notification_log_summary">Show notifications history log</string>
+  <!-- Device specific doze package -->
+  <!-- Proximity wake -->
+  <string name="proximity_wake_title">Prevent accidental wake-up</string>
+  <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+  <!-- Search -->
+  <string name="menu_search">Search apps</string>
+  <string name="menu_search_hint">Search apps\u2026</string>
+  <!-- Reset battery stats -->
+  <string name="ok">Ok</string>
+  <string name="menu_stats_reset">Reset stats</string>
+  <string name="reset_stats_msg">Battery history stats are going to be reset</string>
 </resources>

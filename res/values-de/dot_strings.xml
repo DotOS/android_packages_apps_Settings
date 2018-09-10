@@ -36,32 +36,27 @@
   <!-- About dotOS -->
   <string name="dot_about_info">Über uns</string>
   <string name="dot_about_summary">Unser Team und was wir machen</string>
-  <string name="dot_about_info_summary">DOT steht für Droid On Time. DOT beruht auf reinem AOSP - welches für Höchstleistung optimiert ist! Unser ROM-Hauptziel ist es, für alle Geräte mit unserem ROM die beste optimierte Leistung bereit zu stellen, egal ob Low-, Mid- oder High End-Geräte. Wir sind hier, um dein Gerät mit der Zeit selbst zu konkurrieren!...</string>
+  <string name="about_dotos_desc">DOT stands for Droid On Time. DOT is based on Pure Aosp - which is highly optimized for supreme performance! Our ROM primary goal is to provide best Optimized Performance for all devices running our ROM be it of Low, Mid or High End. We are here to make your device compete with time itself!....</string>
   <string name="dev_info">Über dotOS</string>
   <string name="dot_team">dotOS Team</string>
-  <string name="github">Github</string>
-  <string name="github_description">Schau dir unseren Quellcode an</string>
-  <string name="gplus">Google+</string>
-  <string name="gplus_description">Trete unserer G+ Community bei</string>
-  <string name="telegram">Telegram</string>
-  <string name="telegram_description">Trete unserer Telegram-Gruppe bei</string>
-  <string name="web">Internetseite</string>
-  <string name="web_description">Besuche unsere Internetseite</string>
   <string name="maintainers">Betreuer</string>
   <string name="dev_1">Mohan Cm &#40;mohancm&#41;</string>
   <string name="dev1_description">Owner/Lead Developer</string>
-  <string name="dev_2">Ganesh varma &#40;Ganesh_i4u&#41;</string>
-  <string name="dev2_description">Developer/Contributor</string>
-  <string name="dev_3">Kuber Sharma &#40;kubersharma&#41;</string>
-  <string name="dev3_description">Developer/Contributor</string>
   <string name="dev_4">Sam Grande &#40;Reapergod35&#41;</string>
   <string name="dev4_description">UI Developer/Contributor</string>
   <string name="dev_5">Iacob Ionut </string>
   <string name="dev5_description">UI Developer/Contributor</string>
-  <string name="dev_6">Atul Bansode &#40;B_auuuuu&#41;</string>
-  <string name="dev6_description">Infrastructure/Contributor</string>
   <string name="dev_7">Hari Ambadi &#40;hariambadii&#41;</string>
   <string name="dev7_description">Core GFX/Visual Designer</string>
+  <string name="about_dotos">About dotOS</string>
+  <string name="google">Google</string>
+  <string name="gplus_community">Join our google plus community to stay updated about the rom</string>
+  <string name="telegram">Telegram</string>
+  <string name="telegram_community">Join our telegram group and be a part of our family</string>
+  <string name="github">Github</string>
+  <string name="git_link">View our source to know what makes it awesome</string>
+  <string name="website">Website</string>
+  <string name="webiste_link">Visit our website for downloads and stuffs</string>
   <!-- About Contributors -->
   <string name="dot_contributors">Contributors</string>
   <string name="contributor_1">Alex Brookes</string>
@@ -212,6 +207,7 @@
   <string name="system_theme_style_light">Helles UI</string>
   <string name="system_theme_style_dark">Dunkles UI</string>
   <string name="system_theme_style_black">Schwarzes UI</string>
+  <string name="system_theme_style_neo">dotOS Neo UI</string>
   <string name="theme_applied_toast">Design übernommen!</string>
   <string name="applying_theme_toast">Design wird angewendet, bitte warten...</string>
   <!-- Android debugging over WiFi -->
@@ -244,4 +240,17 @@
   <string name="sub_activate_failed">Aktivierung fehlgeschlagen.</string>
   <string name="sub_deactivate_success">SIM deaktiviert.</string>
   <string name="sub_deactivate_failed">Deaktivierung fehlgeschlagen.</string>
+  <!-- Notification log -->
+  <string name="notification_log_summary">Show notifications history log</string>
+  <!-- Device specific doze package -->
+  <!-- Proximity wake -->
+  <string name="proximity_wake_title">Prevent accidental wake-up</string>
+  <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+  <!-- Search -->
+  <string name="menu_search">Search apps</string>
+  <string name="menu_search_hint">Search apps\u2026</string>
+  <!-- Reset battery stats -->
+  <string name="ok">Ok</string>
+  <string name="menu_stats_reset">Reset stats</string>
+  <string name="reset_stats_msg">Battery history stats are going to be reset</string>
 </resources>
