@@ -36,32 +36,27 @@
   <!-- About dotOS -->
   <string name="dot_about_info">關於我們</string>
   <string name="dot_about_summary">介紹和團隊簡介</string>
-  <string name="dot_about_info_summary">DOT stands for Droid On Time. DOT is based on Pure Aosp - which is highly optimized for supreme performance! Our ROM primary goal is to provide best Optimized Performance for all devices running our ROM be it of Low, Mid or High End. We are here to make your device compete with time itself!....</string>
+  <string name="about_dotos_desc">DOT stands for Droid On Time. DOT is based on Pure Aosp - which is highly optimized for supreme performance! Our ROM primary goal is to provide best Optimized Performance for all devices running our ROM be it of Low, Mid or High End. We are here to make your device compete with time itself!....</string>
   <string name="dev_info">關於 dotOS</string>
   <string name="dot_team">dotOS 團隊</string>
-  <string name="github">Github</string>
-  <string name="github_description">檢視我們的程式原始碼</string>
-  <string name="gplus">Google+</string>
-  <string name="gplus_description">加入我們的 G+ 社群</string>
-  <string name="telegram">Telegram</string>
-  <string name="telegram_description">加入我們的 Telegram 討論群</string>
-  <string name="web">網站</string>
-  <string name="web_description">造訪我們的網站</string>
   <string name="maintainers">維護者</string>
   <string name="dev_1">Mohan Cm &#40;mohancm&#41;</string>
   <string name="dev1_description">所有者/主要開發人員</string>
-  <string name="dev_2">Ganesh varma &#40;Ganesh_i4u&#41;</string>
-  <string name="dev2_description">開發人員/貢獻者</string>
-  <string name="dev_3">Kuber Sharma &#40;kubersharma&#41;</string>
-  <string name="dev3_description">開發人員/貢獻者</string>
   <string name="dev_4">Sam Grande &#40;Reapergod35&#41;</string>
   <string name="dev4_description">UI 開發人員/貢獻者</string>
   <string name="dev_5">Iacob Ionut </string>
   <string name="dev5_description">UI 開發人員/貢獻者</string>
-  <string name="dev_6">Atul Bansode &#40;B_auuuuu&#41;</string>
-  <string name="dev6_description">基礎建設/貢獻者</string>
   <string name="dev_7">Hari Ambadi &#40;hariambadii&#41;</string>
   <string name="dev7_description">核心 GFX/視覺設計師</string>
+  <string name="about_dotos">About dotOS</string>
+  <string name="google">Google</string>
+  <string name="gplus_community">Join our google plus community to stay updated about the rom</string>
+  <string name="telegram">Telegram</string>
+  <string name="telegram_community">Join our telegram group and be a part of our family</string>
+  <string name="github">Github</string>
+  <string name="git_link">View our source to know what makes it awesome</string>
+  <string name="website">Website</string>
+  <string name="webiste_link">Visit our website for downloads and stuffs</string>
   <!-- About Contributors -->
   <string name="dot_contributors">貢獻者</string>
   <string name="contributor_1">Alex Brookes</string>
@@ -212,6 +207,7 @@
   <string name="system_theme_style_light">Light UI</string>
   <string name="system_theme_style_dark">Dark UI</string>
   <string name="system_theme_style_black">Black UI</string>
+  <string name="system_theme_style_neo">dotOS Neo UI</string>
   <string name="theme_applied_toast">Theme applied!</string>
   <string name="applying_theme_toast">Applying theme, please wait...</string>
   <!-- Android debugging over WiFi -->
@@ -244,4 +240,17 @@
   <string name="sub_activate_failed">Activation failed.</string>
   <string name="sub_deactivate_success">SIM deactivated.</string>
   <string name="sub_deactivate_failed">Deactivation failed.</string>
+  <!-- Notification log -->
+  <string name="notification_log_summary">Show notifications history log</string>
+  <!-- Device specific doze package -->
+  <!-- Proximity wake -->
+  <string name="proximity_wake_title">Prevent accidental wake-up</string>
+  <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+  <!-- Search -->
+  <string name="menu_search">Search apps</string>
+  <string name="menu_search_hint">Search apps\u2026</string>
+  <!-- Reset battery stats -->
+  <string name="ok">Ok</string>
+  <string name="menu_stats_reset">Reset stats</string>
+  <string name="reset_stats_msg">Battery history stats are going to be reset</string>
 </resources>

@@ -36,34 +36,29 @@
   <!-- About dotOS -->
   <string name="dot_about_info">نبذة عنا</string>
   <string name="dot_about_summary">مقدمتنا وفريقنا</string>
-  <string name="dot_about_info_summary">روم Dot مبني على مصدر نقي من Aosp وهو الأمثل للحصول على الأداء العالي! الهدف الأساسي للروم هو توفير أفضل أداء محسّن لجميع الأجهزة التي تعمل على Dot لدينا سواء كانت منخفضة أو متوسطة أو عالية. نحن هنا لجعل جهازك يتنافس مع الوقت نفسه!....</string>
+  <string name="about_dotos_desc">DOT stands for Droid On Time. DOT is based on Pure Aosp - which is highly optimized for supreme performance! Our ROM primary goal is to provide best Optimized Performance for all devices running our ROM be it of Low, Mid or High End. We are here to make your device compete with time itself!....</string>
   <string name="dev_info">حول dotOS</string>
   <string name="dot_team">فريق dotOS</string>
-  <string name="github">Github</string>
-  <string name="github_description">عرض الكود المصدري الخاص بنا</string>
-  <string name="gplus">Google+</string>
-  <string name="gplus_description">إنضم إلى مجتمعنا على G+</string>
-  <string name="telegram">تليجرام</string>
-  <string name="telegram_description">انضم إلى مجموعتنا النقاشية على تليجرام</string>
-  <string name="web">الموقع الالكتروني</string>
-  <string name="web_description">زيارة موقعنا الإلكتروني</string>
   <string name="maintainers">المشرفون</string>
   <string name="dev_1">Mohan Cm &#40;mohancm&#41;</string>
   <string name="dev1_description">المالك/رئيس التطوير</string>
-  <string name="dev_2">Ganesh varma &#40;Ganesh_i4u&#41;</string>
-  <string name="dev2_description">المطور/المساهم</string>
-  <string name="dev_3">Kuber Sharma &#40;kubersharma&#41;</string>
-  <string name="dev3_description">المطور/المساهم</string>
   <string name="dev_4">Sam Grande &#40;Reapergod35&#41;</string>
   <string name="dev4_description">مطور واجهة المستخدم 
 /المساهم</string>
   <string name="dev_5">Iacob Ionut </string>
   <string name="dev5_description">مطور واجهة المستخدم 
 /المساهم</string>
-  <string name="dev_6">Atul Bansode &#40;B_auuuuu&#41;</string>
-  <string name="dev6_description">البنية التحتية/المساهم</string>
   <string name="dev_7">Hari Ambadi &#40;hariambadii&#41;</string>
   <string name="dev7_description">مصمم البصريات/GFX</string>
+  <string name="about_dotos">About dotOS</string>
+  <string name="google">Google</string>
+  <string name="gplus_community">Join our google plus community to stay updated about the rom</string>
+  <string name="telegram">تليجرام</string>
+  <string name="telegram_community">Join our telegram group and be a part of our family</string>
+  <string name="github">Github</string>
+  <string name="git_link">View our source to know what makes it awesome</string>
+  <string name="website">Website</string>
+  <string name="webiste_link">Visit our website for downloads and stuffs</string>
   <!-- About Contributors -->
   <string name="dot_contributors">المساهمون</string>
   <string name="contributor_1">Alex Brookes</string>
@@ -214,6 +209,7 @@
   <string name="system_theme_style_light">واجهة المستخدم البيضاء</string>
   <string name="system_theme_style_dark">واجهة المستخدم المظلمة</string>
   <string name="system_theme_style_black">واجهة سوداء</string>
+  <string name="system_theme_style_neo">dotOS Neo UI</string>
   <string name="theme_applied_toast">تم تعيين السمة!</string>
   <string name="applying_theme_toast">جاري تطبيق السمة، يرجى الانتظار...</string>
   <!-- Android debugging over WiFi -->
@@ -236,7 +232,7 @@
   <string name="sim_missing">مفقود أو معطل</string>
   <string name="sim_enabler_need_disable_sim">سيتم إلغاء تفعيل بطاقة SIM. هل تريد المتابعة؟</string>
   <string name="sim_enabler_will_disable_sim_title">إنتباه</string>
-  <string name="sim_enabler_need_switch_data_service">هذه SIM سوف تعطل و هذه <xliff:g id="slotid">%1$s</xliff:g> SIM> سوف تستخدم لأجل بيانات الخدمة. هل أنت متأكد أنك تريد المتابعة؟</string>
+  <string name="sim_enabler_need_switch_data_service">هذه SIM سوف تعطل و هذه <xliff:g id="slotid">%1$s</xliff:g> SIM سوف تستخدم لأجل بيانات الخدمة. هل أنت متأكد أنك تريد المتابعة؟</string>
   <string name="sim_enabler_airplane_on">غير قادر على القيام بالعملية أثناء وضع الطيران.</string>
   <string name="sim_enabler_in_call">غير قادر على القيام بالعملية أثناء الإتصال.</string>
   <string name="sim_enabler_both_inactive">لا يمكن تعطيل جميع شرائح SIM</string>
@@ -246,4 +242,17 @@
   <string name="sub_activate_failed">النشاط فشل.</string>
   <string name="sub_deactivate_success">تم إلغاء تنشيط SIM.</string>
   <string name="sub_deactivate_failed">فشل إلغاء التنشيط.</string>
+  <!-- Notification log -->
+  <string name="notification_log_summary">Show notifications history log</string>
+  <!-- Device specific doze package -->
+  <!-- Proximity wake -->
+  <string name="proximity_wake_title">Prevent accidental wake-up</string>
+  <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+  <!-- Search -->
+  <string name="menu_search">Search apps</string>
+  <string name="menu_search_hint">Search apps\u2026</string>
+  <!-- Reset battery stats -->
+  <string name="ok">Ok</string>
+  <string name="menu_stats_reset">Reset stats</string>
+  <string name="reset_stats_msg">Battery history stats are going to be reset</string>
 </resources>

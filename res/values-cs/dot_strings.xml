@@ -36,32 +36,27 @@
   <!-- About dotOS -->
   <string name="dot_about_info">O nás</string>
   <string name="dot_about_summary">Naše představení a náš tým</string>
-  <string name="dot_about_info_summary">DOT znamená Droid On Time. DOT je založen na Pure AOSP - který je vysoce optimalizován pro nejvyšší výkon! Hlavním cílem naší ROM je poskytnout optimalizovaný výkon pro všechna zařízení, která ROM používají, ať už se jedná o Low, Mid nebo High End zařízení!....</string>
+  <string name="about_dotos_desc">DOT znamená Droid On Time. DOT je založen na Pure AOSP - který je vysoce optimalizován pro nejvyšší výkon! Hlavním cílem naší ROM je poskytnout optimalizovaný výkon pro všechna zařízení, která ROM používají, ať už se jedná o Low, Mid nebo High End zařízení!....</string>
   <string name="dev_info">O dotOS</string>
   <string name="dot_team">dotOS Team</string>
-  <string name="github">GitHub</string>
-  <string name="github_description">Zobrazit náš zdrojový kód</string>
-  <string name="gplus">Google+</string>
-  <string name="gplus_description">Připojte se k naší G+ komunitě</string>
-  <string name="telegram">Telegram</string>
-  <string name="telegram_description">Připojte se k naší diskusní skupině na Telegramu</string>
-  <string name="web">Webová stránka</string>
-  <string name="web_description">Navštivte naši webovou stránku</string>
   <string name="maintainers">Správci</string>
   <string name="dev_1">Mohan Cm &#40;mohancm&#41;</string>
   <string name="dev1_description">Vlastník/Hlavní vývojář</string>
-  <string name="dev_2">Ganesh varma &#40;Ganesh_i4u&#41;</string>
-  <string name="dev2_description">Vývojář/Přispěvatel</string>
-  <string name="dev_3">Kuber Sharma &#40;kubersharma&#41;</string>
-  <string name="dev3_description">Vývojář/Přispěvatel</string>
   <string name="dev_4">Sam Grande &#40;Reapergod35&#41;</string>
   <string name="dev4_description">Vývojář UI/Přispěvatel</string>
   <string name="dev_5">Iacob Ionut </string>
   <string name="dev5_description">Vývojář UI/Přispěvatel</string>
-  <string name="dev_6">Atul Bansode &#40;B_auuuuu&#41;</string>
-  <string name="dev6_description">Infrastruktura/Přispěvatel</string>
   <string name="dev_7">Hari Ambadi &#40;hariambadii&#41;</string>
   <string name="dev7_description">Core GFX/Visual Designer</string>
+  <string name="about_dotos">O dotOS</string>
+  <string name="google">Google</string>
+  <string name="gplus_community">Připojte se k naší komunitě Google+, abyste zůstali o ROM informováni</string>
+  <string name="telegram">Telegram</string>
+  <string name="telegram_community">Připojte se k naší skupině Telegram a staňte se součástí naší rodiny</string>
+  <string name="github">GitHub</string>
+  <string name="git_link">Podívejte se na naše zdroje, abyste věděli, co úžasného děláme</string>
+  <string name="website">Webová stránka</string>
+  <string name="webiste_link">Navštivte naši webovou stránku pro stahování a další</string>
   <!-- About Contributors -->
   <string name="dot_contributors">Přispěvatelé</string>
   <string name="contributor_1">Alex Brookes</string>
@@ -212,6 +207,7 @@
   <string name="system_theme_style_light">Světlé UI</string>
   <string name="system_theme_style_dark">Tmavé UI</string>
   <string name="system_theme_style_black">Černé UI</string>
+  <string name="system_theme_style_neo">dotOS Neo UI</string>
   <string name="theme_applied_toast">Motiv použit!</string>
   <string name="applying_theme_toast">Aplikuji motiv, čekejte prosím...</string>
   <!-- Android debugging over WiFi -->
@@ -244,4 +240,17 @@
   <string name="sub_activate_failed">Aktivace selhala.</string>
   <string name="sub_deactivate_success">SIM karta deaktivována.</string>
   <string name="sub_deactivate_failed">Deaktivace selhala.</string>
+  <!-- Notification log -->
+  <string name="notification_log_summary">Zobrazit protokol historie oznámení</string>
+  <!-- Device specific doze package -->
+  <!-- Proximity wake -->
+  <string name="proximity_wake_title">Zabránit nechtěnému probuzení</string>
+  <string name="proximity_wake_summary">Kontrolovat senzor přiblížení pro zabránění nechtěného probuzení</string>
+  <!-- Search -->
+  <string name="menu_search">Vyhledávání aplikací</string>
+  <string name="menu_search_hint">Vyhledávání aplikací\u2026</string>
+  <!-- Reset battery stats -->
+  <string name="ok">OK</string>
+  <string name="menu_stats_reset">Vynulovat statistiky</string>
+  <string name="reset_stats_msg">Chystáte se obnovit historii statistiky baterie</string>
 </resources>

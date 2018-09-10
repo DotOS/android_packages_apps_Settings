@@ -36,32 +36,27 @@
   <!-- About dotOS -->
   <string name="dot_about_info">О нас</string>
   <string name="dot_about_summary">Наша команда и миссия</string>
-  <string name="dot_about_info_summary">DOT расшифровывается как Droid On Time. DOT основана на чистом AOSP - отлично оптимизированном для максимальной производительности! Главная цель нашей прошивки - предоставить лучшую производительно для всех устройств, поддерживаемых нашей прошивкой, от бюджетных устройств до флагманов. Мы здесь, чтобы заставить ваше устройство работать в ногу со временем!</string>
+  <string name="about_dotos_desc">DOT расшифровывается как Droid On Time. DOT основана на чистом AOSP - отлично оптимизированном для максимальной производительности! Главная цель нашей прошивки - предоставить лучшую производительно для всех устройств, поддерживаемых нашей прошивкой, от бюджетных устройств до флагманов. Мы здесь, чтобы заставить ваше устройство работать в ногу со временем!</string>
   <string name="dev_info">О dotOS</string>
   <string name="dot_team">Команда dotOS</string>
-  <string name="github">GitHub</string>
-  <string name="github_description">Посмотреть наш исходный код</string>
-  <string name="gplus">Google+</string>
-  <string name="gplus_description">Вступить в наше сообщество Google+</string>
-  <string name="telegram">Telegram</string>
-  <string name="telegram_description">Подписаться на наш канал в Telegram</string>
-  <string name="web">Сайт</string>
-  <string name="web_description">Перейти на наш сайт</string>
   <string name="maintainers">Разработчики</string>
   <string name="dev_1">Mohan Cm &#40;mohancm&#41;</string>
   <string name="dev1_description">Основатель/Главный разработчик</string>
-  <string name="dev_2">Ganesh varma &#40;Ganesh_i4u&#41;</string>
-  <string name="dev2_description">Соразработчик</string>
-  <string name="dev_3">Kuber Sharma &#40;kubersharma&#41;</string>
-  <string name="dev3_description">Соразработчик</string>
   <string name="dev_4">Sam Grande &#40;Reapergod35&#41;</string>
   <string name="dev4_description">UI разработчик</string>
   <string name="dev_5">Iacob Ionut </string>
   <string name="dev5_description">UI разработчик</string>
-  <string name="dev_6">Atul Bansode &#40;B_auuuuu&#41;</string>
-  <string name="dev6_description">Инфраструктура</string>
   <string name="dev_7">Hari Ambadi &#40;hariambadii&#41;</string>
   <string name="dev7_description">Графическое ядро/Визуальный дизайн</string>
+  <string name="about_dotos">О dotOS</string>
+  <string name="google">Google</string>
+  <string name="gplus_community">Присоеденяйтесь к нам в google plus чтоб быть в курсе о всех новостях</string>
+  <string name="telegram">Telegram</string>
+  <string name="telegram_community">Присоединяйтесь к нашей группе Телеграм и будь частью нашей семьи</string>
+  <string name="github">GitHub</string>
+  <string name="git_link">Изучи наши источники чтоб понят что делает их невероятными</string>
+  <string name="website">Веб-сайт</string>
+  <string name="webiste_link">Посетите наш веб-сайт для загрузки и обновления</string>
   <!-- About Contributors -->
   <string name="dot_contributors">Соавторы</string>
   <string name="contributor_1">Alex Brookes</string>
@@ -212,6 +207,7 @@
   <string name="system_theme_style_light">Светлый стиль</string>
   <string name="system_theme_style_dark">Темный стиль</string>
   <string name="system_theme_style_black">Чёрный стиль</string>
+  <string name="system_theme_style_neo">dotOS Neo UI</string>
   <string name="theme_applied_toast">Тема применена!</string>
   <string name="applying_theme_toast">Применение темы, пожалуйста, подождите...</string>
   <!-- Android debugging over WiFi -->
@@ -244,4 +240,17 @@
   <string name="sub_activate_failed">Ошибка активации.</string>
   <string name="sub_deactivate_success">SIM-карта отключена.</string>
   <string name="sub_deactivate_failed">Отключение не удалось.</string>
+  <!-- Notification log -->
+  <string name="notification_log_summary">Показать журнал истории уведомлений</string>
+  <!-- Device specific doze package -->
+  <!-- Proximity wake -->
+  <string name="proximity_wake_title">Предотвращать случайные пробуждения</string>
+  <string name="proximity_wake_summary">Проверка датчика приближения перед включением экрана</string>
+  <!-- Search -->
+  <string name="menu_search">Поиск приложений</string>
+  <string name="menu_search_hint">Поиск приложений</string>
+  <!-- Reset battery stats -->
+  <string name="ok">Да</string>
+  <string name="menu_stats_reset">Сбросить статистику</string>
+  <string name="reset_stats_msg">Статистика батареи будет сброшена</string>
 </resources>
