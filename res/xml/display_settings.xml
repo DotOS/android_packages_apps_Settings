@@ -70,6 +70,10 @@
             android:title="@string/screen_zoom_title"
             settings:keywords="@string/keywords_display_size" />
 
+        <com.android.settings.display.DensityPreference
+            android:key="density"
+            android:title="@string/developer_smallest_width" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
