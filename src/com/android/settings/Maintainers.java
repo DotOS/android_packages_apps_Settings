@@ -234,7 +234,7 @@ public class Maintainers extends SettingsPreferenceFragment {
                         final String maintainer_name = devices.get(name).get("maintainer_name");
                         final String xda_thread = devices.get(name).get("xda_thread");
                         Preference devicePref = new Preference(prefScreen.getContext());
-                        devicePref.setIcon(R.drawable.ic_devs_phone);
+                        devicePref.setIcon(R.drawable.ic_maintainers);
                         devicePref.setTitle(name);
                         devicePref.setSummary(codename + "\n" + String.format(getString(R.string.maintainer_description), maintainer_name));
                         devicePref.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
