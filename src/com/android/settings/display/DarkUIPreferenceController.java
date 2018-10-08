@@ -27,6 +27,7 @@ import static com.android.settings.display.ThemeUtils.isSubstratumOverlayInstall
 import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settings.core.PreferenceControllerMixin;
 import com.android.settingslib.drawer.SettingsDrawerActivity;
+import com.android.internal.util.dotos.DOTUtils;
 
 import libcore.util.Objects;
 import java.util.ArrayList;
@@ -104,6 +105,7 @@ public class DarkUIPreferenceController extends AbstractPreferenceController imp
                   intent.putExtra(SettingsDrawerActivity.EXTRA_SHOW_MENU, true);
                   mContext.startActivity(intent);
                   Toast.makeText(mContext, R.string.theme_applied_toast, Toast.LENGTH_SHORT).show();
+                  DOTUtils.restartSystemUi(mContext);
               }
         }, 3000);
     }
