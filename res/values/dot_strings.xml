@@ -17,6 +17,9 @@
     <string name="dot_version">dotOS version</string>
     <string name="dot_version_default">Unknown</string>
     <string name="keywords_dot_version">dotOS version, dot version</string>
+	
+	<!-- Toolbar -->
+	<string name="settings_head_title">droid on time 3.0</string>
 
     <!-- About phone screen, build date -->
     <string name="build_date">Build date</string>
