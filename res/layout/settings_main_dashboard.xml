@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
 /*
-** Copyright 2014, The Android Open Source Project
+** Copyright 2018, The Android Open Source Project
 **
 ** Licensed under the Apache License, Version 2.0 (the "License");
 ** you may not use this file except in compliance with the License.
@@ -17,44 +17,82 @@
 */
 -->
 
-<LinearLayout
+<android.support.design.widget.CoordinatorLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
-    <FrameLayout
-        android:id="@+id/search_bar_container"
+
+    <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="?android:attr/colorPrimary">
+
+        <RelativeLayout
+            android:id="@+id/search_bar_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/rom_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/google_sans_bold"
+                android:text="@string/settings_head_title"
+                android:textColor="?android:attr/textColorSecondary"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/settings_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rom_title"
+                android:layout_marginStart="16dp"
+                android:fontFamily="@font/google_sans_bold"
+                android:text="@string/settings_label"
+                android:textColor="?android:attr/textColorPrimary"
+                android:textSize="32sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
         <android.support.v7.widget.CardView
             android:id="@+id/search_bar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="@dimen/search_bar_margin"
-            app:cardCornerRadius="@dimen/search_bar_corner_radius"
+            android:layout_margin="16dp"
             app:cardBackgroundColor="?android:attr/colorBackground"
-            app:cardElevation="2dp">
+            app:cardCornerRadius="24dp"
+            app:cardElevation="2dp"
+            app:layout_scrollFlags="scroll|enterAlways|snap">
+
             <Toolbar
                 android:id="@+id/search_action_bar"
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/search_bar_height"
+                android:layout_height="56dp"
                 android:background="?android:attr/selectableItemBackground"
                 android:contentInsetStartWithNavigation="64dp"
                 android:navigationIcon="@drawable/ic_search_24dp"
                 android:theme="?android:attr/actionBarTheme">
+
                 <TextView
                     android:id="@+id/search_action_bar_title"
                     style="@style/TextAppearance.SearchBar"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/search_menu" />
+                    android:text="Search Settings" />
             </Toolbar>
         </android.support.v7.widget.CardView>
-    </FrameLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
     <FrameLayout
         android:id="@+id/main_content"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_width="match_parent" />
-</LinearLayout>
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+</android.support.design.widget.CoordinatorLayout>
