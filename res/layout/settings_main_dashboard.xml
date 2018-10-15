@@ -47,6 +47,13 @@
                 android:textColor="?android:attr/textColorPrimary"
                 android:textSize="32sp"
                 android:textStyle="bold" />
+				
+			<com.android.settings.dashboard.DashboardProfileIcon
+				android:layout_width="46dp"
+				android:layout_height="46dp"
+				android:layout_alignTop="@+id/settings_title"
+				android:layout_alignParentEnd="true"
+				android:layout_marginEnd="16dp" />
 
         </RelativeLayout>
 
