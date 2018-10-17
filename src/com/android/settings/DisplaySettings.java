@@ -37,6 +37,7 @@ import com.android.settings.display.ShowOperatorNamePreferenceController;
 import com.android.settings.display.TapToWakePreferenceController;
 import com.android.settings.display.ThemePreferenceController;
 import com.android.settings.display.DarkUIPreferenceController;
+import com.android.settings.display.QsTileStylePreferenceController;
 import com.android.settings.display.TimeoutPreferenceController;
 import com.android.settings.display.VrDisplayPreferenceController;
 import com.android.settings.display.WallpaperPreferenceController;
@@ -106,6 +107,7 @@ public class DisplaySettings extends DashboardFragment {
         controllers.add(new ShowOperatorNamePreferenceController(context));
         controllers.add(new WallpaperPreferenceController(context));
         controllers.add(new ThemePreferenceController(context));
+        controllers.add(new QsTileStylePreferenceController(context));
         controllers.add(mUIStylePreference = new DarkUIPreferenceController(context, lifecycle, fragment));
         controllers.add(new ForceAllowThemePreferenceController(context, mUIStylePreference, mAccentPickerPreference));
         controllers.add(new BrightnessLevelPreferenceController(context, lifecycle));

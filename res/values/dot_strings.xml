@@ -157,6 +157,13 @@
     <!-- Whether the keyguard will directly show the lock entry -->
     <string name="directly_show_lock">Direct unlock</string>
     <string name="directly_show_lock_summary">Skip the swipe to unlock screen and immediately begin key entry</string>
+	
+	<!-- QS tile styles -->
+    <string name="qs_tile_style_title">QS tile style</string>
+    <string name="qs_tile_style_default">Default</string>
+    <string name="qs_tile_style_circle_trim">Circle with trim</string>
+    <string name="qs_tile_style_two_tone_circle">Two-toned circle with trim</string>
+    <string name="qs_tile_style_squircle_trim">Squircle with trim</string>
 
 </resources>
 
