@@ -17,4 +17,6 @@
 <resources>
     <!-- Launcher icon background -->
     <color name="ic_settings_background">#343434</color>
+	<color name="icon_base_color">#ffffff</color>
+    <color name="icon_color_dotextras">#00adda</color>
 </resources>
