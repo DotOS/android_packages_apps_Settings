@@ -169,13 +169,10 @@
         android:icon="@drawable/ic_accent_picker"
         android:title="@string/theme_accent_picker_title" />
 
-    <ListPreference
+    <Preference
         android:key="qs_tile_style"
         android:title="@string/qs_tile_style_title"
-        android:icon="@drawable/ic_qs_styles"
-        android:entries="@array/qs_tile_style_selector_entries"
-        android:entryValues="@array/qs_tile_style_selector_values"
-        android:persistent="false" />
+        android:icon="@drawable/ic_qs_styles" />
 
     </PreferenceCategory>
 
