@@ -163,7 +163,7 @@
         android:icon="@drawable/ic_accent_picker"
         android:title="@string/theme_accent_picker_title" />
 
-    <ListPreference
+    <Preference
         android:key="qs_tile_style"
         android:title="@string/qs_tile_style_title"
         android:icon="@drawable/ic_qs_styles"
