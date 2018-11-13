@@ -31,13 +31,13 @@ import com.android.settings.R;
 import com.android.settings.core.PreferenceControllerMixin;
 import com.android.settings.wrapper.OverlayManagerWrapper;
 import com.android.settings.wrapper.OverlayManagerWrapper.OverlayInfo;
-import com.android.settingslib.development.DeveloperOptionsPreferenceController;
+import com.android.settingslib.core.AbstractPreferenceController;
 
 import java.util.Comparator;
 import java.util.List;
 
 public class EmulateDisplayCutoutPreferenceController extends
-        DeveloperOptionsPreferenceController implements Preference.OnPreferenceChangeListener,
+        AbstractPreferenceController implements Preference.OnPreferenceChangeListener,
         PreferenceControllerMixin {
 
     private static final String KEY = "display_cutout_emulation";
@@ -56,7 +56,7 @@ public class EmulateDisplayCutoutPreferenceController extends
         super(context);
         mOverlayManager = overlayManager;
         mPackageManager = packageManager;
-        mAvailable = overlayManager != null && getOverlayInfos().length > 0;
+        mAvailable = overlayManager != null && !mContext.getResources().getString(com.android.internal.R.string.config_mainBuiltInDisplayCutout).isEmpty() && getOverlayInfos().length > 0;
     }
 
     public EmulateDisplayCutoutPreferenceController(Context context) {
@@ -159,12 +159,4 @@ public class EmulateDisplayCutoutPreferenceController extends
         overlayInfos.sort(OVERLAY_INFO_COMPARATOR);
         return overlayInfos.toArray(new OverlayInfo[overlayInfos.size()]);
     }
-
-    @Override
-    protected void onDeveloperOptionsSwitchDisabled() {
-        super.onDeveloperOptionsSwitchDisabled();
-        setEmulationOverlay("");
-        updateState(mPreference);
-    }
-
 }
