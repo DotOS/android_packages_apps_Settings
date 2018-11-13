@@ -188,6 +188,10 @@
 	<!-- doze on charge -->
     <string name="doze_on_charge_title">Show when charging</string>
     <string name="doze_on_charge_summary">Wake screen when charging</string>
+
+    <!-- Font picker -->
+    <string name="font_picker_title">Font</string>
+    <string name="disable_fonts_installed_title">Font picker is unavailable to avoid conflicts with Substratum. Uninstall it if you wish to use the font picker.</string>
 </resources>
 
 
