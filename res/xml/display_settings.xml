@@ -178,6 +178,12 @@
         android:title="@string/qs_tile_style_title"
         android:icon="@drawable/ic_qs_styles" />
 
+    <com.android.settings.display.FontDialogPreference
+        android:key="custom_font"
+        android:icon="@drawable/ic_font_picker"
+        android:title="@string/font_picker_title"
+        android:persistent="false" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
