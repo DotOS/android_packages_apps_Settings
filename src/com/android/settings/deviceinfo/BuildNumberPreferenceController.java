@@ -104,6 +104,7 @@ public class BuildNumberPreferenceController extends AbstractPreferenceControlle
         if (preference != null) {
             try {
                 preference.setSummary(BidiFormatter.getInstance().unicodeWrap(Build.ID));
+                       TextUtils.isEmpty(Build.VENDOR.BUILD_NUMBER_OVERRIDE) ? Build.DISPLAY : Build.VENDOR.BUILD_NUMBER_OVERRIDE));
                 preference.setEnabled(true);
             } catch (Exception e) {
                 preference.setSummary(R.string.device_info_default);
