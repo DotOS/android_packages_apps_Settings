@@ -19,6 +19,7 @@ package com.android.settings.deviceinfo.firmwareversion;
 import android.os.Build;
 import android.support.annotation.VisibleForTesting;
 import android.text.BidiFormatter;
+import android.text.TextUtils;
 
 import com.android.settings.R;
 
@@ -37,7 +38,7 @@ public class BuildNumberDialogController {
      * Updates the build number to the dialog.
      */
     public void initialize() {
-        mDialog.setText(BUILD_NUMBER_VALUE_ID,
-                BidiFormatter.getInstance().unicodeWrap(Build.DISPLAY));
+        mDialog.setText(BUILD_NUMBER_VALUE_ID, BidiFormatter.getInstance().unicodeWrap(
+                TextUtils.isEmpty(Build.VENDOR.BUILD_NUMBER_OVERRIDE) ? Build.DISPLAY : Build.VENDOR.BUILD_NUMBER_OVERRIDE));
     }
 }

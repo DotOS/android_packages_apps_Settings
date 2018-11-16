@@ -103,7 +103,7 @@ public class BuildNumberPreferenceController extends AbstractPreferenceControlle
         final Preference preference = screen.findPreference(KEY_BUILD_NUMBER);
         if (preference != null) {
             try {
-                preference.setSummary(BidiFormatter.getInstance().unicodeWrap(Build.ID));
+                preference.setSummary(BidiFormatter.getInstance().unicodeWrap(
                        TextUtils.isEmpty(Build.VENDOR.BUILD_NUMBER_OVERRIDE) ? Build.DISPLAY : Build.VENDOR.BUILD_NUMBER_OVERRIDE));
                 preference.setEnabled(true);
             } catch (Exception e) {
