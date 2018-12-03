@@ -12,245 +12,245 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- About phone screen, dotOS version -->
-  <string name="dot_version">dotOSバージョン</string>
-  <string name="dot_version_default">不明</string>
-  <!-- dot ota -->
-  <string name="dot_ota_title">dotOS OTA</string>
-  <string name="dot_ota_summary">dotOSシステムアップデート</string>
-  <!-- About phone screen, build date -->
-  <string name="build_date">ビルド日時</string>
-  <string name="build_date_default">2015-01-01-0000</string>
-  <!-- Development Settings -->
-  <!-- Dev Options Enabled by Default -->
-  <string name="show_dev_already_enabled">開発者向けオプションは既定で有効になっています</string>
-  <!-- App details: open play store link if app is user installed -->
-  <string name="app_play_store">Google Play</string>
-  <!-- Advanced night mode brightness -->
-  <string name="night_brightness_category">明るさ</string>
-  <string name="night_brightness_value_title">夜の場合は明るさを下げる</string>
-  <string name="night_bright_disabled">無効</string>
-  <string name="night_bright_minimum">最低輝度</string>
-  <string name="night_bright_low">低輝度</string>
-  <string name="night_bright_medium">中輝度</string>
-  <!-- About dotOS -->
-  <string name="dot_about_info">私たちについて</string>
-  <string name="dot_about_summary">私たちとチームの紹介</string>
-  <string name="about_dotos_desc">DOTはDroid On Timeの略です。DOTは最高の性能のために高度に最適化された純粋なAOSPをベースにしています。私たちのROMの主な目標はロー、ミッド、ハイエンドの私たちのROMを実行している全てのデバイスに最高に最適化された性能を提供することです。 私たちはあなたの端末を時間そのものと競争させるためにいます！</string>
-  <string name="dev_info">dotOSについて</string>
-  <string name="dot_team">dotOSチーム</string>
-  <string name="maintainers">メンテナー </string>
-  <string name="dev_1">Mohan Cm &#40;mohancm&#41;</string>
-  <string name="dev1_description">オーナー/開発リーダー</string>
-  <string name="dev_4">Sam Grande &#40;Reapergod35&#41;</string>
-  <string name="dev4_description">UI開発者/貢献者</string>
-  <string name="dev_5">Iacob Ionut </string>
-  <string name="dev5_description">UI開発者/貢献者</string>
-  <string name="dev_7">Hari Ambadi &#40;hariambadii&#41;</string>
-  <string name="dev7_description">コアグラフィックス/ビジュアルデザイナー</string>
-  <string name="about_dotos">dotOSについて</string>
-  <string name="google">Google</string>
-  <string name="gplus_community">最新Romに関する更新を受け取るために私達のGoogle+コミュニティに参加しましょう</string>
-  <string name="telegram">Telegram</string>
-  <string name="telegram_community">私達のTelegnamグループに参加して家族の一部になりましょう</string>
-  <string name="github">Github</string>
-  <string name="git_link">ソースコードを参照して素晴らしいものであることを知って下さい</string>
-  <string name="website">ウェブサイト</string>
-  <string name="webiste_link">ダウンロードとスタッフのための私達のウェブサイトを訪問して下さい</string>
-  <!-- About Contributors -->
-  <string name="dot_contributors">貢献者</string>
-  <string name="contributor_1">Alex Brookes</string>
-  <string name="contributor1_description">壁紙デザイナー</string>
-  <!-- Changelog -->
-  <string name="changelog_title">変更履歴</string>
-  <string name="changelog_summary">最近の変更</string>
-  <string name="changelog_loading">更新履歴を読み込んでいます\u2026</string>
-  <string name="changelog_error">変更履歴を読み込めませんでした</string>
-  <!-- Maintainers Info-->
-  <string name="maintainers_title">公式メンテナー</string>
-  <string name="maintainers_summary">正式サポート端末と各メンテナ</string>
-  <!-- Maintainer section -->
-  <string name="maintainer_description">メンテナ：%1$s</string>
-  <string name="loading_devices">端末一覧を読み込んでいます...</string>
-  <string name="loading_devices_failed">端末一覧を読み込めませんでした</string>
-  <string name="devices_list_empty">リストが空です。リロードするにはアイコンをタップしてください。</string>
-  <string name="reload_list">再読込</string>
-  <!-- Expanded desktop -->
-  <string name="power_menu_expanded_desktop">拡張デスクトップ</string>
-  <string name="expanded_hide_nothing">非表示にしない</string>
-  <string name="expanded_hide_status">ステータスバーを隠す</string>
-  <string name="expanded_hide_navigation">ナビゲーションバーを隠す</string>
-  <string name="expanded_hide_both">両方を隠す</string>
-  <string name="expanded_nothing_to_show">アプリごとの拡張の状態のカスタム設定を追加するには「全て拡張」をオフにしてください</string>
-  <string name="expanded_desktop_state">拡張デスクトップの状態</string>
-  <string name="expanded_enabled_for_all">全て拡張</string>
-  <string name="expanded_user_configurable">ユーザー設定</string>
-  <string name="expanded_desktop_style">拡張デスクトップのスタイル</string>
-  <string name="expanded_desktop_style_description">既定の拡張デスクトップスタイルを選択する</string>
-  <string name="expanded_desktop_title">拡張デスクトップの設定</string>
-  <!-- Screenshot sound -->
-  <string name="screenshot_sound_title">スクリーンショットの音</string>
-  <string name="screenshot_sound_summary">スクリーンショットを取得した際に効果音を鳴らす</string>
-  <!-- Notification volume -->
-  <string name="link_volume_option_title">着信と通知の音量をリンク</string>
-  <string name="notification_volume_option_title">通知の音量</string>
-  <string name="ring_notification_volume_option_title">着信と通知の音量</string>
-  <!-- App Ops Settings -->
-  <!-- App Ops Categories -->
-  <string name="app_ops_cat_location">位置情報</string>
-  <string name="app_ops_cat_personal">個人情報</string>
-  <string name="app_ops_cat_messaging">メッセージ</string>
-  <string name="app_ops_cat_media">メディア</string>
-  <string name="app_ops_cat_device">端末</string>
-  <string name="app_ops_cat_bootup">ブート時の実行</string>
-  <!-- [CHAR LIMIT=NONE] App ops labels -->
-  <string name="app_ops_access_camera">カメラ</string>
-  <string name="app_ops_access_location">位置情報</string>
-  <string name="app_ops_access_notifications">通知</string>
-  <string name="app_ops_activate_vpn">VPN</string>
-  <string name="app_ops_auto_start">自動起動</string>
-  <string name="app_ops_delete_call_log">通話履歴の削除</string>
-  <string name="app_ops_delete_contacts">連絡先の削除</string>
-  <string name="app_ops_delete_mms">MMSの削除</string>
-  <string name="app_ops_delete_sms">SMSの削除</string>
-  <string name="app_ops_draw_on_top">上部に描画</string>
-  <string name="app_ops_get_usage_stats">使用統計の取得</string>
-  <string name="app_ops_keep_device_awake">スリープモードにしない</string>
-  <string name="app_ops_make_phone_call">発信</string>
-  <string name="app_ops_modify_calendar">カレンダーの更新</string>
-  <string name="app_ops_modify_call_log">通話履歴の更新</string>
-  <string name="app_ops_modify_clipboard">クリップボードの変更</string>
-  <string name="app_ops_modify_contacts">連絡先の更新</string>
-  <string name="app_ops_modify_settings">設定の更新</string>
-  <string name="app_ops_mute_unmute_microphone">マイクの有効/無効</string>
-  <string name="app_ops_play_audio">音声の再生</string>
-  <string name="app_ops_post_notification">通知の配信</string>
-  <string name="app_ops_project_media">メディアの投影</string>
-  <string name="app_ops_read_calendar">カレンダーの読み取り</string>
-  <string name="app_ops_read_call_log">通話履歴の読み取り</string>
-  <string name="app_ops_read_clipboard">クリップボードの読み取り</string>
-  <string name="app_ops_read_contacts">連絡先の読み取り</string>
-  <string name="app_ops_read_mms">MMSの読み取り</string>
-  <string name="app_ops_read_sms">SMSの読み取り</string>
-  <string name="app_ops_receive_sms">SMSの受信</string>
-  <string name="app_ops_record_audio">音声の録音</string>
-  <string name="app_ops_send_mms">MMSの送信</string>
-  <string name="app_ops_send_sms">SMSを送信</string>
-  <string name="app_ops_toast_window">トーストメッセージ</string>
-  <string name="app_ops_use_alarm_volume">アラームの音量</string>
-  <string name="app_ops_use_audio_focus">音声フォーカス</string>
-  <string name="app_ops_use_bluetooth_volume">Bluetoothの音量</string>
-  <string name="app_ops_use_master_volume">主音量</string>
-  <string name="app_ops_use_media_buttons">メディアボタン</string>
-  <string name="app_ops_use_media_volume">メディアの音量</string>
-  <string name="app_ops_use_notification_volume">通知の音量</string>
-  <string name="app_ops_use_ring_volume">着信の音量</string>
-  <string name="app_ops_use_vibrate">振動フィードバック</string>
-  <string name="app_ops_use_voice_volume">音声通話の音量</string>
-  <string name="app_ops_write_mms">MMSの書き込み</string>
-  <string name="app_ops_write_sms">SMSの書き込み</string>
-  <string name="app_ops_use_fingerprint">指紋</string>
-  <string name="app_ops_add_voicemail">ボイスメール</string>
-  <string name="app_ops_read_phone_state">端末の状態へのアクセス</string>
-  <string name="app_ops_scan_wifi">WiFiネットワークのスキャン</string>
-  <string name="app_ops_change_wallpaper">壁紙の変更</string>
-  <string name="app_ops_assist_structure">ストラクチャのアシスト</string>
-  <string name="app_ops_assist_screenshot">スクリーンショット</string>
-  <string name="app_ops_use_body_sensors">ボディーセンサー</string>
-  <string name="app_ops_read_cell_broadcasts">緊急警報</string>
-  <string name="app_ops_mock_location">仮想位置情報</string>
-  <string name="app_ops_read_external_storage">外部ストレージの読み取り</string>
-  <string name="app_ops_write_external_storage">外部ストレージの書き込み</string>
-  <string name="app_ops_turn_on_screen">画面の点灯</string>
-  <string name="app_ops_get_accounts">端末のアカウント</string>
-  <string name="app_ops_run_in_background">バックグラウンドでの実行</string>
-  <string name="app_ops_accessibility_volume">ユーザー補助の音量</string>
-  <string name="app_ops_read_phone_numbers">電話番号の読み取り</string>
-  <string name="app_ops_request_install_packages">パッケージのインストール</string>
-  <string name="app_ops_picture_in_picture">ピクチャーインピクチャー</string>
-  <string name="app_ops_app_start_foreground">フォアグラウンドで起動する</string>
-  <string name="app_ops_answer_phone_calls">着信への応答</string>
-  <string name="app_ops_boot_completed">自動実行</string>
-  <!-- Root Management -->
-  <string name="rootmanagement_title">ルート権限の管理</string>
-  <string name="rootmanagement_dashboard_summary">ルートアクセスを管理</string>
-  <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
-  <string name="supersu_title">SuperSU</string>
-  <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
-  <string name="local_backup_password_title">PCバックアップパスワード</string>
-  <!-- Battery saver color -->
-  <string name="battery_saver_color_title">警告の色</string>
-  <string name="battery_saver_color_summary">バッテリーセーバーがオンの時、ステータスバーとナビバーをオレンジ色にします。</string>
-  <!-- Wakeup options -->
-  <string name="wakeup_when_plugged_unplugged_title">充電開始でスリープ解除</string>
-  <string name="wakeup_when_plugged_unplugged_summary">電源ケーブルの抜き差し時のスリープ解除</string>
-  <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
-  <string name="show_cpu_info">CPU情報を表示</string>
-  <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
-  <string name="show_cpu_info_summary">現在のCPU情報をオーバーレイ表示する</string>
-  <string name="dashboard_conditions_title">ダッシュボードの状態</string>
-  <string name="summary_dashboard_conditions_enabled">ダッシュボードの状態の表示が有効です</string>
-  <string name="summary_dashboard_conditions_disabled">ダッシュボードの状態の表示が無効です</string>
-  <!-- Custom light color -->
-  <string name="light_customization">LEDライトの通知</string>
-  <string name="custom_light_title">ライトカラー</string>
-  <string name="custom_light_on_time_title">"LEDの点滅している時の光っている時間（ms）"</string>
-  <string name="custom_light_off_time_title">"LEDの点滅している時の消えている時間（ms）"</string>
-  <string name="app_notifications_info_desc">上記のいずれかのチャンネルをタップして、LEDの色やその他のオプションを設定します。</string>
-  <string name="value_equals_default">既定</string>
-  <string name="show_light_on_zen_title">マナーモードの間はライトを点滅させる</string>
-  <!-- Volume settings - Volume adjustment sound -->
-  <string name="volume_adjust_sounds_title">音量調整の音</string>
-  <!-- Themes -->
-  <string name="system_theme_style_title">UIのスタイル</string>
-  <string name="system_theme_style_auto">壁紙基調</string>
-  <string name="system_theme_style_light">明るいUI</string>
-  <string name="system_theme_style_dark">暗いUI</string>
-  <string name="system_theme_style_black">黒いUI</string>
-  <string name="system_theme_style_neo">dotOS Neo UI</string>
-  <string name="theme_applied_toast">テーマが適用されました</string>
-  <string name="applying_theme_toast">テーマを適用中です。しばらくお待ちください...</string>
-  <!-- Android debugging over WiFi -->
-  <string name="adb_over_network">ネット経由のADB</string>
-  <string name="adb_over_network_summary">ネットワークインターフェース（Wi-Fi、USBネットワーク）経由でのTCP/IPデバッグを有効にします。この設定は再起動時にリセットされます。</string>
-  <!-- Warning for Adb over Network -->
-  <string name="adb_over_network_warning">警告：ネットワーク経由でのADBを有効にすると、あなたの携帯電話はGSMデータネットワークを含む接続している全てのネットワークから侵入できるようになります。\n\nこの機能は信頼されたネットワークに接続しているときにのみ使用して下さい。\n\nこの機能を本当に有効にしますか？</string>
-  <!-- Per-app data restrictions -->
-  <string name="data_usage_app_restrict_data">モバイルデータ</string>
-  <string name="data_usage_app_restrict_data_summary">モバイルデータ使用量を有効化する</string>
-  <string name="data_usage_app_restrict_wifi">Wi\u2011Fi データ使用量</string>
-  <string name="data_usage_app_restrict_wifi_summary">Wi\u2011Fi データ使用量を有効化する</string>
-  <!-- OS Information -->
-  <string name="os_information">OS情報</string>
-  <string name="os_summary_info">このROMに関する情報</string>
-  <!-- Manual provisioning support -->
-  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g>は<xliff:g id="status" example="disabled">%2$s</xliff:g>です</string>
-  <string name="sim_enabled">有効</string>
-  <string name="sim_disabled">無効</string>
-  <string name="sim_missing">挿入されていないか、問題があります。</string>
-  <string name="sim_enabler_need_disable_sim">SIMカードはアクティベート解除されます。続行しますか？</string>
-  <string name="sim_enabler_will_disable_sim_title">注意</string>
-  <string name="sim_enabler_need_switch_data_service">このSIMは無効になり、SIM <xliff:g id="slotid">%1$s</xliff:g>がデータサービスに使用されます。続けてもよろしいですか？</string>
-  <string name="sim_enabler_airplane_on">機内モードがオンになっている間はこの操作を実行することはできません</string>
-  <string name="sim_enabler_in_call">通話中はこの操作を実行することはできません</string>
-  <string name="sim_enabler_both_inactive">全てのSIMカードを無効にはできません</string>
-  <string name="sim_enabler_enabling">アクティベート中\u2026</string>
-  <string name="sim_enabler_disabling">アクティベート解除中\u2026</string>
-  <string name="sub_activate_success">SIMをアクティベートしました</string>
-  <string name="sub_activate_failed">アクティベーションに失敗しました</string>
-  <string name="sub_deactivate_success">SIMをアクティベート解除しました</string>
-  <string name="sub_deactivate_failed">アクティベート解除に失敗しました</string>
-  <!-- Notification log -->
-  <string name="notification_log_summary">通知履歴ログを表示</string>
-  <!-- Device specific doze package -->
-  <!-- Proximity wake -->
-  <string name="proximity_wake_title">偶発的なスリープ解除を防止</string>
-  <string name="proximity_wake_summary">スリープ解除する前に接近センサーで確認する</string>
-  <!-- Search -->
-  <string name="menu_search">アプリを検索</string>
-  <string name="menu_search_hint">アプリを検索中\u2026</string>
-  <!-- Reset battery stats -->
-  <string name="ok">OK</string>
-  <string name="menu_stats_reset">統計をリセット</string>
-  <string name="reset_stats_msg">バッテリーの使用統計はリセットされます</string>
+    <!-- About phone screen, dotOS version -->
+    <string name="dot_version">dotOSバージョン</string>
+    <string name="dot_version_default">不明</string>
+    <!-- dot ota -->
+    <string name="dot_ota_title">dotOS OTA</string>
+    <string name="dot_ota_summary">dotOSシステムアップデート</string>
+    <!-- About phone screen, build date -->
+    <string name="build_date">ビルド日時</string>
+    <string name="build_date_default">2015-01-01-0000</string>
+    <!-- Development Settings -->
+    <!-- Dev Options Enabled by Default -->
+    <string name="show_dev_already_enabled">開発者向けオプションは既定で有効になっています</string>
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
+    <!-- Advanced night mode brightness -->
+    <string name="night_brightness_category">明るさ</string>
+    <string name="night_brightness_value_title">夜の場合は明るさを下げる</string>
+    <string name="night_bright_disabled">無効</string>
+    <string name="night_bright_minimum">最低輝度</string>
+    <string name="night_bright_low">低輝度</string>
+    <string name="night_bright_medium">中輝度</string>
+    <!-- About dotOS -->
+    <string name="dot_about_info">私たちについて</string>
+    <string name="dot_about_summary">私たちとチームの紹介</string>
+    <string name="about_dotos_desc">DOTはDroid On Timeの略です。DOTは最高の性能のために高度に最適化された純粋なAOSPをベースにしています。私たちのROMの主な目標はロー、ミッド、ハイエンドの私たちのROMを実行している全てのデバイスに最高に最適化された性能を提供することです。 私たちはあなたの端末を時間そのものと競争させるためにいます！</string>
+    <string name="dev_info">dotOSについて</string>
+    <string name="dot_team">dotOSチーム</string>
+    <string name="maintainers">メンテナー </string>
+    <string name="dev_1">Mohan Cm &#40;mohancm&#41;</string>
+    <string name="dev1_description">オーナー/開発リーダー</string>
+    <string name="dev_4">Sam Grande &#40;Reapergod35&#41;</string>
+    <string name="dev4_description">UI開発者/貢献者</string>
+    <string name="dev_5">Iacob Ionut </string>
+    <string name="dev5_description">UI開発者/貢献者</string>
+    <string name="dev_7">Hari Ambadi &#40;hariambadii&#41;</string>
+    <string name="dev7_description">コアグラフィックス/ビジュアルデザイナー</string>
+    <string name="about_dotos">dotOSについて</string>
+    <string name="google">Google</string>
+    <string name="gplus_community">最新Romに関する更新を受け取るために私達のGoogle+コミュニティに参加しましょう</string>
+    <string name="telegram">Telegram</string>
+    <string name="telegram_community">私達のTelegnamグループに参加して家族の一部になりましょう</string>
+    <string name="github">Github</string>
+    <string name="git_link">ソースコードを参照して素晴らしいものであることを知って下さい</string>
+    <string name="website">ウェブサイト</string>
+    <string name="webiste_link">ダウンロードとスタッフのための私達のウェブサイトを訪問して下さい</string>
+    <!-- About Contributors -->
+    <string name="dot_contributors">貢献者</string>
+    <string name="contributor_1">Alex Brookes</string>
+    <string name="contributor1_description">壁紙デザイナー</string>
+    <!-- Changelog -->
+    <string name="changelog_title">変更履歴</string>
+    <string name="changelog_summary">最近の変更</string>
+    <string name="changelog_loading">更新履歴を読み込んでいます\u2026</string>
+    <string name="changelog_error">変更履歴を読み込めませんでした</string>
+    <!-- Maintainers Info-->
+    <string name="maintainers_title">公式メンテナー</string>
+    <string name="maintainers_summary">正式サポート端末と各メンテナ</string>
+    <!-- Maintainer section -->
+    <string name="maintainer_description">メンテナ：%1$s</string>
+    <string name="loading_devices">端末一覧を読み込んでいます...</string>
+    <string name="loading_devices_failed">端末一覧を読み込めませんでした</string>
+    <string name="devices_list_empty">リストが空です。リロードするにはアイコンをタップしてください。</string>
+    <string name="reload_list">再読込</string>
+    <!-- Expanded desktop -->
+    <string name="power_menu_expanded_desktop">拡張デスクトップ</string>
+    <string name="expanded_hide_nothing">非表示にしない</string>
+    <string name="expanded_hide_status">ステータスバーを隠す</string>
+    <string name="expanded_hide_navigation">ナビゲーションバーを隠す</string>
+    <string name="expanded_hide_both">両方を隠す</string>
+    <string name="expanded_nothing_to_show">アプリごとの拡張の状態のカスタム設定を追加するには「全て拡張」をオフにしてください</string>
+    <string name="expanded_desktop_state">拡張デスクトップの状態</string>
+    <string name="expanded_enabled_for_all">全て拡張</string>
+    <string name="expanded_user_configurable">ユーザー設定</string>
+    <string name="expanded_desktop_style">拡張デスクトップのスタイル</string>
+    <string name="expanded_desktop_style_description">既定の拡張デスクトップスタイルを選択する</string>
+    <string name="expanded_desktop_title">拡張デスクトップの設定</string>
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">スクリーンショットの音</string>
+    <string name="screenshot_sound_summary">スクリーンショットを取得した際に効果音を鳴らす</string>
+    <!-- Notification volume -->
+    <string name="link_volume_option_title">着信と通知の音量をリンク</string>
+    <string name="notification_volume_option_title">通知の音量</string>
+    <string name="ring_notification_volume_option_title">着信と通知の音量</string>
+    <!-- App Ops Settings -->
+    <!-- App Ops Categories -->
+    <string name="app_ops_cat_location">位置情報</string>
+    <string name="app_ops_cat_personal">個人情報</string>
+    <string name="app_ops_cat_messaging">メッセージ</string>
+    <string name="app_ops_cat_media">メディア</string>
+    <string name="app_ops_cat_device">端末</string>
+    <string name="app_ops_cat_bootup">ブート時の実行</string>
+    <!-- [CHAR LIMIT=NONE] App ops labels -->
+    <string name="app_ops_access_camera">カメラ</string>
+    <string name="app_ops_access_location">位置情報</string>
+    <string name="app_ops_access_notifications">通知</string>
+    <string name="app_ops_activate_vpn">VPN</string>
+    <string name="app_ops_auto_start">自動起動</string>
+    <string name="app_ops_delete_call_log">通話履歴の削除</string>
+    <string name="app_ops_delete_contacts">連絡先の削除</string>
+    <string name="app_ops_delete_mms">MMSの削除</string>
+    <string name="app_ops_delete_sms">SMSの削除</string>
+    <string name="app_ops_draw_on_top">上部に描画</string>
+    <string name="app_ops_get_usage_stats">使用統計の取得</string>
+    <string name="app_ops_keep_device_awake">スリープモードにしない</string>
+    <string name="app_ops_make_phone_call">発信</string>
+    <string name="app_ops_modify_calendar">カレンダーの更新</string>
+    <string name="app_ops_modify_call_log">通話履歴の更新</string>
+    <string name="app_ops_modify_clipboard">クリップボードの変更</string>
+    <string name="app_ops_modify_contacts">連絡先の更新</string>
+    <string name="app_ops_modify_settings">設定の更新</string>
+    <string name="app_ops_mute_unmute_microphone">マイクの有効/無効</string>
+    <string name="app_ops_play_audio">音声の再生</string>
+    <string name="app_ops_post_notification">通知の配信</string>
+    <string name="app_ops_project_media">メディアの投影</string>
+    <string name="app_ops_read_calendar">カレンダーの読み取り</string>
+    <string name="app_ops_read_call_log">通話履歴の読み取り</string>
+    <string name="app_ops_read_clipboard">クリップボードの読み取り</string>
+    <string name="app_ops_read_contacts">連絡先の読み取り</string>
+    <string name="app_ops_read_mms">MMSの読み取り</string>
+    <string name="app_ops_read_sms">SMSの読み取り</string>
+    <string name="app_ops_receive_sms">SMSの受信</string>
+    <string name="app_ops_record_audio">音声の録音</string>
+    <string name="app_ops_send_mms">MMSの送信</string>
+    <string name="app_ops_send_sms">SMSを送信</string>
+    <string name="app_ops_toast_window">トーストメッセージ</string>
+    <string name="app_ops_use_alarm_volume">アラームの音量</string>
+    <string name="app_ops_use_audio_focus">音声フォーカス</string>
+    <string name="app_ops_use_bluetooth_volume">Bluetoothの音量</string>
+    <string name="app_ops_use_master_volume">主音量</string>
+    <string name="app_ops_use_media_buttons">メディアボタン</string>
+    <string name="app_ops_use_media_volume">メディアの音量</string>
+    <string name="app_ops_use_notification_volume">通知の音量</string>
+    <string name="app_ops_use_ring_volume">着信の音量</string>
+    <string name="app_ops_use_vibrate">振動フィードバック</string>
+    <string name="app_ops_use_voice_volume">音声通話の音量</string>
+    <string name="app_ops_write_mms">MMSの書き込み</string>
+    <string name="app_ops_write_sms">SMSの書き込み</string>
+    <string name="app_ops_use_fingerprint">指紋</string>
+    <string name="app_ops_add_voicemail">ボイスメール</string>
+    <string name="app_ops_read_phone_state">端末の状態へのアクセス</string>
+    <string name="app_ops_scan_wifi">WiFiネットワークのスキャン</string>
+    <string name="app_ops_change_wallpaper">壁紙の変更</string>
+    <string name="app_ops_assist_structure">ストラクチャのアシスト</string>
+    <string name="app_ops_assist_screenshot">スクリーンショット</string>
+    <string name="app_ops_use_body_sensors">ボディーセンサー</string>
+    <string name="app_ops_read_cell_broadcasts">緊急警報</string>
+    <string name="app_ops_mock_location">仮想位置情報</string>
+    <string name="app_ops_read_external_storage">外部ストレージの読み取り</string>
+    <string name="app_ops_write_external_storage">外部ストレージの書き込み</string>
+    <string name="app_ops_turn_on_screen">画面の点灯</string>
+    <string name="app_ops_get_accounts">端末のアカウント</string>
+    <string name="app_ops_run_in_background">バックグラウンドでの実行</string>
+    <string name="app_ops_accessibility_volume">ユーザー補助の音量</string>
+    <string name="app_ops_read_phone_numbers">電話番号の読み取り</string>
+    <string name="app_ops_request_install_packages">パッケージのインストール</string>
+    <string name="app_ops_picture_in_picture">ピクチャーインピクチャー</string>
+    <string name="app_ops_app_start_foreground">フォアグラウンドで起動する</string>
+    <string name="app_ops_answer_phone_calls">着信への応答</string>
+    <string name="app_ops_boot_completed">自動実行</string>
+    <!-- Root Management -->
+    <string name="rootmanagement_title">ルート権限の管理</string>
+    <string name="rootmanagement_dashboard_summary">ルートアクセスを管理</string>
+    <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
+    <string name="supersu_title">SuperSU</string>
+    <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
+    <string name="local_backup_password_title">PCバックアップパスワード</string>
+    <!-- Battery saver color -->
+    <string name="battery_saver_color_title">警告の色</string>
+    <string name="battery_saver_color_summary">バッテリーセーバーがオンの時、ステータスバーとナビバーをオレンジ色にします。</string>
+    <!-- Wakeup options -->
+    <string name="wakeup_when_plugged_unplugged_title">充電開始でスリープ解除</string>
+    <string name="wakeup_when_plugged_unplugged_summary">電源ケーブルの抜き差し時のスリープ解除</string>
+    <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
+    <string name="show_cpu_info">CPU情報を表示</string>
+    <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
+    <string name="show_cpu_info_summary">現在のCPU情報をオーバーレイ表示する</string>
+    <string name="dashboard_conditions_title">ダッシュボードの状態</string>
+    <string name="summary_dashboard_conditions_enabled">ダッシュボードの状態の表示が有効です</string>
+    <string name="summary_dashboard_conditions_disabled">ダッシュボードの状態の表示が無効です</string>
+    <!-- Custom light color -->
+    <string name="light_customization">LEDライトの通知</string>
+    <string name="custom_light_title">ライトカラー</string>
+    <string name="custom_light_on_time_title">"LEDの点滅している時の光っている時間（ms）"</string>
+    <string name="custom_light_off_time_title">"LEDの点滅している時の消えている時間（ms）"</string>
+    <string name="app_notifications_info_desc">上記のいずれかのチャンネルをタップして、LEDの色やその他のオプションを設定します。</string>
+    <string name="value_equals_default">既定</string>
+    <string name="show_light_on_zen_title">マナーモードの間はライトを点滅させる</string>
+    <!-- Volume settings - Volume adjustment sound -->
+    <string name="volume_adjust_sounds_title">音量調整の音</string>
+    <!-- Themes -->
+    <string name="system_theme_style_title">UIのスタイル</string>
+    <string name="system_theme_style_auto">壁紙基調</string>
+    <string name="system_theme_style_light">明るいUI</string>
+    <string name="system_theme_style_dark">暗いUI</string>
+    <string name="system_theme_style_black">黒いUI</string>
+    <string name="system_theme_style_neo">dotOS Neo UI</string>
+    <string name="theme_applied_toast">テーマが適用されました</string>
+    <string name="applying_theme_toast">テーマを適用中です。しばらくお待ちください...</string>
+    <!-- Android debugging over WiFi -->
+    <string name="adb_over_network">ネット経由のADB</string>
+    <string name="adb_over_network_summary">ネットワークインターフェース（Wi-Fi、USBネットワーク）経由でのTCP/IPデバッグを有効にします。この設定は再起動時にリセットされます。</string>
+    <!-- Warning for Adb over Network -->
+    <string name="adb_over_network_warning">警告：ネットワーク経由でのADBを有効にすると、あなたの携帯電話はGSMデータネットワークを含む接続している全てのネットワークから侵入できるようになります。\n\nこの機能は信頼されたネットワークに接続している時にのみ使用して下さい。\n\nこの機能を本当に有効にしますか？</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_data">モバイルデータ</string>
+    <string name="data_usage_app_restrict_data_summary">モバイルデータ使用量を有効化する</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi データ使用量</string>
+    <string name="data_usage_app_restrict_wifi_summary">Wi\u2011Fi データ使用量を有効化する</string>
+    <!-- OS Information -->
+    <string name="os_information">OS情報</string>
+    <string name="os_summary_info">このROMに関する情報</string>
+    <!-- Manual provisioning support -->
+    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g>は<xliff:g id="status" example="disabled">%2$s</xliff:g>です</string>
+    <string name="sim_enabled">有効</string>
+    <string name="sim_disabled">無効</string>
+    <string name="sim_missing">挿入されていないか、問題があります。</string>
+    <string name="sim_enabler_need_disable_sim">SIMカードはアクティベート解除されます。続行しますか？</string>
+    <string name="sim_enabler_will_disable_sim_title">注意</string>
+    <string name="sim_enabler_need_switch_data_service">このSIMは無効になり、SIM <xliff:g id="slotid">%1$s</xliff:g>がデータサービスに使用されます。続けてもよろしいですか？</string>
+    <string name="sim_enabler_airplane_on">機内モードがオンになっている間はこの操作を実行することはできません</string>
+    <string name="sim_enabler_in_call">通話中はこの操作を実行することはできません</string>
+    <string name="sim_enabler_both_inactive">全てのSIMカードを無効にはできません</string>
+    <string name="sim_enabler_enabling">アクティベート中\u2026</string>
+    <string name="sim_enabler_disabling">アクティベート解除中\u2026</string>
+    <string name="sub_activate_success">SIMをアクティベートしました</string>
+    <string name="sub_activate_failed">アクティベーションに失敗しました</string>
+    <string name="sub_deactivate_success">SIMをアクティベート解除しました</string>
+    <string name="sub_deactivate_failed">アクティベート解除に失敗しました</string>
+    <!-- Notification log -->
+    <string name="notification_log_summary">通知履歴ログを表示</string>
+    <!-- Device specific doze package -->
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">偶発的なスリープ解除を防止</string>
+    <string name="proximity_wake_summary">スリープ解除する前に接近センサーで確認する</string>
+    <!-- Search -->
+    <string name="menu_search">アプリを検索</string>
+    <string name="menu_search_hint">アプリを検索中\u2026</string>
+    <!-- Reset battery stats -->
+    <string name="ok">OK</string>
+    <string name="menu_stats_reset">統計をリセット</string>
+    <string name="reset_stats_msg">バッテリーの使用統計はリセットされます</string>
 </resources>
