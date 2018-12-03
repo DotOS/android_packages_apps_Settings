@@ -12,245 +12,245 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- About phone screen, dotOS version -->
-  <string name="dot_version">Version de DotOS</string>
-  <string name="dot_version_default">Inconnu</string>
-  <!-- dot ota -->
-  <string name="dot_ota_title">DotOS OTA</string>
-  <string name="dot_ota_summary">Mises à jour DotOS</string>
-  <!-- About phone screen, build date -->
-  <string name="build_date">Date de compilation</string>
-  <string name="build_date_default">2012-01-01-0000</string>
-  <!-- Development Settings -->
-  <!-- Dev Options Enabled by Default -->
-  <string name="show_dev_already_enabled">Pas besoin, les options de développement sont activés par défaut.</string>
-  <!-- App details: open play store link if app is user installed -->
-  <string name="app_play_store">Google Play</string>
-  <!-- Advanced night mode brightness -->
-  <string name="night_brightness_category">Luminosité</string>
-  <string name="night_brightness_value_title">Baisse la luminosité si Mode Nuit est activé</string>
-  <string name="night_bright_disabled">Désactivé</string>
-  <string name="night_bright_minimum">Luminosité minimale</string>
-  <string name="night_bright_low">Faible luminosité</string>
-  <string name="night_bright_medium">Luminosité moyenne</string>
-  <!-- About dotOS -->
-  <string name="dot_about_info">À propos de nous</string>
-  <string name="dot_about_summary">Notre présentation et notre équipe</string>
-  <string name="about_dotos_desc">DOT stands for Droid On Time. DOT is based on Pure Aosp - which is highly optimized for supreme performance! Our ROM primary goal is to provide best Optimized Performance for all devices running our ROM be it of Low, Mid or High End. We are here to make your device compete with time itself!....</string>
-  <string name="dev_info">À propos de dotOS</string>
-  <string name="dot_team">l\'équipe de dotOS</string>
-  <string name="maintainers">Mainteneurs</string>
-  <string name="dev_1">Mohan Cm &#40;mohancm&#41;</string>
-  <string name="dev1_description">Propriétaire/Développeur en chef</string>
-  <string name="dev_4">Sam Grande &#40;Reapergod35&#41;</string>
-  <string name="dev4_description">Développeur d\'interface graphique/Contributeur</string>
-  <string name="dev_5">Iacob Ionut </string>
-  <string name="dev5_description">Développeur d\'interface graphique/Contributeur</string>
-  <string name="dev_7">Hari Ambadi &#40;hariambadii&#41;</string>
-  <string name="dev7_description">Graphiste/Designer visuel</string>
-  <string name="about_dotos">About dotOS</string>
-  <string name="google">Google</string>
-  <string name="gplus_community">Join our google plus community to stay updated about the rom</string>
-  <string name="telegram">Telegram</string>
-  <string name="telegram_community">Join our telegram group and be a part of our family</string>
-  <string name="github">GitHub</string>
-  <string name="git_link">View our source to know what makes it awesome</string>
-  <string name="website">Website</string>
-  <string name="webiste_link">Visit our website for downloads and stuffs</string>
-  <!-- About Contributors -->
-  <string name="dot_contributors">Contributeurs</string>
-  <string name="contributor_1">Alex Brookes</string>
-  <string name="contributor1_description">Designers des fonds d\'écran</string>
-  <!-- Changelog -->
-  <string name="changelog_title">Journal des modifications</string>
-  <string name="changelog_summary">Modifications récentes</string>
-  <string name="changelog_loading">Chargement du journal des changements</string>
-  <string name="changelog_error">Impossible de charger le journal des changements</string>
-  <!-- Maintainers Info-->
-  <string name="maintainers_title">Mainteneurs officiels</string>
-  <string name="maintainers_summary">Appareils officiellement compatibles et leurs mainteneurs respectifs.</string>
-  <!-- Maintainer section -->
-  <string name="maintainer_description">Mainteneur : %1$s</string>
-  <string name="loading_devices">Chargement de la liste des appareils...</string>
-  <string name="loading_devices_failed">Échec du chargement de la liste des appareils</string>
-  <string name="devices_list_empty">La liste est vide, appuyez sur l\'icône pour rafraîchir</string>
-  <string name="reload_list">Rafraîchir</string>
-  <!-- Expanded desktop -->
-  <string name="power_menu_expanded_desktop">Bureau étendu</string>
-  <string name="expanded_hide_nothing">Ne rien masquer</string>
-  <string name="expanded_hide_status">Masquer la barre d\'état</string>
-  <string name="expanded_hide_navigation">Masquer la barre de navigation</string>
-  <string name="expanded_hide_both">Masquer les deux</string>
-  <string name="expanded_nothing_to_show">Pour ajouter une configuration par application pour le bureau étendu, désactivez Activé pour tous</string>
-  <string name="expanded_desktop_state">Bureau étendu</string>
-  <string name="expanded_enabled_for_all">Activé pour tous</string>
-  <string name="expanded_user_configurable">Configurable par l\'utilisateur</string>
-  <string name="expanded_desktop_style">Style du bureau étendu</string>
-  <string name="expanded_desktop_style_description">Choisir un mode de bureau étendu par défaut</string>
-  <string name="expanded_desktop_title">Options du bureau étendu</string>
-  <!-- Screenshot sound -->
-  <string name="screenshot_sound_title">Son de capture d\'écran</string>
-  <string name="screenshot_sound_summary">Émettre un son lors de la capture d\'écran</string>
-  <!-- Notification volume -->
-  <string name="link_volume_option_title">Lier le volume de la sonnerie et des notifications</string>
-  <string name="notification_volume_option_title">Volume des notifications</string>
-  <string name="ring_notification_volume_option_title">Volume de sonnerie et notification</string>
-  <!-- App Ops Settings -->
-  <!-- App Ops Categories -->
-  <string name="app_ops_cat_location">Géolocalisation</string>
-  <string name="app_ops_cat_personal">Personnel</string>
-  <string name="app_ops_cat_messaging">Messages</string>
-  <string name="app_ops_cat_media">Média</string>
-  <string name="app_ops_cat_device">Appareil</string>
-  <string name="app_ops_cat_bootup">Démarrage</string>
-  <!-- [CHAR LIMIT=NONE] App ops labels -->
-  <string name="app_ops_access_camera">appareil photo</string>
-  <string name="app_ops_access_location">géolocalisation</string>
-  <string name="app_ops_access_notifications">notifications</string>
-  <string name="app_ops_activate_vpn">VPN</string>
-  <string name="app_ops_auto_start">démarrage automatique</string>
-  <string name="app_ops_delete_call_log">supprimer le journal d\'appels</string>
-  <string name="app_ops_delete_contacts">supprimer des contacts</string>
-  <string name="app_ops_delete_mms">supprimer des MMS</string>
-  <string name="app_ops_delete_sms">supprimer des SMS</string>
-  <string name="app_ops_draw_on_top">afficher au premier-plan</string>
-  <string name="app_ops_get_usage_stats">obtenir les stats d\'utilisation</string>
-  <string name="app_ops_keep_device_awake">maintenir activé</string>
-  <string name="app_ops_make_phone_call">passer un appel</string>
-  <string name="app_ops_modify_calendar">mettre à jour l\'agenda</string>
-  <string name="app_ops_modify_call_log">mettre à jour le journal d\'appels</string>
-  <string name="app_ops_modify_clipboard">modifier le presse-papiers</string>
-  <string name="app_ops_modify_contacts">modifier des contacts</string>
-  <string name="app_ops_modify_settings">modifier les paramètres</string>
-  <string name="app_ops_mute_unmute_microphone">activer/désactiver le micro</string>
-  <string name="app_ops_play_audio">lecture audio</string>
-  <string name="app_ops_post_notification">afficher une notification</string>
-  <string name="app_ops_project_media">afficher un média</string>
-  <string name="app_ops_read_calendar">accéder à l\'agenda</string>
-  <string name="app_ops_read_call_log">lire le journal d\'appels</string>
-  <string name="app_ops_read_clipboard">lire le Presse-papiers</string>
-  <string name="app_ops_read_contacts">lire les contacts</string>
-  <string name="app_ops_read_mms">lire les MMS</string>
-  <string name="app_ops_read_sms">lire les SMS</string>
-  <string name="app_ops_receive_sms">recevoir des SMS</string>
-  <string name="app_ops_record_audio">enregistrer du son</string>
-  <string name="app_ops_send_mms">envoyer des MMS</string>
-  <string name="app_ops_send_sms">envoyer des SMS</string>
-  <string name="app_ops_toast_window">notifications pop-up</string>
-  <string name="app_ops_use_alarm_volume">volume de l\'alarme</string>
-  <string name="app_ops_use_audio_focus">priorité audio</string>
-  <string name="app_ops_use_bluetooth_volume">Volume Bluetooth</string>
-  <string name="app_ops_use_master_volume">volume principal</string>
-  <string name="app_ops_use_media_buttons">boutons pour contenus multimédias</string>
-  <string name="app_ops_use_media_volume">volume médias</string>
-  <string name="app_ops_use_notification_volume">volume des notifications</string>
-  <string name="app_ops_use_ring_volume">volume de la sonnerie</string>
-  <string name="app_ops_use_vibrate">retour tactile</string>
-  <string name="app_ops_use_voice_volume">volume des appels vocaux</string>
-  <string name="app_ops_write_mms">écrire des MMS</string>
-  <string name="app_ops_write_sms">écrire des SMS</string>
-  <string name="app_ops_use_fingerprint">empreinte digitale</string>
-  <string name="app_ops_add_voicemail">messagerie vocale</string>
-  <string name="app_ops_read_phone_state">accéder à l\'état du téléphone</string>
-  <string name="app_ops_scan_wifi">Rechercher les réseaux Wi-Fi</string>
-  <string name="app_ops_change_wallpaper">changer de fond d\'écran</string>
-  <string name="app_ops_assist_structure">assister la structure</string>
-  <string name="app_ops_assist_screenshot">capture d\'écran</string>
-  <string name="app_ops_use_body_sensors">capteurs corporels</string>
-  <string name="app_ops_read_cell_broadcasts">diffusions cellulaires</string>
-  <string name="app_ops_mock_location">localisation fictive</string>
-  <string name="app_ops_read_external_storage">lire le stockage externe</string>
-  <string name="app_ops_write_external_storage">écrire sur le stockage externe</string>
-  <string name="app_ops_turn_on_screen">allumer l\'écran</string>
-  <string name="app_ops_get_accounts">obtenir la liste des comptes présents sur l\'appareil</string>
-  <string name="app_ops_run_in_background">exécuter en arrière-plan</string>
-  <string name="app_ops_accessibility_volume">volume de l’accessibilité</string>
-  <string name="app_ops_read_phone_numbers">lire les numéros de téléphone</string>
-  <string name="app_ops_request_install_packages">installer des paquets</string>
-  <string name="app_ops_picture_in_picture">incrustation d\'écran</string>
-  <string name="app_ops_app_start_foreground">exécuter au premier-plan</string>
-  <string name="app_ops_answer_phone_calls">répondre aux appels</string>
-  <string name="app_ops_boot_completed">démarrer automatiquement</string>
-  <!-- Root Management -->
-  <string name="rootmanagement_title">Gestion du Root</string>
-  <string name="rootmanagement_dashboard_summary">Gérer les permissions Root</string>
-  <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
-  <string name="supersu_title">Gestionnaire de droits SuperSU</string>
-  <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
-  <string name="local_backup_password_title">Sauvegarde des mots de passes sur le pc</string>
-  <!-- Battery saver color -->
-  <string name="battery_saver_color_title">Alerte visuelle</string>
-  <string name="battery_saver_color_summary">Afficher les barres d\'état et de navigation en orange quand l\'économiseur de batterie est activé</string>
-  <!-- Wakeup options -->
-  <string name="wakeup_when_plugged_unplugged_title">Allumer lors de la mise en charge</string>
-  <string name="wakeup_when_plugged_unplugged_summary">Réveiller l\'appareil si le chargeur est branché/débranché.</string>
-  <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
-  <string name="show_cpu_info">Afficher les infos du processeur</string>
-  <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
-  <string name="show_cpu_info_summary">Montrer les infos CPU à l\'écran</string>
-  <string name="dashboard_conditions_title">Conditions du tableau de bord</string>
-  <string name="summary_dashboard_conditions_enabled">Les conditions du tableau de bord sont activées</string>
-  <string name="summary_dashboard_conditions_disabled">Les conditions du tableau de bord sont désactivées</string>
-  <!-- Custom light color -->
-  <string name="light_customization">Voyant LED pour les notifications</string>
-  <string name="custom_light_title">Couleur de la LED</string>
-  <string name="custom_light_on_time_title">"Durée d’éclairage de l’impulsion led (ms)"</string>
-  <string name="custom_light_off_time_title">"Durée de non-éclairage de l’impulsion led (ms)"</string>
-  <string name="app_notifications_info_desc">Appuyez pour configurer les couleurs et autres options</string>
-  <string name="value_equals_default">Défaut</string>
-  <string name="show_light_on_zen_title">Clignoter en mode Ne pas déranger</string>
-  <!-- Volume settings - Volume adjustment sound -->
-  <string name="volume_adjust_sounds_title">Émettre un son lors du réglage du volume</string>
-  <!-- Themes -->
-  <string name="system_theme_style_title">Style de l\'interface</string>
-  <string name="system_theme_style_auto">Basé sur le fond d\'écran</string>
-  <string name="system_theme_style_light">Interface claire</string>
-  <string name="system_theme_style_dark">Interface sombre</string>
-  <string name="system_theme_style_black">Interface noire</string>
-  <string name="system_theme_style_neo">dotOS Neo UI</string>
-  <string name="theme_applied_toast">Thème appliqué !</string>
-  <string name="applying_theme_toast">Application du thème, veuillez patienter...</string>
-  <!-- Android debugging over WiFi -->
-  <string name="adb_over_network">ADB par réseau</string>
-  <string name="adb_over_network_summary">Activer le débogage TCP/IP sur toutes les interfaces réseaux (réseaux USB, Wi-Fi et Bluetooth). Ce paramètre est réinitialisé au redémarrage</string>
-  <!-- Warning for Adb over Network -->
-  <string name="adb_over_network_warning">ATTENTION: Lorsque ADB par le réseau est activé, votre téléphone est ouvert aux intrusions sur tous les réseaux connectés, y compris le réseau data GSM !\n\nN\'utilisez cette fonction que lorsque vous êtes connecté sur des réseaux de confiance.\n\nVoulez-vous vraiment activer cette fonction?</string>
-  <!-- Per-app data restrictions -->
-  <string name="data_usage_app_restrict_data">Données mobiles</string>
-  <string name="data_usage_app_restrict_data_summary">Activer l\'utilisation des données mobiles</string>
-  <string name="data_usage_app_restrict_wifi">Données Wi\u2011Fi</string>
-  <string name="data_usage_app_restrict_wifi_summary">Activer l\'utilisation des données Wi\u2011Fi</string>
-  <!-- OS Information -->
-  <string name="os_information">Informations sur le système</string>
-  <string name="os_summary_info">Informations sur le système</string>
-  <!-- Manual provisioning support -->
-  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> est <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
-  <string name="sim_enabled">Activée</string>
-  <string name="sim_disabled">Désactivée</string>
-  <string name="sim_missing">manquante ou défectueuse</string>
-  <string name="sim_enabler_need_disable_sim">La carte SIM va être désactivée. Voulez-vous continuer ?</string>
-  <string name="sim_enabler_will_disable_sim_title">Attention</string>
-  <string name="sim_enabler_need_switch_data_service">Cette carte SIM sera désactivée et la carte SIM <xliff:g id="slotid">%1$s</xliff:g> sera utilisée pour les services de données mobiles. Voulez-vous continuer ?</string>
-  <string name="sim_enabler_airplane_on">Impossible d\'effectuer l\'opération tant que le mode avion est activé.</string>
-  <string name="sim_enabler_in_call">Impossible d\'effectuer cette opération durant un appel.</string>
-  <string name="sim_enabler_both_inactive">Impossible de désactiver toutes les cartes SIM</string>
-  <string name="sim_enabler_enabling">Activation en cours\u2026</string>
-  <string name="sim_enabler_disabling">Désactivation en cours... \u2026</string>
-  <string name="sub_activate_success">Carte SIM activée.</string>
-  <string name="sub_activate_failed">L\'activation a échoué.</string>
-  <string name="sub_deactivate_success">Carte SIM désactivée.</string>
-  <string name="sub_deactivate_failed">La désactivation a échoué.</string>
-  <!-- Notification log -->
-  <string name="notification_log_summary">Show notifications history log</string>
-  <!-- Device specific doze package -->
-  <!-- Proximity wake -->
-  <string name="proximity_wake_title">Prevent accidental wake-up</string>
-  <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
-  <!-- Search -->
-  <string name="menu_search">Search apps</string>
-  <string name="menu_search_hint">Search apps\u2026</string>
-  <!-- Reset battery stats -->
-  <string name="ok">Ok</string>
-  <string name="menu_stats_reset">Reset stats</string>
-  <string name="reset_stats_msg">Battery history stats are going to be reset</string>
+    <!-- About phone screen, dotOS version -->
+    <string name="dot_version">Version de DotOS</string>
+    <string name="dot_version_default">Inconnu</string>
+    <!-- dot ota -->
+    <string name="dot_ota_title">DotOS OTA</string>
+    <string name="dot_ota_summary">Mises à jour DotOS</string>
+    <!-- About phone screen, build date -->
+    <string name="build_date">Date de compilation</string>
+    <string name="build_date_default">2012-01-01-0000</string>
+    <!-- Development Settings -->
+    <!-- Dev Options Enabled by Default -->
+    <string name="show_dev_already_enabled">Pas besoin, les options de développement sont activés par défaut.</string>
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
+    <!-- Advanced night mode brightness -->
+    <string name="night_brightness_category">Luminosité</string>
+    <string name="night_brightness_value_title">Baisse la luminosité si Mode Nuit est activé</string>
+    <string name="night_bright_disabled">Désactivé</string>
+    <string name="night_bright_minimum">Luminosité minimale</string>
+    <string name="night_bright_low">Faible luminosité</string>
+    <string name="night_bright_medium">Luminosité moyenne</string>
+    <!-- About dotOS -->
+    <string name="dot_about_info">À propos de nous</string>
+    <string name="dot_about_summary">Notre présentation et notre équipe</string>
+    <string name="about_dotos_desc">DOT signifie Droid On Time. DOT est basé sur de l\'AOSP pur, ce qui donne un système optimisé pour des performances optimales ! L\'objectif de notre ROM est d\'apporter d\'excellentes performances pour n\'importe quel appareil, quel qu\'il soit !....</string>
+    <string name="dev_info">À propos de dotOS</string>
+    <string name="dot_team">l\'équipe de dotOS</string>
+    <string name="maintainers">Mainteneurs</string>
+    <string name="dev_1">Mohan Cm &#40;mohancm&#41;</string>
+    <string name="dev1_description">Propriétaire/Développeur en chef</string>
+    <string name="dev_4">Sam Grande &#40;Reapergod35&#41;</string>
+    <string name="dev4_description">Développeur d\'interface graphique/Contributeur</string>
+    <string name="dev_5">Iacob Ionut </string>
+    <string name="dev5_description">Développeur d\'interface graphique/Contributeur</string>
+    <string name="dev_7">Hari Ambadi &#40;hariambadii&#41;</string>
+    <string name="dev7_description">Graphiste/Designer visuel</string>
+    <string name="about_dotos">À propos de dotOS</string>
+    <string name="google">Google</string>
+    <string name="gplus_community">Rejoignez notre communauté Google+ pour rester informé sur la ROM</string>
+    <string name="telegram">Telegram</string>
+    <string name="telegram_community">Rejoignez notre groupe Telegram pour faire partie de notre famille</string>
+    <string name="github">GitHub</string>
+    <string name="git_link">Voir notre source pour savoir qu\'est-ce qui le rend génial</string>
+    <string name="website">Site Web</string>
+    <string name="webiste_link">Visiter notre site pour les téléchargements et autres</string>
+    <!-- About Contributors -->
+    <string name="dot_contributors">Contributeurs</string>
+    <string name="contributor_1">Alex Brookes</string>
+    <string name="contributor1_description">Designers des fonds d\'écran</string>
+    <!-- Changelog -->
+    <string name="changelog_title">Journal des modifications</string>
+    <string name="changelog_summary">Modifications récentes</string>
+    <string name="changelog_loading">Chargement du journal des changements</string>
+    <string name="changelog_error">Impossible de charger le journal des changements</string>
+    <!-- Maintainers Info-->
+    <string name="maintainers_title">Mainteneurs officiels</string>
+    <string name="maintainers_summary">Appareils officiellement compatibles et leurs mainteneurs respectifs.</string>
+    <!-- Maintainer section -->
+    <string name="maintainer_description">Mainteneur : %1$s</string>
+    <string name="loading_devices">Chargement de la liste des appareils...</string>
+    <string name="loading_devices_failed">Échec du chargement de la liste des appareils</string>
+    <string name="devices_list_empty">La liste est vide, appuyez sur l\'icône pour rafraîchir</string>
+    <string name="reload_list">Rafraîchir</string>
+    <!-- Expanded desktop -->
+    <string name="power_menu_expanded_desktop">Bureau étendu</string>
+    <string name="expanded_hide_nothing">Ne rien masquer</string>
+    <string name="expanded_hide_status">Masquer la barre d\'état</string>
+    <string name="expanded_hide_navigation">Masquer la barre de navigation</string>
+    <string name="expanded_hide_both">Masquer les deux</string>
+    <string name="expanded_nothing_to_show">Pour ajouter une configuration par application pour le bureau étendu, désactivez Activé pour tous</string>
+    <string name="expanded_desktop_state">Bureau étendu</string>
+    <string name="expanded_enabled_for_all">Activé pour tous</string>
+    <string name="expanded_user_configurable">Configurable par l\'utilisateur</string>
+    <string name="expanded_desktop_style">Style du bureau étendu</string>
+    <string name="expanded_desktop_style_description">Choisir un mode de bureau étendu par défaut</string>
+    <string name="expanded_desktop_title">Options du bureau étendu</string>
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Son de capture d\'écran</string>
+    <string name="screenshot_sound_summary">Émettre un son lors de la capture d\'écran</string>
+    <!-- Notification volume -->
+    <string name="link_volume_option_title">Lier le volume de la sonnerie et des notifications</string>
+    <string name="notification_volume_option_title">Volume des notifications</string>
+    <string name="ring_notification_volume_option_title">Volume de sonnerie et notification</string>
+    <!-- App Ops Settings -->
+    <!-- App Ops Categories -->
+    <string name="app_ops_cat_location">Géolocalisation</string>
+    <string name="app_ops_cat_personal">Personnel</string>
+    <string name="app_ops_cat_messaging">Messages</string>
+    <string name="app_ops_cat_media">Média</string>
+    <string name="app_ops_cat_device">Appareil</string>
+    <string name="app_ops_cat_bootup">Démarrage</string>
+    <!-- [CHAR LIMIT=NONE] App ops labels -->
+    <string name="app_ops_access_camera">appareil photo</string>
+    <string name="app_ops_access_location">géolocalisation</string>
+    <string name="app_ops_access_notifications">notifications</string>
+    <string name="app_ops_activate_vpn">VPN</string>
+    <string name="app_ops_auto_start">démarrage automatique</string>
+    <string name="app_ops_delete_call_log">supprimer le journal d\'appels</string>
+    <string name="app_ops_delete_contacts">supprimer des contacts</string>
+    <string name="app_ops_delete_mms">supprimer des MMS</string>
+    <string name="app_ops_delete_sms">supprimer des SMS</string>
+    <string name="app_ops_draw_on_top">afficher au premier-plan</string>
+    <string name="app_ops_get_usage_stats">obtenir les stats d\'utilisation</string>
+    <string name="app_ops_keep_device_awake">maintenir activé</string>
+    <string name="app_ops_make_phone_call">passer un appel</string>
+    <string name="app_ops_modify_calendar">mettre à jour l\'agenda</string>
+    <string name="app_ops_modify_call_log">mettre à jour le journal d\'appels</string>
+    <string name="app_ops_modify_clipboard">modifier le presse-papiers</string>
+    <string name="app_ops_modify_contacts">modifier des contacts</string>
+    <string name="app_ops_modify_settings">modifier les paramètres</string>
+    <string name="app_ops_mute_unmute_microphone">activer/désactiver le micro</string>
+    <string name="app_ops_play_audio">lecture audio</string>
+    <string name="app_ops_post_notification">afficher une notification</string>
+    <string name="app_ops_project_media">afficher un média</string>
+    <string name="app_ops_read_calendar">accéder à l\'agenda</string>
+    <string name="app_ops_read_call_log">lire le journal d\'appels</string>
+    <string name="app_ops_read_clipboard">lire le Presse-papiers</string>
+    <string name="app_ops_read_contacts">lire les contacts</string>
+    <string name="app_ops_read_mms">lire les MMS</string>
+    <string name="app_ops_read_sms">lire les SMS</string>
+    <string name="app_ops_receive_sms">recevoir des SMS</string>
+    <string name="app_ops_record_audio">enregistrer du son</string>
+    <string name="app_ops_send_mms">envoyer des MMS</string>
+    <string name="app_ops_send_sms">envoyer des SMS</string>
+    <string name="app_ops_toast_window">notifications pop-up</string>
+    <string name="app_ops_use_alarm_volume">volume de l\'alarme</string>
+    <string name="app_ops_use_audio_focus">priorité audio</string>
+    <string name="app_ops_use_bluetooth_volume">Volume Bluetooth</string>
+    <string name="app_ops_use_master_volume">volume principal</string>
+    <string name="app_ops_use_media_buttons">boutons pour contenus multimédias</string>
+    <string name="app_ops_use_media_volume">volume médias</string>
+    <string name="app_ops_use_notification_volume">volume des notifications</string>
+    <string name="app_ops_use_ring_volume">volume de la sonnerie</string>
+    <string name="app_ops_use_vibrate">retour tactile</string>
+    <string name="app_ops_use_voice_volume">volume des appels vocaux</string>
+    <string name="app_ops_write_mms">écrire des MMS</string>
+    <string name="app_ops_write_sms">écrire des SMS</string>
+    <string name="app_ops_use_fingerprint">empreinte digitale</string>
+    <string name="app_ops_add_voicemail">messagerie vocale</string>
+    <string name="app_ops_read_phone_state">accéder à l\'état du téléphone</string>
+    <string name="app_ops_scan_wifi">Rechercher les réseaux Wi-Fi</string>
+    <string name="app_ops_change_wallpaper">changer de fond d\'écran</string>
+    <string name="app_ops_assist_structure">assister la structure</string>
+    <string name="app_ops_assist_screenshot">capture d\'écran</string>
+    <string name="app_ops_use_body_sensors">capteurs corporels</string>
+    <string name="app_ops_read_cell_broadcasts">diffusions cellulaires</string>
+    <string name="app_ops_mock_location">localisation fictive</string>
+    <string name="app_ops_read_external_storage">lire le stockage externe</string>
+    <string name="app_ops_write_external_storage">écrire sur le stockage externe</string>
+    <string name="app_ops_turn_on_screen">allumer l\'écran</string>
+    <string name="app_ops_get_accounts">obtenir la liste des comptes présents sur l\'appareil</string>
+    <string name="app_ops_run_in_background">exécuter en arrière-plan</string>
+    <string name="app_ops_accessibility_volume">volume de l’accessibilité</string>
+    <string name="app_ops_read_phone_numbers">lire les numéros de téléphone</string>
+    <string name="app_ops_request_install_packages">installer des paquets</string>
+    <string name="app_ops_picture_in_picture">incrustation d\'écran</string>
+    <string name="app_ops_app_start_foreground">exécuter au premier-plan</string>
+    <string name="app_ops_answer_phone_calls">répondre aux appels</string>
+    <string name="app_ops_boot_completed">démarrer automatiquement</string>
+    <!-- Root Management -->
+    <string name="rootmanagement_title">Gestion du Root</string>
+    <string name="rootmanagement_dashboard_summary">Gérer les permissions Root</string>
+    <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
+    <string name="supersu_title">Gestionnaire de droits SuperSU</string>
+    <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
+    <string name="local_backup_password_title">Sauvegarde des mots de passes sur le pc</string>
+    <!-- Battery saver color -->
+    <string name="battery_saver_color_title">Alerte visuelle</string>
+    <string name="battery_saver_color_summary">Afficher les barres d\'état et de navigation en orange quand l\'économiseur de batterie est activé</string>
+    <!-- Wakeup options -->
+    <string name="wakeup_when_plugged_unplugged_title">Allumer lors de la mise en charge</string>
+    <string name="wakeup_when_plugged_unplugged_summary">Réveiller l\'appareil si le chargeur est branché/débranché.</string>
+    <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
+    <string name="show_cpu_info">Afficher les infos du processeur</string>
+    <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
+    <string name="show_cpu_info_summary">Montrer les infos CPU à l\'écran</string>
+    <string name="dashboard_conditions_title">Conditions du tableau de bord</string>
+    <string name="summary_dashboard_conditions_enabled">Les conditions du tableau de bord sont activées</string>
+    <string name="summary_dashboard_conditions_disabled">Les conditions du tableau de bord sont désactivées</string>
+    <!-- Custom light color -->
+    <string name="light_customization">Voyant LED pour les notifications</string>
+    <string name="custom_light_title">Couleur de la LED</string>
+    <string name="custom_light_on_time_title">"Durée d’éclairage de l’impulsion led (ms)"</string>
+    <string name="custom_light_off_time_title">"Durée de non-éclairage de l’impulsion led (ms)"</string>
+    <string name="app_notifications_info_desc">Appuyez pour configurer les couleurs et autres options</string>
+    <string name="value_equals_default">Défaut</string>
+    <string name="show_light_on_zen_title">Clignoter en mode Ne pas déranger</string>
+    <!-- Volume settings - Volume adjustment sound -->
+    <string name="volume_adjust_sounds_title">Émettre un son lors du réglage du volume</string>
+    <!-- Themes -->
+    <string name="system_theme_style_title">Style de l\'interface</string>
+    <string name="system_theme_style_auto">Basé sur le fond d\'écran</string>
+    <string name="system_theme_style_light">Interface claire</string>
+    <string name="system_theme_style_dark">Interface sombre</string>
+    <string name="system_theme_style_black">Interface noire</string>
+    <string name="system_theme_style_neo">Interface Utilisateur dostOS Neo</string>
+    <string name="theme_applied_toast">Thème appliqué !</string>
+    <string name="applying_theme_toast">Application du thème, veuillez patienter...</string>
+    <!-- Android debugging over WiFi -->
+    <string name="adb_over_network">ADB par réseau</string>
+    <string name="adb_over_network_summary">Activer le débogage TCP/IP sur toutes les interfaces réseaux (réseaux USB, Wi-Fi et Bluetooth). Ce paramètre est réinitialisé au redémarrage</string>
+    <!-- Warning for Adb over Network -->
+    <string name="adb_over_network_warning">ATTENTION: Lorsque ADB par le réseau est activé, votre téléphone est ouvert aux intrusions sur tous les réseaux connectés, y compris le réseau data GSM !\n\nN\'utilisez cette fonction que lorsque vous êtes connecté sur des réseaux de confiance.\n\nVoulez-vous vraiment activer cette fonction?</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_data">Données mobiles</string>
+    <string name="data_usage_app_restrict_data_summary">Activer l\'utilisation des données mobiles</string>
+    <string name="data_usage_app_restrict_wifi">Données Wi\u2011Fi</string>
+    <string name="data_usage_app_restrict_wifi_summary">Activer l\'utilisation des données Wi\u2011Fi</string>
+    <!-- OS Information -->
+    <string name="os_information">Informations sur le système</string>
+    <string name="os_summary_info">Informations sur le système</string>
+    <!-- Manual provisioning support -->
+    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> est <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+    <string name="sim_enabled">Activée</string>
+    <string name="sim_disabled">Désactivée</string>
+    <string name="sim_missing">manquante ou défectueuse</string>
+    <string name="sim_enabler_need_disable_sim">La carte SIM va être désactivée. Voulez-vous continuer ?</string>
+    <string name="sim_enabler_will_disable_sim_title">Attention</string>
+    <string name="sim_enabler_need_switch_data_service">Cette carte SIM sera désactivée et la carte SIM <xliff:g id="slotid">%1$s</xliff:g> sera utilisée pour les services de données mobiles. Voulez-vous continuer ?</string>
+    <string name="sim_enabler_airplane_on">Impossible d\'effectuer l\'opération tant que le mode avion est activé.</string>
+    <string name="sim_enabler_in_call">Impossible d\'effectuer cette opération durant un appel.</string>
+    <string name="sim_enabler_both_inactive">Impossible de désactiver toutes les cartes SIM</string>
+    <string name="sim_enabler_enabling">Activation en cours\u2026</string>
+    <string name="sim_enabler_disabling">Désactivation en cours... \u2026</string>
+    <string name="sub_activate_success">Carte SIM activée.</string>
+    <string name="sub_activate_failed">L\'activation a échoué.</string>
+    <string name="sub_deactivate_success">Carte SIM désactivée.</string>
+    <string name="sub_deactivate_failed">La désactivation a échoué.</string>
+    <!-- Notification log -->
+    <string name="notification_log_summary">Montrer l\'historique des notifications</string>
+    <!-- Device specific doze package -->
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Empêcher un réveil involontaire</string>
+    <string name="proximity_wake_summary">Vérifier le capteur de proximité avant d\'allumer l\'écran</string>
+    <!-- Search -->
+    <string name="menu_search">Rechercher des applications</string>
+    <string name="menu_search_hint">Rechercher des applications\u2026</string>
+    <!-- Reset battery stats -->
+    <string name="ok">Ok</string>
+    <string name="menu_stats_reset">Réinitialiser les statistiques</string>
+    <string name="reset_stats_msg">Les statistiques de l\'historique de la batterie vont être réinitialisées</string>
 </resources>

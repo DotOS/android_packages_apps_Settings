@@ -12,245 +12,245 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- About phone screen, dotOS version -->
-  <string name="dot_version">Versi DotOS</string>
-  <string name="dot_version_default">Tidak diketahui</string>
-  <!-- dot ota -->
-  <string name="dot_ota_title">dotOS OTA</string>
-  <string name="dot_ota_summary">Pembaruan Sistem dotOS</string>
-  <!-- About phone screen, build date -->
-  <string name="build_date">Tanggal pembuatan</string>
-  <string name="build_date_default">2015-01-01-0000</string>
-  <!-- Development Settings -->
-  <!-- Dev Options Enabled by Default -->
-  <string name="show_dev_already_enabled">Tidak perlu, opsi pengembang telah dihidupkan secara bawaan.</string>
-  <!-- App details: open play store link if app is user installed -->
-  <string name="app_play_store">Google Play</string>
-  <!-- Advanced night mode brightness -->
-  <string name="night_brightness_category">Kecerahan</string>
-  <string name="night_brightness_value_title">Turunkan kecerahan saat Malam Hari</string>
-  <string name="night_bright_disabled">Dinonaktifkan</string>
-  <string name="night_bright_minimum">Kecerahan minimal</string>
-  <string name="night_bright_low">Kecerahan rendah</string>
-  <string name="night_bright_medium">Kecerahan sedang</string>
-  <!-- About dotOS -->
-  <string name="dot_about_info">Tentang kami</string>
-  <string name="dot_about_summary">Pengenalan kami dan tim kami</string>
-  <string name="about_dotos_desc">DOT merupakan singkatan dari Droid On Time. DOT didasarkan pada Pure Aosp - yang sangat dioptimalkan untuk kinerja tertinggi! Tujuan utama ROM kami adalah untuk memberikan kinerja terbaik yang dioptimalkan untuk semua perangkat yang menjalankan ROM kami baik perangkat itu terendah, menengah atau tertinggi. Kami di sini untuk membuat perangkat Anda bersaing dengan waktu itu sendiri!....</string>
-  <string name="dev_info">Tentang dotOS</string>
-  <string name="dot_team">Tim dotOS</string>
-  <string name="maintainers">Pengelola</string>
-  <string name="dev_1">Mohan Cm &#40;mohancm&#41;</string>
-  <string name="dev1_description">Pemilik/Pemimpin Pengembang</string>
-  <string name="dev_4">Sam Grande &#40;Reapergod35&#41;</string>
-  <string name="dev4_description">Pengembang UI/Kontributor</string>
-  <string name="dev_5">Iacob Ionut </string>
-  <string name="dev5_description">Pengembang UI/Kontributor</string>
-  <string name="dev_7">Hari Ambadi &#40;hariambadii&#41;</string>
-  <string name="dev7_description">Inti GFX/Desain Visual</string>
-  <string name="about_dotos">Tentang dotOS</string>
-  <string name="google">Google</string>
-  <string name="gplus_community">Bergabung dengan komunitas google plus kami untuk mendapat pembaharuan tentang rom ini</string>
-  <string name="telegram">Telegram</string>
-  <string name="telegram_community">Gabung dengan grup telegram kami dan jadilah bagian dari keluarga kami</string>
-  <string name="github">Github</string>
-  <string name="git_link">Lihat sumber kami untuk tahu apa yang membuat ini luar biasa</string>
-  <string name="website">Situs</string>
-  <string name="webiste_link">Kunjungi laman kami untuk mengunduh atau mencari sesuatu</string>
-  <!-- About Contributors -->
-  <string name="dot_contributors">Kontributor</string>
-  <string name="contributor_1">Alex Brookes</string>
-  <string name="contributor1_description">Desainer Wallpaper</string>
-  <!-- Changelog -->
-  <string name="changelog_title">Log Perubahan</string>
-  <string name="changelog_summary">Perubahan terbaru</string>
-  <string name="changelog_loading">Memuat daftar perubahan\u2026</string>
-  <string name="changelog_error">Tidak dapat memuat log perubahan</string>
-  <!-- Maintainers Info-->
-  <string name="maintainers_title">Pengelola resmi</string>
-  <string name="maintainers_summary">Perangkat yang didukung secara resmi dan pengelola masing-masing.</string>
-  <!-- Maintainer section -->
-  <string name="maintainer_description">Pengelola: %1$s</string>
-  <string name="loading_devices">Memuat daftar perangkat...</string>
-  <string name="loading_devices_failed">Gagal untuk memuat daftar perangkat</string>
-  <string name="devices_list_empty">Daftar kosong, ketuk ikon untuk memuat ulang</string>
-  <string name="reload_list">Muat ulang</string>
-  <!-- Expanded desktop -->
-  <string name="power_menu_expanded_desktop">Desktop yang diperluas</string>
-  <string name="expanded_hide_nothing">Tidak menyembunyikan apapun</string>
-  <string name="expanded_hide_status">Sembunyikan bilah status</string>
-  <string name="expanded_hide_navigation">Sembunyikan bilah navigasi</string>
-  <string name="expanded_hide_both">Sembunyikan keduanya</string>
-  <string name="expanded_nothing_to_show">Untuk menambahkan konfigurasi kustom per-aplikasi untuk kondisi diperluas, atur \"Diaktifkan untuk semua\" ke posisi mati</string>
-  <string name="expanded_desktop_state">Kondisi diperluas</string>
-  <string name="expanded_enabled_for_all">Diaktifkan untuk semua</string>
-  <string name="expanded_user_configurable">Dapat dikonfigurasi pengguna</string>
-  <string name="expanded_desktop_style">Gaya desktop yang diperluas</string>
-  <string name="expanded_desktop_style_description">Pilih standar gaya dekstop diperluas</string>
-  <string name="expanded_desktop_title">Pilihan perluasan desktop</string>
-  <!-- Screenshot sound -->
-  <string name="screenshot_sound_title">Suara tangkapan layar</string>
-  <string name="screenshot_sound_summary">Memainkan efek suara ketika tangkapan layar diambil</string>
-  <!-- Notification volume -->
-  <string name="link_volume_option_title">Hubungkan volume nada dering dan pemberitahuan</string>
-  <string name="notification_volume_option_title">Volume pemberitahuan</string>
-  <string name="ring_notification_volume_option_title">Volume dering dan pemberitahuan</string>
-  <!-- App Ops Settings -->
-  <!-- App Ops Categories -->
-  <string name="app_ops_cat_location">Lokasi</string>
-  <string name="app_ops_cat_personal">Pribadi</string>
-  <string name="app_ops_cat_messaging">Pesan</string>
-  <string name="app_ops_cat_media">Media</string>
-  <string name="app_ops_cat_device">Perangkat</string>
-  <string name="app_ops_cat_bootup">Bootup</string>
-  <!-- [CHAR LIMIT=NONE] App ops labels -->
-  <string name="app_ops_access_camera">kamera</string>
-  <string name="app_ops_access_location">lokasi</string>
-  <string name="app_ops_access_notifications">pemberitahuan</string>
-  <string name="app_ops_activate_vpn">VPN</string>
-  <string name="app_ops_auto_start">mulai otomatis</string>
-  <string name="app_ops_delete_call_log">hapus catatan panggilan</string>
-  <string name="app_ops_delete_contacts">hapus kontak</string>
-  <string name="app_ops_delete_mms">hapus MMS</string>
-  <string name="app_ops_delete_sms">hapus SMS</string>
-  <string name="app_ops_draw_on_top">menampilkan di atas</string>
-  <string name="app_ops_get_usage_stats">dapatkan statistik penggunaan</string>
-  <string name="app_ops_keep_device_awake">tetap terjaga</string>
-  <string name="app_ops_make_phone_call">buat panggilan</string>
-  <string name="app_ops_modify_calendar">memperbarui kalender</string>
-  <string name="app_ops_modify_call_log">memperbarui catatan panggilan</string>
-  <string name="app_ops_modify_clipboard">mengubah clipboard</string>
-  <string name="app_ops_modify_contacts">memperbarui kontak</string>
-  <string name="app_ops_modify_settings">perbarui pengaturan</string>
-  <string name="app_ops_mute_unmute_microphone">bisu/nyalakan mic</string>
-  <string name="app_ops_play_audio">mainkan audio</string>
-  <string name="app_ops_post_notification">mengirim pemberitahuan</string>
-  <string name="app_ops_project_media">proyek media</string>
-  <string name="app_ops_read_calendar">baca kalender</string>
-  <string name="app_ops_read_call_log">baca catatan panggilan</string>
-  <string name="app_ops_read_clipboard">baca clipboard</string>
-  <string name="app_ops_read_contacts">baca kontak</string>
-  <string name="app_ops_read_mms">baca MMS</string>
-  <string name="app_ops_read_sms">baca SMS</string>
-  <string name="app_ops_receive_sms">terima SMS</string>
-  <string name="app_ops_record_audio">rekam audio</string>
-  <string name="app_ops_send_mms">kirim MMS</string>
-  <string name="app_ops_send_sms">kirim SMS</string>
-  <string name="app_ops_toast_window">pesan toast</string>
-  <string name="app_ops_use_alarm_volume">volume alarm</string>
-  <string name="app_ops_use_audio_focus">fokus suara</string>
-  <string name="app_ops_use_bluetooth_volume">Volume bluetooth</string>
-  <string name="app_ops_use_master_volume">volume master</string>
-  <string name="app_ops_use_media_buttons">tombol media</string>
-  <string name="app_ops_use_media_volume">volume media</string>
-  <string name="app_ops_use_notification_volume">volume pemberitahuan</string>
-  <string name="app_ops_use_ring_volume">volume nada dering</string>
-  <string name="app_ops_use_vibrate">umpan balik haptic</string>
-  <string name="app_ops_use_voice_volume">volume suara panggilan</string>
-  <string name="app_ops_write_mms">tulis MMS</string>
-  <string name="app_ops_write_sms">tulis SMS</string>
-  <string name="app_ops_use_fingerprint">sidik Jari</string>
-  <string name="app_ops_add_voicemail">pesan suara</string>
-  <string name="app_ops_read_phone_state">akses status ponsel</string>
-  <string name="app_ops_scan_wifi">Memindai Jaringan Wifi</string>
-  <string name="app_ops_change_wallpaper">mengubah wallpaper</string>
-  <string name="app_ops_assist_structure">struktur pembantu</string>
-  <string name="app_ops_assist_screenshot">tangkapan layar</string>
-  <string name="app_ops_use_body_sensors">sensor tubuh</string>
-  <string name="app_ops_read_cell_broadcasts">siaran seluler</string>
-  <string name="app_ops_mock_location">lokasi tiruan</string>
-  <string name="app_ops_read_external_storage">baca penyimpanan eksternal.</string>
-  <string name="app_ops_write_external_storage">menulis penyimpanan eksternal.</string>
-  <string name="app_ops_turn_on_screen">hidupkan layar</string>
-  <string name="app_ops_get_accounts">akun perangkat</string>
-  <string name="app_ops_run_in_background">berjalan di latar belakang</string>
-  <string name="app_ops_accessibility_volume">volume aksesibilitas</string>
-  <string name="app_ops_read_phone_numbers">membaca nomor telepon.</string>
-  <string name="app_ops_request_install_packages">memasang paket</string>
-  <string name="app_ops_picture_in_picture">pip</string>
-  <string name="app_ops_app_start_foreground">mulai di latar depan</string>
-  <string name="app_ops_answer_phone_calls">jawab panggilan</string>
-  <string name="app_ops_boot_completed">mulai otomatis</string>
-  <!-- Root Management -->
-  <string name="rootmanagement_title">Pengelolaan root</string>
-  <string name="rootmanagement_dashboard_summary">Kelola akses root</string>
-  <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
-  <string name="supersu_title">SuperSU</string>
-  <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
-  <string name="local_backup_password_title">Sandi cadangan dekstop</string>
-  <!-- Battery saver color -->
-  <string name="battery_saver_color_title">Warna peringatan</string>
-  <string name="battery_saver_color_summary">Aktifkan warna oranye dari bilah status - navigasi saat penghemat baterai diaktifkan</string>
-  <!-- Wakeup options -->
-  <string name="wakeup_when_plugged_unplugged_title">Bangun saat mengisi daya</string>
-  <string name="wakeup_when_plugged_unplugged_summary">Bangunkan perangkat jika charger dicolokkan/dicabut.</string>
-  <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
-  <string name="show_cpu_info">Tampilkan informasi CPU</string>
-  <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
-  <string name="show_cpu_info_summary">Hamparan layar menunjukkan info CPU terkini</string>
-  <string name="dashboard_conditions_title">Kondisi dasbor</string>
-  <string name="summary_dashboard_conditions_enabled">Kondisi dasbor diaktifkan</string>
-  <string name="summary_dashboard_conditions_disabled">Kondisi dasbor dinonaktifkan</string>
-  <!-- Custom light color -->
-  <string name="light_customization">Cahaya LED pemberitahuan</string>
-  <string name="custom_light_title">Warna lampu</string>
-  <string name="custom_light_on_time_title">"Durasi lampu aktif selama led berkedip (ms)"</string>
-  <string name="custom_light_off_time_title">"Durasi lampu nonaktif selama led berkedip (ms)"</string>
-  <string name="app_notifications_info_desc">Tekan pada salah satu saluran di atas untuk menyetel warna lampunya dan opsi lain</string>
-  <string name="value_equals_default">Def</string>
-  <string name="show_light_on_zen_title">Berkedip selama mode Jangan Ganggu</string>
-  <!-- Volume settings - Volume adjustment sound -->
-  <string name="volume_adjust_sounds_title">Suara penyesuaian volume</string>
-  <!-- Themes -->
-  <string name="system_theme_style_title">Gaya UI</string>
-  <string name="system_theme_style_auto">Berdasarkan wallpaper</string>
-  <string name="system_theme_style_light">UI Terang</string>
-  <string name="system_theme_style_dark">UI Gelap</string>
-  <string name="system_theme_style_black">UI Hitam</string>
-  <string name="system_theme_style_neo">dotOS Neo UI</string>
-  <string name="theme_applied_toast">Tema diterapkan!</string>
-  <string name="applying_theme_toast">Menerapkan tema, silahkan tunggu...</string>
-  <!-- Android debugging over WiFi -->
-  <string name="adb_over_network">ADB melalui Jaringan</string>
-  <string name="adb_over_network_summary">Aktifkan TCP/IP debug melalui antarmuka jaringan (Wi-Fi, jaringan USB). Pengaturan ini direset pada saat dinyalakan ulang</string>
-  <!-- Warning for Adb over Network -->
-  <string name="adb_over_network_warning">PERINGATAN: Bila ADB melalui jaringan diaktifkan, telepon anda terbuka terhadap serangan dari semua jaringan yang terhubung, termasuk jaringan data GSM!\n\nHanya gunakan fitur ini ketika anda terhubung pada jaringan dipercaya.\n\nApakah anda benar-benar ingin mengaktifkan fungsi ini?</string>
-  <!-- Per-app data restrictions -->
-  <string name="data_usage_app_restrict_data">Data seluler</string>
-  <string name="data_usage_app_restrict_data_summary">Mengaktifkan penggunaan data selular</string>
-  <string name="data_usage_app_restrict_wifi">Pindai Wi\u2011Fi</string>
-  <string name="data_usage_app_restrict_wifi_summary">Mengaktifkan penggunaan data Wi\u2011Fi</string>
-  <!-- OS Information -->
-  <string name="os_information">Informasi OS</string>
-  <string name="os_summary_info">Informasi tentang ROM</string>
-  <!-- Manual provisioning support -->
-  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> adalah <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
-  <string name="sim_enabled">diaktifkan</string>
-  <string name="sim_disabled">dinonaktifkan</string>
-  <string name="sim_missing">hilang atau rusak</string>
-  <string name="sim_enabler_need_disable_sim">Kartu SIM akan dinonaktifkan. Apakah anda ingin melanjutkan?</string>
-  <string name="sim_enabler_will_disable_sim_title">Perhatian</string>
-  <string name="sim_enabler_need_switch_data_service">SIM ini akan dinonaktifkan dan SIM <xliff:g id="slotid">%1$s </xliff:g> akan digunakan untuk layanan data. Apakah Anda yakin ingin melanjutkan?</string>
-  <string name="sim_enabler_airplane_on">Tidak dapat melakukan operasi saat mode pesawat aktif.</string>
-  <string name="sim_enabler_in_call">Tidak dapat melakukan operasi saat dalam panggilan.</string>
-  <string name="sim_enabler_both_inactive">Tidak dapat menonaktifkan semua kartu SIM</string>
-  <string name="sim_enabler_enabling">Mengaktifkan\u2026</string>
-  <string name="sim_enabler_disabling">Menonaktifkan\u2026</string>
-  <string name="sub_activate_success">SIM diaktifkan.</string>
-  <string name="sub_activate_failed">Aktivasi gagal.</string>
-  <string name="sub_deactivate_success">SIM dinonaktifkan.</string>
-  <string name="sub_deactivate_failed">Penonaktifan gagal.</string>
-  <!-- Notification log -->
-  <string name="notification_log_summary">Tampilkan riwayat pemberitahuan</string>
-  <!-- Device specific doze package -->
-  <!-- Proximity wake -->
-  <string name="proximity_wake_title">Mencegah bangun yang tidak disengaja</string>
-  <string name="proximity_wake_summary">Periksa sensor jarak sebelum membangunkan layar</string>
-  <!-- Search -->
-  <string name="menu_search">Search apps</string>
-  <string name="menu_search_hint">Search apps\u2026</string>
-  <!-- Reset battery stats -->
-  <string name="ok">Ok</string>
-  <string name="menu_stats_reset">Reset stats</string>
-  <string name="reset_stats_msg">Battery history stats are going to be reset</string>
+    <!-- About phone screen, dotOS version -->
+    <string name="dot_version">Versi DotOS</string>
+    <string name="dot_version_default">Tidak diketahui</string>
+    <!-- dot ota -->
+    <string name="dot_ota_title">dotOS OTA</string>
+    <string name="dot_ota_summary">Pembaruan Sistem dotOS</string>
+    <!-- About phone screen, build date -->
+    <string name="build_date">Tanggal pembuatan</string>
+    <string name="build_date_default">2015-01-01-0000</string>
+    <!-- Development Settings -->
+    <!-- Dev Options Enabled by Default -->
+    <string name="show_dev_already_enabled">Tidak perlu, opsi pengembang telah dihidupkan secara bawaan.</string>
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
+    <!-- Advanced night mode brightness -->
+    <string name="night_brightness_category">Kecerahan</string>
+    <string name="night_brightness_value_title">Turunkan kecerahan saat Malam Hari</string>
+    <string name="night_bright_disabled">Dinonaktifkan</string>
+    <string name="night_bright_minimum">Kecerahan minimal</string>
+    <string name="night_bright_low">Kecerahan rendah</string>
+    <string name="night_bright_medium">Kecerahan sedang</string>
+    <!-- About dotOS -->
+    <string name="dot_about_info">Tentang kami</string>
+    <string name="dot_about_summary">Pengenalan kami dan tim kami</string>
+    <string name="about_dotos_desc">DOT merupakan singkatan dari Droid On Time. DOT didasarkan pada Pure Aosp - yang sangat dioptimalkan untuk kinerja tertinggi! Tujuan utama ROM kami adalah untuk memberikan kinerja terbaik yang dioptimalkan untuk semua perangkat yang menjalankan ROM kami baik perangkat itu terendah, menengah atau tertinggi. Kami di sini untuk membuat perangkat Anda bersaing dengan waktu itu sendiri!....</string>
+    <string name="dev_info">Tentang dotOS</string>
+    <string name="dot_team">Tim dotOS</string>
+    <string name="maintainers">Pengelola</string>
+    <string name="dev_1">Mohan Cm &#40;mohancm&#41;</string>
+    <string name="dev1_description">Pemilik/Pemimpin Pengembang</string>
+    <string name="dev_4">Sam Grande &#40;Reapergod35&#41;</string>
+    <string name="dev4_description">Pengembang UI/Kontributor</string>
+    <string name="dev_5">Iacob Ionut </string>
+    <string name="dev5_description">Pengembang UI/Kontributor</string>
+    <string name="dev_7">Hari Ambadi &#40;hariambadii&#41;</string>
+    <string name="dev7_description">Inti GFX/Desain Visual</string>
+    <string name="about_dotos">Tentang dotOS</string>
+    <string name="google">Google</string>
+    <string name="gplus_community">Bergabung dengan komunitas google plus kami untuk mendapat pembaharuan tentang rom ini</string>
+    <string name="telegram">Telegram</string>
+    <string name="telegram_community">Gabung dengan grup telegram kami dan jadilah bagian dari keluarga kami</string>
+    <string name="github">Github</string>
+    <string name="git_link">Lihat sumber kami untuk tahu apa yang membuat ini luar biasa</string>
+    <string name="website">Situs</string>
+    <string name="webiste_link">Kunjungi laman kami untuk mengunduh atau mencari sesuatu</string>
+    <!-- About Contributors -->
+    <string name="dot_contributors">Kontributor</string>
+    <string name="contributor_1">Alex Brookes</string>
+    <string name="contributor1_description">Desainer Wallpaper</string>
+    <!-- Changelog -->
+    <string name="changelog_title">Log Perubahan</string>
+    <string name="changelog_summary">Perubahan terbaru</string>
+    <string name="changelog_loading">Memuat daftar perubahan\u2026</string>
+    <string name="changelog_error">Tidak dapat memuat log perubahan</string>
+    <!-- Maintainers Info-->
+    <string name="maintainers_title">Pengelola resmi</string>
+    <string name="maintainers_summary">Perangkat yang didukung secara resmi dan pengelola masing-masing.</string>
+    <!-- Maintainer section -->
+    <string name="maintainer_description">Pengelola: %1$s</string>
+    <string name="loading_devices">Memuat daftar perangkat...</string>
+    <string name="loading_devices_failed">Gagal untuk memuat daftar perangkat</string>
+    <string name="devices_list_empty">Daftar kosong, ketuk ikon untuk memuat ulang</string>
+    <string name="reload_list">Muat ulang</string>
+    <!-- Expanded desktop -->
+    <string name="power_menu_expanded_desktop">Desktop yang diperluas</string>
+    <string name="expanded_hide_nothing">Tidak menyembunyikan apapun</string>
+    <string name="expanded_hide_status">Sembunyikan bilah status</string>
+    <string name="expanded_hide_navigation">Sembunyikan bilah navigasi</string>
+    <string name="expanded_hide_both">Sembunyikan keduanya</string>
+    <string name="expanded_nothing_to_show">Untuk menambahkan konfigurasi kustom per-aplikasi untuk kondisi diperluas, atur \"Diaktifkan untuk semua\" ke posisi mati</string>
+    <string name="expanded_desktop_state">Kondisi diperluas</string>
+    <string name="expanded_enabled_for_all">Diaktifkan untuk semua</string>
+    <string name="expanded_user_configurable">Dapat dikonfigurasi pengguna</string>
+    <string name="expanded_desktop_style">Gaya desktop yang diperluas</string>
+    <string name="expanded_desktop_style_description">Pilih standar gaya dekstop diperluas</string>
+    <string name="expanded_desktop_title">Pilihan perluasan desktop</string>
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Suara tangkapan layar</string>
+    <string name="screenshot_sound_summary">Memainkan efek suara ketika tangkapan layar diambil</string>
+    <!-- Notification volume -->
+    <string name="link_volume_option_title">Hubungkan volume nada dering dan pemberitahuan</string>
+    <string name="notification_volume_option_title">Volume pemberitahuan</string>
+    <string name="ring_notification_volume_option_title">Volume dering dan pemberitahuan</string>
+    <!-- App Ops Settings -->
+    <!-- App Ops Categories -->
+    <string name="app_ops_cat_location">Lokasi</string>
+    <string name="app_ops_cat_personal">Pribadi</string>
+    <string name="app_ops_cat_messaging">Pesan</string>
+    <string name="app_ops_cat_media">Media</string>
+    <string name="app_ops_cat_device">Perangkat</string>
+    <string name="app_ops_cat_bootup">Bootup</string>
+    <!-- [CHAR LIMIT=NONE] App ops labels -->
+    <string name="app_ops_access_camera">kamera</string>
+    <string name="app_ops_access_location">lokasi</string>
+    <string name="app_ops_access_notifications">pemberitahuan</string>
+    <string name="app_ops_activate_vpn">VPN</string>
+    <string name="app_ops_auto_start">mulai otomatis</string>
+    <string name="app_ops_delete_call_log">hapus catatan panggilan</string>
+    <string name="app_ops_delete_contacts">hapus kontak</string>
+    <string name="app_ops_delete_mms">hapus MMS</string>
+    <string name="app_ops_delete_sms">hapus SMS</string>
+    <string name="app_ops_draw_on_top">menampilkan di atas</string>
+    <string name="app_ops_get_usage_stats">dapatkan statistik penggunaan</string>
+    <string name="app_ops_keep_device_awake">tetap terjaga</string>
+    <string name="app_ops_make_phone_call">buat panggilan</string>
+    <string name="app_ops_modify_calendar">memperbarui kalender</string>
+    <string name="app_ops_modify_call_log">memperbarui catatan panggilan</string>
+    <string name="app_ops_modify_clipboard">mengubah clipboard</string>
+    <string name="app_ops_modify_contacts">memperbarui kontak</string>
+    <string name="app_ops_modify_settings">perbarui pengaturan</string>
+    <string name="app_ops_mute_unmute_microphone">bisu/nyalakan mic</string>
+    <string name="app_ops_play_audio">mainkan audio</string>
+    <string name="app_ops_post_notification">mengirim pemberitahuan</string>
+    <string name="app_ops_project_media">proyek media</string>
+    <string name="app_ops_read_calendar">baca kalender</string>
+    <string name="app_ops_read_call_log">baca catatan panggilan</string>
+    <string name="app_ops_read_clipboard">baca clipboard</string>
+    <string name="app_ops_read_contacts">baca kontak</string>
+    <string name="app_ops_read_mms">baca MMS</string>
+    <string name="app_ops_read_sms">baca SMS</string>
+    <string name="app_ops_receive_sms">terima SMS</string>
+    <string name="app_ops_record_audio">rekam audio</string>
+    <string name="app_ops_send_mms">kirim MMS</string>
+    <string name="app_ops_send_sms">kirim SMS</string>
+    <string name="app_ops_toast_window">pesan toast</string>
+    <string name="app_ops_use_alarm_volume">volume alarm</string>
+    <string name="app_ops_use_audio_focus">fokus suara</string>
+    <string name="app_ops_use_bluetooth_volume">Volume bluetooth</string>
+    <string name="app_ops_use_master_volume">volume master</string>
+    <string name="app_ops_use_media_buttons">tombol media</string>
+    <string name="app_ops_use_media_volume">volume media</string>
+    <string name="app_ops_use_notification_volume">volume pemberitahuan</string>
+    <string name="app_ops_use_ring_volume">volume nada dering</string>
+    <string name="app_ops_use_vibrate">umpan balik haptic</string>
+    <string name="app_ops_use_voice_volume">volume suara panggilan</string>
+    <string name="app_ops_write_mms">tulis MMS</string>
+    <string name="app_ops_write_sms">tulis SMS</string>
+    <string name="app_ops_use_fingerprint">sidik Jari</string>
+    <string name="app_ops_add_voicemail">pesan suara</string>
+    <string name="app_ops_read_phone_state">akses status ponsel</string>
+    <string name="app_ops_scan_wifi">Memindai Jaringan Wifi</string>
+    <string name="app_ops_change_wallpaper">mengubah wallpaper</string>
+    <string name="app_ops_assist_structure">struktur pembantu</string>
+    <string name="app_ops_assist_screenshot">tangkapan layar</string>
+    <string name="app_ops_use_body_sensors">sensor tubuh</string>
+    <string name="app_ops_read_cell_broadcasts">siaran seluler</string>
+    <string name="app_ops_mock_location">lokasi tiruan</string>
+    <string name="app_ops_read_external_storage">baca penyimpanan eksternal.</string>
+    <string name="app_ops_write_external_storage">menulis penyimpanan eksternal.</string>
+    <string name="app_ops_turn_on_screen">hidupkan layar</string>
+    <string name="app_ops_get_accounts">akun perangkat</string>
+    <string name="app_ops_run_in_background">berjalan di latar belakang</string>
+    <string name="app_ops_accessibility_volume">volume aksesibilitas</string>
+    <string name="app_ops_read_phone_numbers">membaca nomor telepon.</string>
+    <string name="app_ops_request_install_packages">memasang paket</string>
+    <string name="app_ops_picture_in_picture">pip</string>
+    <string name="app_ops_app_start_foreground">mulai di latar depan</string>
+    <string name="app_ops_answer_phone_calls">jawab panggilan</string>
+    <string name="app_ops_boot_completed">mulai otomatis</string>
+    <!-- Root Management -->
+    <string name="rootmanagement_title">Pengelolaan root</string>
+    <string name="rootmanagement_dashboard_summary">Kelola akses root</string>
+    <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
+    <string name="supersu_title">SuperSU</string>
+    <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
+    <string name="local_backup_password_title">Sandi cadangan dekstop</string>
+    <!-- Battery saver color -->
+    <string name="battery_saver_color_title">Warna peringatan</string>
+    <string name="battery_saver_color_summary">Aktifkan warna oranye dari bilah status - navigasi saat penghemat baterai diaktifkan</string>
+    <!-- Wakeup options -->
+    <string name="wakeup_when_plugged_unplugged_title">Bangun saat mengisi daya</string>
+    <string name="wakeup_when_plugged_unplugged_summary">Bangunkan perangkat jika charger dicolokkan/dicabut.</string>
+    <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
+    <string name="show_cpu_info">Tampilkan informasi CPU</string>
+    <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
+    <string name="show_cpu_info_summary">Hamparan layar menunjukkan info CPU terkini</string>
+    <string name="dashboard_conditions_title">Kondisi dasbor</string>
+    <string name="summary_dashboard_conditions_enabled">Kondisi dasbor diaktifkan</string>
+    <string name="summary_dashboard_conditions_disabled">Kondisi dasbor dinonaktifkan</string>
+    <!-- Custom light color -->
+    <string name="light_customization">Cahaya LED pemberitahuan</string>
+    <string name="custom_light_title">Warna lampu</string>
+    <string name="custom_light_on_time_title">"Durasi lampu aktif selama led berkedip (ms)"</string>
+    <string name="custom_light_off_time_title">"Durasi lampu nonaktif selama led berkedip (ms)"</string>
+    <string name="app_notifications_info_desc">Tekan pada salah satu saluran di atas untuk menyetel warna lampunya dan opsi lain</string>
+    <string name="value_equals_default">Def</string>
+    <string name="show_light_on_zen_title">Berkedip selama mode Jangan Ganggu</string>
+    <!-- Volume settings - Volume adjustment sound -->
+    <string name="volume_adjust_sounds_title">Suara penyesuaian volume</string>
+    <!-- Themes -->
+    <string name="system_theme_style_title">Gaya UI</string>
+    <string name="system_theme_style_auto">Berdasarkan wallpaper</string>
+    <string name="system_theme_style_light">UI Terang</string>
+    <string name="system_theme_style_dark">UI Gelap</string>
+    <string name="system_theme_style_black">UI Hitam</string>
+    <string name="system_theme_style_neo">dotOS Neo UI</string>
+    <string name="theme_applied_toast">Tema diterapkan!</string>
+    <string name="applying_theme_toast">Menerapkan tema, silahkan tunggu...</string>
+    <!-- Android debugging over WiFi -->
+    <string name="adb_over_network">ADB melalui Jaringan</string>
+    <string name="adb_over_network_summary">Aktifkan TCP/IP debug melalui antarmuka jaringan (Wi-Fi, jaringan USB). Pengaturan ini direset pada saat dinyalakan ulang</string>
+    <!-- Warning for Adb over Network -->
+    <string name="adb_over_network_warning">PERINGATAN: Bila ADB melalui jaringan diaktifkan, telepon anda terbuka terhadap serangan dari semua jaringan yang terhubung, termasuk jaringan data GSM!\n\nHanya gunakan fitur ini ketika anda terhubung pada jaringan dipercaya.\n\nApakah anda benar-benar ingin mengaktifkan fungsi ini?</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_data">Data seluler</string>
+    <string name="data_usage_app_restrict_data_summary">Mengaktifkan penggunaan data selular</string>
+    <string name="data_usage_app_restrict_wifi">Pindai Wi\u2011Fi</string>
+    <string name="data_usage_app_restrict_wifi_summary">Mengaktifkan penggunaan data Wi\u2011Fi</string>
+    <!-- OS Information -->
+    <string name="os_information">Informasi OS</string>
+    <string name="os_summary_info">Informasi tentang ROM</string>
+    <!-- Manual provisioning support -->
+    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> adalah <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+    <string name="sim_enabled">diaktifkan</string>
+    <string name="sim_disabled">dinonaktifkan</string>
+    <string name="sim_missing">hilang atau rusak</string>
+    <string name="sim_enabler_need_disable_sim">Kartu SIM akan dinonaktifkan. Apakah anda ingin melanjutkan?</string>
+    <string name="sim_enabler_will_disable_sim_title">Perhatian</string>
+    <string name="sim_enabler_need_switch_data_service">SIM ini akan dinonaktifkan dan SIM <xliff:g id="slotid">%1$s </xliff:g> akan digunakan untuk layanan data. Apakah Anda yakin ingin melanjutkan?</string>
+    <string name="sim_enabler_airplane_on">Tidak dapat melakukan operasi saat mode pesawat aktif.</string>
+    <string name="sim_enabler_in_call">Tidak dapat melakukan operasi saat dalam panggilan.</string>
+    <string name="sim_enabler_both_inactive">Tidak dapat menonaktifkan semua kartu SIM</string>
+    <string name="sim_enabler_enabling">Mengaktifkan\u2026</string>
+    <string name="sim_enabler_disabling">Menonaktifkan\u2026</string>
+    <string name="sub_activate_success">SIM diaktifkan.</string>
+    <string name="sub_activate_failed">Aktivasi gagal.</string>
+    <string name="sub_deactivate_success">SIM dinonaktifkan.</string>
+    <string name="sub_deactivate_failed">Penonaktifan gagal.</string>
+    <!-- Notification log -->
+    <string name="notification_log_summary">Tampilkan riwayat pemberitahuan</string>
+    <!-- Device specific doze package -->
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Mencegah bangun yang tidak disengaja</string>
+    <string name="proximity_wake_summary">Periksa sensor jarak sebelum membangunkan layar</string>
+    <!-- Search -->
+    <string name="menu_search">Cari aplikasi</string>
+    <string name="menu_search_hint">Cari aplikasi\u2026</string>
+    <!-- Reset battery stats -->
+    <string name="ok">Oke</string>
+    <string name="menu_stats_reset">Reset statistik</string>
+    <string name="reset_stats_msg">Statistik penggunaan baterai akan di atur ulang</string>
 </resources>

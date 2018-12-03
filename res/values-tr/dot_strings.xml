@@ -12,245 +12,245 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- About phone screen, dotOS version -->
-  <string name="dot_version">DotOS sürümü</string>
-  <string name="dot_version_default">Bilinmiyor</string>
-  <!-- dot ota -->
-  <string name="dot_ota_title">Güncellemeler</string>
-  <string name="dot_ota_summary">dotOS sistem güncellemeleri</string>
-  <!-- About phone screen, build date -->
-  <string name="build_date">Yapı tarihi</string>
-  <string name="build_date_default">2018-06-14-0000</string>
-  <!-- Development Settings -->
-  <!-- Dev Options Enabled by Default -->
-  <string name="show_dev_already_enabled">Geliştirici ayarları zaten etkin!</string>
-  <!-- App details: open play store link if app is user installed -->
-  <string name="app_play_store">Google play</string>
-  <!-- Advanced night mode brightness -->
-  <string name="night_brightness_category">Parlaklık</string>
-  <string name="night_brightness_value_title">Gece ışığında düşük parlaklık</string>
-  <string name="night_bright_disabled">Devre dışı</string>
-  <string name="night_bright_minimum">Minimum parlaklık</string>
-  <string name="night_bright_low">Düşük parlaklık</string>
-  <string name="night_bright_medium">Orta parlaklık</string>
-  <!-- About dotOS -->
-  <string name="dot_about_info">Hakkımızda</string>
-  <string name="dot_about_summary">Tanıtımımız ve ekibimimiz</string>
-  <string name="about_dotos_desc">DOT Zamanında Droid anlamına gelir. DOT, üstün performans için son derece optimize edilmiş olan Pure Aosp\'u temel alır! ROM\'umuzun birincil hedefi, ROM\'umuzu çalıştıran tüm cihazlar için düşük, orta veya yüksek sonlu optimize edilmiş performansı sağlamaktır. Cihazınızı zamanla rekabet etmek için buradayız!....</string>
-  <string name="dev_info">DotOS hakkında</string>
-  <string name="dot_team">DotOS takımı</string>
-  <string name="maintainers">Sorumlular</string>
-  <string name="dev_1">Mohan Cm &#40;mohancm&#41;</string>
-  <string name="dev1_description">Sahip/Lider geliştirici</string>
-  <string name="dev_4">Sam Grande &#40;Reapergod35&#41;</string>
-  <string name="dev4_description">Arayüz geliştiricisi/Katılımcı</string>
-  <string name="dev_5">Iacob Ionut </string>
-  <string name="dev5_description">Arayüz geliştiricisi/Katılımcı</string>
-  <string name="dev_7">Hari Ambadi &#40;hariambadii&#41;</string>
-  <string name="dev7_description">Çekirdek GFX/Görsel tasarımcı</string>
-  <string name="about_dotos">DotOS hakkında</string>
-  <string name="google">Google</string>
-  <string name="gplus_community">Rom hakkında güncellemeleri öğrenmek için google+ topluluğumuza katılın</string>
-  <string name="telegram">Telegram</string>
-  <string name="telegram_community">Telegram grubumuza katılın ve ailemizin bir parçası olun</string>
-  <string name="github">GitHub</string>
-  <string name="git_link">Neyin harika olduğunu bilmek için kaynağımızı görüntüleyin</string>
-  <string name="website">Web sitesi</string>
-  <string name="webiste_link">İndirmeler ve içerikler için web sitemizi ziyaret edin</string>
-  <!-- About Contributors -->
-  <string name="dot_contributors">Katkıda bulunanlar</string>
-  <string name="contributor_1">Alex Brookes</string>
-  <string name="contributor1_description">Duvar kağıdı tasarımcısı</string>
-  <!-- Changelog -->
-  <string name="changelog_title">Değişiklikler</string>
-  <string name="changelog_summary">Son değişiklikler</string>
-  <string name="changelog_loading">Değişiklikler yükleniyor\u2026</string>
-  <string name="changelog_error">Değişiklikler yüklenemiyor</string>
-  <!-- Maintainers Info-->
-  <string name="maintainers_title">Resmi sorumlular</string>
-  <string name="maintainers_summary">Resmi olarak desteklenen cihazlar ve sorumlular.</string>
-  <!-- Maintainer section -->
-  <string name="maintainer_description">Sorumlu: %1$s</string>
-  <string name="loading_devices">Cihaz listesi yükleniyor...</string>
-  <string name="loading_devices_failed">Cihaz listesi yüklenemedi</string>
-  <string name="devices_list_empty">Liste boş, yeniden yüklemek için simgeye dokunun</string>
-  <string name="reload_list">Yeniden yükle</string>
-  <!-- Expanded desktop -->
-  <string name="power_menu_expanded_desktop">Genişletilmiş masaüstü</string>
-  <string name="expanded_hide_nothing">Hiçbir şey gizleme</string>
-  <string name="expanded_hide_status">Durum çubuğunu gizle</string>
-  <string name="expanded_hide_navigation">Gezinme çubuğunu gizle</string>
-  <string name="expanded_hide_both">İkisini de gizle</string>
-  <string name="expanded_nothing_to_show">Genişletilmiş durum için uygulama başına özel bir yapılandırma eklemek için \"Tümü için etkin\" konumunu kapalı konumuna getirin</string>
-  <string name="expanded_desktop_state">Genişletilmiş durum</string>
-  <string name="expanded_enabled_for_all">Tümü için etkin</string>
-  <string name="expanded_user_configurable">Kullanıcı tarafından yapılandırılabilir</string>
-  <string name="expanded_desktop_style">Genişletilmiş masaüstü stili</string>
-  <string name="expanded_desktop_style_description">Geçerli genişletilmiş masaüstü stilini seçin</string>
-  <string name="expanded_desktop_title">Genişletilmiş masaüstü seçenekleri</string>
-  <!-- Screenshot sound -->
-  <string name="screenshot_sound_title">Ekran görüntüsü sesi</string>
-  <string name="screenshot_sound_summary">Ekran görüntüsü alınırken ses çıkar</string>
-  <!-- Notification volume -->
-  <string name="link_volume_option_title">Zil sesi ve bildirim sesini bağla</string>
-  <string name="notification_volume_option_title">Bildirim sesi düzeyi</string>
-  <string name="ring_notification_volume_option_title">Zil sesi düzeyi</string>
-  <!-- App Ops Settings -->
-  <!-- App Ops Categories -->
-  <string name="app_ops_cat_location">Konum</string>
-  <string name="app_ops_cat_personal">Kişisel</string>
-  <string name="app_ops_cat_messaging">Mesajlaşma</string>
-  <string name="app_ops_cat_media">Medya</string>
-  <string name="app_ops_cat_device">Cihaz</string>
-  <string name="app_ops_cat_bootup">Açılış</string>
-  <!-- [CHAR LIMIT=NONE] App ops labels -->
-  <string name="app_ops_access_camera">kamera</string>
-  <string name="app_ops_access_location">konum</string>
-  <string name="app_ops_access_notifications">bildirimler</string>
-  <string name="app_ops_activate_vpn">VPN</string>
-  <string name="app_ops_auto_start">otomatik başlat</string>
-  <string name="app_ops_delete_call_log">çağrı kayıtlarını sil</string>
-  <string name="app_ops_delete_contacts">kişileri sil</string>
-  <string name="app_ops_delete_mms">MMS sil</string>
-  <string name="app_ops_delete_sms">SMS sil</string>
-  <string name="app_ops_draw_on_top">en üstte görüntüle</string>
-  <string name="app_ops_get_usage_stats">kullanım istatistiklerini al</string>
-  <string name="app_ops_keep_device_awake">uyanık tut</string>
-  <string name="app_ops_make_phone_call">arama yap</string>
-  <string name="app_ops_modify_calendar">takvimi güncelle</string>
-  <string name="app_ops_modify_call_log">arama kaydını güncelle</string>
-  <string name="app_ops_modify_clipboard">panoyu düzenle</string>
-  <string name="app_ops_modify_contacts">kişileri güncelle</string>
-  <string name="app_ops_modify_settings">ayarları güncelle</string>
-  <string name="app_ops_mute_unmute_microphone">mikrofonu kapat/aç</string>
-  <string name="app_ops_play_audio">sesi oynat</string>
-  <string name="app_ops_post_notification">bildirim gönder</string>
-  <string name="app_ops_project_media">medyayı yansıt</string>
-  <string name="app_ops_read_calendar">takvim oku</string>
-  <string name="app_ops_read_call_log">çağrı kaydını oku</string>
-  <string name="app_ops_read_clipboard">panoyu oku</string>
-  <string name="app_ops_read_contacts">kişileri oku</string>
-  <string name="app_ops_read_mms">MMS oku</string>
-  <string name="app_ops_read_sms">SMS oku</string>
-  <string name="app_ops_receive_sms">SMS al</string>
-  <string name="app_ops_record_audio">ses kaydet</string>
-  <string name="app_ops_send_mms">MMS gönder</string>
-  <string name="app_ops_send_sms">SMS gönder</string>
-  <string name="app_ops_toast_window">bildirim mesajları</string>
-  <string name="app_ops_use_alarm_volume">alarm sesi</string>
-  <string name="app_ops_use_audio_focus">ses odağı</string>
-  <string name="app_ops_use_bluetooth_volume">Bluetooth sesi</string>
-  <string name="app_ops_use_master_volume">ana ses</string>
-  <string name="app_ops_use_media_buttons">medya tuşları</string>
-  <string name="app_ops_use_media_volume">medya sesi</string>
-  <string name="app_ops_use_notification_volume">bildirim sesi</string>
-  <string name="app_ops_use_ring_volume">zil sesi</string>
-  <string name="app_ops_use_vibrate">dokunmatik geri bildirim</string>
-  <string name="app_ops_use_voice_volume">sesli arama sesi</string>
-  <string name="app_ops_write_mms">MMS yaz</string>
-  <string name="app_ops_write_sms">SMS yaz</string>
-  <string name="app_ops_use_fingerprint">parmak izi</string>
-  <string name="app_ops_add_voicemail">sesli mesaj</string>
-  <string name="app_ops_read_phone_state">telefon durumuna eriş</string>
-  <string name="app_ops_scan_wifi">Kablosuz Ağları Tara</string>
-  <string name="app_ops_change_wallpaper">duvar kağıdını değiştir</string>
-  <string name="app_ops_assist_structure">yardımcı yapısı</string>
-  <string name="app_ops_assist_screenshot">ekran görüntüsü</string>
-  <string name="app_ops_use_body_sensors">vücut sensörleri</string>
-  <string name="app_ops_read_cell_broadcasts">hücre yayınları</string>
-  <string name="app_ops_mock_location">sahte konum</string>
-  <string name="app_ops_read_external_storage">harici depolamayı oku.</string>
-  <string name="app_ops_write_external_storage">harici depolamaya yaz.</string>
-  <string name="app_ops_turn_on_screen">ekranı aç</string>
-  <string name="app_ops_get_accounts">cihaz hesapları</string>
-  <string name="app_ops_run_in_background">arka planda çalıştır</string>
-  <string name="app_ops_accessibility_volume">erişebilirlik düzeyi</string>
-  <string name="app_ops_read_phone_numbers">telefon numarasını oku.</string>
-  <string name="app_ops_request_install_packages">paketleri yükle</string>
-  <string name="app_ops_picture_in_picture">pip</string>
-  <string name="app_ops_app_start_foreground">ön planda başlat</string>
-  <string name="app_ops_answer_phone_calls">çağrıya cevap ver</string>
-  <string name="app_ops_boot_completed">otomatik başlat</string>
-  <!-- Root Management -->
-  <string name="rootmanagement_title">Root yönetimi</string>
-  <string name="rootmanagement_dashboard_summary">Root erişimini yönetin</string>
-  <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
-  <string name="supersu_title">SuperSU</string>
-  <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
-  <string name="local_backup_password_title">Masaüstü yedekleme şifresi</string>
-  <!-- Battery saver color -->
-  <string name="battery_saver_color_title">Uyarı rengi</string>
-  <string name="battery_saver_color_summary">Pil tasarrufu aktif olduğunda turuncu durum ve gezinme çubuklarını etkinleştir</string>
-  <!-- Wakeup options -->
-  <string name="wakeup_when_plugged_unplugged_title">Takıp çıkarmada uyan</string>
-  <string name="wakeup_when_plugged_unplugged_summary">Cihaz şarja takıldığında veya çıkartıldığında uyandır</string>
-  <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
-  <string name="show_cpu_info">İşlemci bilgisini göster</string>
-  <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
-  <string name="show_cpu_info_summary">Geçerli işlemci bilgisini gösteren ekran yer paylaşımı</string>
-  <string name="dashboard_conditions_title">Ayarlar menüsü durumları</string>
-  <string name="summary_dashboard_conditions_enabled">Ayarlar menüsü durumları etkin</string>
-  <string name="summary_dashboard_conditions_disabled">Ayarlar menüsü durumları devre dışı</string>
-  <!-- Custom light color -->
-  <string name="light_customization">Bildirim ışığı</string>
-  <string name="custom_light_title">Işık rengi</string>
-  <string name="custom_light_on_time_title">"Işık açıkken yanıp sönme hızı (ms)"</string>
-  <string name="custom_light_off_time_title">"Işık kapalıyken yanıp sönme hızı (ms)"</string>
-  <string name="app_notifications_info_desc">Işık renkleri ve diğer seçenekleri yapılandırmak için kanalın üstüne dokunun</string>
-  <string name="value_equals_default">Varsayılan</string>
-  <string name="show_light_on_zen_title">Rahatsız etmeyinde ışığı yak söndür</string>
-  <!-- Volume settings - Volume adjustment sound -->
-  <string name="volume_adjust_sounds_title">Ses ayarlama sesleri</string>
-  <!-- Themes -->
-  <string name="system_theme_style_title">Arayüz stili</string>
-  <string name="system_theme_style_auto">Duvar kağıdı merkezi</string>
-  <string name="system_theme_style_light">Aydınlık arayüz</string>
-  <string name="system_theme_style_dark">Karanlık arayüz</string>
-  <string name="system_theme_style_black">Siyah arayüz</string>
-  <string name="system_theme_style_neo">dotOS Neo arayüzü</string>
-  <string name="theme_applied_toast">Tema uygulandı!</string>
-  <string name="applying_theme_toast">Tema uygulanıyor, lütfen bekleyin...</string>
-  <!-- Android debugging over WiFi -->
-  <string name="adb_over_network">Ağ üzerinden ADB</string>
-  <string name="adb_over_network_summary">Ağ arayüzleri (Wi-Fi, USB ağları) üzerinde TCP/IP ayıklamayı etkinleştir. Bu ayar, yeniden başlatıldığında sıfırlanır</string>
-  <!-- Warning for Adb over Network -->
-  <string name="adb_over_network_warning">UYARI: ADB üzerinden ağ aktifken telefonunuz GSM veri ağı dahil tüm bağlı ağlar üzerinden kötüye kullanımlara açık olacaktır!\n\nBu özelliği sadece güvenlir ağlara bağlıyken kullanın.\n\nBu özellik açılsın mı?</string>
-  <!-- Per-app data restrictions -->
-  <string name="data_usage_app_restrict_data">Hücresel veri</string>
-  <string name="data_usage_app_restrict_data_summary">Hücresel veri kullanımını etkinleştir</string>
-  <string name="data_usage_app_restrict_wifi">Wi\u2011Fi veri</string>
-  <string name="data_usage_app_restrict_wifi_summary">Wi\u2011Fi veri kullanımını etkinleştir</string>
-  <!-- OS Information -->
-  <string name="os_information">Sistem bilgileri</string>
-  <string name="os_summary_info">ROM hakkındaki bilgiler</string>
-  <!-- Manual provisioning support -->
-  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
-  <string name="sim_enabled">etkin</string>
-  <string name="sim_disabled">devre dışı</string>
-  <string name="sim_missing">eksik veya hatalı</string>
-  <string name="sim_enabler_need_disable_sim">SIM kart devre dışı bırakılacak. Devam etmek istermisiniz?</string>
-  <string name="sim_enabler_will_disable_sim_title">Dikkat</string>
-  <string name="sim_enabler_need_switch_data_service">Bu SIM devre dışı bırakılacak ve veri servisleri için SIM <xliff:g id="slotid">%1$s</xliff:g> kullanılacaktır. Devam etmek istermisiniz?</string>
-  <string name="sim_enabler_airplane_on">Uçak modu açıkken işlem yapılamıyor.</string>
-  <string name="sim_enabler_in_call">Arama sırasında işlem yapılamıyor.</string>
-  <string name="sim_enabler_both_inactive">Tüm SIM kartlar devre dışı bırakılamıyor</string>
-  <string name="sim_enabler_enabling">Etkinleştiriliyor\u2026</string>
-  <string name="sim_enabler_disabling">Devre dışı bırakılıyor\u2026</string>
-  <string name="sub_activate_success">SIM etkinleştirildi.</string>
-  <string name="sub_activate_failed">Etkinleştirme başarısız.</string>
-  <string name="sub_deactivate_success">SIM devre dışı bırakıldı.</string>
-  <string name="sub_deactivate_failed">Devre dışı bırakma başarısız.</string>
-  <!-- Notification log -->
-  <string name="notification_log_summary">Bildirimler geçmişi günlüğünü göster</string>
-  <!-- Device specific doze package -->
-  <!-- Proximity wake -->
-  <string name="proximity_wake_title">Yanlış uyandırmaları önle</string>
-  <string name="proximity_wake_summary">Ekranı uyandırmadan önce yakınlık sensörünü kontrol et</string>
-  <!-- Search -->
-  <string name="menu_search">Uygulamalar ara</string>
-  <string name="menu_search_hint">Uygulamalar aranıyor\u2026</string>
-  <!-- Reset battery stats -->
-  <string name="ok">Tamam</string>
-  <string name="menu_stats_reset">İstatistikleri sıfırla</string>
-  <string name="reset_stats_msg">Pil geçmişi istatistikleri sıfırlanacak</string>
+    <!-- About phone screen, dotOS version -->
+    <string name="dot_version">DotOS sürümü</string>
+    <string name="dot_version_default">Bilinmiyor</string>
+    <!-- dot ota -->
+    <string name="dot_ota_title">Güncellemeler</string>
+    <string name="dot_ota_summary">dotOS sistem güncellemeleri</string>
+    <!-- About phone screen, build date -->
+    <string name="build_date">Yapı tarihi</string>
+    <string name="build_date_default">2018-06-14-0000</string>
+    <!-- Development Settings -->
+    <!-- Dev Options Enabled by Default -->
+    <string name="show_dev_already_enabled">Geliştirici ayarları zaten etkin!</string>
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google play</string>
+    <!-- Advanced night mode brightness -->
+    <string name="night_brightness_category">Parlaklık</string>
+    <string name="night_brightness_value_title">Gece ışığında düşük parlaklık</string>
+    <string name="night_bright_disabled">Devre dışı</string>
+    <string name="night_bright_minimum">Minimum parlaklık</string>
+    <string name="night_bright_low">Düşük parlaklık</string>
+    <string name="night_bright_medium">Orta parlaklık</string>
+    <!-- About dotOS -->
+    <string name="dot_about_info">Hakkımızda</string>
+    <string name="dot_about_summary">Tanıtımımız ve ekibimimiz</string>
+    <string name="about_dotos_desc">DOT Zamanında Droid anlamına gelir. DOT, üstün performans için son derece optimize edilmiş olan Pure Aosp\'u temel alır! ROM\'umuzun birincil hedefi, ROM\'umuzu çalıştıran tüm cihazlar için düşük, orta veya yüksek sonlu optimize edilmiş performansı sağlamaktır. Cihazınızı zamanla rekabet etmek için buradayız!....</string>
+    <string name="dev_info">DotOS hakkında</string>
+    <string name="dot_team">DotOS takımı</string>
+    <string name="maintainers">Sorumlular</string>
+    <string name="dev_1">Mohan Cm &#40;mohancm&#41;</string>
+    <string name="dev1_description">Sahip/Lider geliştirici</string>
+    <string name="dev_4">Sam Grande &#40;Reapergod35&#41;</string>
+    <string name="dev4_description">Arayüz geliştiricisi/Katılımcı</string>
+    <string name="dev_5">Iacob Ionut </string>
+    <string name="dev5_description">Arayüz geliştiricisi/Katılımcı</string>
+    <string name="dev_7">Hari Ambadi &#40;hariambadii&#41;</string>
+    <string name="dev7_description">Çekirdek GFX/Görsel tasarımcı</string>
+    <string name="about_dotos">DotOS hakkında</string>
+    <string name="google">Google</string>
+    <string name="gplus_community">Rom hakkında güncellemeleri öğrenmek için google+ topluluğumuza katılın</string>
+    <string name="telegram">Telegram</string>
+    <string name="telegram_community">Telegram grubumuza katılın ve ailemizin bir parçası olun</string>
+    <string name="github">GitHub</string>
+    <string name="git_link">Neyin harika olduğunu bilmek için kaynağımızı görüntüleyin</string>
+    <string name="website">Web sitesi</string>
+    <string name="webiste_link">İndirmeler ve içerikler için web sitemizi ziyaret edin</string>
+    <!-- About Contributors -->
+    <string name="dot_contributors">Katkıda bulunanlar</string>
+    <string name="contributor_1">Alex Brookes</string>
+    <string name="contributor1_description">Duvar kağıdı tasarımcısı</string>
+    <!-- Changelog -->
+    <string name="changelog_title">Değişiklikler</string>
+    <string name="changelog_summary">Son değişiklikler</string>
+    <string name="changelog_loading">Değişiklikler yükleniyor\u2026</string>
+    <string name="changelog_error">Değişiklikler yüklenemiyor</string>
+    <!-- Maintainers Info-->
+    <string name="maintainers_title">Resmi sorumlular</string>
+    <string name="maintainers_summary">Resmi olarak desteklenen cihazlar ve sorumlular.</string>
+    <!-- Maintainer section -->
+    <string name="maintainer_description">Sorumlu: %1$s</string>
+    <string name="loading_devices">Cihaz listesi yükleniyor...</string>
+    <string name="loading_devices_failed">Cihaz listesi yüklenemedi</string>
+    <string name="devices_list_empty">Liste boş, yeniden yüklemek için simgeye dokunun</string>
+    <string name="reload_list">Yeniden yükle</string>
+    <!-- Expanded desktop -->
+    <string name="power_menu_expanded_desktop">Genişletilmiş masaüstü</string>
+    <string name="expanded_hide_nothing">Hiçbir şey gizleme</string>
+    <string name="expanded_hide_status">Durum çubuğunu gizle</string>
+    <string name="expanded_hide_navigation">Gezinme çubuğunu gizle</string>
+    <string name="expanded_hide_both">İkisini de gizle</string>
+    <string name="expanded_nothing_to_show">Genişletilmiş durum için uygulama başına özel bir yapılandırma eklemek için \"Tümü için etkin\" konumunu kapalı konumuna getirin</string>
+    <string name="expanded_desktop_state">Genişletilmiş durum</string>
+    <string name="expanded_enabled_for_all">Tümü için etkin</string>
+    <string name="expanded_user_configurable">Kullanıcı tarafından yapılandırılabilir</string>
+    <string name="expanded_desktop_style">Genişletilmiş masaüstü stili</string>
+    <string name="expanded_desktop_style_description">Geçerli genişletilmiş masaüstü stilini seçin</string>
+    <string name="expanded_desktop_title">Genişletilmiş masaüstü seçenekleri</string>
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Ekran görüntüsü sesi</string>
+    <string name="screenshot_sound_summary">Ekran görüntüsü alınırken ses çıkar</string>
+    <!-- Notification volume -->
+    <string name="link_volume_option_title">Zil sesi ve bildirim sesini bağla</string>
+    <string name="notification_volume_option_title">Bildirim sesi düzeyi</string>
+    <string name="ring_notification_volume_option_title">Zil sesi düzeyi</string>
+    <!-- App Ops Settings -->
+    <!-- App Ops Categories -->
+    <string name="app_ops_cat_location">Konum</string>
+    <string name="app_ops_cat_personal">Kişisel</string>
+    <string name="app_ops_cat_messaging">Mesajlaşma</string>
+    <string name="app_ops_cat_media">Medya</string>
+    <string name="app_ops_cat_device">Cihaz</string>
+    <string name="app_ops_cat_bootup">Açılış</string>
+    <!-- [CHAR LIMIT=NONE] App ops labels -->
+    <string name="app_ops_access_camera">kamera</string>
+    <string name="app_ops_access_location">konum</string>
+    <string name="app_ops_access_notifications">bildirimler</string>
+    <string name="app_ops_activate_vpn">VPN</string>
+    <string name="app_ops_auto_start">otomatik başlat</string>
+    <string name="app_ops_delete_call_log">çağrı kayıtlarını sil</string>
+    <string name="app_ops_delete_contacts">kişileri sil</string>
+    <string name="app_ops_delete_mms">MMS sil</string>
+    <string name="app_ops_delete_sms">SMS sil</string>
+    <string name="app_ops_draw_on_top">en üstte görüntüle</string>
+    <string name="app_ops_get_usage_stats">kullanım istatistiklerini al</string>
+    <string name="app_ops_keep_device_awake">uyanık tut</string>
+    <string name="app_ops_make_phone_call">arama yap</string>
+    <string name="app_ops_modify_calendar">takvimi güncelle</string>
+    <string name="app_ops_modify_call_log">arama kaydını güncelle</string>
+    <string name="app_ops_modify_clipboard">panoyu düzenle</string>
+    <string name="app_ops_modify_contacts">kişileri güncelle</string>
+    <string name="app_ops_modify_settings">ayarları güncelle</string>
+    <string name="app_ops_mute_unmute_microphone">mikrofonu kapat/aç</string>
+    <string name="app_ops_play_audio">sesi oynat</string>
+    <string name="app_ops_post_notification">bildirim gönder</string>
+    <string name="app_ops_project_media">medyayı yansıt</string>
+    <string name="app_ops_read_calendar">takvim oku</string>
+    <string name="app_ops_read_call_log">çağrı kaydını oku</string>
+    <string name="app_ops_read_clipboard">panoyu oku</string>
+    <string name="app_ops_read_contacts">kişileri oku</string>
+    <string name="app_ops_read_mms">MMS oku</string>
+    <string name="app_ops_read_sms">SMS oku</string>
+    <string name="app_ops_receive_sms">SMS al</string>
+    <string name="app_ops_record_audio">ses kaydet</string>
+    <string name="app_ops_send_mms">MMS gönder</string>
+    <string name="app_ops_send_sms">SMS gönder</string>
+    <string name="app_ops_toast_window">bildirim mesajları</string>
+    <string name="app_ops_use_alarm_volume">alarm sesi</string>
+    <string name="app_ops_use_audio_focus">ses odağı</string>
+    <string name="app_ops_use_bluetooth_volume">Bluetooth sesi</string>
+    <string name="app_ops_use_master_volume">ana ses</string>
+    <string name="app_ops_use_media_buttons">medya tuşları</string>
+    <string name="app_ops_use_media_volume">medya sesi</string>
+    <string name="app_ops_use_notification_volume">bildirim sesi</string>
+    <string name="app_ops_use_ring_volume">zil sesi</string>
+    <string name="app_ops_use_vibrate">dokunmatik geri bildirim</string>
+    <string name="app_ops_use_voice_volume">sesli arama sesi</string>
+    <string name="app_ops_write_mms">MMS yaz</string>
+    <string name="app_ops_write_sms">SMS yaz</string>
+    <string name="app_ops_use_fingerprint">parmak izi</string>
+    <string name="app_ops_add_voicemail">sesli mesaj</string>
+    <string name="app_ops_read_phone_state">telefon durumuna eriş</string>
+    <string name="app_ops_scan_wifi">Kablosuz Ağları Tara</string>
+    <string name="app_ops_change_wallpaper">duvar kağıdını değiştir</string>
+    <string name="app_ops_assist_structure">yardımcı yapısı</string>
+    <string name="app_ops_assist_screenshot">ekran görüntüsü</string>
+    <string name="app_ops_use_body_sensors">vücut sensörleri</string>
+    <string name="app_ops_read_cell_broadcasts">hücre yayınları</string>
+    <string name="app_ops_mock_location">sahte konum</string>
+    <string name="app_ops_read_external_storage">harici depolamayı oku.</string>
+    <string name="app_ops_write_external_storage">harici depolamaya yaz.</string>
+    <string name="app_ops_turn_on_screen">ekranı aç</string>
+    <string name="app_ops_get_accounts">cihaz hesapları</string>
+    <string name="app_ops_run_in_background">arka planda çalıştır</string>
+    <string name="app_ops_accessibility_volume">erişebilirlik düzeyi</string>
+    <string name="app_ops_read_phone_numbers">telefon numarasını oku.</string>
+    <string name="app_ops_request_install_packages">paketleri yükle</string>
+    <string name="app_ops_picture_in_picture">pip</string>
+    <string name="app_ops_app_start_foreground">ön planda başlat</string>
+    <string name="app_ops_answer_phone_calls">çağrıya cevap ver</string>
+    <string name="app_ops_boot_completed">otomatik başlat</string>
+    <!-- Root Management -->
+    <string name="rootmanagement_title">Root yönetimi</string>
+    <string name="rootmanagement_dashboard_summary">Root erişimini yönetin</string>
+    <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
+    <string name="supersu_title">SuperSU</string>
+    <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
+    <string name="local_backup_password_title">Masaüstü yedekleme şifresi</string>
+    <!-- Battery saver color -->
+    <string name="battery_saver_color_title">Uyarı rengi</string>
+    <string name="battery_saver_color_summary">Pil tasarrufu aktif olduğunda turuncu durum ve gezinme çubuklarını etkinleştir</string>
+    <!-- Wakeup options -->
+    <string name="wakeup_when_plugged_unplugged_title">Takıp çıkarmada uyan</string>
+    <string name="wakeup_when_plugged_unplugged_summary">Cihaz şarja takıldığında veya çıkartıldığında uyandır</string>
+    <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
+    <string name="show_cpu_info">İşlemci bilgisini göster</string>
+    <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
+    <string name="show_cpu_info_summary">Geçerli işlemci bilgisini gösteren ekran yer paylaşımı</string>
+    <string name="dashboard_conditions_title">Ayarlar menüsü durumları</string>
+    <string name="summary_dashboard_conditions_enabled">Ayarlar menüsü durumları etkin</string>
+    <string name="summary_dashboard_conditions_disabled">Ayarlar menüsü durumları devre dışı</string>
+    <!-- Custom light color -->
+    <string name="light_customization">Bildirim ışığı</string>
+    <string name="custom_light_title">Işık rengi</string>
+    <string name="custom_light_on_time_title">"Işık açıkken yanıp sönme hızı (ms)"</string>
+    <string name="custom_light_off_time_title">"Işık kapalıyken yanıp sönme hızı (ms)"</string>
+    <string name="app_notifications_info_desc">Işık renkleri ve diğer seçenekleri yapılandırmak için kanalın üstüne dokunun</string>
+    <string name="value_equals_default">Varsayılan</string>
+    <string name="show_light_on_zen_title">Rahatsız etmeyinde ışığı yak söndür</string>
+    <!-- Volume settings - Volume adjustment sound -->
+    <string name="volume_adjust_sounds_title">Ses ayarlama sesleri</string>
+    <!-- Themes -->
+    <string name="system_theme_style_title">Arayüz stili</string>
+    <string name="system_theme_style_auto">Duvar kağıdı merkezi</string>
+    <string name="system_theme_style_light">Aydınlık arayüz</string>
+    <string name="system_theme_style_dark">Karanlık arayüz</string>
+    <string name="system_theme_style_black">Siyah arayüz</string>
+    <string name="system_theme_style_neo">dotOS Neo arayüzü</string>
+    <string name="theme_applied_toast">Tema uygulandı!</string>
+    <string name="applying_theme_toast">Tema uygulanıyor, lütfen bekleyin...</string>
+    <!-- Android debugging over WiFi -->
+    <string name="adb_over_network">Ağ üzerinden ADB</string>
+    <string name="adb_over_network_summary">Ağ arayüzleri (Wi-Fi, USB ağları) üzerinde TCP/IP ayıklamayı etkinleştir. Bu ayar, yeniden başlatıldığında sıfırlanır</string>
+    <!-- Warning for Adb over Network -->
+    <string name="adb_over_network_warning">UYARI: ADB üzerinden ağ aktifken telefonunuz GSM veri ağı dahil tüm bağlı ağlar üzerinden kötüye kullanımlara açık olacaktır!\n\nBu özelliği sadece güvenlir ağlara bağlıyken kullanın.\n\nBu özellik açılsın mı?</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_data">Hücresel veri</string>
+    <string name="data_usage_app_restrict_data_summary">Hücresel veri kullanımını etkinleştir</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi veri</string>
+    <string name="data_usage_app_restrict_wifi_summary">Wi\u2011Fi veri kullanımını etkinleştir</string>
+    <!-- OS Information -->
+    <string name="os_information">Sistem bilgileri</string>
+    <string name="os_summary_info">ROM hakkındaki bilgiler</string>
+    <!-- Manual provisioning support -->
+    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+    <string name="sim_enabled">etkin</string>
+    <string name="sim_disabled">devre dışı</string>
+    <string name="sim_missing">eksik veya hatalı</string>
+    <string name="sim_enabler_need_disable_sim">SIM kart devre dışı bırakılacak. Devam etmek istermisiniz?</string>
+    <string name="sim_enabler_will_disable_sim_title">Dikkat</string>
+    <string name="sim_enabler_need_switch_data_service">Bu SIM devre dışı bırakılacak ve veri servisleri için SIM <xliff:g id="slotid">%1$s</xliff:g> kullanılacaktır. Devam etmek istermisiniz?</string>
+    <string name="sim_enabler_airplane_on">Uçak modu açıkken işlem yapılamıyor.</string>
+    <string name="sim_enabler_in_call">Arama sırasında işlem yapılamıyor.</string>
+    <string name="sim_enabler_both_inactive">Tüm SIM kartlar devre dışı bırakılamıyor</string>
+    <string name="sim_enabler_enabling">Etkinleştiriliyor\u2026</string>
+    <string name="sim_enabler_disabling">Devre dışı bırakılıyor\u2026</string>
+    <string name="sub_activate_success">SIM etkinleştirildi.</string>
+    <string name="sub_activate_failed">Etkinleştirme başarısız.</string>
+    <string name="sub_deactivate_success">SIM devre dışı bırakıldı.</string>
+    <string name="sub_deactivate_failed">Devre dışı bırakma başarısız.</string>
+    <!-- Notification log -->
+    <string name="notification_log_summary">Bildirimler geçmişi günlüğünü göster</string>
+    <!-- Device specific doze package -->
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Yanlış uyandırmaları önle</string>
+    <string name="proximity_wake_summary">Ekranı uyandırmadan önce yakınlık sensörünü kontrol et</string>
+    <!-- Search -->
+    <string name="menu_search">Uygulamalar ara</string>
+    <string name="menu_search_hint">Uygulamalar aranıyor\u2026</string>
+    <!-- Reset battery stats -->
+    <string name="ok">Tamam</string>
+    <string name="menu_stats_reset">İstatistikleri sıfırla</string>
+    <string name="reset_stats_msg">Pil geçmişi istatistikleri sıfırlanacak</string>
 </resources>
