@@ -35,7 +35,7 @@
             android:layout_margin="@dimen/search_bar_margin"
             app:cardCornerRadius="@dimen/search_bar_corner_radius"
             app:cardBackgroundColor="?android:attr/colorBackground"
-            app:cardElevation="2dp">
+            app:cardElevation="3dp">
             <Toolbar
                 android:id="@+id/search_action_bar"
                 android:layout_width="match_parent"
@@ -43,7 +43,8 @@
                 android:background="?android:attr/selectableItemBackground"
                 android:contentInsetStartWithNavigation="64dp"
                 android:navigationIcon="@drawable/ic_search_24dp"
-                android:theme="?android:attr/actionBarTheme">
+                android:theme="?android:attr/actionBarTheme"
+				app:elevation="0dp">
                 <TextView
                     android:id="@+id/search_action_bar_title"
                     style="@style/TextAppearance.SearchBar"
