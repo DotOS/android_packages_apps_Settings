@@ -85,6 +85,7 @@
     <string name="ok_string">Ok</string>
 
     <string name="dashboard_conditions_title">Dashboard conditions</string>
+    <string name="dashboard_category">Dashboard category</string>
     <string name="summary_dashboard_conditions_enabled">Dashboard conditions are enabled</string>
     <string name="summary_dashboard_conditions_disabled">Dashboard conditions are disabled</string>
 
