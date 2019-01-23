@@ -487,7 +487,7 @@
     </style>
 
     <style name="SuggestionConditionStyle">
-        <item name="android:background">?android:attr/colorPrimary</item>
+        <item name="android:background">?android:attr/colorBackground</item>
     </style>
 
     <style name="TextAppearance.SearchBar" parent="@android:style/TextAppearance.Material.Widget.Toolbar.Subtitle">
