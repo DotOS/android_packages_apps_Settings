@@ -20,7 +20,7 @@
     <item>
         <shape android:shape="oval">
             <solid
-                android:color="@color/homepage_system_background" />
+                android:color="@color/dot_dashboard_system" />
             <size
                 android:width="@dimen/dashboard_tile_image_size"
                 android:height="@dimen/dashboard_tile_image_size" />
@@ -32,5 +32,5 @@
         android:height="@dimen/dashboard_tile_foreground_image_size"
         android:start="@dimen/dashboard_tile_foreground_image_inset"
         android:top="@dimen/dashboard_tile_foreground_image_inset"
-        android:drawable="@drawable/ic_settings_system_dashboard_white" />
+        android:drawable="@drawable/ic_dot_system" />
 </layer-list>
