@@ -3352,7 +3352,7 @@
 
         <activity android:name=".Settings$DotExtrasSettingsActivity"
                   android:label="@string/dotextras_title"
-                  android:icon="@drawable/ic_settings_dotextras"
+                  android:icon="@drawable/ic_homepage_dotextras"
 				  android:taskAffinity="com.android.settings">
             <intent-filter android:priority="9">
                 <action android:name="com.android.settings.action.SETTINGS"/>
