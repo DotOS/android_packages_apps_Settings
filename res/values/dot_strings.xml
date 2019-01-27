@@ -44,7 +44,7 @@
     <string name="telegram_description">Join our Telegram Community</string>
 	<string name="telegram_channel">Telegram Channel</string>
     <string name="telegram_channel_description">Subscribe to our Telegram channel</string>
-    <string name="web">Download Center</string>
+    <string name="web">Downloads Center</string>
     <string name="web_description">Visit our download portal</string>
     <string name="help_translate">Translations</string>
     <string name="help_translate_description">Translate to your language, visit our Crowdin</string>

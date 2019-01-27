@@ -23,7 +23,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
     android:summary="@string/dot_about_info_summary" >
             <intent
                android:action="android.intent.action.VIEW"
-               android:data="https://plus.google.com/communities/101137692192340076065" />
+               android:data="https://www.droidontime.com/" />
       </Preference>
 
         <Preference
@@ -65,10 +65,10 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         <Preference
             android:title="@string/web"
     android:summary="@string/web_description"
-    android:icon="@drawable/ic_web" >
+    android:icon="@drawable/ic_downloads" >
     <intent
                android:action="android.intent.action.VIEW"
-               android:data="https://www.droidontime.com/" />
+               android:data="https://download.droidontime.com/" />
         </Preference>
 
         <Preference
