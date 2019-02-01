@@ -184,6 +184,10 @@
 	
 	<!-- Notification log -->
     <string name="notification_log_summary">Show notifications history log</string>
+	
+	<!-- doze on charge -->
+    <string name="doze_on_charge_title">Show when charging</string>
+    <string name="doze_on_charge_summary">Wake screen when charging</string>
 </resources>
 
 
