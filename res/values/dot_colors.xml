@@ -18,7 +18,7 @@
     <!-- Launcher icon background -->
     <color name="ic_settings_background">#343434</color>
 	<color name="icon_base_color">#ffffff</color>
-    <color name="icon_color_dotextras">#8e98f5</color>
+    <color name="icon_color_dotextras">#c9ceff</color>
 	
 	<!-- Searchbar overlays -->
     <color name="search_bar_background_color">@android:color/white</color>
@@ -31,9 +31,9 @@
     <color name="dot_dashboard_devices_other">#90CAF9</color>
     <color name="dot_dashboard_apps">#FFCDD2</color>
     <color name="dot_dashboard_battery">#B2EBF2</color>
-    <color name="dot_dashboard_display">#FFF59D</color>
-    <color name="dot_dashboard_sound">#A7FFEB</color>
-    <color name="dot_dashboard_storage">#9575CD</color>
+    <color name="dot_dashboard_display">#fff6af</color>
+    <color name="dot_dashboard_sound">#c4fff1</color>
+    <color name="dot_dashboard_storage">#ae8ee5</color>
     <color name="dot_dashboard_security">#A7FFEB</color>
     <color name="dot_dashboard_accounts">#FCE4EC</color>
     <color name="dot_dashboard_accessibility">#D1C4E9</color>
