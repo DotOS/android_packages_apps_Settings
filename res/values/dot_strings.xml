@@ -22,6 +22,10 @@
     <string name="build_date">Build date</string>
     <string name="build_date_default">2015-01-01-0000</string>
     <string name="keywords_build_date">build date, build info</string>
+	
+	<!-- dotOS System Updates -->
+	<string name="dotos_updater_title">System Updater</string>
+    <string name="dotos_updater_summary">dotOS System Updater</string>
 
     <!-- Fingerprint location message -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_front">Locate the fingerprint sensor on the front of your phone.</string>
