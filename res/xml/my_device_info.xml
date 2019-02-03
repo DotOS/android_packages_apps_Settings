@@ -24,8 +24,9 @@
     <com.android.settings.applications.LayoutPreference
         android:key="my_device_info_header"
         android:order="0"
-        android:layout="@layout/settings_entity_header"
+        android:layout="@layout/about_device_header"
         android:selectable="false"/>
+		
 
     <!-- About us -->
     <Preference

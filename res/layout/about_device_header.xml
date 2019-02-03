@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/dot_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dot_header_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:elevation="2dp"
+        android:text="dotOS"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/dot_header_logo"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="?android:attr/colorAccent"
+        app:srcCompat="@drawable/dot_logo_header" />
+
+    <TextView
+        android:id="@+id/device_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dot_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="Redmi Note 4"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

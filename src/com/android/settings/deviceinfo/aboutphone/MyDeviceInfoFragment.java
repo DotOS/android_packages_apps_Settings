@@ -23,9 +23,11 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.pm.UserInfo;
 import android.os.Bundle;
+import android.os.SystemProperties;
 import android.os.UserManager;
 import android.provider.SearchIndexableResource;
 import android.view.View;
+import android.widget.TextView;
 
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.R;
@@ -155,6 +157,8 @@ public class MyDeviceInfoFragment extends DashboardFragment
         final View appSnippet = headerPreference.findViewById(R.id.entity_header);
         final Activity context = getActivity();
         final Bundle bundle = getArguments();
+        final TextView deviceName = (TextView) headerPreference.findViewById(R.id.device_name);
+        deviceName.setText(String.format("%s %s", SystemProperties.get("ro.product.brand"), SystemProperties.get("ro.product.model")));
         EntityHeaderController controller = EntityHeaderController
                 .newInstance(context, this, appSnippet)
                 .setRecyclerView(getListView(), getLifecycle())
