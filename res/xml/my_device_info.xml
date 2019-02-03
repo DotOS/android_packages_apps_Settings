@@ -21,11 +21,17 @@
     android:key="my_device_info_pref_screen"
     android:title="@string/about_settings">
 
-    <com.android.settings.applications.LayoutPreference
+    <!-- <com.android.settings.applications.LayoutPreference
         android:key="my_device_info_header"
         android:order="0"
         android:layout="@layout/settings_entity_header"
-        android:selectable="false"/>
+        android:selectable="false"/> -->
+	
+	<!-- dotos header -->
+	<Preference
+        android:key="about_device_header"
+		android:order="0"
+		android:layout="@layout/about_device_header"  />
 
     <!-- About us -->
     <Preference
