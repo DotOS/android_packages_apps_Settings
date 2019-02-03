@@ -20,6 +20,19 @@
     android:key="system_dashboard_screen"
     android:title="@string/header_category_system"
     settings:initialExpandedChildrenCount="4">
+	
+	<!-- System Updater -->
+    <PreferenceScreen 
+	android:key="dot_updater"
+	android:title="@string/dotos_updater_title"
+	android:icon="@drawable/ic_system_update"
+	android:summary="@string/dotos_updater_summary">       
+	
+	<intent
+        android:action="android.intent.action.MAIN"
+        android:targetPackage="com.dotos.updater"
+        android:targetClass="com.dotos.updater.UpdatesActivity" />     
+    </PreferenceScreen>
 
     <Preference
         android:key="gesture_settings"
