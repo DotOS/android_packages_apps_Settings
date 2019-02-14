@@ -123,7 +123,7 @@
     <color name="homepage_accounts_background">#F15B8D</color>
     <color name="homepage_accessibility_background">#5011C1</color>
     <color name="homepage_system_background">#9E9E9E</color>
-    <color name="homepage_about_background">#9FA8DA</color>
+	<color name="homepage_about_background">#fff0f4c3</color>
     <color name="homepage_support_background">#26459C</color>
     <color name="homepage_generic_icon_background">#cadefc</color>
     <!-- End of dashboard/homepage icon background colors -->
