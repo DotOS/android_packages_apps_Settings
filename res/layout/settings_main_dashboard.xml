@@ -75,6 +75,7 @@
                 android:foreground="?android:attr/selectableItemBackground"
                 android:contentInsetStartWithNavigation="64dp"
                 android:navigationIcon="@drawable/ic_search_24dp"
+				android:elevation="5dp"
                 android:theme="?android:attr/actionBarTheme">
 
                 <TextView
