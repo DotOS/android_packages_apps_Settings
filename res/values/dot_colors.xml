@@ -31,9 +31,9 @@
     <color name="dot_dashboard_devices_other">#90CAF9</color>
     <color name="dot_dashboard_apps">#FFCDD2</color>
     <color name="dot_dashboard_battery">#B2EBF2</color>
-    <color name="dot_dashboard_display">#fff6af</color>
-    <color name="dot_dashboard_sound">#c4fff1</color>
-    <color name="dot_dashboard_storage">#ae8ee5</color>
+    <color name="dot_dashboard_display">#fffef7e0</color>
+    <color name="dot_dashboard_sound">#ffd5ebdf</color>
+    <color name="dot_dashboard_storage">#ffe9d2fd</color>
     <color name="dot_dashboard_security">#A7FFEB</color>
     <color name="dot_dashboard_accounts">#FCE4EC</color>
     <color name="dot_dashboard_accessibility">#D1C4E9</color>
