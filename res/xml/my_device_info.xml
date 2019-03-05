@@ -88,14 +88,6 @@
         settings:keywords="@string/keywords_android_version"
         android:summary="@string/summary_placeholder"/>
 
-    <!-- Extended version --> 
-    <Preference 
-        android:key="dot_version"
-        android:order="32"
-        android:title="@string/dot_version"
-        settings:keywords="@string/keywords_dot_version"
-        android:summary="@string/dot_version_default"/>
-
      <!-- Build date -->
     <Preference 
        android:key="build_date"

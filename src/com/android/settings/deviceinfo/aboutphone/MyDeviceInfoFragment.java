@@ -46,7 +46,6 @@ import com.android.settings.deviceinfo.SELinuxStatusPreferenceController;
 import com.android.settings.deviceinfo.WifiMacAddressPreferenceController;
 import com.android.settings.deviceinfo.firmwareversion.FirmwareVersionPreferenceController;
 import com.android.settings.deviceinfo.BuildDatePreferenceController;
-import com.android.settings.deviceinfo.DotVersionPreferenceController;
 import com.android.settings.deviceinfo.imei.ImeiInfoPreferenceController;
 import com.android.settings.deviceinfo.simstatus.SimStatusPreferenceController;
 import com.android.settings.search.BaseSearchIndexProvider;
@@ -116,7 +115,11 @@ public class MyDeviceInfoFragment extends DashboardFragment
         controllers.add(new SimStatusPreferenceController(context, fragment));
         controllers.add(new DeviceModelPreferenceController(context, fragment));
         controllers.add(new FirmwareVersionPreferenceController(context, fragment));
+<<<<<<< HEAD
         controllers.add(new DotVersionPreferenceController(context, lifecycle));
+=======
+        controllers.add(new DeviceMaintainerPreference(context));
+>>>>>>> 362c3a096b... Settings: Remove Superior version from device info screen
         controllers.add(new BuildDatePreferenceController(context));
         controllers.add(new IpAddressPreferenceController(context, lifecycle));
         controllers.add(new WifiMacAddressPreferenceController(context, lifecycle));
