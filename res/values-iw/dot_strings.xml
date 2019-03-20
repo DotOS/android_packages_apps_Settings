@@ -12,249 +12,249 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- About phone screen, dotOS version -->
-  <string name="dot_version">גרסאת dotOS</string>
-  <string name="dot_version_default">לא ידוע</string>
-  <!-- dot ota -->
-  <string name="dot_ota_title">הורדה ועדכון dotOS</string>
-  <string name="dot_ota_summary">עדכוני dotOS</string>
-  <!-- About phone screen, build date -->
-  <string name="build_date">תאריך היצירה</string>
-  <string name="build_date_default">2015-01-01-0000</string>
-  <!-- Development Settings -->
-  <!-- Dev Options Enabled by Default -->
-  <string name="show_dev_already_enabled">אין צורך, אפשרויות מפתח כבר מופעלות כברירת המחדל.</string>
-  <!-- App details: open play store link if app is user installed -->
-  <string name="app_play_store">אפליקציות גוגל</string>
-  <!-- Advanced night mode brightness -->
-  <string name="night_brightness_category">בהירות</string>
-  <string name="night_brightness_value_title">הורד בהירות במצב לילה</string>
-  <string name="night_bright_disabled">כבוי</string>
-  <string name="night_bright_minimum">בהירות מינימלית</string>
-  <string name="night_bright_low">בהירות נמוכה</string>
-  <string name="night_bright_medium">בהירות בינונית</string>
-  <!-- About dotOS -->
-  <string name="dot_about_info">אודות</string>
-  <string name="dot_about_summary">מי אנחנו</string>
-  <string name="about_dotos_desc">DOT stands for Droid On Time. DOT is based on Pure Aosp - which is highly optimized for supreme performance! Our ROM primary goal is to provide best Optimized Performance for all devices running our ROM be it of Low, Mid or High End. We are here to make your device compete with time itself!....</string>
-  <string name="dev_info">אודות dotOS</string>
-  <string name="dot_team">צוות dotOS</string>
-  <string name="maintainers">מתחזקים</string>
-  <string name="dev_1">מוהאן קם &#40;mohancm&#41;</string>
-  <string name="dev1_description">ראש פרוייקט ומפתח ראשי</string>
-  <string name="dev_4">סאם גראנדה &#40;Reapergod35&#41;</string>
-  <string name="dev4_description">מפתח ממשק</string>
-  <string name="dev_5">יאקוב יונוט</string>
-  <string name="dev5_description">מפתח ממשק</string>
-  <string name="dev_7">הארי אמבאדי &#40;hariambadii&#41;</string>
-  <string name="dev7_description">מעצב גרפי</string>
-  <string name="about_dotos">About dotOS</string>
-  <string name="google">Google</string>
-  <string name="gplus_community">Join our google plus community to stay updated about the rom</string>
-  <string name="telegram">טלגרם</string>
-  <string name="telegram_community">Join our telegram group and be a part of our family</string>
-  <string name="github">Github</string>
-  <string name="git_link">View our source to know what makes it awesome</string>
-  <string name="website">Website</string>
-  <string name="webiste_link">Visit our website for downloads and stuffs</string>
-  <!-- About Contributors -->
-  <string name="dot_contributors">תורמים</string>
-  <string name="contributor_1">אלכס ברוקס</string>
-  <string name="contributor1_description">מעצב רקעים</string>
-  <!-- Changelog -->
-  <string name="changelog_title">רשימת שינויים</string>
-  <string name="changelog_summary">שינויים אחרונים</string>
-  <string name="changelog_loading">טוען רשימת שינויים\u2026</string>
-  <string name="changelog_error">אין אפשרות לטעון את רשימת השינויים</string>
-  <!-- Maintainers Info-->
-  <string name="maintainers_title">מתחזקים רשמיים</string>
-  <string name="maintainers_summary">מכשירים הנתמכים באופן רשמי והמתחזקים שלהם.</string>
-  <!-- Maintainer section -->
-  <string name="maintainer_description">מתחזק: %1$s</string>
-  <string name="loading_devices">טוען רשימת מכשירים...</string>
-  <string name="loading_devices_failed">כשלון בטעינת רשימת המכשירים</string>
-  <string name="devices_list_empty">הרשימה ריקה, לחץ על הסמלון בכדי לטעון מחדש</string>
-  <string name="reload_list">טען מחדש</string>
-  <!-- Expanded desktop -->
-  <string name="power_menu_expanded_desktop">שולחן עבודה מורחב</string>
-  <string name="expanded_hide_nothing">אל תסתיר דבר</string>
-  <string name="expanded_hide_status">הסתר את שורת המצב</string>
-  <string name="expanded_hide_navigation">הסתר את סרגל הניווט</string>
-  <string name="expanded_hide_both">הסתר את שניהם</string>
-  <string name="expanded_nothing_to_show">כדי להוסיף תצורה מותאמת אישית לכל אפליקציה למצב מורחב, בטל את \"מופעל תמיד\"</string>
-  <string name="expanded_desktop_state">מצב מורחב</string>
-  <string name="expanded_enabled_for_all">מופעל תמיד</string>
-  <string name="expanded_user_configurable">מוגדר ע\"י המשתמש</string>
-  <string name="expanded_desktop_style">סגנון הרחבת שולחן העבודה</string>
-  <string name="expanded_desktop_style_description">בחר ברירת מחדל לסגנון הרחבת שולחן העבודה</string>
-  <string name="expanded_desktop_title">אפשרויות הרחבת שולחן העבודה</string>
-  <!-- Screenshot sound -->
-  <string name="screenshot_sound_title">צליל צילום מסך</string>
-  <string name="screenshot_sound_summary">משמיע צליל בעת צילום המסך</string>
-  <!-- Notification volume -->
-  <string name="link_volume_option_title">קשר את עוצמת הצלצול וההתראות</string>
-  <string name="notification_volume_option_title">עוצמת קול של התראות</string>
-  <string name="ring_notification_volume_option_title">עוצמת הקול של צלצולים והתראות</string>
-  <!-- App Ops Settings -->
-  <!-- App Ops Categories -->
-  <string name="app_ops_cat_location">מיקום</string>
-  <string name="app_ops_cat_personal">אישי</string>
-  <string name="app_ops_cat_messaging">הודעות</string>
-  <string name="app_ops_cat_media">מדיה</string>
-  <string name="app_ops_cat_device">מכשיר</string>
-  <string name="app_ops_cat_bootup">אתחול</string>
-  <!-- [CHAR LIMIT=NONE] App ops labels -->
-  <string name="app_ops_access_camera">מצלמה</string>
-  <string name="app_ops_access_location">מיקום</string>
-  <string name="app_ops_access_notifications">התראות</string>
-  <string name="app_ops_activate_vpn">VPN</string>
-  <string name="app_ops_auto_start">הפעלה אוטומטית</string>
-  <string name="app_ops_delete_call_log">מחיקת רישומי שיחות</string>
-  <string name="app_ops_delete_contacts">מחיקת אנשי קשר</string>
-  <string name="app_ops_delete_mms">מחיקת הודעות MMS</string>
-  <string name="app_ops_delete_sms">מחיקת SMS</string>
-  <string name="app_ops_draw_on_top">הצגה מעל יישומים אחרים</string>
-  <string name="app_ops_get_usage_stats">קבל נתוני שימוש</string>
-  <string name="app_ops_keep_device_awake">הישאר ער</string>
-  <string name="app_ops_make_phone_call">התקשר</string>
-  <string name="app_ops_modify_calendar">עדכן לוח שנה</string>
-  <string name="app_ops_modify_call_log">עדכן את יומן השיחות</string>
-  <string name="app_ops_modify_clipboard">שנה את לוח ההעתקות</string>
-  <string name="app_ops_modify_contacts">עדכן אנשי קשר</string>
-  <string name="app_ops_modify_settings">עדכן הגדרות</string>
-  <string name="app_ops_mute_unmute_microphone">השתק/הפעל מיקרופון</string>
-  <string name="app_ops_play_audio">ניגון שמע</string>
-  <string name="app_ops_post_notification">הצגת התראה</string>
-  <string name="app_ops_project_media">הקרנת מדיה</string>
-  <string name="app_ops_read_calendar">קריאת לוח השנה</string>
-  <string name="app_ops_read_call_log">קריאת יומן השיחות</string>
-  <string name="app_ops_read_clipboard">קריאת העתקות טקסט</string>
-  <string name="app_ops_read_contacts">קריאת אנשי קשר</string>
-  <string name="app_ops_read_mms">קריאת הודעות MMS</string>
-  <string name="app_ops_read_sms">קריאת SMS</string>
-  <string name="app_ops_receive_sms">קבלת SMS</string>
-  <string name="app_ops_record_audio">הקלטת שמע</string>
-  <string name="app_ops_send_mms">שליחת הודעות MMS</string>
-  <string name="app_ops_send_sms">שליחת SMS</string>
-  <string name="app_ops_toast_window">הודעות קופצות</string>
-  <string name="app_ops_use_alarm_volume">עוצמת קול של שעון מעורר</string>
-  <string name="app_ops_use_audio_focus">מיקוד שמע</string>
-  <string name="app_ops_use_bluetooth_volume">עוצמת קול של בלוטות\'</string>
-  <string name="app_ops_use_master_volume">עוצמת שמע</string>
-  <string name="app_ops_use_media_buttons">לחצני מדיה</string>
-  <string name="app_ops_use_media_volume">עוצמת קול של מדיה</string>
-  <string name="app_ops_use_notification_volume">עוצמת קול של התראות</string>
-  <string name="app_ops_use_ring_volume">עוצמת קול של צלצול</string>
-  <string name="app_ops_use_vibrate">משוב רטט</string>
-  <string name="app_ops_use_voice_volume">עוצמת שיחה</string>
-  <string name="app_ops_write_mms">כתיבת הודעת MMS</string>
-  <string name="app_ops_write_sms">כתיבת SMS</string>
-  <string name="app_ops_use_fingerprint">טביעת אצבע</string>
-  <string name="app_ops_add_voicemail">תא קולי</string>
-  <string name="app_ops_read_phone_state">גישה למצב המכשיר</string>
-  <string name="app_ops_scan_wifi">סרוק רשתות WiFi</string>
-  <string name="app_ops_change_wallpaper">החלפת תמונת רקע</string>
-  <string name="app_ops_assist_structure">תבנית לסיוע</string>
-  <string name="app_ops_assist_screenshot">צילום מסך</string>
-  <string name="app_ops_use_body_sensors">חיישני גוף</string>
-  <string name="app_ops_read_cell_broadcasts">שידורים סלולריים</string>
-  <string name="app_ops_mock_location">מיקום מדומה</string>
-  <string name="app_ops_read_external_storage">קריאת אחסון חיצוני</string>
-  <string name="app_ops_write_external_storage">כתיבה לאחסון חיצוני</string>
-  <string name="app_ops_turn_on_screen">הפעל מסך</string>
-  <string name="app_ops_get_accounts">חשבונות</string>
-  <string name="app_ops_run_in_background">הפעל ברקע</string>
-  <string name="app_ops_accessibility_volume">עוצמת שמע של נגישות</string>
-  <string name="app_ops_read_phone_numbers">הקרא את מספר הטלפון</string>
-  <string name="app_ops_request_install_packages">התקן חבילות</string>
-  <string name="app_ops_picture_in_picture">תמונה בתוך תמונה</string>
-  <string name="app_ops_app_start_foreground">הפעל בקידמה</string>
-  <string name="app_ops_answer_phone_calls">ענה לשיחות</string>
-  <string name="app_ops_boot_completed">הפעלה אוטומטית</string>
-  <!-- Root Management -->
-  <string name="rootmanagement_title">ניהול root</string>
-  <string name="rootmanagement_dashboard_summary">ניהול הרשאות root</string>
-  <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
-  <string name="supersu_title">SuperSU</string>
-  <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
-  <string name="local_backup_password_title">סיסמת גיבוי לשולחן העבודה</string>
-  <!-- Battery saver color -->
-  <string name="battery_saver_color_title">צבע התראה</string>
-  <string name="battery_saver_color_summary">אפשר צביעת שורת המצב וסרגל הניווט בכתום כשחיסכון בסוללה מופעל</string>
-  <!-- Wakeup options -->
-  <string name="wakeup_when_plugged_unplugged_title">הער בזמן הטענה</string>
-  <string name="wakeup_when_plugged_unplugged_summary">הער את המכשיר בזמן חיבור מטען או ניתוקו.</string>
-  <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
-  <string name="show_cpu_info">הצג את נתוני המעבד</string>
-  <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
-  <string name="show_cpu_info_summary">הצג את נתוני המעבד תמיד</string>
-  <string name="dashboard_conditions_title">אפשרויות מסך ההגדרות</string>
-  <string name="summary_dashboard_conditions_enabled">אפשרויות מסך ההגדרות מופעלות</string>
-  <string name="summary_dashboard_conditions_disabled">אפשרויות מסך ההגדרות כבויות</string>
-  <!-- Custom light color -->
-  <string name="light_customization">התראה באמצעות הלד</string>
-  <string name="custom_light_title">צבע הנורית</string>
-  <string name="custom_light_on_time_title">"זמן הדלקת הנורית במהלך הבהוב (מילישנייה)"</string>
-  <string name="custom_light_off_time_title">"זמן כיבוי הנורית במהלך הבהוב (מילישנייה)"</string>
-  <string name="app_notifications_info_desc">לחץ על אחד מהערוצים הנ\"ל בכדי להגדיר את גוון האור שלהם, ואפשרויות אחרות</string>
-  <string name="value_equals_default">ברירת מחדל</string>
-  <string name="show_light_on_zen_title">הבהב גם במצב \"נא לא להפריע\"</string>
-  <!-- Volume settings - Volume adjustment sound -->
-  <string name="volume_adjust_sounds_title">צליל שינוי עוצמת קול</string>
-  <!-- Themes -->
-  <string name="system_theme_style_title">סגנון ממשק</string>
-  <string name="system_theme_style_auto">מבוסס רקע</string>
-  <string name="system_theme_style_light">ממשק בהיר</string>
-  <string name="system_theme_style_dark">ממשק כהה</string>
-  <string name="system_theme_style_black">ממשק שחור</string>
-  <string name="system_theme_style_neo">dotOS Neo UI</string>
-  <string name="theme_applied_toast">ערכת הנושא הוחלה בהצלחה!</string>
-  <string name="applying_theme_toast">מחיל ערכת נושא, אנא המתן...</string>
-  <!-- Android debugging over WiFi -->
-  <string name="adb_over_network">ADB על גבי רשת</string>
-  <string name="adb_over_network_summary">הפעל ניפוי שגיאות TCP/IP דרך הרשת (WiFi, USB). אפשרות זאת תבוטל בהפעלה הבאה.</string>
-  <!-- Warning for Adb over Network -->
-  <string name="adb_over_network_warning">אזהרה: כאשר ADB דרך הרשת מופעל, המכשיר שלך פתוח לחדירות מכל הרשתות שהוא מחובר אליהן, כולל הרשת הסלולרית!\n\n
+    <!-- About phone screen, dotOS version -->
+    <string name="dot_version">גרסאת dotOS</string>
+    <string name="dot_version_default">לא ידוע</string>
+    <!-- dot ota -->
+    <string name="dot_ota_title">הורדה ועדכון dotOS</string>
+    <string name="dot_ota_summary">עדכוני dotOS</string>
+    <!-- About phone screen, build date -->
+    <string name="build_date">תאריך היצירה</string>
+    <string name="build_date_default">2015-01-01-0000</string>
+    <!-- Development Settings -->
+    <!-- Dev Options Enabled by Default -->
+    <string name="show_dev_already_enabled">אין צורך, אפשרויות מפתח כבר מופעלות כברירת המחדל.</string>
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">אפליקציות גוגל</string>
+    <!-- Advanced night mode brightness -->
+    <string name="night_brightness_category">בהירות</string>
+    <string name="night_brightness_value_title">הורד בהירות במצב לילה</string>
+    <string name="night_bright_disabled">כבוי</string>
+    <string name="night_bright_minimum">בהירות מינימלית</string>
+    <string name="night_bright_low">בהירות נמוכה</string>
+    <string name="night_bright_medium">בהירות בינונית</string>
+    <!-- About dotOS -->
+    <string name="dot_about_info">אודות</string>
+    <string name="dot_about_summary">מי אנחנו</string>
+    <string name="about_dotos_desc">DOT stands for Droid On Time. DOT is based on Pure Aosp - which is highly optimized for supreme performance! Our ROM primary goal is to provide best Optimized Performance for all devices running our ROM be it of Low, Mid or High End. We are here to make your device compete with time itself!....</string>
+    <string name="dev_info">אודות dotOS</string>
+    <string name="dot_team">צוות dotOS</string>
+    <string name="maintainers">מתחזקים</string>
+    <string name="dev_1">מוהאן קם &#40;mohancm&#41;</string>
+    <string name="dev1_description">ראש פרוייקט ומפתח ראשי</string>
+    <string name="dev_4">סאם גראנדה &#40;Reapergod35&#41;</string>
+    <string name="dev4_description">מפתח ממשק</string>
+    <string name="dev_5">יאקוב יונוט</string>
+    <string name="dev5_description">מפתח ממשק</string>
+    <string name="dev_7">הארי אמבאדי &#40;hariambadii&#41;</string>
+    <string name="dev7_description">מעצב גרפי</string>
+    <string name="about_dotos">About dotOS</string>
+    <string name="google">Google</string>
+    <string name="gplus_community">Join our google plus community to stay updated about the rom</string>
+    <string name="telegram">טלגרם</string>
+    <string name="telegram_community">Join our telegram group and be a part of our family</string>
+    <string name="github">Github</string>
+    <string name="git_link">View our source to know what makes it awesome</string>
+    <string name="website">Website</string>
+    <string name="webiste_link">Visit our website for downloads and stuffs</string>
+    <!-- About Contributors -->
+    <string name="dot_contributors">תורמים</string>
+    <string name="contributor_1">אלכס ברוקס</string>
+    <string name="contributor1_description">מעצב רקעים</string>
+    <!-- Changelog -->
+    <string name="changelog_title">רשימת שינויים</string>
+    <string name="changelog_summary">שינויים אחרונים</string>
+    <string name="changelog_loading">טוען רשימת שינויים\u2026</string>
+    <string name="changelog_error">אין אפשרות לטעון את רשימת השינויים</string>
+    <!-- Maintainers Info-->
+    <string name="maintainers_title">מתחזקים רשמיים</string>
+    <string name="maintainers_summary">מכשירים הנתמכים באופן רשמי והמתחזקים שלהם.</string>
+    <!-- Maintainer section -->
+    <string name="maintainer_description">מתחזק: %1$s</string>
+    <string name="loading_devices">טוען רשימת מכשירים...</string>
+    <string name="loading_devices_failed">כשלון בטעינת רשימת המכשירים</string>
+    <string name="devices_list_empty">הרשימה ריקה, לחץ על הסמלון בכדי לטעון מחדש</string>
+    <string name="reload_list">טען מחדש</string>
+    <!-- Expanded desktop -->
+    <string name="power_menu_expanded_desktop">שולחן עבודה מורחב</string>
+    <string name="expanded_hide_nothing">אל תסתיר דבר</string>
+    <string name="expanded_hide_status">הסתר את שורת המצב</string>
+    <string name="expanded_hide_navigation">הסתר את סרגל הניווט</string>
+    <string name="expanded_hide_both">הסתר את שניהם</string>
+    <string name="expanded_nothing_to_show">כדי להוסיף תצורה מותאמת אישית לכל אפליקציה למצב מורחב, בטל את \"מופעל תמיד\"</string>
+    <string name="expanded_desktop_state">מצב מורחב</string>
+    <string name="expanded_enabled_for_all">מופעל תמיד</string>
+    <string name="expanded_user_configurable">מוגדר ע\"י המשתמש</string>
+    <string name="expanded_desktop_style">סגנון הרחבת שולחן העבודה</string>
+    <string name="expanded_desktop_style_description">בחר ברירת מחדל לסגנון הרחבת שולחן העבודה</string>
+    <string name="expanded_desktop_title">אפשרויות הרחבת שולחן העבודה</string>
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">צליל צילום מסך</string>
+    <string name="screenshot_sound_summary">משמיע צליל בעת צילום המסך</string>
+    <!-- Notification volume -->
+    <string name="link_volume_option_title">קשר את עוצמת הצלצול וההתראות</string>
+    <string name="notification_volume_option_title">עוצמת קול של התראות</string>
+    <string name="ring_notification_volume_option_title">עוצמת הקול של צלצולים והתראות</string>
+    <!-- App Ops Settings -->
+    <!-- App Ops Categories -->
+    <string name="app_ops_cat_location">מיקום</string>
+    <string name="app_ops_cat_personal">אישי</string>
+    <string name="app_ops_cat_messaging">הודעות</string>
+    <string name="app_ops_cat_media">מדיה</string>
+    <string name="app_ops_cat_device">מכשיר</string>
+    <string name="app_ops_cat_bootup">אתחול</string>
+    <!-- [CHAR LIMIT=NONE] App ops labels -->
+    <string name="app_ops_access_camera">מצלמה</string>
+    <string name="app_ops_access_location">מיקום</string>
+    <string name="app_ops_access_notifications">התראות</string>
+    <string name="app_ops_activate_vpn">VPN</string>
+    <string name="app_ops_auto_start">הפעלה אוטומטית</string>
+    <string name="app_ops_delete_call_log">מחיקת רישומי שיחות</string>
+    <string name="app_ops_delete_contacts">מחיקת אנשי קשר</string>
+    <string name="app_ops_delete_mms">מחיקת הודעות MMS</string>
+    <string name="app_ops_delete_sms">מחיקת SMS</string>
+    <string name="app_ops_draw_on_top">הצגה מעל יישומים אחרים</string>
+    <string name="app_ops_get_usage_stats">קבל נתוני שימוש</string>
+    <string name="app_ops_keep_device_awake">הישאר ער</string>
+    <string name="app_ops_make_phone_call">התקשר</string>
+    <string name="app_ops_modify_calendar">עדכן לוח שנה</string>
+    <string name="app_ops_modify_call_log">עדכן את יומן השיחות</string>
+    <string name="app_ops_modify_clipboard">שנה את לוח ההעתקות</string>
+    <string name="app_ops_modify_contacts">עדכן אנשי קשר</string>
+    <string name="app_ops_modify_settings">עדכן הגדרות</string>
+    <string name="app_ops_mute_unmute_microphone">השתק/הפעל מיקרופון</string>
+    <string name="app_ops_play_audio">ניגון שמע</string>
+    <string name="app_ops_post_notification">הצגת התראה</string>
+    <string name="app_ops_project_media">הקרנת מדיה</string>
+    <string name="app_ops_read_calendar">קריאת לוח השנה</string>
+    <string name="app_ops_read_call_log">קריאת יומן השיחות</string>
+    <string name="app_ops_read_clipboard">קריאת העתקות טקסט</string>
+    <string name="app_ops_read_contacts">קריאת אנשי קשר</string>
+    <string name="app_ops_read_mms">קריאת הודעות MMS</string>
+    <string name="app_ops_read_sms">קריאת SMS</string>
+    <string name="app_ops_receive_sms">קבלת SMS</string>
+    <string name="app_ops_record_audio">הקלטת שמע</string>
+    <string name="app_ops_send_mms">שליחת הודעות MMS</string>
+    <string name="app_ops_send_sms">שליחת SMS</string>
+    <string name="app_ops_toast_window">הודעות קופצות</string>
+    <string name="app_ops_use_alarm_volume">עוצמת קול של שעון מעורר</string>
+    <string name="app_ops_use_audio_focus">מיקוד שמע</string>
+    <string name="app_ops_use_bluetooth_volume">עוצמת קול של בלוטות\'</string>
+    <string name="app_ops_use_master_volume">עוצמת שמע</string>
+    <string name="app_ops_use_media_buttons">לחצני מדיה</string>
+    <string name="app_ops_use_media_volume">עוצמת קול של מדיה</string>
+    <string name="app_ops_use_notification_volume">עוצמת קול של התראות</string>
+    <string name="app_ops_use_ring_volume">עוצמת קול של צלצול</string>
+    <string name="app_ops_use_vibrate">משוב רטט</string>
+    <string name="app_ops_use_voice_volume">עוצמת שיחה</string>
+    <string name="app_ops_write_mms">כתיבת הודעת MMS</string>
+    <string name="app_ops_write_sms">כתיבת SMS</string>
+    <string name="app_ops_use_fingerprint">טביעת אצבע</string>
+    <string name="app_ops_add_voicemail">תא קולי</string>
+    <string name="app_ops_read_phone_state">גישה למצב המכשיר</string>
+    <string name="app_ops_scan_wifi">סרוק רשתות WiFi</string>
+    <string name="app_ops_change_wallpaper">החלפת תמונת רקע</string>
+    <string name="app_ops_assist_structure">תבנית לסיוע</string>
+    <string name="app_ops_assist_screenshot">צילום מסך</string>
+    <string name="app_ops_use_body_sensors">חיישני גוף</string>
+    <string name="app_ops_read_cell_broadcasts">שידורים סלולריים</string>
+    <string name="app_ops_mock_location">מיקום מדומה</string>
+    <string name="app_ops_read_external_storage">קריאת אחסון חיצוני</string>
+    <string name="app_ops_write_external_storage">כתיבה לאחסון חיצוני</string>
+    <string name="app_ops_turn_on_screen">הפעל מסך</string>
+    <string name="app_ops_get_accounts">חשבונות</string>
+    <string name="app_ops_run_in_background">הפעל ברקע</string>
+    <string name="app_ops_accessibility_volume">עוצמת שמע של נגישות</string>
+    <string name="app_ops_read_phone_numbers">הקרא את מספר הטלפון</string>
+    <string name="app_ops_request_install_packages">התקן חבילות</string>
+    <string name="app_ops_picture_in_picture">תמונה בתוך תמונה</string>
+    <string name="app_ops_app_start_foreground">הפעל בקידמה</string>
+    <string name="app_ops_answer_phone_calls">ענה לשיחות</string>
+    <string name="app_ops_boot_completed">הפעלה אוטומטית</string>
+    <!-- Root Management -->
+    <string name="rootmanagement_title">ניהול root</string>
+    <string name="rootmanagement_dashboard_summary">ניהול הרשאות root</string>
+    <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
+    <string name="supersu_title">SuperSU</string>
+    <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
+    <string name="local_backup_password_title">סיסמת גיבוי לשולחן העבודה</string>
+    <!-- Battery saver color -->
+    <string name="battery_saver_color_title">צבע התראה</string>
+    <string name="battery_saver_color_summary">אפשר צביעת שורת המצב וסרגל הניווט בכתום כשחיסכון בסוללה מופעל</string>
+    <!-- Wakeup options -->
+    <string name="wakeup_when_plugged_unplugged_title">הער בזמן הטענה</string>
+    <string name="wakeup_when_plugged_unplugged_summary">הער את המכשיר בזמן חיבור מטען או ניתוקו.</string>
+    <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
+    <string name="show_cpu_info">הצג את נתוני המעבד</string>
+    <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
+    <string name="show_cpu_info_summary">הצג את נתוני המעבד תמיד</string>
+    <string name="dashboard_conditions_title">אפשרויות מסך ההגדרות</string>
+    <string name="summary_dashboard_conditions_enabled">אפשרויות מסך ההגדרות מופעלות</string>
+    <string name="summary_dashboard_conditions_disabled">אפשרויות מסך ההגדרות כבויות</string>
+    <!-- Custom light color -->
+    <string name="light_customization">התראה באמצעות הלד</string>
+    <string name="custom_light_title">צבע הנורית</string>
+    <string name="custom_light_on_time_title">"זמן הדלקת הנורית במהלך הבהוב (מילישנייה)"</string>
+    <string name="custom_light_off_time_title">"זמן כיבוי הנורית במהלך הבהוב (מילישנייה)"</string>
+    <string name="app_notifications_info_desc">לחץ על אחד מהערוצים הנ\"ל בכדי להגדיר את גוון האור שלהם, ואפשרויות אחרות</string>
+    <string name="value_equals_default">ברירת מחדל</string>
+    <string name="show_light_on_zen_title">הבהב גם במצב \"נא לא להפריע\"</string>
+    <!-- Volume settings - Volume adjustment sound -->
+    <string name="volume_adjust_sounds_title">צליל שינוי עוצמת קול</string>
+    <!-- Themes -->
+    <string name="system_theme_style_title">סגנון ממשק</string>
+    <string name="system_theme_style_auto">מבוסס רקע</string>
+    <string name="system_theme_style_light">ממשק בהיר</string>
+    <string name="system_theme_style_dark">ממשק כהה</string>
+    <string name="system_theme_style_black">ממשק שחור</string>
+    <string name="system_theme_style_neo">dotOS Neo UI</string>
+    <string name="theme_applied_toast">ערכת הנושא הוחלה בהצלחה!</string>
+    <string name="applying_theme_toast">מחיל ערכת נושא, אנא המתן...</string>
+    <!-- Android debugging over WiFi -->
+    <string name="adb_over_network">ADB על גבי רשת</string>
+    <string name="adb_over_network_summary">הפעל ניפוי שגיאות TCP/IP דרך הרשת (WiFi, USB). אפשרות זאת תבוטל בהפעלה הבאה.</string>
+    <!-- Warning for Adb over Network -->
+    <string name="adb_over_network_warning">אזהרה: כאשר ADB דרך הרשת מופעל, המכשיר שלך פתוח לחדירות מכל הרשתות שהוא מחובר אליהן, כולל הרשת הסלולרית!\n\n
 
 שימוש באפשרות זאת מומלץ רק כאשר מחוברים לרשתות בטוחות.\n\n
 
 האם ברצונך להפעיל אפשרות זאת בכל מקרה?</string>
-  <!-- Per-app data restrictions -->
-  <string name="data_usage_app_restrict_data">נתונים סלולריים</string>
-  <string name="data_usage_app_restrict_data_summary">אפשר שימוש בנתונים סלולריים</string>
-  <string name="data_usage_app_restrict_wifi">נתוני Wi\u2011Fi</string>
-  <string name="data_usage_app_restrict_wifi_summary">אפשר שימוש בנתוני Wi\u2011Fi</string>
-  <!-- OS Information -->
-  <string name="os_information">מידע על מערכת ההפעלה</string>
-  <string name="os_summary_info">מידע על ה-ROM</string>
-  <!-- Manual provisioning support -->
-  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> is <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
-  <string name="sim_enabled">מופעל</string>
-  <string name="sim_disabled">כבוי</string>
-  <string name="sim_missing">חסר או פגום</string>
-  <string name="sim_enabler_need_disable_sim">כרטיס ה-SIM יושבת. האם ברצונך להמשיך?</string>
-  <string name="sim_enabler_will_disable_sim_title">לתשומת לבך!</string>
-  <string name="sim_enabler_need_switch_data_service">SIM זה יושבת ו-SIM <xliff:g id="slotid">%1$s</xliff:g> יהיה בשימוש עבור נתוני סלולריים. האם ברצונך להמשיך?</string>
-  <string name="sim_enabler_airplane_on">אין אפשרות לבצע את הפעולה כשמצב טיסה מופעל.</string>
-  <string name="sim_enabler_in_call">אין אפשרות לבצע את הפעולה בזמן שיחה.</string>
-  <string name="sim_enabler_both_inactive">אין אפשרות להשבית את כל כרטיסי ה-SIM</string>
-  <string name="sim_enabler_enabling">מפעיל\u2026</string>
-  <string name="sim_enabler_disabling">משבית\u2026</string>
-  <string name="sub_activate_success">כרטיס ה-SIM הופעל.</string>
-  <string name="sub_activate_failed">ההפעלה נכשלה.</string>
-  <string name="sub_deactivate_success">כרטיס ה־SIM הושבת.</string>
-  <string name="sub_deactivate_failed">ההשבתה נכשלה.</string>
-  <!-- Notification log -->
-  <string name="notification_log_summary">Show notifications history log</string>
-  <!-- Device specific doze package -->
-  <!-- Proximity wake -->
-  <string name="proximity_wake_title">Prevent accidental wake-up</string>
-  <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
-  <!-- Search -->
-  <string name="menu_search">Search apps</string>
-  <string name="menu_search_hint">Search apps\u2026</string>
-  <!-- Reset battery stats -->
-  <string name="ok">Ok</string>
-  <string name="menu_stats_reset">Reset stats</string>
-  <string name="reset_stats_msg">Battery history stats are going to be reset</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_data">נתונים סלולריים</string>
+    <string name="data_usage_app_restrict_data_summary">אפשר שימוש בנתונים סלולריים</string>
+    <string name="data_usage_app_restrict_wifi">נתוני Wi\u2011Fi</string>
+    <string name="data_usage_app_restrict_wifi_summary">אפשר שימוש בנתוני Wi\u2011Fi</string>
+    <!-- OS Information -->
+    <string name="os_information">מידע על מערכת ההפעלה</string>
+    <string name="os_summary_info">מידע על ה-ROM</string>
+    <!-- Manual provisioning support -->
+    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> is <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+    <string name="sim_enabled">מופעל</string>
+    <string name="sim_disabled">כבוי</string>
+    <string name="sim_missing">חסר או פגום</string>
+    <string name="sim_enabler_need_disable_sim">כרטיס ה-SIM יושבת. האם ברצונך להמשיך?</string>
+    <string name="sim_enabler_will_disable_sim_title">לתשומת לבך!</string>
+    <string name="sim_enabler_need_switch_data_service">SIM זה יושבת ו-SIM <xliff:g id="slotid">%1$s</xliff:g> יהיה בשימוש עבור נתוני סלולריים. האם ברצונך להמשיך?</string>
+    <string name="sim_enabler_airplane_on">אין אפשרות לבצע את הפעולה כשמצב טיסה מופעל.</string>
+    <string name="sim_enabler_in_call">אין אפשרות לבצע את הפעולה בזמן שיחה.</string>
+    <string name="sim_enabler_both_inactive">אין אפשרות להשבית את כל כרטיסי ה-SIM</string>
+    <string name="sim_enabler_enabling">מפעיל\u2026</string>
+    <string name="sim_enabler_disabling">משבית\u2026</string>
+    <string name="sub_activate_success">כרטיס ה-SIM הופעל.</string>
+    <string name="sub_activate_failed">ההפעלה נכשלה.</string>
+    <string name="sub_deactivate_success">כרטיס ה־SIM הושבת.</string>
+    <string name="sub_deactivate_failed">ההשבתה נכשלה.</string>
+    <!-- Notification log -->
+    <string name="notification_log_summary">Show notifications history log</string>
+    <!-- Device specific doze package -->
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Prevent accidental wake-up</string>
+    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+    <!-- Search -->
+    <string name="menu_search">Search apps</string>
+    <string name="menu_search_hint">Search apps\u2026</string>
+    <!-- Reset battery stats -->
+    <string name="ok">Ok</string>
+    <string name="menu_stats_reset">Reset stats</string>
+    <string name="reset_stats_msg">Battery history stats are going to be reset</string>
 </resources>

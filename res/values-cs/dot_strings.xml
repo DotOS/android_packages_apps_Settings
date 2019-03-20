@@ -12,245 +12,245 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- About phone screen, dotOS version -->
-  <string name="dot_version">Verze DotOS</string>
-  <string name="dot_version_default">Neznámá</string>
-  <!-- dot ota -->
-  <string name="dot_ota_title">dotOS OTA</string>
-  <string name="dot_ota_summary">Aktualizace systému dotOS</string>
-  <!-- About phone screen, build date -->
-  <string name="build_date">Datum sestavení</string>
-  <string name="build_date_default">2015-01-01-0000</string>
-  <!-- Development Settings -->
-  <!-- Dev Options Enabled by Default -->
-  <string name="show_dev_already_enabled">Není třeba, možnosti vývojáře jsou ve výchozím nastavení povolena.</string>
-  <!-- App details: open play store link if app is user installed -->
-  <string name="app_play_store">Obchod Play</string>
-  <!-- Advanced night mode brightness -->
-  <string name="night_brightness_category">Jas</string>
-  <string name="night_brightness_value_title">Nižší jas při nočním světle</string>
-  <string name="night_bright_disabled">Zakázáno</string>
-  <string name="night_bright_minimum">Minimální jas</string>
-  <string name="night_bright_low">Nízký jas</string>
-  <string name="night_bright_medium">Střední jas</string>
-  <!-- About dotOS -->
-  <string name="dot_about_info">O nás</string>
-  <string name="dot_about_summary">Naše představení a náš tým</string>
-  <string name="about_dotos_desc">DOT znamená Droid On Time. DOT je založen na Pure AOSP - který je vysoce optimalizován pro nejvyšší výkon! Hlavním cílem naší ROM je poskytnout optimalizovaný výkon pro všechna zařízení, která ROM používají, ať už se jedná o Low, Mid nebo High End zařízení!....</string>
-  <string name="dev_info">O dotOS</string>
-  <string name="dot_team">dotOS Team</string>
-  <string name="maintainers">Správci</string>
-  <string name="dev_1">Mohan Cm &#40;mohancm&#41;</string>
-  <string name="dev1_description">Vlastník/Hlavní vývojář</string>
-  <string name="dev_4">Sam Grande &#40;Reapergod35&#41;</string>
-  <string name="dev4_description">Vývojář UI/Přispěvatel</string>
-  <string name="dev_5">Iacob Ionut </string>
-  <string name="dev5_description">Vývojář UI/Přispěvatel</string>
-  <string name="dev_7">Hari Ambadi &#40;hariambadii&#41;</string>
-  <string name="dev7_description">Core GFX/Visual Designer</string>
-  <string name="about_dotos">O dotOS</string>
-  <string name="google">Google</string>
-  <string name="gplus_community">Připojte se k naší komunitě Google+, abyste zůstali o ROM informováni</string>
-  <string name="telegram">Telegram</string>
-  <string name="telegram_community">Připojte se k naší skupině Telegram a staňte se součástí naší rodiny</string>
-  <string name="github">GitHub</string>
-  <string name="git_link">Podívejte se na naše zdroje, abyste věděli, co úžasného děláme</string>
-  <string name="website">Webová stránka</string>
-  <string name="webiste_link">Navštivte naši webovou stránku pro stahování a další</string>
-  <!-- About Contributors -->
-  <string name="dot_contributors">Přispěvatelé</string>
-  <string name="contributor_1">Alex Brookes</string>
-  <string name="contributor1_description">Designér tapet</string>
-  <!-- Changelog -->
-  <string name="changelog_title">Seznam změn</string>
-  <string name="changelog_summary">Poslední změny</string>
-  <string name="changelog_loading">Načítání seznamu změn\u2026</string>
-  <string name="changelog_error">Nelze načíst seznam změn</string>
-  <!-- Maintainers Info-->
-  <string name="maintainers_title">Oficiální správci</string>
-  <string name="maintainers_summary">Seznam podporovaných zařízení a jejich oficiální správci.</string>
-  <!-- Maintainer section -->
-  <string name="maintainer_description">Správce: %1$s</string>
-  <string name="loading_devices">Načítání seznamu zařízení...</string>
-  <string name="loading_devices_failed">Nepodařilo se načíst seznam zařízení</string>
-  <string name="devices_list_empty">Seznam je prázdný, klepněte na ikonu pro obnovení</string>
-  <string name="reload_list">Obnovit</string>
-  <!-- Expanded desktop -->
-  <string name="power_menu_expanded_desktop">Rozšířená plocha</string>
-  <string name="expanded_hide_nothing">Nic neskrývat</string>
-  <string name="expanded_hide_status">Skrýt stavovou lištu</string>
-  <string name="expanded_hide_navigation">Skrýt navigační panel</string>
-  <string name="expanded_hide_both">Skrýt obojí</string>
-  <string name="expanded_nothing_to_show">Dotykem přidejte nastavení pro aplikace, nebo přepněte na vypnuto pro \"Povoleno pro všechny aplikace\"</string>
-  <string name="expanded_desktop_state">Rozšířená obrazovka</string>
-  <string name="expanded_enabled_for_all">Povoleno pro všechny aplikace</string>
-  <string name="expanded_user_configurable">Uživatelsky nastavitelné</string>
-  <string name="expanded_desktop_style">Vzhled rozšířené plochy</string>
-  <string name="expanded_desktop_style_description">Vyberte výchozí styl rozšířené plochy</string>
-  <string name="expanded_desktop_title">Možnosti rozšířené plochy</string>
-  <!-- Screenshot sound -->
-  <string name="screenshot_sound_title">Zvuk při snímku obrazovky</string>
-  <string name="screenshot_sound_summary">Přehraje zvukový efekt při snímku obrazovky</string>
-  <!-- Notification volume -->
-  <string name="link_volume_option_title">Spojit hlasitost vyzvánění a oznámení</string>
-  <string name="notification_volume_option_title">Hlasitost oznámení</string>
-  <string name="ring_notification_volume_option_title">Hlasitost zvonění a oznámení</string>
-  <!-- App Ops Settings -->
-  <!-- App Ops Categories -->
-  <string name="app_ops_cat_location">Poloha</string>
-  <string name="app_ops_cat_personal">Osobní</string>
-  <string name="app_ops_cat_messaging">Zasílání zpráv</string>
-  <string name="app_ops_cat_media">Média</string>
-  <string name="app_ops_cat_device">Zařízení</string>
-  <string name="app_ops_cat_bootup">Při startu</string>
-  <!-- [CHAR LIMIT=NONE] App ops labels -->
-  <string name="app_ops_access_camera">fotoaparát</string>
-  <string name="app_ops_access_location">poloha</string>
-  <string name="app_ops_access_notifications">oznámení</string>
-  <string name="app_ops_activate_vpn">VPN</string>
-  <string name="app_ops_auto_start">automatické spuštění</string>
-  <string name="app_ops_delete_call_log">smazat výpis hovorů</string>
-  <string name="app_ops_delete_contacts">smazat kontakty</string>
-  <string name="app_ops_delete_mms">smazat MMS</string>
-  <string name="app_ops_delete_sms">smazat SMS</string>
-  <string name="app_ops_draw_on_top">vykreslovat do nejvyšší vrstvy</string>
-  <string name="app_ops_get_usage_stats">získat statistiky používání</string>
-  <string name="app_ops_keep_device_awake">udržet probuzené</string>
-  <string name="app_ops_make_phone_call">uskutečnit hovor</string>
-  <string name="app_ops_modify_calendar">aktualizovat kalendář</string>
-  <string name="app_ops_modify_call_log">aktualizovat záznam hovoru</string>
-  <string name="app_ops_modify_clipboard">měnit schránku</string>
-  <string name="app_ops_modify_contacts">aktualizovat kontakty</string>
-  <string name="app_ops_modify_settings">aktualizovat nastavení</string>
-  <string name="app_ops_mute_unmute_microphone">ztišit/zesílit mikrofon</string>
-  <string name="app_ops_play_audio">přehrávat zvuky</string>
-  <string name="app_ops_post_notification">posílat upozornění</string>
-  <string name="app_ops_project_media">promítat média</string>
-  <string name="app_ops_read_calendar">číst kalendář</string>
-  <string name="app_ops_read_call_log">číst seznam hovorů</string>
-  <string name="app_ops_read_clipboard">číst schránku</string>
-  <string name="app_ops_read_contacts">číst kontakty</string>
-  <string name="app_ops_read_mms">číst MMS</string>
-  <string name="app_ops_read_sms">číst SMS</string>
-  <string name="app_ops_receive_sms">přijímat SMS</string>
-  <string name="app_ops_record_audio">nahrávat zvuk</string>
-  <string name="app_ops_send_mms">poslat MMS</string>
-  <string name="app_ops_send_sms">poslat SMS</string>
-  <string name="app_ops_toast_window">informační text</string>
-  <string name="app_ops_use_alarm_volume">hlasitost budíku</string>
-  <string name="app_ops_use_audio_focus">zvukové zdroje</string>
-  <string name="app_ops_use_bluetooth_volume">Hlasitost Bluetooth</string>
-  <string name="app_ops_use_master_volume">hlavní hlasitost</string>
-  <string name="app_ops_use_media_buttons">tlačítka médií</string>
-  <string name="app_ops_use_media_volume">hlasitost médií</string>
-  <string name="app_ops_use_notification_volume">hlasitost oznámení</string>
-  <string name="app_ops_use_ring_volume">hlasitost vyzvánění</string>
-  <string name="app_ops_use_vibrate">hmatová odezva</string>
-  <string name="app_ops_use_voice_volume">hlasitost hovoru</string>
-  <string name="app_ops_write_mms">vytvořit MMS</string>
-  <string name="app_ops_write_sms">vytvořit SMS</string>
-  <string name="app_ops_use_fingerprint">otisk prstu</string>
-  <string name="app_ops_add_voicemail">hlasová schránka</string>
-  <string name="app_ops_read_phone_state">přístup ke stavu telefonu</string>
-  <string name="app_ops_scan_wifi">Prohledat WiFi sítě</string>
-  <string name="app_ops_change_wallpaper">změnit tapetu</string>
-  <string name="app_ops_assist_structure">asistenční struktura</string>
-  <string name="app_ops_assist_screenshot">snímek obrazovky</string>
-  <string name="app_ops_use_body_sensors">tělesné senzory</string>
-  <string name="app_ops_read_cell_broadcasts">vysílání buněk</string>
-  <string name="app_ops_mock_location">falešná poloha</string>
-  <string name="app_ops_read_external_storage">číst ext. úložiště</string>
-  <string name="app_ops_write_external_storage">psát do ext. úložiště</string>
-  <string name="app_ops_turn_on_screen">zapnout obrazovku</string>
-  <string name="app_ops_get_accounts">účty zařízení</string>
-  <string name="app_ops_run_in_background">spustit na pozadí</string>
-  <string name="app_ops_accessibility_volume">přístup k hlasitosti</string>
-  <string name="app_ops_read_phone_numbers">číst tel. čísla</string>
-  <string name="app_ops_request_install_packages">instalovat balíčky</string>
-  <string name="app_ops_picture_in_picture">pip</string>
-  <string name="app_ops_app_start_foreground">spustit na popředí</string>
-  <string name="app_ops_answer_phone_calls">odpovědět na hovor</string>
-  <string name="app_ops_boot_completed">spustit při startu</string>
-  <!-- Root Management -->
-  <string name="rootmanagement_title">Správa přístupu root</string>
-  <string name="rootmanagement_dashboard_summary">Spravovat přístup uživatele root</string>
-  <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
-  <string name="supersu_title">SuperSU</string>
-  <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
-  <string name="local_backup_password_title">Heslo pro zálohy v PC</string>
-  <!-- Battery saver color -->
-  <string name="battery_saver_color_title">Výstražná barva</string>
-  <string name="battery_saver_color_summary">Povolit oranžovou barvu stavové lišty - navigačního panelu při aktivaci spořiče baterie</string>
-  <!-- Wakeup options -->
-  <string name="wakeup_when_plugged_unplugged_title">Probudit při nabíjení</string>
-  <string name="wakeup_when_plugged_unplugged_summary">Probudit v případě připojení/odpojení nabíječky.</string>
-  <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
-  <string name="show_cpu_info">Zobrazit využití CPU</string>
-  <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
-  <string name="show_cpu_info_summary">Překrytí obrazovky informacemi o aktuálním vytížení CPU</string>
-  <string name="dashboard_conditions_title">Podmínky hlavního panelu</string>
-  <string name="summary_dashboard_conditions_enabled">Podmínky hlavního panelu jsou povoleny</string>
-  <string name="summary_dashboard_conditions_disabled">Podmínky hlavního panelu jsou zakázány</string>
-  <!-- Custom light color -->
-  <string name="light_customization">Oznámení LED</string>
-  <string name="custom_light_title">Barva kontrolky</string>
-  <string name="custom_light_on_time_title">"Doba zapnutí kontrolky LED během pulsování (ms)"</string>
-  <string name="custom_light_off_time_title">"Doba vypnutí kontrolky LED během pulsování (ms)"</string>
-  <string name="app_notifications_info_desc">Klepnutím na jeden z výše uvedených kanálů můžete konfigurovat barvy světla a další možnosti</string>
-  <string name="value_equals_default">Předvolba</string>
-  <string name="show_light_on_zen_title">Blikat během režimu Nerušit</string>
-  <!-- Volume settings - Volume adjustment sound -->
-  <string name="volume_adjust_sounds_title">Zvuky při změně hlasitosti</string>
-  <!-- Themes -->
-  <string name="system_theme_style_title">Styl UI</string>
-  <string name="system_theme_style_auto">Podle tapety</string>
-  <string name="system_theme_style_light">Světlé UI</string>
-  <string name="system_theme_style_dark">Tmavé UI</string>
-  <string name="system_theme_style_black">Černé UI</string>
-  <string name="system_theme_style_neo">dotOS Neo UI</string>
-  <string name="theme_applied_toast">Motiv použit!</string>
-  <string name="applying_theme_toast">Aplikuji motiv, čekejte prosím...</string>
-  <!-- Android debugging over WiFi -->
-  <string name="adb_over_network">ADB přes síť</string>
-  <string name="adb_over_network_summary">Povolit ladění přes síťové připojení TCP/IP (Wi-Fi nebo síť USB). Toto nastavení bude obnoveno po restartu</string>
-  <!-- Warning for Adb over Network -->
-  <string name="adb_over_network_warning">UPOZORNĚNÍ: Pokud je povoleno ADB přes síťové připojení, zařízení je otevřené pro pokusy o průniky na všech připojených sítích, včetně GSM datové sítě!\n\nPoužijte tuto vlastnost pouze pokud jste připojeni k důvěryhodné síti.\n\nOpravdu chcete povolit tuto funkci?</string>
-  <!-- Per-app data restrictions -->
-  <string name="data_usage_app_restrict_data">Mobilní data</string>
-  <string name="data_usage_app_restrict_data_summary">Povolit používání mobilních dat</string>
-  <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
-  <string name="data_usage_app_restrict_wifi_summary">Povolit používání Wi\u2011Fi dat</string>
-  <!-- OS Information -->
-  <string name="os_information">Informace OS</string>
-  <string name="os_summary_info">Informace o ROM</string>
-  <!-- Manual provisioning support -->
-  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> je <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
-  <string name="sim_enabled">povoleno</string>
-  <string name="sim_disabled">zakázáno</string>
-  <string name="sim_missing">chybějící nebo vadná</string>
-  <string name="sim_enabler_need_disable_sim">SIM karta bude deaktivována. Přejete si pokračovat?</string>
-  <string name="sim_enabler_will_disable_sim_title">Varování</string>
-  <string name="sim_enabler_need_switch_data_service">Tato SIM karta bude zakázána a SIM <xliff:g id="slotid">%1$s</xliff:g> bude použita pro datové služby. Jste si jisti, že chcete pokračovat?</string>
-  <string name="sim_enabler_airplane_on">Nelze provést akci, když je aktivován mód letadlo.</string>
-  <string name="sim_enabler_in_call">Nelze provést tuto akci při hovoru.</string>
-  <string name="sim_enabler_both_inactive">Nelze zakázat všechny SIM karty</string>
-  <string name="sim_enabler_enabling">Aktivování\u2026</string>
-  <string name="sim_enabler_disabling">Deaktivování\u2026</string>
-  <string name="sub_activate_success">SIM karta aktivována.</string>
-  <string name="sub_activate_failed">Aktivace selhala.</string>
-  <string name="sub_deactivate_success">SIM karta deaktivována.</string>
-  <string name="sub_deactivate_failed">Deaktivace selhala.</string>
-  <!-- Notification log -->
-  <string name="notification_log_summary">Zobrazit protokol historie oznámení</string>
-  <!-- Device specific doze package -->
-  <!-- Proximity wake -->
-  <string name="proximity_wake_title">Zabránit nechtěnému probuzení</string>
-  <string name="proximity_wake_summary">Kontrolovat senzor přiblížení pro zabránění nechtěného probuzení</string>
-  <!-- Search -->
-  <string name="menu_search">Vyhledávání aplikací</string>
-  <string name="menu_search_hint">Vyhledávání aplikací\u2026</string>
-  <!-- Reset battery stats -->
-  <string name="ok">OK</string>
-  <string name="menu_stats_reset">Vynulovat statistiky</string>
-  <string name="reset_stats_msg">Chystáte se obnovit historii statistiky baterie</string>
+    <!-- About phone screen, dotOS version -->
+    <string name="dot_version">Verze DotOS</string>
+    <string name="dot_version_default">Neznámá</string>
+    <!-- dot ota -->
+    <string name="dot_ota_title">dotOS OTA</string>
+    <string name="dot_ota_summary">Aktualizace systému dotOS</string>
+    <!-- About phone screen, build date -->
+    <string name="build_date">Datum sestavení</string>
+    <string name="build_date_default">2015-01-01-0000</string>
+    <!-- Development Settings -->
+    <!-- Dev Options Enabled by Default -->
+    <string name="show_dev_already_enabled">Není třeba, možnosti vývojáře jsou ve výchozím nastavení povolena.</string>
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Obchod Play</string>
+    <!-- Advanced night mode brightness -->
+    <string name="night_brightness_category">Jas</string>
+    <string name="night_brightness_value_title">Nižší jas při nočním světle</string>
+    <string name="night_bright_disabled">Zakázáno</string>
+    <string name="night_bright_minimum">Minimální jas</string>
+    <string name="night_bright_low">Nízký jas</string>
+    <string name="night_bright_medium">Střední jas</string>
+    <!-- About dotOS -->
+    <string name="dot_about_info">O nás</string>
+    <string name="dot_about_summary">Naše představení a náš tým</string>
+    <string name="about_dotos_desc">DOT znamená Droid On Time. DOT je založen na Pure AOSP - který je vysoce optimalizován pro nejvyšší výkon! Hlavním cílem naší ROM je poskytnout optimalizovaný výkon pro všechna zařízení, která ROM používají, ať už se jedná o Low, Mid nebo High End zařízení!....</string>
+    <string name="dev_info">O dotOS</string>
+    <string name="dot_team">dotOS Team</string>
+    <string name="maintainers">Správci</string>
+    <string name="dev_1">Mohan Cm &#40;mohancm&#41;</string>
+    <string name="dev1_description">Vlastník/Hlavní vývojář</string>
+    <string name="dev_4">Sam Grande &#40;Reapergod35&#41;</string>
+    <string name="dev4_description">Vývojář UI/Přispěvatel</string>
+    <string name="dev_5">Iacob Ionut </string>
+    <string name="dev5_description">Vývojář UI/Přispěvatel</string>
+    <string name="dev_7">Hari Ambadi &#40;hariambadii&#41;</string>
+    <string name="dev7_description">Core GFX/Visual Designer</string>
+    <string name="about_dotos">O dotOS</string>
+    <string name="google">Google</string>
+    <string name="gplus_community">Připojte se k naší komunitě Google+, abyste zůstali o ROM informováni</string>
+    <string name="telegram">Telegram</string>
+    <string name="telegram_community">Připojte se k naší skupině Telegram a staňte se součástí naší rodiny</string>
+    <string name="github">GitHub</string>
+    <string name="git_link">Podívejte se na naše zdroje, abyste věděli, co úžasného děláme</string>
+    <string name="website">Webová stránka</string>
+    <string name="webiste_link">Navštivte naši webovou stránku pro stahování a další</string>
+    <!-- About Contributors -->
+    <string name="dot_contributors">Přispěvatelé</string>
+    <string name="contributor_1">Alex Brookes</string>
+    <string name="contributor1_description">Designér tapet</string>
+    <!-- Changelog -->
+    <string name="changelog_title">Seznam změn</string>
+    <string name="changelog_summary">Poslední změny</string>
+    <string name="changelog_loading">Načítání seznamu změn\u2026</string>
+    <string name="changelog_error">Nelze načíst seznam změn</string>
+    <!-- Maintainers Info-->
+    <string name="maintainers_title">Oficiální správci</string>
+    <string name="maintainers_summary">Seznam podporovaných zařízení a jejich oficiální správci.</string>
+    <!-- Maintainer section -->
+    <string name="maintainer_description">Správce: %1$s</string>
+    <string name="loading_devices">Načítání seznamu zařízení...</string>
+    <string name="loading_devices_failed">Nepodařilo se načíst seznam zařízení</string>
+    <string name="devices_list_empty">Seznam je prázdný, klepněte na ikonu pro obnovení</string>
+    <string name="reload_list">Obnovit</string>
+    <!-- Expanded desktop -->
+    <string name="power_menu_expanded_desktop">Rozšířená plocha</string>
+    <string name="expanded_hide_nothing">Nic neskrývat</string>
+    <string name="expanded_hide_status">Skrýt stavovou lištu</string>
+    <string name="expanded_hide_navigation">Skrýt navigační panel</string>
+    <string name="expanded_hide_both">Skrýt obojí</string>
+    <string name="expanded_nothing_to_show">Dotykem přidejte nastavení pro aplikace, nebo přepněte na vypnuto pro \"Povoleno pro všechny aplikace\"</string>
+    <string name="expanded_desktop_state">Rozšířená obrazovka</string>
+    <string name="expanded_enabled_for_all">Povoleno pro všechny aplikace</string>
+    <string name="expanded_user_configurable">Uživatelsky nastavitelné</string>
+    <string name="expanded_desktop_style">Vzhled rozšířené plochy</string>
+    <string name="expanded_desktop_style_description">Vyberte výchozí styl rozšířené plochy</string>
+    <string name="expanded_desktop_title">Možnosti rozšířené plochy</string>
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Zvuk při snímku obrazovky</string>
+    <string name="screenshot_sound_summary">Přehraje zvukový efekt při snímku obrazovky</string>
+    <!-- Notification volume -->
+    <string name="link_volume_option_title">Spojit hlasitost vyzvánění a oznámení</string>
+    <string name="notification_volume_option_title">Hlasitost oznámení</string>
+    <string name="ring_notification_volume_option_title">Hlasitost zvonění a oznámení</string>
+    <!-- App Ops Settings -->
+    <!-- App Ops Categories -->
+    <string name="app_ops_cat_location">Poloha</string>
+    <string name="app_ops_cat_personal">Osobní</string>
+    <string name="app_ops_cat_messaging">Zasílání zpráv</string>
+    <string name="app_ops_cat_media">Média</string>
+    <string name="app_ops_cat_device">Zařízení</string>
+    <string name="app_ops_cat_bootup">Při startu</string>
+    <!-- [CHAR LIMIT=NONE] App ops labels -->
+    <string name="app_ops_access_camera">fotoaparát</string>
+    <string name="app_ops_access_location">poloha</string>
+    <string name="app_ops_access_notifications">oznámení</string>
+    <string name="app_ops_activate_vpn">VPN</string>
+    <string name="app_ops_auto_start">automatické spuštění</string>
+    <string name="app_ops_delete_call_log">smazat výpis hovorů</string>
+    <string name="app_ops_delete_contacts">smazat kontakty</string>
+    <string name="app_ops_delete_mms">smazat MMS</string>
+    <string name="app_ops_delete_sms">smazat SMS</string>
+    <string name="app_ops_draw_on_top">vykreslovat do nejvyšší vrstvy</string>
+    <string name="app_ops_get_usage_stats">získat statistiky používání</string>
+    <string name="app_ops_keep_device_awake">udržet probuzené</string>
+    <string name="app_ops_make_phone_call">uskutečnit hovor</string>
+    <string name="app_ops_modify_calendar">aktualizovat kalendář</string>
+    <string name="app_ops_modify_call_log">aktualizovat záznam hovoru</string>
+    <string name="app_ops_modify_clipboard">měnit schránku</string>
+    <string name="app_ops_modify_contacts">aktualizovat kontakty</string>
+    <string name="app_ops_modify_settings">aktualizovat nastavení</string>
+    <string name="app_ops_mute_unmute_microphone">ztišit/zesílit mikrofon</string>
+    <string name="app_ops_play_audio">přehrávat zvuky</string>
+    <string name="app_ops_post_notification">posílat upozornění</string>
+    <string name="app_ops_project_media">promítat média</string>
+    <string name="app_ops_read_calendar">číst kalendář</string>
+    <string name="app_ops_read_call_log">číst seznam hovorů</string>
+    <string name="app_ops_read_clipboard">číst schránku</string>
+    <string name="app_ops_read_contacts">číst kontakty</string>
+    <string name="app_ops_read_mms">číst MMS</string>
+    <string name="app_ops_read_sms">číst SMS</string>
+    <string name="app_ops_receive_sms">přijímat SMS</string>
+    <string name="app_ops_record_audio">nahrávat zvuk</string>
+    <string name="app_ops_send_mms">poslat MMS</string>
+    <string name="app_ops_send_sms">poslat SMS</string>
+    <string name="app_ops_toast_window">informační text</string>
+    <string name="app_ops_use_alarm_volume">hlasitost budíku</string>
+    <string name="app_ops_use_audio_focus">zvukové zdroje</string>
+    <string name="app_ops_use_bluetooth_volume">Hlasitost Bluetooth</string>
+    <string name="app_ops_use_master_volume">hlavní hlasitost</string>
+    <string name="app_ops_use_media_buttons">tlačítka médií</string>
+    <string name="app_ops_use_media_volume">hlasitost médií</string>
+    <string name="app_ops_use_notification_volume">hlasitost oznámení</string>
+    <string name="app_ops_use_ring_volume">hlasitost vyzvánění</string>
+    <string name="app_ops_use_vibrate">hmatová odezva</string>
+    <string name="app_ops_use_voice_volume">hlasitost hovoru</string>
+    <string name="app_ops_write_mms">vytvořit MMS</string>
+    <string name="app_ops_write_sms">vytvořit SMS</string>
+    <string name="app_ops_use_fingerprint">otisk prstu</string>
+    <string name="app_ops_add_voicemail">hlasová schránka</string>
+    <string name="app_ops_read_phone_state">přístup ke stavu telefonu</string>
+    <string name="app_ops_scan_wifi">Prohledat WiFi sítě</string>
+    <string name="app_ops_change_wallpaper">změnit tapetu</string>
+    <string name="app_ops_assist_structure">asistenční struktura</string>
+    <string name="app_ops_assist_screenshot">snímek obrazovky</string>
+    <string name="app_ops_use_body_sensors">tělesné senzory</string>
+    <string name="app_ops_read_cell_broadcasts">vysílání buněk</string>
+    <string name="app_ops_mock_location">falešná poloha</string>
+    <string name="app_ops_read_external_storage">číst ext. úložiště</string>
+    <string name="app_ops_write_external_storage">psát do ext. úložiště</string>
+    <string name="app_ops_turn_on_screen">zapnout obrazovku</string>
+    <string name="app_ops_get_accounts">účty zařízení</string>
+    <string name="app_ops_run_in_background">spustit na pozadí</string>
+    <string name="app_ops_accessibility_volume">přístup k hlasitosti</string>
+    <string name="app_ops_read_phone_numbers">číst tel. čísla</string>
+    <string name="app_ops_request_install_packages">instalovat balíčky</string>
+    <string name="app_ops_picture_in_picture">pip</string>
+    <string name="app_ops_app_start_foreground">spustit na popředí</string>
+    <string name="app_ops_answer_phone_calls">odpovědět na hovor</string>
+    <string name="app_ops_boot_completed">spustit při startu</string>
+    <!-- Root Management -->
+    <string name="rootmanagement_title">Správa přístupu root</string>
+    <string name="rootmanagement_dashboard_summary">Spravovat přístup uživatele root</string>
+    <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
+    <string name="supersu_title">SuperSU</string>
+    <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
+    <string name="local_backup_password_title">Heslo pro zálohy v PC</string>
+    <!-- Battery saver color -->
+    <string name="battery_saver_color_title">Výstražná barva</string>
+    <string name="battery_saver_color_summary">Povolit oranžovou barvu stavové lišty - navigačního panelu při aktivaci spořiče baterie</string>
+    <!-- Wakeup options -->
+    <string name="wakeup_when_plugged_unplugged_title">Probudit při nabíjení</string>
+    <string name="wakeup_when_plugged_unplugged_summary">Probudit v případě připojení/odpojení nabíječky.</string>
+    <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
+    <string name="show_cpu_info">Zobrazit využití CPU</string>
+    <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
+    <string name="show_cpu_info_summary">Překrytí obrazovky informacemi o aktuálním vytížení CPU</string>
+    <string name="dashboard_conditions_title">Podmínky hlavního panelu</string>
+    <string name="summary_dashboard_conditions_enabled">Podmínky hlavního panelu jsou povoleny</string>
+    <string name="summary_dashboard_conditions_disabled">Podmínky hlavního panelu jsou zakázány</string>
+    <!-- Custom light color -->
+    <string name="light_customization">Oznámení LED</string>
+    <string name="custom_light_title">Barva kontrolky</string>
+    <string name="custom_light_on_time_title">"Doba zapnutí kontrolky LED během pulsování (ms)"</string>
+    <string name="custom_light_off_time_title">"Doba vypnutí kontrolky LED během pulsování (ms)"</string>
+    <string name="app_notifications_info_desc">Klepnutím na jeden z výše uvedených kanálů můžete konfigurovat barvy světla a další možnosti</string>
+    <string name="value_equals_default">Předvolba</string>
+    <string name="show_light_on_zen_title">Blikat během režimu Nerušit</string>
+    <!-- Volume settings - Volume adjustment sound -->
+    <string name="volume_adjust_sounds_title">Zvuky při změně hlasitosti</string>
+    <!-- Themes -->
+    <string name="system_theme_style_title">Styl UI</string>
+    <string name="system_theme_style_auto">Podle tapety</string>
+    <string name="system_theme_style_light">Světlé UI</string>
+    <string name="system_theme_style_dark">Tmavé UI</string>
+    <string name="system_theme_style_black">Černé UI</string>
+    <string name="system_theme_style_neo">dotOS Neo UI</string>
+    <string name="theme_applied_toast">Motiv použit!</string>
+    <string name="applying_theme_toast">Aplikuji motiv, čekejte prosím...</string>
+    <!-- Android debugging over WiFi -->
+    <string name="adb_over_network">ADB přes síť</string>
+    <string name="adb_over_network_summary">Povolit ladění přes síťové připojení TCP/IP (Wi-Fi nebo síť USB). Toto nastavení bude obnoveno po restartu</string>
+    <!-- Warning for Adb over Network -->
+    <string name="adb_over_network_warning">UPOZORNĚNÍ: Pokud je povoleno ADB přes síťové připojení, zařízení je otevřené pro pokusy o průniky na všech připojených sítích, včetně GSM datové sítě!\n\nPoužijte tuto vlastnost pouze pokud jste připojeni k důvěryhodné síti.\n\nOpravdu chcete povolit tuto funkci?</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_data">Mobilní data</string>
+    <string name="data_usage_app_restrict_data_summary">Povolit používání mobilních dat</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_wifi_summary">Povolit používání Wi\u2011Fi dat</string>
+    <!-- OS Information -->
+    <string name="os_information">Informace OS</string>
+    <string name="os_summary_info">Informace o ROM</string>
+    <!-- Manual provisioning support -->
+    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> je <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+    <string name="sim_enabled">povoleno</string>
+    <string name="sim_disabled">zakázáno</string>
+    <string name="sim_missing">chybějící nebo vadná</string>
+    <string name="sim_enabler_need_disable_sim">SIM karta bude deaktivována. Přejete si pokračovat?</string>
+    <string name="sim_enabler_will_disable_sim_title">Varování</string>
+    <string name="sim_enabler_need_switch_data_service">Tato SIM karta bude zakázána a SIM <xliff:g id="slotid">%1$s</xliff:g> bude použita pro datové služby. Jste si jisti, že chcete pokračovat?</string>
+    <string name="sim_enabler_airplane_on">Nelze provést akci, když je aktivován mód letadlo.</string>
+    <string name="sim_enabler_in_call">Nelze provést tuto akci při hovoru.</string>
+    <string name="sim_enabler_both_inactive">Nelze zakázat všechny SIM karty</string>
+    <string name="sim_enabler_enabling">Aktivování\u2026</string>
+    <string name="sim_enabler_disabling">Deaktivování\u2026</string>
+    <string name="sub_activate_success">SIM karta aktivována.</string>
+    <string name="sub_activate_failed">Aktivace selhala.</string>
+    <string name="sub_deactivate_success">SIM karta deaktivována.</string>
+    <string name="sub_deactivate_failed">Deaktivace selhala.</string>
+    <!-- Notification log -->
+    <string name="notification_log_summary">Zobrazit protokol historie oznámení</string>
+    <!-- Device specific doze package -->
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Zabránit nechtěnému probuzení</string>
+    <string name="proximity_wake_summary">Kontrolovat senzor přiblížení pro zabránění nechtěného probuzení</string>
+    <!-- Search -->
+    <string name="menu_search">Vyhledávání aplikací</string>
+    <string name="menu_search_hint">Vyhledávání aplikací\u2026</string>
+    <!-- Reset battery stats -->
+    <string name="ok">OK</string>
+    <string name="menu_stats_reset">Vynulovat statistiky</string>
+    <string name="reset_stats_msg">Chystáte se obnovit historii statistiky baterie</string>
 </resources>
