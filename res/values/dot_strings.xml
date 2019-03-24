@@ -437,4 +437,8 @@
     <string name="app_ops_permissions_allowed">Allowed</string>
     <string name="app_ops_permissions_ignored">Ignored</string>
     <string name="app_ops_permissions_always_ask">Always ask</string>
+
+    <!-- Battery saving mode for Location - GPS will be disabled -->
+    <string name="location_mode_battery_saving_title">Battery saving mode</string>
+    <string name="location_mode_battery_saving_summary">Use only Wi\u2011Fi, Bluetooth, or mobile networks to determine location (less accurate)</string>
 </resources>
