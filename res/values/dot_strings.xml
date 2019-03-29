@@ -188,6 +188,12 @@
 	<!-- doze on charge -->
     <string name="doze_on_charge_title">Show when charging</string>
     <string name="doze_on_charge_summary">Wake screen when charging</string>
+
+    <!-- Notch behavior -->
+    <string name="display_cutout_mode_title">Notch behavior</string>
+    <string name="display_cutout_mode_normal">Default</string>
+    <string name="display_cutout_mode_hidden">Hidden</string>
+
 </resources>
 
 
