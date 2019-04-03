@@ -61,4 +61,10 @@
         android:title="@string/device_screen_usage"
         android:selectable="false" />
 
+    <Preference
+        android:fragment="com.android.settings.fuelgauge.AggressiveBatterySettings"
+        android:key="aggressive_battery"
+        android:title="@string/aggressive_battery_title"
+        android:summary="@string/aggressive_battery_summary" />
+
 </PreferenceScreen>

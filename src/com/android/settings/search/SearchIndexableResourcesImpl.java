@@ -54,6 +54,7 @@ import com.android.settings.fuelgauge.PowerUsageAdvanced;
 import com.android.settings.fuelgauge.batterysaver.BatterySaverSettings;
 import com.android.settings.fuelgauge.PowerUsageSummary;
 import com.android.settings.fuelgauge.SmartBatterySettings;
+import com.android.settings.fuelgauge.AggressiveBatterySettings;
 import com.android.settings.gestures.AssistGestureSettings;
 import com.android.settings.gestures.DoubleTapPowerSettings;
 import com.android.settings.gestures.DoubleTapScreenSettings;
@@ -186,6 +187,7 @@ public class SearchIndexableResourcesImpl implements SearchIndexableResources {
         addIndex(ZenModeRestrictNotificationsSettings.class);
         addIndex(NightDisplaySettings.class);
         addIndex(SmartBatterySettings.class);
+        addIndex(AggressiveBatterySettings.class);
         addIndex(MyDeviceInfoFragment.class);
         addIndex(VibrationSettings.class);
         addIndex(RecentLocationRequestSeeAllFragment.class);
