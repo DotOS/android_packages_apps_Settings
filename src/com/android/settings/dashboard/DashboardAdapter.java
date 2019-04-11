@@ -27,6 +27,7 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.text.TextUtils;
 import android.util.Log;
+import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -239,6 +240,8 @@ public class DashboardAdapter extends RecyclerView.Adapter<DashboardAdapter.Dash
         // save the view so that we can scroll it when expanding/collapsing the suggestion and
         // conditions.
         mRecyclerView = recyclerView;
+        mRecyclerView.addItemDecoration(new DashboardRecyclerSpacer((int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 24, mContext.getResources().getDisplayMetrics()), 0));
+        mRecyclerView.setOverScrollMode(View.OVER_SCROLL_NEVER);
     }
 
     public Object getItem(long itemId) {

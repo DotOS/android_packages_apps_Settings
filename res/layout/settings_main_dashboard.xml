@@ -17,7 +17,7 @@
 */
 -->
 
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
@@ -25,37 +25,12 @@
     android:orientation="vertical">
 
     <LinearLayout
+        android:id="@+id/search_bar_container"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-		android:orientation="vertical"
-        android:background="?android:attr/colorPrimary">
-
-        <RelativeLayout
-            android:id="@+id/search_bar_container"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <TextView
-                android:id="@+id/settings_title"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="16dp"
-                android:fontFamily="@font/google_sans_bold"
-                android:text="@string/settings_label"
-                android:textColor="?android:attr/textColorPrimary"
-                android:textSize="32sp"
-                android:textStyle="bold" />
-				
-			<com.android.settings.dashboard.DashboardProfileIcon
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-				android:layout_alignTop="@+id/settings_title"
-				android:layout_alignParentEnd="true"
-				android:layout_marginEnd="16dp" />
-
-        </RelativeLayout>
+        android:elevation="4dp"
+        android:background="@android:color/transparent"
+        android:orientation="vertical">
 
         <android.support.v7.widget.CardView
             android:id="@+id/search_bar"
@@ -65,26 +40,40 @@
             app:cardCornerRadius="12dp"
             app:cardElevation="3dp">
 
-            <Toolbar
-                android:id="@+id/search_action_bar"
+            <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
-				android:background="@drawable/rounded_outline_bg"
-				android:clickable="true"
-                android:clipChildren="true"
-                android:foreground="?android:attr/selectableItemBackground"
-                android:contentInsetStartWithNavigation="64dp"
-                android:navigationIcon="@drawable/ic_search_24dp"
-                android:theme="?android:attr/actionBarTheme">
+                android:layout_height="wrap_content">
 
-                <TextView
-                    android:id="@+id/search_action_bar_title"
-                    style="@style/TextAppearance.SearchBar"
-					android:alpha="0.8"
+                <Toolbar
+                    android:id="@+id/search_action_bar"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/rounded_outline_bg"
+                    android:clickable="true"
+                    android:clipChildren="true"
+                    android:contentInsetStartWithNavigation="64dp"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:navigationIcon="@drawable/ic_search_24dp"
+                    android:theme="?android:attr/actionBarTheme">
+
+                    <TextView
+                        android:id="@+id/search_action_bar_title"
+                        style="@style/TextAppearance.SearchBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:alpha="0.8"
+                        android:text="@string/search_menu" />
+                </Toolbar>
+
+                <com.android.settings.dashboard.DashboardProfileIcon
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/search_menu" />
-            </Toolbar>
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="12dp" />
+
+            </RelativeLayout>
+
         </android.support.v7.widget.CardView>
 
     </LinearLayout>
@@ -92,5 +81,7 @@
     <FrameLayout
         android:id="@+id/main_content"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-</LinearLayout>
+        android:layout_height="match_parent"
+        android:layout_below="@id/search_bar_container"
+        android:layout_marginTop="-24dp" />
+</RelativeLayout>
