@@ -3,26 +3,12 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
-    android:layout_height="42dp"
-    android:background="@drawable/bg_dashboard_profile"
-    android:paddingStart="6dp"
-    android:paddingEnd="6dp">
-
-    <TextView
-        android:id="@+id/user_name"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
-        android:fontFamily="@font/google_sans_bold"
-        android:textColor="?android:attr/colorAccent" />
+    android:layout_height="wrap_content">
 
     <android.support.v7.widget.CardView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
-        android:layout_toEndOf="@+id/user_name"
         app:cardCornerRadius="16dp"
         app:cardElevation="0dp">
 
