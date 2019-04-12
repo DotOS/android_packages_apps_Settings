@@ -30,4 +30,11 @@
 	<declare-styleable name="Themes">
         <attr name="waveViewStyle" format="reference"/>
     </declare-styleable>
+    
+    <style name="MaterialTabComponent">
+        <item name="textAllCaps">false</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/google_sans_bold</item>
+        <item name="android:textColor">@color/material_tab_text_color</item>
+    </style>
 </resources>
