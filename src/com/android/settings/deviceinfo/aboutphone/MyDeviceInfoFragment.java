@@ -26,6 +26,9 @@ import android.os.Bundle;
 import android.os.UserManager;
 import android.provider.SearchIndexableResource;
 import android.view.View;
+import android.support.v7.preference.Preference;
+import android.support.v7.preference.PreferenceScreen;
+import com.android.settings.dot.TabLayout;
 
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.R;
@@ -35,7 +38,6 @@ import com.android.settings.applications.LayoutPreference;
 import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.dashboard.SummaryLoader;
 import com.android.settings.deviceinfo.BluetoothAddressPreferenceController;
-import com.android.settings.deviceinfo.BrandedAccountPreferenceController;
 import com.android.settings.deviceinfo.BuildNumberPreferenceController;
 import com.android.settings.deviceinfo.DeviceModelPreferenceController;
 import com.android.settings.deviceinfo.DeviceNamePreferenceController;
@@ -62,7 +64,7 @@ public class MyDeviceInfoFragment extends DashboardFragment
         implements DeviceNamePreferenceController.DeviceNamePreferenceHost {
     private static final String LOG_TAG = "MyDeviceInfoFragment";
 
-    private static final String KEY_MY_DEVICE_INFO_HEADER = "my_device_info_header";
+    private static final String KEY_MY_DEVICE_INFO_HEADER = "my_device_info_header_type2";
     //private static final String KEY_LEGAL_CONTAINER = "legal_container";
 
     @Override
@@ -78,7 +80,7 @@ public class MyDeviceInfoFragment extends DashboardFragment
     @Override
     public void onResume() {
         super.onResume();
-        initHeader();
+        initScreenControllers();
     }
 
     @Override
@@ -104,7 +106,6 @@ public class MyDeviceInfoFragment extends DashboardFragment
             Lifecycle lifecycle) {
         final List<AbstractPreferenceController> controllers = new ArrayList<>();
         controllers.add(new EmergencyInfoPreferenceController(context));
-        controllers.add(new BrandedAccountPreferenceController(context));
         DeviceNamePreferenceController deviceNamePreferenceController =
                 new DeviceNamePreferenceController(context);
         deviceNamePreferenceController.setLocalBluetoothManager(getLocalBtManager(context));
@@ -124,9 +125,60 @@ public class MyDeviceInfoFragment extends DashboardFragment
         controllers.add(new FeedbackPreferenceController(fragment, context));
         controllers.add(new FccEquipmentIdPreferenceController(context));
         controllers.add(new SELinuxStatusPreferenceController(context));
-        controllers.add(
-                new BuildNumberPreferenceController(context, activity, fragment, lifecycle));
+        controllers.add(new BuildNumberPreferenceController(context, activity, fragment, lifecycle));
         return controllers;
+    }
+    
+    private void initScreenControllers() {
+        final LayoutPreference headerPreference =
+                (LayoutPreference) getPreferenceScreen().findPreference(KEY_MY_DEVICE_INFO_HEADER);
+        final AboutSystemView abs = headerPreference.findViewById(R.id.abs_pref);
+        Activity context = getActivity();
+        EntityHeaderController controller = EntityHeaderController
+                .newInstance(context, this, abs)
+                .setRecyclerView(getListView(), getLifecycle())
+                .setButtonActions(EntityHeaderController.ActionType.ACTION_NONE,
+                        EntityHeaderController.ActionType.ACTION_NONE);
+        PreferenceScreen pref = (PreferenceScreen) getPreferenceScreen();
+        Preference software = (Preference) pref.findPreference("pref_screen_software");
+        Preference status = (Preference) pref.findPreference("pref_screen_status");
+        Preference other = (Preference) pref.findPreference("pref_screen_other");
+        //Preference sim2 = (Preference) pref.findPreference("sim_status2");
+        pref.removePreference(status);
+        pref.removePreference(other);
+        //pref.removePreference(sim2);
+        abs.setOnPositionChangeListener(new TabLayout.OnTabSelectedListener() {
+            @Override
+            public void onTabSelected(TabLayout.Tab tab) {
+                pref.removePreference(software);
+                pref.removePreference(status);
+                pref.removePreference(other);
+                //pref.removePreference(sim2);
+                switch (tab.getPosition()) {
+                    case 0:
+                        pref.addPreference(software);
+                        break;
+                    case 1:
+                        pref.addPreference(status);
+                        //pref.addPreference(sim2);
+                        break;
+                    case 2:
+                        pref.addPreference(other);
+                        break;
+                }
+            }
+
+            @Override
+            public void onTabUnselected(TabLayout.Tab tab) {
+
+            }
+
+            @Override
+            public void onTabReselected(TabLayout.Tab tab) {
+
+            }
+        });
+        controller.done(context, true /* rebindActions */);
     }
 
     @Override
@@ -137,33 +189,6 @@ public class MyDeviceInfoFragment extends DashboardFragment
             return;
         }
         super.onActivityResult(requestCode, resultCode, data);
-    }
-
-    private void initHeader() {
-        // TODO: Migrate into its own controller.
-        final LayoutPreference headerPreference =
-                (LayoutPreference) getPreferenceScreen().findPreference(KEY_MY_DEVICE_INFO_HEADER);
-        final View appSnippet = headerPreference.findViewById(R.id.entity_header);
-        final Activity context = getActivity();
-        final Bundle bundle = getArguments();
-        EntityHeaderController controller = EntityHeaderController
-                .newInstance(context, this, appSnippet)
-                .setRecyclerView(getListView(), getLifecycle())
-                .setButtonActions(EntityHeaderController.ActionType.ACTION_NONE,
-                        EntityHeaderController.ActionType.ACTION_NONE);
-
-        // TODO: There may be an avatar setting action we can use here.
-        final int iconId = bundle.getInt("icon_id", 0);
-        if (iconId == 0) {
-            UserManager userManager = (UserManager) getActivity().getSystemService(
-                    Context.USER_SERVICE);
-            UserInfo info = Utils.getExistingUser(userManager, android.os.Process.myUserHandle());
-            controller.setLabel(info.name);
-            controller.setIcon(
-                    com.android.settingslib.Utils.getUserIcon(getActivity(), userManager, info));
-        }
-
-        controller.done(context, true /* rebindActions */);
     }
 
     @Override
