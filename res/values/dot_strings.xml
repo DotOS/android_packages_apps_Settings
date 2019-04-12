@@ -188,6 +188,12 @@
 	<!-- doze on charge -->
     <string name="doze_on_charge_title">Show when charging</string>
     <string name="doze_on_charge_summary">Wake screen when charging</string>
+    
+    <!-- About System -->
+    <string name="tab_software">Software</string>
+    <string name="tab_status">Status</string>
+    <string name="tab_other">Other</string>
+    
 </resources>
 
 
