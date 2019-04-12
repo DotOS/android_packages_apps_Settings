@@ -413,4 +413,9 @@
     <string name="app_ops_permissions_allowed">Allowed</string>
     <string name="app_ops_permissions_ignored">Ignored</string>
     <string name="app_ops_permissions_always_ask">Always ask</string>
+
+    <!-- About device - System -->
+    <string name="tab_software">Software</string>
+    <string name="tab_status">Status</string>
+    <string name="tab_other">Other</string>
 </resources>
