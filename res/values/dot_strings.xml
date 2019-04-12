@@ -444,4 +444,9 @@
 
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
+
+    <!-- About device - System -->
+    <string name="tab_software">Software</string>
+    <string name="tab_status">Status</string>
+    <string name="tab_other">Other</string>
 </resources>
