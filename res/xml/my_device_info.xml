@@ -22,140 +22,118 @@
     android:title="@string/about_settings">
 
     <com.android.settings.applications.LayoutPreference
-        android:key="my_device_info_header"
+        android:key="my_device_info_header_type2"
         android:order="0"
-        android:layout="@layout/settings_entity_header"
+        android:layout="@layout/view_systeminfo"
         android:selectable="false"/>
 
-    <!-- About us -->
-    <Preference
-        android:key="dot_about_info"
-        android:order="1"
-        android:title="@string/dot_about_info"
-	android:summary="@string/dot_about_summary"
-        android:fragment="com.android.settings.AboutUs" />
+    <PreferenceCategory
+        android:key="pref_screen_software"
+        android:order="100">
 
-    <!-- Changelog -->
-    <Preference
-        android:key="changelog"
-        android:order="2"
-        android:title="@string/changelog_title"
-        android:summary="@string/changelog_summary"
-        android:fragment="com.android.settings.dot.Changelog" />
+        <!-- Device name -->
+        <com.android.settings.widget.ValidatedEditTextPreference
+            android:key="device_name"
+            android:title="@string/my_device_info_device_name_preference_title"
+            android:summary="@string/summary_placeholder"/>
 
-    <!-- Device name -->
-    <com.android.settings.widget.ValidatedEditTextPreference
-        android:key="device_name"
-        android:order="3"
-        android:title="@string/my_device_info_device_name_preference_title"
-        android:summary="@string/summary_placeholder"/>
+        <!-- Model & hardware -->
+        <Preference
+            android:key="device_model"
+            android:title="@string/hardware_info"
+            settings:keywords="@string/keywords_model_and_hardware"
+            android:summary="@string/summary_placeholder"/>
 
-    <!-- Account name -->
-    <Preference
-        android:key="branded_account"
-        android:order="4"
-        android:title="@string/my_device_info_account_preference_title"
-        android:summary="@string/summary_placeholder"/>
+        <!-- Android version -->
+        <Preference
+            android:key="firmware_version"
+            android:title="@string/firmware_version"
+            settings:keywords="@string/keywords_android_version"
+            android:summary="@string/summary_placeholder"/>
 
-    <Preference
-        android:key="emergency_info"
-        android:order="6"
-        android:title="@string/emergency_info_title"
-        android:summary="@string/summary_placeholder"/>
+        <!-- Extended version -->
+        <Preference
+            android:key="dot_version"
+            android:title="@string/dot_version"
+            settings:keywords="@string/keywords_dot_version"
+            android:summary="@string/dot_version_default"/>
 
-    <!-- SIM status -->
-    <Preference
-        android:key="sim_status"
-        android:order="8"
-        android:title="@string/sim_status_title"
-        settings:keywords="@string/keywords_sim_status"
-        android:summary="@string/summary_placeholder"
-        settings:allowDividerAbove="true"/>
+        <!-- Build date -->
+        <Preference
+            android:key="build_date"
+            android:title="@string/build_date"
+            settings:keywords="@string/keywords_build_date"
+            android:summary="@string/build_date_default" />
 
-    <!-- Model & hardware -->
-    <Preference
-        android:key="device_model"
-        android:order="21"
-        android:title="@string/hardware_info"
-        settings:keywords="@string/keywords_model_and_hardware"
-        android:summary="@string/summary_placeholder"/>
+        <!-- Build number -->
+        <Preference
+            android:key="build_number"
+            android:title="@string/build_number"
+            android:summary="@string/summary_placeholder"
+            settings:allowDividerAbove="true"/>
 
-    <!-- Android version -->
-    <Preference
-        android:key="firmware_version"
-        android:order="31"
-        android:title="@string/firmware_version"
-        settings:keywords="@string/keywords_android_version"
-        android:summary="@string/summary_placeholder"/>
+        <!-- SELinux status information -->
+        <Preference
+            android:key="selinux_status"
+            android:title="@string/selinux_status"
+            android:summary="@string/selinux_status_enforcing"
+            android:selectable="false"/>
+    </PreferenceCategory>
 
-    <!-- Extended version --> 
-    <Preference 
-        android:key="dot_version"
-        android:order="32"
-        android:title="@string/dot_version"
-        settings:keywords="@string/keywords_dot_version"
-        android:summary="@string/dot_version_default"/>
+    <PreferenceCategory
+        android:key="pref_screen_status"
+        android:order="200">
 
-     <!-- Build date -->
-    <Preference 
-       android:key="build_date"
-       android:order="33"
-       android:title="@string/build_date"
-       settings:keywords="@string/keywords_build_date"
-       android:summary="@string/build_date_default" />
+        <Preference
+            android:order="201"
+            android:key="emergency_info"
+            android:title="@string/emergency_info_title"
+            android:summary="@string/summary_placeholder"/>
 
-    <!--IP address -->
-    <Preference
-        android:key="wifi_ip_address"
-        android:order="34"
-        android:title="@string/wifi_ip_address"
-        android:summary="@string/summary_placeholder"
-        android:selectable="false"
-        settings:allowDividerAbove="true"/>
+        <!-- SIM status -->
+        <Preference
+            android:order="202"
+            android:key="sim_status"
+            android:title="@string/sim_status_title"
+            settings:keywords="@string/keywords_sim_status"
+            android:summary="@string/summary_placeholder"
+            settings:allowDividerAbove="true"/>
 
-    <!-- Wi-Fi MAC address -->
-    <Preference
-        android:key="wifi_mac_address"
-        android:order="35"
-        android:title="@string/status_wifi_mac_address"
-        android:summary="@string/summary_placeholder"
-        android:selectable="false"/>
+        <!--IP address -->
+        <Preference
+            android:order="204"
+            android:key="wifi_ip_address"
+            android:title="@string/wifi_ip_address"
+            android:summary="@string/summary_placeholder"
+            android:selectable="false"
+            settings:allowDividerAbove="true"/>
 
-    <!-- Bluetooth address -->
-    <Preference
-        android:key="bt_address"
-        android:order="36"
-        android:title="@string/status_bt_address"
-        android:summary="@string/summary_placeholder"
-        android:selectable="false"/>
+        <!-- Wi-Fi MAC address -->
+        <Preference
+            android:order="205"
+            android:key="wifi_mac_address"
+            android:title="@string/status_wifi_mac_address"
+            android:summary="@string/summary_placeholder"
+            android:selectable="false"/>
+    </PreferenceCategory>
 
-    <!-- Feedback on the device -->
-    <Preference
-        android:key="device_feedback"
-        android:order="41"
-        android:title="@string/device_feedback"/>
+    <PreferenceCategory
+        android:key="pref_screen_other"
+        android:order="300">
 
-    <!-- Device FCC equipment id -->
-    <Preference
-        android:key="fcc_equipment_id"
-        android:order="42"
-        android:title="@string/fcc_equipment_id"
-        android:summary="@string/summary_placeholder"/>
+        <!-- About us -->
+        <Preference
+            android:key="dot_about_info"
+            android:title="@string/dot_about_info"
+            android:summary="@string/dot_about_summary"
+            android:fragment="com.android.settings.AboutUs" />
 
-    <!-- Build number -->
-    <Preference
-        android:key="build_number"
-        android:order="43"
-        android:title="@string/build_number"
-        android:summary="@string/summary_placeholder"
-        settings:allowDividerAbove="true"/>
-
-    <!-- SELinux status information -->
-    <Preference
-        android:key="selinux_status"
-        android:order="99"
-        android:title="@string/selinux_status"
-        android:summary="@string/selinux_status_enforcing"
-        android:selectable="false"/>
+        <!-- Changelog -->
+        <Preference
+            android:key="changelog"
+            android:title="@string/changelog_title"
+            android:summary="@string/changelog_summary"
+            android:fragment="com.android.settings.dot.Changelog" />
+    </PreferenceCategory>
 
 </PreferenceScreen>
