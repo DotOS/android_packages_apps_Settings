@@ -36,6 +36,7 @@ LOCAL_STATIC_ANDROID_LIBRARIES := \
     android-slices-builders \
     android-slices-core \
     android-slices-view \
+    android-support-design \
     android-support-compat \
     android-support-v4 \
     android-support-v13 \
@@ -67,7 +68,8 @@ LOCAL_STATIC_JAVA_LIBRARIES := \
     reactive-streams
 
 LOCAL_STATIC_JAVA_AAR_LIBRARIES += \
-    rxandroid
+    rxandroid \
+    material
 
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 
@@ -102,7 +104,8 @@ LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES := \
     adapter-rxjava:libs/adapter-rxjava2-2.4.0.jar \
     rxandroid:libs/rxandroid-2.0.2.aar \
     gson:libs/gson-2.8.2.jar \
-    reactive-streams:libs/reactive-streams-1.0.2.jar
+    reactive-streams:libs/reactive-streams-1.0.2.jar \
+    material:libs/material-1.1.0-alpha05.aar
 
 include $(BUILD_MULTI_PREBUILT)
 
