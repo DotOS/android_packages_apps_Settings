@@ -1,9 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2018 Project dotOS
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+     Copyright (C) 2018 Project dotOS
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
-          http://www.apache.org/licenses/LICENSE-2.0
+     http://www.apache.org/licenses/LICENSE-2.0
      Unless required by applicable law or agreed to in writing, software
      distributed under the License is distributed on an "AS IS" BASIS,
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -28,10 +29,10 @@
     <!-- Dev Options Enabled by Default -->
     <string name="show_dev_already_enabled">No Need, Development settings are enabled by default.</string>
 	
-	<!-- App details: open play store link if app is user installed -->
+    <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
 	
-	<!-- Advanced night mode brightness -->
+    <!-- Advanced night mode brightness -->
     <string name="night_brightness_category">Brightness</string>
     <string name="night_brightness_value_title">Lower brightness if Night Light</string>
     <string name="night_bright_disabled">Disabled</string>
@@ -54,9 +55,7 @@
     <string name="dev5_description">UI Developer/Contributor</string>
     <string name="dev_7">Hari Ambadi &#40;hariambadii&#41;</string>
     <string name="dev7_description">Core GFX/Visual Designer</string>
-	<string name="about_dotos">About dotOS</string>
-    <string name="google">Google</string>
-    <string name="gplus_community">Join our google plus community to stay updated about the rom</string>
+    <string name="about_dotos">About dotOS</string>
     <string name="telegram">Telegram</string>
     <string name="telegram_community">Join our telegram group and be a part of our family</string>
     <string name="github">Github</string>
@@ -78,7 +77,7 @@
     <!-- Maintainers Info-->
     <string name="maintainers_title">Official maintainers</string>
     <string name="maintainers_summary">Officially supported devices and their respective maintainers.</string>
-
+    
     <!-- Maintainer section -->
     <string name="maintainer_description">Maintainer: %1$s</string>
     <string name="loading_devices">Loading devices list...</string>
@@ -99,7 +98,6 @@
     <string name="expanded_desktop_style">Expanded desktop style</string>
     <string name="expanded_desktop_style_description">Choose a default expanded desktop style</string>
     <string name="expanded_desktop_title">Expanded desktop options</string>
-
 
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Screenshot sound</string>
@@ -252,15 +250,22 @@
 	<!-- OS Information -->
 	<string name="os_information">OS information</string>
 	<string name="os_summary_info">Information about the ROM</string>
-	
-	<!-- Manual provisioning support -->
-    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> is <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
-    <string name="sim_enabled">enabled</string>
+
+    <!-- Manual provisioning support -->
+    <string name="sim_enabler_summary">
+        <xliff:g id="displayName">%1$s</xliff:g>
+        is
+        <xliff:g id="status" example="disabled">%2$s</xliff:g>
+    </string>
     <string name="sim_disabled">disabled</string>
     <string name="sim_missing">missing or faulty</string>
     <string name="sim_enabler_need_disable_sim">SIM card will be deactivated. Do you want to continue?</string>
     <string name="sim_enabler_will_disable_sim_title">Attention</string>
-    <string name="sim_enabler_need_switch_data_service">This SIM will be disabled and SIM <xliff:g id="slotid">%1$s</xliff:g> will be used for data services. Are you sure you want to continue?</string>
+    <string name="sim_enabler_need_switch_data_service">
+        This SIM will be disabled and SIM
+        <xliff:g id="slotid">%1$s</xliff:g>
+        will be used for data services. Are you sure you want to continue?
+    </string>
     <string name="sim_enabler_airplane_on">Unable to perform the operation while airplane mode is on.</string>
     <string name="sim_enabler_in_call">Unable to perform the operation while in call.</string>
     <string name="sim_enabler_both_inactive">Can\'t disable all SIM cards</string>
@@ -269,24 +274,23 @@
     <string name="sub_activate_success">SIM activated.</string>
     <string name="sub_activate_failed">Activation failed.</string>
     <string name="sub_deactivate_success">SIM deactivated.</string>
-    <string name="sub_deactivate_failed">Deactivation failed.</string>
+    <string name="sub_deactivate_failed">Deactivation failed.</string>	
 	
-	
-	<!-- Notification log -->
+    <!-- Notification log -->
     <string name="notification_log_summary">Show notifications history log</string>
 	
-	<!-- Device specific doze package -->
+    <!-- Device specific doze package -->
     <string name="config_customDozePackage" translatable="false"></string>
 	
-	<!-- Proximity wake -->
+    <!-- Proximity wake -->
     <string name="proximity_wake_title">Prevent accidental wake-up</string>
     <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
 	
-	<!-- Search -->
+    <!-- Search -->
     <string name="menu_search">Search apps</string>
     <string name="menu_search_hint">Search apps\u2026</string>
 	
-	<!-- Reset battery stats -->
+    <!-- Reset battery stats -->
     <string name="ok">Ok</string>
     <string name="menu_stats_reset">Reset stats</string>
     <string name="reset_stats_msg">Battery history stats are going to be reset</string>
