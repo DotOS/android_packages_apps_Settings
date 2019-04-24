@@ -22,7 +22,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center"
-    android:orientation="horizontal"
+    android:orientation="vertical"
     android:paddingTop="24dp"
     android:paddingBottom="24dp"
     style="@style/EntityHeader">
@@ -43,22 +43,8 @@
             android:fontFamily="@*android:string/config_headlineFontFamily"
             android:textAppearance="@android:style/TextAppearance.Material.Display1"/>
 
-        <TextView
-            android:id="@+id/summary1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:minLines="2"
-            android:textAppearance="@android:style/TextAppearance.Material.Small"/>
-
-        <TextView
-            android:id="@+id/summary2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textAppearance="@android:style/TextAppearance.Material.Small"/>
-
     </LinearLayout>
-	
+
 	<FrameLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -74,5 +60,24 @@
             android:layout_margin="8dp"
             app:cardElevation="5dp" />
     </FrameLayout>
+
+    <TextView
+        android:id="@+id/summary1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/google_sans"
+        android:textAlignment="center"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/summary2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:fontFamily="@font/google_sans"
+        android:textAlignment="center"
+        android:textSize="16sp"/>
 
 </LinearLayout>
