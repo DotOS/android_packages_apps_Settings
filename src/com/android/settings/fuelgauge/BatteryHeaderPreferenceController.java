@@ -127,7 +127,7 @@ public class BatteryHeaderPreferenceController extends AbstractPreferenceControl
         // Set battery level and charging status
         mBatteryMeterView.setBatteryLevel(batteryLevel);
         mBatteryMeterView.setCharging(!discharging);
-        mBatteryPercentText.setText(Utils.formatPercentage(batteryLevel));
+        mBatteryMeterView.setText(Utils.formatPercentage(batteryLevel));
 
         // clear all the summaries
         mSummary1.setText("");
