@@ -48,7 +48,6 @@ import com.android.settingslib.graph.BatteryMeterDrawableBase;
 public class BatteryMeterView extends CardView {
     WaveView waveView;
     TextView progress_Text;
-    TextView charging_Text;
     IntentFilter ifilter;
     Intent batteryStatus;
     int status;
@@ -73,27 +72,16 @@ public class BatteryMeterView extends CardView {
         waveView = new WaveView(context);
         progress_Text = new TextView(context);
         progress_Text.setTextAppearance(R.style.BatteryGauage_TextView);
-        charging_Text = new TextView(context);
-        charging_Text.setTextAppearance(R.style.BatteryGauage_TextView_Light);
-        charging_Text.setTextSize(22);
-        charging_Text.setGravity(Gravity.CENTER_HORIZONTAL);
         progress_Text.setTextSize(52);
         progress_Text.setTextColor(getColorAttr(context, android.R.attr.textColorSecondary));
-        if (getCharging()) {
-            charging_Text.setText("Charging");
-        } else
-            charging_Text.setText("Discharging");
         progress_Text.setGravity(Gravity.CENTER_HORIZONTAL);
-        charging_Text.setLayoutParams(new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.MATCH_PARENT, RelativeLayout.LayoutParams.WRAP_CONTENT));
         progress_Text.setLayoutParams(new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.MATCH_PARENT, RelativeLayout.LayoutParams.WRAP_CONTENT));
-        charging_Text.setAlpha((float) 0.7);
         progress_Text.setAlpha((float) 0.7);
         LinearLayout linearLayout = new LinearLayout(context);
         linearLayout.setOrientation(LinearLayout.VERTICAL);
         linearLayout.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.MATCH_PARENT));
         linearLayout.setGravity(Gravity.CENTER);
         linearLayout.addView(progress_Text);
-        linearLayout.addView(charging_Text);
         RelativeLayout layout = new RelativeLayout(context);
         layout.addView(waveView);
         layout.addView(linearLayout);
@@ -103,11 +91,6 @@ public class BatteryMeterView extends CardView {
             for (int i = 0; i < linearLayout.getChildCount(); i++) {
                 TextView child = (TextView) linearLayout.getChildAt(i);
                 child.setTextColor(getColorAttr(context, android.R.attr.textColorSecondary));
-            }
-        } if (getBatteryLevel() > 70 && !hurtEyes(getColorAttr(context, android.R.attr.colorAccent))) {
-            for (int i = 0; i < linearLayout.getChildCount(); i++) {
-                TextView child = (TextView) linearLayout.getChildAt(i);
-                child.setTextColor(Color.WHITE);
             }
         }
     }
@@ -123,21 +106,29 @@ public class BatteryMeterView extends CardView {
         } else {
             this.status = BatteryManager.BATTERY_STATUS_DISCHARGING;
         }
-        postInvalidate();
+    }
+    
+    private boolean hurtEyes(int color) {
+        int rgb = (Color.red(color) + Color.green(color) + Color.blue(color)) / 3;
+        return rgb > 210;
     }
 
+    public void setText(String prog) {
+        progress_Text.setText(prog);
+    }
+    
     public void setBatteryLevel(int progress) {
         waveView.setProgress(progress);
-        progress_Text.setText(String.format("%d%%", waveView.getProgress()));
+        reload();
     }
 
     public int getBatteryLevel() {
         return waveView.getProgress() <= 0 ? waveView.getProgress() : 10;
     }
-
-    private boolean hurtEyes(int color) {
-        int rgb = (Color.red(color) + Color.green(color) + Color.blue(color)) / 3;
-        return rgb > 210;
+    
+    protected void reload() {
+        waveView.postInvalidate();
+        progress_Text.postInvalidate();
     }
 
     @ColorInt
