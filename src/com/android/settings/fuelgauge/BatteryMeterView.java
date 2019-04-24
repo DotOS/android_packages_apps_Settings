@@ -123,21 +123,23 @@ public class BatteryMeterView extends CardView {
         } else {
             this.status = BatteryManager.BATTERY_STATUS_DISCHARGING;
         }
-        postInvalidate();
+        reload();
     }
 
     public void setBatteryLevel(int progress) {
         waveView.setProgress(progress);
         progress_Text.setText(String.format("%d%%", waveView.getProgress()));
+        reload();
     }
 
     public int getBatteryLevel() {
         return waveView.getProgress() <= 0 ? waveView.getProgress() : 10;
     }
-
-    private boolean hurtEyes(int color) {
-        int rgb = (Color.red(color) + Color.green(color) + Color.blue(color)) / 3;
-        return rgb > 210;
+    
+    protected void reload() {
+        waveView.postInvalidate();
+        progress_Text.postInvalidate();
+        charging_Text.postInvalidate();
     }
 
     @ColorInt
