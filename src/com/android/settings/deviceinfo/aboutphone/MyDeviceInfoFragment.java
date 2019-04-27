@@ -76,10 +76,10 @@ public class MyDeviceInfoFragment extends DashboardFragment
     public int getHelpResource() {
         return R.string.help_uri_about;
     }
-
+    
     @Override
-    public void onResume() {
-        super.onResume();
+    public void onCreate(Bundle icicle) {
+        super.onCreate(icicle);
         initScreenControllers();
     }
 
