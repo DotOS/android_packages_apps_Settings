@@ -20,6 +20,7 @@ import android.app.Fragment;
 import android.content.Context;
 import android.support.annotation.VisibleForTesting;
 import android.support.v7.preference.Preference;
+import android.support.v7.preference.PreferenceGroup;
 import android.support.v7.preference.PreferenceScreen;
 import android.telephony.SubscriptionInfo;
 import android.telephony.SubscriptionManager;
@@ -63,8 +64,8 @@ public class SimStatusPreferenceController extends
         if (!isAvailable() || preference == null || !preference.isVisible()) {
             return;
         }
-
-        mPreferenceList.add(preference);
+        PreferenceGroup status = (PreferenceGroup) screen.findPreference("pref_screen_status");
+        mPreferenceList.addPreference(preference);
 
         final int simStatusOrder = preference.getOrder();
         // Add additional preferences for each sim in the device
@@ -73,7 +74,7 @@ public class SimStatusPreferenceController extends
             final Preference multiSimPreference = createNewPreference(screen.getContext());
             multiSimPreference.setOrder(simStatusOrder + simSlotNumber);
             multiSimPreference.setKey(KEY_SIM_STATUS + simSlotNumber);
-            screen.addPreference(multiSimPreference);
+            status.addPreference(multiSimPreference);
             mPreferenceList.add(multiSimPreference);
         }
     }

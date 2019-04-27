@@ -78,12 +78,6 @@ public class MyDeviceInfoFragment extends DashboardFragment
     }
 
     @Override
-    public void onResume() {
-        super.onResume();
-        initScreenControllers();
-    }
-
-    @Override
     protected String getLogTag() {
         return LOG_TAG;
     }
@@ -126,6 +120,7 @@ public class MyDeviceInfoFragment extends DashboardFragment
         controllers.add(new FccEquipmentIdPreferenceController(context));
         controllers.add(new SELinuxStatusPreferenceController(context));
         controllers.add(new BuildNumberPreferenceController(context, activity, fragment, lifecycle));
+        initScreenControllers();
         return controllers;
     }
     
