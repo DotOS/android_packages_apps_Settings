@@ -20,6 +20,8 @@
     style="@style/SuggestionConditionStyle"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
     android:paddingTop="10dp"
     android:paddingBottom="10dp"
     android:orientation="vertical">
@@ -33,7 +35,7 @@
             android:id="@android:id/icon_frame"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="24dp"
+            android:layout_marginStart="8dp"
             android:layout_centerVertical="true">
 
             <include layout="@layout/condition_header_icon" />
