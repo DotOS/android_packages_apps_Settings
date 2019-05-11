@@ -63,7 +63,7 @@ import java.util.List;
 public class MyDeviceInfoFragment extends DashboardFragment
         implements DeviceNamePreferenceController.DeviceNamePreferenceHost {
     private static final String LOG_TAG = "MyDeviceInfoFragment";
-
+    private boolean IS_LOADED = false;
     private static final String KEY_MY_DEVICE_INFO_HEADER = "my_device_info_header_type2";
     //private static final String KEY_LEGAL_CONTAINER = "legal_container";
 
@@ -80,7 +80,10 @@ public class MyDeviceInfoFragment extends DashboardFragment
     @Override
     public void onResume() {
         super.onResume();
-        initScreenControllers();
+	    if (!IS_LOADED) {
+	        IS_LOADED=true;
+            initScreenControllers();
+	    }
     }
 
     @Override
@@ -128,7 +131,7 @@ public class MyDeviceInfoFragment extends DashboardFragment
         controllers.add(new BuildNumberPreferenceController(context, activity, fragment, lifecycle));
         return controllers;
     }
-    
+
     private void initScreenControllers() {
         final LayoutPreference headerPreference =
                 (LayoutPreference) getPreferenceScreen().findPreference(KEY_MY_DEVICE_INFO_HEADER);
@@ -143,24 +146,20 @@ public class MyDeviceInfoFragment extends DashboardFragment
         Preference software = (Preference) pref.findPreference("pref_screen_software");
         Preference status = (Preference) pref.findPreference("pref_screen_status");
         Preference other = (Preference) pref.findPreference("pref_screen_other");
-        //Preference sim2 = (Preference) pref.findPreference("sim_status2");
         pref.removePreference(status);
         pref.removePreference(other);
-        //pref.removePreference(sim2);
         abs.setOnPositionChangeListener(new TabLayout.OnTabSelectedListener() {
             @Override
             public void onTabSelected(TabLayout.Tab tab) {
                 pref.removePreference(software);
                 pref.removePreference(status);
                 pref.removePreference(other);
-                //pref.removePreference(sim2);
                 switch (tab.getPosition()) {
                     case 0:
                         pref.addPreference(software);
                         break;
                     case 1:
                         pref.addPreference(status);
-                        //pref.addPreference(sim2);
                         break;
                     case 2:
                         pref.addPreference(other);
