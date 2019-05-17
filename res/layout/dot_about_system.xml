@@ -65,7 +65,7 @@
             app:tabIndicator="@drawable/material_tab_indicator"
             app:tabIndicatorFullWidth="false"
             app:tabMinWidth="112dp"
-            app:tabMode="fixed"
+            app:tabMode="scrollable"
             app:tabTextAppearance="@style/MaterialTabComponent">
 
             <com.android.settings.dot.TabItem
