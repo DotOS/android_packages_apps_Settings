@@ -153,4 +153,7 @@
     <string name="ringtone2_title">Vyzvánění telefonu - SIM 2</string>
     <!-- Notification log -->
     <string name="notification_log_summary">Zobrazit protokol historie oznámení</string>
+    <!-- doze on charge -->
+    <string name="doze_on_charge_title">Zobrazit při nabíjení</string>
+    <string name="doze_on_charge_summary">Probudit obrazovku při nabíjení</string>
 </resources>

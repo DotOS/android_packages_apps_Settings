@@ -153,4 +153,7 @@
     <string name="ringtone2_title">Telefon-csengőhang a SIM 2-höz</string>
     <!-- Notification log -->
     <string name="notification_log_summary">Értesítéselőzmény-napló megjelenítése</string>
+    <!-- doze on charge -->
+    <string name="doze_on_charge_title">Megjelenítés töltés közben</string>
+    <string name="doze_on_charge_summary">Töltéskor ébressze fel a képernyőt</string>
 </resources>

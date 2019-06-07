@@ -153,4 +153,7 @@
     <string name="ringtone2_title">Suoneria telefono - SIM 2</string>
     <!-- Notification log -->
     <string name="notification_log_summary">Visualizza il registro cronologico delle notifiche</string>
+    <!-- doze on charge -->
+    <string name="doze_on_charge_title">Mostra durante la ricarica</string>
+    <string name="doze_on_charge_summary">Attiva lo schermo durante la ricarica</string>
 </resources>

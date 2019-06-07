@@ -153,4 +153,7 @@
     <string name="ringtone2_title">نغمة رنين الهاتف - بطاقة SIM 2</string>
     <!-- Notification log -->
     <string name="notification_log_summary">إظهار سجل تاريخ الإشعارات</string>
+    <!-- doze on charge -->
+    <string name="doze_on_charge_title">Show when charging</string>
+    <string name="doze_on_charge_summary">إيقاظ الشاشة عند الشحن</string>
 </resources>

@@ -14,18 +14,18 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- About phone screen, DotOS version -->
-    <string name="dot_version">dotOS version</string>
-    <string name="dot_version_default">Unknown</string>
+    <string name="dot_version">version de dotOS</string>
+    <string name="dot_version_default">Inconnu</string>
     <string name="keywords_dot_version">dotOS version, dot version</string>
     <!-- Toolbar -->
     <string name="settings_head_title">droid on time 3.0</string>
     <!-- About phone screen, build date -->
-    <string name="build_date">Build date</string>
-    <string name="build_date_default">2015-01-01-0000</string>
-    <string name="keywords_build_date">build date, build info</string>
+    <string name="build_date">Date de version</string>
+    <string name="build_date_default">01-01-2015-0000</string>
+    <string name="keywords_build_date">date de version, information de date</string>
     <!-- dotOS System Updates -->
-    <string name="dotos_updater_title">System Updater</string>
-    <string name="dotos_updater_summary">dotOS System Updater</string>
+    <string name="dotos_updater_title">Mises à jour du système</string>
+    <string name="dotos_updater_summary">Mises à jour de dotOS</string>
     <!-- Fingerprint location message -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_front">Locate the fingerprint sensor on the front of your phone.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left">Locate the fingerprint sensor on the left side of your phone.</string>
@@ -33,25 +33,25 @@
     <!-- Manage applications, package string displayed in app snippet -->
     <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
     <!-- About dotOS -->
-    <string name="dot_about_info">About us</string>
+    <string name="dot_about_info">À propos de nous</string>
     <string name="dot_about_summary">Our introduction and our team</string>
     <string name="dot_about_info_summary">dotOS is based on Pure Aosp - which is highly optimized for supreme performance! Our ROM primary goal is to provide best Optimized Performance with some handpicked goodies for all devices running our ROM be it of Low, Mid or High End.....</string>
-    <string name="dev_info">About dotOS</string>
-    <string name="github">Github</string>
-    <string name="github_description">View our source code</string>
+    <string name="dev_info">À propos de dotOS</string>
+    <string name="github">GitHub</string>
+    <string name="github_description">Afficher le code source</string>
     <string name="gplus">Google+</string>
-    <string name="gplus_description">Join our G+ community</string>
+    <string name="gplus_description">Rejoignez notre communauté G +</string>
     <string name="telegram">Telegram</string>
-    <string name="telegram_description">Join our Telegram Community</string>
-    <string name="telegram_channel">Telegram Channel</string>
-    <string name="telegram_channel_description">Subscribe to our Telegram channel</string>
-    <string name="web">Downloads Center</string>
-    <string name="web_description">Visit our download portal</string>
-    <string name="help_translate">Translations</string>
+    <string name="telegram_description">Rejoignez notre communauté sur Telegram</string>
+    <string name="telegram_channel">Chaîne Telegram</string>
+    <string name="telegram_channel_description">Abonnez-vous à notre chaîne Telegram</string>
+    <string name="web">Centre de téléchargement</string>
+    <string name="web_description">Visitez notre portail de téléchargement</string>
+    <string name="help_translate">Traductions</string>
     <string name="help_translate_description">Translate to your language, visit our Crowdin</string>
-    <string name="walls">Wallpapers</string>
+    <string name="walls">Fonds d\'écrans</string>
     <string name="walls_description">Get wallpapers contributed by various users</string>
-    <string name="maintainers">Maintainers</string>
+    <string name="maintainers">Mainteneurs</string>
     <string name="maintainers_title">Official maintainers</string>
     <string name="maintainers_summary">Officially supported devices and their respective maintainers.</string>
     <!-- Maintainer section -->
@@ -59,10 +59,10 @@
     <string name="loading_devices">Loading devices list...</string>
     <string name="loading_devices_failed">Failed to load devices list</string>
     <string name="devices_list_empty">List is empty, tap the icon to reload</string>
-    <string name="reload_list">Reload</string>
+    <string name="reload_list">Recharger</string>
     <!-- Changelog -->
-    <string name="changelog_title">Changelog</string>
-    <string name="changelog_summary">Recent Changes</string>
+    <string name="changelog_title">Journal des modifications</string>
+    <string name="changelog_summary">Modifications récentes</string>
     <string name="changelog_loading">Loading changelog\u2026</string>
     <string name="changelog_error">Unable to load changelog</string>
     <!-- Scramble PIN Layout on Lockscreen -->
@@ -75,7 +75,7 @@
     <string name="screenshot_sound_title">Screenshot sound</string>
     <string name="screenshot_sound_summary">Plays sound effect when screenshot is taken</string>
     <!-- Charging vibration -->
-    <string name="charging_vibro_title">Charging vibration</string>
+    <string name="charging_vibro_title">Vibration lors du chargement</string>
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Reset stats</string>
     <string name="battery_stats_message">Battery history stats are going to be reset</string>
@@ -103,29 +103,29 @@
     <string name="force_theme_warning_title">Warning !</string>
     <string name="force_theme_warning_message">This could cause conflicts between substratum themes and system themes. We hope you know what are you getting into. #DontBlameUsLater :D</string>
     <!-- Selinux -->
-    <string name="selinux_status">SELinux status</string>
-    <string name="selinux_status_disabled">Disabled</string>
-    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status">État SELinux</string>
+    <string name="selinux_status_disabled">Désactivé</string>
+    <string name="selinux_status_permissive">Permissif</string>
     <string name="selinux_status_enforcing">Enforcing</string>
     <!-- Manual provisioning support -->
     <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> is <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
-    <string name="sim_disabled">disabled</string>
-    <string name="sim_missing">missing or faulty</string>
-    <string name="sim_enabler_need_disable_sim">SIM card will be deactivated. Do you want to continue?</string>
+    <string name="sim_disabled">désactivée</string>
+    <string name="sim_missing">manquante ou défectueuse</string>
+    <string name="sim_enabler_need_disable_sim">La carte SIM va être désactivée. Voulez-vous continuer ?</string>
     <string name="sim_enabler_will_disable_sim_title">Attention</string>
     <string name="sim_enabler_need_switch_data_service">This SIM will be disabled and SIM <xliff:g id="slotid">%1$s</xliff:g> will be used for data services. Are you sure you want to continue?</string>
-    <string name="sim_enabler_airplane_on">Unable to perform the operation while airplane mode is on.</string>
+    <string name="sim_enabler_airplane_on">Impossible d\'effectuer l\'opération tant que le mode avion est activé.</string>
     <string name="sim_enabler_in_call">Unable to perform the operation while in call.</string>
     <string name="sim_enabler_both_inactive">Can\'t disable all SIM cards</string>
     <string name="sim_enabler_enabling">Activating\u2026</string>
     <string name="sim_enabler_disabling">Deactivating\u2026</string>
-    <string name="sub_activate_success">SIM activated.</string>
-    <string name="sub_activate_failed">Activation failed.</string>
-    <string name="sub_deactivate_success">SIM deactivated.</string>
-    <string name="sub_deactivate_failed">Deactivation failed.</string>
+    <string name="sub_activate_success">Carte SIM activée.</string>
+    <string name="sub_activate_failed">L\'activation a échoué.</string>
+    <string name="sub_deactivate_success">Carte SIM désactivée.</string>
+    <string name="sub_deactivate_failed">La désactivation a échoué.</string>
     <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_data">Cellular data</string>
-    <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
+    <string name="data_usage_app_restrict_data">Données mobiles</string>
+    <string name="data_usage_app_restrict_data_summary">Activer l\'utilisation des données mobiles</string>
     <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
     <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
     <!-- Sizes for pattern lockscreen -->
@@ -142,15 +142,18 @@
     <string name="directly_show_lock_summary">Skip the swipe to unlock screen and immediately begin key entry</string>
     <!-- QS tile styles -->
     <string name="qs_tile_style_title">QS tile style</string>
-    <string name="qs_tile_style_default">Default</string>
-    <string name="qs_tile_style_square">Square</string>
+    <string name="qs_tile_style_default">Par défaut</string>
+    <string name="qs_tile_style_square">Carré</string>
     <string name="qs_tile_style_rounded_square">Rounded square</string>
     <string name="qs_tile_style_squircle">Squircle</string>
     <string name="qs_tile_style_tear_drop">Tear drop</string>
     <!-- Sound: Title for the option defining the phone ringtone for slot1 on Muilti SIM device. [CHAR LIMIT=50] -->
-    <string name="ringtone1_title">Phone ringtone - SIM 1</string>
+    <string name="ringtone1_title">Sonnerie du téléphone - SIM 1</string>
     <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
-    <string name="ringtone2_title">Phone ringtone - SIM 2</string>
+    <string name="ringtone2_title">Sonnerie du téléphone - SIM 2</string>
     <!-- Notification log -->
     <string name="notification_log_summary">Show notifications history log</string>
+    <!-- doze on charge -->
+    <string name="doze_on_charge_title">Afficher lors de la charge</string>
+    <string name="doze_on_charge_summary">Réveiller l\'écran lors du chargement</string>
 </resources>

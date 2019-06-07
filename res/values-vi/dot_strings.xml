@@ -14,143 +14,146 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- About phone screen, DotOS version -->
-    <string name="dot_version">dotOS version</string>
-    <string name="dot_version_default">Unknown</string>
-    <string name="keywords_dot_version">dotOS version, dot version</string>
+    <string name="dot_version">Phiên bản dotOS</string>
+    <string name="dot_version_default">Không xác định</string>
+    <string name="keywords_dot_version">Phiên bản dotOS, phiên bản dot</string>
     <!-- Toolbar -->
-    <string name="settings_head_title">droid on time 3.0</string>
+    <string name="settings_head_title">luôn đúng giờ 3.0</string>
     <!-- About phone screen, build date -->
-    <string name="build_date">Build date</string>
+    <string name="build_date">Ngày tạo</string>
     <string name="build_date_default">2015-01-01-0000</string>
-    <string name="keywords_build_date">build date, build info</string>
+    <string name="keywords_build_date">ngày tạo, thông tin tạo</string>
     <!-- dotOS System Updates -->
-    <string name="dotos_updater_title">System Updater</string>
-    <string name="dotos_updater_summary">dotOS System Updater</string>
+    <string name="dotos_updater_title">Cập nhật hệ thống</string>
+    <string name="dotos_updater_summary">Cập nhật hệ thống dotOS</string>
     <!-- Fingerprint location message -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front">Locate the fingerprint sensor on the front of your phone.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left">Locate the fingerprint sensor on the left side of your phone.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right">Locate the fingerprint sensor on the right side of your phone.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front">Xác định vị trí cảm biến vân tay ở mặt trước điện thoại của bạn.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left">Xác định vị trí cảm biến vân tay ở bên trái điện thoại của bạn.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right">Xác định vị trí cảm biến vân tay ở bên phải điện thoại của bạn.</string>
     <!-- Manage applications, package string displayed in app snippet -->
     <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
     <!-- About dotOS -->
-    <string name="dot_about_info">About us</string>
-    <string name="dot_about_summary">Our introduction and our team</string>
-    <string name="dot_about_info_summary">dotOS is based on Pure Aosp - which is highly optimized for supreme performance! Our ROM primary goal is to provide best Optimized Performance with some handpicked goodies for all devices running our ROM be it of Low, Mid or High End.....</string>
-    <string name="dev_info">About dotOS</string>
+    <string name="dot_about_info">Giới thiệu</string>
+    <string name="dot_about_summary">Giới thiệu và nhóm của chúng tôi</string>
+    <string name="dot_about_info_summary">dotOS dựa trên gốc ASOP - được tối ưu hóa cao cho hiệu suất cao! Mục tiêu chính của ROM của chúng tôi là cung cấp Hiệu suất được tối ưu hóa tốt nhất với một số tính năng được lựa chọn cẩn thận cho tất cả các thiết bị chạy ROM có cấu hình thấp, trung bình hoặc cao.....</string>
+    <string name="dev_info">Thông tin về dotOS</string>
     <string name="github">Github</string>
-    <string name="github_description">View our source code</string>
+    <string name="github_description">Xem mã nguồn code</string>
     <string name="gplus">Google+</string>
-    <string name="gplus_description">Join our G+ community</string>
+    <string name="gplus_description">Gia nhập cộng đồng G+</string>
     <string name="telegram">Telegram</string>
-    <string name="telegram_description">Join our Telegram Community</string>
-    <string name="telegram_channel">Telegram Channel</string>
-    <string name="telegram_channel_description">Subscribe to our Telegram channel</string>
-    <string name="web">Downloads Center</string>
-    <string name="web_description">Visit our download portal</string>
-    <string name="help_translate">Translations</string>
-    <string name="help_translate_description">Translate to your language, visit our Crowdin</string>
-    <string name="walls">Wallpapers</string>
-    <string name="walls_description">Get wallpapers contributed by various users</string>
-    <string name="maintainers">Maintainers</string>
-    <string name="maintainers_title">Official maintainers</string>
-    <string name="maintainers_summary">Officially supported devices and their respective maintainers.</string>
+    <string name="telegram_description">Tham gia cộng đồng Telegram của chúng tôi</string>
+    <string name="telegram_channel">Kênh Telegram</string>
+    <string name="telegram_channel_description">Đăng kí kênh Telegram của chúng tôi</string>
+    <string name="web">Trang web tải xuống</string>
+    <string name="web_description">Truy cập trang để tải về</string>
+    <string name="help_translate">Dịch ngôn ngữ</string>
+    <string name="help_translate_description">Để dịch sang ngôn ngữ của bạn, truy cập vào Crowdin</string>
+    <string name="walls">Hình nền</string>
+    <string name="walls_description">Tải hình nền được đóng góp bởi những người dùng khác nhau</string>
+    <string name="maintainers">Người duy trì</string>
+    <string name="maintainers_title">Người duy trì chính thức</string>
+    <string name="maintainers_summary">Danh sách các thiết bị và người duy trì chính thức.</string>
     <!-- Maintainer section -->
-    <string name="maintainer_description">Maintainer: %1$s</string>
-    <string name="loading_devices">Loading devices list...</string>
-    <string name="loading_devices_failed">Failed to load devices list</string>
-    <string name="devices_list_empty">List is empty, tap the icon to reload</string>
-    <string name="reload_list">Reload</string>
+    <string name="maintainer_description">Người duy trì: %1$s</string>
+    <string name="loading_devices">Đang tải danh sách thiết bị...</string>
+    <string name="loading_devices_failed">Không thể tải danh sách thiết bị</string>
+    <string name="devices_list_empty">Danh sách trống, nhấn vào icon để tải lại</string>
+    <string name="reload_list">Tải lại</string>
     <!-- Changelog -->
-    <string name="changelog_title">Changelog</string>
-    <string name="changelog_summary">Recent Changes</string>
-    <string name="changelog_loading">Loading changelog\u2026</string>
-    <string name="changelog_error">Unable to load changelog</string>
+    <string name="changelog_title">Những thay đổi</string>
+    <string name="changelog_summary">Thay đổi gần đây</string>
+    <string name="changelog_loading">Đang tải các thay đổi\u2026</string>
+    <string name="changelog_error">Không thể tải các thay đổi</string>
     <!-- Scramble PIN Layout on Lockscreen -->
-    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
-    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
+    <string name="unlock_scramble_pin_layout_title">Bố trí ngẫu nhiên</string>
+    <string name="unlock_scramble_pin_layout_summary">Bố trí PIN ngẫu nhiên khi mở khoá thiết bị</string>
     <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
-    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
+    <string name="unlock_quick_unlock_control_title">Mở khóa nhanh</string>
+    <string name="unlock_quick_unlock_control_summary">Tự động mở khóa khi nhập đúng mật khẩu/PIN</string>
     <!-- Screenshot sound -->
-    <string name="screenshot_sound_title">Screenshot sound</string>
-    <string name="screenshot_sound_summary">Plays sound effect when screenshot is taken</string>
+    <string name="screenshot_sound_title">Âm thanh chụp màn hình</string>
+    <string name="screenshot_sound_summary">Phát âm thanh khi màn hình được chụp</string>
     <!-- Charging vibration -->
-    <string name="charging_vibro_title">Charging vibration</string>
+    <string name="charging_vibro_title">Rung khi sạc</string>
     <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Reset stats</string>
-    <string name="battery_stats_message">Battery history stats are going to be reset</string>
-    <string name="ok_string">Ok</string>
-    <string name="dashboard_conditions_title">Dashboard conditions</string>
-    <string name="dashboard_category">Dashboard category</string>
-    <string name="summary_dashboard_conditions_enabled">Dashboard conditions are enabled</string>
-    <string name="summary_dashboard_conditions_disabled">Dashboard conditions are disabled</string>
-    <string name="dashboard_suggestions_title">Dashboard suggestions</string>
-    <string name="summary_dashboard_suggestions_enabled">Dashboard suggestions are enabled</string>
-    <string name="summary_dashboard_suggestions_disabled">Dashboard suggestions are disabled</string>
+    <string name="battery_stats_reset">Đặt lại thống kê</string>
+    <string name="battery_stats_message">Thống kê lịch sử pin sẽ được thiết lập lại</string>
+    <string name="ok_string">Đồng ý</string>
+    <string name="dashboard_conditions_title">Bảng điều khiển đề xuất</string>
+    <string name="dashboard_category">Bảng điều khiển</string>
+    <string name="summary_dashboard_conditions_enabled">Bảng điều khiển đề xuất được bật</string>
+    <string name="summary_dashboard_conditions_disabled">Bảng điều khiển đề xuất bị tắt</string>
+    <string name="dashboard_suggestions_title">Bảng điều khiển đề xuất</string>
+    <string name="summary_dashboard_suggestions_enabled">Bảng điều khiển đề xuất được tắt</string>
+    <string name="summary_dashboard_suggestions_disabled">Bảng điều khiển đề xuất được tắt</string>
     <!-- Themes -->
-    <string name="theme_category_title">System Theme</string>
-    <string name="system_theme_style_title">UI style</string>
-    <string name="system_theme_style_auto">Wallpaper based</string>
-    <string name="system_theme_style_light">Light UI</string>
-    <string name="system_theme_style_dark">Dark UI</string>
-    <string name="system_theme_style_black">Black UI</string>
-    <string name="system_theme_style_neo">DotOS Neo UI</string>
-    <string name="theme_applied_toast">Theme applied.</string>
-    <string name="applying_theme_toast">Applying theme, please wait...</string>
-    <string name="substratum_installed_title">System themes are unavailable because a Substratum overlay is installed. Please uninstall all overlays targeting Android System to proceed.</string>
-    <string name="force_allow_system_themes_title">Allow system themes and fonts alongside substratum</string>
-    <string name="force_allow_system_themes_summary">Allows you to use following themes and fonts options inspite of substratum installed.</string>
-    <string name="force_theme_warning_title">Warning !</string>
-    <string name="force_theme_warning_message">This could cause conflicts between substratum themes and system themes. We hope you know what are you getting into. #DontBlameUsLater :D</string>
+    <string name="theme_category_title">Chủ đề Hệ thống</string>
+    <string name="system_theme_style_title">Giao diện người dùng</string>
+    <string name="system_theme_style_auto">Dựa trên hình nền</string>
+    <string name="system_theme_style_light">Giao diện sáng</string>
+    <string name="system_theme_style_dark">Giao diện tối</string>
+    <string name="system_theme_style_black">Giao diện AMOLED</string>
+    <string name="system_theme_style_neo">DotOS giao diện mới</string>
+    <string name="theme_applied_toast">Chủ đề được áp dụng.</string>
+    <string name="applying_theme_toast">Đang áp dụng chủ đề, vui lòng chờ...</string>
+    <string name="substratum_installed_title">Tùy chọn giao diện hệ thống không có bởi một giao diện Substratum đã cài đặt. Hãy xoá tất cả những giao diện chỉnh sửa hệ thống để tiếp tục.</string>
+    <string name="force_allow_system_themes_title">Cho phép chủ đề hệ thống và font chữ hoạt động song song với substratum</string>
+    <string name="force_allow_system_themes_summary">Cho phép bạn sử dụng những tùy chọn theo chủ đề và các phông chữ sau mặc cho substratum được cài đặt.</string>
+    <string name="force_theme_warning_title">Cảnh báo !</string>
+    <string name="force_theme_warning_message">Điều này có thể gây ra xung đột giữa substratum chủ đề và chủ đề của hệ thống. Chúng tôi hy vọng bạn biết những gì bạn đang làm</string>
     <!-- Selinux -->
-    <string name="selinux_status">SELinux status</string>
-    <string name="selinux_status_disabled">Disabled</string>
-    <string name="selinux_status_permissive">Permissive</string>
-    <string name="selinux_status_enforcing">Enforcing</string>
+    <string name="selinux_status">Trạng thái SELinux</string>
+    <string name="selinux_status_disabled">Tắt</string>
+    <string name="selinux_status_permissive">Cho phép</string>
+    <string name="selinux_status_enforcing">Thực thi</string>
     <!-- Manual provisioning support -->
-    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> is <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
-    <string name="sim_disabled">disabled</string>
-    <string name="sim_missing">missing or faulty</string>
-    <string name="sim_enabler_need_disable_sim">SIM card will be deactivated. Do you want to continue?</string>
-    <string name="sim_enabler_will_disable_sim_title">Attention</string>
-    <string name="sim_enabler_need_switch_data_service">This SIM will be disabled and SIM <xliff:g id="slotid">%1$s</xliff:g> will be used for data services. Are you sure you want to continue?</string>
-    <string name="sim_enabler_airplane_on">Unable to perform the operation while airplane mode is on.</string>
-    <string name="sim_enabler_in_call">Unable to perform the operation while in call.</string>
-    <string name="sim_enabler_both_inactive">Can\'t disable all SIM cards</string>
-    <string name="sim_enabler_enabling">Activating\u2026</string>
-    <string name="sim_enabler_disabling">Deactivating\u2026</string>
-    <string name="sub_activate_success">SIM activated.</string>
-    <string name="sub_activate_failed">Activation failed.</string>
-    <string name="sub_deactivate_success">SIM deactivated.</string>
-    <string name="sub_deactivate_failed">Deactivation failed.</string>
+    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> là <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+    <string name="sim_disabled">tắt</string>
+    <string name="sim_missing">thiếu hoặc bị lỗi</string>
+    <string name="sim_enabler_need_disable_sim">Thẻ SIM sẽ bị tắt. Bạn có muốn tiếp tục?</string>
+    <string name="sim_enabler_will_disable_sim_title">Chú ý</string>
+    <string name="sim_enabler_need_switch_data_service">Thẻ SIM này sẽ bị tắt và SIM <xliff:g id="slotid">%1$s</xliff:g> sẽ được sử dụng cho các dịch vụ dữ liệu. Bạn có chắc chắn muốn tiếp tục?</string>
+    <string name="sim_enabler_airplane_on">Không thể thực hiện thao tác trong khi đang ở chế độ máy bay.</string>
+    <string name="sim_enabler_in_call">Không thể thực hiện thao tác trong khi đang gọi.</string>
+    <string name="sim_enabler_both_inactive">Không thể tắt tất cả các thẻ SIM</string>
+    <string name="sim_enabler_enabling">Đang kích hoạt\u2026</string>
+    <string name="sim_enabler_disabling">Đang huỷ kích hoạt\u2026</string>
+    <string name="sub_activate_success">Đã kích hoạt thẻ SIM.</string>
+    <string name="sub_activate_failed">Kích hoạt thất bại.</string>
+    <string name="sub_deactivate_success">Đã huỷ kích hoạt thẻ SIM.</string>
+    <string name="sub_deactivate_failed">Huỷ kích hoạt thất bại.</string>
     <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_data">Cellular data</string>
-    <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
-    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
-    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_data">Dữ liệu di động</string>
+    <string name="data_usage_app_restrict_data_summary">Sử dụng dữ liệu di động</string>
+    <string name="data_usage_app_restrict_wifi">Dữ liệu Wi\u2011Fi</string>
+    <string name="data_usage_app_restrict_wifi_summary">Sử dụng dữ liệu Wi\u2011Fi</string>
     <!-- Sizes for pattern lockscreen -->
-    <string name="lock_settings_picker_pattern_size_message">Choose a pattern size</string>
+    <string name="lock_settings_picker_pattern_size_message">Chọn một kích cỡ mẫu hình</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
-    <string name="lockpattern_settings_enable_error_path_title">Show pattern error</string>
+    <string name="lockpattern_settings_enable_error_path_title">Lỗi hiển thị mẫu hình</string>
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
-    <string name="lockpattern_settings_enable_dots_title">Show pattern dots</string>
+    <string name="lockpattern_settings_enable_dots_title">Hiện dấu chấm mẫu hình</string>
     <!-- Lock screen vibrate settings -->
-    <string name="lockscreen_vibrate_enabled_title">Vibrate</string>
-    <string name="lockscreen_vibrate_enabled_head">Vibrate when unlocking</string>
+    <string name="lockscreen_vibrate_enabled_title">Rung</string>
+    <string name="lockscreen_vibrate_enabled_head">Rung khi mở khóa</string>
     <!-- Whether the keyguard will directly show the lock entry -->
-    <string name="directly_show_lock">Direct unlock</string>
-    <string name="directly_show_lock_summary">Skip the swipe to unlock screen and immediately begin key entry</string>
+    <string name="directly_show_lock">Mở khóa trực tiếp</string>
+    <string name="directly_show_lock_summary">Bỏ qua màn hình trượt để mở khóa và bắt đầu nhập mã Pin ngay lập tức</string>
     <!-- QS tile styles -->
-    <string name="qs_tile_style_title">QS tile style</string>
-    <string name="qs_tile_style_default">Default</string>
-    <string name="qs_tile_style_square">Square</string>
-    <string name="qs_tile_style_rounded_square">Rounded square</string>
-    <string name="qs_tile_style_squircle">Squircle</string>
-    <string name="qs_tile_style_tear_drop">Tear drop</string>
+    <string name="qs_tile_style_title">Kiểu ô cài đặt nhanh</string>
+    <string name="qs_tile_style_default">Mặc định</string>
+    <string name="qs_tile_style_square">Hình vuông</string>
+    <string name="qs_tile_style_rounded_square">Hình vuông bo góc</string>
+    <string name="qs_tile_style_squircle">Hình tròn</string>
+    <string name="qs_tile_style_tear_drop">Giọt nước</string>
     <!-- Sound: Title for the option defining the phone ringtone for slot1 on Muilti SIM device. [CHAR LIMIT=50] -->
-    <string name="ringtone1_title">Phone ringtone - SIM 1</string>
+    <string name="ringtone1_title">Chuông điện thoại - SIM 1</string>
     <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
-    <string name="ringtone2_title">Phone ringtone - SIM 2</string>
+    <string name="ringtone2_title">Chuông điện thoại - SIM 2</string>
     <!-- Notification log -->
-    <string name="notification_log_summary">Show notifications history log</string>
+    <string name="notification_log_summary">Hiển thị nhật ký lịch sử thông báo</string>
+    <!-- doze on charge -->
+    <string name="doze_on_charge_title">Hiển thị khi sạc</string>
+    <string name="doze_on_charge_summary">Bật màn hình khi sạc</string>
 </resources>

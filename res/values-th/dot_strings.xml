@@ -14,7 +14,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- About phone screen, DotOS version -->
-    <string name="dot_version">dotOS version</string>
+    <string name="dot_version">Version</string>
     <string name="dot_version_default">Unknown</string>
     <string name="keywords_dot_version">dotOS version, dot version</string>
     <!-- Toolbar -->
@@ -153,4 +153,7 @@
     <string name="ringtone2_title">Phone ringtone - SIM 2</string>
     <!-- Notification log -->
     <string name="notification_log_summary">Show notifications history log</string>
+    <!-- doze on charge -->
+    <string name="doze_on_charge_title">Show when charging</string>
+    <string name="doze_on_charge_summary">Wake screen when charging</string>
 </resources>

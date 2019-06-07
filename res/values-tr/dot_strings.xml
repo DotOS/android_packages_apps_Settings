@@ -153,4 +153,7 @@
     <string name="ringtone2_title">Telefon zil sesi - SIM 2</string>
     <!-- Notification log -->
     <string name="notification_log_summary">Bildirim geçmişi günlüğünü göster</string>
+    <!-- doze on charge -->
+    <string name="doze_on_charge_title">Şarj olurken göster</string>
+    <string name="doze_on_charge_summary">Şarj olurken ekranı uyandır</string>
 </resources>

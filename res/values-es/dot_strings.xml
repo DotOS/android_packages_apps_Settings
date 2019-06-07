@@ -153,4 +153,7 @@
     <string name="ringtone2_title">Tono de llamada - SIM 2</string>
     <!-- Notification log -->
     <string name="notification_log_summary">Mostrar el historial de notificaciones</string>
+    <!-- doze on charge -->
+    <string name="doze_on_charge_title">Show when charging</string>
+    <string name="doze_on_charge_summary">Wake screen when charging</string>
 </resources>
