@@ -14,71 +14,70 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- About phone screen, DotOS version -->
-    <string name="dot_version">dotOS version</string>
-    <string name="dot_version_default">Unknown</string>
-    <string name="keywords_dot_version">dotOS version, dot version</string>
+    <string name="dot_version">ഡോട്ട് ഓ എസ് പതിപ്പ്</string>
+    <string name="dot_version_default">ലഭ്യമല്ല</string>
+    <string name="keywords_dot_version">ഡോട്ട്ഒഎസ് പതിപ്പ്, ഡോട്ട് പതിപ്പ്</string>
     <!-- Toolbar -->
-    <string name="settings_head_title">droid on time 3.0</string>
+    <string name="settings_head_title">ഡ്രോയ്ഡ് ഓൺ ടൈം 3.0</string>
     <!-- About phone screen, build date -->
-    <string name="build_date">Build date</string>
+    <string name="build_date">ബിൽഡ് തീയതി</string>
     <string name="build_date_default">2015-01-01-0000</string>
-    <string name="keywords_build_date">build date, build info</string>
+    <string name="keywords_build_date">ബിൽഡ് തീയതി, ബിൽഡ് വിവരം</string>
     <!-- dotOS System Updates -->
-    <string name="dotos_updater_title">System Updater</string>
-    <string name="dotos_updater_summary">dotOS System Updater</string>
+    <string name="dotos_updater_title">സി‌സ്‌റ്റം അപ്‌ഡേറ്റുകൾ</string>
+    <string name="dotos_updater_summary">ഡോട്ട് ഓ എസ് സിസ്റ്റം പുതുക്കൽ</string>
     <!-- Fingerprint location message -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front">Locate the fingerprint sensor on the front of your phone.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left">Locate the fingerprint sensor on the left side of your phone.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right">Locate the fingerprint sensor on the right side of your phone.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front">നിങ്ങളുടെ ഫോണിന്റെ മുൻഭാഗത്ത് ഫിംഗർപ്രിന്റ് സെൻസർ കണ്ടെത്തുക.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left">നിങ്ങളുടെ ഫോണിന്റെ ഇടത് ഭാഗത്ത് ഫിംഗർപ്രിന്റ് സെൻസർ കണ്ടെത്തുക.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right">നിങ്ങളുടെ ഫോണിന്റെ വലത് ഭാഗത്ത് ഫിംഗർപ്രിന്റ് സെൻസർ കണ്ടെത്തുക.</string>
     <!-- Manage applications, package string displayed in app snippet -->
-    <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+    <string name="packagename_text">        <xliff:g id="package_name">%1$s</xliff:g>
+    </string>
     <!-- About dotOS -->
-    <string name="dot_about_info">About us</string>
-    <string name="dot_about_summary">Our introduction and our team</string>
-    <string name="dot_about_info_summary">dotOS is based on Pure Aosp - which is highly optimized for supreme performance! Our ROM primary goal is to provide best Optimized Performance with some handpicked goodies for all devices running our ROM be it of Low, Mid or High End.....</string>
-    <string name="dev_info">About dotOS</string>
-    <string name="github">Github</string>
-    <string name="github_description">View our source code</string>
-    <string name="gplus">Google+</string>
-    <string name="gplus_description">Join our G+ community</string>
-    <string name="telegram">Telegram</string>
-    <string name="telegram_description">Join our Telegram Community</string>
-    <string name="telegram_channel">Telegram Channel</string>
-    <string name="telegram_channel_description">Subscribe to our Telegram channel</string>
-    <string name="web">Downloads Center</string>
-    <string name="web_description">Visit our download portal</string>
-    <string name="help_translate">Translations</string>
-    <string name="help_translate_description">Translate to your language, visit our Crowdin</string>
-    <string name="walls">Wallpapers</string>
-    <string name="walls_description">Get wallpapers contributed by various users</string>
-    <string name="maintainers">Maintainers</string>
-    <string name="maintainers_title">Official maintainers</string>
-    <string name="maintainers_summary">Officially supported devices and their respective maintainers.</string>
+    <string name="dot_about_info">ഞങ്ങളെ കുറിച്ച്</string>
+    <string name="dot_about_summary">ഞങ്ങളുടെ ആമുഖം പിന്നെ ഞങ്ങളുടെ ടീം</string>
+    <string name="dot_about_info_summary">ഡോട്ട് എന്നാൽ ഡ്രോയിഡ് ഓൺ ടൈം ആണ്. ഡോട്ട് യഥാർത്ഥ Aosp അടിസ്ഥാനമാക്കിയുള്ളതാണ്- അതാകട്ടെ പരമാവധി പർഫോമൻസിനുേവേണ്ടി ചിട്ടപ്പെടുത്തിയിട്ടുള്ളതും! ഞങ്ങളുടെ റോമിന്റെ പ്രധാന ലക്ഷ്യം ഇതുകൊണ്ട് പ്രവർത്തിക്കുന്ന എല്ലാ ഡിവൈസും, അതു കുറഞ്ഞതോ കൂടിയ നിലവാരമുള്ളതോ ആകട്ടെ അത് പരമാവധി പർഫോർമൻസിൽ ഉപയോഗിക്കുക എന്നതാണ്. ഞങ്ങൾ ഇവിടെയുള്ളത് നിങ്ങളുടെ ഡിവൈസിനെ സമയത്തോടുപോലും കിടപിടിക്കത്തക്കതാക്കുവാനാണ്.....</string>
+    <string name="dev_info">ഡോട്ട് ഓ എസ്സിനെ കുറിച്ച്</string>
+    <string name="github">ഗിറ്റ്ഹബ്</string>
+    <string name="github_description">ഞങ്ങളുടെ സോഴ്സ് കോഡ് കാണിക്കുക</string>
+    <string name="telegram">ടെലഗ്രാം</string>
+    <string name="telegram_description">ഞങ്ങളുടെ ടെലിഗ്രാം കൂടായ്മയിൽ ചേരു</string>
+    <string name="telegram_channel">ടെലിഗ്രാം ചാനൽ</string>
+    <string name="telegram_channel_description">നമ്മുടെ Telegram ചാനലിൽ സബ്സ്ക്രൈബ് ചെയ്യുക</string>
+    <string name="web">ഡൗൺലോഡ് കേന്ദ്രം</string>
+    <string name="web_description">നമ്മുടെ ഡൗൺലോഡ് പോർട്ടൽ സന്ദർശിക്കുക</string>
+    <string name="help_translate">പരിഭാഷകള്‍</string>
+    <string name="help_translate_description">നിങ്ങളുടെ ഭാഷയിൽ തർജ്ജമ ചെയ്യുക, നമ്മുടെ Crowdin സന്ദർശിക്കുക</string>
+    <string name="walls">വാൾപേപ്പറുകൾ</string>
+    <string name="walls_description">വിവിധ ഉപയോക്താക്കൾ സംഭാവന ചെയ്ത വാൾപേപ്പറുകൾ കിട്ടുക</string>
+    <string name="maintainers">നിലനിർത്തുന്നവർ</string>
+    <string name="maintainers_title">ഔദ്യോഗികമായി നിലനിർത്തുന്നവർ</string>
+    <string name="maintainers_summary">ഔദ്യോഗികമായി സപ്പോർട്ടുള്ള ഡിവൈസുകളും അവയെ നിലനിർത്തുന്നവരും.</string>
     <!-- Maintainer section -->
-    <string name="maintainer_description">Maintainer: %1$s</string>
-    <string name="loading_devices">Loading devices list...</string>
-    <string name="loading_devices_failed">Failed to load devices list</string>
-    <string name="devices_list_empty">List is empty, tap the icon to reload</string>
-    <string name="reload_list">Reload</string>
+    <string name="maintainer_description">നിലനിർത്തുന്നവർ: %1$s</string>
+    <string name="loading_devices">ഡിവൈസ് പട്ടിക ലോഡ് ചെയ്യുന്നു...</string>
+    <string name="loading_devices_failed">ഡിവൈസ് പട്ടിക ലോഡ് ചെയ്യാൻ സാധിക്കുന്നില്ല</string>
+    <string name="devices_list_empty">പട്ടിക ശൂന്യമാണ്, റീലോഡ് ചെയ്യാൻ ഐക്കണിൽ അമർത്തുക</string>
+    <string name="reload_list">റീലോഡ്</string>
     <!-- Changelog -->
-    <string name="changelog_title">Changelog</string>
-    <string name="changelog_summary">Recent Changes</string>
-    <string name="changelog_loading">Loading changelog\u2026</string>
-    <string name="changelog_error">Unable to load changelog</string>
+    <string name="changelog_title">പുതിയ മാറ്റങ്ങൾ</string>
+    <string name="changelog_summary">സമീപകാല മാറ്റങ്ങൾ</string>
+    <string name="changelog_loading">അടയാളപ്പെടുത്തിയ മാറ്റങ്ങൾ ലോഡ് ചെയ്യുന്നു\u2026</string>
+    <string name="changelog_error">പുതിയ മാറ്റങ്ങൾ ലോഡ് ചെയ്യാൻ സാധിക്കുന്നില്ല</string>
     <!-- Scramble PIN Layout on Lockscreen -->
-    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
-    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
+    <string name="unlock_scramble_pin_layout_title">സ്ക്രാമ്പിള്‍ ചെയ്ത ലേഔട്ട്</string>
+    <string name="unlock_scramble_pin_layout_summary">ഉപകരണം അൺലോക്ക് ചെയ്യുമ്പോൾ PIN ലേയൌട്ട് സ്ക്രാമ്പിള്‍ ചെയ്യുക</string>
     <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
-    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
+    <string name="unlock_quick_unlock_control_title">വേഗത്തിൽ അൺലോക്ക്</string>
+    <string name="unlock_quick_unlock_control_summary">ശരിയായ പിൻ/പാസ്സ്‌വേർഡ്‌ നൽകിയാൽ താനേ അൺലോക്ക് ആവുക</string>
     <!-- Screenshot sound -->
-    <string name="screenshot_sound_title">Screenshot sound</string>
-    <string name="screenshot_sound_summary">Plays sound effect when screenshot is taken</string>
+    <string name="screenshot_sound_title">സ്‌ക്രീൻഷോട്ട് ശബ്ദം</string>
+    <string name="screenshot_sound_summary">സ്ക്രീൻഷോട്ട് എടുക്കുമ്പോൾ സൗണ്ട് എഫക്ട് നൽകുക</string>
     <!-- Charging vibration -->
-    <string name="charging_vibro_title">Charging vibration</string>
+    <string name="charging_vibro_title">ചാർജിങ് വൈബ്രേഷൻ</string>
     <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Reset stats</string>
-    <string name="battery_stats_message">Battery history stats are going to be reset</string>
+    <string name="battery_stats_reset">Stats പുതുക്കുക</string>
+    <string name="battery_stats_message">ബാറ്ററി ഹിസ്റ്ററി പുതുക്കാൻ പോവുകയാണ്</string>
     <string name="ok_string">Ok</string>
     <string name="dashboard_conditions_title">Dashboard conditions</string>
     <string name="dashboard_category">Dashboard category</string>
@@ -108,12 +107,18 @@
     <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_enforcing">Enforcing</string>
     <!-- Manual provisioning support -->
-    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> is <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+    <string name="sim_enabler_summary">        <xliff:g id="displayName">%1$s</xliff:g>
+        is
+        <xliff:g id="status" example="disabled">%2$s</xliff:g>
+    </string>
     <string name="sim_disabled">disabled</string>
     <string name="sim_missing">missing or faulty</string>
     <string name="sim_enabler_need_disable_sim">SIM card will be deactivated. Do you want to continue?</string>
     <string name="sim_enabler_will_disable_sim_title">Attention</string>
-    <string name="sim_enabler_need_switch_data_service">This SIM will be disabled and SIM <xliff:g id="slotid">%1$s</xliff:g> will be used for data services. Are you sure you want to continue?</string>
+    <string name="sim_enabler_need_switch_data_service">        This SIM will be disabled and SIM
+        <xliff:g id="slotid">%1$s</xliff:g>
+        will be used for data services. Are you sure you want to continue?
+    </string>
     <string name="sim_enabler_airplane_on">Unable to perform the operation while airplane mode is on.</string>
     <string name="sim_enabler_in_call">Unable to perform the operation while in call.</string>
     <string name="sim_enabler_both_inactive">Can\'t disable all SIM cards</string>
@@ -138,22 +143,62 @@
     <string name="lockscreen_vibrate_enabled_title">Vibrate</string>
     <string name="lockscreen_vibrate_enabled_head">Vibrate when unlocking</string>
     <!-- Whether the keyguard will directly show the lock entry -->
-    <string name="directly_show_lock">Direct unlock</string>
-    <string name="directly_show_lock_summary">Skip the swipe to unlock screen and immediately begin key entry</string>
+    <string name="directly_show_lock">ഡയറക്ട് അൺലോക്ക്</string>
+    <string name="directly_show_lock_summary">Swipe അൺലോക്ക് ഒഴിവാക്കി കീ എന്ററി വരുക</string>
     <!-- QS tile styles -->
-    <string name="qs_tile_style_title">QS tile style</string>
-    <string name="qs_tile_style_default">Default</string>
-    <string name="qs_tile_style_square">Square</string>
-    <string name="qs_tile_style_rounded_square">Rounded square</string>
-    <string name="qs_tile_style_squircle">Squircle</string>
-    <string name="qs_tile_style_tear_drop">Tear drop</string>
+    <string name="qs_tile_style_title">QS ടൈൽ സ്റ്റൈൽ</string>
+    <string name="qs_tile_style_default">സ്ഥിരമായത്</string>
+    <string name="qs_tile_style_square">ചതുരം</string>
+    <string name="qs_tile_style_rounded_square">വൃത്താകൃതിയുള്ള ചതുരം</string>
+    <string name="qs_tile_style_squircle">ചതുരവൃത്തം</string>
+    <string name="qs_tile_style_tear_drop">കണ്ണുനീർ തുള്ളി</string>
     <!-- Sound: Title for the option defining the phone ringtone for slot1 on Muilti SIM device. [CHAR LIMIT=50] -->
-    <string name="ringtone1_title">Phone ringtone - SIM 1</string>
+    <string name="ringtone1_title">ഫോൺ ringtone - SIM 1</string>
     <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
-    <string name="ringtone2_title">Phone ringtone - SIM 2</string>
+    <string name="ringtone2_title">ഫോൺ ringtone - SIM 2</string>
     <!-- Notification log -->
-    <string name="notification_log_summary">Show notifications history log</string>
+    <string name="notification_log_summary">നോട്ടിഫിക്കേഷൻ ഹിസ്റ്ററി ലോഗ് കാണുക</string>
     <!-- doze on charge -->
-    <string name="doze_on_charge_title">Show when charging</string>
-    <string name="doze_on_charge_summary">Wake screen when charging</string>
+    <string name="doze_on_charge_title">ചാർജ് ചെയ്യുമ്പോൾ കാണുക</string>
+    <string name="doze_on_charge_summary">ചാർജ് ചെയ്യുമ്പോൾ സ്ക്രീൻ ഓൺ</string>
+    <!-- Font picker -->
+    <string name="font_picker_title">ഫോണ്ട്</string>
+    <string name="font_picker_progress">പുതിയ ഫോണ്ട് ആവുന്നു\u2026</string>
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">പോക്കറ്റ് ഡിറ്റക്ഷൻ</string>
+    <string name="pocket_judge_summary">ഫോൺ പോക്കറ്റിൽ ആവുമ്പോൾ സ്ക്രീൻ, ബട്ടൺ ബ്ലോക്ക് ചെയ്യുക</string>
+    <!-- Expanded desktop -->
+    <string name="expanded_desktop_pref_title">Expanded desktop</string>
+    <string name="expanded_hide_nothing">ഒന്നും മറയ്ക്കരുത്</string>
+    <string name="expanded_hide_status">സ്റ്റാറ്റസ്ബാർ മറയ്ക്കുക</string>
+    <string name="expanded_hide_navigation">നാവിഗേഷൻ ബാർ അനുവദിക്കുക</string>
+    <string name="expanded_hide_both">രണ്ടും മറയ്ക്കുക</string>
+    <string name="expanded_nothing_to_show">To add a custom per-app configuration for expanded state, set \"Enabled for all\" to the off position</string>
+    <string name="expanded_desktop_state">Expanded state</string>
+    <string name="expanded_enabled_for_all">എല്ലാത്തിനും Enabled</string>
+    <string name="expanded_user_configurable">യൂസർ configurable</string>
+    <string name="expanded_desktop_style">Expanded desktop സ്റ്റൈൽ</string>
+    <string name="expanded_desktop_style_description">ഒരു expanded ഡെസ്ക്ടോപ്പ് സ്റ്റൈൽ തിരഞ്ഞെടുക്കുക</string>
+    <string name="expanded_desktop_title">Expanded desktop ഓപ്ഷൻ</string>
+    <!-- Thermal control per app -->
+    <string name="thermal_control_per_app">Optimization പ്രൊഫൈൽ</string>
+    <string name="thermal_control_per_app_default">യാതൊരു നിയന്ത്രണങ്ങളും ഇല്ല</string>
+    <string name="thermal_control_per_app_benchmark">പ്രകടനം</string>
+    <string name="thermal_control_per_app_games">ഗെയിമുകൾ</string>
+    <string name="thermal_control_per_app_browser">ബ്രൗസർ</string>
+    <string name="thermal_control_per_app_video_playback">വീഡിയോ പ്ലേ ബാക്ക്</string>
+    <string name="thermal_control_per_app_dialer">ഡയലർ</string>
+    <string name="thermal_control_per_app_camera">ക്യാമറ</string>
+    <!-- Aggressive battery -->
+    <string name="aggressive_battery_title">Aggressive ബാറ്ററി</string>
+    <string name="aggressive_battery_summary">കൂടുതൽ strict ബാറ്ററി സേവിങ്‌സ്</string>
+    <string name="aggressive_battery_warning_text">ഊർജ്ജസംരക്ഷണ സവിശേഷതകൾ ഇവയാണ്. നാവിഗേഷൻ ആപ്ലിക്കേഷനുകൾ പോലെ നിഷ്ക്രിയമായി പ്രവർത്തിപ്പിക്കാൻ ഉദ്ദേശിച്ചിട്ടുള്ള സേവനങ്ങൾ അവർ തടസ്സപ്പെടുത്തിയേക്കാം. അപ്ലിക്കേഷൻ ബാറ്ററി ക്രമീകരണങ്ങളിൽ ഈ അപ്ലിക്കേഷനുകൾക്ക് ബാധകമാകില്ല എന്നതിൽ നിന്ന് നിങ്ങൾക്ക് വൈറ്റ്ലിസ്റ്റ് ചെയ്യാൻ കഴിയും.</string>
+    <string name="aggressive_idle_title">Aggressive Idle</string>
+    <string name="aggressive_idle_summary">Enter device idle more frequently and wake up less</string>
+    <string name="aggressive_standby_title">Aggressive Standby</string>
+    <string name="aggressive_standby_summary">ബാക്ക്ഗ്രൗണ്ട് റൺ ചെയ്യുന്നതിൽ നിന്ന് ആപ്പിനെ വിലക്കുക</string>
+    <string name="aggressive_battery_saver_title">Auto-enable ഓൺ ബാറ്ററി സേവർ </string>
+    <string name="aggressive_battery_saver_summary">ബാറ്ററി സേവർ ഉപയോഗിക്കുമ്പോൾ ഓട്ടോമാറ്റിക്കായി Aggressive Battery പ്രവർത്തിക്കുക</string>
+    <!-- Battery temp -->
+    <string name="battery_temp_title">ബാറ്ററി താപനില</string>
 </resources>

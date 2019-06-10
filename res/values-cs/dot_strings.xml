@@ -31,7 +31,7 @@
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left">Vyhledejte snímač otisků prstů na levé straně telefonu.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right">Vyhledejte snímač otisků prstů na pravé straně telefonu.</string>
     <!-- Manage applications, package string displayed in app snippet -->
-    <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+    <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g>    </string>
     <!-- About dotOS -->
     <string name="dot_about_info">O nás</string>
     <string name="dot_about_summary">Naše představení a náš tým</string>
@@ -39,8 +39,6 @@
     <string name="dev_info">O dotOS</string>
     <string name="github">GitHub</string>
     <string name="github_description">Zobrazit náš zdrojový kód</string>
-    <string name="gplus">Google+</string>
-    <string name="gplus_description">Připojte se k naší G+ komunitě</string>
     <string name="telegram">Telegram</string>
     <string name="telegram_description">Připojte se k naší Telegram komunitě</string>
     <string name="telegram_channel">Kanál Telegram</string>
@@ -108,12 +106,12 @@
     <string name="selinux_status_permissive">Mírné</string>
     <string name="selinux_status_enforcing">Vynucené</string>
     <!-- Manual provisioning support -->
-    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> je <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> je <xliff:g id="status" example="disabled">%2$s</xliff:g>    </string>
     <string name="sim_disabled">deaktivována</string>
     <string name="sim_missing">chybějící nebo vadná</string>
     <string name="sim_enabler_need_disable_sim">SIM karta bude deaktivována. Přejete si pokračovat?</string>
     <string name="sim_enabler_will_disable_sim_title">Upozornění</string>
-    <string name="sim_enabler_need_switch_data_service">Tato SIM karta bude deaktivována a SIM <xliff:g id="slotid">%1$s</xliff:g> bude použita pro datové služby. Jste si jisti, že chcete pokračovat?</string>
+    <string name="sim_enabler_need_switch_data_service">Tato SIM karta bude deaktivována a SIM <xliff:g id="slotid">%1$s</xliff:g> bude použita pro datové služby. Jste si jisti, že chcete pokračovat?    </string>
     <string name="sim_enabler_airplane_on">Nelze provést akci, když je aktivován režim letadlo.</string>
     <string name="sim_enabler_in_call">Nelze provést tuto akci při hovoru.</string>
     <string name="sim_enabler_both_inactive">Nelze deaktivovat všechny SIM karty</string>
@@ -156,4 +154,44 @@
     <!-- doze on charge -->
     <string name="doze_on_charge_title">Zobrazit při nabíjení</string>
     <string name="doze_on_charge_summary">Probudit obrazovku při nabíjení</string>
+    <!-- Font picker -->
+    <string name="font_picker_title">Písmo</string>
+    <string name="font_picker_progress">Aplikuji nové písmo\u2026</string>
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">Detekce uložení v kapse</string>
+    <string name="pocket_judge_summary">Blokovat obrazovku a hardwarová tlačítka, když je zařízení v kapse</string>
+    <!-- Expanded desktop -->
+    <string name="expanded_desktop_pref_title">Rozšířená plocha</string>
+    <string name="expanded_hide_nothing">Nic neskrývat</string>
+    <string name="expanded_hide_status">Skrýt stavovou lištu</string>
+    <string name="expanded_hide_navigation">Skrýt navigační panel</string>
+    <string name="expanded_hide_both">Skrýt obojí</string>
+    <string name="expanded_nothing_to_show">Dotykem přidejte nastavení pro aplikace, nebo přepněte na vypnuto pro \"Povoleno pro všechny aplikace\"</string>
+    <string name="expanded_desktop_state">Rozšířená obrazovka</string>
+    <string name="expanded_enabled_for_all">Povoleno pro všechny aplikace</string>
+    <string name="expanded_user_configurable">Uživatelsky nastavitelné</string>
+    <string name="expanded_desktop_style">Vzhled rozšířené plochy</string>
+    <string name="expanded_desktop_style_description">Vyberte výchozí styl rozšířené plochy</string>
+    <string name="expanded_desktop_title">Možnosti rozšířené plochy</string>
+    <!-- Thermal control per app -->
+    <string name="thermal_control_per_app">Profil optimalizace</string>
+    <string name="thermal_control_per_app_default">Žádná optimalizace</string>
+    <string name="thermal_control_per_app_benchmark">Výkon</string>
+    <string name="thermal_control_per_app_games">Hry</string>
+    <string name="thermal_control_per_app_browser">Prohlížeč</string>
+    <string name="thermal_control_per_app_video_playback">Přehrávání videa</string>
+    <string name="thermal_control_per_app_dialer">Číselník</string>
+    <string name="thermal_control_per_app_camera">Fotoaparát</string>
+    <!-- Aggressive battery -->
+    <string name="aggressive_battery_title">Agresivní baterie</string>
+    <string name="aggressive_battery_summary">Přísnější úspora baterie</string>
+    <string name="aggressive_battery_warning_text">Jedná se o funkce pro úsporu energie. Můžou zasahovat do služeb, které mají běžet v nečinnosti, jako jsou navigační aplikace. Tyto aplikace můžete povolit, aby nebyly ovlivněny v nastavení baterie.</string>
+    <string name="aggressive_idle_title">Agresivní nečinnost</string>
+    <string name="aggressive_idle_summary">Uvede zařízení do nečinnosti častěji a více zamezí probuzení</string>
+    <string name="aggressive_standby_title">Agresivní pohotovostní režim</string>
+    <string name="aggressive_standby_summary">Omezí používání aplikací běžících na pozadí</string>
+    <string name="aggressive_battery_saver_title">Automatické zapnutí při spořiči baterie </string>
+    <string name="aggressive_battery_saver_summary">Při použití spořiče baterie automaticky aktivovat funkci \"Agresivní baterie\"</string>
+    <!-- Battery temp -->
+    <string name="battery_temp_title">Teplota baterie</string>
 </resources>

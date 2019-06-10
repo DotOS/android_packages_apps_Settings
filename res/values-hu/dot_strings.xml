@@ -31,7 +31,8 @@
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left">Az ujjlenyomat-olvasót a telefonja bal oldalán találhatja meg.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right">Az ujjlenyomat-olvasót a telefonja jobb oldalán találhatja meg.</string>
     <!-- Manage applications, package string displayed in app snippet -->
-    <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+    <string name="packagename_text">        <xliff:g id="package_name">%1$s</xliff:g>
+    </string>
     <!-- About dotOS -->
     <string name="dot_about_info">A DotOS-ról</string>
     <string name="dot_about_summary">Bemutatkozásunk és a csapatunk</string>
@@ -39,8 +40,6 @@
     <string name="dev_info">A DotOS készítőiről</string>
     <string name="github">Github</string>
     <string name="github_description">Itt megnézheti a forráskódunkat</string>
-    <string name="gplus">Google+</string>
-    <string name="gplus_description">Csatlakozzon a G+ közösségünkhöz</string>
     <string name="telegram">Telegram</string>
     <string name="telegram_description">Csatlakozzon Telegram közösségünkhöz</string>
     <string name="telegram_channel">Telegram-csatorna</string>
@@ -108,12 +107,18 @@
     <string name="selinux_status_permissive">Engedélyezett</string>
     <string name="selinux_status_enforcing">Kényszerített</string>
     <!-- Manual provisioning support -->
-    <string name="sim_enabler_summary">xliff:g id=\"displayName\"&gt;%1$s&lt;/xliff:g&gt; --&gt; &lt;xliff:g id="status" example="disabled"&gt;%2$s&lt;/xliff:g&gt;</string>
+    <string name="sim_enabler_summary">        A
+        <xliff:g id="displayName">%1$s</xliff:g>
+        <xliff:g id="status" example="disabled">%2$s</xliff:g>
+    </string>
     <string name="sim_disabled">letiltott</string>
     <string name="sim_missing">hiányzik vagy hibás</string>
     <string name="sim_enabler_need_disable_sim">A SIM-kártya deaktiválásra kerül. Szeretné folytatni?</string>
     <string name="sim_enabler_will_disable_sim_title">Figyelmeztetés</string>
-    <string name="sim_enabler_need_switch_data_service">Ez a SIM tiltásra kerül és a SIM<xliff:g id="slotid">%1$s</xliff:g> lesz mobiladat-forgalomhoz használva. Biztosan folytatni kívánja?</string>
+    <string name="sim_enabler_need_switch_data_service">        Ez a SIM letiltásra kerül és a
+        SIM<xliff:g id="slotid">%1$s</xliff:g>
+        lesz az adatforgami kártya. Biztos benne, hogy folytatni kívánja?
+    </string>
     <string name="sim_enabler_airplane_on">A művelet nem hajtható végre, miközben a repülőgép-üzemmód aktív.</string>
     <string name="sim_enabler_in_call">A művelet nem hajtható végre hívás közben.</string>
     <string name="sim_enabler_both_inactive">Nem tiltható le az összes SIM-kártya</string>
@@ -156,4 +161,44 @@
     <!-- doze on charge -->
     <string name="doze_on_charge_title">Megjelenítés töltés közben</string>
     <string name="doze_on_charge_summary">Töltéskor ébressze fel a képernyőt</string>
+    <!-- Font picker -->
+    <string name="font_picker_title">Betűtípus</string>
+    <string name="font_picker_progress">Az új betűtípus alkalmazása\u2026</string>
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">Zsebérzékelés</string>
+    <string name="pocket_judge_summary">A képernyő és a gombok általi véletlen bevitelek blokkolása, ha a készülék a zsebben van</string>
+    <!-- Expanded desktop -->
+    <string name="expanded_desktop_pref_title">Kiterjesztett asztal</string>
+    <string name="expanded_hide_nothing">Ne rejtsen el semmit</string>
+    <string name="expanded_hide_status">Rejtse el az állapotsort</string>
+    <string name="expanded_hide_navigation">Rejtse el a navigációs sávot</string>
+    <string name="expanded_hide_both">Rejtse el mindkettőt</string>
+    <string name="expanded_nothing_to_show">Kiterjesztett állapotban az alkalmazásonkénti konfiguráláshoz helyezze \'Az összesre engedélyezve\' menüt kikapcsolt állapotba</string>
+    <string name="expanded_desktop_state">Kiterjesztett állapot</string>
+    <string name="expanded_enabled_for_all">Az összesre engedélyezve</string>
+    <string name="expanded_user_configurable">Felhasználó által konfigurálható</string>
+    <string name="expanded_desktop_style">A Kiterjesztett asztal stílusa</string>
+    <string name="expanded_desktop_style_description">Válasszon alapértelmezett kiterjesztett asztalstílust</string>
+    <string name="expanded_desktop_title">A Kiterjesztett asztal lehetőségei</string>
+    <!-- Thermal control per app -->
+    <string name="thermal_control_per_app">Optimalizálási profilok</string>
+    <string name="thermal_control_per_app_default">Nincs optimalizálás</string>
+    <string name="thermal_control_per_app_benchmark">Teljesítménycentrikus</string>
+    <string name="thermal_control_per_app_games">Játékcentrikus</string>
+    <string name="thermal_control_per_app_browser">Böngészéshez</string>
+    <string name="thermal_control_per_app_video_playback">Videólejátszáshoz</string>
+    <string name="thermal_control_per_app_dialer">Telefonhíváshoz</string>
+    <string name="thermal_control_per_app_camera">Fényképezőgéphez</string>
+    <!-- Aggressive battery -->
+    <string name="aggressive_battery_title">Agresszív akkukímélő</string>
+    <string name="aggressive_battery_summary">Még szigorúbb akkumulátorkímélés</string>
+    <string name="aggressive_battery_warning_text">Ezek mind akkukímélő funkciók. Zavarhatják a háttérben futó szolgáltatásokat, például a navigációs alkalmazásokat. \"Fehérlistázhatja\" ezeket az alkalmazásokat anélkül, hogy az alkalmazások akkubeállításait érintené.</string>
+    <string name="aggressive_idle_title">Agresszív üresjárat</string>
+    <string name="aggressive_idle_summary">Gyakrabban lépteti be a készüléket üresjáratba és kevesebbszer ébreszti fel</string>
+    <string name="aggressive_standby_title">Agresszív készenlét</string>
+    <string name="aggressive_standby_summary">Korlátozza a háttérben futó alkalmazásokat</string>
+    <string name="aggressive_battery_saver_title">Automatikus engedélyezés akkumulátorkímélő-üzemmódban </string>
+    <string name="aggressive_battery_saver_summary">Automatikusan engedélyezi az Agresszív akkukímélő-t, ha Ön akkumulátorkímélő-üzemmódot használ</string>
+    <!-- Battery temp -->
+    <string name="battery_temp_title">Akkuhőmérséklet</string>
 </resources>

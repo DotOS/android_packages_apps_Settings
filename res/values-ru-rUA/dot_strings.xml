@@ -31,7 +31,7 @@
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left">Найдите сканер отпечатков пальцев на левой грани вашего телефона.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right">Найдите сканер отпечатков пальцев на правой грани вашего телефона.</string>
     <!-- Manage applications, package string displayed in app snippet -->
-    <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+    <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g>    </string>
     <!-- About dotOS -->
     <string name="dot_about_info">О нас</string>
     <string name="dot_about_summary">Наша команда и миссия</string>
@@ -42,8 +42,6 @@ dotOS основана на чистом AOSP - отлично оптимизи�
     <string name="dev_info">О dotOS</string>
     <string name="github">GitHub</string>
     <string name="github_description">Посмотреть наш исходный код</string>
-    <string name="gplus">Google+</string>
-    <string name="gplus_description">Присоединяйтесь к нашему сообществу Google+</string>
     <string name="telegram">Telegram</string>
     <string name="telegram_description">Присоединяйтесь к нам в Telegram</string>
     <string name="telegram_channel">Telegram канал</string>
@@ -111,12 +109,12 @@ dotOS основана на чистом AOSP - отлично оптимизи�
     <string name="selinux_status_permissive">Только предупреждение</string>
     <string name="selinux_status_enforcing">Блокировка</string>
     <!-- Manual provisioning support -->
-    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> — <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> — <xliff:g id="status" example="disabled">%2$s</xliff:g>    </string>
     <string name="sim_disabled">отключено</string>
     <string name="sim_missing">отсутствует или неисправна</string>
     <string name="sim_enabler_need_disable_sim">SIM-карта будет деактивирована. Продолжить?</string>
     <string name="sim_enabler_will_disable_sim_title">Внимание</string>
-    <string name="sim_enabler_need_switch_data_service">Эта SIM-карта будет отключена и SIM <xliff:g id="slotid">%1$s</xliff:g> будет использоваться для передачи данных. Вы действительно хотите продолжить?</string>
+    <string name="sim_enabler_need_switch_data_service">Эта SIM-карта будет отключена и SIM <xliff:g id="slotid">%1$s</xliff:g> будет использоваться для передачи данных. Вы действительно хотите продолжить    </string>
     <string name="sim_enabler_airplane_on">Выполнение операции невозможно, пока активен режим полета.</string>
     <string name="sim_enabler_in_call">Выполнение операции невозможно во время вызова.</string>
     <string name="sim_enabler_both_inactive">Невозможно отключить все SIM-карты</string>
@@ -159,4 +157,44 @@ dotOS основана на чистом AOSP - отлично оптимизи�
     <!-- doze on charge -->
     <string name="doze_on_charge_title">Показывать во время зарядки</string>
     <string name="doze_on_charge_summary">Включение экрана при зарядке</string>
+    <!-- Font picker -->
+    <string name="font_picker_title">Шрифт</string>
+    <string name="font_picker_progress">Применение нового шрифта\u2026</string>
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">Режим \"В кармане\"</string>
+    <string name="pocket_judge_summary">Блокировать экран и физ. кнопки, когда устройство находится в кармане</string>
+    <!-- Expanded desktop -->
+    <string name="expanded_desktop_pref_title">Расширенный рабочий стол</string>
+    <string name="expanded_hide_nothing">Ничего не скрывать</string>
+    <string name="expanded_hide_status">Скрыть строку состояния</string>
+    <string name="expanded_hide_navigation">Скрывать панель навигации</string>
+    <string name="expanded_hide_both">Скрыть оба</string>
+    <string name="expanded_nothing_to_show">Для настройки параметров расширенного экрана для отдельных приложений, отключите параметр «Включено для всех»</string>
+    <string name="expanded_desktop_state">Расширенный режим</string>
+    <string name="expanded_enabled_for_all">Включено для всех</string>
+    <string name="expanded_user_configurable">Настраиваемое пользователем</string>
+    <string name="expanded_desktop_style">Расширенный стиль рабочего стола</string>
+    <string name="expanded_desktop_style_description">Выбрать стиль расширенного рабочего стола по умолчанию</string>
+    <string name="expanded_desktop_title">Настройки расширенного рабочего стола</string>
+    <!-- Thermal control per app -->
+    <string name="thermal_control_per_app">Профили оптимизации</string>
+    <string name="thermal_control_per_app_default">Без оптимизации</string>
+    <string name="thermal_control_per_app_benchmark">Производительность</string>
+    <string name="thermal_control_per_app_games">Игры</string>
+    <string name="thermal_control_per_app_browser">Браузер</string>
+    <string name="thermal_control_per_app_video_playback">Воспроизведение видео</string>
+    <string name="thermal_control_per_app_dialer">Звонки</string>
+    <string name="thermal_control_per_app_camera">Камера</string>
+    <!-- Aggressive battery -->
+    <string name="aggressive_battery_title">Агрессивное энергосбережение</string>
+    <string name="aggressive_battery_summary">Более строгая экономия батареи</string>
+    <string name="aggressive_battery_warning_text">Это функции энергосбережения. Включение этих режимов может мешать службам, предназначенным для работы в режиме ожидания, например, навигационные приложения. Вы можете добавить эти приложения в белый список в настройках батареи приложения.</string>
+    <string name="aggressive_idle_title">Агрессивный режим ожидания</string>
+    <string name="aggressive_idle_summary">Чаще входить в режим ожидания и просыпаться меньше</string>
+    <string name="aggressive_standby_title">Ограничение работы в фоне</string>
+    <string name="aggressive_standby_summary">Ограничить работу приложений в фоне</string>
+    <string name="aggressive_battery_saver_title">Включать автоматически в режиме экономии заряда </string>
+    <string name="aggressive_battery_saver_summary">Автоматически включать агрессивное энергосбережение при использовании экономии батареи</string>
+    <!-- Battery temp -->
+    <string name="battery_temp_title">Температура батареи</string>
 </resources>
