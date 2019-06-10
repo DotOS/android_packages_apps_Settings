@@ -31,7 +31,8 @@
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left">Individua il sensore d\'impronte digitali sul lato sinistro del tuo telefono.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right">Individua il sensore d\'impronte digitali sul lato destro del tuo telefono.</string>
     <!-- Manage applications, package string displayed in app snippet -->
-    <string name="packagename_text"><xliff:g id="package_name">%1$s </xliff:g></string>
+    <string name="packagename_text">        <xliff:g id="package_name">%1$s</xliff:g>
+    </string>
     <!-- About dotOS -->
     <string name="dot_about_info">Chi siamo</string>
     <string name="dot_about_summary">La nostra introduzione e il nostro team</string>
@@ -39,8 +40,6 @@
     <string name="dev_info">Informazioni su dotOS</string>
     <string name="github">GitHub</string>
     <string name="github_description">Visualizza il nostro codice sorgente</string>
-    <string name="gplus">Google+</string>
-    <string name="gplus_description">Entra nella comunità su G+</string>
     <string name="telegram">Telegram</string>
     <string name="telegram_description">Entra nel nostro gruppo Telegram</string>
     <string name="telegram_channel">Canale Telegram</string>
@@ -108,12 +107,18 @@
     <string name="selinux_status_permissive">Permissivo</string>
     <string name="selinux_status_enforcing">Applicazione</string>
     <!-- Manual provisioning support -->
-    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> è <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+    <string name="sim_enabler_summary">        <xliff:g id="displayName">%1$s</xliff:g>
+        è
+        <xliff:g id="status" example="disabled">%2$s</xliff:g>
+    </string>
     <string name="sim_disabled">disabilitato</string>
     <string name="sim_missing">mancante o difettoso</string>
     <string name="sim_enabler_need_disable_sim">La scheda SIM sarà disattivata. Vuoi continuare?</string>
     <string name="sim_enabler_will_disable_sim_title">Attenzione</string>
-    <string name="sim_enabler_need_switch_data_service">Questa SIM sarà disattivata e la SIM <xliff:g id="slotid">%1$s</xliff:g> sarà utilizzata per la connessione dati. Vuoi procedere?</string>
+    <string name="sim_enabler_need_switch_data_service">        Questa SIM sarà disattivata e SIM
+        <xliff:g id="slotid">%1$s</xliff:g>
+        sarà utilizzata per i servizi di dati. Sei sicuro di voler continuare?
+    </string>
     <string name="sim_enabler_airplane_on">Impossibile eseguire l\'operazione mentre è attivata la modalità aereo.</string>
     <string name="sim_enabler_in_call">Impossibile eseguire l\'operazione durante una chiamata.</string>
     <string name="sim_enabler_both_inactive">Non è possibile disattivare tutte le schede SIM</string>
@@ -156,4 +161,44 @@
     <!-- doze on charge -->
     <string name="doze_on_charge_title">Mostra durante la ricarica</string>
     <string name="doze_on_charge_summary">Attiva lo schermo durante la ricarica</string>
+    <!-- Font picker -->
+    <string name="font_picker_title">Carattere</string>
+    <string name="font_picker_progress">Applicazione del nuovo carattere</string>
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">Rilevazione della tasca</string>
+    <string name="pocket_judge_summary">Blocca lo schermo e i tasti quando il dispositivo è in tasca</string>
+    <!-- Expanded desktop -->
+    <string name="expanded_desktop_pref_title">Schermo esteso</string>
+    <string name="expanded_hide_nothing">Non nascondere nulla</string>
+    <string name="expanded_hide_status">Nascondi la barra di stato</string>
+    <string name="expanded_hide_navigation">Nascondi la barra di navigazione</string>
+    <string name="expanded_hide_both">Nascondi entrambi</string>
+    <string name="expanded_nothing_to_show">Per aggiungere una configurazione personalizzata di schermo esteso per ogni app, disattiva \"Attivo per tutti\"</string>
+    <string name="expanded_desktop_state">Stato schermo esteso</string>
+    <string name="expanded_enabled_for_all">Attivato per tutti</string>
+    <string name="expanded_user_configurable">Configurabile dall\'utente</string>
+    <string name="expanded_desktop_style">Stile schermo esteso</string>
+    <string name="expanded_desktop_style_description">Scegli lo stile predefinito dello schermo esteso</string>
+    <string name="expanded_desktop_title">Impostazioni schermo esteso</string>
+    <!-- Thermal control per app -->
+    <string name="thermal_control_per_app">Profilo di ottimizzazione</string>
+    <string name="thermal_control_per_app_default">Nessuna ottimizzazione</string>
+    <string name="thermal_control_per_app_benchmark">Prestazioni</string>
+    <string name="thermal_control_per_app_games">Giochi</string>
+    <string name="thermal_control_per_app_browser">Browser</string>
+    <string name="thermal_control_per_app_video_playback">Riproduzione video</string>
+    <string name="thermal_control_per_app_dialer">Telefono</string>
+    <string name="thermal_control_per_app_camera">Fotocamera</string>
+    <!-- Aggressive battery -->
+    <string name="aggressive_battery_title">Risparmio batteria aggressivo</string>
+    <string name="aggressive_battery_summary">Risparmio batteria più stringente</string>
+    <string name="aggressive_battery_warning_text">Queste sono funzionalità di risparmio energetico. Possono interferire con i servizi destinati a funzionare in modalità inattiva, ad esempio le app di navigazione. Puoi autorizzare queste app a non influire sulle impostazioni della batteria dell\'app.</string>
+    <string name="aggressive_idle_title">Idle aggressivo</string>
+    <string name="aggressive_idle_summary">Accede lo stato di standby del dispositivo più frequentemente e si risveglia di meno</string>
+    <string name="aggressive_standby_title">Standby aggressivo</string>
+    <string name="aggressive_standby_summary">Limita l\'esecuzione in background delle applicazioni</string>
+    <string name="aggressive_battery_saver_title">Abilita automaticamente insieme al risparmio energetico </string>
+    <string name="aggressive_battery_saver_summary">Abilita automaticamente la batteria aggressiva quando il risparmio energetico viene attivato</string>
+    <!-- Battery temp -->
+    <string name="battery_temp_title">Temperatura batteria</string>
 </resources>

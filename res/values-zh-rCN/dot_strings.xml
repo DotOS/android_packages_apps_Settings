@@ -31,7 +31,7 @@
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left">您可以在手机左侧找到指纹传感器。</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right">您可以在手机右侧找到指纹传感器。</string>
     <!-- Manage applications, package string displayed in app snippet -->
-    <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+    <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g>    </string>
     <!-- About dotOS -->
     <string name="dot_about_info">关于我们</string>
     <string name="dot_about_summary">项目及团队简介</string>
@@ -39,8 +39,6 @@
     <string name="dev_info">关于 dotOS</string>
     <string name="github">Github</string>
     <string name="github_description">查看我们的源码</string>
-    <string name="gplus">Google+</string>
-    <string name="gplus_description">加入我们的 G+ 社区</string>
     <string name="telegram">Telegram</string>
     <string name="telegram_description">加入我们的 Google+ 社群</string>
     <string name="telegram_channel">Telegram 频道</string>
@@ -156,4 +154,44 @@
     <!-- doze on charge -->
     <string name="doze_on_charge_title">充电时显示</string>
     <string name="doze_on_charge_summary">充电时唤醒屏幕</string>
+    <!-- Font picker -->
+    <string name="font_picker_title">字体</string>
+    <string name="font_picker_progress">正在应用新字体...</string>
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">口袋检测</string>
+    <string name="pocket_judge_summary">当设备在口袋中时屏蔽屏幕和按键操作</string>
+    <!-- Expanded desktop -->
+    <string name="expanded_desktop_pref_title">扩展桌面</string>
+    <string name="expanded_hide_nothing">不隐藏</string>
+    <string name="expanded_hide_status">隐藏状态栏</string>
+    <string name="expanded_hide_navigation">隐藏导航栏</string>
+    <string name="expanded_hide_both">同时隐藏</string>
+    <string name="expanded_nothing_to_show">若要对特定的应用设定不同的扩展屏幕设置，请关闭“为全部应用启用”选项</string>
+    <string name="expanded_desktop_state">扩展桌面状态</string>
+    <string name="expanded_enabled_for_all">为全部应用启用</string>
+    <string name="expanded_user_configurable">用户配置</string>
+    <string name="expanded_desktop_style">扩展桌面样式</string>
+    <string name="expanded_desktop_style_description">选择默认扩展桌面样式</string>
+    <string name="expanded_desktop_title">扩展桌面选项</string>
+    <!-- Thermal control per app -->
+    <string name="thermal_control_per_app">优化配置文件</string>
+    <string name="thermal_control_per_app_default">不优化</string>
+    <string name="thermal_control_per_app_benchmark">性能</string>
+    <string name="thermal_control_per_app_games">游戏</string>
+    <string name="thermal_control_per_app_browser">浏览器</string>
+    <string name="thermal_control_per_app_video_playback">视频回放</string>
+    <string name="thermal_control_per_app_dialer">拨号盘</string>
+    <string name="thermal_control_per_app_camera">相机</string>
+    <!-- Aggressive battery -->
+    <string name="aggressive_battery_title">极限省电</string>
+    <string name="aggressive_battery_summary">更严格的电量节省措施</string>
+    <string name="aggressive_battery_warning_text">这是电量节省特性。它可能会干扰原计划在空闲状态时运行的服务, 如导航应用。你可以将这些应用列入白名单, 使其在应用电池设置中免受影响。</string>
+    <string name="aggressive_idle_title">Idle主动调整</string>
+    <string name="aggressive_idle_summary">更频繁地进入设备空闲状态并且唤醒更少</string>
+    <string name="aggressive_standby_title">极限待机</string>
+    <string name="aggressive_standby_summary">限制应用程序后台运行</string>
+    <string name="aggressive_battery_saver_title">省电模式时自动启用 </string>
+    <string name="aggressive_battery_saver_summary">当使用省电模式时自动开启极限省电</string>
+    <!-- Battery temp -->
+    <string name="battery_temp_title">电池温度</string>
 </resources>

@@ -31,7 +31,8 @@
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left">Localiza el sensor de huella digital a la izquierda de tu teléfono.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right">Localiza el sensor de huella digital en el lado derecho de tu teléfono.</string>
     <!-- Manage applications, package string displayed in app snippet -->
-    <string name="packagename_text"><xliff:g id="nombre_del_paquete">%1$s</xliff:g></string>
+    <string name="packagename_text">        <xliff:g id="package_name">%1$s</xliff:g>
+    </string>
     <!-- About dotOS -->
     <string name="dot_about_info">Sobre nosotros</string>
     <string name="dot_about_summary">Nuestra presentación y nuestro equipo</string>
@@ -39,8 +40,6 @@
     <string name="dev_info">Acerca de dotOS</string>
     <string name="github">Github</string>
     <string name="github_description">Ver nuestro código fuente</string>
-    <string name="gplus">Google+</string>
-    <string name="gplus_description">Únete a nuestra comunidad en G+</string>
     <string name="telegram">Telegram</string>
     <string name="telegram_description">Únete a nuestra comunidad de Telegram</string>
     <string name="telegram_channel">Canal de Telegram</string>
@@ -108,12 +107,18 @@
     <string name="selinux_status_permissive">Permisivo</string>
     <string name="selinux_status_enforcing">Obligatorio</string>
     <!-- Manual provisioning support -->
-    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> está <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+    <string name="sim_enabler_summary">        <xliff:g id="displayName">%1$s</xliff:g>
+        is
+        <xliff:g id="status" example="disabled">%2$s</xliff:g>
+    </string>
     <string name="sim_disabled">deshabilitado</string>
     <string name="sim_missing">ausente o defectuosa</string>
     <string name="sim_enabler_need_disable_sim">La tarjeta SIM se desactivará. ¿Quieres continuar?</string>
     <string name="sim_enabler_will_disable_sim_title">Atención</string>
-    <string name="sim_enabler_need_switch_data_service">Esta tarjeta SIM será desactivada y <xliff:g id="slotid">%1$s </xliff:g> será utilizada para servicios de datos. ¿Estás seguro que deseas continuar?</string>
+    <string name="sim_enabler_need_switch_data_service">        This SIM will be disabled and SIM
+        <xliff:g id="slotid">%1$s</xliff:g>
+        will be used for data services. Are you sure you want to continue?
+    </string>
     <string name="sim_enabler_airplane_on">No se puede realizar la operación mientras esté activado el modo avión.</string>
     <string name="sim_enabler_in_call">No se puede realizar la acción durante una llamada.</string>
     <string name="sim_enabler_both_inactive">No se pudo desactivar todas las tarjetas SIM</string>
@@ -154,6 +159,46 @@
     <!-- Notification log -->
     <string name="notification_log_summary">Mostrar el historial de notificaciones</string>
     <!-- doze on charge -->
-    <string name="doze_on_charge_title">Show when charging</string>
-    <string name="doze_on_charge_summary">Wake screen when charging</string>
+    <string name="doze_on_charge_title">Mostrar al cargar</string>
+    <string name="doze_on_charge_summary">Activar la pantalla al cargar</string>
+    <!-- Font picker -->
+    <string name="font_picker_title">Fuente</string>
+    <string name="font_picker_progress">Aplicando la nueva fuente\u2026</string>
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">Detección de bolsillo</string>
+    <string name="pocket_judge_summary">Bloquear la pantalla y los botones cuando el dispositivo esté en el bolsillo</string>
+    <!-- Expanded desktop -->
+    <string name="expanded_desktop_pref_title">Escritorio expandido</string>
+    <string name="expanded_hide_nothing">No ocultar nada</string>
+    <string name="expanded_hide_status">Ocultar la barra de estado</string>
+    <string name="expanded_hide_navigation">Ocultar la barra de navegación</string>
+    <string name="expanded_hide_both">Ocultar ambas</string>
+    <string name="expanded_nothing_to_show">To add a custom per-app configuration for expanded state, set \"Enabled for all\" to the off position</string>
+    <string name="expanded_desktop_state">Expanded state</string>
+    <string name="expanded_enabled_for_all">Habilitado para todos</string>
+    <string name="expanded_user_configurable">Configurable por el usuario</string>
+    <string name="expanded_desktop_style">Estilo del escritorio expandido</string>
+    <string name="expanded_desktop_style_description">Escoge un estilo de escritorio extendido</string>
+    <string name="expanded_desktop_title">Opciones del escritorio expandido</string>
+    <!-- Thermal control per app -->
+    <string name="thermal_control_per_app">Perfil de optimización</string>
+    <string name="thermal_control_per_app_default">Sin optimización</string>
+    <string name="thermal_control_per_app_benchmark">Rendimiento</string>
+    <string name="thermal_control_per_app_games">Games</string>
+    <string name="thermal_control_per_app_browser">Browser</string>
+    <string name="thermal_control_per_app_video_playback">Video playback</string>
+    <string name="thermal_control_per_app_dialer">Dialer</string>
+    <string name="thermal_control_per_app_camera">Camera</string>
+    <!-- Aggressive battery -->
+    <string name="aggressive_battery_title">Aggressive Battery</string>
+    <string name="aggressive_battery_summary">More strict battery savings</string>
+    <string name="aggressive_battery_warning_text">These are power saving features. They may interfere with services intended to run at idle, like navigation apps. You can whitelist these apps from being affected in the app battery settings.</string>
+    <string name="aggressive_idle_title">Aggressive Idle</string>
+    <string name="aggressive_idle_summary">Enter device idle more frequently and wake up less</string>
+    <string name="aggressive_standby_title">Aggressive Standby</string>
+    <string name="aggressive_standby_summary">Restrict apps from running the background</string>
+    <string name="aggressive_battery_saver_title">Auto-enable on battery saver </string>
+    <string name="aggressive_battery_saver_summary">Enable Aggressive Battery automatically when using battery saver</string>
+    <!-- Battery temp -->
+    <string name="battery_temp_title">Battery temperature</string>
 </resources>
