@@ -78,5 +78,11 @@
     <string name="version">Version</string>
     <string name="edit">Edit</string>
     <string name="device_name">Device name</string>
+
+    <!-- SELinux Status -->
+    <string name="selinux_status">SELinux status</string>
+    <string name="selinux_status_disabled">Disabled</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
     
 </resources>
