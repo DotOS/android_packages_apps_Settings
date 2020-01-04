@@ -51,13 +51,21 @@
             android:layout_height="wrap_content"
             android:layout_weight="1" />
 
+        <ImageView
+            android:id="@+id/account_avatar"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_gravity="center_vertical|end"
+            android:layout_marginEnd="16dp"
+            android:background="@android:color/transparent" />
+
         <ImageButton
             android:id="@+id/search_action_launch"
-            android:layout_width="42dp"
-            android:layout_height="42dp"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
             android:layout_gravity="center_vertical|end"
             android:layout_marginEnd="32dp"
-            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:background="@android:color/transparent"
             android:tint="?android:attr/textColorPrimary"
             android:src="@drawable/ic_homepage_search" />
     </LinearLayout>
