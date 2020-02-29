@@ -78,6 +78,8 @@
     <string name="dot_lightMode">Light Theme</string>
     <string name="dot_darkMode">Dark Theme</string>
 
+    <string name="cellular_data_title">Mobile data</string>
+
     <string name="others_google_llc" translatable="false">Google LLC</string>
 
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
