@@ -75,6 +75,7 @@ public class FaceSettings extends DashboardFragment {
     private FaceSettingsEnrollButtonPreferenceController mEnrollController;
     private FaceSettingsLockscreenBypassPreferenceController mLockscreenController;
     private FaceSettingsRedoPreferenceController mRedoController;
+    private FaceSettingsSwipePreferenceController mSwipeController;
     private List<AbstractPreferenceController> mControllers;
 
     private List<Preference> mTogglePreferences;
@@ -172,6 +173,7 @@ public class FaceSettings extends DashboardFragment {
         Preference confirmPref = findPreference(FaceSettingsConfirmPreferenceController.KEY);
         Preference bypassPref =
                 findPreference(mLockscreenController.getPreferenceKey());
+        Preference swipePref = findPreference(mSwipeController.getPreferenceKey());
         mTogglePreferences = new ArrayList<>(
                 Arrays.asList(keyguardPref, appPref, attentionPref, confirmPref, bypassPref));
 
@@ -196,6 +198,7 @@ public class FaceSettings extends DashboardFragment {
         if (mUserManager.isManagedProfile(mUserId)) {
             removePreference(FaceSettingsKeyguardPreferenceController.KEY);
             removePreference(mLockscreenController.getPreferenceKey());
+            removePreference(mSwipeController.getPreferenceKey());
         }
 
         if (savedInstanceState != null) {
@@ -209,6 +212,8 @@ public class FaceSettings extends DashboardFragment {
 
         mLockscreenController = use(FaceSettingsLockscreenBypassPreferenceController.class);
         mLockscreenController.setUserId(mUserId);
+        mSwipeController = use(FaceSettingsSwipePreferenceController.class);
+        mSwipeController.setUserId(mUserId);
     }
 
     @Override

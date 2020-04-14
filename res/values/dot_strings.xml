@@ -205,4 +205,9 @@
     <string name="top_level_personalize">Personalize</string>
     <string name="top_level_security">@string/security_settings_title</string>
     <string name="top_level_others">Others</string>
+
+    <!-- Swipe up for face unlock -->
+    <string name="security_settings_face_require_swipe">Swipe up to unlock</string>
+    <string name="security_settings_face_require_swipe_summary">Swipe up on the lockscreen to use face unlock</string>
+
 </resources>
