@@ -228,4 +228,9 @@
     <string name="dot_battery_manager">Battery Manager</string>
     <string name="dot_battery_manager_summary1">• Battery Saver : </string>
     <string name="dot_battery_manager_summary2">\n• Adaptive Battery : </string>
+    
+    <!-- Backup Transport selection settings menu and activity title -->
+    <string name="backup_transport_setting_label">Change backup provider</string>
+    <string name="backup_transport_title">Select backup provider</string>
+
 </resources>
