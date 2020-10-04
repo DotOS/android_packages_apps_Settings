@@ -70,7 +70,7 @@
     </style>
 
     <style name="SettingsPreferenceFragmentStyle" parent="@style/PreferenceFragment.Material">
-        <item name="android:divider">@*android:drawable/list_divider_material</item>
+        <item name="android:divider">@color/divider_color</item>
     </style>
 
     <style name="SetupWizardPreferenceFragmentStyle" parent="PreferenceFragment.Material">
