@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="storage_info_used_id" type="id"/>
+    <item name="rom_card_id" type="id"/>
+    <item name="rom_logo_id" type="id"/>
+</resources> 

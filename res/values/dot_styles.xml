@@ -20,4 +20,7 @@
         <item name="android:paddingTop">24dp</item>
         <item name="android:paddingBottom">16dp</item>
     </style>
+    <declare-styleable name="DeviceCardView">
+        <attr name="extra_title" format="string"/>
+    </declare-styleable>
 </resources>  
