@@ -128,13 +128,13 @@ public class StorageCardView extends AboutBaseCard {
                     } catch (IOException e) {
                         Log.w("StorageManager", e);
                     }
-                } else {
+                } /*else {
                     if (totalBytes <= 0) {
                         totalBytes = path.getTotalSpace();
                     }
                     freeBytes = path.getFreeSpace();
                     usedBytes = totalBytes - freeBytes;
-                }
+                }*/
                 String used = Formatter.formatFileSize(getContext(), usedBytes, FLAG_SHORTER);
                 String total = Formatter.formatFileSize(getContext(), totalBytes, FLAG_SHORTER);
                 storageInfoUsed.setText(used);

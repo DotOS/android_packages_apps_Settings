@@ -48,25 +48,17 @@ public class RomCardView extends AboutBaseCard {
         rlparams.addRule(RelativeLayout.ABOVE, R.id.rom_logo_id);
         rom_logo.setLayoutParams(rlparams);
         setMinimumWidth(rom_logo.getWidth());
-        String DEBUG_VERSION_TOP="v5.0";
-        String DEBUG_VERSION_BOTTOM="DEBUG";
-        String version = SystemProperties.get("rom.modversion");
+        String version = SystemProperties.get("ro.modversion");
         String releaseType = SystemProperties.get("ro.dot.releasetype");
         TextView rom_title = new TextView(context);
-        if (!version.equals("") && !releaseType.equals(""))
-            rom_title.setText(String.format(getResources().getString(R.string.about_device_rom_title), version));
-        else
-            rom_title.setText(String.format(getResources().getString(R.string.about_device_rom_title), DEBUG_VERSION_TOP));
+        rom_title.setText(String.format(getResources().getString(R.string.about_device_rom_title), version));
         rom_title.setTextColor(Utils.getColorAttrDefaultColor(context, android.R.attr.textColorPrimary));
         rom_title.setPadding(0, 12, 0, 12);
         rom_title.setTextSize(18);
         rom_title.setTextAlignment(TEXT_ALIGNMENT_CENTER);
         rom_title.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT));
         TextView rom_version = new TextView(context);
-        if (!version.equals("") && !releaseType.equals(""))
-            rom_version.setText(String.format("%s-%s", version, releaseType));
-        else
-            rom_version.setText(DEBUG_VERSION_BOTTOM);
+        rom_version.setText(releaseType);
         rom_version.setTextColor(Utils.getColorAttrDefaultColor(context, android.R.attr.textColorSecondary));
         rom_version.setPadding(0, 12, 0, 24);
         rom_version.setTextSize(14);
