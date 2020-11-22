@@ -1796,6 +1796,8 @@
     <!-- Debugging developer settings: Enable ART verifier for Debuggable Apps [CHAR LIMIT=NONE] -->
     <string name="art_verifier_for_debuggable_summary">Allow ART to verify bytecode for debuggable apps</string>
 
+    <!-- Min refresh rate -->
+    <string name="min_refresh_rate_title">Minimum refresh rate</string>
     <!-- Debugging developer settings: show refresh rate? [CHAR LIMIT=36] -->
     <string name="show_refresh_rate">Show refresh rate</string>
     <!-- Debugging developer settings: show refresh rate summary [CHAR LIMIT=58] -->
