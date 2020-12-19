@@ -82,6 +82,9 @@ public class DashboardFeatureProviderImpl implements DashboardFeatureProvider {
     private static final String DASHBOARD_TILE_PREF_KEY_PREFIX = "dashboard_tile_pref_";
     private static final String META_DATA_KEY_INTENT_ACTION = "com.android.settings.intent.action";
 
+    private static final String PACKAGENAME_GMS = "com.google.android.gms";
+    private static final String PACKAGENAME_WELLBEING = "com.google.android.apps.wellbeing";
+
     protected final Context mContext;
 
     private final MetricsFeatureProvider mMetricsFeatureProvider;
@@ -362,7 +365,12 @@ public class DashboardFeatureProviderImpl implements DashboardFeatureProvider {
         final Icon tileIcon = tile.getIcon(preference.getContext());
         if (tileIcon != null) {
             Drawable iconDrawable = tileIcon.loadDrawable(preference.getContext());
-            if (forceRoundedIcon
+            if (tile.getPackageName().equals(PACKAGENAME_GMS)
+                    && tile.getTitle(preference.getContext()).toString().equalsIgnoreCase("Google")) {
+                iconDrawable = preference.getContext().getDrawable(R.drawable.ic_homepage_google);
+            } else if (tile.getPackageName().equals(PACKAGENAME_WELLBEING)) {
+                iconDrawable = preference.getContext().getDrawable(R.drawable.ic_homepage_wellbeing);
+            } else if (forceRoundedIcon
                     && !TextUtils.equals(mContext.getPackageName(), tile.getPackageName())) {
                 iconDrawable = new AdaptiveIcon(mContext, iconDrawable);
                 ((AdaptiveIcon) iconDrawable).setBackgroundColor(mContext, tile);

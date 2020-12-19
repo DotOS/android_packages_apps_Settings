@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2021 The DotOS Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="802"
+    android:viewportHeight="802">
+    <path
+        android:fillAlpha="0.3"
+        android:fillColor="?android:attr/colorAccent"
+        android:pathData="M295.67,350.437L404.257,452.533L499.085,347L617.879,465.794L461.797,621.932L404.257,683.129L180.591,472.832L295.67,350.437Z" />
+    <path
+        android:fillAlpha="0.3"
+        android:fillColor="?android:attr/colorAccent"
+        android:pathData="M470,185.5C470,223.884 438.884,255 400.5,255C362.116,255 331,223.884 331,185.5C331,147.116 362.116,116 400.5,116C438.884,116 470,147.116 470,185.5Z" />
+    <path
+        android:fillColor="?android:attr/colorAccent"
+        android:pathData="M400.998,133.666C428.734,133.666 451.123,156.056 451.123,183.791C451.123,211.527 428.734,233.916 400.998,233.916C373.263,233.916 350.873,211.527 350.873,183.791C350.873,156.056 373.263,133.666 400.998,133.666ZM400.998,66.833C336.504,66.833 284.04,119.297 284.04,183.791C284.04,248.286 336.504,300.75 400.998,300.75C465.493,300.75 517.957,248.286 517.957,183.791C517.957,119.297 465.493,66.833 400.998,66.833ZM518.959,401C546.695,401 569.418,423.723 569.418,451.459C569.418,464.826 564.072,477.524 554.715,487.215L519.628,522.302L400.998,640.597L282.369,521.968L247.282,486.881C237.925,477.524 232.578,464.826 232.578,451.125C232.578,437.758 237.925,425.06 247.282,415.369C256.973,406.346 269.337,401 283.038,401C296.404,401 309.103,406.346 318.793,415.703L353.881,450.791L400.998,498.242L448.116,451.125L483.203,416.037C492.894,406.346 505.593,401 518.959,401ZM518.959,334.166C486.545,334.166 457.138,347.199 436.086,368.586L400.998,403.673L365.911,368.586C344.524,347.199 315.452,334.166 283.038,334.166C218.209,334.166 165.745,386.631 165.745,451.459C165.745,483.873 178.778,513.28 200.164,534.332L235.252,569.42L400.998,735.166L566.745,569.42L601.833,534.332C622.885,513.28 636.252,483.873 636.252,451.459C636.252,386.631 583.788,334.166 518.959,334.166Z" />
+</vector>
