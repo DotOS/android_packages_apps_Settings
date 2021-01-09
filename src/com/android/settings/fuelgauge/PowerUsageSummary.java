@@ -77,6 +77,7 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
     static final String TAG = "PowerUsageSummary";
 
     private static final String KEY_BATTERY_HEADER = "battery_header";
+    private static final String KEY_BATTERY_STATS_LAYOUT = "battery_stats_view";
     private static final int BATTERY_ANIMATION_DURATION_MS_PER_LEVEL = 30;
 
     @VisibleForTesting
@@ -96,15 +97,15 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
     @VisibleForTesting
     int mBatteryLevel;
     @VisibleForTesting
-    PowerGaugePreference mScreenUsagePref;
-    @VisibleForTesting
-    PowerGaugePreference mLastFullChargePref;
-    @VisibleForTesting
     PowerUsageFeatureProvider mPowerFeatureProvider;
     @VisibleForTesting
     BatteryUtils mBatteryUtils;
     @VisibleForTesting
     LayoutPreference mBatteryLayoutPref;
+    @VisibleForTesting
+    LayoutPreference mBatteryStatsLayoutPref;
+    @VisibleForTesting
+    BatteryStatsView mBatteryStatsView;
     @VisibleForTesting
     BatteryInfo mBatteryInfo;
 
@@ -235,13 +236,12 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
 
         initFeatureProvider();
         mBatteryLayoutPref = (LayoutPreference) findPreference(KEY_BATTERY_HEADER);
+        mBatteryStatsLayoutPref = (LayoutPreference) findPreference(KEY_BATTERY_STATS_LAYOUT);
+        mBatteryStatsView = (BatteryStatsView) mBatteryStatsLayoutPref.findViewById(R.id.batteryStatsView);
 
         mBatteryLevel = getContext().getResources().getInteger(
                 com.android.internal.R.integer.config_criticalBatteryWarningLevel) + 1;
 
-        mScreenUsagePref = (PowerGaugePreference) findPreference(KEY_SCREEN_USAGE);
-        mLastFullChargePref = (PowerGaugePreference) findPreference(
-                KEY_TIME_SINCE_LAST_FULL_CHARGE);
         mBatteryUtils = BatteryUtils.getInstance(getContext());
 
         restartBatteryInfoLoader();
@@ -345,7 +345,7 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
         // reload BatteryInfo and updateUI
         restartBatteryInfoLoader();
         updateLastFullChargePreference();
-        mScreenUsagePref.setSummary(StringUtil.formatElapsedTime(getContext(),
+        mBatteryStatsView.updateSOT(StringUtil.formatElapsedTime(getContext(),
                 mBatteryUtils.calculateScreenUsageTime(mStatsHelper), false));
         final long elapsedRealtimeUs = SystemClock.elapsedRealtime() * 1000;
         Intent batteryBroadcast = context.registerReceiver(null,
@@ -369,15 +369,15 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
     void updateLastFullChargePreference() {
         if (mBatteryInfo != null && mBatteryInfo.averageTimeToDischarge
                 != EstimateKt.AVERAGE_TIME_TO_DISCHARGE_UNKNOWN) {
-            mLastFullChargePref.setTitle(R.string.battery_full_charge_last);
-            mLastFullChargePref.setSummary(
+            mBatteryStatsView.updateLastFullChargeTitle(R.string.battery_full_charge_last);
+            mBatteryStatsView.updateLastFullCharge(
                     StringUtil.formatElapsedTime(getContext(), mBatteryInfo.averageTimeToDischarge,
                             false /* withSeconds */));
         } else {
             final long lastFullChargeTime = mBatteryUtils.calculateLastFullChargeTime(mStatsHelper,
                     System.currentTimeMillis());
-            mLastFullChargePref.setTitle(R.string.battery_last_full_charge);
-            mLastFullChargePref.setSummary(
+            mBatteryStatsView.updateLastFullChargeTitle(R.string.battery_last_full_charge);
+            mBatteryStatsView.updateLastFullCharge(
                     StringUtil.formatRelativeTime(getContext(), lastFullChargeTime,
                             false /* withSeconds */));
         }

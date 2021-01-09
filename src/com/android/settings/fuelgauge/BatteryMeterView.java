@@ -92,7 +92,8 @@ public class BatteryMeterView extends CardView {
         setLayoutParams(new ViewGroup.LayoutParams((int) dpToPx(212), (int) dpToPx(212)));
         waveView = new WaveView(context);
         progress_Text = new TextView(context);
-        progress_Text.setTextSize(52);
+        progress_Text.setTextAppearance(R.style.TextAppearance_EntityHeaderTitle);
+        progress_Text.setTextSize(48);
         progress_Text.setTextColor(Utils.getColorAttrDefaultColor(context, android.R.attr.textColorSecondary));
         progress_Text.setGravity(Gravity.CENTER_HORIZONTAL);
         progress_Text.setLayoutParams(new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.MATCH_PARENT, RelativeLayout.LayoutParams.WRAP_CONTENT));
@@ -144,8 +145,8 @@ public class BatteryMeterView extends CardView {
     }
     
     protected void reload() {
-        waveView.postInvalidate();
-        progress_Text.postInvalidate();
+        waveView.invalidate();
+        progress_Text.invalidate();
         waveView.setBatteryPowerSave(getPowerSave());
         waveView.setBatteryLevelLow(getBatteryLevel() < getResources().getInteger(com.android.internal.R.integer.config_criticalBatteryWarningLevel));
     }
@@ -399,7 +400,7 @@ public class BatteryMeterView extends CardView {
         protected static final int LITTLE = 3;
         private int mAboveWaveColor = Utils.getColorAttrDefaultColor(this.getContext(), android.R.attr.colorAccent);
         private int mProgress;
-        private int mWaveHeight = 0;
+        private int mWaveHeight = 2;
         private int mWaveMultiple = 3;
         private int mWaveHz = 2;
         private int mWaveToTop;

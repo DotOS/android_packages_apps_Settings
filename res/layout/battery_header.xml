@@ -59,6 +59,7 @@
         android:textAlignment="center"
         android:textSize="20sp"
 		android:minLines="1"
+        android:textAppearance="?android:attr/textAppearanceListItem"
         android:textColor="?android:attr/textColorPrimary"/>
 
 </LinearLayout>
