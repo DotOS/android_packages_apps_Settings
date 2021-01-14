@@ -67,4 +67,8 @@
 
     <!-- BatteryInfo Cards -->
     <string name="binfo_stats">Stats</string>
+
+    <!-- Dot Customization -->
+    <string name="dot_customizer_dashboard_title">Customization</string>
+    <string name="dot_customizer_dashboard_summary">Personalize your experience with a drop of paint</string>
 </resources>
