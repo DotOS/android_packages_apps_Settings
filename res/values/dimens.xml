@@ -135,7 +135,7 @@
     <dimen name="search_bar_content_inset">64dp</dimen>
     <dimen name="search_bar_avatar_end_padding">16dp</dimen>
     <!-- 32dp (avatar size) + 16 dp (search_bar_avatar_end_padding) -->
-    <dimen name="search_bar_avatar_width">48dp</dimen>
+    <dimen name="search_bar_avatar_width">42dp</dimen>
     <!-- (search_bar_height 52p - avatar size 32dp) / 2  -->
     <dimen name="search_bar_avatar_top_bottom_padding">10dp</dimen>
 

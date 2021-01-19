@@ -2,4 +2,6 @@
 <resources>
     <dimen name="storage_card_min_width">148dp</dimen>
     <dimen name="storage_card_min_height">@dimen/storage_card_min_width</dimen>
+
+    <dimen name="dot_settings_bar_height">190dp</dimen>
 </resources> 
