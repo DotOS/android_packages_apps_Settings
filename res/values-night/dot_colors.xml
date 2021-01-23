@@ -15,10 +15,5 @@
      limitations under the License.
 -->
 <resources>
-    <dimen name="storage_card_min_width">148dp</dimen>
-    <dimen name="storage_card_min_height">@dimen/storage_card_min_width</dimen>
-
-    <dimen name="dot_settings_bar_height">190dp</dimen>
-
-    <dimen name="dot_pref_radius">16dp</dimen>
-</resources> 
+    <color name="dot_pref_emergency_color">#B2CC0000</color>
+</resources>

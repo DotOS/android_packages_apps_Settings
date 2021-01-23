@@ -71,4 +71,7 @@
     <!-- Dot Customization -->
     <string name="dot_customizer_dashboard_title">Customization</string>
     <string name="dot_customizer_dashboard_summary">Personalize your experience with a drop of paint</string>
+
+    <string name="dot_about_device_info">Legal &amp; Information</string>
+    <string name="dot_about_device_private">Private Details</string>
 </resources>

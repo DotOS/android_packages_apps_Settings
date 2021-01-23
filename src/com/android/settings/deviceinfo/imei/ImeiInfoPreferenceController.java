@@ -158,6 +158,8 @@ public class ImeiInfoPreferenceController extends BasePreferenceController {
 
     @VisibleForTesting
     Preference createNewPreference(Context context) {
-        return new Preference(context);
+        Preference pref = new Preference(context);
+        pref.setLayoutResource(R.layout.dot_preference_middle_card);
+        return pref;
     }
 }
