@@ -27,6 +27,8 @@ import android.provider.Settings;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
 
+import com.android.settings.R;
+
 import com.android.settings.core.BasePreferenceController;
 import com.android.settingslib.core.lifecycle.LifecycleObserver;
 import com.android.settingslib.core.lifecycle.events.OnPause;
@@ -46,6 +48,7 @@ public class ZenModePreferenceController extends BasePreferenceController
     @Override
     public void displayPreference(PreferenceScreen screen) {
         super.displayPreference(screen);
+        screen.findPreference(getPreferenceKey()).setLayoutResource(R.layout.dot_preference_middle_card);
         mSettingObserver = new SettingObserver(screen.findPreference(getPreferenceKey()));
     }
 
