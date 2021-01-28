@@ -123,16 +123,6 @@
         settings:controller="com.android.settings.notification.zen.ZenModePreferenceController"/>
 
     <Preference
-        android:key="live_caption"
-        android:layout="@layout/dot_preference_middle_card"
-        android:persistent="false"
-        android:summary="@string/live_caption_summary"
-        android:title="@string/live_caption_title"
-        android:order="-128"
-        settings:searchable="false"
-        settings:controller="com.android.settings.accessibility.LiveCaptionPreferenceController"/>
-
-    <Preference
         android:key="media_controls_summary"
         android:layout="@layout/dot_preference_middle_card"
         android:title="@string/media_controls_title"
@@ -251,7 +241,7 @@
         android:key="sound_work_settings_section"
         android:layout="@layout/dot_preference_category"
         android:title="@string/sound_work_settings"
-        android:order="-111">
+        android:order="-112">
 
                 <!-- Use the same sounds of the work profile -->
                 <SwitchPreference
@@ -290,4 +280,9 @@
                     android:dependency="work_use_personal_sounds"/>
 
     </com.android.settings.widget.WorkOnlyCategory>
+
+    <PreferenceCategory
+        android:layout="@layout/dot_preference_category"
+        android:order="-111"
+        android:title="@string/others_google_llc" />
 </PreferenceScreen>
