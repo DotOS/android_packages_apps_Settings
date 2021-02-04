@@ -98,7 +98,7 @@
     <color name="homepage_location_background">#baffff</color>
     <color name="homepage_about_background">#aab6fe</color>
     <color name="homepage_privacy_background">#75a7ff</color>
-    <color name="homepage_dot_background">#AEAEAE</color>
+    <color name="homepage_dot_background">#ffcf70</color>
 
     <color name="contextual_card_stroke_color">#1f000000</color>
     <color name="contextual_card_dismissal_background">@*android:color/material_grey_100</color>

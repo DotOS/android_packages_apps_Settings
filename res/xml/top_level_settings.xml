@@ -131,7 +131,7 @@
         android:title="@string/dot_customizer_dashboard_title"
         android:summary="@string/dot_customizer_dashboard_summary"
         android:icon="@drawable/ic_homepage_dot"
-        android:order="9">
+        android:order="-99">
         <intent
              android:action="android.intent.action.VIEW"
              android:targetPackage="com.android.settings.dotextras"
