@@ -1478,7 +1478,7 @@
     <string name="storage_detail_system" msgid="3797439069473271732">"පද්ධතිය"</string>
     <string name="storage_detail_explore" msgid="13782374784415466">"<xliff:g id="NAME">^1</xliff:g> ගවේෂණය කරන්න"</string>
     <string name="storage_detail_dialog_other" msgid="3359851869961609901">"වෙනත් ඒවාට යෙදුම් මගින් සුරකින ලද බෙදා ගත් ගොනු, අන්තර්ජාලය හෝ බ්ලූටූත් වෙතින් බාගත් ගොනු, Android ගොනු සහ තවත් දේ ඇතුළත් විය හැකිය. \n\nමෙම <xliff:g id="NAME">^1</xliff:g>හි දෘශ්‍යමාන මුළු අන්තර්ගතය බැලීමට, ගවේෂණය කරන්න තට්ටු කරන්න."</string>
-    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"Android <xliff:g id="VERSION">%s</xliff:g> අනුවාදය ධාවනය කිරීමට භාවිතා කරන ගොනු පද්ධතිය තුළ අඩංගුයි"</string>
+    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"<xliff:g id="VERSION">%s</xliff:g> අනුවාදය ධාවනය කිරීමට භාවිතා කරන ගොනු පද්ධතිය තුළ අඩංගුයි"</string>
     <string name="storage_detail_dialog_user" msgid="1691219071007313226">"<xliff:g id="USER_0">^1</xliff:g> හට ගබඩාවෙන් <xliff:g id="SIZE">^2</xliff:g> ක් ගන්නා සුරැකි ඡායාරූප, සංගීතය, යෙදුම්, හෝ වෙනත් දත්ත තිබිය හැකිය. \n\nවිස්තර බැලීමට, <xliff:g id="USER_1">^1</xliff:g> වෙත මාරු වන්න."</string>
     <string name="storage_wizard_init_title" msgid="9036374223934708619">"ඔබගේ <xliff:g id="NAME">^1</xliff:g> සකසන්න"</string>
     <string name="storage_wizard_init_external_title" msgid="6540132491909241713">"අතේ ගෙන යා හැකි ආචයනයක් ලෙස භාවිතා කරන්න"</string>
@@ -4204,7 +4204,7 @@
     <string name="users_summary" msgid="8473589474976307510">"<xliff:g id="USER_NAME">%1$s</xliff:g> ලෙස පුරන ලදී"</string>
     <string name="payment_summary" msgid="5513009140568552693">"<xliff:g id="APP_NAME">%1$s</xliff:g> පෙරනිමි වේ"</string>
     <string name="backup_disabled" msgid="4503062265560959320">"උපස්ථ කිරීම අබලයි"</string>
-    <string name="android_version_summary" msgid="7818952662015042768">"Android <xliff:g id="VERSION">%1$s</xliff:g> වෙත යාවත්කාලීන කරන ලදි"</string>
+    <string name="android_version_summary" msgid="7818952662015042768">"<xliff:g id="VERSION">%1$s</xliff:g> වෙත යාවත්කාලීන කරන ලදි"</string>
     <string name="android_version_pending_update_summary" msgid="5404532347171027730">"යාවත්කාලීනයක් ඇත"</string>
     <string name="disabled_by_policy_title" msgid="8296938784202750494">"ක්‍රියාවට ඉඩ නොදේ"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="1669689058213728099">"හඬ පරිමාව වෙනස් කළ නොහැකිය"</string>

@@ -4204,7 +4204,7 @@
     <string name="users_summary" msgid="8473589474976307510">"<xliff:g id="USER_NAME">%1$s</xliff:g> रूपमा साइन इन गरियो"</string>
     <string name="payment_summary" msgid="5513009140568552693">"<xliff:g id="APP_NAME">%1$s</xliff:g> पूर्वनिर्धारित छ"</string>
     <string name="backup_disabled" msgid="4503062265560959320">"ब्याकअप असक्षम गरियो"</string>
-    <string name="android_version_summary" msgid="7818952662015042768">"Android <xliff:g id="VERSION">%1$s</xliff:g> मा अद्यावधिक गरियो"</string>
+    <string name="android_version_summary" msgid="7818952662015042768">"<xliff:g id="VERSION">%1$s</xliff:g> मा अद्यावधिक गरियो"</string>
     <string name="android_version_pending_update_summary" msgid="5404532347171027730">"अद्यावधिक उपलब्ध छ"</string>
     <string name="disabled_by_policy_title" msgid="8296938784202750494">"यो कार्य गर्न मिल्दैन"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="1669689058213728099">"भोल्युम परिवर्तन गर्न सकिँदैन"</string>

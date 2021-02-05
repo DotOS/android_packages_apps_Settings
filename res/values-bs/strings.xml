@@ -4276,7 +4276,7 @@
     <string name="users_summary" msgid="8473589474976307510">"Prijavljeni ste kao <xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
     <string name="payment_summary" msgid="5513009140568552693">"<xliff:g id="APP_NAME">%1$s</xliff:g> je zadana aplikacija"</string>
     <string name="backup_disabled" msgid="4503062265560959320">"Izrada sigurnosnih kopija je onemogućena"</string>
-    <string name="android_version_summary" msgid="7818952662015042768">"Ažurirano na Android <xliff:g id="VERSION">%1$s</xliff:g>"</string>
+    <string name="android_version_summary" msgid="7818952662015042768">"Ažurirano na <xliff:g id="VERSION">%1$s</xliff:g>"</string>
     <string name="android_version_pending_update_summary" msgid="5404532347171027730">"Dostupno je ažuriranje"</string>
     <string name="disabled_by_policy_title" msgid="8296938784202750494">"Radnja nije dozvoljena"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="1669689058213728099">"Nije moguće promijeniti jačinu zvuka"</string>

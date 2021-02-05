@@ -4204,7 +4204,7 @@
     <string name="users_summary" msgid="8473589474976307510">"Iniciaches sesión como <xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
     <string name="payment_summary" msgid="5513009140568552693">"Aplicación predeterminada: <xliff:g id="APP_NAME">%1$s</xliff:g>"</string>
     <string name="backup_disabled" msgid="4503062265560959320">"Desactivouse a función de copia de seguranza"</string>
-    <string name="android_version_summary" msgid="7818952662015042768">"Actualizouse a Android <xliff:g id="VERSION">%1$s</xliff:g>"</string>
+    <string name="android_version_summary" msgid="7818952662015042768">"Actualizouse a <xliff:g id="VERSION">%1$s</xliff:g>"</string>
     <string name="android_version_pending_update_summary" msgid="5404532347171027730">"Hai dispoñible unha actualización"</string>
     <string name="disabled_by_policy_title" msgid="8296938784202750494">"Acción non permitida"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="1669689058213728099">"Non se pode cambiar o volume"</string>

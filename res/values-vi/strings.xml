@@ -1478,7 +1478,7 @@
     <string name="storage_detail_system" msgid="3797439069473271732">"Hệ thống"</string>
     <string name="storage_detail_explore" msgid="13782374784415466">"Khám phá <xliff:g id="NAME">^1</xliff:g>"</string>
     <string name="storage_detail_dialog_other" msgid="3359851869961609901">"Các tệp khác bao gồm tệp được chia sẻ mà ứng dụng lưu, tệp tải xuống từ Internet hoặc Bluetooth, tệp Android, v.v. \n\nĐể xem nội dung hiển thị của <xliff:g id="NAME">^1</xliff:g> này, hãy nhấn vào Khám phá."</string>
-    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"Hệ thống bao gồm các tệp dùng để chạy phiên bản Android <xliff:g id="VERSION">%s</xliff:g>"</string>
+    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"Hệ thống bao gồm các tệp dùng để chạy phiên bản <xliff:g id="VERSION">%s</xliff:g>"</string>
     <string name="storage_detail_dialog_user" msgid="1691219071007313226">"<xliff:g id="USER_0">^1</xliff:g> có thể đã lưu ảnh, nhạc, ứng dụng hoặc dữ liệu khác, sử dụng <xliff:g id="SIZE">^2</xliff:g> bộ nhớ. \n\nĐể xem chi tiết, chuyển sang <xliff:g id="USER_1">^1</xliff:g>."</string>
     <string name="storage_wizard_init_title" msgid="9036374223934708619">"Thiết lập <xliff:g id="NAME">^1</xliff:g> của bạn"</string>
     <string name="storage_wizard_init_external_title" msgid="6540132491909241713">"Sử dụng làm bộ nhớ di động"</string>
@@ -4204,7 +4204,7 @@
     <string name="users_summary" msgid="8473589474976307510">"Đã đăng nhập với tên <xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
     <string name="payment_summary" msgid="5513009140568552693">"<xliff:g id="APP_NAME">%1$s</xliff:g> là mặc định"</string>
     <string name="backup_disabled" msgid="4503062265560959320">"Đã tắt sao lưu"</string>
-    <string name="android_version_summary" msgid="7818952662015042768">"Đã cập nhật lên Android <xliff:g id="VERSION">%1$s</xliff:g>"</string>
+    <string name="android_version_summary" msgid="7818952662015042768">"Đã cập nhật lên <xliff:g id="VERSION">%1$s</xliff:g>"</string>
     <string name="android_version_pending_update_summary" msgid="5404532347171027730">"Đã có bản cập nhật"</string>
     <string name="disabled_by_policy_title" msgid="8296938784202750494">"Thao tác này không được phép"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="1669689058213728099">"Không thể thay đổi âm lượng"</string>

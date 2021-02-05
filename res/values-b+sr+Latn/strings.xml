@@ -1499,7 +1499,7 @@
     <string name="storage_detail_system" msgid="3797439069473271732">"Sistem"</string>
     <string name="storage_detail_explore" msgid="13782374784415466">"Istraži uređaj <xliff:g id="NAME">^1</xliff:g>"</string>
     <string name="storage_detail_dialog_other" msgid="3359851869961609901">"Ostalo obuhvata deljene datoteke koje su sačuvale aplikacije, datoteke preuzete sa interneta ili Bluetooth-a, Android datoteke i tako dalje. \n\nDa biste videli vidljivi sadržaj na uređaju <xliff:g id="NAME">^1</xliff:g>, dodirnite Istražite."</string>
-    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"Sistem obuhvata datoteke koje se koriste za pokretanje verzije Android <xliff:g id="VERSION">%s</xliff:g>"</string>
+    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"Sistem obuhvata datoteke koje se koriste za pokretanje verzije <xliff:g id="VERSION">%s</xliff:g>"</string>
     <string name="storage_detail_dialog_user" msgid="1691219071007313226">"<xliff:g id="USER_0">^1</xliff:g> možda ima sačuvane slike, muziku, aplikacije ili druge podatke, koji zauzimaju <xliff:g id="SIZE">^2</xliff:g> memorijskog prostora. \n\nDa biste pogledali detalje, pređite na <xliff:g id="USER_1">^1</xliff:g>."</string>
     <string name="storage_wizard_init_title" msgid="9036374223934708619">"Podesite uređaj <xliff:g id="NAME">^1</xliff:g>"</string>
     <string name="storage_wizard_init_external_title" msgid="6540132491909241713">"Koristi kao prenosivu memoriju"</string>
@@ -4276,7 +4276,7 @@
     <string name="users_summary" msgid="8473589474976307510">"Prijavljeni ste kao <xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
     <string name="payment_summary" msgid="5513009140568552693">"<xliff:g id="APP_NAME">%1$s</xliff:g> je podrazumevana"</string>
     <string name="backup_disabled" msgid="4503062265560959320">"Pravljenje rezervne kopije je onemogućeno"</string>
-    <string name="android_version_summary" msgid="7818952662015042768">"Ažurirano na Android <xliff:g id="VERSION">%1$s</xliff:g>"</string>
+    <string name="android_version_summary" msgid="7818952662015042768">"Ažurirano na <xliff:g id="VERSION">%1$s</xliff:g>"</string>
     <string name="android_version_pending_update_summary" msgid="5404532347171027730">"Dostupno je ažuriranje"</string>
     <string name="disabled_by_policy_title" msgid="8296938784202750494">"Radnja nije dozvoljena"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="1669689058213728099">"Ne možete da promenite jačinu zvuka"</string>

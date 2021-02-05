@@ -1478,7 +1478,7 @@
     <string name="storage_detail_system" msgid="3797439069473271732">"System"</string>
     <string name="storage_detail_explore" msgid="13782374784415466">"Åbn <xliff:g id="NAME">^1</xliff:g>"</string>
     <string name="storage_detail_dialog_other" msgid="3359851869961609901">"Andre omfatter bl.a. delte filer, der er gemt af apps, filer, som er downloadet fra internettet eller via Bluetooth, og Android-filer. \n\nDu kan se synligt indhold på <xliff:g id="NAME">^1</xliff:g> ved at trykke på Udforsk."</string>
-    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"System omfatter filer, der anvendes til at køre Android <xliff:g id="VERSION">%s</xliff:g>"</string>
+    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"System omfatter filer, der anvendes til at køre <xliff:g id="VERSION">%s</xliff:g>"</string>
     <string name="storage_detail_dialog_user" msgid="1691219071007313226">"<xliff:g id="USER_0">^1</xliff:g> kan have gemt billeder, musik, apps eller andre data på <xliff:g id="SIZE">^2</xliff:g> af lagerpladsen. \n\nSkift til <xliff:g id="USER_1">^1</xliff:g> for at se info."</string>
     <string name="storage_wizard_init_title" msgid="9036374223934708619">"Konfigurer dit <xliff:g id="NAME">^1</xliff:g>"</string>
     <string name="storage_wizard_init_external_title" msgid="6540132491909241713">"Brug som ekstern lagerplads"</string>
@@ -4204,7 +4204,7 @@
     <string name="users_summary" msgid="8473589474976307510">"Logget ind som <xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
     <string name="payment_summary" msgid="5513009140568552693">"<xliff:g id="APP_NAME">%1$s</xliff:g> er standard"</string>
     <string name="backup_disabled" msgid="4503062265560959320">"Backup er slået fra"</string>
-    <string name="android_version_summary" msgid="7818952662015042768">"Opdateret til Android <xliff:g id="VERSION">%1$s</xliff:g>"</string>
+    <string name="android_version_summary" msgid="7818952662015042768">"Opdateret til <xliff:g id="VERSION">%1$s</xliff:g>"</string>
     <string name="android_version_pending_update_summary" msgid="5404532347171027730">"Der er en tilgængelig opdatering"</string>
     <string name="disabled_by_policy_title" msgid="8296938784202750494">"Handlingen er ikke tilladt"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="1669689058213728099">"Lydstyrken kan ikke ændres"</string>

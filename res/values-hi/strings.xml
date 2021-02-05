@@ -4204,7 +4204,7 @@
     <string name="users_summary" msgid="8473589474976307510">"<xliff:g id="USER_NAME">%1$s</xliff:g> के रूप में प्रवेश किया हुआ है"</string>
     <string name="payment_summary" msgid="5513009140568552693">"<xliff:g id="APP_NAME">%1$s</xliff:g> डिफ़ॉल्ट है"</string>
     <string name="backup_disabled" msgid="4503062265560959320">"बैक अप बंद किया गया"</string>
-    <string name="android_version_summary" msgid="7818952662015042768">"Android <xliff:g id="VERSION">%1$s</xliff:g> में अपडेट किया गया"</string>
+    <string name="android_version_summary" msgid="7818952662015042768">"<xliff:g id="VERSION">%1$s</xliff:g> में अपडेट किया गया"</string>
     <string name="android_version_pending_update_summary" msgid="5404532347171027730">"अपडेट उपलब्ध है"</string>
     <string name="disabled_by_policy_title" msgid="8296938784202750494">"कार्रवाई की अनुमति नहीं"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="1669689058213728099">"कॉल की आवाज़ कम या ज़्यादा नहीं की जा सकती"</string>

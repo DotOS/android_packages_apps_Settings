@@ -4204,7 +4204,7 @@
     <string name="users_summary" msgid="8473589474976307510">"<xliff:g id="USER_NAME">%1$s</xliff:g> ଭାବରେ ସାଇନ୍‌ ଇନ୍‌ କରିଛନ୍ତି"</string>
     <string name="payment_summary" msgid="5513009140568552693">"<xliff:g id="APP_NAME">%1$s</xliff:g> ହେଉଛି ପୂର୍ବ-ନିର୍ଦ୍ଧାରିତ"</string>
     <string name="backup_disabled" msgid="4503062265560959320">"ବ୍ୟାକ-ଅପ ବନ୍ଦ କରିଦିଆଯାଇଛି"</string>
-    <string name="android_version_summary" msgid="7818952662015042768">"Android <xliff:g id="VERSION">%1$s</xliff:g> ଭର୍ସନ୍‌କୁ ଅପଡେଟ୍‌ ହୋଇଗଲା"</string>
+    <string name="android_version_summary" msgid="7818952662015042768">"<xliff:g id="VERSION">%1$s</xliff:g> ଭର୍ସନ୍‌କୁ ଅପଡେଟ୍‌ ହୋଇଗଲା"</string>
     <string name="android_version_pending_update_summary" msgid="5404532347171027730">"ଅପଡେଟ୍‌ ଉପଲବ୍ଧ"</string>
     <string name="disabled_by_policy_title" msgid="8296938784202750494">"କାର୍ଯ୍ୟଟି ଅନୁମୋଦିତ ନୁହେଁ"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="1669689058213728099">"ଭଲ୍ୟୁମ୍‌କୁ ବଦଳାଇହେବ ନାହିଁ"</string>

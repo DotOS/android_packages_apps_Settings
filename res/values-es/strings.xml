@@ -1478,7 +1478,7 @@
     <string name="storage_detail_system" msgid="3797439069473271732">"Sistema"</string>
     <string name="storage_detail_explore" msgid="13782374784415466">"Explorar <xliff:g id="NAME">^1</xliff:g>"</string>
     <string name="storage_detail_dialog_other" msgid="3359851869961609901">"En Otros se incluyen los archivos compartidos que han guardado las aplicaciones, los archivos descargados de Internet o por Bluetooth, los archivos de Android, etc. \n\nPara ver el contenido visible de <xliff:g id="NAME">^1</xliff:g>, toca Explorar."</string>
-    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"\"Sistema\" incluye los archivos necesarios para que Android <xliff:g id="VERSION">%s</xliff:g> funcione."</string>
+    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"\"Sistema\" incluye los archivos necesarios para que <xliff:g id="VERSION">%s</xliff:g> funcione."</string>
     <string name="storage_detail_dialog_user" msgid="1691219071007313226">"<xliff:g id="USER_0">^1</xliff:g> ha guardado fotos, música, aplicaciones u otros datos que ocupan <xliff:g id="SIZE">^2</xliff:g> del almacenamiento. \n\nPara ver más detalles, cambia a <xliff:g id="USER_1">^1</xliff:g>."</string>
     <string name="storage_wizard_init_title" msgid="9036374223934708619">"Configurar tu <xliff:g id="NAME">^1</xliff:g>"</string>
     <string name="storage_wizard_init_external_title" msgid="6540132491909241713">"Utilizar como almacenamiento portátil"</string>

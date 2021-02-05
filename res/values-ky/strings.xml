@@ -1478,7 +1478,7 @@
     <string name="storage_detail_system" msgid="3797439069473271732">"Тутум"</string>
     <string name="storage_detail_explore" msgid="13782374784415466">"<xliff:g id="NAME">^1</xliff:g> дегенди изилдөө"</string>
     <string name="storage_detail_dialog_other" msgid="3359851869961609901">"Колдонмолор аркылуу сакталган жалпыга ачык документтер, Интернеттен жүктөлүп алынган же Bluetooth, Android файлдары жана башкалар. \n\nБул <xliff:g id="NAME">^1</xliff:g> ичиндеги көрүнгөн мазмунду көрүү үчүн Изилдөө баскычын таптап коюңуз."</string>
-    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"Тутумда Android <xliff:g id="VERSION">%s</xliff:g> версиясында иштеген файлдар бар"</string>
+    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"Тутумда <xliff:g id="VERSION">%s</xliff:g> версиясында иштеген файлдар бар"</string>
     <string name="storage_detail_dialog_user" msgid="1691219071007313226">"<xliff:g id="USER_0">^1</xliff:g> сактагычта жалпы көлөмү <xliff:g id="SIZE">^2</xliff:g> болгон сүрөттөрдү, музыканы, колдонмолорду жана башка дайын-даректерди сактап койгон окшойт. \n\nЧоо-жайын билгиңиз келсе, <xliff:g id="USER_1">^1</xliff:g> деген колдонуучунун аккаунтка кириңиз."</string>
     <string name="storage_wizard_init_title" msgid="9036374223934708619">"<xliff:g id="NAME">^1</xliff:g> түзмөгүңүздү орнотуңуз"</string>
     <string name="storage_wizard_init_external_title" msgid="6540132491909241713">"Ташыма эстутум катары колдонуу"</string>
@@ -4204,7 +4204,7 @@
     <string name="users_summary" msgid="8473589474976307510">"<xliff:g id="USER_NAME">%1$s</xliff:g> катары кирдиңиз"</string>
     <string name="payment_summary" msgid="5513009140568552693">"<xliff:g id="APP_NAME">%1$s</xliff:g> демейки колдонмо"</string>
     <string name="backup_disabled" msgid="4503062265560959320">"Камдык көчүрмө өчүрүлгөн"</string>
-    <string name="android_version_summary" msgid="7818952662015042768">"Android <xliff:g id="VERSION">%1$s</xliff:g> версиясына жаңырды"</string>
+    <string name="android_version_summary" msgid="7818952662015042768">"<xliff:g id="VERSION">%1$s</xliff:g> версиясына жаңырды"</string>
     <string name="android_version_pending_update_summary" msgid="5404532347171027730">"Жаңы версия бар"</string>
     <string name="disabled_by_policy_title" msgid="8296938784202750494">"Аракетке тыюу салынган"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="1669689058213728099">"Үнү өзгөртүлбөйт"</string>

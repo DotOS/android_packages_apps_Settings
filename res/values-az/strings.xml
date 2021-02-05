@@ -1478,7 +1478,7 @@
     <string name="storage_detail_system" msgid="3797439069473271732">"Sistem"</string>
     <string name="storage_detail_explore" msgid="13782374784415466">"<xliff:g id="NAME">^1</xliff:g> araşdırın"</string>
     <string name="storage_detail_dialog_other" msgid="3359851869961609901">"Digərlərinə tətbiqlərdə saxlanılan paylaşılmış fayllar, internet və ya Bluetooth\'dan endirilmiş fayllar, Android faylları və s. daxildir. \n\nBu <xliff:g id="NAME">^1</xliff:g> kartının görünən kontentlərinə baxmaq üçün Explore seçiminə klikləyin."</string>
-    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"Sistem Android <xliff:g id="VERSION">%s</xliff:g> versiyasını istifadə etmək üçün lazım olan fayllardan ibarətdir"</string>
+    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"Sistem <xliff:g id="VERSION">%s</xliff:g> versiyasını istifadə etmək üçün lazım olan fayllardan ibarətdir"</string>
     <string name="storage_detail_dialog_user" msgid="1691219071007313226">"<xliff:g id="USER_0">^1</xliff:g> <xliff:g id="SIZE">^2</xliff:g> yaddaş istifadə etməklə foto, musiqi, tətbiq və ya digər data yadda saxlamış ola bilər. \n\nDetallar üçün <xliff:g id="USER_1">^1</xliff:g> adına keçin."</string>
     <string name="storage_wizard_init_title" msgid="9036374223934708619">"<xliff:g id="NAME">^1</xliff:g> cihazını quraşdırın"</string>
     <string name="storage_wizard_init_external_title" msgid="6540132491909241713">"Daşınan yaddaş ehtiyatı kimi istifadə edin"</string>
@@ -4204,7 +4204,7 @@
     <string name="users_summary" msgid="8473589474976307510">"<xliff:g id="USER_NAME">%1$s</xliff:g> kimi daxil olundu"</string>
     <string name="payment_summary" msgid="5513009140568552693">"<xliff:g id="APP_NAME">%1$s</xliff:g> deloftdur"</string>
     <string name="backup_disabled" msgid="4503062265560959320">"Yedəkləmə deaktiv edildi"</string>
-    <string name="android_version_summary" msgid="7818952662015042768">"Android <xliff:g id="VERSION">%1$s</xliff:g> versiyasına güncəlləndi"</string>
+    <string name="android_version_summary" msgid="7818952662015042768">"<xliff:g id="VERSION">%1$s</xliff:g> versiyasına güncəlləndi"</string>
     <string name="android_version_pending_update_summary" msgid="5404532347171027730">"Güncəlləmə əlçatandır"</string>
     <string name="disabled_by_policy_title" msgid="8296938784202750494">"Əməliyyata icazə verilmir"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="1669689058213728099">"Səsi dəyişmək olmur"</string>

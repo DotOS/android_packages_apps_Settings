@@ -4204,7 +4204,7 @@
     <string name="users_summary" msgid="8473589474976307510">"<xliff:g id="USER_NAME">%1$s</xliff:g>(으)로 로그인됨"</string>
     <string name="payment_summary" msgid="5513009140568552693">"<xliff:g id="APP_NAME">%1$s</xliff:g>은(는) 기본 앱입니다."</string>
     <string name="backup_disabled" msgid="4503062265560959320">"백업 사용 안함"</string>
-    <string name="android_version_summary" msgid="7818952662015042768">"Android <xliff:g id="VERSION">%1$s</xliff:g> 버전으로 업데이트됨"</string>
+    <string name="android_version_summary" msgid="7818952662015042768">"<xliff:g id="VERSION">%1$s</xliff:g> 버전으로 업데이트됨"</string>
     <string name="android_version_pending_update_summary" msgid="5404532347171027730">"업데이트 가능"</string>
     <string name="disabled_by_policy_title" msgid="8296938784202750494">"허용되지 않는 작업"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="1669689058213728099">"볼륨을 변경할 수 없음"</string>

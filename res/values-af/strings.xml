@@ -4204,7 +4204,7 @@
     <string name="users_summary" msgid="8473589474976307510">"Aangemeld as <xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
     <string name="payment_summary" msgid="5513009140568552693">"<xliff:g id="APP_NAME">%1$s</xliff:g> is die verstek"</string>
     <string name="backup_disabled" msgid="4503062265560959320">"Rugsteun is gedeaktiveer"</string>
-    <string name="android_version_summary" msgid="7818952662015042768">"Opgedateer na Android <xliff:g id="VERSION">%1$s</xliff:g>"</string>
+    <string name="android_version_summary" msgid="7818952662015042768">"Opgedateer na <xliff:g id="VERSION">%1$s</xliff:g>"</string>
     <string name="android_version_pending_update_summary" msgid="5404532347171027730">"Opdatering is beskikbaar"</string>
     <string name="disabled_by_policy_title" msgid="8296938784202750494">"Handeling word nie toegelaat nie"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="1669689058213728099">"Kan nie volume verander nie"</string>

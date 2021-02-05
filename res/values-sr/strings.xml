@@ -1499,7 +1499,7 @@
     <string name="storage_detail_system" msgid="3797439069473271732">"Систем"</string>
     <string name="storage_detail_explore" msgid="13782374784415466">"Истражи уређај <xliff:g id="NAME">^1</xliff:g>"</string>
     <string name="storage_detail_dialog_other" msgid="3359851869961609901">"Остало обухвата дељене датотеке које су сачувале апликације, датотеке преузете са интернета или Bluetooth-а, Android датотеке и тако даље. \n\nДа бисте видели видљиви садржај на уређају <xliff:g id="NAME">^1</xliff:g>, додирните Истражите."</string>
-    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"Систем обухвата датотеке које се користе за покретање верзије Android <xliff:g id="VERSION">%s</xliff:g>"</string>
+    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"Систем обухвата датотеке које се користе за покретање верзије <xliff:g id="VERSION">%s</xliff:g>"</string>
     <string name="storage_detail_dialog_user" msgid="1691219071007313226">"<xliff:g id="USER_0">^1</xliff:g> можда има сачуване слике, музику, апликације или друге податке, који заузимају <xliff:g id="SIZE">^2</xliff:g> меморијског простора. \n\nДа бисте погледали детаље, пређите на <xliff:g id="USER_1">^1</xliff:g>."</string>
     <string name="storage_wizard_init_title" msgid="9036374223934708619">"Подесите уређај <xliff:g id="NAME">^1</xliff:g>"</string>
     <string name="storage_wizard_init_external_title" msgid="6540132491909241713">"Користи као преносиву меморију"</string>
@@ -4276,7 +4276,7 @@
     <string name="users_summary" msgid="8473589474976307510">"Пријављени сте као <xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
     <string name="payment_summary" msgid="5513009140568552693">"<xliff:g id="APP_NAME">%1$s</xliff:g> је подразумевана"</string>
     <string name="backup_disabled" msgid="4503062265560959320">"Прављење резервне копије је онемогућено"</string>
-    <string name="android_version_summary" msgid="7818952662015042768">"Ажурирано на Android <xliff:g id="VERSION">%1$s</xliff:g>"</string>
+    <string name="android_version_summary" msgid="7818952662015042768">"Ажурирано на <xliff:g id="VERSION">%1$s</xliff:g>"</string>
     <string name="android_version_pending_update_summary" msgid="5404532347171027730">"Доступно је ажурирање"</string>
     <string name="disabled_by_policy_title" msgid="8296938784202750494">"Радња није дозвољена"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="1669689058213728099">"Не можете да промените јачину звука"</string>

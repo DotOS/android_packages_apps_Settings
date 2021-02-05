@@ -1478,7 +1478,7 @@
     <string name="storage_detail_system" msgid="3797439069473271732">"Tizim"</string>
     <string name="storage_detail_explore" msgid="13782374784415466">"<xliff:g id="NAME">^1</xliff:g>"</string>
     <string name="storage_detail_dialog_other" msgid="3359851869961609901">"Boshqa fayllarga ilovalar tomonidan saqlangan umumiy fayllar, Internetdan yuklab olingan yoki Bluetooth orqali olingan fayllar, Android fayllari va boshqalar kiradi. \n\nUshbu SD karta (<xliff:g id="NAME">^1</xliff:g>) ichidagi narsalarni ko‘rish uchun “Ko‘rib chiqish” tugmasini bosing."</string>
-    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"Tizim rukniga Android <xliff:g id="VERSION">%s</xliff:g> uchun zarur fayllar kiradi"</string>
+    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"Tizim rukniga <xliff:g id="VERSION">%s</xliff:g> uchun zarur fayllar kiradi"</string>
     <string name="storage_detail_dialog_user" msgid="1691219071007313226">"<xliff:g id="USER_0">^1</xliff:g> <xliff:g id="SIZE">^2</xliff:g> surat, musiqa, ilova yoki boshqa ma’lumotlarni saqlagan bo‘lishi mumkin. \n\nTafsilotlarni ko‘rish uchun <xliff:g id="USER_1">^1</xliff:g> profiliga o‘ting."</string>
     <string name="storage_wizard_init_title" msgid="9036374223934708619">"<xliff:g id="NAME">^1</xliff:g> kartasini sozlang"</string>
     <string name="storage_wizard_init_external_title" msgid="6540132491909241713">"Ko‘chma xotira sifatida foydalanish"</string>
@@ -4204,7 +4204,7 @@
     <string name="users_summary" msgid="8473589474976307510">"<xliff:g id="USER_NAME">%1$s</xliff:g> sifatida kirgansiz"</string>
     <string name="payment_summary" msgid="5513009140568552693">"Birlamchi ilova: <xliff:g id="APP_NAME">%1$s</xliff:g>"</string>
     <string name="backup_disabled" msgid="4503062265560959320">"Zaxiralash o‘chirilgan"</string>
-    <string name="android_version_summary" msgid="7818952662015042768">"Android <xliff:g id="VERSION">%1$s</xliff:g>"</string>
+    <string name="android_version_summary" msgid="7818952662015042768">"<xliff:g id="VERSION">%1$s</xliff:g>"</string>
     <string name="android_version_pending_update_summary" msgid="5404532347171027730">"Yangilanish chiqdi"</string>
     <string name="disabled_by_policy_title" msgid="8296938784202750494">"Bu amalga ruxsat berilmagan"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="1669689058213728099">"Tovush balandligini o‘zgartirib bo‘lmaydi"</string>

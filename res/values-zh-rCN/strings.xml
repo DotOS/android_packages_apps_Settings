@@ -1478,7 +1478,7 @@
     <string name="storage_detail_system" msgid="3797439069473271732">"系统"</string>
     <string name="storage_detail_explore" msgid="13782374784415466">"浏览<xliff:g id="NAME">^1</xliff:g>"</string>
     <string name="storage_detail_dialog_other" msgid="3359851869961609901">"“其他”包括应用所保存的共享文件、通过互联网或蓝牙下载的文件、Android 文件等。\n\n要查看此<xliff:g id="NAME">^1</xliff:g>中的可见内容，请点按“浏览”。"</string>
-    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"“系统”中包含用于运行 Android <xliff:g id="VERSION">%s</xliff:g> 的文件"</string>
+    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"“系统”中包含用于运行 <xliff:g id="VERSION">%s</xliff:g> 的文件"</string>
     <string name="storage_detail_dialog_user" msgid="1691219071007313226">"<xliff:g id="USER_0">^1</xliff:g>可能保存了照片、音乐、应用或其他数据（占用了 <xliff:g id="SIZE">^2</xliff:g> 的存储空间）。\n\n要查看详情，请切换至<xliff:g id="USER_1">^1</xliff:g>。"</string>
     <string name="storage_wizard_init_title" msgid="9036374223934708619">"设置您的<xliff:g id="NAME">^1</xliff:g>"</string>
     <string name="storage_wizard_init_external_title" msgid="6540132491909241713">"用作便携式存储设备"</string>
@@ -4204,7 +4204,7 @@
     <string name="users_summary" msgid="8473589474976307510">"目前登录的用户为：<xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
     <string name="payment_summary" msgid="5513009140568552693">"默认使用<xliff:g id="APP_NAME">%1$s</xliff:g>"</string>
     <string name="backup_disabled" msgid="4503062265560959320">"备份功能已停用"</string>
-    <string name="android_version_summary" msgid="7818952662015042768">"已更新至 Android <xliff:g id="VERSION">%1$s</xliff:g>"</string>
+    <string name="android_version_summary" msgid="7818952662015042768">"已更新至 <xliff:g id="VERSION">%1$s</xliff:g>"</string>
     <string name="android_version_pending_update_summary" msgid="5404532347171027730">"有新版本可用"</string>
     <string name="disabled_by_policy_title" msgid="8296938784202750494">"不允许执行此操作"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="1669689058213728099">"无法调节音量"</string>

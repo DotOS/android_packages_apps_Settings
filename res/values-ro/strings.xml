@@ -1499,7 +1499,7 @@
     <string name="storage_detail_system" msgid="3797439069473271732">"Sistem"</string>
     <string name="storage_detail_explore" msgid="13782374784415466">"Explorați <xliff:g id="NAME">^1</xliff:g>"</string>
     <string name="storage_detail_dialog_other" msgid="3359851869961609901">"În „Altele” sunt incluse fișiere trimise care au fost salvate de aplicații, fișiere descărcate de pe internet sau prin Bluetooth, fișiere Android și altele. \n\nPentru a accesa conținutul vizibil al <xliff:g id="NAME">^1</xliff:g>, atingeți Explorați."</string>
-    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"Sistemul include fișiere folosite pentru a rula versiunea de Android <xliff:g id="VERSION">%s</xliff:g>"</string>
+    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"Sistemul include fișiere folosite pentru a rula versiunea de <xliff:g id="VERSION">%s</xliff:g>"</string>
     <string name="storage_detail_dialog_user" msgid="1691219071007313226">"Este posibil ca <xliff:g id="USER_0">^1</xliff:g> să fi salvat fotografii, muzică, aplicații sau alte date folosind <xliff:g id="SIZE">^2</xliff:g> din spațiul de stocare. \n\nPentru a vedea detalii, comutați pe <xliff:g id="USER_1">^1</xliff:g>."</string>
     <string name="storage_wizard_init_title" msgid="9036374223934708619">"Configurați <xliff:g id="NAME">^1</xliff:g>"</string>
     <string name="storage_wizard_init_external_title" msgid="6540132491909241713">"Folosiți ca stocare portabilă"</string>
@@ -4276,7 +4276,7 @@
     <string name="users_summary" msgid="8473589474976307510">"V-ați conectat ca <xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
     <string name="payment_summary" msgid="5513009140568552693">"<xliff:g id="APP_NAME">%1$s</xliff:g> este prestabilită"</string>
     <string name="backup_disabled" msgid="4503062265560959320">"Backupul este dezactivat"</string>
-    <string name="android_version_summary" msgid="7818952662015042768">"Actualizat la Android <xliff:g id="VERSION">%1$s</xliff:g>"</string>
+    <string name="android_version_summary" msgid="7818952662015042768">"Actualizat la <xliff:g id="VERSION">%1$s</xliff:g>"</string>
     <string name="android_version_pending_update_summary" msgid="5404532347171027730">"Actualizare disponibilă"</string>
     <string name="disabled_by_policy_title" msgid="8296938784202750494">"Acțiunea nu este permisă"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="1669689058213728099">"Nu se poate modifica volumul"</string>

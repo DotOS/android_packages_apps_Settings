@@ -1478,7 +1478,7 @@
     <string name="storage_detail_system" msgid="3797439069473271732">"სისტემა"</string>
     <string name="storage_detail_explore" msgid="13782374784415466">"<xliff:g id="NAME">^1</xliff:g>-ის მიმოხილვა"</string>
     <string name="storage_detail_dialog_other" msgid="3359851869961609901">"სხვა მოიცავს აპების მიერ შენახულ გაზიარებულ ფაილებს, ინტერნეტიდან ან Bluetooth-ის მეშვეობით ჩამოტვირთულ ფაილებს, Android ფაილებს და ა.შ. \n\n<xliff:g id="NAME">^1</xliff:g>-ის ხილული კონტენტის სანახავად, შეეხეთ მიმოხილვას."</string>
-    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"სისტემა მოიცავს ფაილებს, რომლებიც Android <xliff:g id="VERSION">%s</xliff:g>-ის გასაშვებად გამოიყენება"</string>
+    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"სისტემა მოიცავს ფაილებს, რომლებიც <xliff:g id="VERSION">%s</xliff:g>-ის გასაშვებად გამოიყენება"</string>
     <string name="storage_detail_dialog_user" msgid="1691219071007313226">"<xliff:g id="USER_0">^1</xliff:g>-ს შეიძლება ჰქონდეს შენახული ფოტოები, მუსიკა, აპები ან სხვა მონაცემები, რომლებსაც მეხსიერებაში <xliff:g id="SIZE">^2</xliff:g> უკავია. \n\nდეტალების სანახავად გადაერთეთ <xliff:g id="USER_1">^1</xliff:g>-ზე."</string>
     <string name="storage_wizard_init_title" msgid="9036374223934708619">"დააყენეთ თქვენი <xliff:g id="NAME">^1</xliff:g>"</string>
     <string name="storage_wizard_init_external_title" msgid="6540132491909241713">"პორტატულ საცავად გამოყენება"</string>
@@ -4204,7 +4204,7 @@
     <string name="users_summary" msgid="8473589474976307510">"შესული ხართ, როგორც <xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
     <string name="payment_summary" msgid="5513009140568552693">"<xliff:g id="APP_NAME">%1$s</xliff:g> ნაგულისხმევია"</string>
     <string name="backup_disabled" msgid="4503062265560959320">"სარეზერვო ასლების შექმნა გათიშულია"</string>
-    <string name="android_version_summary" msgid="7818952662015042768">"განახლდა Android <xliff:g id="VERSION">%1$s</xliff:g>-ზე"</string>
+    <string name="android_version_summary" msgid="7818952662015042768">"განახლდა <xliff:g id="VERSION">%1$s</xliff:g>-ზე"</string>
     <string name="android_version_pending_update_summary" msgid="5404532347171027730">"განახლება ხელმისაწვდომია"</string>
     <string name="disabled_by_policy_title" msgid="8296938784202750494">"მოქმედება დაუშვებელია"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="1669689058213728099">"ხმის შეცვლა ვერ მოხერხდა"</string>

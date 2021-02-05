@@ -4204,7 +4204,7 @@
     <string name="users_summary" msgid="8473589474976307510">"<xliff:g id="USER_NAME">%1$s</xliff:g> ಎಂಬುದಾಗಿ ಸೈನ್ ಇನ್ ಮಾಡಲಾಗಿದೆ"</string>
     <string name="payment_summary" msgid="5513009140568552693">"<xliff:g id="APP_NAME">%1$s</xliff:g> ಡಿಫಾಲ್ಟ್‌ ಆಗಿದೆ"</string>
     <string name="backup_disabled" msgid="4503062265560959320">"ಬ್ಯಾಕ್‌ಅಪ್ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ"</string>
-    <string name="android_version_summary" msgid="7818952662015042768">"Android <xliff:g id="VERSION">%1$s</xliff:g> ಗೆ ಅಪ್‌ಡೇಟ್ ಮಾಡಲಾಗಿದೆ"</string>
+    <string name="android_version_summary" msgid="7818952662015042768">"<xliff:g id="VERSION">%1$s</xliff:g> ಗೆ ಅಪ್‌ಡೇಟ್ ಮಾಡಲಾಗಿದೆ"</string>
     <string name="android_version_pending_update_summary" msgid="5404532347171027730">"ಅಪ್‌ಡೇಟ್‌‌ ಲಭ್ಯವಿದೆ"</string>
     <string name="disabled_by_policy_title" msgid="8296938784202750494">"ಚಟುವಟಿಕೆಯನ್ನು ಅನುಮತಿಸಲಾಗುವುದಿಲ್ಲ"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="1669689058213728099">"ವಾಲ್ಯೂಮ್ ಬದಲಾಯಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ"</string>

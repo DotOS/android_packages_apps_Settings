@@ -1520,7 +1520,7 @@
     <string name="storage_detail_system" msgid="3797439069473271732">"Сістэмныя файлы"</string>
     <string name="storage_detail_explore" msgid="13782374784415466">"Праглядзець <xliff:g id="NAME">^1</xliff:g>"</string>
     <string name="storage_detail_dialog_other" msgid="3359851869961609901">"Раздзел \"Іншае\" ўключае абагуленыя файлы, захаваныя праграмамі, файлы, спампаваныя з інтэрнэту або па Bluetooth, файлы Android і іншае. \n\nКаб праглядзець усё бачнае змесціва ў наступным сховішчы: <xliff:g id="NAME">^1</xliff:g>, націсніце \"Азнаёміцца\"."</string>
-    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"Сістэмныя файлы ўключаюць у сябе файлы, неабходныя для працы Android <xliff:g id="VERSION">%s</xliff:g>"</string>
+    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"Сістэмныя файлы ўключаюць у сябе файлы, неабходныя для працы <xliff:g id="VERSION">%s</xliff:g>"</string>
     <string name="storage_detail_dialog_user" msgid="1691219071007313226">"<xliff:g id="USER_0">^1</xliff:g> можа мець захаваныя фатаграфіі, музыку, праграмы або іншыя даныя, якія займаюць <xliff:g id="SIZE">^2</xliff:g> сховішча. \n\nДля прагляду падрабязнай інфармацыі пераключыцеся на карыстальніка <xliff:g id="USER_1">^1</xliff:g>."</string>
     <string name="storage_wizard_init_title" msgid="9036374223934708619">"Наладжванне сховішча <xliff:g id="NAME">^1</xliff:g>"</string>
     <string name="storage_wizard_init_external_title" msgid="6540132491909241713">"Выкарыстоўваць у якасці партатыўнага сховішча"</string>
@@ -4348,7 +4348,7 @@
     <string name="users_summary" msgid="8473589474976307510">"Вы ўвайшлі як <xliff:g id="USER_NAME">%1$s</xliff:g>"</string>
     <string name="payment_summary" msgid="5513009140568552693">"<xliff:g id="APP_NAME">%1$s</xliff:g> з\'яўляецца стандартнай праграмай"</string>
     <string name="backup_disabled" msgid="4503062265560959320">"Рэзервовае капіраванне адключана"</string>
-    <string name="android_version_summary" msgid="7818952662015042768">"Абноўлена да версіі Android <xliff:g id="VERSION">%1$s</xliff:g>"</string>
+    <string name="android_version_summary" msgid="7818952662015042768">"Абноўлена да версіі <xliff:g id="VERSION">%1$s</xliff:g>"</string>
     <string name="android_version_pending_update_summary" msgid="5404532347171027730">"Ёсць абнаўленне"</string>
     <string name="disabled_by_policy_title" msgid="8296938784202750494">"Дзеянне забаронена"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="1669689058213728099">"Не ўдалося змяніць гучнасць"</string>

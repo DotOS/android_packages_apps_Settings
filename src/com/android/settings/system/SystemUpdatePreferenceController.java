@@ -24,6 +24,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.os.PersistableBundle;
 import android.os.SystemUpdateManager;
+import android.os.SystemProperties;
 import android.os.UserManager;
 import android.telephony.CarrierConfigManager;
 import android.text.TextUtils;
@@ -89,7 +90,7 @@ public class SystemUpdatePreferenceController extends BasePreferenceController {
     @Override
     public CharSequence getSummary() {
         CharSequence summary = mContext.getString(R.string.android_version_summary,
-                Build.VERSION.RELEASE_OR_CODENAME);
+                SystemProperties.get("ro.modversion"));
         final FutureTask<Bundle> bundleFutureTask = new FutureTask<>(
                 // Put the API call in a future to avoid StrictMode violation.
                 () -> mUpdateManager.retrieveSystemUpdateInfo());
@@ -112,10 +113,10 @@ public class SystemUpdatePreferenceController extends BasePreferenceController {
                 Log.d(TAG, "Update statue unknown");
                 // fall through to next branch
             case SystemUpdateManager.STATUS_IDLE:
-                final String version = updateInfo.getString(SystemUpdateManager.KEY_TITLE);
-                if (!TextUtils.isEmpty(version)) {
-                    summary = mContext.getString(R.string.android_version_summary, version);
-                }
+                //final String version = updateInfo.getString(SystemUpdateManager.KEY_TITLE);
+                //if (!TextUtils.isEmpty(version)) {
+                summary = mContext.getString(R.string.android_version_summary, SystemProperties.get("ro.modversion"));
+                //}
                 break;
         }
         return summary;

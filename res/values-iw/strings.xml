@@ -1520,7 +1520,7 @@
     <string name="storage_detail_system" msgid="3797439069473271732">"מערכת"</string>
     <string name="storage_detail_explore" msgid="13782374784415466">"עיין ב-<xliff:g id="NAME">^1</xliff:g>"</string>
     <string name="storage_detail_dialog_other" msgid="3359851869961609901">"‏קבצים אחרים כוללים, בין השאר, קבצים משותפים שנשמרו על-ידי אפליקציות, קבצים שהורדו מהאינטרנט או באמצעות Bluetooth, קובצי Android וכו\'. \n\nכדי לראות את התוכן הגלוי ב-<xliff:g id="NAME">^1</xliff:g>, צריך להקיש על \'גילוי\'."</string>
-    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"‏המערכת כוללת קבצים המשמשים להרצת גרסת Android <xliff:g id="VERSION">%s</xliff:g>"</string>
+    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"‏המערכת כוללת קבצים המשמשים להרצת גרסת <xliff:g id="VERSION">%s</xliff:g>"</string>
     <string name="storage_detail_dialog_user" msgid="1691219071007313226">"ייתכן ש<xliff:g id="USER_0">^1</xliff:g> שמר תמונות, מוזיקה, אפליקציות או נתונים אחרים וצרך שטח אחסון כולל של <xliff:g id="SIZE">^2</xliff:g>. \n\nכדי לצפות בפרטים, עבור אל <xliff:g id="USER_1">^1</xliff:g>."</string>
     <string name="storage_wizard_init_title" msgid="9036374223934708619">"הגדרת <xliff:g id="NAME">^1</xliff:g>"</string>
     <string name="storage_wizard_init_external_title" msgid="6540132491909241713">"שימוש כאחסון נייד"</string>

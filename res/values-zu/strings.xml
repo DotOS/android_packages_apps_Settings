@@ -1478,7 +1478,7 @@
     <string name="storage_detail_system" msgid="3797439069473271732">"Isistimu"</string>
     <string name="storage_detail_explore" msgid="13782374784415466">"Hlola i-<xliff:g id="NAME">^1</xliff:g>"</string>
     <string name="storage_detail_dialog_other" msgid="3359851869961609901">"Amanye amafayela afakiwe abiwe alondolozwe ngezinhlelo zokusebenza, amafayela alandwe kusukela ku-inthanethi noma ku-Bluetooth, amafayela e-Android, njalo njalo. \n\nUkuze ubone okuqukethwe okubonakalayo kwale-<xliff:g id="NAME">^1</xliff:g>, thepha okuthi Hlola."</string>
-    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"Isistimu ibandakanya amafayela asetshenziswe ukusebenzisa inguqulo ye-Android <xliff:g id="VERSION">%s</xliff:g>"</string>
+    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"Isistimu ibandakanya amafayela asetshenziswe ukusebenzisa inguqulo ye-<xliff:g id="VERSION">%s</xliff:g>"</string>
     <string name="storage_detail_dialog_user" msgid="1691219071007313226">"U-<xliff:g id="USER_0">^1</xliff:g> kungenzeka ulondoloze izithombe, umculo, izinhlelo zokusebenza, noma enye idatha, asebenzisa okungu-<xliff:g id="SIZE">^2</xliff:g> kwesitoreji. \n\nUkuze ubuke imininingwane, shintshela ku-<xliff:g id="USER_1">^1</xliff:g>."</string>
     <string name="storage_wizard_init_title" msgid="9036374223934708619">"Setha i-<xliff:g id="NAME">^1</xliff:g> yakho"</string>
     <string name="storage_wizard_init_external_title" msgid="6540132491909241713">"Sebenzisa njengesitoreji esiphathekayo"</string>

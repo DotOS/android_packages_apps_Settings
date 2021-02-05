@@ -1478,7 +1478,7 @@
     <string name="storage_detail_system" msgid="3797439069473271732">"Sistema"</string>
     <string name="storage_detail_explore" msgid="13782374784415466">"Explora <xliff:g id="NAME">^1</xliff:g>"</string>
     <string name="storage_detail_dialog_other" msgid="3359851869961609901">"A la secció Altres s\'inclouen fitxers compartits que han desat les aplicacions, fitxers que s\'han baixat d\'Internet o per Bluetooth, i fitxers d\'Android, entre d\'altres. \n\nPer veure el contingut visible d\'aquest dispositiu <xliff:g id="NAME">^1</xliff:g>, toca Explora."</string>
-    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"El sistema inclou fitxers que s\'utilitzen per executar la versió d\'Android <xliff:g id="VERSION">%s</xliff:g>"</string>
+    <string name="storage_detail_dialog_system" msgid="7461009051858709479">"El sistema inclou fitxers que s\'utilitzen per executar la versió d\'<xliff:g id="VERSION">%s</xliff:g>"</string>
     <string name="storage_detail_dialog_user" msgid="1691219071007313226">"És possible que <xliff:g id="USER_0">^1</xliff:g> hagi desat fotos, música, aplicacions o altres dades que ocupen <xliff:g id="SIZE">^2</xliff:g> d\'emmagatzematge. \n\nPer veure\'n més informació, canvia a <xliff:g id="USER_1">^1</xliff:g>."</string>
     <string name="storage_wizard_init_title" msgid="9036374223934708619">"Configurar <xliff:g id="NAME">^1</xliff:g>"</string>
     <string name="storage_wizard_init_external_title" msgid="6540132491909241713">"Utilitza com a emmagatzematge portàtil"</string>
