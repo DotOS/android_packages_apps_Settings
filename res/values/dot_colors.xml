@@ -17,4 +17,6 @@
 <resources>
     <color name="dot_pref_emergency_color">#B2FF4444</color>
     <color name="dot_pref_ripple">#1f000000</color>
+
+    <color name="ic_launcher_background">#516B91</color>
 </resources>
