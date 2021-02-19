@@ -59,4 +59,10 @@
         <item name="android:background">@drawable/dot_pref_bottom</item>
         <item name="android:clipToPadding">false</item>
     </style>
+
+    <style name="ToolbarText.Collapsed" parent="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title"/>
+
+    <style name="ToolbarText.Expanded" parent="ToolbarText.Collapsed">
+        <item name="android:textSize">34sp</item>
+    </style>
 </resources>  
