@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2020 dotOS Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+     http://www.apache.org/licenses/LICENSE-2.0
+     
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- About phone screen, dot OS version -->
+    <string name="dot_version">Versão dotOS</string>
+    <string name="dot_version_default">Desconhecido</string>
+    <string name="keywords_dot_version">versão dotOS, versão dot</string>
+
+    <!-- About phone screen, build date -->
+    <string name="about_device_name">Codinome do Dispositivo</string>
+    <string name="build_date">Data de compilação</string>
+    <string name="build_date_default">2015-01-01-0000</string>
+    <string name="keywords_build_date">data de compilação, informações da compilação</string>
+
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
+
+    <!-- Manage applications, package string displayed in app snippet -->
+    <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Plataforma</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">RAM Total</string>
+
+<!-- Fingerprint location message - default -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Localize o sensor de digitais na parte frontal do seu telefone.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Localize o sensor de digitais no lado esquerdo do seu telefone.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Localize o sensor de digitais no lado direito do seu telefone.</string>
+
+    <!-- Fingerprint location message - generic -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Localize o sensor de digitais na parte frontal do seu dispositivo.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Localize o sensor de digitais no lado esquerdo do seu dispositivo.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">Localize o sensor de digitais no lado direito do seu dispositivo.</string>
+
+    <!-- Fingerprint location message - tablet -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Localize o sensor de digitais na parte frontal do seu tablet.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Localize o sensor de digitais no lado esquerdo do seu tablet.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Localize o sensor de digitais no lado direito do seu tablet.</string>
+
+    <!-- About phone screen,  SELinux status -->
+    <string name="selinux_status">Status do SELinux</string>
+    <string name="selinux_status_disabled">Desativado</string>
+    <string name="selinux_status_permissive">Permissivo</string>
+    <string name="selinux_status_enforcing">Impondo</string>
+
+    <!-- About phone cards -->
+    <string name="storage_card_title">Armazenamento</string>
+    <string name="storage_card_info">Ocupado</string>
+    <string name="about_device_rom_title">DotOS %s</string>
+
+    <!-- BatteryInfo Cards -->
+    <string name="binfo_stats">Estatísticas</string>
+
+    <!-- Dot Customization -->
+    <string name="dot_customizer_dashboard_title">Personalização</string>
+    <string name="dot_customizer_dashboard_summary">Personalize sua experiência com um pingo de tinta</string>
+
+    <string name="dot_about_device_info">Informações &amp; legais</string>
+    <string name="dot_about_device_private">Detalhes Particulares</string>
+
+    <string name="others_google_llc" translatable="false">Google LLC</string>
+
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Fones de ouvido salvos</string>
+
+    <!-- Mobile network setting screen, summary of Mobile data switch preference when the network
+         is unavailable, the preference selection will be disabled. [CHAR LIMIT=NONE] -->
+    <string name="mobile_data_settings_summary_unavailable">Nenhum cartão SIM disponível</string>
+
+    <!-- Scramble pin -->
+    <string name="unlock_scramble_pin_layout_title">Embaralhar layout</string>
+    <string name="unlock_scramble_pin_layout_summary">Embaralhar layout do PIN quando o dispositivo for desbloqueado</string>
+</resources>
