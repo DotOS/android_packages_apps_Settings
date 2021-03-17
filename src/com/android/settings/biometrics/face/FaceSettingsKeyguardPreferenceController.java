@@ -72,7 +72,7 @@ public class FaceSettingsKeyguardPreferenceController extends FaceSettingsPrefer
 
     @Override
     public int getAvailabilityStatus() {
-        return FaceUtils.isFaceUnlockSupported() ? UNSUPPORTED_ON_DEVICE : AVAILABLE;
+        return AVAILABLE;
     }
 
     @Override
