@@ -106,6 +106,7 @@
 
     <PreferenceCategory
         android:key="configure_notifications_advanced"
+        android:title="@string/advanced_notifications_title"
         android:order="15"
         settings:initialExpandedChildrenCount="0">
 
