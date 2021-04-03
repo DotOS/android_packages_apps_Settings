@@ -34,7 +34,7 @@
             android:background="?android:attr/colorPrimary"
             app:collapsedTitleTextAppearance="@style/ToolbarText.Collapsed"
             app:contentScrim="?android:attr/colorPrimary"
-            app:expandedTitleMarginStart="18dp"
+            app:expandedTitleMarginStart="32dp"
             app:expandedTitleTextAppearance="@style/ToolbarText.Expanded"
             app:maxLines="2"
             app:layout_scrollFlags="scroll|exitUntilCollapsed"

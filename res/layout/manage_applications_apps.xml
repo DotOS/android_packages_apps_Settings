@@ -66,9 +66,7 @@
         <FrameLayout
             android:id="@+id/pinned_header"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:visibility="gone"
-            settings:layout_scrollFlags="scroll|enterAlways"/>
+            android:layout_height="wrap_content" />
     </com.google.android.material.appbar.AppBarLayout>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
