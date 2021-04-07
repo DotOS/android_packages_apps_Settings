@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2020 dotOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+     
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dot_version">dotOS versie</string>
+    <string name="dot_version_default">Onbekend</string>
+    <string name="keywords_dot_version">dotOS versie, dot versie</string>
+    <string name="about_device_name">Codenaam apparaat</string>
+    <string name="build_date">Gebouwd op</string>
+    <string name="build_date_default">2015-01-01-0000</string>
+    <string name="keywords_build_date">bouwdatum, bouw-informatie</string>
+    <string name="app_play_store">Google Play</string>
+    <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+    <string name="platform_revision">Platform</string>
+    <string name="total_ram">Totale RAM-geheugen</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Zoek de vingerafdruksensor op de voorkant van je telefoon.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Zoek de vingerafdruksensor op de linker zijde van je telefoon.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Zoek de vingerafdruksensor op de rechter zijde van uw telefoon.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Zoek de vingerafdrukscanner aan de voorkant van uw apparaat.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Zoek de vingerafdruksensor op de linker zijde van je telefoon.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">Zoek de vingerafdruksensor op de rechter zijde van uw toestel.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Gebruik de vingerafdrukscanner op de voorkant van uw tablet.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Zoek de vingerafdruksensor op de linker zijde van je tablet.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Zoek de vingerafdruksensor op de rechter zijde van uw tablet.</string>
+    <string name="selinux_status">SELinux-status</string>
+    <string name="selinux_status_disabled">Uitgeschakeld</string>
+    <string name="selinux_status_permissive">Permissive (Tolerant)</string>
+    <string name="selinux_status_enforcing">Enforcing (Wordt afgedwongen)</string>
+    <string name="storage_card_title">Opslag</string>
+    <string name="storage_card_info">Gebruikt</string>
+    <string name="about_device_rom_title">DotOS %s</string>
+    <string name="binfo_stats">Statistieken</string>
+    <string name="dot_customizer_dashboard_title">Aanpassingen</string>
+    <string name="dot_customizer_dashboard_summary">Personaliseer uw ervaring met een druppel verf</string>
+    <string name="dot_about_device_info">Juridische informatie</string>
+    <string name="dot_about_device_private">Privé Details</string>
+    <string name="connected_tws_device_saved_title">Opgeslagen oordopjes</string>
+    <string name="mobile_data_settings_summary_unavailable">Geen SIM-kaart beschikbaar</string>
+    <string name="unlock_scramble_pin_layout_title">Willekeurige lay-out</string>
+    <string name="unlock_scramble_pin_layout_summary">Willekeurige PIN lay-out bij het ontgrendelen van het apparaat</string>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2020 dotOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+     
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dot_version">ডট_ভার্সন
+ ফোন স্ক্রিন সম্পর্কে, ডট ওএস ভার্সন</string>
+    <string name="dot_version_default">ডট_ভার্সন_ডিফল্ট</string>
+    <string name="keywords_dot_version">কীওয়ার্ড_ডট_ভার্সন</string>
+    <string name="about_device_name">ডিভাইস_নাম_সম্পর্কে
+ ফোনের স্ক্রিন সম্পর্কে, প্রস্তুতকরণের তারিখ</string>
+    <string name="build_date">নির্মাণ তারিখ</string>
+    <string name="build_date_default">২০১৫-০১-০১-০০০০</string>
+    <string name="keywords_build_date">নির্মাণ তারিখ, নির্মাণ তথ্য</string>
+    <string name="app_play_store">গুগল প্লে</string>
+    <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+    <string name="platform_revision">প্ল্যাটফর্ম</string>
+    <string name="total_ram">মোট র‌্যাম</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">ফোনের সম্মুখে অবস্থিত অঙ্গুলছাপ সেন্সরটি খুঁজে বের করুন.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">ফোনের বাঁ পাশে অবস্থিত অঙ্গুলছাপ সেন্সরটি খুঁজে বের করুন.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">ফোনের ডান পাশে অবস্থিত অঙ্গুলছাপ সেন্সরটি খুঁজে বের করুন.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">আপনার আঙ্গুলটিকে ডিভাইসের সম্মুখে থাকা ফিঙ্গারপ্রিন্ট সেন্সরের উপর রাখুন.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">আপনার ফোনের বাম দিকে আঙ্গুলের ছাপ দেয়ার জায়গাটি খুঁজুন.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">আপনার ফোনের ডান দিকে আঙ্গুলের ছাপ দেয়ার জায়গাটি খুঁজুন.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">আপনার ট্যাবলেটের সামনের দিকে আঙ্গুলের ছাপ দেয়ার জায়গাটি খুঁজুন.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">আপনার ট্যাবলেটের বাম দিকে আঙ্গুলের ছাপ দেয়ার জায়গাটি খুঁজুন.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">আপনার ট্যাবলেটের ডান দিকে আঙ্গুলের ছাপ দেয়ার জায়গাটি খুঁজুন.</string>
+    <string name="selinux_status">SELinux অবস্থা</string>
+    <string name="selinux_status_disabled">নিষ্ক্রিয়</string>
+    <string name="selinux_status_permissive">অনুমিত</string>
+    <string name="selinux_status_enforcing">বাধ্য করা</string>
+    <string name="storage_card_title">স্টোরেজ</string>
+    <string name="storage_card_info">অধিকৃত</string>
+    <string name="about_device_rom_title">ডট ওয়েছ %s</string>
+    <string name="binfo_stats">পরিসংখ্যান</string>
+    <string name="dot_customizer_dashboard_title">কাস্টমাইজেশন</string>
+    <string name="dot_customizer_dashboard_summary">একটি ড্রপ পেইন্ট দিয়ে আপনার অভিজ্ঞতা সজ্জিত করুন</string>
+    <string name="dot_about_device_info">আইনি &amp; তথ্য</string>
+    <string name="dot_about_device_private">ব্যক্তিগত বিবরণ</string>
+    <string name="connected_tws_device_saved_title">সংরক্ষিত ইয়ারবাডসগুলো</string>
+    <string name="mobile_data_settings_summary_unavailable">কোনো সিম কার্ড পাওয়া যায়নি</string>
+    <string name="unlock_scramble_pin_layout_title">একত্র বিন্যাস</string>
+    <string name="unlock_scramble_pin_layout_summary">ডিভাইস আনলক করার সময় স্ক্র্যাম্বল পিন লেআউট</string>
+</resources>

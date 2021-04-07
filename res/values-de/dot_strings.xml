@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2020 dotOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+     
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dot_version">dotOS Version</string>
+    <string name="dot_version_default">Unbekannt</string>
+    <string name="keywords_dot_version">dotOS Version, dot Version</string>
+    <string name="about_device_name">Geräte Codename</string>
+    <string name="build_date">Build-Datum</string>
+    <string name="build_date_default">2015-01-01-0000</string>
+    <string name="keywords_build_date">Build-Datum, Build-Info</string>
+    <string name="app_play_store">Google Play</string>
+    <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+    <string name="platform_revision">Plattform</string>
+    <string name="total_ram">Gesamter Arbeitsspeicher</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Finden Sie den Fingerabdrucksensor auf der Vorderseite des Telefons.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Finden Sie den Fingerabdrucksensor auf der linken Seite des Telefons.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Finden Sie den Fingerabdrucksensor auf der rechten Seite deines Telefons.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Suchen Sie den Fingerprintsensor an der Vorderseite Ihres Gerätes.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Suchen Sie den Fingerabdrucksensor auf der linken Seite Ihres Gerätes.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">Suchen Sie den Fingerabdrucksensor auf der rechten Seite Ihres Gerätes.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Suchen Sie den Fingerabdrucksensor auf der Vorderseite des Tablets.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Suchen Sie den Fingerabdrucksensor auf der linken Seite Ihres Tablets.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Suchen Sie den Fingerabdrucksensor auf der rechten Seite des Tablets.</string>
+    <string name="selinux_status">SELinux-Status</string>
+    <string name="selinux_status_disabled">Deaktiviert</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
+    <string name="storage_card_title">Speicher</string>
+    <string name="storage_card_info">Belegt</string>
+    <string name="about_device_rom_title">DotOS %s</string>
+    <string name="binfo_stats">Statistik</string>
+    <string name="dot_customizer_dashboard_title">Anpassung</string>
+    <string name="dot_customizer_dashboard_summary">Personalisieren Sie Ihre Erfahrung mit einem Tropfen Farbe</string>
+    <string name="dot_about_device_info">Rechtliche Informationen</string>
+    <string name="dot_about_device_private">Private Details</string>
+    <string name="connected_tws_device_saved_title">Gespeicherte Kopfhörer</string>
+    <string name="mobile_data_settings_summary_unavailable">Keine SIM-Karte verfügbar</string>
+    <string name="unlock_scramble_pin_layout_title">Zufällige Anordnung</string>
+    <string name="unlock_scramble_pin_layout_summary">Bei jedem Entsperrversuch das PIN-Layout zufällig neu anordnen</string>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2020 dotOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+     
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dot_version">DotOS バージョン</string>
+    <string name="dot_version_default">不明</string>
+    <string name="keywords_dot_version">DotOS バージョン、Dot バージョン</string>
+    <string name="about_device_name">端末のコードネーム</string>
+    <string name="build_date">ビルド日時</string>
+    <string name="build_date_default">2015-01-01-0000</string>
+    <string name="keywords_build_date">ビルド日時、ビルド情報</string>
+    <string name="app_play_store">Google Play</string>
+    <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+    <string name="platform_revision">プラットフォーム</string>
+    <string name="total_ram">合計 RAM</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">スマートフォン前面にある指紋認証センサーを探します</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">スマートフォン左側にある指紋認証センサーを探します</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">スマートフォン右側にある指紋認証センサーを探します</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">端末前面にある指紋認証センサーを探します</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">端末左側にある指紋認証センサーを探します</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">端末右側にある指紋認証センサーを探します</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">タブレット前面にある指紋認証センサーを探します</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">タブレット左側にある指紋認証センサーを探します</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">タブレット右側にある指紋認証センサーを探します</string>
+    <string name="selinux_status">SELinux のステータス</string>
+    <string name="selinux_status_disabled">Disabled</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
+    <string name="storage_card_title">ストレージ</string>
+    <string name="storage_card_info">使用中</string>
+    <string name="about_device_rom_title">DotOS %s</string>
+    <string name="binfo_stats">統計情報</string>
+    <string name="dot_customizer_dashboard_title">カスタマイズ</string>
+    <string name="dot_customizer_dashboard_summary">一滴の絵の具であなたの経験を唯一のものにしましょう</string>
+    <string name="dot_about_device_info">法的情報</string>
+    <string name="dot_about_device_private">プライベート詳細</string>
+    <string name="connected_tws_device_saved_title">保存されたイヤホン</string>
+    <string name="mobile_data_settings_summary_unavailable">利用可能な SIM カードがありません</string>
+    <string name="unlock_scramble_pin_layout_title">ランダムなレイアウト</string>
+    <string name="unlock_scramble_pin_layout_summary">端末のロック解除時に PIN レイアウトをランダムにする</string>
+</resources>

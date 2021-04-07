@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2020 dotOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+     
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dot_version">Versione dotOS</string>
+    <string name="dot_version_default">Sconosciuto</string>
+    <string name="keywords_dot_version">Versione dotOS, versione dot</string>
+    <string name="about_device_name">Codename Dispositivo</string>
+    <string name="build_date">Data Build</string>
+    <string name="build_date_default">2015-01-01-0000</string>
+    <string name="keywords_build_date">data build, info build</string>
+    <string name="app_play_store">Google Play</string>
+    <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+    <string name="platform_revision">Piattaforma</string>
+    <string name="total_ram">Memoria RAM totale</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Individua il sensore d\'impronte digitali sulla parte anteriore del tuo telefono.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Individua il sensore d\'impronte digitali sul lato sinistro del tuo telefono.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Individua il sensore d\'impronte digitali sul lato destro del tuo telefono.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Individua il sensore d\'impronte digitali sulla parte anteriore del tuo dispositivo.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Individua il sensore d\'impronte digitali sulla parte sinistra del tuo dispositivo.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">Individua il sensore d\'impronte digitali sulla parte destra del tuo dispositivo.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Individua il sensore d\'impronte digitali sulla parte anteriore del tuo tablet.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Individua il sensore d\'impronte digitali sulla parte sinistra del tuo tablet.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Individua il sensore d\'impronte digitali sulla parte destra del tuo tablet.</string>
+    <string name="selinux_status">Stato SELinux</string>
+    <string name="selinux_status_disabled">Disabilitato</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
+    <string name="storage_card_title">Archiviazione</string>
+    <string name="storage_card_info">Occupato</string>
+    <string name="about_device_rom_title">DotOS %s</string>
+    <string name="binfo_stats">Statistiche</string>
+    <string name="dot_customizer_dashboard_title">Personalizzazione</string>
+    <string name="dot_customizer_dashboard_summary">Personalizza la tua esperienza con un tocco di colore</string>
+    <string name="dot_about_device_info">Informazioni legali</string>
+    <string name="dot_about_device_private">Dettagli Privati</string>
+    <string name="connected_tws_device_saved_title">Auricolari associati</string>
+    <string name="mobile_data_settings_summary_unavailable">Nessuna SIM disponibile</string>
+    <string name="unlock_scramble_pin_layout_title">Layout casuale</string>
+    <string name="unlock_scramble_pin_layout_summary">Cambia la disposizione grafica del PIN per lo sblocco del dispositivo</string>
+</resources>

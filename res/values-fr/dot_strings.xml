@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2020 dotOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+     
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dot_version">Version de dotOS</string>
+    <string name="dot_version_default">Inconnu</string>
+    <string name="keywords_dot_version">Version de dotOS, version de dot</string>
+    <string name="about_device_name">Nom de code de l\'appareil</string>
+    <string name="build_date">Date de compilation</string>
+    <string name="build_date_default">2012-01-01-0000</string>
+    <string name="keywords_build_date">date de compilation, informations de compilation</string>
+    <string name="app_play_store">Google Play</string>
+    <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+    <string name="platform_revision">Plateforme</string>
+    <string name="total_ram">Mémoire totale</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Localisez le lecteur d\'empreintes digitales à l\'avant de votre téléphone.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Localisez le lecteur d\'empreintes digitales sur le coté gauche de votre téléphone.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Localisez le lecteur d\'empreintes digitales sur le coté droit de votre téléphone.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Localisez le lecteur d\'empreintes digitales à l\'avant de votre appareil.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Localisez le capteur d\'empreinte digitale sur le côté gauche de votre appareil.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">Localisez le lecteur d\'empreintes digitales sur le côté droit de votre appareil.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Localisez le capteur d\'empreintes digitales à l\'avant de votre tablette.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Localisez le lecteur d’empreintes digitales sur le côté gauche de votre tablette.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Localisez le capteur d\'empreintes digitales sur le côté gauche de votre appareil.</string>
+    <string name="selinux_status">État SELinux</string>
+    <string name="selinux_status_disabled">Désactivée</string>
+    <string name="selinux_status_permissive">Permissif</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
+    <string name="storage_card_title">Stockage</string>
+    <string name="storage_card_info">Occupé</string>
+    <string name="about_device_rom_title">DotOS %s</string>
+    <string name="binfo_stats">Statistiques</string>
+    <string name="dot_customizer_dashboard_title">Personnalisation</string>
+    <string name="dot_customizer_dashboard_summary">Personnalisez votre expérience avec une goutte de peinture</string>
+    <string name="dot_about_device_info">Mentions légales &amp; Information</string>
+    <string name="dot_about_device_private">Détails Privés</string>
+    <string name="connected_tws_device_saved_title">Écouteurs sauvegardés</string>
+    <string name="mobile_data_settings_summary_unavailable">Aucune carte SIM disponible</string>
+    <string name="unlock_scramble_pin_layout_title">Disposition aléatoire</string>
+    <string name="unlock_scramble_pin_layout_summary">Mélanger la disposition des chiffres de saisie du code PIN lors du déverrouillage</string>
+</resources>
