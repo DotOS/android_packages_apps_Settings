@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.settings.display.darkmode.DarkModeView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:nestedScrollingEnabled="false"
+    android:paddingTop="16dp"
+    android:paddingStart="32dp"
+    android:paddingEnd="16dp" />

@@ -21,11 +21,9 @@
     settings:keywords="@string/keywords_dark_ui_mode">
 
     <com.android.settingslib.widget.LayoutPreference
-        android:key="dark_ui_location_off"
         android:selectable="false"
-        android:layout="@layout/twilight_mode_location_off"
-        settings:allowDividerBelow="true"
-        settings:controller="com.android.settings.display.TwilightLocationPreferenceController"/>
+        android:layout="@layout/dark_mode_layout"
+        settings:allowDividerBelow="false"/>
 
     <DropDownPreference
         android:key="dark_ui_auto_mode"
@@ -48,6 +46,13 @@
         settings:searchable="false"/>
 
     <com.android.settingslib.widget.LayoutPreference
+        android:key="dark_ui_location_off"
+        android:selectable="false"
+        android:layout="@layout/twilight_mode_location_off"
+        settings:allowDividerBelow="true"
+        settings:controller="com.android.settings.display.TwilightLocationPreferenceController"/>
+
+    <com.android.settingslib.widget.LayoutPreference
         android:key="dark_ui_activated"
         android:title="@string/dark_ui_title"
         android:selectable="false"
@@ -56,10 +61,11 @@
         settings:controller="com.android.settings.display.darkmode.DarkModeActivationPreferenceController"/>
 
     <com.android.settingslib.widget.FooterPreference
-            android:key="dark_ui_footer"
-            android:title="@string/dark_ui_text"
-            android:selectable="false"
-            settings:searchable="false"
-            settings:allowDividerAbove="true"/>
+        android:key="dark_ui_footer"
+        android:title="@string/dark_ui_text"
+        android:layout="@layout/dot_preference_footer"
+        android:selectable="false"
+        settings:searchable="false"
+        settings:allowDividerAbove="true"/>
 
 </PreferenceScreen>
