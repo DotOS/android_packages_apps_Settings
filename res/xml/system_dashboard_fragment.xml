@@ -46,6 +46,16 @@
         settings:controller="com.android.settings.datetime.DateTimePreferenceController"/>
 
     <Preference
+        android:key="systemui_tuner_statusbar"
+        android:title="@string/statusbar_tuner_title"
+        android:order="-230"
+        android:icon="@drawable/ic_systemui_tuner_statusbaritems" >
+        <intent android:action="android.intent.action.MAIN"
+            android:targetPackage="com.android.systemui"
+            android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
+    </Preference>
+
+    <Preference
         android:key="reset_dashboard"
         android:title="@string/reset_dashboard_title"
         android:summary="@string/reset_dashboard_summary"
