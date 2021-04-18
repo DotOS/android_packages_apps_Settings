@@ -214,7 +214,7 @@
 
     <!-- Package Installer package name -->
     <string name="config_package_installer_package_name" translatable="false">
-        com.android.packageinstaller
+        com.dot.packageinstaller
     </string>
 
     <!-- Settings intelligence interaction log intent action -->

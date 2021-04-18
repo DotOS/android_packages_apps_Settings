@@ -353,7 +353,7 @@ public final class ApplicationFeatureProviderImplTest {
 
         final Set<String> whitelist = mProvider.getKeepEnabledPackages();
 
-        assertThat(whitelist).contains("com.android.packageinstaller");
+        assertThat(whitelist).contains("com.dot.packageinstaller");
     }
 
     private void setUpUsersAndInstalledApps() {
