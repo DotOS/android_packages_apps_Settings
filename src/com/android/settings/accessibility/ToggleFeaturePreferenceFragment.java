@@ -196,7 +196,7 @@ public abstract class ToggleFeaturePreferenceFragment extends SettingsPreference
         if (mSettingsTitle != null && mSettingsIntent != null) {
             mSettingsPreference = new Preference(getPrefContext());
             mSettingsPreference.setTitle(mSettingsTitle);
-            mSettingsPreference.setIconSpaceReserved(true);
+            mSettingsPreference.setIconSpaceReserved(false);
             mSettingsPreference.setIntent(mSettingsIntent);
         }
 

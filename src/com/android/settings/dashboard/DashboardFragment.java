@@ -190,13 +190,6 @@ public abstract class DashboardFragment extends SettingsPreferenceFragment
                     // Give all controllers a chance to handle click.
                     preference.getExtras().putInt(CATEGORY, getMetricsCategory());
                 });
-
-        for (int i = 0; i < getPreferenceScreen().getPreferenceCount(); i++) {
-            Preference pref = getPreferenceScreen().getPreference(i);
-            if (pref.isVisible() && pref instanceof PreferenceCategory && pref.getTitle() != null) {
-                pref.setLayoutResource(R.layout.dot_preference_category);
-            }
-        }
     }
 
     @Override

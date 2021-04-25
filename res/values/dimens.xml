@@ -123,7 +123,7 @@
     <dimen name="preference_icon_foreground_image_inset">12dp</dimen>
 
     <!-- SwitchBar sub settings margin start / end -->
-    <dimen name="switchbar_subsettings_margin_start">72dp</dimen>
+    <dimen name="switchbar_subsettings_margin_start">32dp</dimen>
     <dimen name="switchbar_subsettings_margin_end">16dp</dimen>
 
     <dimen name="search_bar_margin">16dp</dimen>

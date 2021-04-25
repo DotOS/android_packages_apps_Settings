@@ -98,6 +98,7 @@
         <item name="switchBarBackgroundColor">@color/switchbar_background_color</item>
         <item name="switchBarBackgroundActivatedColor">?android:attr/colorAccent</item>
         <item name="switchBarRestrictionIcon">@*android:drawable/ic_info</item>
+        
     </style>
 
     <style name="ThemeOverlay.SwitchBar.Settings" parent="ThemeOverlay.SwitchBar.Settings.Base"/>

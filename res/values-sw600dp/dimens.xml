@@ -46,7 +46,7 @@
     <dimen name="switchbar_margin_end">24dp</dimen>
 
     <!-- SwitchBar sub settings margin start / end -->
-    <dimen name="switchbar_subsettings_margin_start">80dp</dimen>
+    <dimen name="switchbar_subsettings_margin_start">32dp</dimen>
 
     <dimen name="search_bar_height">64dp</dimen>
     <dimen name="search_bar_half_height">32dp</dimen>
