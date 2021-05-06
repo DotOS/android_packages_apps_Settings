@@ -24,7 +24,7 @@ import static org.mockito.Mockito.spy;
 import android.content.Context;
 import android.net.wifi.WifiConfiguration;
 
-import androidx.preference.DropDownPreference;
+import androidx.preference.ListPreference;
 
 import com.android.settings.R;
 
@@ -46,7 +46,7 @@ public class WifiPrivacyPreferenceControllerTest {
 
     private WifiPrivacyPreferenceController mPreferenceController;
     private Context mContext;
-    private DropDownPreference mDropDownPreference;
+    private ListPreference mListPreference;
     private String[] perferenceString;
 
     @Before
@@ -57,9 +57,9 @@ public class WifiPrivacyPreferenceControllerTest {
                 mContext);
         preferenceController.setWifiConfiguration(mWifiConfiguration);
         mPreferenceController = spy(preferenceController);
-        mDropDownPreference = new DropDownPreference(mContext);
-        mDropDownPreference.setEntries(R.array.wifi_privacy_entries);
-        mDropDownPreference.setEntryValues(R.array.wifi_privacy_values);
+        mListPreference = new ListPreference(mContext);
+        mListPreference.setEntries(R.array.wifi_privacy_entries);
+        mListPreference.setEntryValues(R.array.wifi_privacy_values);
 
         perferenceString = mContext.getResources().getStringArray(R.array.wifi_privacy_entries);
     }
@@ -68,22 +68,22 @@ public class WifiPrivacyPreferenceControllerTest {
     public void testUpdateState_wifiPrivacy_setCorrectValue() {
         doReturn(PRIVACY_TRUSTED).when(mPreferenceController).getRandomizationValue();
 
-        mPreferenceController.updateState(mDropDownPreference);
+        mPreferenceController.updateState(mListPreference);
 
         int prefValue = mPreferenceController.translateMacRandomizedValueToPrefValue(
                 PRIVACY_TRUSTED);
-        assertThat(mDropDownPreference.getEntry()).isEqualTo(perferenceString[prefValue]);
+        assertThat(mListPreference.getEntry()).isEqualTo(perferenceString[prefValue]);
     }
 
     @Test
     public void testUpdateState_wifiNotMetered_setCorrectValue() {
         doReturn(PRIVACY_RANDOMIZED).when(mPreferenceController).getRandomizationValue();
 
-        mPreferenceController.updateState(mDropDownPreference);
+        mPreferenceController.updateState(mListPreference);
 
         int prefValue = mPreferenceController.translateMacRandomizedValueToPrefValue(
                 PRIVACY_RANDOMIZED);
-        assertThat(mDropDownPreference.getEntry()).isEqualTo(perferenceString[prefValue]);
+        assertThat(mListPreference.getEntry()).isEqualTo(perferenceString[prefValue]);
     }
 
     @Test
@@ -91,38 +91,38 @@ public class WifiPrivacyPreferenceControllerTest {
         mPreferenceController = spy(new WifiPrivacyPreferenceController(mContext));
 
         mPreferenceController.getRandomizationValue();
-        mPreferenceController.onPreferenceChange(mDropDownPreference, "1");
+        mPreferenceController.onPreferenceChange(mListPreference, "1");
     }
 
     @Test
     public void testUpdateState_isNotEphemeralNetwork_shouldBeSelectable() {
         mPreferenceController.setIsEphemeral(false);
-        mPreferenceController.updateState(mDropDownPreference);
+        mPreferenceController.updateState(mListPreference);
 
-        assertThat(mDropDownPreference.isSelectable()).isTrue();
+        assertThat(mListPreference.isSelectable()).isTrue();
     }
 
     @Test
     public void testUpdateState_isEphemeralNetwork_shouldNotSelectable() {
         mPreferenceController.setIsEphemeral(true);
-        mPreferenceController.updateState(mDropDownPreference);
+        mPreferenceController.updateState(mListPreference);
 
-        assertThat(mDropDownPreference.isSelectable()).isFalse();
+        assertThat(mListPreference.isSelectable()).isFalse();
     }
 
     @Test
     public void testUpdateState_isNotPasspointNetwork_shouldBeSelectable() {
         mPreferenceController.setIsPasspoint(false);
-        mPreferenceController.updateState(mDropDownPreference);
+        mPreferenceController.updateState(mListPreference);
 
-        assertThat(mDropDownPreference.isSelectable()).isTrue();
+        assertThat(mListPreference.isSelectable()).isTrue();
     }
 
     @Test
     public void testUpdateState_isPasspointNetwork_shouldNotSelectable() {
         mPreferenceController.setIsPasspoint(true);
-        mPreferenceController.updateState(mDropDownPreference);
+        mPreferenceController.updateState(mListPreference);
 
-        assertThat(mDropDownPreference.isSelectable()).isFalse();
+        assertThat(mListPreference.isSelectable()).isFalse();
     }
 }

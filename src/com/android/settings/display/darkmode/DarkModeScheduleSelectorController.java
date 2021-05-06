@@ -20,7 +20,7 @@ import android.content.res.Configuration;
 import android.location.LocationManager;
 import android.os.PowerManager;
 
-import androidx.preference.DropDownPreference;
+import androidx.preference.ListPreference;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
 
@@ -36,7 +36,7 @@ public class DarkModeScheduleSelectorController extends BasePreferenceController
     private static final String TAG = DarkModeScheduleSelectorController.class.getSimpleName();
     private final UiModeManager mUiModeManager;
     private PowerManager mPowerManager;
-    private DropDownPreference mPreference;
+    private ListPreference mPreference;
     private LocationManager mLocationManager;
     private int mCurrentMode;
 

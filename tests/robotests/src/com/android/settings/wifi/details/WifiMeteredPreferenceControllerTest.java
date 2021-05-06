@@ -23,7 +23,7 @@ import static org.mockito.Mockito.spy;
 import android.content.Context;
 import android.net.wifi.WifiConfiguration;
 
-import androidx.preference.DropDownPreference;
+import androidx.preference.ListPreference;
 
 import com.android.settings.R;
 
@@ -46,7 +46,7 @@ public class WifiMeteredPreferenceControllerTest {
 
     private WifiMeteredPreferenceController mPreferenceController;
     private Context mContext;
-    private DropDownPreference mDropDownPreference;
+    private ListPreference mListPreference;
 
     @Before
     public void setUp() {
@@ -54,36 +54,36 @@ public class WifiMeteredPreferenceControllerTest {
 
         mPreferenceController = spy(
                 new WifiMeteredPreferenceController(mContext, mWifiConfiguration));
-        mDropDownPreference = new DropDownPreference(mContext);
-        mDropDownPreference.setEntries(R.array.wifi_metered_entries);
-        mDropDownPreference.setEntryValues(R.array.wifi_metered_values);
+        mListPreference = new ListPreference(mContext);
+        mListPreference.setEntries(R.array.wifi_metered_entries);
+        mListPreference.setEntryValues(R.array.wifi_metered_values);
     }
 
     @Test
     public void testUpdateState_wifiMetered_setCorrectValue() {
         doReturn(METERED_OVERRIDE_METERED).when(mPreferenceController).getMeteredOverride();
 
-        mPreferenceController.updateState(mDropDownPreference);
+        mPreferenceController.updateState(mListPreference);
 
-        assertThat(mDropDownPreference.getEntry()).isEqualTo("Treat as metered");
+        assertThat(mListPreference.getEntry()).isEqualTo("Treat as metered");
     }
 
     @Test
     public void testUpdateState_wifiNotMetered_setCorrectValue() {
         doReturn(METERED_OVERRIDE_NOT_METERED).when(mPreferenceController).getMeteredOverride();
 
-        mPreferenceController.updateState(mDropDownPreference);
+        mPreferenceController.updateState(mListPreference);
 
-        assertThat(mDropDownPreference.getEntry()).isEqualTo("Treat as unmetered");
+        assertThat(mListPreference.getEntry()).isEqualTo("Treat as unmetered");
     }
 
     @Test
     public void testUpdateState_wifiAuto_setCorrectValue() {
         doReturn(METERED_OVERRIDE_NONE).when(mPreferenceController).getMeteredOverride();
 
-        mPreferenceController.updateState(mDropDownPreference);
+        mPreferenceController.updateState(mListPreference);
 
-        assertThat(mDropDownPreference.getEntry()).isEqualTo("Detect automatically");
+        assertThat(mListPreference.getEntry()).isEqualTo("Detect automatically");
     }
 
     @Test
@@ -91,6 +91,6 @@ public class WifiMeteredPreferenceControllerTest {
         mPreferenceController = spy(new WifiMeteredPreferenceController(mContext, null));
 
         mPreferenceController.getMeteredOverride();
-        mPreferenceController.onPreferenceChange(mDropDownPreference, 1);
+        mPreferenceController.onPreferenceChange(mListPreference, 1);
     }
 }

@@ -25,7 +25,7 @@
         android:layout="@layout/dark_mode_layout"
         settings:allowDividerBelow="false"/>
 
-    <DropDownPreference
+    <ListPreference
         android:key="dark_ui_auto_mode"
         android:title="@string/dark_ui_auto_mode_title"
         android:summary="%s"

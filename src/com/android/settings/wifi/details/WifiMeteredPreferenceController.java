@@ -22,7 +22,7 @@ import android.net.wifi.WifiConfiguration;
 import android.net.wifi.WifiManager;
 
 import androidx.annotation.VisibleForTesting;
-import androidx.preference.DropDownPreference;
+import androidx.preference.ListPreference;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
 
@@ -53,7 +53,7 @@ public class WifiMeteredPreferenceController extends BasePreferenceController im
 
     @Override
     public void updateState(Preference preference) {
-        final DropDownPreference dropDownPreference = (DropDownPreference) preference;
+        final ListPreference dropDownPreference = (ListPreference) preference;
         final int meteredOverride = getMeteredOverride();
         dropDownPreference.setValue(Integer.toString(meteredOverride));
         updateSummary(dropDownPreference, meteredOverride);
@@ -72,7 +72,7 @@ public class WifiMeteredPreferenceController extends BasePreferenceController im
         mWifiManager.updateNetwork(mWifiConfiguration);
         // Stage the backup of the SettingsProvider package which backs this up
         BackupManager.dataChanged("com.android.providers.settings");
-        updateSummary((DropDownPreference) preference, getMeteredOverride());
+        updateSummary((ListPreference) preference, getMeteredOverride());
         return true;
     }
 
@@ -85,7 +85,7 @@ public class WifiMeteredPreferenceController extends BasePreferenceController im
         return WifiConfiguration.METERED_OVERRIDE_NONE;
     }
 
-    private void updateSummary(DropDownPreference preference, int meteredOverride) {
+    private void updateSummary(ListPreference preference, int meteredOverride) {
         preference.setSummary(preference.getEntries()[meteredOverride]);
     }
 
