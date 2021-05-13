@@ -63,7 +63,6 @@
     <com.android.settingslib.widget.FooterPreference
         android:key="dark_ui_footer"
         android:title="@string/dark_ui_text"
-        android:layout="@layout/dot_preference_footer"
         android:selectable="false"
         settings:searchable="false"
         settings:allowDividerAbove="true"/>
