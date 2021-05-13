@@ -128,6 +128,7 @@ public class WifiConnectionPreferenceController extends AbstractPreferenceContro
             mPreference.setKey(KEY);
             mPreference.refresh();
             mPreference.setOrder(order);
+            mPreference.setLayoutResource(R.layout.preference_access_point_card);
 
             mPreference.setOnPreferenceClickListener(pref -> {
                 Bundle args = new Bundle();

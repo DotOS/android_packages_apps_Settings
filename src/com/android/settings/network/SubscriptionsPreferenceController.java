@@ -184,6 +184,7 @@ public class SubscriptionsPreferenceController extends AbstractPreferenceControl
             pref.setSummary(getSummary(subId, isDefaultForData));
             setIcon(pref, subId, isDefaultForData);
             pref.setOrder(order++);
+            pref.setLayoutResource(R.layout.preference_access_point_card);
 
             pref.setOnPreferenceClickListener(clickedPref -> {
                 final Intent intent = new Intent(mContext, MobileNetworkActivity.class);
