@@ -24,7 +24,9 @@
         android:layout_margin="18dp"
         app:cardCornerRadius="?android:attr/dialogCornerRadius"
         app:cardBackgroundColor="@color/contextual_card_background"
-        app:cardElevation="2dp">
+        app:strokeColor="@color/contextual_card_stroke_color"
+        app:strokeWidth="@dimen/contextual_card_stroke_width"
+        app:cardElevation="0dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -34,9 +36,9 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginStart="20dp"
+                android:layout_marginStart="16dp"
                 android:layout_marginTop="20dp"
-                android:layout_marginEnd="20dp"
+                android:layout_marginEnd="16dp"
                 android:layout_marginBottom="20dp"
                 android:orientation="horizontal">
 
@@ -70,10 +72,10 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginStart="20dp"
+                android:layout_marginStart="16dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="20dp"
-                android:layout_marginBottom="20dp"
+                android:layout_marginBottom="16dp"
                 android:orientation="horizontal">
 
                 <TextView
@@ -102,21 +104,21 @@
     <com.google.android.material.card.MaterialCardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="18dp"
-        android:layout_marginEnd="18dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
         android:layout_marginBottom="18dp"
         app:cardBackgroundColor="?android:attr/colorPrimary"
         app:cardCornerRadius="?android:attr/dialogCornerRadius"
         app:cardElevation="0dp"
-        app:strokeColor="?android:attr/textColorSecondary"
-        app:strokeWidth="0.5dp">
+        app:strokeColor="@color/contextual_card_stroke_color"
+        app:strokeWidth="@dimen/contextual_card_stroke_width">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginStart="20dp"
+            android:layout_marginStart="16dp"
             android:layout_marginTop="18dp"
-            android:layout_marginEnd="24dp"
+            android:layout_marginEnd="16dp"
             android:layout_marginBottom="20dp"
             android:orientation="horizontal">
 
