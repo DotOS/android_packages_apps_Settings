@@ -16,4 +16,6 @@
 -->
 <resources>
     <color name="dot_pref_emergency_color">#B2CC0000</color>
+    <color name="settingsPanelColor">@*android:color/material_grey_900</color>
+    <color name="pillColor">#404040</color>
 </resources>

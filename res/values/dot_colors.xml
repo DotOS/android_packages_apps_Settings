@@ -19,4 +19,6 @@
     <color name="dot_pref_ripple">#1f000000</color>
 
     <color name="ic_launcher_background">#516B91</color>
+    <color name="settingsPanelColor">#FFFFFF</color>
+    <color name="pillColor">#9E9E9E</color>
 </resources>
