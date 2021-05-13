@@ -64,6 +64,7 @@
     <string name="storage_card_title">Storage</string>
     <string name="storage_card_info">Occupied</string>
     <string name="about_device_rom_title">DotOS %s</string>
+    <string name="about_device_nearby">The device name can and will be seen by the nearby devices.</string>
 
     <!-- BatteryInfo Cards -->
     <string name="binfo_stats">Stats</string>

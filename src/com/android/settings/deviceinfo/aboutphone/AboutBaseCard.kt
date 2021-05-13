@@ -8,14 +8,17 @@ import android.util.AttributeSet
 import android.view.MotionEvent
 import android.view.View
 import android.widget.RelativeLayout
-import androidx.cardview.widget.CardView
+
+import com.google.android.material.card.MaterialCardView
 
 import com.android.settings.R;
+
+import com.android.settingslib.Utils
 @SuppressLint("ClickableViewAccessibility")
-open class AboutBaseCard : CardView {
+open class AboutBaseCard : MaterialCardView {
     protected var layout: RelativeLayout
     protected var defaultPadding = 38
-    protected var defaultRadius = 48
+    var defaultRadius = 0
 
     constructor(context: Context) : super(context)
 
@@ -24,14 +27,18 @@ open class AboutBaseCard : CardView {
     constructor(context: Context, attrs: AttributeSet?, defStyleAttr: Int) : super(context, attrs, defStyleAttr)
 
     init {
+        defaultRadius = resources.getDimensionPixelSize(R.dimen.contextual_card_corner_radius)
         layoutParams = LayoutParams(resources.getDimensionPixelSize(R.dimen.storage_card_min_width), resources.getDimensionPixelSize(R.dimen.storage_card_min_height))
         layout = RelativeLayout(context)
         layout.layoutParams = RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.MATCH_PARENT, RelativeLayout.LayoutParams.MATCH_PARENT)
         layout.setPadding(defaultPadding, (defaultPadding * 1.5).toInt(), defaultPadding, (defaultPadding * 1.5).toInt())
-        layout.setBackgroundColor(resources.getColor(R.color.search_bar_background, null))
+        layout.setBackgroundColor(resources.getColor(R.color.contextual_card_background, context.theme))
         addView(layout)
         radius = defaultRadius.toFloat()
-        setCardBackgroundColor(resources.getColor(R.color.search_bar_background, null))
+        setCardBackgroundColor(resources.getColor(R.color.contextual_card_background, context.theme))
+        cardElevation = 0f
+        strokeColor = resources.getColor(R.color.contextual_card_stroke_color, context.theme)
+        strokeWidth = resources.getDimensionPixelSize(R.dimen.contextual_card_stroke_width)
         setTouchListener(layout)
     }
 

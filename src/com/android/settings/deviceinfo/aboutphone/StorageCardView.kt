@@ -2,6 +2,7 @@ package com.android.settings.deviceinfo.aboutphone
 
 import android.app.usage.StorageStatsManager
 import android.content.Context
+import android.content.Intent
 import android.graphics.Canvas
 import android.graphics.Paint
 import android.graphics.Path
@@ -9,6 +10,7 @@ import android.os.Parcel
 import android.os.Parcelable
 import android.os.storage.StorageManager
 import android.os.storage.VolumeInfo
+import android.provider.Settings
 import android.text.format.Formatter
 import android.util.AttributeSet
 import android.util.Log
@@ -39,6 +41,7 @@ class StorageCardView(context: Context, attrs: AttributeSet?) : AboutBaseCard(co
     private var totalBytes: Long = 0
     private var mUsedPercent = -1
     private var waveView: WaveView
+    private var anim: ProgressBarAnimation? = null
 
     init {
         layoutParams = LayoutParams(resources.getDimensionPixelSize(R.dimen.storage_card_min_width), resources.getDimensionPixelSize(R.dimen.storage_card_min_height))
@@ -61,6 +64,9 @@ class StorageCardView(context: Context, attrs: AttributeSet?) : AboutBaseCard(co
         addView(layout)
         setTouchListener(layout)
         radius = defaultRadius.toFloat()
+        layout.setOnClickListener {
+            context.startActivity(Intent(Settings.ACTION_INTERNAL_STORAGE_SETTINGS))
+        }
     }
 
     private fun setupStorageInfo(context: Context?) {
@@ -126,9 +132,9 @@ class StorageCardView(context: Context, attrs: AttributeSet?) : AboutBaseCard(co
                     waveView.setLowStorage(freeBytes < storageManager.getStorageLowBytes(path))
                 }
             }
-            val anim = ProgressBarAnimation(waveView, 100f, mUsedPercent.toFloat())
-            anim.duration = 1250
-            waveView.startAnimation(anim)
+            anim = ProgressBarAnimation(waveView, 100f, mUsedPercent.toFloat())
+            anim!!.duration = 1250
+            waveView.startAnimation(anim!!)
         } else {
             // Just for the sake of layout preview
             storageInfoUsed.text = "127 GB"
@@ -285,7 +291,7 @@ class StorageCardView(context: Context, attrs: AttributeSet?) : AboutBaseCard(co
             mWaveHz = getWaveHz(waveHz)
             mBlowOffset = mWaveHeight * 0.4f
             val params = ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,
-                    mWaveHeight * 2)
+                mWaveHeight * 2)
             layoutParams = params
         }
 

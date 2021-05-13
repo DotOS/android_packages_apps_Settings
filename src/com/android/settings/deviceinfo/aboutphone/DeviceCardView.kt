@@ -1,6 +1,5 @@
 package com.android.settings.deviceinfo.aboutphone
 
-import android.app.AlertDialog
 import android.content.Context
 import android.os.Build
 import android.provider.Settings
@@ -10,6 +9,9 @@ import android.widget.EditText
 import android.widget.LinearLayout
 import android.widget.RelativeLayout
 import android.widget.TextView
+import android.view.View
+
+import androidx.appcompat.app.AlertDialog
 import com.android.settings.Utils
 
 import com.android.settings.R;
@@ -55,27 +57,24 @@ class DeviceCardView : AboutBaseCard {
         linearLayout.setBackgroundColor(resources.getColor(R.color.search_bar_background, null))
         layout.addView(linearLayout)
         a.recycle()
-        layout.setOnClickListener { 
+        layout.setOnClickListener {
+            val alert: AlertDialog.Builder = AlertDialog.Builder(mContext, R.style.Theme_AlertDialog)
+            val dialogView: View = View.inflate(mContext, R.layout.dot_device_name_dialog, null)
+            val mEditText: EditText = dialogView.findViewById(R.id.device_edit_text)
+            alert.setTitle(mContext.getString(R.string.my_device_info_device_name_preference_title))
+            alert.setView(dialogView)
+            alert.setPositiveButton(android.R.string.ok) { dialog, _ ->
+                listener?.invoke(mEditText.text.toString())
+                dialog.dismiss()
+            }
+            alert.setNegativeButton(android.R.string.cancel) { dialog, _ -> dialog.dismiss() }
             //update device name before showing dialog
             mDeviceName = Settings.Global.getString(context.contentResolver,
                 Settings.Global.DEVICE_NAME)
             if (mDeviceName == null) {
                 mDeviceName = Build.MODEL
             }
-            val alert: AlertDialog.Builder = AlertDialog.Builder(mContext)
-            val mEditText = EditText(mContext)
             mEditText.setText(mDeviceName)
-            alert.setTitle(mContext.getString(R.string.my_device_info_device_name_preference_title))
-            alert.setView(mEditText)
-            alert.setPositiveButton(
-                android.R.string.ok
-            ) { dialog, _ ->
-                listener?.invoke(mEditText.text.toString())
-                dialog.dismiss()
-            }
-            alert.setNegativeButton(
-                android.R.string.cancel
-            ) { dialog, _ -> dialog.dismiss() }
             alert.show() 
         }
     }
