@@ -20,7 +20,7 @@
 
     <dimen name="dot_settings_bar_height">190dp</dimen>
 
-    <dimen name="dot_pref_radius">16dp</dimen>
+    <dimen name="dot_pref_radius">@*android:dimen/config_dialogCornerRadius</dimen>
 
     <dimen name="cardStrokeWidth">3dp</dimen>
 </resources> 
