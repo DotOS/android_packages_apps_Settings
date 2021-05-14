@@ -20,6 +20,7 @@ import static android.content.Context.SYSTEM_UPDATE_SERVICE;
 
 import android.content.Context;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.PersistableBundle;
@@ -46,6 +47,10 @@ public class SystemUpdatePreferenceController extends BasePreferenceController {
 
     private static final String KEY_SYSTEM_UPDATE_SETTINGS = "system_update_settings";
 
+    private static final String OTA_PACKAGE = "com.dot.updater";
+    private static final String DOT_VERSION = "ro.modversion";
+    private static final String DOT_TYPE = "ro.dot.releasetype";
+
     private final UserManager mUm;
     private final SystemUpdateManager mUpdateManager;
 
@@ -57,8 +62,15 @@ public class SystemUpdatePreferenceController extends BasePreferenceController {
 
     @Override
     public int getAvailabilityStatus() {
+        boolean isSupportedType = SystemProperties.get(DOT_TYPE).equalsIgnoreCase("OFFICIAL") || 
+                                  SystemProperties.get(DOT_TYPE).equalsIgnoreCase("GAPPS");
+        try {
+            mContext.getPackageManager().getPackageInfo(OTA_PACKAGE, PackageManager.GET_ACTIVITIES);
+        } catch (Exception e) {
+            return UNSUPPORTED_ON_DEVICE;
+        }
         return mContext.getResources().getBoolean(R.bool.config_show_system_update_settings)
-                && mUm.isAdminUser()
+                && mUm.isAdminUser() && isSupportedType
                 ? AVAILABLE
                 : UNSUPPORTED_ON_DEVICE;
     }
@@ -90,7 +102,7 @@ public class SystemUpdatePreferenceController extends BasePreferenceController {
     @Override
     public CharSequence getSummary() {
         CharSequence summary = mContext.getString(R.string.android_version_summary,
-                SystemProperties.get("ro.modversion"));
+                SystemProperties.get(DOT_VERSION));
         final FutureTask<Bundle> bundleFutureTask = new FutureTask<>(
                 // Put the API call in a future to avoid StrictMode violation.
                 () -> mUpdateManager.retrieveSystemUpdateInfo());
@@ -113,10 +125,7 @@ public class SystemUpdatePreferenceController extends BasePreferenceController {
                 Log.d(TAG, "Update statue unknown");
                 // fall through to next branch
             case SystemUpdateManager.STATUS_IDLE:
-                //final String version = updateInfo.getString(SystemUpdateManager.KEY_TITLE);
-                //if (!TextUtils.isEmpty(version)) {
                 summary = mContext.getString(R.string.android_version_summary, SystemProperties.get("ro.modversion"));
-                //}
                 break;
         }
         return summary;
