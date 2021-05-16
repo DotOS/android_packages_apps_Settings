@@ -133,7 +133,7 @@ class StorageCardView(context: Context, attrs: AttributeSet?) : AboutBaseCard(co
                 }
             }
             anim = ProgressBarAnimation(waveView, 100f, mUsedPercent.toFloat())
-            anim!!.duration = 1250
+            anim!!.duration = 600
             waveView.startAnimation(anim!!)
         } else {
             // Just for the sake of layout preview
