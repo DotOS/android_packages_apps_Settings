@@ -20,68 +20,80 @@
     android:id="@+id/suggestion_card"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    style="@style/ContextualCardStyle">
+    style="@style/SuggestionCardStyle">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:minHeight="112dp"
-        android:paddingBottom="8dp"
+        android:minHeight="92dp"
         android:orientation="vertical">
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:minHeight="92dp">
 
             <ImageView
                 android:id="@android:id/icon"
-                android:layout_width="@dimen/contextual_card_icon_size"
-                android:layout_height="@dimen/contextual_card_icon_size"
                 style="@style/SuggestionCardIcon"
-                android:layout_marginTop="16dp"
-                android:layout_marginBottom="6dp"/>
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="8dp"
+                android:layout_centerVertical="true" />
 
             <FrameLayout
                 android:id="@+id/close_button"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
                 android:layout_alignParentEnd="true"
-                android:paddingTop="8dp"
-                android:paddingEnd="8dp"
+                android:contentDescription="@string/suggestion_button_close"
                 android:orientation="horizontal"
-                android:contentDescription="@string/suggestion_button_close">
+                android:paddingTop="16dp"
+                android:paddingEnd="16dp">
+
                 <ImageView
                     android:layout_width="18dp"
                     android:layout_height="18dp"
                     android:layout_gravity="end|top"
                     android:alpha="0.54"
-                    android:src="@drawable/ic_suggestion_close_button"/>
+                    android:src="@drawable/ic_suggestion_close_button" />
             </FrameLayout>
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="8dp"
+                android:layout_toStartOf="@+id/close_button"
+                android:layout_toEndOf="@android:id/icon"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@android:id/title"
+                    style="@style/SuggestionCardText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fadingEdge="horizontal"
+                    android:singleLine="true"
+                    android:textAppearance="?android:attr/textAppearanceListItem"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@android:id/summary"
+                    style="@style/SuggestionCardText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:maxLines="2"
+                    android:fadingEdge="horizontal"
+                    android:textAppearance="?android:attr/textAppearanceListItemSecondary"
+                    android:textColor="?android:attr/textColorSecondary"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
         </RelativeLayout>
-
-        <TextView
-            android:id="@android:id/title"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            style="@style/SuggestionCardText"
-            android:layout_marginStart="12dp"
-            android:layout_marginEnd="12dp"
-            android:singleLine="true"
-            android:textAppearance="@style/TextAppearance.SuggestionTitle"
-            android:fadingEdge="horizontal"/>
-
-        <TextView
-            android:id="@android:id/summary"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            style="@style/SuggestionCardText"
-            android:layout_marginStart="12dp"
-            android:layout_marginEnd="12dp"
-            android:singleLine="true"
-            android:textAppearance="@style/TextAppearance.SuggestionSummary"/>
-
     </LinearLayout>
 
 </com.google.android.material.card.MaterialCardView>
