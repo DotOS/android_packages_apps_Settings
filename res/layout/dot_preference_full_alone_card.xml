@@ -15,20 +15,15 @@
   -->
 
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    style="@style/DotPreferenceFullCard"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
-    <FrameLayout
-        android:id="@+id/container"
+    <include
+        layout="@layout/dot_preference"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        style="@style/DotPreferenceFullCard">
+        android:layout_marginStart="-16dp" />
 
-        <include
-            layout="@layout/dot_preference"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="-16dp" />
-
-    </FrameLayout>
 </FrameLayout>

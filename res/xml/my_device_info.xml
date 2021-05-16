@@ -174,7 +174,6 @@
         android:key="wifi_ip_address"
         android:layout="@layout/dot_preference_middle_card"
         android:order="24"
-        android:selectable="false"
         android:summary="@string/summary_placeholder"
         android:title="@string/wifi_ip_address"
         settings:allowDividerAbove="true"
@@ -195,7 +194,6 @@
         android:key="wifi_mac_address"
         android:layout="@layout/dot_preference_middle_card"
         android:order="26"
-        android:selectable="false"
         android:summary="@string/summary_placeholder"
         android:title="@string/status_device_wifi_mac_address"
         settings:enableCopying="true" />
@@ -205,7 +203,6 @@
         android:key="bt_address"
         android:layout="@layout/dot_preference_bottom_card"
         android:order="27"
-        android:selectable="false"
         android:summary="@string/summary_placeholder"
         android:title="@string/status_bt_address"
         settings:enableCopying="true" />
