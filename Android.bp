@@ -62,6 +62,7 @@ android_library {
         "kotlinx-coroutines-android",
         "kotlinx-coroutines-core",
         "faceunlock_framework",
+        "VendorSupport-preference",
     ],
 
     libs: [
