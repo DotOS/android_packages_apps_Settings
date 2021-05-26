@@ -22,10 +22,17 @@
     android:title="Settings">
 
     <Preference
+        android:order="-200"
+        android:selectable="false"
+        android:title="@string/top_level_connectivity"
+        settings:shouldDisableView="false"
+        settings:enabled="false" />
+
+    <Preference
         android:fragment="com.android.settings.network.NetworkDashboardFragment"
         android:icon="@drawable/ic_homepage_network"
         android:key="top_level_network"
-        android:order="-120"
+        android:order="-190"
         android:summary="@string/summary_placeholder"
         android:title="@string/network_dashboard_title"
         settings:layout="@layout/dot_preference_dashboard"
@@ -35,10 +42,30 @@
         android:fragment="com.android.settings.connecteddevice.ConnectedDeviceDashboardFragment"
         android:icon="@drawable/ic_homepage_connected_device"
         android:key="top_level_connected_devices"
-        android:order="-110"
+        android:order="-180"
         android:summary="@string/summary_placeholder"
         android:title="@string/connected_devices_dashboard_title"
         settings:controller="com.android.settings.connecteddevice.TopLevelConnectedDevicesPreferenceController" />
+
+    <Preference
+        android:order="-170"
+        android:selectable="false"
+        android:title="@string/top_level_personalize"
+        settings:shouldDisableView="false"
+        settings:enabled="false" />
+
+    <Preference
+        android:icon="@drawable/ic_homepage_dot"
+        android:key="top_level_customizer"
+        android:order="-160"
+        android:summary="@string/dot_customizer_dashboard_summary"
+        android:title="@string/dot_customizer_dashboard_title"
+        settings:layout="@layout/dot_preference_dashboard">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.android.settings.dotextras.BaseActivity"
+            android:targetPackage="com.android.settings.dotextras" />
+    </Preference>
 
     <Preference
         android:fragment="com.android.settings.DisplaySettings"
@@ -50,79 +77,51 @@
         settings:controller="com.android.settings.display.TopLevelDisplayPreferenceController" />
 
     <Preference
-        android:fragment="com.android.settings.fuelgauge.PowerUsageSummary"
-        android:icon="@drawable/ic_homepage_battery"
-        android:key="top_level_battery"
-        android:order="-108"
-        android:summary="@string/summary_placeholder"
-        android:title="@string/power_usage_summary_title"
-        settings:controller="com.android.settings.fuelgauge.TopLevelBatteryPreferenceController" />
-
-    <Preference
         android:fragment="com.android.settings.notification.SoundSettings"
         android:icon="@drawable/ic_homepage_sound"
         android:key="top_level_sound"
-        android:order="-107"
+        android:order="-108"
         android:summary="@string/sound_dashboard_summary"
         android:title="@string/sound_settings"
         settings:layout="@layout/dot_preference_dashboard" />
 
     <Preference
-        android:order="-100"
-        android:selectable="false"
-        settings:shouldDisableView="false"
-        settings:enabled="false" />
-
-    <Preference
-        android:icon="@drawable/ic_homepage_dot"
-        android:key="top_level_customizer"
-        android:order="-99"
-        android:summary="@string/dot_customizer_dashboard_summary"
-        android:title="@string/dot_customizer_dashboard_title"
-        settings:layout="@layout/dot_preference_dashboard">
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:targetClass="com.android.settings.dotextras.BaseActivity"
-            android:targetPackage="com.android.settings.dotextras" />
-    </Preference>
+        android:fragment="com.android.settings.fuelgauge.PowerUsageSummary"
+        android:icon="@drawable/ic_homepage_battery"
+        android:key="top_level_battery"
+        android:order="-107"
+        android:summary="@string/summary_placeholder"
+        android:title="@string/power_usage_summary_title"
+        settings:controller="com.android.settings.fuelgauge.TopLevelBatteryPreferenceController" />
 
     <Preference
         android:fragment="com.android.settings.applications.AppAndNotificationDashboardFragment"
         android:icon="@drawable/ic_homepage_apps"
         android:key="top_level_apps_and_notifs"
-        android:order="-98"
+        android:order="-106"
         android:summary="@string/app_and_notification_dashboard_summary"
         android:title="@string/app_and_notification_dashboard_title" />
+
+    <Preference
+        android:order="-100"
+        android:selectable="false"
+        android:title="@string/top_level_security"
+        settings:shouldDisableView="false"
+        settings:enabled="false" />
 
     <Preference
         android:fragment="com.android.settings.privacy.PrivacyDashboardFragment"
         android:icon="@drawable/ic_homepage_privacy"
         android:key="top_level_privacy"
-        android:order="-97"
+        android:order="-99"
         android:summary="@string/privacy_dashboard_summary"
         android:title="@string/privacy_dashboard_title" />
-
-    <Preference
-        android:fragment="com.android.settings.deviceinfo.StorageSettings"
-        android:icon="@drawable/ic_homepage_storage"
-        android:key="top_level_storage"
-        android:order="-96"
-        android:summary="@string/summary_placeholder"
-        android:title="@string/storage_settings"
-        settings:layout="@layout/dot_preference_dashboard"
-        settings:controller="com.android.settings.deviceinfo.TopLevelStoragePreferenceController" />
-
-    <Preference
-        android:order="-90"
-        android:selectable="false"
-        settings:shouldDisableView="false"
-        settings:enabled="false" />
 
     <Preference
         android:fragment="com.android.settings.security.SecuritySettings"
         android:icon="@drawable/ic_homepage_security"
         android:key="top_level_security"
-        android:order="-81"
+        android:order="-98"
         android:summary="@string/summary_placeholder"
         android:title="@string/security_settings_title"
         settings:layout="@layout/dot_preference_dashboard"
@@ -132,7 +131,7 @@
         android:fragment="com.android.settings.location.LocationSettings"
         android:icon="@drawable/ic_homepage_location"
         android:key="top_level_location"
-        android:order="-80"
+        android:order="-97"
         android:summary="@string/location_settings_loading_app_permission_stats"
         android:title="@string/location_settings_title"
         settings:controller="com.android.settings.location.TopLevelLocationPreferenceController" />
@@ -141,15 +140,16 @@
         android:fragment="com.android.settings.accounts.AccountDashboardFragment"
         android:icon="@drawable/ic_homepage_accounts"
         android:key="top_level_accounts"
-        android:order="-79"
+        android:order="-96"
         android:summary="@string/summary_placeholder"
         android:title="@string/account_dashboard_title"
         settings:layout="@layout/dot_preference_dashboard"
         settings:controller="com.android.settings.accounts.TopLevelAccountEntryPreferenceController" />
 
     <Preference
-        android:order="-70"
+        android:order="-90"
         android:selectable="false"
+        android:title="@string/top_level_others"
         settings:shouldDisableView="false"
         settings:enabled="false" />
 
@@ -162,6 +162,16 @@
         android:title="@string/accessibility_settings"
         settings:layout="@layout/dot_preference_dashboard"
         settings:controller="com.android.settings.accessibility.TopLevelAccessibilityPreferenceController" />
+
+    <Preference
+        android:fragment="com.android.settings.deviceinfo.StorageSettings"
+        android:icon="@drawable/ic_homepage_storage"
+        android:key="top_level_storage"
+        android:order="-11"
+        android:summary="@string/summary_placeholder"
+        android:title="@string/storage_settings"
+        settings:layout="@layout/dot_preference_dashboard"
+        settings:controller="com.android.settings.deviceinfo.TopLevelStoragePreferenceController" />
 
     <Preference
         android:fragment="com.android.settings.system.SystemDashboardFragment"
