@@ -20,6 +20,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.widget.TextView;
 
 import androidx.annotation.VisibleForTesting;
 import androidx.preference.PreferenceFragmentCompat;
@@ -42,7 +43,10 @@ import com.android.settingslib.widget.LayoutPreference;
  * Controller that update the battery header view for dot BatteryMeterView
  */
 public class BatteryHeaderPreferenceController extends BasePreferenceController
-        implements PreferenceControllerMixin, LifecycleObserver, OnStart {
+        implements PreferenceControllerMixin, LifecycleObserver, OnStart,
+        BatteryPreferenceController {
+    @VisibleForTesting
+    TextView mSummary1;
     @VisibleForTesting
     static final String KEY_BATTERY_HEADER = "battery_header";
     private static final String ANNOTATION_URL = "url";
@@ -86,5 +90,22 @@ public class BatteryHeaderPreferenceController extends BasePreferenceController
                 mBatteryLayoutPref.findViewById(R.id.battery_entity_header))
                 .setRecyclerView(mHost.getListView(), mLifecycle)
                 .styleActionBar(mActivity);
+    }
+
+    private CharSequence generateLabel(BatteryInfo info) {
+        if (BatteryUtils.isBatteryDefenderOn(info)) {
+            return null;
+        } else if (info.remainingLabel == null) {
+            return info.statusLabel;
+        } else {
+            return info.remainingLabel;
+        }
+    }
+
+    /**
+     * Callback which receives text for the summary line.
+     */
+    public void updateBatteryStatus(String label, BatteryInfo info) {
+        mSummary1.setText(label != null ? label : generateLabel(info));
     }
 }
