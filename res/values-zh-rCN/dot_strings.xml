@@ -56,22 +56,22 @@
     <string name="unlock_scramble_pin_layout_title">打乱布局</string>
     <string name="unlock_scramble_pin_layout_summary">解锁手机时打乱PIN布局</string>
     <string name="statusbar_tuner_title">Statusbar tuner</string>
-    <string name="security_settings_face_settings_footer_custom">Face unlock lets you unlock your device by looking at it. Keep in mind:\n\n● Your device may unlock any time you look at it.\n● Your device can be unlocked by someone else if they hold it in front of your face while your eyes are open.\n● Your device may also be unlocked by someone who looks a lot like you, such as a child or identical sibling.</string>
-    <string name="security_settings_face_settings_remove_dialog_details_custom">Data recorded by face unlock will be permanently and securely deleted. After removal, you will need your PIN, pattern, or password to unlock your phone.</string>
-    <string name="security_settings_face_unlock_redo_face_scan_summary">Remove existing face scan and create a new scan</string>
-    <string name="security_settings_face_unlock_redo_face_scan_title">Redo face scan</string>
-    <string name="security_dashboard_summary_face_and_fingerprint">Screen lock, fingerprint, face unlock</string>
-    <string name="face_redo_confirm_btn">Redo</string>
-    <string name="face_redo_warning_msg">Do you want to remove the existing face scan and create a new one?</string>
-    <string name="live_display_summary">Optimize your screen based on time of day and ambient conditions to improve readability and reduce eyestrain</string>
-    <string name="live_display_mode">Display mode</string>
-    <string name="live_display_color_temperature_title">Color temperature</string>
+    <string name="security_settings_face_settings_footer_custom">通过人脸识别对设备进行解锁:\n\n● 您的设备可能会在您看到它的时候解锁.\n● 其他人可以在您睁开眼睛时将其放在您的面前解锁.\n● 您的设备也可能被与你相貌相似的人进行解锁.</string>
+    <string name="security_settings_face_settings_remove_dialog_details_custom">人脸解锁记录的数据将被永久删除，删除后将需要您的PIN码，图案或密码来解锁.</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">删除现有的面部数据并重新扫描面部数据</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">重新录入人脸数据</string>
+    <string name="security_dashboard_summary_face_and_fingerprint">锁定屏幕, 指纹, 人脸解锁</string>
+    <string name="face_redo_confirm_btn">重做</string>
+    <string name="face_redo_warning_msg">您要删除现有的面部扫描并创建新的面部扫描</string>
+    <string name="live_display_summary">根据一天中的时间和环境条件优化您的屏幕，以提高可读性并减少眼睛疲劳</string>
+    <string name="live_display_mode">显示模式</string>
+    <string name="live_display_color_temperature_title">色温</string>
     <string name="live_display_color_temperature_summary">Day: <xliff:g id="day_temperature">%1$d</xliff:g>K  Night: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
     <string name="live_display_day">Day</string>
     <string name="live_display_night">Night</string>
-    <string name="live_display_outdoor_mode_title">Automatic outdoor mode</string>
-    <string name="live_display_outdoor_mode_summary">Increase brightness and saturation automatically under bright sunlight</string>
+    <string name="live_display_outdoor_mode_title">自动室外模式</string>
+    <string name="live_display_outdoor_mode_summary">在强光下自动增加亮度和饱和度</string>
     <string name="live_display_anti_flicker_title">Anti flicker</string>
     <string name="live_display_anti_flicker_summary">Prevent extensive flickering and reduce eye strain in low light conditions. It might degrade color accuracy and affect the way some items are displayed.</string>
     <string name="live_display_low_power_title">Reduce power consumption</string>
