@@ -73,7 +73,6 @@ public class FaceSettings extends DashboardFragment {
     private FaceSettingsAttentionPreferenceController mAttentionController;
     private FaceSettingsRemoveButtonPreferenceController mRemoveController;
     private FaceSettingsEnrollButtonPreferenceController mEnrollController;
-    private FaceSettingsLockscreenBypassPreferenceController mLockscreenController;
     private FaceSettingsRedoPreferenceController mRedoController;
     private FaceSettingsSwipePreferenceController mSwipeController;
     private List<AbstractPreferenceController> mControllers;
@@ -171,11 +170,9 @@ public class FaceSettings extends DashboardFragment {
         Preference appPref = findPreference(FaceSettingsAppPreferenceController.KEY);
         Preference attentionPref = findPreference(FaceSettingsAttentionPreferenceController.KEY);
         Preference confirmPref = findPreference(FaceSettingsConfirmPreferenceController.KEY);
-        Preference bypassPref =
-                findPreference(mLockscreenController.getPreferenceKey());
         Preference swipePref = findPreference(mSwipeController.getPreferenceKey());
         mTogglePreferences = new ArrayList<>(
-                Arrays.asList(keyguardPref, appPref, attentionPref, confirmPref, bypassPref));
+                Arrays.asList(keyguardPref, appPref, attentionPref, confirmPref));
 
         mRemoveButton = findPreference(FaceSettingsRemoveButtonPreferenceController.KEY);
         mEnrollButton = findPreference(FaceSettingsEnrollButtonPreferenceController.KEY);
@@ -197,7 +194,6 @@ public class FaceSettings extends DashboardFragment {
         // Don't show keyguard controller for work profile settings.
         if (mUserManager.isManagedProfile(mUserId)) {
             removePreference(FaceSettingsKeyguardPreferenceController.KEY);
-            removePreference(mLockscreenController.getPreferenceKey());
             removePreference(mSwipeController.getPreferenceKey());
         }
 
@@ -210,8 +206,6 @@ public class FaceSettings extends DashboardFragment {
     public void onAttach(Context context) {
         super.onAttach(context);
 
-        mLockscreenController = use(FaceSettingsLockscreenBypassPreferenceController.class);
-        mLockscreenController.setUserId(mUserId);
         mSwipeController = use(FaceSettingsSwipePreferenceController.class);
         mSwipeController.setUserId(mUserId);
     }
