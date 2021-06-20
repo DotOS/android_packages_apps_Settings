@@ -452,7 +452,7 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
 
     @VisibleForTesting
     void detachBatteryHeaderAnimationIfNecessary() {
-        if (animator.isRunning()) {
+        if (animator != null && animator.isRunning()) {
             animator.pause();
         }
     }
