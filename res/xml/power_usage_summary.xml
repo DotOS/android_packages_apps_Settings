@@ -49,20 +49,15 @@
         android:layout="@layout/dot_battery_opt" />
 
     <com.android.settings.widget.CardPreference
-        android:fragment="com.android.settings.fuelgauge.batterysaver.BatterySaverSettings"
-        android:key="battery_saver_summary"
-        android:title="@string/battery_saver"
+        android:key="dot_battery_manager"
+        android:title="@string/dot_battery_manager"
         android:icon="@drawable/ic_dot_battery_saver"
         android:layout="@layout/card_preference_layout_bm"
-        settings:controller="com.android.settings.fuelgauge.BatterySaverController" />
-
-    <com.android.settings.widget.CardPreference
-        android:fragment="com.android.settings.fuelgauge.SmartBatterySettings"
-        android:key="smart_battery_manager"
-        android:title="@string/smart_battery_manager_title"
-        android:icon="@drawable/ic_dot_battery_manager"
-        android:layout="@layout/card_preference_layout_bm"
-        settings:controller="com.android.settings.fuelgauge.batterytip.BatteryManagerPreferenceController" />
+        settings:controller="com.android.settings.fuelgauge.batterytip.DotBatteryManagerPreferenceController">
+        <intent android:action="android.intent.action.MAIN"
+            android:targetPackage="com.dot.lifesaver"
+            android:targetClass="com.dot.lifesaver.activities.Launcher" />
+    </com.android.settings.widget.CardPreference>
 
     <SwitchPreference
         android:key="battery_percentage"

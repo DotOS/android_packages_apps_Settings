@@ -221,4 +221,7 @@
     <string name="face_unlock_method_default">When the screen is turned on</string>
     <string name="face_unlock_method_swipe">When swiping on lock screen</string>
 
+    <string name="dot_battery_manager">Battery Manager</string>
+    <string name="dot_battery_manager_summary1">• Battery Saver : </string>
+    <string name="dot_battery_manager_summary2">\n• Adaptive Battery : </string>
 </resources>
