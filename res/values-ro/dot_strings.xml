@@ -15,84 +15,84 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="dot_version">dotOS version</string>
-    <string name="dot_version_default">Unknown</string>
-    <string name="keywords_dot_version">dotOS version, dot version</string>
-    <string name="about_device_name">Device Codename</string>
-    <string name="build_date">Build date</string>
+    <string name="dot_version">versiune DotOS</string>
+    <string name="dot_version_default">Necunoscut</string>
+    <string name="keywords_dot_version">versiune dotOS,</string>
+    <string name="about_device_name">Nume dispozitiv</string>
+    <string name="build_date">Dată de compilare</string>
     <string name="build_date_default">2015-01-01-0000</string>
-    <string name="keywords_build_date">build date, build info</string>
-    <string name="app_play_store">Google Play</string>
-    <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
-    <string name="platform_revision">Platform</string>
+    <string name="keywords_build_date">data compilării, informație despre compilare</string>
+    <string name="app_play_store">Magazin Play</string>
+    <string name="packagename_text"><xliff:g id="package_name">%1$s </xliff:g></string>
+    <string name="platform_revision">Platformă</string>
     <string name="total_ram">Total RAM</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Locate the fingerprint sensor on the front of your phone.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Locate the fingerprint sensor on the left side of your phone.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Locate the fingerprint sensor on the right side of your phone.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Locate the fingerprint sensor on the front of your device.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Locate the fingerprint sensor on the left side of your device.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">Locate the fingerprint sensor on the right side of your device.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Locate the fingerprint sensor on the front of your tablet.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Locate the fingerprint sensor on the left side of your tablet.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Locate the fingerprint sensor on the right side of your tablet.</string>
-    <string name="selinux_status">SELinux status</string>
-    <string name="selinux_status_disabled">Disabled</string>
-    <string name="selinux_status_permissive">Permissive</string>
-    <string name="selinux_status_enforcing">Enforcing</string>
-    <string name="storage_card_title">Storage</string>
-    <string name="storage_card_info">Occupied</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Găsiți senzorul de amprentă pe partea din faţă a telefonului.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Găsiți senzorul de amprentă în partea stângă a telefonului.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Găsiți senzorul de amprentă pe partea dreaptă a telefonului.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Găsiți senzorul de amprentă pe partea din faţă a dispozitivului.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Găsiți senzorul de amprentă pe partea stângă a dispozitivului.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">Găsiți senzorul de amprentă pe partea dreaptă a dispozitivului.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Găsiți senzorul de amprentă pe partea din faţă a tabletei.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Găsiți senzorul de amprentă pe partea stângă a tabletei.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Găsiți senzorul de amprentă pe partea dreaptă a tabletei.</string>
+    <string name="selinux_status">Stare SELinux</string>
+    <string name="selinux_status_disabled">Dezactivat</string>
+    <string name="selinux_status_permissive">Permisiv</string>
+    <string name="selinux_status_enforcing">Obligatoriu</string>
+    <string name="storage_card_title">Depozitare</string>
+    <string name="storage_card_info">Ocupat</string>
     <string name="about_device_rom_title">DotOS %s</string>
-    <string name="about_device_nearby">The device name can and will be seen by the nearby devices.</string>
-    <string name="binfo_stats">Stats</string>
-    <string name="dot_customizer_dashboard_title">Customization</string>
-    <string name="dot_customizer_dashboard_summary">Personalize your experience with a drop of paint</string>
-    <string name="dot_about_device_info">Legal &amp; Information</string>
-    <string name="dot_about_device_private">Private Details</string>
-    <string name="dot_lightMode">Light Theme</string>
-    <string name="dot_darkMode">Dark Theme</string>
-    <string name="cellular_data_title">Mobile data</string>
-    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
-    <string name="mobile_data_settings_summary_unavailable">No SIM card available</string>
-    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
-    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
-    <string name="statusbar_tuner_title">Statusbar tuner</string>
-    <string name="security_settings_face_settings_footer_custom">Face unlock lets you unlock your device by looking at it. Keep in mind:\n\n● Your device may unlock any time you look at it.\n● Your device can be unlocked by someone else if they hold it in front of your face while your eyes are open.\n● Your device may also be unlocked by someone who looks a lot like you, such as a child or identical sibling.</string>
-    <string name="security_settings_face_settings_remove_dialog_details_custom">Data recorded by face unlock will be permanently and securely deleted. After removal, you will need your PIN, pattern, or password to unlock your phone.</string>
-    <string name="security_settings_face_unlock_redo_face_scan_summary">Remove existing face scan and create a new scan</string>
-    <string name="security_settings_face_unlock_redo_face_scan_title">Redo face scan</string>
-    <string name="security_dashboard_summary_face_and_fingerprint">Screen lock, fingerprint, face unlock</string>
-    <string name="face_redo_confirm_btn">Redo</string>
-    <string name="face_redo_warning_msg">Do you want to remove the existing face scan and create a new one?</string>
-    <string name="live_display_summary">Optimize your screen based on time of day and ambient conditions to improve readability and reduce eyestrain</string>
-    <string name="live_display_mode">Display mode</string>
-    <string name="live_display_color_temperature_title">Color temperature</string>
-    <string name="live_display_color_temperature_summary">Day: <xliff:g id="day_temperature">%1$d</xliff:g>K  Night: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="about_device_nearby">Numele dispozitivului poate și va fi văzut de dispozitivele din apropiere.</string>
+    <string name="binfo_stats">Statistici</string>
+    <string name="dot_customizer_dashboard_title">Personalizare</string>
+    <string name="dot_customizer_dashboard_summary">Personalizează-ți experiența cu o picătură de vopsea</string>
+    <string name="dot_about_device_info">Legale &amp; Informații</string>
+    <string name="dot_about_device_private">Detalii private</string>
+    <string name="dot_lightMode">Tema deschisă la culoare</string>
+    <string name="dot_darkMode">Temă întunecată</string>
+    <string name="cellular_data_title">Date mobile</string>
+    <string name="connected_tws_device_saved_title">Earbud-uri salvate</string>
+    <string name="mobile_data_settings_summary_unavailable">Nu există niciun card SIM disponibil</string>
+    <string name="unlock_scramble_pin_layout_title">Amestecă așezarea în pagină</string>
+    <string name="unlock_scramble_pin_layout_summary">Amesteca aranjarea PIN-ului cand deblochezi dispozitivul</string>
+    <string name="statusbar_tuner_title">Tuner bară de stare</string>
+    <string name="security_settings_face_settings_footer_custom">Deblocarea feţei vă permite să deblocaţi dispozitivul uitându-vă la el. Ține cont de:\n\n● Dispozitivul tău poate debloca oricând te uiți la el.\n● Dispozitivul dvs. poate fi deblocat de altcineva dacă îl ține în fața dvs. în timp ce ochii sunt deschiși.\n● Dispozitivul poate fi deblocat și de o persoană care arată foarte mult ca tine, cum ar fi un copil sau un frate identic.</string>
+    <string name="security_settings_face_settings_remove_dialog_details_custom">Datele înregistrate de funcţia Deblocare facială vor fi şterse permanent şi în siguranţă. După eliminare, veţi avea nevoie de codul PIN, de model sau de parolă pentru deblocarea telefonului.</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Ştergeţi scanarea existentă a feţei şi creaţi o scanare nouă</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Refaceţi scanarea facială</string>
+    <string name="security_dashboard_summary_face_and_fingerprint">Blocare ecran, amprentă, deblocare facială</string>
+    <string name="face_redo_confirm_btn">Refă</string>
+    <string name="face_redo_warning_msg">Doriţi să ştergeţi scanarea existentă a feţei şi să creaţi una nouă?</string>
+    <string name="live_display_summary">Se optimizează ecranul bazat pe timpul zilei şi condiţiile mediului ambient pentru a îmbunătăţi lizibilitatea şi a reduce oboseala ochilor</string>
+    <string name="live_display_mode">Mod de vizualizare</string>
+    <string name="live_display_color_temperature_title">Temperatura culorii</string>
+    <string name="live_display_color_temperature_summary">Zi: <xliff:g id="day_temperature">%1$d</xliff:g>K Noapte: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
-    <string name="live_display_day">Day</string>
-    <string name="live_display_night">Night</string>
-    <string name="live_display_outdoor_mode_title">Automatic outdoor mode</string>
-    <string name="live_display_outdoor_mode_summary">Increase brightness and saturation automatically under bright sunlight</string>
-    <string name="live_display_anti_flicker_title">Anti flicker</string>
-    <string name="live_display_anti_flicker_summary">Prevent extensive flickering and reduce eye strain in low light conditions. It might degrade color accuracy and affect the way some items are displayed.</string>
-    <string name="live_display_low_power_title">Reduce power consumption</string>
-    <string name="live_display_low_power_summary">Adjust display for lowest power consumption without degradation</string>
-    <string name="live_display_enhance_color_title">Enhance colors</string>
-    <string name="live_display_enhance_color_summary">Improve color vibrance of flesh tones, scenery, and other images</string>
-    <string name="live_display_color_profile_title">Color profile</string>
+    <string name="live_display_day">Zi</string>
+    <string name="live_display_night">Noapte</string>
+    <string name="live_display_outdoor_mode_title">Mod automat aer liber</string>
+    <string name="live_display_outdoor_mode_summary">Crește luminozitatea și saturația automat în lumina strălucitoare a soarelui</string>
+    <string name="live_display_anti_flicker_title">Anti-pâlpâire</string>
+    <string name="live_display_anti_flicker_summary">Prevenirea pâlpâirii extinse și reducerea oboselii ochilor în condiții de lumină slabă. E posibil degradarea culorii și afectarea modulului în care sunt afișate unele elemente.</string>
+    <string name="live_display_low_power_title">Redu consumul de energie</string>
+    <string name="live_display_low_power_summary">Reglează afişajul pentru cel mai mic consum de energie fără degradare</string>
+    <string name="live_display_enhance_color_title">Sporește culorile</string>
+    <string name="live_display_enhance_color_summary">Îmbunătățește vibranța culorilor pentru tonuri, peisaje și alte imagini</string>
+    <string name="live_display_color_profile_title">Profilul culorii</string>
     <string name="live_display_color_profile_standard_title">Standard</string>
-    <string name="live_display_color_profile_standard_summary">Accurate colors and bright whites</string>
+    <string name="live_display_color_profile_standard_summary">Culori precise și alb luminos</string>
     <string name="live_display_color_profile_natural_title">Natural</string>
-    <string name="live_display_color_profile_natural_summary">Realistic colors and flesh tones</string>
-    <string name="live_display_color_profile_dynamic_title">Dynamic</string>
-    <string name="live_display_color_profile_dynamic_summary">Enhanced colors and bright whites</string>
+    <string name="live_display_color_profile_natural_summary">Tonuri și culori realiste</string>
+    <string name="live_display_color_profile_dynamic_title">Dinamic</string>
+    <string name="live_display_color_profile_dynamic_summary">Culori îmbunătățite și alb luminos</string>
     <string name="live_display_color_profile_cinema_title">Cinema</string>
-    <string name="live_display_color_profile_cinema_summary">Perfect color reproduction for video</string>
-    <string name="live_display_color_profile_astronomy_title">Astronomy</string>
-    <string name="live_display_color_profile_astronomy_summary">Deep red for preserving night vision</string>
-    <string name="live_display_color_profile_photography_title">Photography</string>
-    <string name="live_display_color_profile_photography_summary">Perfect color reproduction for photos</string>
-    <string name="live_display_color_profile_basic_title">Basic</string>
-    <string name="live_display_color_profile_basic_summary">Use the display uncalibrated</string>
+    <string name="live_display_color_profile_cinema_summary">Reproducere perfectă a culorii pentru video</string>
+    <string name="live_display_color_profile_astronomy_title">Astronomie</string>
+    <string name="live_display_color_profile_astronomy_summary">Roșu închis pentru păstrarea viziunii nocturne</string>
+    <string name="live_display_color_profile_photography_title">Fotografie</string>
+    <string name="live_display_color_profile_photography_summary">Reproducere perfectă a culorii pentru fotografii</string>
+    <string name="live_display_color_profile_basic_title">Cunoștințe de bază</string>
+    <string name="live_display_color_profile_basic_summary">Utilizați ecranul necalibrat</string>
     <string name="live_display_color_profile_adaptive_title">Adaptive</string>
     <string name="live_display_color_profile_adaptive_summary">Colors adapt to ambient conditions</string>
     <string name="live_display_color_profile_reading_title">Reading</string>

@@ -15,35 +15,35 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="dot_version">dotOS version</string>
-    <string name="dot_version_default">Unknown</string>
-    <string name="keywords_dot_version">dotOS version, dot version</string>
-    <string name="about_device_name">Device Codename</string>
-    <string name="build_date">Build date</string>
+    <string name="dot_version">dotOS பதிப்பு</string>
+    <string name="dot_version_default">அறியப்படாத</string>
+    <string name="keywords_dot_version">dotOS பதிப்பு, dot பதிப்பு</string>
+    <string name="about_device_name">சாதனத்தின் அடையாள பெயர்</string>
+    <string name="build_date">உருவாக்கப்பட்ட தேதி</string>
     <string name="build_date_default">2015-01-01-0000</string>
-    <string name="keywords_build_date">build date, build info</string>
-    <string name="app_play_store">Google Play</string>
+    <string name="keywords_build_date">உருவாக்கப்பட்ட தேதி, பதிப்பின் விவரம்</string>
+    <string name="app_play_store">கூகுள் ப்ளே</string>
     <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
-    <string name="platform_revision">Platform</string>
-    <string name="total_ram">Total RAM</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Locate the fingerprint sensor on the front of your phone.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Locate the fingerprint sensor on the left side of your phone.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Locate the fingerprint sensor on the right side of your phone.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Locate the fingerprint sensor on the front of your device.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Locate the fingerprint sensor on the left side of your device.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">Locate the fingerprint sensor on the right side of your device.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Locate the fingerprint sensor on the front of your tablet.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Locate the fingerprint sensor on the left side of your tablet.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Locate the fingerprint sensor on the right side of your tablet.</string>
-    <string name="selinux_status">SELinux status</string>
-    <string name="selinux_status_disabled">Disabled</string>
+    <string name="platform_revision">ப்ளாட்ஃபார்ம்</string>
+    <string name="total_ram">ரேம் அளவு</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">சாதனத்தின் முன் பக்கத்தில் உள்ள கைரேகை சென்சார் ஐ கண்டுபிடிக்கவும்.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">கைப்பேசியின் இடது பக்கத்தில் உள்ள கைரேகை சென்சார் ஐ கண்டுபிடிக்கவும்.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">கைப்பேசியின் இடது பக்கத்தில் உள்ள கைரேகை சென்சார் ஐ கண்டுபிடிக்கவும்.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">சாதனத்தின் முன் பக்கத்தில் உள்ள கைரேகை சென்சார் ஐ கண்டுபிடிக்கவும்.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">சாதனத்தின் இடது பக்கத்தில் உள்ள கைரேகை சென்சார் ஐ கண்டுபிடிக்கவும்.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">சாதனத்தின் வலது பக்கத்தில் உள்ள கைரேகை சென்சார் ஐ கண்டுபிடிக்கவும்.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">சாதனத்தின் முன் பக்கத்தில் உள்ள கைரேகை சென்சார் ஐ கண்டுபிடிக்கவும்.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">சாதனத்தின் இடது பக்கத்தில் உள்ள கைரேகை சென்சார் ஐ கண்டுபிடிக்கவும்.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">சாதனத்தின் வலது பக்கத்தில் உள்ள கைரேகை சென்சார் ஐ கண்டுபிடிக்கவும்.</string>
+    <string name="selinux_status">SELinux நிலை</string>
+    <string name="selinux_status_disabled">முடக்கப்பட்டுள்ளது</string>
     <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_enforcing">Enforcing</string>
-    <string name="storage_card_title">Storage</string>
-    <string name="storage_card_info">Occupied</string>
+    <string name="storage_card_title">சேமிப்பகம்</string>
+    <string name="storage_card_info">பயன்படுத்தப்பட்டது</string>
     <string name="about_device_rom_title">DotOS %s</string>
     <string name="about_device_nearby">The device name can and will be seen by the nearby devices.</string>
-    <string name="binfo_stats">Stats</string>
+    <string name="binfo_stats">புள்ளிவிவரங்கள்</string>
     <string name="dot_customizer_dashboard_title">Customization</string>
     <string name="dot_customizer_dashboard_summary">Personalize your experience with a drop of paint</string>
     <string name="dot_about_device_info">Legal &amp; Information</string>

@@ -15,132 +15,132 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="dot_version">dotOS version</string>
-    <string name="dot_version_default">Unknown</string>
-    <string name="keywords_dot_version">dotOS version, dot version</string>
-    <string name="about_device_name">Device Codename</string>
-    <string name="build_date">Build date</string>
-    <string name="build_date_default">2015-01-01-0000</string>
-    <string name="keywords_build_date">build date, build info</string>
-    <string name="app_play_store">Google Play</string>
-    <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
-    <string name="platform_revision">Platform</string>
-    <string name="total_ram">Total RAM</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Locate the fingerprint sensor on the front of your phone.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Locate the fingerprint sensor on the left side of your phone.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Locate the fingerprint sensor on the right side of your phone.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Locate the fingerprint sensor on the front of your device.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Locate the fingerprint sensor on the left side of your device.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">Locate the fingerprint sensor on the right side of your device.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Locate the fingerprint sensor on the front of your tablet.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Locate the fingerprint sensor on the left side of your tablet.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Locate the fingerprint sensor on the right side of your tablet.</string>
-    <string name="selinux_status">SELinux status</string>
-    <string name="selinux_status_disabled">Disabled</string>
-    <string name="selinux_status_permissive">Permissive</string>
-    <string name="selinux_status_enforcing">Enforcing</string>
-    <string name="storage_card_title">Storage</string>
-    <string name="storage_card_info">Occupied</string>
-    <string name="about_device_rom_title">DotOS %s</string>
-    <string name="about_device_nearby">The device name can and will be seen by the nearby devices.</string>
-    <string name="binfo_stats">Stats</string>
-    <string name="dot_customizer_dashboard_title">Customization</string>
-    <string name="dot_customizer_dashboard_summary">Personalize your experience with a drop of paint</string>
-    <string name="dot_about_device_info">Legal &amp; Information</string>
-    <string name="dot_about_device_private">Private Details</string>
-    <string name="dot_lightMode">Light Theme</string>
-    <string name="dot_darkMode">Dark Theme</string>
-    <string name="cellular_data_title">Mobile data</string>
-    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
-    <string name="mobile_data_settings_summary_unavailable">No SIM card available</string>
-    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
-    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
-    <string name="statusbar_tuner_title">Statusbar tuner</string>
-    <string name="security_settings_face_settings_footer_custom">Face unlock lets you unlock your device by looking at it. Keep in mind:\n\n● Your device may unlock any time you look at it.\n● Your device can be unlocked by someone else if they hold it in front of your face while your eyes are open.\n● Your device may also be unlocked by someone who looks a lot like you, such as a child or identical sibling.</string>
-    <string name="security_settings_face_settings_remove_dialog_details_custom">Data recorded by face unlock will be permanently and securely deleted. After removal, you will need your PIN, pattern, or password to unlock your phone.</string>
-    <string name="security_settings_face_unlock_redo_face_scan_summary">Remove existing face scan and create a new scan</string>
-    <string name="security_settings_face_unlock_redo_face_scan_title">Redo face scan</string>
-    <string name="security_dashboard_summary_face_and_fingerprint">Screen lock, fingerprint, face unlock</string>
-    <string name="face_redo_confirm_btn">Redo</string>
-    <string name="face_redo_warning_msg">Do you want to remove the existing face scan and create a new one?</string>
-    <string name="live_display_summary">Optimize your screen based on time of day and ambient conditions to improve readability and reduce eyestrain</string>
-    <string name="live_display_mode">Display mode</string>
-    <string name="live_display_color_temperature_title">Color temperature</string>
-    <string name="live_display_color_temperature_summary">Day: <xliff:g id="day_temperature">%1$d</xliff:g>K  Night: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="dot_version">ಡಾಟ್ ಓ ಎಸ್ ಆವೃತ್ತಿ</string>
+    <string name="dot_version_default">ಅಪರಿಚಿತ</string>
+    <string name="keywords_dot_version">ಡಾಟ್ ಓ ಎಸ್ ಆವೃತ್ತಿ, ಡಾಟ್ ಆವೃತ್ತಿ</string>
+    <string name="about_device_name">ಸಾಧನದ ಸಾಂಕೇತಿಕ ಹೆಸರು</string>
+    <string name="build_date">ನಿರ್ಮಾಣ ದಿನಾಂಕ</string>
+    <string name="build_date_default">೨೦೧೫-೦೧-೦೧-೦೦೦೦</string>
+    <string name="keywords_build_date">ನಿರ್ಮಾಣದ ದಿನಾಂಕ, ನಿರ್ಮಾಣದ ಮಾಹಿತಿ</string>
+    <string name="app_play_store">ಗೂಗಲ್ ಪ್ಲೇ</string>
+    <string name="packagename_text"><xliff:g id="package_name">%1$s </xliff:g></string>
+    <string name="platform_revision">ಪ್ಲಾಟ್‌ಫಾರ್ಮ್</string>
+    <string name="total_ram">ಒಟ್ಟು RAM</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">ನಿಮ್ಮ ಫೋನಿನ ಮು೦ಭಾಗದಲ್ಲಿರುವ ಬೆರಳಚ್ಚು ಸೆನ್ಸಾರ್ ಅನ್ನು ಗುರುತಿಸಿ.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">ನಿಮ್ಮ ಫೋನಿನ ಎಡಭಾಗದಲ್ಲಿರುವ ಬೆರಳಚ್ಚು ಸೆನ್ಸಾರ್ ಅನ್ನು ಗುರುತಿಸಿ.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">ನಿಮ್ಮ ಫೋನಿನ ಬಲಭಾಗದಲ್ಲಿರುವ ಬೆರಳಚ್ಚು ಸೆನ್ಸಾರ್ ಅನ್ನು ಗುರುತಿಸಿ.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">ನಿಮ್ಮ ಫೋನಿನ ಮು೦ಭಾಗದಲ್ಲಿರುವ ಬೆರಳಚ್ಚು ಸೆನ್ಸಾರ್ ಅನ್ನು ಗುರುತಿಸಿ.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">ನಿಮ್ಮ ಫೋನಿನ ಎಡಭಾಗದಲ್ಲಿರುವ ಬೆರಳಚ್ಚು ಸೆನ್ಸಾರ್ ಅನ್ನು ಗುರುತಿಸಿರಿ.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">ನಿಮ್ಮ ಫೋನಿನ ಬಲಭಾಗದಲ್ಲಿರುವ ಬೆರಳಚ್ಚು ಸೆನ್ಸಾರ್ ಅನ್ನು ಗುರುತಿಸಿರಿ.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">ನಿಮ್ಮ ಟ್ಯಾಬ್ಲೆಟ್ ನ ಮು೦ಭಾಗದಲ್ಲಿರುವ ಬೆರಳಚ್ಚು ಸೆನ್ಸಾರ್ ಅನ್ನು ಗುರುತಿಸಿರಿ.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">ನಿಮ್ಮ ಟ್ಯಾಬ್ಲೆಟ್ ನ ಎಡಭಾಗದಲ್ಲಿರುವ ಬೆರಳಚ್ಚು ಸೆನ್ಸಾರ್ ಅನ್ನು ಗುರುತಿಸಿರಿ.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">ನಿಮ್ಮ ಟ್ಯಾಬ್ಲೆಟ್ ನ ಬಲಭಾಗದಲ್ಲಿರುವ ಬೆರಳಚ್ಚು ಸೆನ್ಸಾರ್ ಅನ್ನು ಗುರುತಿಸಿರಿ.</string>
+    <string name="selinux_status">SELinux ಸ್ಥಿತಿ</string>
+    <string name="selinux_status_disabled">ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ</string>
+    <string name="selinux_status_permissive">ಪರ್ಮಿಸಿವ್</string>
+    <string name="selinux_status_enforcing">ಎನ್ ಪೊರ್ಸಿಂಗ್</string>
+    <string name="storage_card_title">ಸಂಗ್ರಹಣೆ</string>
+    <string name="storage_card_info">ಆಕ್ರಮಿತ</string>
+    <string name="about_device_rom_title">ಡಾಟ್ ಓ ಎಸ್‌ %s</string>
+    <string name="about_device_nearby">ಈ ಸಾಧನದ ಹೆಸರನ್ನು ಹತ್ತಿರದ ಸಾಧನಗಳು ನೋಡಬಹುದು.</string>
+    <string name="binfo_stats">ಅಂಕಿಯಂಶಗಳು</string>
+    <string name="dot_customizer_dashboard_title">ನವೀಕರಣ</string>
+    <string name="dot_customizer_dashboard_summary">ಒಂದು ಹನಿ ಬಣ್ಣದ ಮೂಲಕ ನಿಮ್ಮ ಅನುಭವವನ್ನು ವೈಯಕ್ತೀಕರಿಸಿ</string>
+    <string name="dot_about_device_info">ಕಾನೂನುಬದ್ಧ &amp; ಮಾಹಿತಿ</string>
+    <string name="dot_about_device_private">ವೈಯಕ್ತಿಕ ಮಾಹಿತಿ</string>
+    <string name="dot_lightMode">ಬೆಳಕಿನ ಬಣ್ಣ</string>
+    <string name="dot_darkMode">ಗಾಢ ಬಣ್ಣ</string>
+    <string name="cellular_data_title">ಮೊಬೈಲ್ ಡೇಟಾ</string>
+    <string name="connected_tws_device_saved_title">ಉಳಿಸಿದ ಇಯರ್‌ಬಡ್‌ಗಳು</string>
+    <string name="mobile_data_settings_summary_unavailable">ಸಿಮ್ ಕಾರ್ಡ್ ಸಂಪರ್ಕಿಸಲಾಗುತ್ತಿಲ್ಲ</string>
+    <string name="unlock_scramble_pin_layout_title">ವಿನ್ಯಾಸವನ್ನು ಅಸ್ತವ್ಯಸ್ತಗೊಳಿಸು</string>
+    <string name="unlock_scramble_pin_layout_summary">ಸಾಧನವನ್ನು ಅನ್‍ಲಾಕ್ ಮಾಡುವಾಗ ಪಿನ್ ವಿನ್ಯಾಸವನ್ನು ಅಸ್ತವ್ಯಸ್ತಗೊಳಿಸು</string>
+    <string name="statusbar_tuner_title">ಸ್ಥಿತಿಪಟ್ಟಿ ಹೊಂದಿಸಿ</string>
+    <string name="security_settings_face_settings_footer_custom">ಫೇಸ್ ಅನ್ಲಾಕ್ ನಿಮ್ಮ ಸಾಧನವನ್ನು ನೋಡುವ ಮೂಲಕ ಅದನ್ನು ಅನ್ಲಾಕ್ ಮಾಡಲು ನಿಮಗೆ ಅನುಮತಿಸುತ್ತದೆ. ನೆನಪಿನಲ್ಲಿಡಿ:\n\n● ನಿಮ್ಮ ಸಾಧನವು ನೀವು ನೋಡುವ ಯಾವುದೇ ಸಮಯದಲ್ಲಿ ಅದನ್ನು ಅನ್ಲಾಕ್ ಮಾಡಬಹುದು.\n ನಿಮ್ಮ ಕಣ್ಣುಗಳು ತೆರೆದಿರುವಾಗ ನಿಮ್ಮ ಸಾಧನವನ್ನು ನಿಮ್ಮ ಮುಖದ ಮುಂದೆ ಹಿಡಿದಿದ್ದರೆ ಅದನ್ನು ಬೇರೊಬ್ಬರು ಅನ್ಲಾಕ್ ಮಾಡಬಹುದು.\n ನಿಮ್ಮ ಮಗು ಅಥವಾ ಒಂದೇ ರೀತಿಯ ಒಡಹುಟ್ಟಿದವರಂತೆ ನಿಮ್ಮಂತೆ ಕಾಣುವ ಯಾರಾದರೂ ಸಾಧನವನ್ನು ಅನ್‌ಲಾಕ್ ಮಾಡಬಹುದು.</string>
+    <string name="security_settings_face_settings_remove_dialog_details_custom">ಫೇಸ್ ಆನ್ಲಾಕ್ ನಿಂದ ಸಂಗ್ರಹಿಸಿದ ದತ್ತಾಂಶಗಳು ಶಾಶ್ವತವಾಗಿ ಮತ್ತು ಸುರಕ್ಷಿತವಾಗಿ ನಾಶಗೊಳಿಸಲ್ಪಡುತ್ತದೆ. ನಂತರ ನಿಮ್ಮ ಫೋನ್ಅನ್ನು ಅನ್ಲಾಕ್ ಗೊಳಿಸಲು ಪಿನ್, ಪ್ಯಾಟರ್ನ್ ಅಥವಾ ಪಾಸ್ವರ್ಡ್ಗಳು ಬೇಕಾಗುತ್ತದೆ.</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">ಅಸ್ತಿತ್ವದಲ್ಲಿರುವ ಮುಖದ ಗುರುತನ್ನು ತೆಗೆದು ಹೊಸದನ್ನು ಸೇರಿಸಿ</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">ಮುಖವನ್ನು ಮತ್ತೊಮ್ಮೆ ಗುರುತಿಸಿ</string>
+    <string name="security_dashboard_summary_face_and_fingerprint">ಸ್ಕ್ರೀನ್ ಲಾಕ್, ಬೆರಳಚ್ಚು, ಫೇಸ್ ಅನ್ಲಾಕ್</string>
+    <string name="face_redo_confirm_btn">ಮತ್ತೆಮಾಡು</string>
+    <string name="face_redo_warning_msg">ಅಸ್ತಿತ್ವದಲ್ಲಿರುವ ಮುಖದ ಗುರುತನ್ನು ಅಳಿಸಿ ಹೊಸದೊಂದನ್ನು ಸೇರಿಸಲು ಬಯಸುವಿರ?</string>
+    <string name="live_display_summary">ಓದುವಿಕೆಯನ್ನು ಸುಧಾರಿಸಲು ಮತ್ತು ಕಣ್ಣಿನ ಒತ್ತಡ ಕಡಿಮೆ ಮಾಡಲು ದಿನದ ಸಮಯ ಮತ್ತು ಸುತ್ತಮುತ್ತಲಿನ ಪರಿಸ್ಥಿತಿಗಳ ಆಧಾರದ ಮೇಲೆ ನಿಮ್ಮ ಪರದೆಯನ್ನು ಉತ್ತಮಗೊಳಿಸಿ</string>
+    <string name="live_display_mode">ಪ್ರದರ್ಶನದ ರೀತಿ</string>
+    <string name="live_display_color_temperature_title">ಬಣ್ಣದ ತಾಪಮಾನ</string>
+    <string name="live_display_color_temperature_summary">ಹಗಲು: <xliff:g id="day_temperature">%1$d</xliff:g>K  ರಾತ್ರಿ: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
-    <string name="live_display_day">Day</string>
-    <string name="live_display_night">Night</string>
-    <string name="live_display_outdoor_mode_title">Automatic outdoor mode</string>
-    <string name="live_display_outdoor_mode_summary">Increase brightness and saturation automatically under bright sunlight</string>
-    <string name="live_display_anti_flicker_title">Anti flicker</string>
-    <string name="live_display_anti_flicker_summary">Prevent extensive flickering and reduce eye strain in low light conditions. It might degrade color accuracy and affect the way some items are displayed.</string>
-    <string name="live_display_low_power_title">Reduce power consumption</string>
-    <string name="live_display_low_power_summary">Adjust display for lowest power consumption without degradation</string>
-    <string name="live_display_enhance_color_title">Enhance colors</string>
-    <string name="live_display_enhance_color_summary">Improve color vibrance of flesh tones, scenery, and other images</string>
-    <string name="live_display_color_profile_title">Color profile</string>
-    <string name="live_display_color_profile_standard_title">Standard</string>
-    <string name="live_display_color_profile_standard_summary">Accurate colors and bright whites</string>
-    <string name="live_display_color_profile_natural_title">Natural</string>
-    <string name="live_display_color_profile_natural_summary">Realistic colors and flesh tones</string>
-    <string name="live_display_color_profile_dynamic_title">Dynamic</string>
-    <string name="live_display_color_profile_dynamic_summary">Enhanced colors and bright whites</string>
-    <string name="live_display_color_profile_cinema_title">Cinema</string>
-    <string name="live_display_color_profile_cinema_summary">Perfect color reproduction for video</string>
-    <string name="live_display_color_profile_astronomy_title">Astronomy</string>
-    <string name="live_display_color_profile_astronomy_summary">Deep red for preserving night vision</string>
-    <string name="live_display_color_profile_photography_title">Photography</string>
-    <string name="live_display_color_profile_photography_summary">Perfect color reproduction for photos</string>
-    <string name="live_display_color_profile_basic_title">Basic</string>
-    <string name="live_display_color_profile_basic_summary">Use the display uncalibrated</string>
-    <string name="live_display_color_profile_adaptive_title">Adaptive</string>
-    <string name="live_display_color_profile_adaptive_summary">Colors adapt to ambient conditions</string>
-    <string name="live_display_color_profile_reading_title">Reading</string>
-    <string name="live_display_color_profile_reading_summary">Warmer colors for less eye strain</string>
+    <string name="live_display_day">ಹಗಲು</string>
+    <string name="live_display_night">ರಾತ್ರಿ</string>
+    <string name="live_display_outdoor_mode_title">ಸ್ವಯಂಚಾಲಿತ ಹೊರಾಂಗಣ ರೀತಿ</string>
+    <string name="live_display_outdoor_mode_summary">ಪ್ರಖರ ಸೂರ್ಯನ ಬೆಳಕಿನಡಿ ಪರದೆಯ ಪ್ರಖರತೆ ಮತ್ತು ಬಣ್ಣಗಳನ್ನು ಸ್ವಯಂ ಹೆಚ್ಚಿಸು</string>
+    <string name="live_display_anti_flicker_title">ಮಿನುಗುವಿಕೆ ತಡೆತ</string>
+    <string name="live_display_anti_flicker_summary">ವ್ಯಾಪಕವಾದ ಮಿನುಗುವಿಕೆಯನ್ನು ತಡೆಯಿರಿ ಮತ್ತು ಕಡಿಮೆ ಬೆಳಕಿನ ಸ್ಥಿತಿಯಲ್ಲಿ ಕಣ್ಣಿನ ಒತ್ತಡವನ್ನು ಕಡಿಮೆ ಮಾಡಿ. ಇದು ಬಣ್ಣ ನಿಖರತೆಯನ್ನು ಕುಸಿಯಬಹುದು ಮತ್ತು ಕೆಲವು ವಸ್ತುಗಳನ್ನು ಪ್ರದರ್ಶಿಸುವ ವಿಧಾನದ ಮೇಲೆ ಪರಿಣಾಮ ಬೀರಬಹುದು.</string>
+    <string name="live_display_low_power_title">ಶಕ್ತಿ ಬಳಕೆ ಕಡಿಮೆಮಾಡು</string>
+    <string name="live_display_low_power_summary">ಪ್ರದರ್ಶನವನ್ನು ಕ್ಷೀಣಿಸದೆ ಕನಿಷ್ಠ ಶಕ್ತಿ ಬಳಸುವಂತೆ ಹೊಂದಿಸು</string>
+    <string name="live_display_enhance_color_title">ಬಣ್ಣಗಳನ್ನು ಹೆಚ್ಚಿಸು</string>
+    <string name="live_display_enhance_color_summary">ಕಾಣದ ಸ್ವರಗಳು, ದೃಶ್ಯಾವಳಿ ಮತ್ತು ಇತರ ಚಿತ್ರಗಳ ಬಣ್ಣ ಕಂಪನವನ್ನು ಸುಧಾರಿಸಿ</string>
+    <string name="live_display_color_profile_title">ಬಣ್ಣದ ರೇಖಾಕೃತಿ</string>
+    <string name="live_display_color_profile_standard_title">ಪ್ರಮಾಣಿತ</string>
+    <string name="live_display_color_profile_standard_summary">ನಿಖರ ಬಣ್ಣಗಳು ಮತ್ತು ಪ್ರಕಾಶಿತ ಬಿಳುಪು</string>
+    <string name="live_display_color_profile_natural_title">ನೈಸರ್ಗಿಕ</string>
+    <string name="live_display_color_profile_natural_summary">ನೈಜ ಬಣ್ಣಗಳು ಮತ್ತು ಕಾಣದ ಸ್ವರಗಳು</string>
+    <string name="live_display_color_profile_dynamic_title">ಕ್ರಿಯಾತ್ಮಕ</string>
+    <string name="live_display_color_profile_dynamic_summary">ಹೆಚ್ಚಿಸಿದ ಬಣ್ಣಗಳು ಮತ್ತು ಪ್ರಕಾಶಿತ ಬಿಳುಪು</string>
+    <string name="live_display_color_profile_cinema_title">ಸಿನಿಮಾ</string>
+    <string name="live_display_color_profile_cinema_summary">ದೃಶ್ಯಕ್ಕೆ ಪರಿಪೂರ್ಣ ಬಣ್ಣದ ಪುನರುತ್ಪಾದನೆ</string>
+    <string name="live_display_color_profile_astronomy_title">ನಕ್ಷತ್ರ</string>
+    <string name="live_display_color_profile_astronomy_summary">ರಾತ್ರಿ ವೀಕ್ಷಣೆ ಕಾಪಾಡಲು ಕಡುಗೆಂಪು</string>
+    <string name="live_display_color_profile_photography_title">ಛಾಯಾಗ್ರಹಣ</string>
+    <string name="live_display_color_profile_photography_summary">ಚಿತ್ರಗಳಿಗೆ ಪರಿಪೂರ್ಣ ಬಣ್ಣದ ಪುನರುತ್ಪಾದನೆ</string>
+    <string name="live_display_color_profile_basic_title">ತಳಮಟ್ಟ</string>
+    <string name="live_display_color_profile_basic_summary">ಸರಿಹೊಂದಿಸದ ಪ್ರದರ್ಶನ ಬಳಸಿ</string>
+    <string name="live_display_color_profile_adaptive_title">ಹೊಂದಿಕೊಳ್ಳುವ</string>
+    <string name="live_display_color_profile_adaptive_summary">ಪರಿಸರದ ಸ್ಥಿತಿಗಳಿಗೆ ಬಣ್ಣಗಳು ಹೊಂದಿಕೊಳ್ಳುತ್ತವೆ</string>
+    <string name="live_display_color_profile_reading_title">ಓದುವ</string>
+    <string name="live_display_color_profile_reading_summary">ಕಡಿಮೆ ಕಣ್ಣಿನ ಒತ್ತಡಕ್ಕೆ ಬೆಚ್ಚಗಿನ ಬಣ್ಣಗಳು</string>
     <string name="live_display_color_profile_srgb_title">sRGB</string>
-    <string name="live_display_color_profile_srgb_summary">Colors accurate to the sRGB color space</string>
+    <string name="live_display_color_profile_srgb_summary">ಬಣ್ಣಗಳು sRGB ಬಣ್ಣದ ಬದಲಿಗೆ ಅನುಗುಣವಾಗಿವೆ</string>
     <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
-    <string name="live_display_color_profile_dci_p3_summary">Colors accurate to the DCI-P3 color space</string>
-    <string name="live_display_reading_mode_title">Reading mode</string>
-    <string name="live_display_reading_mode_summary">Grayscale mode for long-term reading</string>
-    <string name="color_calibration_title">Color calibration</string>
-    <string name="color_calibration_summary">Calibrate on-screen colors</string>
-    <string name="color_red_title">Red</string>
-    <string name="color_green_title">Green</string>
-    <string name="color_blue_title">Blue</string>
-    <string name="picture_adjustment_title">Picture adjustment</string>
-    <string name="picture_adjustment_summary">Adjust hue, saturation, intensity, and contrast</string>
-    <string name="adj_hue_title">Hue</string>
-    <string name="adj_saturation_title">Saturation</string>
-    <string name="adj_intensity_title">Intensity</string>
-    <string name="adj_contrast_title">Contrast</string>
-    <string name="display_rotation_title">Rotation settings</string>
-    <string name="display_rotation_enabled">Auto-rotation is enabled</string>
-    <string name="display_rotation_disabled">Auto-rotation is disabled</string>
-    <string name="display_rotation_unit">degrees</string>
-    <string name="display_rotation_category_title">Rotation modes</string>
-    <string name="display_rotation_0_title">0 degrees</string>
-    <string name="display_rotation_90_title">90 degrees</string>
-    <string name="display_rotation_180_title">180 degrees</string>
-    <string name="display_rotation_270_title">270 degrees</string>
-    <string name="data_usage_app_restrict_all">Allow network access</string>
-    <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
-    <string name="data_usage_app_restrict_mobile">Mobile data</string>
-    <string name="data_usage_app_restrict_mobile_summary">Enable usage of mobile data</string>
-    <string name="data_usage_app_restrict_vpn">VPN data</string>
-    <string name="data_usage_app_restrict_vpn_summary">Enable usage of VPN data</string>
-    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
-    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
-    <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
-    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
-    <string name="device_info_protected_single_press">Tap to show info</string>
-    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
-    <string name="incall_feeedback_vibrate_title">Vibrate to indicate call status</string>
-    <string name="increasing_ring_volume_option_title">Increasing ring volume</string>
-    <string name="increasing_ring_min_volume_title">Start volume</string>
-    <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
-    <string name="top_level_connectivity">Connectivity</string>
-    <string name="top_level_personalize">Personalize</string>
-    <string name="top_level_security">@string/security_settings_title</string>
-    <string name="top_level_others">Others</string>
+    <string name="live_display_color_profile_dci_p3_summary">ಬಣ್ಣಗಳು DCI-P3 ಬಣ್ಣ ಬದಲಿಗೆ ಅನುಗುಣವಾಗಿವೆ</string>
+    <string name="live_display_reading_mode_title">ಓದುವ ಮಾದರಿ</string>
+    <string name="live_display_reading_mode_summary">ದೀರ್ಘಕಾಲೀನ ಓದುವಿಕೆಗಾಗಿ ತಿಳಿಬಣ್ಣದ ಮೋಡ್</string>
+    <string name="color_calibration_title">ಬಣ್ಣ ಸರಿಹೊಂದಿಸುವಿಕೆ</string>
+    <string name="color_calibration_summary">ಪರದೆಯ ಬಣ್ಣಗಳನ್ನು ಸರಿಹೊಂದಿಸು</string>
+    <string name="color_red_title">ಕೆಂಪು</string>
+    <string name="color_green_title">ಹಸಿರು</string>
+    <string name="color_blue_title">ನೀಲಿ</string>
+    <string name="picture_adjustment_title">ಚಿತ್ರದ ಹೊಂದಿಸುವಿಕೆ</string>
+    <string name="picture_adjustment_summary">ವರ್ಣ, ಶುದ್ಧತೆ, ತೀವ್ರತೆ ಮತ್ತು ವ್ಯತಿರಿಕ್ತತೆಯನ್ನು ಹೊಂದಿಸಿ</string>
+    <string name="adj_hue_title">ಬಣ್ಣ</string>
+    <string name="adj_saturation_title">ಶುದ್ಧತೆ</string>
+    <string name="adj_intensity_title">ತೀವ್ರತೆ</string>
+    <string name="adj_contrast_title">ಕಾಂಟ್ರಾಸ್ಟ್‌‌</string>
+    <string name="display_rotation_title">ತಿರುಗುವಿಕೆ ಸಂಯೋಜನೆಗಳು</string>
+    <string name="display_rotation_enabled">ಸ್ವಯಂ-ತಿರುಗುವಿಕೆ ಸಕ್ರಿಯಗೊಂಡಿದೆ</string>
+    <string name="display_rotation_disabled">ಸ್ವಯಂ-ತಿರುಗುವಿಕೆ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ</string>
+    <string name="display_rotation_unit">ಡಿಗ್ರಿಗಳು</string>
+    <string name="display_rotation_category_title">ತಿರುಗುವಿಕೆ ವಿಧಾನಗಳು</string>
+    <string name="display_rotation_0_title">೦ ಡಿಗ್ರಿಗಳು</string>
+    <string name="display_rotation_90_title">೯೦ ಡಿಗ್ರಿಗಳು</string>
+    <string name="display_rotation_180_title">೧೮೦ ಡಿಗ್ರಿಗಳು</string>
+    <string name="display_rotation_270_title">೨೭೦ ಡಿಗ್ರಿಗಳು</string>
+    <string name="data_usage_app_restrict_all">ನೆಟ್‌ವರ್ಕ್ ಪ್ರವೇಶಕ್ಕೆ ಅನುಮತಿಸಿ</string>
+    <string name="data_usage_app_restrict_all_summary">ನೆಟ್‌ವರ್ಕ್ ಬಳಕೆಯನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ</string>
+    <string name="data_usage_app_restrict_mobile">ಮೊಬೈಲ್ ಡೇಟಾ</string>
+    <string name="data_usage_app_restrict_mobile_summary">ಮೊಬೈಲ್ ಡೇಟಾ ಬಳಕೆಯನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ</string>
+    <string name="data_usage_app_restrict_vpn">Vpn ಡೇಟಾ</string>
+    <string name="data_usage_app_restrict_vpn_summary">VPN ಡೇಟಾ ಬಳಕೆಯನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi ಡೇಟಾ</string>
+    <string name="data_usage_app_restrict_wifi_summary">Wi\u2011Fi ಡೇಟಾ ಬಳಕೆಯನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ</string>
+    <string name="tethering_allow_vpn_upstreams_title">ಗ್ರಾಹಕರಿಗೆ VPN ಬಳಸಲು ಅನುಮತಿಸಿ</string>
+    <string name="tethering_allow_vpn_upstreams_summary">ಅಪ್‌ಸ್ಟ್ರೀಮ್ ಸಂಪರ್ಕಕ್ಕಾಗಿ ಈ ಸಾಧನವನ್ನು ಬಳಸಲು ಹಾಟ್‌ಸ್ಪಾಟ್ ಕ್ಲೈಂಟ್‌ಗಳಿಗೆ ಅನುಮತಿ ನೀಡಿ</string>
+    <string name="device_info_protected_single_press">ಮಾಹಿತಿಯನ್ನು ತೋರಿಸಲು ಟ್ಯಾಪ್ ಮಾಡಿ</string>
+    <string name="volume_link_notification_title">ರಿಂಗ್‍ಟೋನ್ &amp; ಅಧಿಸೂಚನೆ ಶಬ್ದಗಳನ್ನು ಜೋಡಿಸು</string>
+    <string name="incall_feeedback_vibrate_title">ಕರೆ ಸ್ಥಿತಿಯನ್ನು ಸೂಚಿಸಲು ಕಂಪಿಸಿ</string>
+    <string name="increasing_ring_volume_option_title">ರಿಂಗ್ ಶಬ್ದದ ತೀವರ್ತೆ ಹೆಚ್ಚಿಸುವುದು</string>
+    <string name="increasing_ring_min_volume_title">ಆರಂಭಿಕ ಶಬ್ದ</string>
+    <string name="increasing_ring_ramp_up_time_title">ಹೆಚ್ಚಿಸುವಿಕೆಯ ಸಮಯ</string>
+    <string name="top_level_connectivity">ಸಂಪರ್ಕ</string>
+    <string name="top_level_personalize">ವೈಯಕ್ತೀಕರಿಸಿ</string>
+    <string name="top_level_security">\@ಸ್ಟ್ರಿಂಗ್/ಸೆಕ್ಯುರಿಟಿ_ಸೆಟ್ಟಿಂಗ್ಸ್_ಶೀರ್ಷಿಕೆ</string>
+    <string name="top_level_others">ಇತರೆ</string>
 </resources>

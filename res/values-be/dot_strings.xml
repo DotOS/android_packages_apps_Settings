@@ -15,132 +15,132 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="dot_version">dotOS version</string>
-    <string name="dot_version_default">Unknown</string>
-    <string name="keywords_dot_version">dotOS version, dot version</string>
-    <string name="about_device_name">Device Codename</string>
-    <string name="build_date">Build date</string>
+    <string name="dot_version">версія dotOS</string>
+    <string name="dot_version_default">Невядома</string>
+    <string name="keywords_dot_version">версія dotOS, версія dot</string>
+    <string name="about_device_name">Назва прылады</string>
+    <string name="build_date">Дата зборкі</string>
     <string name="build_date_default">2015-01-01-0000</string>
-    <string name="keywords_build_date">build date, build info</string>
+    <string name="keywords_build_date">дата зборкі, інфармацыя пра зборку</string>
     <string name="app_play_store">Google Play</string>
     <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
-    <string name="platform_revision">Platform</string>
-    <string name="total_ram">Total RAM</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Locate the fingerprint sensor on the front of your phone.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Locate the fingerprint sensor on the left side of your phone.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Locate the fingerprint sensor on the right side of your phone.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Locate the fingerprint sensor on the front of your device.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Locate the fingerprint sensor on the left side of your device.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">Locate the fingerprint sensor on the right side of your device.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Locate the fingerprint sensor on the front of your tablet.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Locate the fingerprint sensor on the left side of your tablet.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Locate the fingerprint sensor on the right side of your tablet.</string>
-    <string name="selinux_status">SELinux status</string>
-    <string name="selinux_status_disabled">Disabled</string>
-    <string name="selinux_status_permissive">Permissive</string>
-    <string name="selinux_status_enforcing">Enforcing</string>
-    <string name="storage_card_title">Storage</string>
-    <string name="storage_card_info">Occupied</string>
+    <string name="platform_revision">Платформа</string>
+    <string name="total_ram">Усяго АЗП</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Знайдзіце сканер адбіткаў пальцаў на задняй паверхні тэлефона.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Знайдзіце сканер адбіткаў пальцаў на левай грані тэлефона.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Знайдзіце сканер адбіткаў пальцаў на правай паверхні тэлефона.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Знайдзіце сканер адбіткаў пальцаў на задняй панэлi прылады.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Знайдзіце сканер адбіткаў пальцаў на левай гранi тэлефона.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">Знайдзіце сканер адбіткаў пальцаў на правай гранi прылады.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Знайдзіце сканер адбіткаў пальцаў на задняй панэлi планшэта.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Знайдзіце сканер адбіткаў пальцаў на левай паверхні планшэта.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Знайдзіце сканер адбіткаў пальцаў справага боку планшэта.</string>
+    <string name="selinux_status">Статус SELinux</string>
+    <string name="selinux_status_disabled">Адключана</string>
+    <string name="selinux_status_permissive">Дазволена</string>
+    <string name="selinux_status_enforcing">Прымусовы</string>
+    <string name="storage_card_title">Сховішча</string>
+    <string name="storage_card_info">Занята</string>
     <string name="about_device_rom_title">DotOS %s</string>
-    <string name="about_device_nearby">The device name can and will be seen by the nearby devices.</string>
-    <string name="binfo_stats">Stats</string>
-    <string name="dot_customizer_dashboard_title">Customization</string>
-    <string name="dot_customizer_dashboard_summary">Personalize your experience with a drop of paint</string>
-    <string name="dot_about_device_info">Legal &amp; Information</string>
-    <string name="dot_about_device_private">Private Details</string>
-    <string name="dot_lightMode">Light Theme</string>
-    <string name="dot_darkMode">Dark Theme</string>
-    <string name="cellular_data_title">Mobile data</string>
-    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
-    <string name="mobile_data_settings_summary_unavailable">No SIM card available</string>
-    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
-    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
-    <string name="statusbar_tuner_title">Statusbar tuner</string>
-    <string name="security_settings_face_settings_footer_custom">Face unlock lets you unlock your device by looking at it. Keep in mind:\n\n● Your device may unlock any time you look at it.\n● Your device can be unlocked by someone else if they hold it in front of your face while your eyes are open.\n● Your device may also be unlocked by someone who looks a lot like you, such as a child or identical sibling.</string>
-    <string name="security_settings_face_settings_remove_dialog_details_custom">Data recorded by face unlock will be permanently and securely deleted. After removal, you will need your PIN, pattern, or password to unlock your phone.</string>
-    <string name="security_settings_face_unlock_redo_face_scan_summary">Remove existing face scan and create a new scan</string>
-    <string name="security_settings_face_unlock_redo_face_scan_title">Redo face scan</string>
-    <string name="security_dashboard_summary_face_and_fingerprint">Screen lock, fingerprint, face unlock</string>
-    <string name="face_redo_confirm_btn">Redo</string>
-    <string name="face_redo_warning_msg">Do you want to remove the existing face scan and create a new one?</string>
-    <string name="live_display_summary">Optimize your screen based on time of day and ambient conditions to improve readability and reduce eyestrain</string>
-    <string name="live_display_mode">Display mode</string>
-    <string name="live_display_color_temperature_title">Color temperature</string>
-    <string name="live_display_color_temperature_summary">Day: <xliff:g id="day_temperature">%1$d</xliff:g>K  Night: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="about_device_nearby">Імя прылады могуць бачыць і будуць бачыць бліжэйшыя прылады.</string>
+    <string name="binfo_stats">Статыстыка</string>
+    <string name="dot_customizer_dashboard_title">Кастамізацыя</string>
+    <string name="dot_customizer_dashboard_summary">Персаніфікуйце свой вопыт з дапамогай кроплі фарбы</string>
+    <string name="dot_about_device_info">Юрыдычная інфармацыя</string>
+    <string name="dot_about_device_private">Асабістыя дадзеныя</string>
+    <string name="dot_lightMode">Светлая тэма</string>
+    <string name="dot_darkMode">Цёмная тэма</string>
+    <string name="cellular_data_title">Мабільныя дадзеныя</string>
+    <string name="connected_tws_device_saved_title">Захаваныя навушнікі</string>
+    <string name="mobile_data_settings_summary_unavailable">Няма SIM-карты</string>
+    <string name="unlock_scramble_pin_layout_title">Змешваць кнопкі</string>
+    <string name="unlock_scramble_pin_layout_summary">Перастаўляць кнопкі ўводу PIN-кода ў выпадковым парадку</string>
+    <string name="statusbar_tuner_title">Настройка радка стану</string>
+    <string name="security_settings_face_settings_footer_custom">Фейскантроль дазваляе разблакаваць прыладу, гледзячы на ​​яго. Памятайце: \n\n● Ваша прылада можа разблакавацца ў любы момант, калі вы паглядзіце на яе. \n● Ваша прылада можа разблакавацца кім небудзь іншым, калі ён трымае яе перад вашым тварам, пакуль вочы адкрыты. \n● Ваша прылада таксама можа быць разблакавана кімсьці, хто вельмі падобны на вас, напрыклад, дзіцём ці ідэнтычным братам або сястрой.</string>
+    <string name="security_settings_face_settings_remove_dialog_details_custom">Дадзеныя, запісаныя з дапамогай функцыі фэйскантроль, будуць незваротна выдаленыя. Пасля выдалення спатрэбіцца ўвесці PIN-код, графічны ключ або пароль для разблакоўкі тэлефона.</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Выдаліце ​​існуючы здымак твара і стварыце новы</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Паўтарыць сканаванне твара</string>
+    <string name="security_dashboard_summary_face_and_fingerprint">Блакаванне экрана, адбітак пальца, разблакіроўка па твару</string>
+    <string name="face_redo_confirm_btn">Паўтарыць</string>
+    <string name="face_redo_warning_msg">Вы хочаце выдаліць існуючае сканаванне твараў і стварыць новае?</string>
+    <string name="live_display_summary">Аптымізацыя вашага экрана ў залежнасці ад часу сутак і ўмоў навакольнага асяроддзя для паляпшэння чытальнасці тэксту і зніжэння стамляльнасці вачэй</string>
+    <string name="live_display_mode">Рэжым экрана</string>
+    <string name="live_display_color_temperature_title">Каляровая тэмпература</string>
+    <string name="live_display_color_temperature_summary">Дзень: <xliff:g id="day_temperature">%1$d </xliff:g>K Ноч: <xliff:g id="night_temperature">%2$d </xliff:g>K</string>
     <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
-    <string name="live_display_day">Day</string>
-    <string name="live_display_night">Night</string>
-    <string name="live_display_outdoor_mode_title">Automatic outdoor mode</string>
-    <string name="live_display_outdoor_mode_summary">Increase brightness and saturation automatically under bright sunlight</string>
-    <string name="live_display_anti_flicker_title">Anti flicker</string>
-    <string name="live_display_anti_flicker_summary">Prevent extensive flickering and reduce eye strain in low light conditions. It might degrade color accuracy and affect the way some items are displayed.</string>
-    <string name="live_display_low_power_title">Reduce power consumption</string>
-    <string name="live_display_low_power_summary">Adjust display for lowest power consumption without degradation</string>
-    <string name="live_display_enhance_color_title">Enhance colors</string>
-    <string name="live_display_enhance_color_summary">Improve color vibrance of flesh tones, scenery, and other images</string>
-    <string name="live_display_color_profile_title">Color profile</string>
-    <string name="live_display_color_profile_standard_title">Standard</string>
-    <string name="live_display_color_profile_standard_summary">Accurate colors and bright whites</string>
-    <string name="live_display_color_profile_natural_title">Natural</string>
-    <string name="live_display_color_profile_natural_summary">Realistic colors and flesh tones</string>
-    <string name="live_display_color_profile_dynamic_title">Dynamic</string>
-    <string name="live_display_color_profile_dynamic_summary">Enhanced colors and bright whites</string>
-    <string name="live_display_color_profile_cinema_title">Cinema</string>
-    <string name="live_display_color_profile_cinema_summary">Perfect color reproduction for video</string>
-    <string name="live_display_color_profile_astronomy_title">Astronomy</string>
-    <string name="live_display_color_profile_astronomy_summary">Deep red for preserving night vision</string>
-    <string name="live_display_color_profile_photography_title">Photography</string>
-    <string name="live_display_color_profile_photography_summary">Perfect color reproduction for photos</string>
-    <string name="live_display_color_profile_basic_title">Basic</string>
-    <string name="live_display_color_profile_basic_summary">Use the display uncalibrated</string>
-    <string name="live_display_color_profile_adaptive_title">Adaptive</string>
-    <string name="live_display_color_profile_adaptive_summary">Colors adapt to ambient conditions</string>
-    <string name="live_display_color_profile_reading_title">Reading</string>
-    <string name="live_display_color_profile_reading_summary">Warmer colors for less eye strain</string>
+    <string name="live_display_day">Дзень</string>
+    <string name="live_display_night">Ноч</string>
+    <string name="live_display_outdoor_mode_title">Аўтаматычны рэжым для вуліцы</string>
+    <string name="live_display_outdoor_mode_summary">Павялічыць яркасць і насычанасць аўтаматычна пры яркім сонечным святле</string>
+    <string name="live_display_anti_flicker_title">Фільтр мігацення</string>
+    <string name="live_display_anti_flicker_summary">Прадухіліце моцнае мігаценне і паменшыце напружанне вачэй ва ўмовах нізкай асветленасці. Гэта можа пагоршыць дакладнасць колеру і паўплываць на спосаб адлюстравання некаторых элементаў.</string>
+    <string name="live_display_low_power_title">Знізіць энергаспажыванне</string>
+    <string name="live_display_low_power_summary">Падладжваць экран для нізкага энергаспажывання без пагаршэння якасці</string>
+    <string name="live_display_enhance_color_title">Паляпшэнне колераперадачы</string>
+    <string name="live_display_enhance_color_summary">Палепшыць сакавітасць адценняў скуры, краявідаў і іншых выяў</string>
+    <string name="live_display_color_profile_title">Колеравы профіль</string>
+    <string name="live_display_color_profile_standard_title">Стандартны</string>
+    <string name="live_display_color_profile_standard_summary">Дакладная колераперадача і яркія белыя тоны</string>
+    <string name="live_display_color_profile_natural_title">Натуральны</string>
+    <string name="live_display_color_profile_natural_summary">Натуральныя колеры і адценні скуры</string>
+    <string name="live_display_color_profile_dynamic_title">Дынамічны</string>
+    <string name="live_display_color_profile_dynamic_summary">Насычаныя колеры і падвышаная кантраснасць</string>
+    <string name="live_display_color_profile_cinema_title">Кіно</string>
+    <string name="live_display_color_profile_cinema_summary">Ідэальная колераперадача для відэа</string>
+    <string name="live_display_color_profile_astronomy_title">Астраномія</string>
+    <string name="live_display_color_profile_astronomy_summary">Глыбокі чырвоны для захаваньня бачнасьці ноччу</string>
+    <string name="live_display_color_profile_photography_title">Фотаздымак</string>
+    <string name="live_display_color_profile_photography_summary">Ідэальная колераперадача для фота</string>
+    <string name="live_display_color_profile_basic_title">Асноўны</string>
+    <string name="live_display_color_profile_basic_summary">Выкарыстоўваць неадкалібраваны дысплэй</string>
+    <string name="live_display_color_profile_adaptive_title">Адаптыўны</string>
+    <string name="live_display_color_profile_adaptive_summary">Колеру адаптуюцца да ўмоў навакольнага асяроддзя</string>
+    <string name="live_display_color_profile_reading_title">Чытанне</string>
+    <string name="live_display_color_profile_reading_summary">Больш цёплага колеру для меншага напружання вачэй</string>
     <string name="live_display_color_profile_srgb_title">sRGB</string>
-    <string name="live_display_color_profile_srgb_summary">Colors accurate to the sRGB color space</string>
+    <string name="live_display_color_profile_srgb_summary">Колеры, адпаведныя каляровай прасторы sRGB</string>
     <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
-    <string name="live_display_color_profile_dci_p3_summary">Colors accurate to the DCI-P3 color space</string>
-    <string name="live_display_reading_mode_title">Reading mode</string>
-    <string name="live_display_reading_mode_summary">Grayscale mode for long-term reading</string>
-    <string name="color_calibration_title">Color calibration</string>
-    <string name="color_calibration_summary">Calibrate on-screen colors</string>
-    <string name="color_red_title">Red</string>
-    <string name="color_green_title">Green</string>
-    <string name="color_blue_title">Blue</string>
-    <string name="picture_adjustment_title">Picture adjustment</string>
-    <string name="picture_adjustment_summary">Adjust hue, saturation, intensity, and contrast</string>
-    <string name="adj_hue_title">Hue</string>
-    <string name="adj_saturation_title">Saturation</string>
-    <string name="adj_intensity_title">Intensity</string>
-    <string name="adj_contrast_title">Contrast</string>
-    <string name="display_rotation_title">Rotation settings</string>
-    <string name="display_rotation_enabled">Auto-rotation is enabled</string>
-    <string name="display_rotation_disabled">Auto-rotation is disabled</string>
-    <string name="display_rotation_unit">degrees</string>
-    <string name="display_rotation_category_title">Rotation modes</string>
-    <string name="display_rotation_0_title">0 degrees</string>
-    <string name="display_rotation_90_title">90 degrees</string>
-    <string name="display_rotation_180_title">180 degrees</string>
-    <string name="display_rotation_270_title">270 degrees</string>
-    <string name="data_usage_app_restrict_all">Allow network access</string>
-    <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
-    <string name="data_usage_app_restrict_mobile">Mobile data</string>
-    <string name="data_usage_app_restrict_mobile_summary">Enable usage of mobile data</string>
-    <string name="data_usage_app_restrict_vpn">VPN data</string>
-    <string name="data_usage_app_restrict_vpn_summary">Enable usage of VPN data</string>
-    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
-    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
-    <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
-    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
-    <string name="device_info_protected_single_press">Tap to show info</string>
-    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
-    <string name="incall_feeedback_vibrate_title">Vibrate to indicate call status</string>
-    <string name="increasing_ring_volume_option_title">Increasing ring volume</string>
-    <string name="increasing_ring_min_volume_title">Start volume</string>
-    <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
-    <string name="top_level_connectivity">Connectivity</string>
-    <string name="top_level_personalize">Personalize</string>
+    <string name="live_display_color_profile_dci_p3_summary">Колеры, адпаведныя каляровай прасторы DCI-P3</string>
+    <string name="live_display_reading_mode_title">Рэжым чытання</string>
+    <string name="live_display_reading_mode_summary">Рэжым адценняў шэрага для доўгачасовага чытання</string>
+    <string name="color_calibration_title">Каліброўка колеру</string>
+    <string name="color_calibration_summary">Налада колераперадачы экрана</string>
+    <string name="color_red_title">Чырвоны</string>
+    <string name="color_green_title">Зялёны</string>
+    <string name="color_blue_title">Сіні</string>
+    <string name="picture_adjustment_title">Рэгуляванне выявы</string>
+    <string name="picture_adjustment_summary">Адрэгуляваць адценне, насычанасць, глыбіню і кантраснасць</string>
+    <string name="adj_hue_title">Адценне</string>
+    <string name="adj_saturation_title">Насычанасць</string>
+    <string name="adj_intensity_title">Інтэнсіўнасць</string>
+    <string name="adj_contrast_title">Кантраснасць</string>
+    <string name="display_rotation_title">Параметры аўтапаварота</string>
+    <string name="display_rotation_enabled">Аўтапаварот уключаны</string>
+    <string name="display_rotation_disabled">Аўтапаварот адключаны</string>
+    <string name="display_rotation_unit">градусаў</string>
+    <string name="display_rotation_category_title">Рэжымы паварота экрана</string>
+    <string name="display_rotation_0_title">0 градусаў</string>
+    <string name="display_rotation_90_title">90 градусаў</string>
+    <string name="display_rotation_180_title">180 градусаў</string>
+    <string name="display_rotation_270_title">270 градусаў</string>
+    <string name="data_usage_app_restrict_all">Дазволіць доступ да сеткі</string>
+    <string name="data_usage_app_restrict_all_summary">Адсочванне выкарыстанне сеткі</string>
+    <string name="data_usage_app_restrict_mobile">Мабільныя дадзеныя</string>
+    <string name="data_usage_app_restrict_mobile_summary">Уключыць выкарыстанне мабільнай перадачы дадзеных</string>
+    <string name="data_usage_app_restrict_vpn">Дадзеныя VPN</string>
+    <string name="data_usage_app_restrict_vpn_summary">Уключыць выкарыстанне дадзеных VPN</string>
+    <string name="data_usage_app_restrict_wifi">Дадзеныя Wi\u2011Fi</string>
+    <string name="data_usage_app_restrict_wifi_summary">Уключыць выкарыстанне дадзеных Wi\u2011Fi</string>
+    <string name="tethering_allow_vpn_upstreams_title">Дазволіць кліентам выкарыстоўваць VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Дазволіць кліентам пункта доступу выкарыстоўваць VPN-злучэнні гэтай прылады для падлучэння да сеткі</string>
+    <string name="device_info_protected_single_press">Націсніце, каб паказаць інфармацыю</string>
+    <string name="volume_link_notification_title">Звязаць гучнасць выкліку і апавяшчэнняў</string>
+    <string name="incall_feeedback_vibrate_title">Вібрацыя для індыкацыі статусу выкліка</string>
+    <string name="increasing_ring_volume_option_title">Нарастальная гучнасць званка</string>
+    <string name="increasing_ring_min_volume_title">Пачатковая гучнасць</string>
+    <string name="increasing_ring_ramp_up_time_title">Час павелічэння</string>
+    <string name="top_level_connectivity">Падключэнне</string>
+    <string name="top_level_personalize">Персаналізацыя</string>
     <string name="top_level_security">@string/security_settings_title</string>
-    <string name="top_level_others">Others</string>
+    <string name="top_level_others">Іншыя</string>
 </resources>

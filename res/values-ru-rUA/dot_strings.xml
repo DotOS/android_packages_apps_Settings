@@ -16,9 +16,9 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- About phone screen, dot OS version -->
-    <string name="dot_version">dotOS version</string>
-    <string name="dot_version_default">Unknown</string>
-    <string name="keywords_dot_version">dotOS version, dot version</string>
+    <string name="dot_version">dotOs версія</string>
+    <string name="dot_version_default">Невідомо</string>
+    <string name="keywords_dot_version">dotOS версія, dot версія</string>
     <!-- About phone screen, build date -->
     <string name="about_device_name">Device Codename</string>
     <string name="build_date">Build date</string>
