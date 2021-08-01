@@ -33,7 +33,7 @@
             android:id="@+id/preview_pager"
             android:layout_width="match_parent"
             android:layout_height="360dp"
-            android:background="@color/contextual_card_background"
+            android:background="@*android:color/monet_contextual_color_device_default"
             android:contentDescription="@string/preview_pager_content_description" />
     </com.google.android.material.card.MaterialCardView>
 

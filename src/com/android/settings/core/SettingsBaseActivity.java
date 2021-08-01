@@ -24,6 +24,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.pm.PackageManager;
+import android.content.res.MonetWannabe;
 import android.content.res.TypedArray;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -44,6 +45,7 @@ import com.android.settings.dashboard.CategoryManager;
 import com.android.settingslib.drawer.Tile;
 
 import com.google.android.material.appbar.AppBarLayout;
+import com.google.android.material.appbar.CollapsingToolbarLayout;
 import com.google.android.setupcompat.util.WizardManagerHelper;
 
 import java.util.ArrayList;
@@ -84,6 +86,14 @@ public class SettingsBaseActivity extends FragmentActivity {
             setTheme(R.style.LightTheme_SubSettings_SetupWizard);
         }
         super.setContentView(R.layout.settings_base_layout);
+
+        if (MonetWannabe.isMonetEnabled(this)) {
+            final CollapsingToolbarLayout clToolbar = findViewById(R.id.collapsing_toolbar);
+            int monetBackground = getResources().getColor(android.R.color.monet_background_device_default, getTheme());
+            clToolbar.setContentScrimColor(monetBackground);
+            clToolbar.setStatusBarScrimColor(monetBackground);
+            getWindow().setNavigationBarColor(monetBackground);
+        }
 
         final Toolbar toolbar = findViewById(R.id.action_bar);
         if (theme.getBoolean(android.R.styleable.Theme_windowNoTitle, false)) {

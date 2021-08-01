@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
         app:cardCornerRadius="?android:attr/dialogCornerRadius"
-        app:cardBackgroundColor="@color/contextual_card_background"
+        app:cardBackgroundColor="@*android:color/monet_contextual_color_device_default"
         app:strokeColor="@color/contextual_card_stroke_color"
         app:strokeWidth="@dimen/contextual_card_stroke_width"
         app:cardElevation="0dp">
@@ -107,7 +107,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
-        app:cardBackgroundColor="@color/contextual_card_background"
+        app:cardBackgroundColor="@*android:color/monet_contextual_color_device_default"
         app:cardCornerRadius="?android:attr/dialogCornerRadius"
         app:cardElevation="0dp"
         app:strokeColor="@color/contextual_card_stroke_color"

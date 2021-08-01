@@ -17,9 +17,11 @@
 <com.google.android.material.appbar.CollapsingToolbarLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/searchbar_toolbarlayout"
     android:layout_width="match_parent"
     android:layout_height="180dp"
-    android:background="?android:attr/colorPrimary"
+    android:background="@*android:color/monet_background_device_default"
+    android:backgroundTint="@*android:color/monet_background_device_default"
     app:collapsedTitleTextAppearance="@style/ToolbarText.Collapsed"
     app:contentScrim="?android:attr/colorPrimary"
     app:expandedTitleMarginStart="32dp"

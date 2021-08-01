@@ -21,7 +21,9 @@
     android:id="@+id/settings_homepage_container"
     android:fitsSystemWindows="true"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@*android:color/monet_background_device_default"
+    android:backgroundTint="@*android:color/monet_background_device_default">
 
     <androidx.core.widget.NestedScrollView
         android:id="@+id/main_content_scrollable_container"
@@ -47,7 +49,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:animateLayoutChanges="true"
-                android:background="?android:attr/windowBackground"/>
+                android:background="@*android:color/monet_background_device_default"
+    		android:backgroundTint="@*android:color/monet_background_device_default" />
 
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
@@ -56,7 +59,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:touchscreenBlocksFocus="false"
-        android:keyboardNavigationCluster="false">
+        android:keyboardNavigationCluster="false"
+        android:background="@*android:color/monet_background_device_default"
+        android:backgroundTint="@*android:color/monet_background_device_default">
         <include layout="@layout/search_bar"/>
     </com.google.android.material.appbar.AppBarLayout>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

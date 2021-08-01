@@ -32,10 +32,10 @@ open class AboutBaseCard : MaterialCardView {
         layout = RelativeLayout(context)
         layout.layoutParams = RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.MATCH_PARENT, RelativeLayout.LayoutParams.MATCH_PARENT)
         layout.setPadding(defaultPadding, (defaultPadding * 1.5).toInt(), defaultPadding, (defaultPadding * 1.5).toInt())
-        layout.setBackgroundColor(resources.getColor(R.color.contextual_card_background, context.theme))
+        layout.setBackgroundColor(resources.getColor(android.R.color.monet_contextual_color_device_default, context.theme))
         addView(layout)
         radius = defaultRadius.toFloat()
-        setCardBackgroundColor(resources.getColor(R.color.contextual_card_background, context.theme))
+        setCardBackgroundColor(resources.getColor(android.R.color.monet_contextual_color_device_default, context.theme))
         cardElevation = 0f
         strokeColor = resources.getColor(R.color.contextual_card_stroke_color, context.theme)
         strokeWidth = resources.getDimensionPixelSize(R.dimen.contextual_card_stroke_width)

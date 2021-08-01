@@ -54,7 +54,7 @@ class DeviceCardView : AboutBaseCard {
         card_summary.layoutParams = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT)
         linearLayout.addView(card_title)
         linearLayout.addView(card_summary)
-        linearLayout.setBackgroundColor(resources.getColor(R.color.search_bar_background, null))
+        linearLayout.setBackgroundColor(resources.getColor(android.R.color.monet_contextual_color_device_default, context.theme))
         layout.addView(linearLayout)
         a.recycle()
         layout.setOnClickListener {

@@ -22,6 +22,7 @@ import android.app.settings.SettingsEnums;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
+import android.content.res.MonetWannabe;
 import android.graphics.Bitmap;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
@@ -48,6 +49,8 @@ import com.android.settings.overlay.FeatureFactory;
 
 import com.android.settingslib.drawable.CircleFramedDrawable;
 
+import com.google.android.material.appbar.CollapsingToolbarLayout;
+
 public class SettingsHomepageActivity extends FragmentActivity {
 
     Context context;
@@ -66,6 +69,14 @@ public class SettingsHomepageActivity extends FragmentActivity {
         setHomepageContainerPaddingTop();
 
         Context context = getApplicationContext();
+
+        if (MonetWannabe.isMonetEnabled(context)) {
+            final CollapsingToolbarLayout searchBarToolbar = findViewById(R.id.searchbar_toolbarlayout);
+            int monetBackground = context.getResources().getColor(android.R.color.monet_background_device_default, context.getTheme());
+            searchBarToolbar.setBackgroundColor(monetBackground);
+            searchBarToolbar.setContentScrimColor(monetBackground);
+            searchBarToolbar.setStatusBarScrimColor(monetBackground);
+        }
 
         mUserManager = context.getSystemService(UserManager.class);
 

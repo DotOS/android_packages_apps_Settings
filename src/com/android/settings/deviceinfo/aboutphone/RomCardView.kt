@@ -80,7 +80,7 @@ class RomCardView(context: Context, attrs: AttributeSet?) : AboutBaseCard(contex
         linearLayout.layoutParams = lparamas
         linearLayout.addView(rom_title)
         linearLayout.addView(rom_version)
-        linearLayout.setBackgroundColor(resources.getColor(R.color.search_bar_background, null))
+        linearLayout.setBackgroundColor(resources.getColor(android.R.color.monet_contextual_color_device_default, context.theme))
         layout.addView(rom_logo, rlparams)
         layout.addView(linearLayout, lparamas)
     }
