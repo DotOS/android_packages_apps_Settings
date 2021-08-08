@@ -52,14 +52,14 @@
     <string name="dot_darkMode">Thème Sombre</string>
     <string name="cellular_data_title">Données mobiles</string>
     <string name="connected_tws_device_saved_title">Écouteurs sauvegardés</string>
-    <string name="mobile_data_settings_summary_unavailable">Aucune carte SIM valide</string>
+    <string name="mobile_data_settings_summary_unavailable">Aucune carte SIM disponible</string>
     <string name="unlock_scramble_pin_layout_title">Disposition aléatoire</string>
     <string name="unlock_scramble_pin_layout_summary">Disposer aléatoirement les touches lors du déverrouillage par code PIN</string>
     <string name="statusbar_tuner_title">Réglages de la barre d\'état</string>
     <string name="security_settings_face_settings_footer_custom">Le déverrouillage facial vous permet de déverrouiller votre appareil en le regardant. Gardez à l\'esprit :\n\n● Votre appareil peut être déverrouillé à chaque fois que vous le regardez.\n● Votre appareil peut être déverrouillé par quelqu\'un d\'autre s\'il le tient devant votre visage pendant que vos yeux sont ouverts.\n● Votre appareil peut également être déverrouillé par une personne qui vous ressemble beaucoup, comme un enfant ou vos frères et sœurs.</string>
     <string name="security_settings_face_settings_remove_dialog_details_custom">Les données enregistrées par le déverrouillage facial seront supprimées définitivement et de manière sécurisée. Après la suppression, vous aurez besoin de votre PIN, schéma ou mot de passe pour déverrouiller votre téléphone.</string>
-    <string name="security_settings_face_unlock_redo_face_scan_summary">Effacer le visage scanné existant et créer un nouveau scan</string>
-    <string name="security_settings_face_unlock_redo_face_scan_title">Scanner à nouveau le visage</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Supprimer l\'analyse faciale existante et refaire une nouvelle analyse</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Recommencer l\'analyse faciale</string>
     <string name="security_dashboard_summary_face_and_fingerprint">Verrouillage de l\'écran, empreinte digitale, déverrouillage facial</string>
     <string name="face_redo_confirm_btn">Refaire</string>
     <string name="face_redo_warning_msg">Voulez-vous effacer le visage scanné existant et en créer un nouveau ?</string>

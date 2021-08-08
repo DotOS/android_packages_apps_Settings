@@ -46,7 +46,7 @@
     <string name="binfo_stats">통계</string>
     <string name="dot_customizer_dashboard_title">커스터마이징</string>
     <string name="dot_customizer_dashboard_summary">나다운 기기 만들기</string>
-    <string name="dot_about_device_info">볍적 정보 &amp; 기기 정보</string>
+    <string name="dot_about_device_info">법적 정보 &amp; 기기 정보</string>
     <string name="dot_about_device_private">일련 번호</string>
     <string name="dot_lightMode">밝은 테마</string>
     <string name="dot_darkMode">어두운 테마</string>
