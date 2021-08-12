@@ -103,15 +103,19 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:paddingTop="8dp"
-            android:paddingBottom="8dp">
+            android:paddingTop="16dp"
+            android:paddingBottom="10dp">
 
             <Button
                 android:id="@+id/see_more"
                 style="@android:style/Widget.DeviceDefault.Button.Borderless.Colored"
                 android:layout_width="wrap_content"
-                android:layout_height="48dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:layout_marginStart="12dp"
+                android:layout_marginBottom="6dp"
+                android:background="@drawable/dot_rounded_button"
+                android:textColor="?android:attr/colorAccent"
                 android:text="@string/see_more"/>
 
             <Space
@@ -123,8 +127,12 @@
                 android:id="@+id/done"
                 style="@android:style/Widget.DeviceDefault.Button.Borderless.Colored"
                 android:layout_width="wrap_content"
-                android:layout_height="48dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:layout_marginEnd="12dp"
+                android:layout_marginBottom="6dp"
+                android:background="@drawable/dot_rounded_button"
+                android:textColor="?android:attr/colorAccent"
                 android:text="@string/done"/>
         </LinearLayout>
     </LinearLayout>
