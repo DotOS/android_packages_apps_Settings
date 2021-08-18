@@ -74,6 +74,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
+        android:alpha="0.2"
         android:background="?android:attr/listDivider"/>
 
         <com.android.settings.notification.history.NotificationHistoryRecyclerView

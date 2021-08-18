@@ -20,8 +20,8 @@
     android:layout_height="wrap_content"
     android:minHeight="?android:attr/listPreferredItemHeightSmall"
     android:gravity="center_vertical"
-    android:paddingStart="?android:attr/listPreferredItemPaddingStart"
-    android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+    android:paddingStart="32dp"
+    android:paddingEnd="32dp"
     android:clickable="false"
     android:orientation="horizontal">
 
@@ -29,16 +29,18 @@
         android:id="@+id/icon_frame"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:minWidth="56dp"
-        android:gravity="start|center_vertical"
+        android:layout_marginStart="8dp"
+        android:gravity="center"
         android:orientation="horizontal"
-        android:paddingEnd="12dp"
         android:paddingTop="4dp"
         android:paddingBottom="4dp">
         <com.android.internal.widget.PreferenceImageView
             android:id="@android:id/icon"
-            android:layout_width="24dp"
-            android:layout_height="24dp"/>
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:adjustViewBounds="true"
+            android:padding="6dp"
+            android:scaleType="fitCenter" />
     </LinearLayout>
 
     <LinearLayout
@@ -59,6 +61,7 @@
                 android:singleLine="true"
                 android:textAppearance="@*android:style/TextAppearance.Material.Subhead"
                 android:textColor="?android:attr/textColorPrimary"
+                android:textSize="17sp"
                 android:ellipsize="marquee"
                 android:fadingEdge="horizontal"/>
             <LinearLayout

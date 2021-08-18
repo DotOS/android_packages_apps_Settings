@@ -669,7 +669,8 @@
 
     <style name="TextAppearance.Tab" parent="@android:style/TextAppearance.DeviceDefault.Medium">
         <item name="android:textAllCaps">false</item>
-        <item name="android:textSize">14sp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
         <item name="android:fontFamily">@*android:string/config_headlineFontFamilyMedium</item>
     </style>
 
@@ -754,6 +755,7 @@
            parent="@android:style/Widget.DeviceDefault.PopupWindow">
         <item name="android:clipToPadding">true</item>
         <item name="android:clipChildren">true</item>
+        <item name="android:backgroundTint">@*android:color/monet_background_secondary_device_default</item>
     </style>
 
     <style name="PickerDialogTheme.Settings" parent="@*android:style/ThemeOverlay.Material.Dialog.DatePicker">

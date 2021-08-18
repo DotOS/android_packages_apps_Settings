@@ -29,6 +29,7 @@ import android.content.Context;
 import android.content.pm.PackageManager;
 import android.content.res.TypedArray;
 import android.graphics.Outline;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.os.RemoteException;
 import android.os.ServiceManager;
@@ -225,6 +226,7 @@ public class NotificationHistoryActivity extends Activity {
             actionBar.setDisplayHomeAsUpEnabled(true);
             actionBar.setHomeButtonEnabled(true);
             actionBar.setDisplayShowTitleEnabled(true);
+            actionBar.setBackgroundDrawable(new ColorDrawable(getResources().getColor(android.R.color.monet_background_device_default, getTheme())));
         }
     }
 

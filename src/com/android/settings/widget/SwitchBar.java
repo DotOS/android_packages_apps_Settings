@@ -41,6 +41,8 @@ import androidx.annotation.ColorInt;
 import androidx.annotation.StringRes;
 import androidx.annotation.VisibleForTesting;
 
+import com.google.android.material.card.MaterialCardView;
+
 import com.android.settings.R;
 import com.android.settings.overlay.FeatureFactory;
 import com.android.settingslib.RestrictedLockUtils;
@@ -72,6 +74,7 @@ public class SwitchBar extends LinearLayout implements CompoundButton.OnCheckedC
     private final MetricsFeatureProvider mMetricsFeatureProvider;
     private final TextAppearanceSpan mSummarySpan;
 
+    private MaterialCardView mBackgroundCard;
     private ToggleSwitch mSwitch;
     private ImageView mRestrictedIcon;
     private TextView mTextView;
@@ -88,6 +91,7 @@ public class SwitchBar extends LinearLayout implements CompoundButton.OnCheckedC
     private boolean mDisabledByAdmin;
     private EnforcedAdmin mEnforcedAdmin = null;
     private String mMetricsTag;
+
 
 
     public SwitchBar(Context context) {
@@ -118,10 +122,12 @@ public class SwitchBar extends LinearLayout implements CompoundButton.OnCheckedC
         final Drawable restrictedIconDrawable = a.getDrawable(4);
         a.recycle();
 
+        mBackgroundCard = findViewById(R.id.switch_background);
         mTextView = findViewById(R.id.switch_text);
         mSummarySpan = new TextAppearanceSpan(mContext, R.style.TextAppearance_Small_SwitchBar);
-        ViewGroup.MarginLayoutParams lp = (MarginLayoutParams) mTextView.getLayoutParams();
+        ViewGroup.MarginLayoutParams lp = (MarginLayoutParams) mBackgroundCard.getLayoutParams();
         lp.setMarginStart(switchBarMarginStart);
+        lp.setMarginEnd(switchBarMarginEnd);
 
         mSwitch = findViewById(R.id.switch_widget);
         // Prevent onSaveInstanceState() to be called as we are managing the state of the Switch
@@ -131,9 +137,8 @@ public class SwitchBar extends LinearLayout implements CompoundButton.OnCheckedC
         mSwitch.setFocusable(false);
         mSwitch.setClickable(false);
 
-        lp = (MarginLayoutParams) mSwitch.getLayoutParams();
-        lp.setMarginEnd(switchBarMarginEnd);
-        setBackgroundColor(mBackgroundColor);
+        setBackgroundColor(getResources().getColor(android.R.color.monet_background_device_default, context.getTheme()));
+        setCardBackgroundColor(mBackgroundColor);
 
         setSwitchBarText(R.string.switch_on_text, R.string.switch_off_text);
 
@@ -165,6 +170,10 @@ public class SwitchBar extends LinearLayout implements CompoundButton.OnCheckedC
         mMetricsFeatureProvider = FeatureFactory.getFactory(context).getMetricsFeatureProvider();
     }
 
+    private void setCardBackgroundColor(int color) {
+        mBackgroundCard.setCardBackgroundColor(color);
+    }
+
     // Override the performClick method to eliminate redundant click.
     @Override
     public boolean performClick() {
@@ -177,7 +186,7 @@ public class SwitchBar extends LinearLayout implements CompoundButton.OnCheckedC
 
     public void setTextViewLabelAndBackground(boolean isChecked) {
         mLabel = isChecked ? mOnText : mOffText;
-        setBackgroundColor(isChecked ? mBackgroundActivatedColor : mBackgroundColor);
+        setCardBackgroundColor(isChecked ? mBackgroundActivatedColor : mBackgroundColor);
         updateText();
     }
 

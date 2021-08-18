@@ -21,6 +21,8 @@
     android:minHeight="?android:attr/listPreferredItemHeightSmall"
     android:gravity="center_vertical"
     android:background="@android:color/transparent"
+    android:paddingStart="32dp"
+    android:paddingEnd="32dp"
     android:clipToPadding="false">
 
     <LinearLayout
@@ -37,7 +39,7 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:minWidth="56dp"
-            android:layout_marginEnd="16dp"
+            android:layout_marginEnd="8dp"
             android:orientation="vertical">
             <RadioButton
                 android:id="@android:id/checkbox"
@@ -62,7 +64,8 @@
                 android:layout_height="wrap_content"
                 android:singleLine="true"
                 android:textAppearance="?android:attr/textAppearanceListItem"
-                android:ellipsize="marquee" />
+                android:ellipsize="marquee"
+                android:textSize="17sp" />
 
             <TextView
                 android:id="@android:id/summary"
@@ -72,7 +75,8 @@
                 android:layout_alignStart="@android:id/title"
                 android:textAppearance="?android:attr/textAppearanceListItemSecondary"
                 android:textColor="?android:attr/textColorSecondary"
-                android:maxLines="10" />
+                android:maxLines="10" 
+                android:layout_marginTop="2dp" />
 
         </RelativeLayout>
     </LinearLayout>
@@ -83,7 +87,7 @@
         android:id="@android:id/widget_frame"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:gravity="center"
+        android:gravity="center_vertical|end"
         android:minWidth="64dp"
         android:orientation="vertical" />
 

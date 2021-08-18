@@ -20,8 +20,8 @@
     android:id="@+id/searchbar_toolbarlayout"
     android:layout_width="match_parent"
     android:layout_height="180dp"
-    android:background="@*android:color/monet_background_device_default"
-    android:backgroundTint="@*android:color/monet_background_device_default"
+    android:background="?android:attr/colorBackground"
+    android:backgroundTint="?android:attr/colorBackground"
     app:collapsedTitleTextAppearance="@style/ToolbarText.Collapsed"
     app:contentScrim="?android:attr/colorPrimary"
     app:expandedTitleMarginStart="32dp"
@@ -35,7 +35,7 @@
     <Toolbar
         android:id="@+id/action_bar"
         android:layout_width="match_parent"
-        android:layout_height="64dp"
+        android:layout_height="?android:attr/actionBarSize"
         android:paddingStart="28dp"
         android:theme="?android:attr/actionBarTheme"
         android:title="@string/settings_label"
@@ -56,16 +56,17 @@
 
         <ImageView
             android:id="@+id/account_avatar"
-            android:layout_width="28dp"
-            android:layout_height="28dp"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
             android:layout_gravity="center_vertical|end"
-            android:layout_marginEnd="16dp"
+            android:layout_marginEnd="24dp"
+            android:padding="4dp"
             android:background="@android:color/transparent" />
 
         <ImageButton
             android:id="@+id/search_action_launch"
-            android:layout_width="28dp"
-            android:layout_height="28dp"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
             android:layout_gravity="center_vertical|end"
             android:layout_marginEnd="32dp"
             android:background="@android:color/transparent"

@@ -23,24 +23,26 @@
     android:layout_height="wrap_content"
     android:minHeight="56dp"
     android:gravity="center_vertical"
-    android:paddingEnd="?android:attr/scrollbarSize">
+    android:paddingStart="?android:attr/listPreferredItemPaddingStart"
+    android:paddingEnd="32dp">
     
     <ImageView
         android:id="@+id/icon"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="6dip"
-        android:layout_marginEnd="6dip"
-        android:layout_gravity="center"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:adjustViewBounds="true"
+        android:layout_marginStart="8dp"
+        android:padding="6dp"
+        android:scaleType="fitCenter"
         android:contentDescription="@null" />
 
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="2dip"
+        android:layout_marginStart="16dp"
         android:layout_marginEnd="6dip"
-        android:layout_marginTop="6dip"
-        android:layout_marginBottom="6dip"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
         android:layout_weight="1">
 
         <TextView android:id="@android:id/title"
@@ -48,6 +50,7 @@
             android:layout_height="wrap_content"
             android:singleLine="true"
             android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="17sp"
             android:ellipsize="marquee"
             android:fadingEdge="horizontal" />
 
@@ -57,6 +60,8 @@
             android:layout_below="@android:id/title"
             android:layout_alignStart="@android:id/title"
             android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="?android:attr/textColorSecondary"
+            android:layout_marginTop="2dp"
             android:maxLines="2" />
 
     </RelativeLayout>

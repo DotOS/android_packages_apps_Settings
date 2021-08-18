@@ -53,9 +53,6 @@
         android:layout="@layout/horizontal_preference"
         android:title="@string/free_memory" />
 
-    <com.android.settings.applications.SpacePreference
-        android:layout_height="15dp" />
-
     <Preference
         android:key="apps_list"
         android:title="@string/memory_usage_apps" />
