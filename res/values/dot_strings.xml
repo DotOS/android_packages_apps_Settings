@@ -251,4 +251,7 @@
 
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Screenshot sound</string>
+
+    <!-- Used in SetupWizard Wi-Fi network selection page [CHAR LIMIT=60] -->
+    <string name="wifi_setup_wizard_title">Select Wi\u2011Fi network</string>
 </resources>
