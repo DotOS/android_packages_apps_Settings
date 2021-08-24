@@ -68,6 +68,19 @@
     </Preference>
 
     <Preference
+        android:icon="@drawable/ic_homepage_dot_gaming"
+        android:key="top_level_gaming_mode"
+        android:order="-159"
+        android:summary="@string/dot_gaming_mode_dashboard_summary"
+        android:title="@string/dot_gaming_mode_dashboard_title"
+        settings:layout="@layout/dot_preference_dashboard">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.dot.gamedashboard.Launcher"
+            android:targetPackage="com.android.settings.dotextras" />
+    </Preference>
+
+    <Preference
         android:fragment="com.android.settings.DisplaySettings"
         android:icon="@drawable/ic_homepage_display"
         android:key="top_level_display"
