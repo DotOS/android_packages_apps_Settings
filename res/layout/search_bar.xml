@@ -28,7 +28,7 @@
     app:expandedTitleTextAppearance="@style/ToolbarText.Expanded"
     app:expandedTitleMarginBottom="22dp"
     app:maxLines="2"
-    app:layout_scrollFlags="scroll|exitUntilCollapsed"
+    app:layout_scrollFlags="scroll|exitUntilCollapsed|snap"
     app:statusBarScrim="?android:attr/colorPrimary"
     app:toolbarId="@+id/action_bar">
 
@@ -43,7 +43,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="64dp"
+        android:layout_height="?android:attr/actionBarSize"
         android:layout_gravity="bottom"
         android:gravity="center_vertical"
         android:background="@android:color/transparent"
