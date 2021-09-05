@@ -20,6 +20,7 @@ import static com.android.settingslib.RestrictedLockUtils.EnforcedAdmin;
 
 import android.app.settings.SettingsEnums;
 import android.content.Context;
+import android.content.res.ColorStateList;
 import android.content.res.TypedArray;
 import android.graphics.drawable.Drawable;
 import android.os.Parcel;
@@ -40,8 +41,6 @@ import android.widget.TextView;
 import androidx.annotation.ColorInt;
 import androidx.annotation.StringRes;
 import androidx.annotation.VisibleForTesting;
-
-import com.google.android.material.card.MaterialCardView;
 
 import com.android.settings.R;
 import com.android.settings.overlay.FeatureFactory;
@@ -74,7 +73,7 @@ public class SwitchBar extends LinearLayout implements CompoundButton.OnCheckedC
     private final MetricsFeatureProvider mMetricsFeatureProvider;
     private final TextAppearanceSpan mSummarySpan;
 
-    private MaterialCardView mBackgroundCard;
+    private View mBackgroundCard;
     private ToggleSwitch mSwitch;
     private ImageView mRestrictedIcon;
     private TextView mTextView;
@@ -91,7 +90,6 @@ public class SwitchBar extends LinearLayout implements CompoundButton.OnCheckedC
     private boolean mDisabledByAdmin;
     private EnforcedAdmin mEnforcedAdmin = null;
     private String mMetricsTag;
-
 
 
     public SwitchBar(Context context) {
@@ -132,6 +130,7 @@ public class SwitchBar extends LinearLayout implements CompoundButton.OnCheckedC
         mSwitch = findViewById(R.id.switch_widget);
         // Prevent onSaveInstanceState() to be called as we are managing the state of the Switch
         // on our own
+        mBackgroundCard.setSaveEnabled(false);
         mSwitch.setSaveEnabled(false);
         // Set the ToggleSwitch non-focusable and non-clickable to avoid multiple focus.
         mSwitch.setFocusable(false);
@@ -171,7 +170,7 @@ public class SwitchBar extends LinearLayout implements CompoundButton.OnCheckedC
     }
 
     private void setCardBackgroundColor(int color) {
-        mBackgroundCard.setCardBackgroundColor(color);
+        mBackgroundCard.setBackgroundTintList(ColorStateList.valueOf(color));
     }
 
     // Override the performClick method to eliminate redundant click.
