@@ -50,6 +50,7 @@
                     android:id="@android:id/icon"
                     android:layout_width="38dp"
                     android:layout_height="38dp"
+                    android:padding="6dp"
                     android:adjustViewBounds="true" />
             </LinearLayout>
 

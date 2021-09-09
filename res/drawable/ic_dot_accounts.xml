@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2021 The DotOS Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:pathData="M12,1C5.928,1 1,5.928 1,12C1,18.072 5.928,23 12,23C18.072,23 23,18.072 23,12C23,5.928 18.072,1 12,1ZM6.577,18.908C7.05,17.918 9.932,16.95 12,16.95C14.068,16.95 16.961,17.918 17.423,18.908C15.927,20.096 14.046,20.8 12,20.8C9.954,20.8 8.073,20.096 6.577,18.908ZM18.996,17.313C17.423,15.399 13.606,14.75 12,14.75C10.394,14.75 6.577,15.399 5.004,17.313C3.882,15.839 3.2,14.002 3.2,12C3.2,7.149 7.149,3.2 12,3.2C16.851,3.2 20.8,7.149 20.8,12C20.8,14.002 20.118,15.839 18.996,17.313ZM12,5.4C9.866,5.4 8.15,7.116 8.15,9.25C8.15,11.384 9.866,13.1 12,13.1C14.134,13.1 15.85,11.384 15.85,9.25C15.85,7.116 14.134,5.4 12,5.4ZM12,10.9C11.087,10.9 10.35,10.163 10.35,9.25C10.35,8.337 11.087,7.6 12,7.6C12.913,7.6 13.65,8.337 13.65,9.25C13.65,10.163 12.913,10.9 12,10.9Z"
+        android:fillColor="?android:attr/colorAccent"/>
+    <path
+        android:pathData="M12.0002,14.7507C13.6062,14.7507 17.4232,15.3997 18.9962,17.3137C20.1182,15.8397 20.8002,14.0027 20.8002,12.0007C20.8002,7.1497 16.8512,3.2007 12.0002,3.2007C7.1492,3.2007 3.2002,7.1497 3.2002,12.0007C3.2002,14.0027 3.8822,15.8397 5.0042,17.3137C6.5772,15.3997 10.3942,14.7507 12.0002,14.7507ZM8.1502,9.2507C8.1502,7.1167 9.8662,5.4007 12.0002,5.4007C14.1342,5.4007 15.8502,7.1167 15.8502,9.2507C15.8502,11.3847 14.1342,13.1007 12.0002,13.1007C9.8662,13.1007 8.1502,11.3847 8.1502,9.2507Z"
+        android:strokeAlpha="0.3"
+        android:fillColor="?android:attr/colorAccent"
+        android:fillType="evenOdd"
+        android:fillAlpha="0.3"/>
+</vector>

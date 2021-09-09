@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2021 The DotOS Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillAlpha="0.3"
+        android:fillColor="?android:attr/colorAccent"
+        android:pathData="M16.5423,4.2767H15.2262C14.9014,4.2767 14.638,4.0133 14.638,3.6884V2.5882C14.638,2.2634 14.3746,2 14.0498,2H10.009C9.6842,2 9.4208,2.2634 9.4208,2.5882V3.6884C9.4208,4.0133 9.1574,4.2767 8.8326,4.2767H7.5166C6.6842,4.2767 6,4.9597 6,5.7907V20.4746C6,21.317 6.6842,22 7.5166,22H16.5309C17.3747,22 18.0588,21.317 18.0588,20.486V5.7907C18.0588,4.9597 17.3747,4.2767 16.5423,4.2767Z"
+        android:strokeAlpha="0.3" />
+    <path
+        android:fillColor="?android:attr/colorAccent"
+        android:fillType="evenOdd"
+        android:pathData="M15.7059,6.6296H15.2262C13.8304,6.6296 12.6617,5.6572 12.3604,4.3529H11.6984C11.3972,5.6572 10.2284,6.6296 8.8326,6.6296H8.3529V19.6471H15.7059V6.6296ZM15.2262,4.2767H16.5423C17.3747,4.2767 18.0588,4.9597 18.0588,5.7907V20.486C18.0588,21.317 17.3747,22 16.5309,22H7.5166C6.6842,22 6,21.317 6,20.4746V5.7907C6,4.9597 6.6842,4.2767 7.5166,4.2767H8.8326C9.1574,4.2767 9.4208,4.0133 9.4208,3.6884V2.5882C9.4208,2.2634 9.6842,2 10.009,2H14.0498C14.3746,2 14.638,2.2634 14.638,2.5882V3.6884C14.638,4.0133 14.9014,4.2767 15.2262,4.2767Z" />
+    <path
+        android:fillColor="?android:attr/colorAccent"
+        android:pathData="M7.7646,4.353h8.8235v2.3529h-8.8235z" />
+</vector>
