@@ -209,24 +209,4 @@
         android:fragment="com.android.settings.display.ToggleFontSizePreferenceFragment"
         settings:controller="com.android.settings.display.FontSizePreferenceController" />
 
-    <PreferenceCategory
-        android:key="theme_customization_category"
-        android:layout="@layout/dot_preference_category"
-        android:title="@string/theme_customization_category"
-        android:order="1200">
-
-        <ListPreference
-            android:key="android.theme.customization.accent_color"
-            android:layout="@layout/dot_preference_top_card"
-            android:title="@string/theme_customization_accent_color_title"/>
-        <ListPreference
-            android:key="android.theme.customization.font"
-            android:layout="@layout/dot_preference_middle_card"
-            android:title="@string/theme_customization_font_title"/>
-        <ListPreference
-            android:key="android.theme.customization.adaptive_icon_shape"
-            android:layout="@layout/dot_preference_bottom_card"
-            android:title="@string/theme_customization_icon_shape_title"/>
-    </PreferenceCategory>
-
 </PreferenceScreen>
