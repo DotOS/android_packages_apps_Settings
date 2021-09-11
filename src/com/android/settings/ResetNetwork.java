@@ -52,6 +52,8 @@ import com.android.settingslib.RestrictedLockUtils.EnforcedAdmin;
 import com.android.settingslib.RestrictedLockUtilsInternal;
 import com.android.settingslib.development.DevelopmentSettingsEnabler;
 
+import com.google.android.material.appbar.AppBarLayout;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -160,10 +162,14 @@ public class ResetNetwork extends InstrumentedFragment {
      * to change contents.
      */
     private void establishInitialState() {
+        final Activity activity = getActivity();
+        if (activity != null) {
+            ((AppBarLayout) activity.findViewById(R.id.baseAppBar)).setExpanded(false);
+        }
         mSubscriptionSpinner = (Spinner) mContentView.findViewById(R.id.reset_network_subscription);
         mEsimContainer = mContentView.findViewById(R.id.erase_esim_container);
         mEsimCheckbox = mContentView.findViewById(R.id.erase_esim);
-
+        
         mSubscriptions = SubscriptionManager.from(getActivity())
                 .getActiveSubscriptionInfoList();
         if (mSubscriptions != null && mSubscriptions.size() > 0) {

@@ -31,6 +31,8 @@
         <item name="wifi_friction">@drawable/wifi_friction</item>
         <item name="preferenceBackgroundColor">?android:attr/colorBackground</item>
         <item name="preferenceTheme">@style/PreferenceTheme.SetupWizard</item>
+        <item name="android:navigationBarColor">?android:attr/colorBackground</item>
+        <item name="android:statusBarColor">?android:attr/colorBackground</item>
 
         <!-- LockPatternView colors -->
         <item name="*android:lockPatternStyle">@style/LockPatternStyle.Setup</item>
@@ -50,6 +52,8 @@
         <item name="wifi_friction">@drawable/wifi_friction</item>
         <item name="preferenceBackgroundColor">?android:attr/colorBackground</item>
         <item name="preferenceTheme">@style/PreferenceTheme.SetupWizard</item>
+        <item name="android:navigationBarColor">?android:attr/colorBackground</item>
+        <item name="android:statusBarColor">?android:attr/colorBackground</item>
 
         <item name="*android:lockPatternStyle">@style/LockPatternStyle.Setup</item>
     </style>
@@ -68,6 +72,8 @@
         <item name="wifi_friction">@drawable/wifi_friction</item>
         <item name="preferenceBackgroundColor">?android:attr/colorBackground</item>
         <item name="preferenceTheme">@style/PreferenceTheme.SetupWizard</item>
+        <item name="android:navigationBarColor">?android:attr/colorBackground</item>
+        <item name="android:statusBarColor">?android:attr/colorBackground</item>
 
         <!-- LockPatternView colors -->
         <item name="*android:lockPatternStyle">@style/LockPatternStyle.Setup</item>
@@ -86,6 +92,8 @@
         <item name="wifi_signal">@drawable/wifi_signal</item>
         <item name="wifi_friction">@drawable/wifi_friction</item>
         <item name="preferenceBackgroundColor">?android:attr/colorBackground</item>
+        <item name="android:navigationBarColor">?android:attr/colorBackground</item>
+        <item name="android:statusBarColor">?android:attr/colorBackground</item>
         <item name="preferenceTheme">@style/PreferenceTheme.SetupWizard</item>
 
         <item name="*android:lockPatternStyle">@style/LockPatternStyle.Setup</item>
@@ -104,6 +112,8 @@
         <item name="wifi_signal">@drawable/wifi_signal</item>
         <item name="wifi_friction">@drawable/wifi_friction</item>
         <item name="preferenceBackgroundColor">?android:attr/colorBackground</item>
+        <item name="android:navigationBarColor">?android:attr/colorBackground</item>
+        <item name="android:statusBarColor">?android:attr/colorBackground</item>
         <item name="preferenceTheme">@style/PreferenceTheme.SetupWizard</item>
 
         <!-- LockPatternView colors -->
@@ -129,6 +139,8 @@
         <item name="wifi_friction">@drawable/wifi_friction</item>
         <item name="preferenceBackgroundColor">?android:attr/colorBackground</item>
         <item name="preferenceTheme">@style/PreferenceTheme.SetupWizard</item>
+        <item name="android:navigationBarColor">?android:attr/colorBackground</item>
+        <item name="android:statusBarColor">?android:attr/colorBackground</item>
 
         <item name="*android:lockPatternStyle">@style/LockPatternStyle.Setup</item>
     </style>

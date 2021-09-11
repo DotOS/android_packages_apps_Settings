@@ -54,6 +54,8 @@ import com.android.settings.core.InstrumentedFragment;
 import com.android.settings.enterprise.ActionDisabledByAdminDialogHelper;
 import com.android.settingslib.RestrictedLockUtilsInternal;
 
+import com.google.android.material.appbar.AppBarLayout;
+
 import com.google.android.setupcompat.template.FooterBarMixin;
 import com.google.android.setupcompat.template.FooterButton;
 import com.google.android.setupcompat.template.FooterButton.ButtonType;
@@ -311,6 +313,8 @@ public class MasterClearConfirm extends InstrumentedFragment {
             return;
         }
         actionBar.hide();
+        activity.findViewById(R.id.action_bar).setVisibility(View.GONE);
+        ((AppBarLayout) activity.findViewById(R.id.baseAppBar)).setExpanded(false);
         activity.getWindow().setStatusBarColor(Color.TRANSPARENT);
     }
 

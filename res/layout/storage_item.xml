@@ -20,9 +20,7 @@
               android:orientation="vertical"
               android:minHeight="?android:attr/listPreferredItemHeightSmall"
               android:gravity="center_vertical"
-              android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
-              android:paddingTop="14dp"
-              android:paddingBottom="14dp"
+              android:paddingEnd="32dp"
               android:background="?android:attr/selectableItemBackground"
               android:clipToPadding="false">
 
@@ -35,25 +33,31 @@
         android:paddingStart="?android:attr/listPreferredItemPaddingStart">
 
         <LinearLayout
-            android:id="@+id/icon_frame"
+            android:id="@android:id/icon_frame"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:gravity="start|center_vertical"
-            android:minWidth="56dp"
+            android:layout_marginStart="8dp"
+            android:gravity="center"
             android:orientation="horizontal"
             android:paddingTop="4dp"
             android:paddingBottom="4dp">
+
             <com.android.internal.widget.PreferenceImageView
                 android:id="@android:id/icon"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:maxWidth="24dp"
-                android:maxHeight="24dp"/>
+                android:layout_width="38dp"
+                android:layout_height="38dp"
+                android:adjustViewBounds="true"
+                android:padding="6dp"
+                android:scaleType="fitCenter" />
         </LinearLayout>
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_weight="1"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
             android:gravity="center_vertical" >
 
             <TextView
@@ -61,7 +65,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:singleLine="true"
-                android:textAppearance="@*android:style/TextAppearance.DeviceDefault.Subhead"
+                android:textAppearance="?android:attr/textAppearanceListItem"
+                android:textSize="17sp"
                 android:textAlignment="viewStart"
                 android:ellipsize="marquee"
                 android:fadingEdge="horizontal" />
@@ -71,7 +76,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAlignment="viewStart"
-                android:textAppearance="@*android:style/TextAppearance.DeviceDefault.Body1"
+                android:textAppearance="?android:attr/textAppearanceListItemSecondary"
                 android:textColor="?android:attr/textColorSecondary"
                 android:maxLines="10"
                 android:layout_alignParentEnd="true"/>
@@ -79,13 +84,16 @@
             <ProgressBar
                 android:id="@android:id/progress"
                 android:layout_width="match_parent"
-                android:layout_height="8dp"
+                android:layout_height="16dp"
                 android:layout_marginTop="12dp"
                 android:layout_marginBottom="4dp"
                 android:max="100"
                 android:layout_below="@android:id/title"
                 android:layout_alignStart="@android:id/title"
-                style="?android:attr/progressBarStyleHorizontal" />
+                style="?android:attr/progressBarStyleHorizontal"
+                android:background="@android:color/transparent"
+                android:paddingStart="0dp"
+                android:progressDrawable="@drawable/dot_perf_progress" />
         </RelativeLayout>
     </LinearLayout>
 </LinearLayout>

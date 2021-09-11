@@ -416,9 +416,18 @@
         <item name="android:progressDrawable">@drawable/ring_progress</item>
     </style>
 
-    <style name="ActionPrimaryButton" parent="android:Widget.DeviceDefault.Button.Colored"/>
+    <style name="ActionPrimaryButton" parent="android:Widget.DeviceDefault.Button.Colored">
+        <item name="android:background">@drawable/dot_rounded_button</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:textColor">?android:attr/colorAccent</item>
+    </style>
 
-    <style name="ActionSecondaryButton" parent="android:Widget.DeviceDefault.Button"/>
+    <style name="ActionSecondaryButton" parent="ActionPrimaryButton">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
 
     <style name="LockPatternContainerStyle">
         <item name="android:maxHeight">400dp</item>

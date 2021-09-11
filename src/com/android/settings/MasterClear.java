@@ -71,6 +71,8 @@ import com.google.android.setupcompat.template.FooterButton;
 import com.google.android.setupcompat.template.FooterButton.ButtonType;
 import com.google.android.setupdesign.GlifLayout;
 
+import com.google.android.material.appbar.AppBarLayout;
+
 import java.util.List;
 
 /**
@@ -127,6 +129,8 @@ public class MasterClear extends InstrumentedFragment implements OnGlobalLayoutL
             return;
         }
         actionBar.hide();
+        activity.findViewById(R.id.action_bar).setVisibility(View.GONE);
+        ((AppBarLayout) activity.findViewById(R.id.baseAppBar)).setExpanded(false);
         activity.getWindow().setStatusBarColor(Color.TRANSPARENT);
     }
 

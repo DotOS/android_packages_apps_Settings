@@ -60,6 +60,7 @@
 
     <PreferenceCategory
         android:key="zen_mode_settings_advanced"
+        android:title="@string/advanced_section_header"
         settings:initialExpandedChildrenCount="0">
 
         <!-- DND duration settings -->

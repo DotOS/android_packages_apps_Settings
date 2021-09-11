@@ -13,46 +13,58 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-
-<LinearLayout
+<androidx.core.widget.NestedScrollView 
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical" >
-    <ScrollView
+    android:layout_height="match_parent">
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dip"
-        android:layout_marginStart="@dimen/reset_network_margin_start"
-        android:layout_marginEnd="@dimen/reset_network_margin_end"
-        android:layout_marginTop="12dp"
-        android:layout_weight="1">
-        <LinearLayout
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-            <TextView
+            android:layout_height="0dip"
+            android:layout_marginStart="@dimen/reset_network_margin_start"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="@dimen/reset_network_margin_end"
+            android:layout_weight="1">
+
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="18sp"
-                android:textDirection="locale"
-                android:text="@string/reset_network_desc" />
-            <include layout="@layout/reset_esim_checkbox"/>
-        </LinearLayout>
-    </ScrollView>
-    <Spinner android:id="@+id/reset_network_subscription"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-    <Button
-        android:id="@+id/initiate_reset_network"
-        android:layout_gravity="end"
-        android:layout_marginEnd="@dimen/suc_customization_button_margin_end"
-        android:layout_marginTop="20dp"
-        android:layout_marginBottom="12dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/reset_network_button_text"
-        android:gravity="center"
-        style="@style/ActionPrimaryButton"/>
-</LinearLayout>
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/reset_network_desc"
+                    android:textDirection="locale"
+                    android:textSize="18sp" />
+
+                <include layout="@layout/reset_esim_checkbox" />
+            </LinearLayout>
+        </ScrollView>
+
+        <Spinner
+            android:id="@+id/reset_network_subscription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:id="@+id/initiate_reset_network"
+            style="@style/ActionPrimaryButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="@dimen/suc_customization_button_margin_end"
+            android:layout_marginBottom="12dp"
+            android:gravity="center"
+            android:text="@string/reset_network_button_text" />
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
