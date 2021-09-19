@@ -61,11 +61,11 @@ import android.widget.CompoundButton;
 import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.EditText;
 import android.widget.ImageButton;
-import android.widget.ScrollView;
 import android.widget.Spinner;
 import android.widget.TextView;
 
 import androidx.annotation.VisibleForTesting;
+import androidx.core.widget.NestedScrollView;
 
 import com.android.settings.ProxySelector;
 import com.android.settings.R;
@@ -161,7 +161,7 @@ public class WifiConfigController2 implements TextWatcher,
     private String mUseSystemCertsString;
     private String mDoNotProvideEapUserCertString;
 
-    private ScrollView mDialogContainer;
+    private NestedScrollView mDialogContainer;
     private Spinner mSecuritySpinner;
     @VisibleForTesting Spinner mEapMethodSpinner;
     private int mLastShownEapMethod;
