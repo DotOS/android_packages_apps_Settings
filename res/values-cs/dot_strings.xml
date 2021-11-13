@@ -141,6 +141,10 @@
     <string name="increasing_ring_ramp_up_time_title">Doba zesilování</string>
     <string name="top_level_connectivity">Připojení</string>
     <string name="top_level_personalize">Personalizace</string>
-    <string name="top_level_security">@string/security_settings_title</string>
     <string name="top_level_others">Další</string>
+    <string name="security_settings_face_require_swipe">Přejetím prstu nahoru odemknout</string>
+    <string name="security_settings_face_require_swipe_summary">Chcete-li použít odemknutí obličeje, přejeďte prstem nahoru po zamykací obrazovce</string>
+    <string name="face_unlock_method_title">Povolit odemknutí obličejem na obrazovce uzamčení</string>
+    <string name="face_unlock_method_default">Když je obrazovka zapnutá</string>
+    <string name="face_unlock_method_swipe">Při přejetí prstem na uzamčené obrazovce</string>
 </resources>

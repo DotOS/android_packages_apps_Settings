@@ -109,7 +109,7 @@
     <string name="color_green_title">緑</string>
     <string name="color_blue_title">青</string>
     <string name="picture_adjustment_title">画像調整</string>
-    <string name="picture_adjustment_summary">色彩・彩度・輝度・コントラストを調整する</string>
+    <string name="picture_adjustment_summary">色相・彩度・輝度・コントラストを調整する</string>
     <string name="adj_hue_title">色相</string>
     <string name="adj_saturation_title">彩度</string>
     <string name="adj_intensity_title">輝度</string>
@@ -141,6 +141,10 @@
     <string name="increasing_ring_ramp_up_time_title">増幅時間</string>
     <string name="top_level_connectivity">接続</string>
     <string name="top_level_personalize">パーソナライズ</string>
-    <string name="top_level_security">@string/security_settings_title</string>
     <string name="top_level_others">その他</string>
+    <string name="security_settings_face_require_swipe">上にスワイプしてロック解除</string>
+    <string name="security_settings_face_require_swipe_summary">ロック画面を上にスワイプして顔認識を使用する</string>
+    <string name="face_unlock_method_title">ロック画面での顔認証ロック解除を許可</string>
+    <string name="face_unlock_method_default">画面が点灯した時</string>
+    <string name="face_unlock_method_swipe">ロック画面をスワイプした時</string>
 </resources>

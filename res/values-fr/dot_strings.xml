@@ -141,6 +141,10 @@
     <string name="increasing_ring_ramp_up_time_title">Durée d\'augmentation</string>
     <string name="top_level_connectivity">Connectivité</string>
     <string name="top_level_personalize">Personnaliser</string>
-    <string name="top_level_security">@string/security_settings_title</string>
     <string name="top_level_others">Autres</string>
+    <string name="security_settings_face_require_swipe">Glisser vers le haut pour déverrouiller</string>
+    <string name="security_settings_face_require_swipe_summary">Glisser vers le haut sur l\'écran de verrouillage pour utiliser le déverrouillage facial</string>
+    <string name="face_unlock_method_title">Autoriser la reconnaissance faciale sur l\'écran de verrouillage</string>
+    <string name="face_unlock_method_default">Quand l\'écran est allumé</string>
+    <string name="face_unlock_method_swipe">En faisant glisser sur l\'écran de verrouillage</string>
 </resources>

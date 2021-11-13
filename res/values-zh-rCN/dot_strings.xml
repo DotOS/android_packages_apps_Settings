@@ -141,6 +141,10 @@
     <string name="increasing_ring_ramp_up_time_title">铃声渐强时长</string>
     <string name="top_level_connectivity">连通性</string>
     <string name="top_level_personalize">个性化</string>
-    <string name="top_level_security">@string/security_settings_title</string>
     <string name="top_level_others">其它</string>
+    <string name="security_settings_face_require_swipe">向上滑动以解锁</string>
+    <string name="security_settings_face_require_swipe_summary">在锁屏界面上向上滑动以使用面部解锁</string>
+    <string name="face_unlock_method_title">允许在锁定屏幕使用面部解锁</string>
+    <string name="face_unlock_method_default">当屏幕开启时</string>
+    <string name="face_unlock_method_swipe">在锁屏界面上滑动时</string>
 </resources>

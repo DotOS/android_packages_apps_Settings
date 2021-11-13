@@ -27,7 +27,7 @@
     <string name="platform_revision">Платформа</string>
     <string name="total_ram">Всего ОЗУ</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Найдите сканер отпечатков пальцев на задней панели вашего телефона.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Найдите сканер отпечатков пальцев на задней панели вашего телефона.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Найдите сканер отпечатков пальцев на левой грани вашего телефона.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Найдите сканер отпечатков пальцев на правой грани вашего телефона.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Найдите сканер отпечатков пальцев на задней поверхности телефона.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Найдите сканер отпечатков пальцев на левой грани вашего устройства.</string>
@@ -42,57 +42,57 @@
     <string name="storage_card_title">Хранилище</string>
     <string name="storage_card_info">Занято</string>
     <string name="about_device_rom_title">DotOS %s</string>
-    <string name="about_device_nearby">Имя устройства может и будет видно близлежащими устройствами.</string>
-    <string name="binfo_stats">Показатели</string>
-    <string name="dot_customizer_dashboard_title">Твики системы</string>
-    <string name="dot_customizer_dashboard_summary">Персонализируйте свой опыт с помощью капли краски</string>
+    <string name="about_device_nearby">Имя устройства может быть видно устройствам, находящимся рядом.</string>
+    <string name="binfo_stats">Статистика</string>
+    <string name="dot_customizer_dashboard_title">Настройка внешнего вида</string>
+    <string name="dot_customizer_dashboard_summary">Усовершенствуйте свой опыт с помощью капли краски</string>
     <string name="dot_about_device_info">Юридическая информация</string>
     <string name="dot_about_device_private">Личные данные</string>
     <string name="dot_lightMode">Светлая тема</string>
     <string name="dot_darkMode">Тёмная тема</string>
     <string name="cellular_data_title">Мобильные данные</string>
     <string name="connected_tws_device_saved_title">Сохраненные наушники</string>
-    <string name="mobile_data_settings_summary_unavailable">SIM-карта недоступна</string>
+    <string name="mobile_data_settings_summary_unavailable">Нет доступной SIM-карты</string>
     <string name="unlock_scramble_pin_layout_title">Перемешать кнопки</string>
-    <string name="unlock_scramble_pin_layout_summary">Переставлять кнопки ввода PIN-кода в случайном порядке</string>
+    <string name="unlock_scramble_pin_layout_summary">Перемешивать кнопки PIN-кода в случайном порядке</string>
     <string name="statusbar_tuner_title">Настройка строки состояния</string>
-    <string name="security_settings_face_settings_footer_custom">Фейсконтроль позволяет разблокировать устройство, глядя на него. Помните: \n\n● Ваше устройство может разблокироваться в любой момент, когда вы посмотрите на него. \n● Ваше устройство может быть разблокировано кем-то другим, если он поднесет его к вашему лицу, пока ваши глаза открыты. \n● Ваше устройство также может быть разблокировано кем-то, кто очень похож на вас, например, ребенком или идентичным братом или сестрой.</string>
+    <string name="security_settings_face_settings_footer_custom">Фейсконтроль позволяет разблокировать ваше устройство, глядя на него. Помните: \n\n● Ваше устройство может разблокироваться в любой момент, когда вы посмотрите на него. \n● Ваше устройство может быть разблокировано кем-то другим, если он поднесёт его к вашему лицу, пока ваши глаза открыты. \n● Ваше устройство также может быть разблокировано кем-то, кто очень похож на вас, например, ребенком или братом, сестрой.</string>
     <string name="security_settings_face_settings_remove_dialog_details_custom">Данные, записанные с помощью функции фейсконтроля, будут безвозвратно удалены. После удаления потребуется ввести PIN-код, графический ключ или пароль для разблокировки телефона.</string>
     <string name="security_settings_face_unlock_redo_face_scan_summary">Удалить использующийся снимок лица и создать новый</string>
     <string name="security_settings_face_unlock_redo_face_scan_title">Повторное сканирование лица</string>
     <string name="security_dashboard_summary_face_and_fingerprint">Блокировка экрана, отпечаток пальца, фейсконтроль</string>
     <string name="face_redo_confirm_btn">Повторить</string>
     <string name="face_redo_warning_msg">Удалить использующийся снимок лица и создать новый?</string>
-    <string name="live_display_summary">Подстройка экрана в зависимости от времени суток и освещения для улучшения читаемости текста и снижения утомляемости глаз</string>
-    <string name="live_display_mode">Режим работы экрана</string>
+    <string name="live_display_summary">Подстраивать экран на основе времени суток и освещения, чтобы повысить удобство чтения текста и снизить нагрузку на глаза</string>
+    <string name="live_display_mode">Режим отображения</string>
     <string name="live_display_color_temperature_title">Цветовая температура</string>
-    <string name="live_display_color_temperature_summary">День: <xliff:g id="day_temperature">%1$d </xliff:g> K Ночь: <xliff:g id="night_temperature">%2$d </xliff:g> K</string>
+    <string name="live_display_color_temperature_summary">Днём: <xliff:g id="day_temperature">%1$d</xliff:g>K Ночью: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g> K</string>
     <string name="live_display_day">День</string>
     <string name="live_display_night">Ночь</string>
     <string name="live_display_outdoor_mode_title">Автоматический режим \"На улице\"</string>
-    <string name="live_display_outdoor_mode_summary">Увеличивать яркость и насыщенность при ярком солнечном свете автоматически</string>
-    <string name="live_display_anti_flicker_title">Фильтр мерцания</string>
+    <string name="live_display_outdoor_mode_summary">Автоматически увеличивать яркость и насыщенность при ярком освещении</string>
+    <string name="live_display_anti_flicker_title">Предотвращение мерцания</string>
     <string name="live_display_anti_flicker_summary">Не допускайте сильного мерцания и снизьте нагрузку на глаза в условиях низкой освещенности. Это может снизить точность цветопередачи и повлиять на отображение некоторых элементов.</string>
     <string name="live_display_low_power_title">Снизить энергопотребление</string>
-    <string name="live_display_low_power_summary">Подстраивать экран для низкого энергопотребления без ухудшения качества</string>
-    <string name="live_display_enhance_color_title">Улучшить цвета</string>
+    <string name="live_display_low_power_summary">Подстраивать экран для снижения энергопотребления без ухудшения качества</string>
+    <string name="live_display_enhance_color_title">Улучшение цветопередачи</string>
     <string name="live_display_enhance_color_summary">Улучшить цветовую насыщенность оттенков кожи, пейзажей и других изображений</string>
     <string name="live_display_color_profile_title">Цветовой профиль</string>
     <string name="live_display_color_profile_standard_title">Стандартный</string>
     <string name="live_display_color_profile_standard_summary">Точные цвета и повышенная контрастность</string>
-    <string name="live_display_color_profile_natural_title">Натуральный</string>
-    <string name="live_display_color_profile_natural_summary">Натуральные цвета и оттенки кожи</string>
+    <string name="live_display_color_profile_natural_title">Естественный</string>
+    <string name="live_display_color_profile_natural_summary">Реалистичные цвета и оттенки кожи</string>
     <string name="live_display_color_profile_dynamic_title">Динамический</string>
     <string name="live_display_color_profile_dynamic_summary">Повышенная контрастность и яркость изображения</string>
     <string name="live_display_color_profile_cinema_title">Кино</string>
     <string name="live_display_color_profile_cinema_summary">Идеальная цветопередача для просмотра фильмов</string>
     <string name="live_display_color_profile_astronomy_title">Астрономия</string>
-    <string name="live_display_color_profile_astronomy_summary">Глубокий красный для сохранения видимости ночью</string>
+    <string name="live_display_color_profile_astronomy_summary">Глубокий красный цвет для лучшей видимости ночью</string>
     <string name="live_display_color_profile_photography_title">Фотография</string>
     <string name="live_display_color_profile_photography_summary">Идеальная цветопередача для фото</string>
     <string name="live_display_color_profile_basic_title">Стандартная</string>
-    <string name="live_display_color_profile_basic_summary">Использовать неоткалиброванный дисплей</string>
+    <string name="live_display_color_profile_basic_summary">Использовать дисплей без калибровки</string>
     <string name="live_display_color_profile_adaptive_title">Адаптивный</string>
     <string name="live_display_color_profile_adaptive_summary">Цвета адаптируются к условиям окружающей среды</string>
     <string name="live_display_color_profile_reading_title">Чтение</string>
@@ -101,8 +101,8 @@
     <string name="live_display_color_profile_srgb_summary">Цвета, соответствующие цветовому пространству sRGB</string>
     <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
     <string name="live_display_color_profile_dci_p3_summary">Цвета, соответствующие цветовому пространству DCI-P3</string>
-    <string name="live_display_reading_mode_title">Режим для чтения</string>
-    <string name="live_display_reading_mode_summary">Режим оттенков серого для долговременного чтения</string>
+    <string name="live_display_reading_mode_title">Режим чтения</string>
+    <string name="live_display_reading_mode_summary">Режим серых оттенков для продолжительного чтения</string>
     <string name="color_calibration_title">Калибровка цвета</string>
     <string name="color_calibration_summary">Настройка цветопередачи экрана</string>
     <string name="color_red_title">Красный</string>
@@ -141,6 +141,10 @@
     <string name="increasing_ring_ramp_up_time_title">Время увеличения</string>
     <string name="top_level_connectivity">Подключение</string>
     <string name="top_level_personalize">Персонализация</string>
-    <string name="top_level_security">@string/security_settings_title</string>
     <string name="top_level_others">Другое</string>
+    <string name="security_settings_face_require_swipe">Проведите вверх чтобы разблокировать</string>
+    <string name="security_settings_face_require_swipe_summary">Проведите вверх по экрану блокировки, чтобы использовать разблокировку по лицу</string>
+    <string name="face_unlock_method_title">Разрешить разблокировку лицом на экране блокировки</string>
+    <string name="face_unlock_method_default">Когда экран включен</string>
+    <string name="face_unlock_method_swipe">При свайпе на экране блокировки</string>
 </resources>

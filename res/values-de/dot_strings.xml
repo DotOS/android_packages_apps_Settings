@@ -141,6 +141,10 @@
     <string name="increasing_ring_ramp_up_time_title">Anstiegszeit</string>
     <string name="top_level_connectivity">Verbindung</string>
     <string name="top_level_personalize">Personalisieren</string>
-    <string name="top_level_security">@string/security_settings_title</string>
     <string name="top_level_others">Andere</string>
+    <string name="security_settings_face_require_swipe">Zum Entsperren nach oben wischen</string>
+    <string name="security_settings_face_require_swipe_summary">Auf dem Sperrbildschirm nach oben wischen, um Gesichtsentsperren zu verwenden</string>
+    <string name="face_unlock_method_title">Gesichtsentsperrung auf Sperrbildschirm zulassen</string>
+    <string name="face_unlock_method_default">Wenn der Bildschirm aktiviert ist</string>
+    <string name="face_unlock_method_swipe">Beim Wischen auf dem Sperrbildschirm</string>
 </resources>

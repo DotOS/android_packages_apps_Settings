@@ -138,9 +138,13 @@
     <string name="incall_feeedback_vibrate_title">Wibracje wskazujące status połączenia</string>
     <string name="increasing_ring_volume_option_title">Narastająca głośność dzwonka</string>
     <string name="increasing_ring_min_volume_title">Głośność początkowa</string>
-    <string name="increasing_ring_ramp_up_time_title">Odstęp podgłaszania</string>
+    <string name="increasing_ring_ramp_up_time_title">Czas narastania</string>
     <string name="top_level_connectivity">Łączność</string>
     <string name="top_level_personalize">Personalizuj</string>
-    <string name="top_level_security">@string/security_settings_title</string>
     <string name="top_level_others">Inne</string>
+    <string name="security_settings_face_require_swipe">Przesuń w górę, by odblokować</string>
+    <string name="security_settings_face_require_swipe_summary">Przesuń w górę na ekranie blokady, by użyć odblokowania twarzą</string>
+    <string name="face_unlock_method_title">Zezwalaj na odblokowywanie twarzą na ekranie blokady</string>
+    <string name="face_unlock_method_default">Gdy ekran jest włączony</string>
+    <string name="face_unlock_method_swipe">Podczas przesuwania po ekranie blokady</string>
 </resources>

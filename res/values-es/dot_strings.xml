@@ -141,6 +141,10 @@
     <string name="increasing_ring_ramp_up_time_title">Tiempo de incremento</string>
     <string name="top_level_connectivity">Conectividad</string>
     <string name="top_level_personalize">Personalizar</string>
-    <string name="top_level_security">Seguridad</string>
     <string name="top_level_others">Otros</string>
+    <string name="security_settings_face_require_swipe">Deslice hacia arriba para desbloquear</string>
+    <string name="security_settings_face_require_swipe_summary">Deslizar hacia arriba en la pantalla de bloqueo para usar el desbloqueo facial</string>
+    <string name="face_unlock_method_title">Permitir desbloqueo facial en la pantalla de bloqueo</string>
+    <string name="face_unlock_method_default">Cuando la pantalla está encendida</string>
+    <string name="face_unlock_method_swipe">Al deslizar en la pantalla de bloqueo</string>
 </resources>

@@ -141,6 +141,10 @@
     <string name="increasing_ring_ramp_up_time_title">Час павелічэння</string>
     <string name="top_level_connectivity">Падключэнне</string>
     <string name="top_level_personalize">Персаналізацыя</string>
-    <string name="top_level_security">@string/security_settings_title</string>
     <string name="top_level_others">Іншыя</string>
+    <string name="security_settings_face_require_swipe">Правядзіце ўверх, каб разблакаваць</string>
+    <string name="security_settings_face_require_swipe_summary">Правядзіце ўверх на экране блакавання, каб выкарыстоўваць разблакоўку асобай</string>
+    <string name="face_unlock_method_title">Дазволіць разблакіроўку тварам на экране блакіроўкі</string>
+    <string name="face_unlock_method_default">Калі экран уключаны</string>
+    <string name="face_unlock_method_swipe">Пры дакрананні да экрана блакіроўкі</string>
 </resources>

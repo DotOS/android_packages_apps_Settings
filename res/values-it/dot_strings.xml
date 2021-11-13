@@ -73,7 +73,7 @@
     <string name="live_display_outdoor_mode_title">Modalità all\'aperto automatica</string>
     <string name="live_display_outdoor_mode_summary">Aumenta automaticamente la luminosità e la saturazione alla luce del sole</string>
     <string name="live_display_anti_flicker_title">Anti-sfarfallio</string>
-    <string name="live_display_anti_flicker_summary">Previene sfarfallio estensivo e riduce tensione oculare a condizioni di luce scarsa. Potrebbe degradare l\'accuratezza del colore e influenzare come sono mostrati alcuni oggetti.</string>
+    <string name="live_display_anti_flicker_summary">Previene lo sfarfallio estensivo e riduce tensione oculare in condizioni di luce scarsa. Potrebbe degradare l\'accuratezza del colore e influenzare come sono mostrati alcuni oggetti.</string>
     <string name="live_display_low_power_title">Riduci il consumo energetico</string>
     <string name="live_display_low_power_summary">Regola il display per il minor consumo energetico senza degradare la qualità dell\'immagine</string>
     <string name="live_display_enhance_color_title">Migliora i colori</string>
@@ -141,6 +141,10 @@
     <string name="increasing_ring_ramp_up_time_title">Tempo di aumento</string>
     <string name="top_level_connectivity">Connettività</string>
     <string name="top_level_personalize">Personalizza</string>
-    <string name="top_level_security">@string/security_settings_title</string>
     <string name="top_level_others">Altro</string>
+    <string name="security_settings_face_require_swipe">Scorri verso l\'alto per sbloccare</string>
+    <string name="security_settings_face_require_swipe_summary">Scorri verso l\'alto sulla schermata di blocco per utilizzare lo sblocco facciale</string>
+    <string name="face_unlock_method_title">Consenti lo sblocco facciale sulla schermata di blocco</string>
+    <string name="face_unlock_method_default">Quando lo schermo è acceso</string>
+    <string name="face_unlock_method_swipe">Durante lo scorrimento sulla schermata di blocco</string>
 </resources>

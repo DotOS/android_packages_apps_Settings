@@ -141,6 +141,10 @@
     <string name="increasing_ring_ramp_up_time_title">Trvanie zvyšovania</string>
     <string name="top_level_connectivity">Pripojenie</string>
     <string name="top_level_personalize">Prispôsobenie</string>
-    <string name="top_level_security">@string/security_settings_title</string>
     <string name="top_level_others">Ďalšie</string>
+    <string name="security_settings_face_require_swipe">Otvorte potiahnutím nahor</string>
+    <string name="security_settings_face_require_swipe_summary">Pre odomknutie tvárou potiahnite nahor na zamknutej obrazovke</string>
+    <string name="face_unlock_method_title">Povoliť odomknutie tvárou na zamknutej obrazovke</string>
+    <string name="face_unlock_method_default">Keď je obrazovka zapnutá</string>
+    <string name="face_unlock_method_swipe">Keď posúvate prstom na zamknutej obrazovke</string>
 </resources>

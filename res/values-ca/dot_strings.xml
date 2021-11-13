@@ -141,6 +141,10 @@
     <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
     <string name="top_level_connectivity">Connectivity</string>
     <string name="top_level_personalize">Personalize</string>
-    <string name="top_level_security">@string/security_settings_title</string>
     <string name="top_level_others">Altres</string>
+    <string name="security_settings_face_require_swipe">Swipe up to unlock</string>
+    <string name="security_settings_face_require_swipe_summary">Swipe up on the lockscreen to use face unlock</string>
+    <string name="face_unlock_method_title">Allow face unlock on lock screen</string>
+    <string name="face_unlock_method_default">When the screen is turned on</string>
+    <string name="face_unlock_method_swipe">When swiping on lock screen</string>
 </resources>

@@ -141,6 +141,10 @@
     <string name="increasing_ring_ramp_up_time_title">음량 증가 시간</string>
     <string name="top_level_connectivity">연결</string>
     <string name="top_level_personalize">개인</string>
-    <string name="top_level_security">보안</string>
     <string name="top_level_others">기타</string>
+    <string name="security_settings_face_require_swipe">위로 쓸어올려서 잠금 해제</string>
+    <string name="security_settings_face_require_swipe_summary">잠금 화면을 위로 쓸어올려서 얼굴 인식 잠금 해제</string>
+    <string name="face_unlock_method_title">잠금 화면에서 얼굴 인식 잠금 해제 허용</string>
+    <string name="face_unlock_method_default">화면이 켜져 있을 때</string>
+    <string name="face_unlock_method_swipe">잠금 화면에서 쓸어올릴 때</string>
 </resources>

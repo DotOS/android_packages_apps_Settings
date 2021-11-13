@@ -142,6 +142,10 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="increasing_ring_ramp_up_time_title">Waktu penguatan</string>
     <string name="top_level_connectivity">Konektivitas</string>
     <string name="top_level_personalize">Personalisasi</string>
-    <string name="top_level_security">@string/security_settings_title</string>
     <string name="top_level_others">Lainnya</string>
+    <string name="security_settings_face_require_swipe">Geser ke atas untuk membuka kunci</string>
+    <string name="security_settings_face_require_swipe_summary">Geser ke atas pada layar kunci untuk menggunakan buka kunci dengan wajah</string>
+    <string name="face_unlock_method_title">Izinkan face unlock di layar kunci</string>
+    <string name="face_unlock_method_default">Saat layar dihidupkan</string>
+    <string name="face_unlock_method_swipe">Saat mengusap layar kunci</string>
 </resources>

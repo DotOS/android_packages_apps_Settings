@@ -15,17 +15,17 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="dot_version">dotOS version</string>
-    <string name="dot_version_default">Unknown</string>
+    <string name="dot_version">versioni i dotOS</string>
+    <string name="dot_version_default">E panjohur</string>
     <string name="keywords_dot_version">dotOS version, dot version</string>
     <string name="about_device_name">Device Codename</string>
-    <string name="build_date">Build date</string>
+    <string name="build_date">Data e ndërtimit</string>
     <string name="build_date_default">2015-01-01-0000</string>
     <string name="keywords_build_date">build date, build info</string>
     <string name="app_play_store">Google Play</string>
     <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
-    <string name="platform_revision">Platform</string>
-    <string name="total_ram">Total RAM</string>
+    <string name="platform_revision">Platforma</string>
+    <string name="total_ram">RAM në total</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Locate the fingerprint sensor on the front of your phone.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Locate the fingerprint sensor on the left side of your phone.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Locate the fingerprint sensor on the right side of your phone.</string>
@@ -36,9 +36,9 @@
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Locate the fingerprint sensor on the left side of your tablet.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Locate the fingerprint sensor on the right side of your tablet.</string>
     <string name="selinux_status">SELinux status</string>
-    <string name="selinux_status_disabled">Disabled</string>
-    <string name="selinux_status_permissive">Permissive</string>
-    <string name="selinux_status_enforcing">Enforcing</string>
+    <string name="selinux_status_disabled">E çaktivizuar</string>
+    <string name="selinux_status_permissive">Tolerant</string>
+    <string name="selinux_status_enforcing">Po zbaton</string>
     <string name="storage_card_title">Storage</string>
     <string name="storage_card_info">Occupied</string>
     <string name="about_device_rom_title">DotOS %s</string>
@@ -141,6 +141,10 @@
     <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
     <string name="top_level_connectivity">Connectivity</string>
     <string name="top_level_personalize">Personalize</string>
-    <string name="top_level_security">@string/security_settings_title</string>
     <string name="top_level_others">Others</string>
+    <string name="security_settings_face_require_swipe">Swipe up to unlock</string>
+    <string name="security_settings_face_require_swipe_summary">Swipe up on the lockscreen to use face unlock</string>
+    <string name="face_unlock_method_title">Allow face unlock on lock screen</string>
+    <string name="face_unlock_method_default">When the screen is turned on</string>
+    <string name="face_unlock_method_swipe">When swiping on lock screen</string>
 </resources>

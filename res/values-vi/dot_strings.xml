@@ -141,6 +141,10 @@
     <string name="increasing_ring_ramp_up_time_title">Khoảng thời gian tăng dần</string>
     <string name="top_level_connectivity">Kết nối</string>
     <string name="top_level_personalize">Cá nhân</string>
-    <string name="top_level_security">@string/security_settings_title</string>
     <string name="top_level_others">Khác</string>
+    <string name="security_settings_face_require_swipe">Vuốt lên để mở khóa</string>
+    <string name="security_settings_face_require_swipe_summary">Vuốt lên hoặc sử dụng gương mặt để mở khoá màn hình</string>
+    <string name="face_unlock_method_title">Cho phép Mở khoá bằng Khuôn mặt trên Màn hình khóa</string>
+    <string name="face_unlock_method_default">Khi màn hình được bật</string>
+    <string name="face_unlock_method_swipe">Khi vuốt trên màn hình khóa</string>
 </resources>

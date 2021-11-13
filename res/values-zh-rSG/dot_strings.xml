@@ -16,161 +16,167 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- About phone screen, dot OS version -->
-    <string name="dot_version">dotOS version</string>
-    <string name="dot_version_default">Unknown</string>
-    <string name="keywords_dot_version">dotOS version, dot version</string>
+    <string name="dot_version">dotOS 版本</string>
+    <string name="dot_version_default">未知</string>
+    <string name="keywords_dot_version">dotOS 版本，dot 版本</string>
     <!-- About phone screen, build date -->
-    <string name="about_device_name">Device Codename</string>
-    <string name="build_date">Build date</string>
+    <string name="about_device_name">裝置代號</string>
+    <string name="build_date">編譯日期</string>
     <string name="build_date_default">2015-01-01-0000</string>
-    <string name="keywords_build_date">build date, build info</string>
+    <string name="keywords_build_date">編譯日期，編譯資訊</string>
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
     <!-- Manage applications, package string displayed in app snippet -->
     <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
-    <string name="platform_revision">Platform</string>
+    <string name="platform_revision">平台</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
-    <string name="total_ram">Total RAM</string>
+    <string name="total_ram">總記憶體大小</string>
     <!-- Fingerprint location message - default -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Locate the fingerprint sensor on the front of your phone.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Locate the fingerprint sensor on the left side of your phone.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Locate the fingerprint sensor on the right side of your phone.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">您可以在手機正面找到指紋辨識器</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">您可以在手機左側找到指紋辨識器</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">您可以在手機右側找到指紋辨識器</string>
     <!-- Fingerprint location message - generic -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Locate the fingerprint sensor on the front of your device.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Locate the fingerprint sensor on the left side of your device.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">Locate the fingerprint sensor on the right side of your device.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">您可以在裝置正面找到指紋辨識器</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">您可以在裝置左側找到指紋辨識器</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">您可以在裝置右側找到指紋辨識器</string>
     <!-- Fingerprint location message - tablet -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Locate the fingerprint sensor on the front of your tablet.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Locate the fingerprint sensor on the left side of your tablet.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Locate the fingerprint sensor on the right side of your tablet.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">您可以在平板正面找到指紋辨識器</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">您可以在平板左側找到指紋辨識器</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">您可以在平板右側找到指紋辨識器</string>
     <!-- About phone screen,  SELinux status -->
-    <string name="selinux_status">SELinux status</string>
-    <string name="selinux_status_disabled">Disabled</string>
+    <string name="selinux_status">SELinux 狀態</string>
+    <string name="selinux_status_disabled">已禁用</string>
     <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_enforcing">Enforcing</string>
     <!-- About phone cards -->
-    <string name="storage_card_title">Storage</string>
-    <string name="storage_card_info">Occupied</string>
+    <string name="storage_card_title">儲存空間</string>
+    <string name="storage_card_info">已使用</string>
     <string name="about_device_rom_title">DotOS %s</string>
-    <string name="about_device_nearby">The device name can and will be seen by the nearby devices.</string>
+    <string name="about_device_nearby">設備名稱可以被附近的設備看到</string>
     <!-- BatteryInfo Cards -->
-    <string name="binfo_stats">Stats</string>
+    <string name="binfo_stats">統計資訊</string>
     <!-- Dot Customization -->
-    <string name="dot_customizer_dashboard_title">Customization</string>
-    <string name="dot_customizer_dashboard_summary">Personalize your experience with a drop of paint</string>
-    <string name="dot_about_device_info">Legal &amp; Information</string>
-    <string name="dot_about_device_private">Private Details</string>
-    <string name="dot_lightMode">Light Theme</string>
-    <string name="dot_darkMode">Dark Theme</string>
-    <string name="cellular_data_title">Mobile data</string>
+    <string name="dot_customizer_dashboard_title">個人化設定</string>
+    <string name="dot_customizer_dashboard_summary">藉由一點滴的顏料來使您的使用者體驗更加豐富</string>
+    <string name="dot_about_device_info">法律資訊</string>
+    <string name="dot_about_device_private">私密資訊</string>
+    <string name="dot_lightMode">淺色主題</string>
+    <string name="dot_darkMode">暗色主題</string>
+    <string name="cellular_data_title">移動數據</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
-    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
+    <string name="connected_tws_device_saved_title">已儲存的耳機</string>
     <!-- Mobile network setting screen, summary of Mobile data switch preference when the network
          is unavailable, the preference selection will be disabled. [CHAR LIMIT=NONE] -->
-    <string name="mobile_data_settings_summary_unavailable">No SIM card available</string>
+    <string name="mobile_data_settings_summary_unavailable">沒有可用的 SIM 卡</string>
     <!-- Scramble pin -->
-    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
-    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
+    <string name="unlock_scramble_pin_layout_title">亂序布局</string>
+    <string name="unlock_scramble_pin_layout_summary">解鎖裝置時亂序布局 PIN 按鍵位置</string>
     <!-- statusbar tuner -->
-    <string name="statusbar_tuner_title">Statusbar tuner</string>
+    <string name="statusbar_tuner_title">狀態欄調整</string>
     <!-- Face Unlock -->
-    <string name="security_settings_face_settings_footer_custom">Face unlock lets you unlock your device by looking at it. Keep in mind:\n\n● Your device may unlock any time you look at it.\n● Your device can be unlocked by someone else if they hold it in front of your face while your eyes are open.\n● Your device may also be unlocked by someone who looks a lot like you, such as a child or identical sibling.</string>
-    <string name="security_settings_face_settings_remove_dialog_details_custom">Data recorded by face unlock will be permanently and securely deleted. After removal, you will need your PIN, pattern, or password to unlock your phone.</string>
-    <string name="security_settings_face_unlock_redo_face_scan_summary">Remove existing face scan and create a new scan</string>
-    <string name="security_settings_face_unlock_redo_face_scan_title">Redo face scan</string>
-    <string name="security_dashboard_summary_face_and_fingerprint">Screen lock, fingerprint, face unlock</string>
-    <string name="face_redo_confirm_btn">Redo</string>
-    <string name="face_redo_warning_msg">Do you want to remove the existing face scan and create a new one?</string>
+    <string name="security_settings_face_settings_footer_custom">使用 臉部辨識解鎖 為裝置解鎖。請記住：\n\n●直視手機可能意外將其解鎖。\n● 其他人可以在您睜開眼睛時將其放在您的面前解鎖。\n● 與您相貌很相似的人可能會將您的手機解鎖，例如您的孩子或孿兄弟姊妹。</string>
+    <string name="security_settings_face_settings_remove_dialog_details_custom">透過 [臉部辨識解鎖] 記錄的資料將會安全地永久刪除。移除後，解鎖您的手機將需要使用 PIN、圖案或密碼。</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">移除現有的臉部掃描資料，並建立新的資料</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">重新執行臉部掃描</string>
+    <string name="security_dashboard_summary_face_and_fingerprint">螢幕鎖定、指紋、臉部辨識解鎖</string>
+    <string name="face_redo_confirm_btn">恢復</string>
+    <string name="face_redo_warning_msg">您要移除現有的臉部掃描資料，並建立新的資料嗎?</string>
     <!-- LiveDisplay -->
-    <string name="live_display_summary">Optimize your screen based on time of day and ambient conditions to improve readability and reduce eyestrain</string>
-    <string name="live_display_mode">Display mode</string>
-    <string name="live_display_color_temperature_title">Color temperature</string>
-    <string name="live_display_color_temperature_summary">Day: <xliff:g id="day_temperature">%1$d</xliff:g>K  Night: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_summary">根據日夜和環境條件調整您的螢幕色溫，即可改善可讀性和減少眼睛疲勞</string>
+    <string name="live_display_mode">顯示狀態</string>
+    <string name="live_display_color_temperature_title">色溫</string>
+    <string name="live_display_color_temperature_summary">日間：<xliff:g id="day_temperature">%1$d</xliff:g>K 夜間：<xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
-    <string name="live_display_day">Day</string>
-    <string name="live_display_night">Night</string>
-    <string name="live_display_outdoor_mode_title">Automatic outdoor mode</string>
-    <string name="live_display_outdoor_mode_summary">Increase brightness and saturation automatically under bright sunlight</string>
-    <string name="live_display_anti_flicker_title">Anti flicker</string>
-    <string name="live_display_anti_flicker_summary">Prevent extensive flickering and reduce eye strain in low light conditions. It might degrade color accuracy and affect the way some items are displayed.</string>
-    <string name="live_display_low_power_title">Reduce power consumption</string>
-    <string name="live_display_low_power_summary">Adjust display for lowest power consumption without degradation</string>
-    <string name="live_display_enhance_color_title">Enhance colors</string>
-    <string name="live_display_enhance_color_summary">Improve color vibrance of flesh tones, scenery, and other images</string>
-    <string name="live_display_color_profile_title">Color profile</string>
-    <string name="live_display_color_profile_standard_title">Standard</string>
-    <string name="live_display_color_profile_standard_summary">Accurate colors and bright whites</string>
-    <string name="live_display_color_profile_natural_title">Natural</string>
-    <string name="live_display_color_profile_natural_summary">Realistic colors and flesh tones</string>
-    <string name="live_display_color_profile_dynamic_title">Dynamic</string>
-    <string name="live_display_color_profile_dynamic_summary">Enhanced colors and bright whites</string>
-    <string name="live_display_color_profile_cinema_title">Cinema</string>
-    <string name="live_display_color_profile_cinema_summary">Perfect color reproduction for video</string>
-    <string name="live_display_color_profile_astronomy_title">Astronomy</string>
-    <string name="live_display_color_profile_astronomy_summary">Deep red for preserving night vision</string>
-    <string name="live_display_color_profile_photography_title">Photography</string>
-    <string name="live_display_color_profile_photography_summary">Perfect color reproduction for photos</string>
-    <string name="live_display_color_profile_basic_title">Basic</string>
-    <string name="live_display_color_profile_basic_summary">Use the display uncalibrated</string>
-    <string name="live_display_color_profile_adaptive_title">Adaptive</string>
-    <string name="live_display_color_profile_adaptive_summary">Colors adapt to ambient conditions</string>
-    <string name="live_display_color_profile_reading_title">Reading</string>
-    <string name="live_display_color_profile_reading_summary">Warmer colors for less eye strain</string>
+    <string name="live_display_day">日間</string>
+    <string name="live_display_night">夜間</string>
+    <string name="live_display_outdoor_mode_title">自動戶外模式</string>
+    <string name="live_display_outdoor_mode_summary">在陽光下自動提高亮度和飽和度</string>
+    <string name="live_display_anti_flicker_title">防閃爍</string>
+    <string name="live_display_anti_flicker_summary">在缺乏光線下，防止大量閃爍並減少眼睛疲勞。 這可能會降低色彩準確性，並影響某些項目的顯示方式。</string>
+    <string name="live_display_low_power_title">降低耗電</string>
+    <string name="live_display_low_power_summary">在不降低亮度的情況下調整顯示以降低耗電</string>
+    <string name="live_display_enhance_color_title">增強色彩</string>
+    <string name="live_display_enhance_color_summary">為色調、 風景和其他圖片提高色調</string>
+    <string name="live_display_color_profile_title">色彩設定檔</string>
+    <string name="live_display_color_profile_standard_title">標準</string>
+    <string name="live_display_color_profile_standard_summary">準確的色彩和明亮度調整</string>
+    <string name="live_display_color_profile_natural_title">自然</string>
+    <string name="live_display_color_profile_natural_summary">真實的色彩和自然的膚色</string>
+    <string name="live_display_color_profile_dynamic_title">動態</string>
+    <string name="live_display_color_profile_dynamic_summary">鮮豔模式</string>
+    <string name="live_display_color_profile_cinema_title">電影院模式</string>
+    <string name="live_display_color_profile_cinema_summary">完美重現影片色彩</string>
+    <string name="live_display_color_profile_astronomy_title">天文模式</string>
+    <string name="live_display_color_profile_astronomy_summary">深紅色以保護夜間視力</string>
+    <string name="live_display_color_profile_photography_title">相片模式</string>
+    <string name="live_display_color_profile_photography_summary">完美重現照片色彩</string>
+    <string name="live_display_color_profile_basic_title">基本設定</string>
+    <string name="live_display_color_profile_basic_summary">使用未校正的顯示</string>
+    <string name="live_display_color_profile_adaptive_title">自動調整</string>
+    <string name="live_display_color_profile_adaptive_summary">自動按環境條件調整顏色</string>
+    <string name="live_display_color_profile_reading_title">閱讀模式</string>
+    <string name="live_display_color_profile_reading_summary">使用暖色調減少眼睛疲勞</string>
     <string name="live_display_color_profile_srgb_title">sRGB</string>
-    <string name="live_display_color_profile_srgb_summary">Colors accurate to the sRGB color space</string>
-    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
-    <string name="live_display_color_profile_dci_p3_summary">Colors accurate to the DCI-P3 color space</string>
-    <string name="live_display_reading_mode_title">Reading mode</string>
-    <string name="live_display_reading_mode_summary">Grayscale mode for long-term reading</string>
-    <string name="color_calibration_title">Color calibration</string>
-    <string name="color_calibration_summary">Calibrate on-screen colors</string>
-    <string name="color_red_title">Red</string>
-    <string name="color_green_title">Green</string>
-    <string name="color_blue_title">Blue</string>
+    <string name="live_display_color_profile_srgb_summary">使用 sRGB 色域校準螢幕顏色</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3廣色域標準</string>
+    <string name="live_display_color_profile_dci_p3_summary">使用 DCI-P3 色域校準螢幕顏色</string>
+    <string name="live_display_reading_mode_title">閱讀模式</string>
+    <string name="live_display_reading_mode_summary">用於長期閱讀的灰階模式</string>
+    <string name="color_calibration_title">色彩校準</string>
+    <string name="color_calibration_summary">校準螢幕顏色</string>
+    <string name="color_red_title">紅色</string>
+    <string name="color_green_title">綠​​色</string>
+    <string name="color_blue_title">藍色</string>
     <!-- LiveDisplay : Picture Adjustment -->
-    <string name="picture_adjustment_title">Picture adjustment</string>
-    <string name="picture_adjustment_summary">Adjust hue, saturation, intensity, and contrast</string>
-    <string name="adj_hue_title">Hue</string>
-    <string name="adj_saturation_title">Saturation</string>
-    <string name="adj_intensity_title">Intensity</string>
-    <string name="adj_contrast_title">Contrast</string>
+    <string name="picture_adjustment_title">調整圖片</string>
+    <string name="picture_adjustment_summary">調整色相、飽和度、亮度和對比度</string>
+    <string name="adj_hue_title">色調</string>
+    <string name="adj_saturation_title">飽和度</string>
+    <string name="adj_intensity_title">明亮度</string>
+    <string name="adj_contrast_title">對比度</string>
     <!-- Display : Rotation -->
-    <string name="display_rotation_title">Rotation settings</string>
-    <string name="display_rotation_enabled">Auto-rotation is enabled</string>
-    <string name="display_rotation_disabled">Auto-rotation is disabled</string>
-    <string name="display_rotation_unit">degrees</string>
-    <string name="display_rotation_category_title">Rotation modes</string>
-    <string name="display_rotation_0_title">0 degrees</string>
-    <string name="display_rotation_90_title">90 degrees</string>
-    <string name="display_rotation_180_title">180 degrees</string>
-    <string name="display_rotation_270_title">270 degrees</string>
+    <string name="display_rotation_title">旋轉設定</string>
+    <string name="display_rotation_enabled">已啟用自動旋轉</string>
+    <string name="display_rotation_disabled">已停用自動旋轉</string>
+    <string name="display_rotation_unit">角度</string>
+    <string name="display_rotation_category_title">旋轉模式</string>
+    <string name="display_rotation_0_title">0 度</string>
+    <string name="display_rotation_90_title">90 度</string>
+    <string name="display_rotation_180_title">180 度</string>
+    <string name="display_rotation_270_title">270 度</string>
     <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_all">Allow network access</string>
-    <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
-    <string name="data_usage_app_restrict_mobile">Mobile data</string>
-    <string name="data_usage_app_restrict_mobile_summary">Enable usage of mobile data</string>
-    <string name="data_usage_app_restrict_vpn">VPN data</string>
-    <string name="data_usage_app_restrict_vpn_summary">Enable usage of VPN data</string>
-    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
-    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_all">允許網路存取</string>
+    <string name="data_usage_app_restrict_all_summary">啟用網路流量統計</string>
+    <string name="data_usage_app_restrict_mobile">移動數據</string>
+    <string name="data_usage_app_restrict_mobile_summary">啟用行動網路流量統計</string>
+    <string name="data_usage_app_restrict_vpn">VPN 數據</string>
+    <string name="data_usage_app_restrict_vpn_summary">啟用 VPN 流量統計</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi 數據</string>
+    <string name="data_usage_app_restrict_wifi_summary">啟用 Wi\u2011Fi 流量統計</string>
     <!-- Hotspot extras -->
-    <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
-    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
+    <string name="tethering_allow_vpn_upstreams_title">允許客戶端使用 VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">允許連線到熱點的裝置使用此裝置\u2019的 VPN 連接</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
-    <string name="device_info_protected_single_press">Tap to show info</string>
+    <string name="device_info_protected_single_press">點擊顯示詳細資料</string>
     <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
+    <string name="volume_link_notification_title">同步鈴聲與通知音量</string>
     <!-- In-call feedback -->
-    <string name="incall_feeedback_vibrate_title">Vibrate to indicate call status</string>
+    <string name="incall_feeedback_vibrate_title">使用震動來指示通話狀態</string>
     <!-- Increasing ring tone volume -->
-    <string name="increasing_ring_volume_option_title">Increasing ring volume</string>
-    <string name="increasing_ring_min_volume_title">Start volume</string>
-    <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
+    <string name="increasing_ring_volume_option_title">遞增鈴聲音量</string>
+    <string name="increasing_ring_min_volume_title">初始音量</string>
+    <string name="increasing_ring_ramp_up_time_title">鈴聲漸強時長</string>
     <!-- Dashboard categories -->
-    <string name="top_level_connectivity">Connectivity</string>
-    <string name="top_level_personalize">Personalize</string>
-    <string name="top_level_security">@string/security_settings_title</string>
-    <string name="top_level_others">Others</string>
+    <string name="top_level_connectivity">連通性</string>
+    <string name="top_level_personalize">個性化</string>
+    <string name="top_level_others">其他</string>
+    <!-- Swipe up for face unlock -->
+    <string name="security_settings_face_require_swipe">向上滑動即可解鎖</string>
+    <string name="security_settings_face_require_swipe_summary">向上滑動鎖定螢幕以使用臉部辨識解鎖</string>
+    <!-- Face Unlock -->
+    <string name="face_unlock_method_title">允許在鎖定畫面使用臉部辨識解鎖</string>
+    <string name="face_unlock_method_default">當螢幕開啟時</string>
+    <string name="face_unlock_method_swipe">在鎖定畫面滑動時</string>
 </resources>

@@ -48,8 +48,8 @@
     <string name="dot_customizer_dashboard_summary">ଏକ ବୁନ୍ଦା ରଙ୍ଗ ସହିତ ଆପଣଙ୍କର ଅଭିଜ୍ଞତାକୁ ବ୍ୟକ୍ତିଗତ କରନ୍ତୁ</string>
     <string name="dot_about_device_info">ଆଇନଗତ &amp; ସୁଚନା</string>
     <string name="dot_about_device_private">ବ୍ୟକ୍ତିଗତ ସବିଶେଷ</string>
-    <string name="dot_lightMode">Light Theme</string>
-    <string name="dot_darkMode">Dark Theme</string>
+    <string name="dot_lightMode">ହାଲୁକା ଥିମ୍</string>
+    <string name="dot_darkMode">ଗାଢ଼ ଥିମ୍</string>
     <string name="cellular_data_title">Mobile data</string>
     <string name="connected_tws_device_saved_title">ସଞ୍ଚୟ କରିଥିବା Earbuds</string>
     <string name="mobile_data_settings_summary_unavailable">SIM Card ଉପଲବ୍ଧ ନାହିଁ</string>
@@ -61,15 +61,15 @@
     <string name="security_settings_face_unlock_redo_face_scan_summary">Remove existing face scan and create a new scan</string>
     <string name="security_settings_face_unlock_redo_face_scan_title">Redo face scan</string>
     <string name="security_dashboard_summary_face_and_fingerprint">Screen lock, fingerprint, face unlock</string>
-    <string name="face_redo_confirm_btn">Redo</string>
+    <string name="face_redo_confirm_btn">ପୁନଃକରଣ</string>
     <string name="face_redo_warning_msg">Do you want to remove the existing face scan and create a new one?</string>
     <string name="live_display_summary">Optimize your screen based on time of day and ambient conditions to improve readability and reduce eyestrain</string>
     <string name="live_display_mode">Display mode</string>
     <string name="live_display_color_temperature_title">Color temperature</string>
     <string name="live_display_color_temperature_summary">Day: <xliff:g id="day_temperature">%1$d</xliff:g>K  Night: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
-    <string name="live_display_day">Day</string>
-    <string name="live_display_night">Night</string>
+    <string name="live_display_day">ଦିନ</string>
+    <string name="live_display_night">ରାତ୍ରି</string>
     <string name="live_display_outdoor_mode_title">Automatic outdoor mode</string>
     <string name="live_display_outdoor_mode_summary">Increase brightness and saturation automatically under bright sunlight</string>
     <string name="live_display_anti_flicker_title">Anti flicker</string>
@@ -81,7 +81,7 @@
     <string name="live_display_color_profile_title">Color profile</string>
     <string name="live_display_color_profile_standard_title">Standard</string>
     <string name="live_display_color_profile_standard_summary">Accurate colors and bright whites</string>
-    <string name="live_display_color_profile_natural_title">Natural</string>
+    <string name="live_display_color_profile_natural_title">ପ୍ରାକୃତିକ</string>
     <string name="live_display_color_profile_natural_summary">Realistic colors and flesh tones</string>
     <string name="live_display_color_profile_dynamic_title">Dynamic</string>
     <string name="live_display_color_profile_dynamic_summary">Enhanced colors and bright whites</string>
@@ -105,9 +105,9 @@
     <string name="live_display_reading_mode_summary">Grayscale mode for long-term reading</string>
     <string name="color_calibration_title">Color calibration</string>
     <string name="color_calibration_summary">Calibrate on-screen colors</string>
-    <string name="color_red_title">Red</string>
-    <string name="color_green_title">Green</string>
-    <string name="color_blue_title">Blue</string>
+    <string name="color_red_title">ନାଲି</string>
+    <string name="color_green_title">ସବୁଜ</string>
+    <string name="color_blue_title">ନୀଳ</string>
     <string name="picture_adjustment_title">Picture adjustment</string>
     <string name="picture_adjustment_summary">Adjust hue, saturation, intensity, and contrast</string>
     <string name="adj_hue_title">Hue</string>
@@ -141,6 +141,10 @@
     <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
     <string name="top_level_connectivity">Connectivity</string>
     <string name="top_level_personalize">Personalize</string>
-    <string name="top_level_security">@string/security_settings_title</string>
     <string name="top_level_others">Others</string>
+    <string name="security_settings_face_require_swipe">Swipe up to unlock</string>
+    <string name="security_settings_face_require_swipe_summary">Swipe up on the lockscreen to use face unlock</string>
+    <string name="face_unlock_method_title">Allow face unlock on lock screen</string>
+    <string name="face_unlock_method_default">When the screen is turned on</string>
+    <string name="face_unlock_method_swipe">When swiping on lock screen</string>
 </resources>

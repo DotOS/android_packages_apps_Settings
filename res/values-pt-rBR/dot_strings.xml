@@ -53,8 +53,8 @@
     <string name="cellular_data_title">Dados móveis</string>
     <string name="connected_tws_device_saved_title">Fones de ouvido salvos</string>
     <string name="mobile_data_settings_summary_unavailable">Nenhum cartão SIM disponível</string>
-    <string name="unlock_scramble_pin_layout_title">Embaralhar números</string>
-    <string name="unlock_scramble_pin_layout_summary">Embaralhar PIN ao desbloquear o dispositivo</string>
+    <string name="unlock_scramble_pin_layout_title">Disposição aleatória</string>
+    <string name="unlock_scramble_pin_layout_summary">Apresentar aleatoriamente a disposição do teclado numérico, quando desbloquear com PIN</string>
     <string name="statusbar_tuner_title">Ajustes na barra de status</string>
     <string name="security_settings_face_settings_footer_custom">O desbloqueio facial permite que você desbloqueie seu dispositivo olhando para ele. Tenha em mente:\n\n● O seu dispositivo pode desbloquear a qualquer momento que você olha.\n● Seu dispositivo pode ser desbloqueado por outra pessoa se ela o segurar na frente do seu rosto enquanto os olhos estão abertos.\n● O seu dispositivo também pode ser desbloqueado por alguém que se parece muito com você, como uma criança ou um irmão idêntico.</string>
     <string name="security_settings_face_settings_remove_dialog_details_custom">Os dados gravados pelo Desbloqueio facial serão excluídos permanentemente e de forma segura. Após a remoção, você precisará do PIN, padrão ou senha para desbloquear o telefone.</string>
@@ -141,6 +141,10 @@
     <string name="increasing_ring_ramp_up_time_title">Intervalo de aumento</string>
     <string name="top_level_connectivity">Conectividade</string>
     <string name="top_level_personalize">Personalizar</string>
-    <string name="top_level_security">@string/security_settings_title</string>
     <string name="top_level_others">Outros</string>
+    <string name="security_settings_face_require_swipe">Deslize para cima para desbloquear</string>
+    <string name="security_settings_face_require_swipe_summary">Deslize para cima na tela de bloqueio para usar o desbloqueio facial</string>
+    <string name="face_unlock_method_title">Permitir desbloqueio facial na tela de bloqueio</string>
+    <string name="face_unlock_method_default">Quando a tela estiver ligada</string>
+    <string name="face_unlock_method_swipe">Ao deslizar na tela de bloqueio</string>
 </resources>

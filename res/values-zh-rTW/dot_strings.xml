@@ -141,6 +141,10 @@
     <string name="increasing_ring_ramp_up_time_title">鈴聲漸強時長</string>
     <string name="top_level_connectivity">連通性</string>
     <string name="top_level_personalize">個性化</string>
-    <string name="top_level_security">@string/security_settings_title</string>
     <string name="top_level_others">其他</string>
+    <string name="security_settings_face_require_swipe">向上滑動即可解鎖</string>
+    <string name="security_settings_face_require_swipe_summary">向上滑動鎖定螢幕以使用臉部辨識解鎖</string>
+    <string name="face_unlock_method_title">允許在鎖定畫面使用臉部辨識解鎖</string>
+    <string name="face_unlock_method_default">當螢幕開啟時</string>
+    <string name="face_unlock_method_swipe">在鎖定畫面滑動時</string>
 </resources>
