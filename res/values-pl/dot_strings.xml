@@ -46,6 +46,8 @@
     <string name="binfo_stats">Statystyki</string>
     <string name="dot_customizer_dashboard_title">Personalizacja</string>
     <string name="dot_customizer_dashboard_summary">Spersonalizuj swoje doświadczenie z kropką malowania</string>
+    <string name="dot_gaming_mode_dashboard_title">Panel Gier</string>
+    <string name="dot_gaming_mode_dashboard_summary">Pozwala skupić się na grze</string>
     <string name="dot_about_device_info">Informacje prawne</string>
     <string name="dot_about_device_private">Prywatne rzeczy</string>
     <string name="dot_lightMode">Jasny Motyw</string>
@@ -142,9 +144,28 @@
     <string name="top_level_connectivity">Łączność</string>
     <string name="top_level_personalize">Personalizuj</string>
     <string name="top_level_others">Inne</string>
+    <string name="smallest_tick_label">Wyłączone</string>
+    <string name="greatest_tick_label">Połowa ekranu</string>
+    <string name="gesture_back_deadzone_label">Martwa strefa</string>
+    <string name="back_sensitivity_dialog_message_cust">\nUżyj pierwszego i drugiego paska aby ustawić czułość gestu powrotu, ostatniego paska aby ustawić martwy obszar na górze ekranu który nie może zostać wywołany, aby uniknąć konfliktu z gestami w aplikacjach.</string>
     <string name="security_settings_face_require_swipe">Przesuń w górę, by odblokować</string>
     <string name="security_settings_face_require_swipe_summary">Przesuń w górę na ekranie blokady, by użyć odblokowania twarzą</string>
     <string name="face_unlock_method_title">Zezwalaj na odblokowywanie twarzą na ekranie blokady</string>
     <string name="face_unlock_method_default">Gdy ekran jest włączony</string>
     <string name="face_unlock_method_swipe">Podczas przesuwania po ekranie blokady</string>
+    <string name="dot_battery_manager">Menadżer baterii</string>
+    <string name="dot_battery_manager_summary1">• Oszczędzanie baterii : </string>
+    <string name="dot_battery_manager_summary2">\n• Bateria adaptacyjna: </string>
+    <string name="backup_transport_setting_label">Zmień dostawcę kopii zapasowej</string>
+    <string name="backup_transport_title">Wybierz dostawcę kopii zapasowej</string>
+    <string name="battery_stats_reset">Zresetować statystyki?</string>
+    <string name="battery_stats_message">Dane o zużyciu baterii zostaną utracone</string>
+    <string name="legacy_wfd_video_mode_title">Tryb wideo</string>
+    <string name="legacy_wfd_video_mode_720p_30fps">720p (30fps)</string>
+    <string name="legacy_wfd_video_mode_720p_60fps">720p (60fps)</string>
+    <string name="legacy_wfd_video_mode_1080p_30fps">1080p (30fps)</string>
+    <string name="legacy_wfd_video_mode_1080p_60fps">1080p (60fps)</string>
+    <string name="wake_when_plugged_or_unplugged_title">Wybudź przy podłączeniu</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Włącz ekran podczas podłączania i odłączania źródła zasilania</string>
+    <string name="screenshot_sound_title">Dźwięk zrzutu ekranu</string>
 </resources>

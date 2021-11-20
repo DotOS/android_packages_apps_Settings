@@ -46,6 +46,8 @@
     <string name="binfo_stats">统计信息</string>
     <string name="dot_customizer_dashboard_title">自定义设置</string>
     <string name="dot_customizer_dashboard_summary">使用 DotOS 自定义您的用户体验</string>
+    <string name="dot_gaming_mode_dashboard_title">游戏面板</string>
+    <string name="dot_gaming_mode_dashboard_summary">让你专注于游戏</string>
     <string name="dot_about_device_info">法律信息</string>
     <string name="dot_about_device_private">隐私信息</string>
     <string name="dot_lightMode">浅色主题</string>
@@ -142,9 +144,28 @@
     <string name="top_level_connectivity">连通性</string>
     <string name="top_level_personalize">个性化</string>
     <string name="top_level_others">其它</string>
+    <string name="smallest_tick_label">关闭</string>
+    <string name="greatest_tick_label">半屏</string>
+    <string name="gesture_back_deadzone_label">无效区域</string>
+    <string name="back_sensitivity_dialog_message_cust">\n使用第一个和第二个滑动栏来配置返回滑动手势的灵敏度。使用最后一个滑动栏来配置屏幕上半部分无法触发滑动手势的无效区域，以避免与应用内手势发生冲突。</string>
     <string name="security_settings_face_require_swipe">向上滑动以解锁</string>
     <string name="security_settings_face_require_swipe_summary">在锁屏界面上向上滑动以使用面部解锁</string>
     <string name="face_unlock_method_title">允许在锁定屏幕使用面部解锁</string>
     <string name="face_unlock_method_default">当屏幕开启时</string>
     <string name="face_unlock_method_swipe">在锁屏界面上滑动时</string>
+    <string name="dot_battery_manager">电池管理器</string>
+    <string name="dot_battery_manager_summary1">• 省电模式 : </string>
+    <string name="dot_battery_manager_summary2">\n• 自适应电池： </string>
+    <string name="backup_transport_setting_label">更改备份提供商</string>
+    <string name="backup_transport_title">选择备份提供商</string>
+    <string name="battery_stats_reset">重置统计数据？</string>
+    <string name="battery_stats_message">电池的历史统计数据将被重置</string>
+    <string name="legacy_wfd_video_mode_title">视频模式</string>
+    <string name="legacy_wfd_video_mode_720p_30fps">720p (30fps)</string>
+    <string name="legacy_wfd_video_mode_720p_60fps">720p (60fps)</string>
+    <string name="legacy_wfd_video_mode_1080p_30fps">1080p (30fps)</string>
+    <string name="legacy_wfd_video_mode_1080p_60fps">1080p (60fps)</string>
+    <string name="wake_when_plugged_or_unplugged_title">连接或移除电源时唤醒屏幕</string>
+    <string name="wake_when_plugged_or_unplugged_summary">连接或断开电源时点亮屏幕</string>
+    <string name="screenshot_sound_title">截图提示音</string>
 </resources>

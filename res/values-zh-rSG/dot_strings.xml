@@ -60,6 +60,9 @@
     <!-- Dot Customization -->
     <string name="dot_customizer_dashboard_title">個人化設定</string>
     <string name="dot_customizer_dashboard_summary">藉由一點滴的顏料來使您的使用者體驗更加豐富</string>
+    <!-- Gaming Dashboard -->
+    <string name="dot_gaming_mode_dashboard_title">Gaming Dashboard</string>
+    <string name="dot_gaming_mode_dashboard_summary">Keeps you focused on the game</string>
     <string name="dot_about_device_info">法律資訊</string>
     <string name="dot_about_device_private">私密資訊</string>
     <string name="dot_lightMode">淺色主題</string>
@@ -172,6 +175,11 @@
     <string name="top_level_connectivity">連通性</string>
     <string name="top_level_personalize">個性化</string>
     <string name="top_level_others">其他</string>
+    <!-- Back Gestures -->
+    <string name="smallest_tick_label">Off</string>
+    <string name="greatest_tick_label">Half screen</string>
+    <string name="gesture_back_deadzone_label">Dead zone</string>
+    <string name="back_sensitivity_dialog_message_cust">\nUse the first and second seekbar to configure back swipe sensitivity, the last seekbar to set a dead area on top of the screen where the swipe cannot be triggered, to avoid conflicts with in-app gestures.</string>
     <!-- Swipe up for face unlock -->
     <string name="security_settings_face_require_swipe">向上滑動即可解鎖</string>
     <string name="security_settings_face_require_swipe_summary">向上滑動鎖定螢幕以使用臉部辨識解鎖</string>
@@ -179,4 +187,24 @@
     <string name="face_unlock_method_title">允許在鎖定畫面使用臉部辨識解鎖</string>
     <string name="face_unlock_method_default">當螢幕開啟時</string>
     <string name="face_unlock_method_swipe">在鎖定畫面滑動時</string>
+    <string name="dot_battery_manager">Battery Manager</string>
+    <string name="dot_battery_manager_summary1">• Battery Saver : </string>
+    <string name="dot_battery_manager_summary2">\n• Adaptive Battery : </string>
+    <!-- Backup Transport selection settings menu and activity title -->
+    <string name="backup_transport_setting_label">Change backup provider</string>
+    <string name="backup_transport_title">Select backup provider</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Clear usage data?</string>
+    <string name="battery_stats_message">Battery usage data will be lost</string>
+    <!-- Legacy WFD settings -->
+    <string name="legacy_wfd_video_mode_title">Video mode</string>
+    <string name="legacy_wfd_video_mode_720p_30fps">720p (30fps)</string>
+    <string name="legacy_wfd_video_mode_720p_60fps">720p (60fps)</string>
+    <string name="legacy_wfd_video_mode_1080p_30fps">1080p (30fps)</string>
+    <string name="legacy_wfd_video_mode_1080p_60fps">1080p (60fps)</string>
+    <!-- Wake on plug -->
+    <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Turn the screen on when connecting or disconnecting a power source</string>
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Screenshot sound</string>
 </resources>

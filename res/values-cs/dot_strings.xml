@@ -46,6 +46,8 @@
     <string name="binfo_stats">Statistiky</string>
     <string name="dot_customizer_dashboard_title">Přizpůsobení</string>
     <string name="dot_customizer_dashboard_summary">Přizpůsobte si svůj zážitek kapkou barvy</string>
+    <string name="dot_gaming_mode_dashboard_title">Herní ovládací panel</string>
+    <string name="dot_gaming_mode_dashboard_summary">Udržuje vás soustředěné na hru</string>
     <string name="dot_about_device_info">Právní informace</string>
     <string name="dot_about_device_private">Osobní údaje</string>
     <string name="dot_lightMode">Světlý motiv</string>
@@ -142,9 +144,28 @@
     <string name="top_level_connectivity">Připojení</string>
     <string name="top_level_personalize">Personalizace</string>
     <string name="top_level_others">Další</string>
+    <string name="smallest_tick_label">Vyp.</string>
+    <string name="greatest_tick_label">Polovina obrazovky</string>
+    <string name="gesture_back_deadzone_label">Mrtvá oblast</string>
+    <string name="back_sensitivity_dialog_message_cust">\nPomocí prvního a druhého vyhledávacího panelu nakonfigurujte citlivost přejetí zpět, posledním vyhledávacím panelem nastavte mrtvou oblast obrazovky, na které nelze použít přejetím prstem, aby nedocházelo ke konfliktům s gesty v aplikacích.</string>
     <string name="security_settings_face_require_swipe">Přejetím prstu nahoru odemknout</string>
     <string name="security_settings_face_require_swipe_summary">Chcete-li použít odemknutí obličeje, přejeďte prstem nahoru po zamykací obrazovce</string>
     <string name="face_unlock_method_title">Povolit odemknutí obličejem na obrazovce uzamčení</string>
     <string name="face_unlock_method_default">Když je obrazovka zapnutá</string>
     <string name="face_unlock_method_swipe">Při přejetí prstem na uzamčené obrazovce</string>
+    <string name="dot_battery_manager">Správce baterie</string>
+    <string name="dot_battery_manager_summary1">• Úspora baterie : </string>
+    <string name="dot_battery_manager_summary2">\n• Adaptivní baterie: </string>
+    <string name="backup_transport_setting_label">Změnit poskytovatele zálohování</string>
+    <string name="backup_transport_title">Nastavit poskytovatele zálohování</string>
+    <string name="battery_stats_reset">Vynulovat statistiky?</string>
+    <string name="battery_stats_message">Chystáte se obnovit historii statistiky baterie</string>
+    <string name="legacy_wfd_video_mode_title">Režim videa</string>
+    <string name="legacy_wfd_video_mode_720p_30fps">720p (30fps)</string>
+    <string name="legacy_wfd_video_mode_720p_60fps">720p (60fps)</string>
+    <string name="legacy_wfd_video_mode_1080p_30fps">1080p (30fps)</string>
+    <string name="legacy_wfd_video_mode_1080p_60fps">1080p (60fps)</string>
+    <string name="wake_when_plugged_or_unplugged_title">Probudit při připojení</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Zapnout obrazovku při připojení nebo odpojení zdroje napájení</string>
+    <string name="screenshot_sound_title">Zvuk při snímku obrazovky</string>
 </resources>

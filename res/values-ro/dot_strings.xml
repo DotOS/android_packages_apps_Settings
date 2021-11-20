@@ -46,6 +46,8 @@
     <string name="binfo_stats">Statistici</string>
     <string name="dot_customizer_dashboard_title">Personalizare</string>
     <string name="dot_customizer_dashboard_summary">Personalizează-ți experiența cu o picătură de vopsea</string>
+    <string name="dot_gaming_mode_dashboard_title">Tablou de bord pentru jocuri</string>
+    <string name="dot_gaming_mode_dashboard_summary">Pastrare focus pe joc</string>
     <string name="dot_about_device_info">Legale &amp; Informații</string>
     <string name="dot_about_device_private">Detalii private</string>
     <string name="dot_lightMode">Tema deschisă la culoare</string>
@@ -142,9 +144,28 @@
     <string name="top_level_connectivity">Conectivitate</string>
     <string name="top_level_personalize">Personalizare</string>
     <string name="top_level_others">Altele</string>
+    <string name="smallest_tick_label">Oprit</string>
+    <string name="greatest_tick_label">Jumătate de ecran</string>
+    <string name="gesture_back_deadzone_label">Zona Marta</string>
+    <string name="back_sensitivity_dialog_message_cust">\nUtilizați prima și a doua bară de căutare pentru a configura sensibilitatea glisării înapoi, ultima bară de căutare pentru a seta o zonă moartă deasupra ecranului unde nu poate fi declanșată glisarea, pentru a evita conflictele cu gesturile din aplicație.</string>
     <string name="security_settings_face_require_swipe">Glisați degetul în sus pentru deblocare</string>
     <string name="security_settings_face_require_swipe_summary">Glisați în sus pe ecranul de blocare pentru a utiliza deblocarea feței</string>
     <string name="face_unlock_method_title">Permiteți deblocarea feței pe ecranul de blocare</string>
     <string name="face_unlock_method_default">Cînd ecranul este pornit</string>
     <string name="face_unlock_method_swipe">Când glisați pe ecranul de blocare</string>
+    <string name="dot_battery_manager">Manager baterie</string>
+    <string name="dot_battery_manager_summary1">• Mod economisire baterie : </string>
+    <string name="dot_battery_manager_summary2">\n• Baterie adaptivă: </string>
+    <string name="backup_transport_setting_label">Schimbă furnizorul de backup</string>
+    <string name="backup_transport_title">Selectați furnizorul de backup</string>
+    <string name="battery_stats_reset">Ștergeți datele de utilizare?</string>
+    <string name="battery_stats_message">Datele de utilizare a bateriei vor fi pierdute</string>
+    <string name="legacy_wfd_video_mode_title">Mod Video</string>
+    <string name="legacy_wfd_video_mode_720p_30fps">720p (30fps)</string>
+    <string name="legacy_wfd_video_mode_720p_60fps">720p (60fps)</string>
+    <string name="legacy_wfd_video_mode_1080p_30fps">1080p (30fps)</string>
+    <string name="legacy_wfd_video_mode_1080p_60fps">1080p (60fps)</string>
+    <string name="wake_when_plugged_or_unplugged_title">Trezire la conectare</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Aprinde ecranul la conectare sau deconectare de la sursa de alimentare</string>
+    <string name="screenshot_sound_title">Sunet captură de ecran</string>
 </resources>

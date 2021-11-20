@@ -60,45 +60,48 @@
     <!-- Dot Customization -->
     <string name="dot_customizer_dashboard_title">Customization</string>
     <string name="dot_customizer_dashboard_summary">Personalize your experience with a drop of paint</string>
-    <string name="dot_about_device_info">Legal &amp; Information</string>
-    <string name="dot_about_device_private">Private Details</string>
-    <string name="dot_lightMode">Light Theme</string>
-    <string name="dot_darkMode">Dark Theme</string>
-    <string name="cellular_data_title">Mobile data</string>
+    <!-- Gaming Dashboard -->
+    <string name="dot_gaming_mode_dashboard_title">Gaming Dashboard</string>
+    <string name="dot_gaming_mode_dashboard_summary">Holder deg fokusert på spillet</string>
+    <string name="dot_about_device_info">Juridisk &amp; Informasjon</string>
+    <string name="dot_about_device_private">Private opplysninger</string>
+    <string name="dot_lightMode">Lyst tema</string>
+    <string name="dot_darkMode">Mørkt Tema</string>
+    <string name="cellular_data_title">Mobildata</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
-    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
+    <string name="connected_tws_device_saved_title">Lagrede øretelefoner</string>
     <!-- Mobile network setting screen, summary of Mobile data switch preference when the network
          is unavailable, the preference selection will be disabled. [CHAR LIMIT=NONE] -->
-    <string name="mobile_data_settings_summary_unavailable">No SIM card available</string>
+    <string name="mobile_data_settings_summary_unavailable">SIM-kortet er ikke tilgjengelig</string>
     <!-- Scramble pin -->
-    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
-    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
+    <string name="unlock_scramble_pin_layout_title">Bland layout</string>
+    <string name="unlock_scramble_pin_layout_summary">Endre PIN layout når enheten låses opp</string>
     <!-- statusbar tuner -->
-    <string name="statusbar_tuner_title">Statusbar tuner</string>
+    <string name="statusbar_tuner_title">Statuslinje Trimmer</string>
     <!-- Face Unlock -->
-    <string name="security_settings_face_settings_footer_custom">Face unlock lets you unlock your device by looking at it. Keep in mind:\n\n● Your device may unlock any time you look at it.\n● Your device can be unlocked by someone else if they hold it in front of your face while your eyes are open.\n● Your device may also be unlocked by someone who looks a lot like you, such as a child or identical sibling.</string>
-    <string name="security_settings_face_settings_remove_dialog_details_custom">Data recorded by face unlock will be permanently and securely deleted. After removal, you will need your PIN, pattern, or password to unlock your phone.</string>
-    <string name="security_settings_face_unlock_redo_face_scan_summary">Remove existing face scan and create a new scan</string>
-    <string name="security_settings_face_unlock_redo_face_scan_title">Redo face scan</string>
-    <string name="security_dashboard_summary_face_and_fingerprint">Screen lock, fingerprint, face unlock</string>
-    <string name="face_redo_confirm_btn">Redo</string>
-    <string name="face_redo_warning_msg">Do you want to remove the existing face scan and create a new one?</string>
+    <string name="security_settings_face_settings_footer_custom">Med Ansikt låsing kan du låse opp enheten ved å se på den. Husk:\n\n● Enheten din vil kunne låse opp når du ser på den.\n● Enheten kan bli låst opp av noen andre hvis de holder den foran ansiktet ditt når øynene er åpne.\n● Enheten din kan også være låst opp av noen som ser veldig lik ut som deg, for eksempel et barn eller et identisk søsken.</string>
+    <string name="security_settings_face_settings_remove_dialog_details_custom">Data registrert ved opplåsing av ansikt vil bli permanent og slettet. Etter sletting er det nødvendig med PIN-kode, mønster eller passord for å låse opp telefonen.</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Fjern eksisterende ansikt og legg til et nytt ansikt</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Gjenta ansikt oppsett</string>
+    <string name="security_dashboard_summary_face_and_fingerprint">Skjerm lås, fingeravtrykk, ansikt opplåsning</string>
+    <string name="face_redo_confirm_btn">Gjør på nytt</string>
+    <string name="face_redo_warning_msg">Vil du fjerne eksisterende ansiktsdata og lage en ny?</string>
     <!-- LiveDisplay -->
-    <string name="live_display_summary">Optimize your screen based on time of day and ambient conditions to improve readability and reduce eyestrain</string>
-    <string name="live_display_mode">Display mode</string>
-    <string name="live_display_color_temperature_title">Color temperature</string>
-    <string name="live_display_color_temperature_summary">Day: <xliff:g id="day_temperature">%1$d</xliff:g>K  Night: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
-    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
-    <string name="live_display_day">Day</string>
-    <string name="live_display_night">Night</string>
-    <string name="live_display_outdoor_mode_title">Automatic outdoor mode</string>
-    <string name="live_display_outdoor_mode_summary">Increase brightness and saturation automatically under bright sunlight</string>
-    <string name="live_display_anti_flicker_title">Anti flicker</string>
-    <string name="live_display_anti_flicker_summary">Prevent extensive flickering and reduce eye strain in low light conditions. It might degrade color accuracy and affect the way some items are displayed.</string>
-    <string name="live_display_low_power_title">Reduce power consumption</string>
-    <string name="live_display_low_power_summary">Adjust display for lowest power consumption without degradation</string>
-    <string name="live_display_enhance_color_title">Enhance colors</string>
-    <string name="live_display_enhance_color_summary">Improve color vibrance of flesh tones, scenery, and other images</string>
+    <string name="live_display_summary">Optimaliser skjermen din basert på tid av dagen og omgivende forhold til å hjelpe deg lese og gi mindre øyeplager</string>
+    <string name="live_display_mode">Visningsmodus</string>
+    <string name="live_display_color_temperature_title">Fargetemperatur</string>
+    <string name="live_display_color_temperature_summary">Dag: <xliff:g id="day_temperature">%1$d</xliff:g>K  Natt: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="Grader">%1$d</xliff:g>K</string>
+    <string name="live_display_day">Dag</string>
+    <string name="live_display_night">Natt</string>
+    <string name="live_display_outdoor_mode_title">Automatisk utendørsmodus</string>
+    <string name="live_display_outdoor_mode_summary">Øk lysstyrke og farge styrke automatisk under sterkt sollys</string>
+    <string name="live_display_anti_flicker_title">Anti-flickering</string>
+    <string name="live_display_anti_flicker_summary">Hindre omfattende flickering og redusere øyebelastning ved lite lys. Den kan svekke fargenøyaktigheten og påvirke hvordan noen elementer vises.</string>
+    <string name="live_display_low_power_title">Reduser strømforbruket</string>
+    <string name="live_display_low_power_summary">Justere visningen for laveste strømforbruk uten degradering</string>
+    <string name="live_display_enhance_color_title">Forbedrede Farger</string>
+    <string name="live_display_enhance_color_summary">Forbedre fargefullhet på hudfarger, natur og andre bilder</string>
     <string name="live_display_color_profile_title">Color profile</string>
     <string name="live_display_color_profile_standard_title">Standard</string>
     <string name="live_display_color_profile_standard_summary">Accurate colors and bright whites</string>
@@ -172,6 +175,11 @@
     <string name="top_level_connectivity">Connectivity</string>
     <string name="top_level_personalize">Personalize</string>
     <string name="top_level_others">Others</string>
+    <!-- Back Gestures -->
+    <string name="smallest_tick_label">Off</string>
+    <string name="greatest_tick_label">Half screen</string>
+    <string name="gesture_back_deadzone_label">Dead zone</string>
+    <string name="back_sensitivity_dialog_message_cust">\nUse the first and second seekbar to configure back swipe sensitivity, the last seekbar to set a dead area on top of the screen where the swipe cannot be triggered, to avoid conflicts with in-app gestures.</string>
     <!-- Swipe up for face unlock -->
     <string name="security_settings_face_require_swipe">Swipe up to unlock</string>
     <string name="security_settings_face_require_swipe_summary">Swipe up on the lockscreen to use face unlock</string>
@@ -179,4 +187,24 @@
     <string name="face_unlock_method_title">Allow face unlock on lock screen</string>
     <string name="face_unlock_method_default">When the screen is turned on</string>
     <string name="face_unlock_method_swipe">When swiping on lock screen</string>
+    <string name="dot_battery_manager">Battery Manager</string>
+    <string name="dot_battery_manager_summary1">• Battery Saver : </string>
+    <string name="dot_battery_manager_summary2">\n• Adaptive Battery : </string>
+    <!-- Backup Transport selection settings menu and activity title -->
+    <string name="backup_transport_setting_label">Change backup provider</string>
+    <string name="backup_transport_title">Select backup provider</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Clear usage data?</string>
+    <string name="battery_stats_message">Battery usage data will be lost</string>
+    <!-- Legacy WFD settings -->
+    <string name="legacy_wfd_video_mode_title">Video mode</string>
+    <string name="legacy_wfd_video_mode_720p_30fps">720p (30fps)</string>
+    <string name="legacy_wfd_video_mode_720p_60fps">720p (60fps)</string>
+    <string name="legacy_wfd_video_mode_1080p_30fps">1080p (30fps)</string>
+    <string name="legacy_wfd_video_mode_1080p_60fps">1080p (60fps)</string>
+    <!-- Wake on plug -->
+    <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Turn the screen on when connecting or disconnecting a power source</string>
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Screenshot sound</string>
 </resources>

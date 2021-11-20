@@ -46,6 +46,8 @@
     <string name="binfo_stats">統計情報</string>
     <string name="dot_customizer_dashboard_title">カスタマイズ</string>
     <string name="dot_customizer_dashboard_summary">一滴の絵の具であなたの経験を唯一のものにしましょう</string>
+    <string name="dot_gaming_mode_dashboard_title">ゲームダッシュボード</string>
+    <string name="dot_gaming_mode_dashboard_summary">ゲームの集中の邪魔をブロックする</string>
     <string name="dot_about_device_info">法的情報</string>
     <string name="dot_about_device_private">プライベート詳細</string>
     <string name="dot_lightMode">ライトテーマ</string>
@@ -142,9 +144,28 @@
     <string name="top_level_connectivity">接続</string>
     <string name="top_level_personalize">パーソナライズ</string>
     <string name="top_level_others">その他</string>
+    <string name="smallest_tick_label">OFF</string>
+    <string name="greatest_tick_label">半画面</string>
+    <string name="gesture_back_deadzone_label">非認識範囲</string>
+    <string name="back_sensitivity_dialog_message_cust">\n最初と2番目のシークバーで戻るジェスチャースワイプ感度を編集し、最後のシークバーでスワイプを認識しない画面領域を設定し、アプリ内ジェスチャーとの競合を回避します。</string>
     <string name="security_settings_face_require_swipe">上にスワイプしてロック解除</string>
     <string name="security_settings_face_require_swipe_summary">ロック画面を上にスワイプして顔認識を使用する</string>
     <string name="face_unlock_method_title">ロック画面での顔認証ロック解除を許可</string>
     <string name="face_unlock_method_default">画面が点灯した時</string>
     <string name="face_unlock_method_swipe">ロック画面をスワイプした時</string>
+    <string name="dot_battery_manager">バッテリー管理</string>
+    <string name="dot_battery_manager_summary1">• バッテリー節約 : </string>
+    <string name="dot_battery_manager_summary2">\n• 自動調整バッテリー : </string>
+    <string name="backup_transport_setting_label">バックアッププロバイダの変更</string>
+    <string name="backup_transport_title">バックアッププロバイダの選択</string>
+    <string name="battery_stats_reset">統計データを消去しますか?</string>
+    <string name="battery_stats_message">バッテリーの使用統計はリセットされます</string>
+    <string name="legacy_wfd_video_mode_title">ビデオモード</string>
+    <string name="legacy_wfd_video_mode_720p_30fps">720p (30fps)</string>
+    <string name="legacy_wfd_video_mode_720p_60fps">720p (60fps)</string>
+    <string name="legacy_wfd_video_mode_1080p_30fps">1080p (30fps)</string>
+    <string name="legacy_wfd_video_mode_1080p_60fps">1080p (60fps)</string>
+    <string name="wake_when_plugged_or_unplugged_title">電源接続時にスリープ解除</string>
+    <string name="wake_when_plugged_or_unplugged_summary">電源を接続または切断した時に画面を点灯させる</string>
+    <string name="screenshot_sound_title">スクリーンショットの音</string>
 </resources>

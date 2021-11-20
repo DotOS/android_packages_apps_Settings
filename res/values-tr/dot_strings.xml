@@ -46,6 +46,8 @@
     <string name="binfo_stats">İstatistikler</string>
     <string name="dot_customizer_dashboard_title">Özelleştirmeler</string>
     <string name="dot_customizer_dashboard_summary">Deneyiminizi bir damla boya ile kişiselleştirin</string>
+    <string name="dot_gaming_mode_dashboard_title">Oyun paneli</string>
+    <string name="dot_gaming_mode_dashboard_summary">Oyuna odaklanmanızı sağlar</string>
     <string name="dot_about_device_info">Yasal &amp; Bilgiler</string>
     <string name="dot_about_device_private">Özel ayrıntılar</string>
     <string name="dot_lightMode">Açık tema</string>
@@ -142,9 +144,28 @@
     <string name="top_level_connectivity">Bağlantılar</string>
     <string name="top_level_personalize">Kişiselleştirme</string>
     <string name="top_level_others">Diğer</string>
+    <string name="smallest_tick_label">Kapalı</string>
+    <string name="greatest_tick_label">Yarım ekran</string>
+    <string name="gesture_back_deadzone_label">Etkisiz alan</string>
+    <string name="back_sensitivity_dialog_message_cust">\nGeri kaydırma hassasiyetini yapılandırmak için ilk arama çubuğunu, uygulama içi hareketlerle çakışmaları önlemek üzere ekranın kaydırmanın tetiklenebileceği alanını ayarlamak için ikinci arama çubuğunu kullanın.</string>
     <string name="security_settings_face_require_swipe">Kilidi açmak için yukarı kaydırın</string>
     <string name="security_settings_face_require_swipe_summary">Yüz tanıma kilidini kullanmak için kilit ekranında yukarı kaydırın</string>
     <string name="face_unlock_method_title">Kilit ekranında yüz kilidini açmaya izin ver</string>
     <string name="face_unlock_method_default">Ekran açıldığında</string>
     <string name="face_unlock_method_swipe">Kilit ekranında kaydırırken</string>
+    <string name="dot_battery_manager">Pil Yöneticisi</string>
+    <string name="dot_battery_manager_summary1">• Pil Tasarrufu : </string>
+    <string name="dot_battery_manager_summary2">\n• Uyarlanabilir Pil : </string>
+    <string name="backup_transport_setting_label">Yedekleme sağlayıcısını değiştir</string>
+    <string name="backup_transport_title">Yedekleme sağlayıcı seçin</string>
+    <string name="battery_stats_reset">Kullanım verileri temizlensin mi?</string>
+    <string name="battery_stats_message">Pil kullanım verileri kaybolacak</string>
+    <string name="legacy_wfd_video_mode_title">Video modu</string>
+    <string name="legacy_wfd_video_mode_720p_30fps">720p (30fps)</string>
+    <string name="legacy_wfd_video_mode_720p_60fps">720p (60fps)</string>
+    <string name="legacy_wfd_video_mode_1080p_30fps">1080p (30fps)</string>
+    <string name="legacy_wfd_video_mode_1080p_60fps">1080p (60fps)</string>
+    <string name="wake_when_plugged_or_unplugged_title">Takıp çıkarmada uyan</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Şarj aleti takıldığında ya da çıkarıldığında ekranı aç</string>
+    <string name="screenshot_sound_title">Ekran görüntüsü sesi</string>
 </resources>

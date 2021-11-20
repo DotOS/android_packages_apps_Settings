@@ -46,6 +46,8 @@
     <string name="binfo_stats">Statisztika</string>
     <string name="dot_customizer_dashboard_title">Testreszabás</string>
     <string name="dot_customizer_dashboard_summary">Mindent személyre szabhat\"egy csepp festékkel\"</string>
+    <string name="dot_gaming_mode_dashboard_title">Játék-vezérlőpult</string>
+    <string name="dot_gaming_mode_dashboard_summary">A játékra összpontosít</string>
     <string name="dot_about_device_info">Jogi információk</string>
     <string name="dot_about_device_private">Privát részletel</string>
     <string name="dot_lightMode">Világos téma</string>
@@ -142,9 +144,28 @@
     <string name="top_level_connectivity">Összekapcsolhatóság</string>
     <string name="top_level_personalize">Személyre szabás</string>
     <string name="top_level_others">Egyebek</string>
+    <string name="smallest_tick_label">Ki</string>
+    <string name="greatest_tick_label">Félképernyő</string>
+    <string name="gesture_back_deadzone_label">Holt terület</string>
+    <string name="back_sensitivity_dialog_message_cust">\nAz első és a második keresősáv segítségével konfigurálhatja a visszacsúsztatás érzékenységét, az utolsó keresősáv pedig egy olyan holt területet állít be a képernyő tetejére, ahol a húzás nem indítható el, hogy elkerülje az alkalmazáson belüli gesztusokkal való ütközést.</string>
     <string name="security_settings_face_require_swipe">Feloldás felfelé csúsztatással</string>
     <string name="security_settings_face_require_swipe_summary">Csúsztasson felfelé a záróképernyőn az arcalapú feloldás használatához</string>
     <string name="face_unlock_method_title">Arcalapú feloldás a záróképernyőn</string>
     <string name="face_unlock_method_default">Ha a képernyő be van kapcsolva</string>
     <string name="face_unlock_method_swipe">Ha csúsztatja a záróképernyőt</string>
+    <string name="dot_battery_manager">Akkumulátorkezelő</string>
+    <string name="dot_battery_manager_summary1">• Akkukímélő : </string>
+    <string name="dot_battery_manager_summary2">\n• Alkalmazkodó akku : </string>
+    <string name="backup_transport_setting_label">Mentésiszolgáltatás-változtató</string>
+    <string name="backup_transport_title">Válasszon mentési-szolgáltatást</string>
+    <string name="battery_stats_reset">Törli a használati adatokat?</string>
+    <string name="battery_stats_message">Az akkuhasználati adatok elvesznek</string>
+    <string name="legacy_wfd_video_mode_title">Videómód</string>
+    <string name="legacy_wfd_video_mode_720p_30fps">720p (30fps)</string>
+    <string name="legacy_wfd_video_mode_720p_60fps">720p (60fps)</string>
+    <string name="legacy_wfd_video_mode_1080p_30fps">1080p (30fps)</string>
+    <string name="legacy_wfd_video_mode_1080p_60fps">1080p (60fps)</string>
+    <string name="wake_when_plugged_or_unplugged_title">Képenyőébredés töltésre</string>
+    <string name="wake_when_plugged_or_unplugged_summary">A töltő csatlakoztatása vagy eltávolítása után bekapcsolódik a képernyő</string>
+    <string name="screenshot_sound_title">Képernyőmentési hang</string>
 </resources>

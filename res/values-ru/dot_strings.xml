@@ -46,6 +46,8 @@
     <string name="binfo_stats">Статистика</string>
     <string name="dot_customizer_dashboard_title">Настройка внешнего вида</string>
     <string name="dot_customizer_dashboard_summary">Усовершенствуйте свой опыт с помощью капли краски</string>
+    <string name="dot_gaming_mode_dashboard_title">Игровая панель инструментов</string>
+    <string name="dot_gaming_mode_dashboard_summary">Держать вас фокусированным на игре</string>
     <string name="dot_about_device_info">Юридическая информация</string>
     <string name="dot_about_device_private">Личные данные</string>
     <string name="dot_lightMode">Светлая тема</string>
@@ -142,9 +144,28 @@
     <string name="top_level_connectivity">Подключение</string>
     <string name="top_level_personalize">Персонализация</string>
     <string name="top_level_others">Другое</string>
+    <string name="smallest_tick_label">Выключено</string>
+    <string name="greatest_tick_label">В пол-экрана</string>
+    <string name="gesture_back_deadzone_label">Мертвая зона</string>
+    <string name="back_sensitivity_dialog_message_cust">\nИспользуйте первую и вторую панель, чтобы настроить чувствительность жеста назад, последнюю панель чтобы установить мертвую зону в верхней части экрана, где свайп не может быть запущен, чтобы избежать конфликтов с жестами в приложении.</string>
     <string name="security_settings_face_require_swipe">Проведите вверх чтобы разблокировать</string>
     <string name="security_settings_face_require_swipe_summary">Проведите вверх по экрану блокировки, чтобы использовать разблокировку по лицу</string>
     <string name="face_unlock_method_title">Разрешить разблокировку лицом на экране блокировки</string>
     <string name="face_unlock_method_default">Когда экран включен</string>
     <string name="face_unlock_method_swipe">При свайпе на экране блокировки</string>
+    <string name="dot_battery_manager">Менеджер Батареи</string>
+    <string name="dot_battery_manager_summary1">• Энергосбережение : </string>
+    <string name="dot_battery_manager_summary2">\n• Адаптивное Энергосбережение : </string>
+    <string name="backup_transport_setting_label">Сменить поставщика резервного копирования</string>
+    <string name="backup_transport_title">Выберите поставщика резервного копирования</string>
+    <string name="battery_stats_reset">Очистить данные об использовании?</string>
+    <string name="battery_stats_message">Данные об использовании батареи будут потеряны</string>
+    <string name="legacy_wfd_video_mode_title">Видео режим</string>
+    <string name="legacy_wfd_video_mode_720p_30fps">720p (30fps)</string>
+    <string name="legacy_wfd_video_mode_720p_60fps">720p (60fps)</string>
+    <string name="legacy_wfd_video_mode_1080p_30fps">1080p (30fps)</string>
+    <string name="legacy_wfd_video_mode_1080p_60fps">1080p (60fps)</string>
+    <string name="wake_when_plugged_or_unplugged_title">Пробуждение при подключении</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Включение экрана при подключении или отключении зарядного устройства</string>
+    <string name="screenshot_sound_title">Звук снимка экрана</string>
 </resources>

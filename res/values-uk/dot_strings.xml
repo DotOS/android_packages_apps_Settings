@@ -46,6 +46,8 @@
     <string name="binfo_stats">Статистика</string>
     <string name="dot_customizer_dashboard_title">Кастомізація</string>
     <string name="dot_customizer_dashboard_summary">Налаштуйте свій досвід за допомогою краплі фарби</string>
+    <string name="dot_gaming_mode_dashboard_title">Панель ігрова</string>
+    <string name="dot_gaming_mode_dashboard_summary">Тримати фокус на грі</string>
     <string name="dot_about_device_info">Юридична &amp; інформація</string>
     <string name="dot_about_device_private">Особисті дані</string>
     <string name="dot_lightMode">Світла тема</string>
@@ -143,9 +145,28 @@
     <string name="top_level_connectivity">Підключення</string>
     <string name="top_level_personalize">Персоналізація</string>
     <string name="top_level_others">Інше</string>
+    <string name="smallest_tick_label">Вимкнено</string>
+    <string name="greatest_tick_label">Половина екрана</string>
+    <string name="gesture_back_deadzone_label">Мертва зона</string>
+    <string name="back_sensitivity_dialog_message_cust">\nВикористовувати перший і другий пошуковий рядок для налаштування чутливості назад, остання пошукова панель, яка має замертвілу області поверх екрану, де не можна використовувати свайп, щоб уникнути конфліктів з жестами у програмах.</string>
     <string name="security_settings_face_require_swipe">Проведіть пальцем угору, щоб розблокувати</string>
     <string name="security_settings_face_require_swipe_summary">Проведіть вгору на екрані блокування, щоб використовувати розблокування обличчям</string>
     <string name="face_unlock_method_title">Дозволити розблокування обличчям на екрані блокування</string>
     <string name="face_unlock_method_default">Коли екран увімкнено</string>
     <string name="face_unlock_method_swipe">При проведенні пальцем на екрані блокування</string>
+    <string name="dot_battery_manager">Диспетчер батареї</string>
+    <string name="dot_battery_manager_summary1">Економія заряду</string>
+    <string name="dot_battery_manager_summary2">Адаптивна батарея</string>
+    <string name="backup_transport_setting_label">Змінити провайдера резервного копіювання</string>
+    <string name="backup_transport_title">Виберіть провайдера резервного копіювання</string>
+    <string name="battery_stats_reset">Очистити дані використання? </string>
+    <string name="battery_stats_message">Історія використання батареї скинута </string>
+    <string name="legacy_wfd_video_mode_title">Режим \"відео\"</string>
+    <string name="legacy_wfd_video_mode_720p_30fps">720p (30fps)</string>
+    <string name="legacy_wfd_video_mode_720p_60fps">720p (60fps)</string>
+    <string name="legacy_wfd_video_mode_1080p_30fps">1080p (30fps)</string>
+    <string name="legacy_wfd_video_mode_1080p_60fps">1080p (60fps)</string>
+    <string name="wake_when_plugged_or_unplugged_title">Будити при відключенні</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Ввікнути екран під час підключення чи відключення зарядного пристрою</string>
+    <string name="screenshot_sound_title">Звук знімка екрану</string>
 </resources>

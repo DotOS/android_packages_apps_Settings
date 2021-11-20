@@ -46,6 +46,8 @@
     <string name="binfo_stats">Statistiques</string>
     <string name="dot_customizer_dashboard_title">Personnalisation</string>
     <string name="dot_customizer_dashboard_summary">Personnalisez votre expérience avec une goutte de peinture</string>
+    <string name="dot_gaming_mode_dashboard_title">Tableau de bord de jeu</string>
+    <string name="dot_gaming_mode_dashboard_summary">Vous permet de rester concentré sur le jeu</string>
     <string name="dot_about_device_info">Mentions légales &amp; Informations</string>
     <string name="dot_about_device_private">A propos du téléphone</string>
     <string name="dot_lightMode">Thème clair</string>
@@ -142,9 +144,28 @@
     <string name="top_level_connectivity">Connectivité</string>
     <string name="top_level_personalize">Personnaliser</string>
     <string name="top_level_others">Autres</string>
+    <string name="smallest_tick_label">Désactivé</string>
+    <string name="greatest_tick_label">Moitié de l\'écran</string>
+    <string name="gesture_back_deadzone_label">Zone morte</string>
+    <string name="back_sensitivity_dialog_message_cust">\nUtiliser la première et la deuxième barre de recherche pour configurer la sensibilité du retour arrière, la dernière barre de recherche pour définir une zone morte en haut de l\'écran où le balayage ne peut pas être déclenché, pour éviter les conflits avec les gestes des l\'applications.</string>
     <string name="security_settings_face_require_swipe">Glisser vers le haut pour déverrouiller</string>
     <string name="security_settings_face_require_swipe_summary">Glisser vers le haut sur l\'écran de verrouillage pour utiliser le déverrouillage facial</string>
     <string name="face_unlock_method_title">Autoriser la reconnaissance faciale sur l\'écran de verrouillage</string>
     <string name="face_unlock_method_default">Quand l\'écran est allumé</string>
     <string name="face_unlock_method_swipe">En faisant glisser sur l\'écran de verrouillage</string>
+    <string name="dot_battery_manager">Gestionnaire de batterie</string>
+    <string name="dot_battery_manager_summary1">• Économiseur de batterie : </string>
+    <string name="dot_battery_manager_summary2">\n• Batterie adaptative : </string>
+    <string name="backup_transport_setting_label">Modifier le fournisseur de sauvegarde</string>
+    <string name="backup_transport_title">Sélectionner un fournisseur de sauvegarde</string>
+    <string name="battery_stats_reset">Effacer les données d\'utilisation ?</string>
+    <string name="battery_stats_message">Les données d\'utilisation de la batterie seront perdues</string>
+    <string name="legacy_wfd_video_mode_title">Mode Vidéo</string>
+    <string name="legacy_wfd_video_mode_720p_30fps">720p (30fps)</string>
+    <string name="legacy_wfd_video_mode_720p_60fps">720p (60fps)</string>
+    <string name="legacy_wfd_video_mode_1080p_30fps">1080p (30fps)</string>
+    <string name="legacy_wfd_video_mode_1080p_60fps">1080p (60fps)</string>
+    <string name="wake_when_plugged_or_unplugged_title">Réveiller lors d\'un branchement</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Allume l\'écran lorsque l\'appareil est connecté/déconnecté d\'une source d\'alimentation</string>
+    <string name="screenshot_sound_title">Son de capture d\'écran</string>
 </resources>

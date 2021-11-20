@@ -46,6 +46,8 @@
     <string name="binfo_stats">Estadísticas</string>
     <string name="dot_customizer_dashboard_title">Personalización</string>
     <string name="dot_customizer_dashboard_summary">Personaliza tu experiencia con una gota de pintura</string>
+    <string name="dot_gaming_mode_dashboard_title">Tablero de juegos</string>
+    <string name="dot_gaming_mode_dashboard_summary">Te mantiene centrado en el juego</string>
     <string name="dot_about_device_info">Información legal</string>
     <string name="dot_about_device_private">Detalles privados</string>
     <string name="dot_lightMode">Tema Claro</string>
@@ -142,9 +144,28 @@
     <string name="top_level_connectivity">Conectividad</string>
     <string name="top_level_personalize">Personalizar</string>
     <string name="top_level_others">Otros</string>
+    <string name="smallest_tick_label">Apagado</string>
+    <string name="greatest_tick_label">Media pantalla</string>
+    <string name="gesture_back_deadzone_label">Zona muerta</string>
+    <string name="back_sensitivity_dialog_message_cust">\nUsa la primera y la segunda barra para configurar la sensibilidad del deslizamiento hacia atrás, la última barra para establecer un área muerta en la parte superior de la pantalla dónde no se puede activar el deslizamiento, para evitar conflictos con los gestos dentro de la aplicación.</string>
     <string name="security_settings_face_require_swipe">Deslice hacia arriba para desbloquear</string>
     <string name="security_settings_face_require_swipe_summary">Deslizar hacia arriba en la pantalla de bloqueo para usar el desbloqueo facial</string>
     <string name="face_unlock_method_title">Permitir desbloqueo facial en la pantalla de bloqueo</string>
     <string name="face_unlock_method_default">Cuando la pantalla está encendida</string>
     <string name="face_unlock_method_swipe">Al deslizar en la pantalla de bloqueo</string>
+    <string name="dot_battery_manager">Administrador de Batería</string>
+    <string name="dot_battery_manager_summary1">• Ahorro de batería : </string>
+    <string name="dot_battery_manager_summary2">\n• Batería adaptativa : </string>
+    <string name="backup_transport_setting_label">Cambiar proveedor de la copia de seguridad</string>
+    <string name="backup_transport_title">Seleccionar proveedor de la copia de seguridad</string>
+    <string name="battery_stats_reset">¿Borrar datos de uso?</string>
+    <string name="battery_stats_message">Se perderán los datos de uso de la batería</string>
+    <string name="legacy_wfd_video_mode_title">Modo vídeo</string>
+    <string name="legacy_wfd_video_mode_720p_30fps">720p (30fps)</string>
+    <string name="legacy_wfd_video_mode_720p_60fps">72p (60fps)</string>
+    <string name="legacy_wfd_video_mode_1080p_30fps">1080p (30fps)</string>
+    <string name="legacy_wfd_video_mode_1080p_60fps">1080p (60fps)</string>
+    <string name="wake_when_plugged_or_unplugged_title">Despertar al conectar</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Encender la pantalla cuando conecte o desconecte una fuente de energía</string>
+    <string name="screenshot_sound_title">Sonido de captura de pantalla</string>
 </resources>
