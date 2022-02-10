@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright (C) The 2022 dotOS Project
+   Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+         http://www.apache.org/licenses/LICENSE-2.0
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="196.58537dp"
+    android:viewportWidth="410"
+    android:viewportHeight="403">
+    <path
+        android:fillColor="@color/dot_shapeColor"
+        android:pathData="M343.5,0.5C379.95,0.5 409.5,30.05 409.5,66.5L409.5,226.5C409.5,323.7 330.7,402.5 233.5,402.5L66.5,402.5C30.05,402.5 0.5,372.95 0.5,336.5L0.5,176.5C0.5,79.3 79.3,0.5 176.5,0.5L343.5,0.5Z" />
+</vector>
