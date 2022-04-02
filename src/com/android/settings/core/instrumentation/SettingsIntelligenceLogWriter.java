@@ -36,6 +36,8 @@ import com.android.settings.intelligence.LogProto.SettingsLog;
 import com.android.settings.overlay.FeatureFactory;
 import com.android.settingslib.core.instrumentation.LogWriter;
 
+import com.android.internal.util.dot.DotUtils;
+
 import java.io.ByteArrayOutputStream;
 import java.io.DataOutputStream;
 import java.time.ZoneId;
@@ -185,12 +187,17 @@ public class SettingsIntelligenceLogWriter implements LogWriter {
             Log.e(TAG, "context is null");
             return;
         }
-        final String action = context.getString(R.string
+        String action = context.getString(R.string
                 .config_settingsintelligence_log_action);
         if (!TextUtils.isEmpty(action) && !mSettingsLogList.isEmpty()) {
             final Intent intent = new Intent();
-            intent.setPackage(context.getString(R.string
-                    .config_settingsintelligence_package_name));
+            String packageTarget = context.getString(R.string
+                    .config_settingsintelligence_package_name);
+            if (!DotUtils.isAppInstalled(context, packageTarget)) {
+                action = "";
+                packageTarget = "com.android.settings.intelligence";
+            }
+            intent.setPackage(packageTarget);
             intent.setAction(action);
             intent.putExtra(LOG, serialize(mSettingsLogList));
             context.sendBroadcastAsUser(intent, UserHandle.CURRENT);

@@ -38,6 +38,8 @@ import com.android.settings.activityembedding.ActivityEmbeddingRulesController;
 import com.android.settings.overlay.FeatureFactory;
 import com.android.settingslib.search.SearchIndexableResources;
 
+import com.android.internal.util.dot.DotUtils;
+
 import com.google.android.setupcompat.util.WizardManagerHelper;
 
 import java.util.List;
@@ -68,7 +70,11 @@ public interface SearchFeatureProvider {
      * @return a package name of settings intelligence.
      */
     default String getSettingsIntelligencePkgName(Context context) {
-        return context.getString(R.string.config_settingsintelligence_package_name);
+        if (!DotUtils.isAppInstalled(context, 
+            context.getString(R.string.config_settingsintelligence_package_name))) {
+            return "com.android.settings.intelligence";
+        } else
+            return context.getString(R.string.config_settingsintelligence_package_name);
     }
 
     /**

@@ -37,6 +37,8 @@ import com.android.settings.search.SearchFeatureProvider;
 import com.android.settingslib.core.lifecycle.LifecycleObserver;
 import com.android.settingslib.core.lifecycle.events.OnCreateOptionsMenu;
 
+import com.android.internal.util.dot.DotUtils;
+
 import com.google.android.setupcompat.util.WizardManagerHelper;
 
 public class SearchMenuController implements LifecycleObserver, OnCreateOptionsMenu {
@@ -65,8 +67,12 @@ public class SearchMenuController implements LifecycleObserver, OnCreateOptionsM
     @Override
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
         final Activity activity = mHost.getActivity();
-        final String SettingsIntelligencePkgName = activity.getString(
+        String SettingsIntelligencePkgName = activity.getString(
                 R.string.config_settingsintelligence_package_name);
+        if (!DotUtils.isAppInstalled(activity, 
+            activity.getString(R.string.config_settingsintelligence_package_name))) {
+            SettingsIntelligencePkgName = "com.android.settings.intelligence";
+        }
         if (!WizardManagerHelper.isDeviceProvisioned(activity)
                 || WizardManagerHelper.isAnySetupWizard(activity.getIntent())) {
             return;

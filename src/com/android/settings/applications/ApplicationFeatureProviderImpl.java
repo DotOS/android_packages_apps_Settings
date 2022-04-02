@@ -40,6 +40,7 @@ import android.util.Log;
 import androidx.annotation.VisibleForTesting;
 
 import com.android.internal.telephony.SmsApplication;
+import com.android.internal.util.dot.DotUtils;
 import com.android.settings.R;
 
 import java.util.ArrayList;
@@ -174,9 +175,13 @@ public class ApplicationFeatureProviderImpl implements ApplicationFeatureProvide
         final Set<String> keepEnabledPackages = new ArraySet<>();
 
         // Keep Settings intelligence enabled, otherwise search feature will be disabled.
-        keepEnabledPackages.add(
+        if (!DotUtils.isAppInstalled(mContext, 
+            mContext.getString(R.string.config_settingsintelligence_package_name))) {
+            keepEnabledPackages.add("com.android.settings.intelligence");
+        } else {
+            keepEnabledPackages.add(
                 mContext.getString(R.string.config_settingsintelligence_package_name));
-
+        }
         // Keep Package Installer enabled.
         keepEnabledPackages.add(mContext.getString(R.string.config_package_installer_package_name));
 

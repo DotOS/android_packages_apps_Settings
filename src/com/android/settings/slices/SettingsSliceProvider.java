@@ -53,6 +53,8 @@ import com.android.settings.overlay.FeatureFactory;
 import com.android.settingslib.SliceBroadcastRelay;
 import com.android.settingslib.utils.ThreadUtils;
 
+import com.android.internal.util.dot.DotUtils;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
@@ -472,8 +474,14 @@ public class SettingsSliceProvider extends SliceProvider {
                     callingUid) == PackageManager.PERMISSION_GRANTED;
             final String callingPackage = getContext().getPackageManager()
                     .getPackagesForUid(callingUid)[0];
-            return hasPermission && TextUtils.equals(callingPackage,
-                    getContext().getString(R.string.config_settingsintelligence_package_name));
+            String targetPackage = "";
+            if (!DotUtils.isAppInstalled(getContext(), 
+                getContext().getString(R.string.config_settingsintelligence_package_name))) {
+                targetPackage = "com.android.settings.intelligence";
+            } else {
+                targetPackage = getContext().getString(R.string.config_settingsintelligence_package_name);
+            }
+            return hasPermission && TextUtils.equals(callingPackage, targetPackage);
         }
         return false;
     }

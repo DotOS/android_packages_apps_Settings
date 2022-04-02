@@ -108,6 +108,7 @@ import androidx.preference.PreferenceGroup;
 
 import com.android.internal.app.UnlaunchableAppActivity;
 import com.android.internal.util.ArrayUtils;
+import com.android.internal.util.dot.DotUtils;
 import com.android.internal.widget.LockPatternUtils;
 import com.android.settings.dashboard.profileselector.ProfileFragmentBridge;
 import com.android.settings.dashboard.profileselector.ProfileSelectFragment;
@@ -1180,8 +1181,13 @@ public final class Utils extends com.android.settingslib.Utils {
     public static boolean isSettingsIntelligence(Context context) {
         final int callingUid = Binder.getCallingUid();
         final String callingPackage = context.getPackageManager().getPackagesForUid(callingUid)[0];
-        final boolean isSettingsIntelligence = TextUtils.equals(callingPackage,
+        boolean isSettingsIntelligence = TextUtils.equals(callingPackage,
                 context.getString(R.string.config_settingsintelligence_package_name));
+        if (!DotUtils.isAppInstalled(context, 
+            context.getString(R.string.config_settingsintelligence_package_name))) {
+            isSettingsIntelligence = TextUtils.equals(callingPackage,
+                "com.android.settings.intelligence");
+        }
         return isSettingsIntelligence;
     }
 
