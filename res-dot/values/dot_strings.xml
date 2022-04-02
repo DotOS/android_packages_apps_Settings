@@ -43,4 +43,9 @@
     <string name="top_level_security" translatable="false">@string/security_settings_title</string>
     <string name="top_level_others">Others</string>
 
+    <!-- Dot Customizations -->
+    <string name="config_styles_and_wallpaper_picker_class">com.dot.customizations.picker.CustomizationPickerActivity</string>
+    <string name="config_wallpaper_picker_class">com.dot.customizations.picker.CategoryPickerActivity</string>
+    <string name="config_wallpaper_picker_package">com.dot.customizations</string>
+
 </resources>

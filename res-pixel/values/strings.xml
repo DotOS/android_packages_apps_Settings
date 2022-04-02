@@ -193,9 +193,6 @@ Once it resets, go through the setup process and choose to bring your data from 
     <string name="config_rtt_setting_package_name">com.google.android.dialer</string>
     <string name="config_settingsintelligence_log_action">com.google.android.settings.intelligence.LOG_BRIDGE</string>
     <string name="config_settingsintelligence_package_name">com.google.android.settings.intelligence</string>
-    <string name="config_styles_and_wallpaper_picker_class">com.android.customization.picker.CustomizationPickerActivity</string>
-    <string name="config_wallpaper_picker_class">com.google.android.apps.wallpaper.picker.CategoryPickerActivity</string>
-    <string name="config_wallpaper_picker_package">com.google.android.apps.wallpaper</string>
     <string name="connectivity_helper_call_quality_category">Call quality</string>
     <string name="connectivity_helper_call_quality_summary">Get notified about causes of connection issues during calls</string>
     <string name="connectivity_helper_call_quality_title">Get notifications</string>
