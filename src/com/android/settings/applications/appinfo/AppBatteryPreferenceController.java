@@ -108,7 +108,10 @@ public class AppBatteryPreferenceController extends BasePreferenceController
         super.displayPreference(screen);
         mPreference = screen.findPreference(getPreferenceKey());
         mPreference.setEnabled(false);
-        loadBatteryDiffEntries();
+        if (com.android.internal.util.dot.DotUtils.isAppInstalled(mContext, 
+            mContext.getString(R.string.config_settingsintelligence_package_name))) {
+            loadBatteryDiffEntries();
+        }
     }
 
     @Override
