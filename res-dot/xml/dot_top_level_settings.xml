@@ -71,13 +71,25 @@
         settings:enabled="false" />
 
     <Preference
+        android:key="top_level_customizer"
+        android:order="-160"
+        android:summary="@string/dot_customizer_dashboard_summary"
+        android:title="@string/dot_customizer_dashboard_title"
+        settings:layout="@layout/dot_dashboard_preference_top">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.dot.customizations.picker.CustomizationPickerActivity"
+            android:targetPackage="com.dot.customizations" />
+    </Preference>
+
+    <Preference
         android:key="top_level_display"
         android:order="-109"
         android:summary="@string/display_dashboard_summary"
         android:title="@string/display_settings"
         android:fragment="com.android.settings.DisplaySettings"
         settings:controller="com.android.settings.display.TopLevelDisplayPreferenceController"
-        settings:layout="@layout/dot_dashboard_preference_top"/>
+        settings:layout="@layout/dot_dashboard_preference_middle"/>
     
     <Preference
         android:key="top_level_sound"

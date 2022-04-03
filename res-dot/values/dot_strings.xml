@@ -44,6 +44,9 @@
     <string name="top_level_others">Others</string>
 
     <!-- Dot Customizations -->
+    <string name="dot_customizer_dashboard_title">Customizations</string>
+    <string name="dot_customizer_dashboard_summary">Personalize your experience with a drop of paint</string>
+
     <string name="config_styles_and_wallpaper_picker_class">com.dot.customizations.picker.CustomizationPickerActivity</string>
     <string name="config_wallpaper_picker_class">com.dot.customizations.picker.CategoryPickerActivity</string>
     <string name="config_wallpaper_picker_package">com.dot.customizations</string>
