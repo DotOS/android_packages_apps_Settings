@@ -47,7 +47,6 @@
             android:layout_below="@android:id/title"
             android:layout_alignStart="@android:id/title"
             android:layout_marginTop="4dp"
-            android:singleLine="true"
             style="@style/dotTextSecondary" />
 
     </RelativeLayout>
