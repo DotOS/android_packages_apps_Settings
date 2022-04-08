@@ -35,8 +35,10 @@
         android:title="@string/dot_dashboard_updates"
         android:summary="@string/dot_updates_status_updated"
         settings:layout="@layout/dot_dashboard_preference_bottom"
-        settings:controller="com.dot.settings.SystemUpdatesPreferenceController"/>
-
+        settings:keywords="@string/keywords_system_update_settings"
+        settings:controller="com.android.settings.system.SystemUpdatePreferenceController">
+        <intent android:action="android.settings.SYSTEM_UPDATE_SETTINGS"/>/>
+    </Preference>
 
     <PreferenceCategory
         android:order="-200"
