@@ -26,8 +26,27 @@
         android:layout_height="wrap_content"
         android:minHeight="?android:attr/listPreferredItemHeightSmall"
         android:gravity="center_vertical"
+        android:paddingStart="18dp"
         android:clipToPadding="false"
         android:baselineAligned="false">
+
+     <LinearLayout
+          android:id="@android:id/icon_frame"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:orientation="horizontal"
+          android:paddingTop="4dp"
+          android:paddingBottom="4dp">
+
+          <com.android.internal.widget.PreferenceImageView
+               android:id="@android:id/icon"
+               android:tint="@color/dot_background3"
+               android:layout_width="24dp"
+               android:layout_height="24dp"
+               android:adjustViewBounds="true"
+               android:scaleType="fitCenter" />
+     </LinearLayout>
 
      <RelativeLayout
           android:layout_width="wrap_content"
