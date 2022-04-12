@@ -82,12 +82,8 @@
         android:icon="@drawable/ic_settings_wallpaper_white"
         android:summary="@string/dot_customizer_dashboard_summary"
         android:title="@string/dot_customizer_dashboard_title"
-        settings:layout="@layout/dot_dashboard_preference_top">
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:targetClass="com.dot.customizations.picker.CustomizationPickerActivity"
-            android:targetPackage="com.dot.customizations" />
-    </Preference>
+        settings:controller="com.android.settings.display.TopLevelWallpaperPreferenceController"
+        settings:layout="@layout/dot_dashboard_preference_top" />
 
     <Preference
         android:key="top_level_display"

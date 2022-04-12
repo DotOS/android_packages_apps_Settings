@@ -96,7 +96,7 @@ public class TopLevelWallpaperPreferenceController extends BasePreferenceControl
 
     @Override
     public void updateState(Preference preference) {
-        disablePreferenceIfManaged((RestrictedTopLevelPreference) preference);
+
     }
 
     @Override
@@ -126,19 +126,5 @@ public class TopLevelWallpaperPreferenceController extends BasePreferenceControl
         final Intent intent = new Intent().setComponent(componentName);
         final List<ResolveInfo> resolveInfos = pm.queryIntentActivities(intent, 0 /* flags */);
         return resolveInfos != null && !resolveInfos.isEmpty();
-    }
-
-    private void disablePreferenceIfManaged(RestrictedTopLevelPreference pref) {
-        final String restriction = DISALLOW_SET_WALLPAPER;
-        if (pref != null) {
-            pref.setDisabledByAdmin(null);
-            if (RestrictedLockUtilsInternal.hasBaseUserRestriction(mContext,
-                    restriction, UserHandle.myUserId())) {
-                // Do not show the admin dialog for system restriction.
-                pref.setEnabled(false);
-            } else {
-                pref.checkRestrictionAndSetDisabled(restriction);
-            }
-        }
     }
 }
