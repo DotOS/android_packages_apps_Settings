@@ -25,6 +25,7 @@ import android.content.Context;
 import android.content.res.Configuration;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.os.SystemProperties;
 import android.text.TextUtils;
 import android.util.Log;
 
@@ -180,6 +181,11 @@ public class TopLevelSettings extends DashboardFragment implements
                 pref.getLayoutResource() != R.layout.dot_dashboard_preference_phone && 
                 pref.getLayoutResource() != R.layout.dot_dashboard_preference_bottom) {
                 pref.setLayoutResource(R.layout.dot_dashboard_preference_middle);
+            }
+            if (pref.getKey() != null && pref.getKey().equals("top_level_system_updates")) {
+                String releaseType = SystemProperties.get("ro.dot.releasetype");
+                boolean isOfficial = releaseType.equals("GAPPS") || releaseType.equals("OFFICIAL");
+                pref.setEnabled(isOfficial);
             }
         }
         if (screen == null) {
